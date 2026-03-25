@@ -3,276 +3,445 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Star Wars Life Sim — Dice Roller</title>
+<title>Star Wars Life Sim — Joren Sho Dice Roller</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a0a12;color:#c8c8d0;min-height:100vh;display:flex;justify-content:center;padding:1.5rem}
-.wrap{max-width:600px;width:100%}
-h1{text-align:center;font-size:1.3rem;color:#6a9fd8;margin-bottom:.3rem;letter-spacing:1px}
-.sub{text-align:center;font-size:.75rem;color:#555;margin-bottom:1.8rem}
+.wrap{max-width:640px;width:100%}
+h1{text-align:center;font-size:1.3rem;color:#6a9fd8;margin-bottom:.15rem;letter-spacing:1px}
+.char-name{text-align:center;font-size:.95rem;color:#e8c840;margin-bottom:.15rem;font-weight:600}
+.sub{text-align:center;font-size:.72rem;color:#555;margin-bottom:1.6rem}
 
 .section{background:#12121e;border:1px solid #1e1e30;border-radius:10px;padding:1.2rem;margin-bottom:1rem}
-.section h2{font-size:.85rem;color:#6a9fd8;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:1rem;border-bottom:1px solid #1e1e30;padding-bottom:.5rem}
+.section h2{font-size:.82rem;color:#6a9fd8;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:.8rem;border-bottom:1px solid #1e1e30;padding-bottom:.5rem}
+
+/* D20 ACTION */
+.trait-select-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.7rem}
+.trait-chip{padding:.35rem .65rem;border:1px solid #1e1e30;background:#0e0e18;color:#888;border-radius:5px;cursor:pointer;font-size:.75rem;transition:all .15s;user-select:none}
+.trait-chip:hover{border-color:#6a9fd8;color:#c8c8d0}
+.trait-chip.selected{border-color:#e8c840;color:#e8c840;background:#1a1a10}
+.trait-chip .chip-mod{font-weight:700;margin-left:.25rem}
 
 .roll-row{display:flex;gap:.6rem;align-items:stretch;margin-bottom:.8rem}
-.roll-btn{flex:1;padding:.9rem .5rem;border:2px solid #1e1e30;background:#0e0e18;color:#c8c8d0;border-radius:8px;cursor:pointer;font-size:1rem;font-weight:600;transition:all .15s}
+.roll-btn{flex:1;padding:.85rem .5rem;border:2px solid #1e1e30;background:#0e0e18;color:#c8c8d0;border-radius:8px;cursor:pointer;font-size:.95rem;font-weight:600;transition:all .15s}
 .roll-btn:hover{border-color:#6a9fd8;background:#161625}
 .roll-btn:active{transform:scale(.96)}
-.roll-btn .die-label{font-size:.7rem;color:#555;display:block;margin-top:.2rem;font-weight:400}
+.roll-btn .die-label{font-size:.68rem;color:#555;display:block;margin-top:.2rem;font-weight:400}
+.roll-btn:disabled{opacity:.35;cursor:not-allowed}
 
-.result-box{background:#0e0e18;border:1px solid #1e1e30;border-radius:8px;padding:1rem;min-height:80px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-.result-num{font-size:3rem;font-weight:700;color:#e8c840;line-height:1;animation:pop .3s ease-out}
+.adv-row{display:flex;gap:.5rem;margin-bottom:.7rem;align-items:center}
+.adv-label{font-size:.7rem;color:#555;margin-right:.2rem}
+.adv-btn{padding:.3rem .7rem;border:1px solid #1e1e30;background:#0e0e18;color:#888;border-radius:5px;cursor:pointer;font-size:.72rem;transition:all .15s}
+.adv-btn:hover{border-color:#6a9fd8}
+.adv-btn.active-adv{border-color:#4caf50;color:#4caf50;background:#0e1a0e}
+.adv-btn.active-dis{border-color:#d32f2f;color:#d32f2f;background:#1a0e0e}
+.adv-btn.active-norm{border-color:#6a9fd8;color:#6a9fd8}
+
+.result-box{background:#0e0e18;border:1px solid #1e1e30;border-radius:8px;padding:1rem;min-height:90px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;overflow:hidden}
+.result-num{font-size:3rem;font-weight:700;color:#e8c840;line-height:1}
+.result-num.anim{animation:pop .3s ease-out}
+.result-breakdown{font-size:.78rem;color:#888;margin-top:.2rem}
 .result-tier{font-size:.95rem;font-weight:600;margin-top:.4rem;padding:.2rem .8rem;border-radius:4px}
-.result-desc{font-size:.78rem;color:#666;margin-top:.4rem;max-width:90%}
-@keyframes pop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+.result-desc{font-size:.75rem;color:#555;margin-top:.3rem;max-width:92%}
+.result-extra{font-size:.72rem;color:#666;margin-top:.25rem;font-style:italic}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.08)}100%{transform:scale(1);opacity:1}}
 
-.copy-btn{width:100%;margin-top:.6rem;padding:.55rem;background:#1a2a40;border:1px solid #2a3a55;color:#6a9fd8;border-radius:6px;cursor:pointer;font-size:.8rem;font-weight:500;transition:all .15s}
+.copy-btn{width:100%;margin-top:.6rem;padding:.5rem;background:#1a2a40;border:1px solid #2a3a55;color:#6a9fd8;border-radius:6px;cursor:pointer;font-size:.78rem;font-weight:500;transition:all .15s}
 .copy-btn:hover{background:#223350;border-color:#6a9fd8}
 .copy-btn.copied{background:#1a3a1a;border-color:#4a8a4a;color:#6c6}
 
-.trait-section{margin-top:.5rem}
-.trait-grid{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
-.trait-roll-btn{padding:.5rem;background:#0e0e18;border:1px solid #1e1e30;border-radius:6px;cursor:pointer;text-align:left;font-size:.82rem;color:#c8c8d0;transition:all .15s;display:flex;justify-content:space-between;align-items:center}
-.trait-roll-btn:hover{border-color:#6a9fd8}
-.trait-val{font-weight:700;color:#e8c840}
-.trait-mod{font-size:.75rem;color:#888;margin-left:.3rem}
-.trait-band{font-size:.7rem}
+/* TRAITS DISPLAY */
+.trait-display{display:grid;grid-template-columns:1fr 1fr;gap:.35rem}
+.trait-card{padding:.45rem .6rem;background:#0e0e18;border:1px solid #1e1e30;border-radius:6px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem}
+.trait-card .t-name{color:#999}
+.trait-card .t-val{font-weight:700;color:#e8c840}
+.trait-card .t-mod{font-size:.75rem;margin-left:.3rem}
+.trait-card .t-band{font-size:.68rem;margin-left:.4rem}
 
-.roll-all-btn{width:100%;margin-top:.6rem;padding:.6rem;background:#2a1a3a;border:1px solid #3a2a55;color:#b080d0;border-radius:6px;cursor:pointer;font-size:.85rem;font-weight:600;transition:all .15s}
-.roll-all-btn:hover{background:#3a2a50;border-color:#b080d0}
+/* D100 */
+.context-row{margin-bottom:.7rem}
+.context-label{font-size:.7rem;color:#555;margin-bottom:.3rem}
+.context-input{width:100%;padding:.45rem .6rem;background:#0e0e18;border:1px solid #1e1e30;border-radius:6px;color:#c8c8d0;font-size:.8rem;font-family:inherit}
+.context-input:focus{outline:none;border-color:#6a9fd8}
+.context-input::placeholder{color:#333}
 
-.history{margin-top:.5rem}
-.history h3{font-size:.7rem;color:#444;text-transform:uppercase;letter-spacing:1px;margin-bottom:.4rem}
-.hist-entry{font-size:.78rem;color:#555;padding:.25rem 0;border-bottom:1px solid #111}
-.hist-entry span{color:#e8c840}
+/* HISTORY */
+.history-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem}
+.history h3{font-size:.7rem;color:#444;text-transform:uppercase;letter-spacing:1px}
+.hist-clear{font-size:.65rem;color:#555;cursor:pointer;background:none;border:1px solid #1e1e30;padding:.2rem .5rem;border-radius:4px}
+.hist-clear:hover{border-color:#d32f2f;color:#d32f2f}
+.hist-entry{font-size:.76rem;color:#555;padding:.3rem 0;border-bottom:1px solid #111;display:flex;justify-content:space-between}
+.hist-entry .hist-left span{color:#e8c840}
 .hist-entry .tier-tag{color:#6a9fd8}
+.hist-entry .hist-time{color:#333;font-size:.68rem}
+.hist-export{margin-top:.5rem;padding:.4rem;width:100%;background:#0e0e18;border:1px solid #1e1e30;border-radius:5px;color:#555;cursor:pointer;font-size:.7rem}
+.hist-export:hover{border-color:#6a9fd8;color:#6a9fd8}
+
+/* ACCESSIBILITY */
+.roll-btn:focus-visible,.trait-chip:focus-visible,.adv-btn:focus-visible,.copy-btn:focus-visible{outline:2px solid #6a9fd8;outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* TIER ICON (text symbol for colorblind) */
+.tier-icon{margin-right:.3rem;font-size:.85rem}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>STAR WARS LIFE SIM ENGINE</h1>
-<p class="sub">Dice Roller — d20 Action / d100 Event & Consequence</p>
+<p class="char-name">Joren Sho</p>
+<p class="sub">Dice Roller — d20 Action (with trait modifiers) / d100 Event & Consequence</p>
 
-<!-- D20 SECTION -->
+<!-- TRAITS REFERENCE -->
 <div class="section">
-<h2>d20 — Action Resolution / Opportunity Scale</h2>
+<h2>Joren Sho — Core Traits</h2>
+<div class="trait-display" id="traitDisplay"></div>
+</div>
+
+<!-- D20 ACTION SECTION -->
+<div class="section">
+<h2>d20 — Action Resolution</h2>
+<p style="font-size:.72rem;color:#555;margin-bottom:.7rem">Select a trait to apply its modifier, then roll. Use Advantage/Disadvantage for situational context.</p>
+
+<div class="trait-select-row" id="traitChips" role="radiogroup" aria-label="Select trait for modifier"></div>
+
+<div class="adv-row">
+<span class="adv-label">Mode:</span>
+<button class="adv-btn active-norm" id="advNorm" onclick="setAdvMode('normal')" aria-pressed="true">Normal</button>
+<button class="adv-btn" id="advAdv" onclick="setAdvMode('advantage')" aria-pressed="false">Advantage</button>
+<button class="adv-btn" id="advDis" onclick="setAdvMode('disadvantage')" aria-pressed="false">Disadvantage</button>
+</div>
+
 <div class="roll-row">
-<button class="roll-btn" onclick="rollD20('action')">Roll d20<span class="die-label">Action Check</span></button>
-<button class="roll-btn" onclick="rollD20('opportunity')">Roll d20<span class="die-label">Opportunity Scale</span></button>
+<button class="roll-btn" onclick="rollD20('action')" aria-label="Roll d20 for action resolution">Roll d20<span class="die-label">Action Check</span></button>
+<button class="roll-btn" onclick="rollD20('opportunity')" aria-label="Roll d20 for opportunity scale">Roll d20<span class="die-label">Opportunity Scale</span></button>
 </div>
-<div class="result-box" id="d20result">
-<div style="color:#444;font-size:.85rem">Tap a button to roll</div>
+<div class="result-box" id="d20result" role="status" aria-live="polite">
+<div style="color:#444;font-size:.85rem">Select a trait, then roll</div>
 </div>
-<button class="copy-btn" id="d20copy" onclick="copyResult('d20')" style="display:none">Copy result for ChatGPT</button>
+<button class="copy-btn" id="d20copy" onclick="copyResult('d20')" style="display:none">Copy result to clipboard</button>
 </div>
 
 <!-- D100 SECTION -->
 <div class="section">
 <h2>d100 — Life Event / Risk & Consequence</h2>
-<div class="roll-row">
-<button class="roll-btn" onclick="rollD100('event')">Roll d100<span class="die-label">Life Event</span></button>
-<button class="roll-btn" onclick="rollD100('risk')">Roll d100<span class="die-label">Risk / Consequence</span></button>
+<div class="context-row">
+<label class="context-label" for="d100context">Context (optional — included in copy)</label>
+<input class="context-input" id="d100context" type="text" placeholder="e.g. Infiltrating the Senate archives..." maxlength="120">
 </div>
-<div class="result-box" id="d100result">
+<div class="roll-row">
+<button class="roll-btn" onclick="rollD100('event')" aria-label="Roll d100 for life event">Roll d100<span class="die-label">Life Event</span></button>
+<button class="roll-btn" onclick="rollD100('risk')" aria-label="Roll d100 for risk consequence">Roll d100<span class="die-label">Risk / Consequence</span></button>
+</div>
+<div class="result-box" id="d100result" role="status" aria-live="polite">
 <div style="color:#444;font-size:.85rem">Tap a button to roll</div>
 </div>
-<button class="copy-btn" id="d100copy" onclick="copyResult('d100')" style="display:none">Copy result for ChatGPT</button>
-</div>
-
-<!-- STARTING TRAITS SECTION -->
-<div class="section">
-<h2>Starting Trait Rolls (8× d20)</h2>
-<p style="font-size:.72rem;color:#555;margin-bottom:.8rem">Roll each trait individually or roll all 8 at once. Results auto-convert to your trait band system.</p>
-<div class="trait-grid" id="traitGrid"></div>
-<button class="roll-all-btn" onclick="rollAllTraits()">Roll All 8 Traits</button>
-<button class="copy-btn" id="traitcopy" onclick="copyResult('traits')" style="display:none">Copy all traits for ChatGPT</button>
+<button class="copy-btn" id="d100copy" onclick="copyResult('d100')" style="display:none">Copy result to clipboard</button>
 </div>
 
 <!-- HISTORY -->
 <div class="section history">
+<div class="history-header">
 <h3>Roll History</h3>
+<button class="hist-clear" onclick="clearHistory()" aria-label="Clear roll history">Clear</button>
+</div>
 <div id="historyList"><div style="color:#333;font-size:.78rem">No rolls yet</div></div>
+<button class="hist-export" onclick="exportHistory()" style="display:none" id="histExport">Export full history to clipboard</button>
 </div>
 </div>
 
 <script>
-const traits = ['Vigor','Attunement','Discipline','Instinct','Intellect','Authority','Cunning','Resonance'];
-const traitResults = {};
-let historyArr = [];
+// ═══════════════════════════════════════
+// JOREN SHO — HARDCODED TRAITS
+// ═══════════════════════════════════════
+const CHAR_NAME = 'Joren Sho';
+const TRAITS = {
+  Vigor:      {raw:17, mod:2, band:'Strong',      color:'#43a047'},
+  Attunement: {raw:20, mod:3, band:'Exceptional',  color:'#ffd700'},
+  Discipline: {raw:20, mod:3, band:'Exceptional',  color:'#ffd700'},
+  Instinct:   {raw:14, mod:1, band:'Capable',      color:'#66bb6a'},
+  Intellect:  {raw:20, mod:3, band:'Exceptional',  color:'#ffd700'},
+  Authority:  {raw:20, mod:3, band:'Exceptional',  color:'#ffd700'},
+  Cunning:    {raw:18, mod:2, band:'Strong',      color:'#43a047'},
+  Resonance:  {raw:17, mod:2, band:'Strong',      color:'#ffd700'}
+};
+// Fix Resonance color — Strong band, not Exceptional
+TRAITS.Resonance.color = '#43a047';
+
+const TRAIT_NAMES = Object.keys(TRAITS);
+
+// ═══════════════════════════════════════
+// TIER TABLES
+// ═══════════════════════════════════════
+const actionTiers = [
+  {max:1,  label:'Catastrophic Failure', color:'#d32f2f', icon:'✕'},
+  {max:5,  label:'Failure',              color:'#c62828', icon:'↓'},
+  {max:9,  label:'Weak Result',          color:'#e65100', icon:'↘'},
+  {max:12, label:'Competent Success',    color:'#78909c', icon:'→'},
+  {max:15, label:'Strong Success',       color:'#66bb6a', icon:'↗'},
+  {max:17, label:'Major Success',        color:'#43a047', icon:'⬆'},
+  {max:19, label:'Exceptional Success',  color:'#2e7d32', icon:'★'},
+  {max:20, label:'Legendary Success',    color:'#ffd700', icon:'✦'}
+];
+
+const oppTiers = [
+  {max:4,  label:'Minor',         color:'#78909c', icon:'·'},
+  {max:9,  label:'Modest',        color:'#8d6e63', icon:'○'},
+  {max:14, label:'Solid',         color:'#66bb6a', icon:'●'},
+  {max:17, label:'Major',         color:'#43a047', icon:'◆'},
+  {max:19, label:'Elite',         color:'#2e7d32', icon:'★'},
+  {max:20, label:'Extraordinary', color:'#ffd700', icon:'✦'}
+];
+
+const d100Tiers = [
+  {max:10,  label:'Negligible / Trivial',        color:'#78909c', icon:'·'},
+  {max:25,  label:'Minor',                       color:'#8d6e63', icon:'○'},
+  {max:50,  label:'Moderate',                    color:'#e65100', icon:'●'},
+  {max:75,  label:'Significant',                 color:'#ef6c00', icon:'◆'},
+  {max:90,  label:'Severe',                      color:'#c62828', icon:'▲'},
+  {max:99,  label:'Critical',                    color:'#b71c1c', icon:'★'},
+  {max:100, label:'Catastrophic / Extraordinary', color:'#ffd700', icon:'✦'}
+];
+
+// ═══════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════
+let selectedTrait = null;
+let advMode = 'normal'; // 'normal' | 'advantage' | 'disadvantage'
 let lastD20 = null;
 let lastD100 = null;
+let historyArr = [];
 
-// ACTION RESOLUTION tiers
-const actionTiers = [
-  {max:1, label:'Catastrophic Failure', color:'#d32f2f'},
-  {max:5, label:'Failure', color:'#c62828'},
-  {max:9, label:'Weak Result', color:'#e65100'},
-  {max:12, label:'Competent Success', color:'#9e9e9e'},
-  {max:15, label:'Strong Success', color:'#66bb6a'},
-  {max:17, label:'Major Success', color:'#43a047'},
-  {max:19, label:'Exceptional Success', color:'#2e7d32'},
-  {max:99, label:'Legendary Success', color:'#ffd700'}
-];
-
-// OPPORTUNITY SCALE tiers
-const oppTiers = [
-  {max:4, label:'Minor', color:'#9e9e9e'},
-  {max:9, label:'Modest', color:'#8d6e63'},
-  {max:14, label:'Solid', color:'#66bb6a'},
-  {max:17, label:'Major', color:'#43a047'},
-  {max:19, label:'Elite', color:'#2e7d32'},
-  {max:99, label:'Extraordinary', color:'#ffd700'}
-];
-
-// TRAIT CONVERSION
-const traitBands = [
-  {max:3, label:'Poor', mod:-2, color:'#d32f2f'},
-  {max:7, label:'Weak', mod:-1, color:'#e65100'},
-  {max:13, label:'Average', mod:0, color:'#9e9e9e'},
-  {max:16, label:'Capable', mod:1, color:'#66bb6a'},
-  {max:19, label:'Strong', mod:2, color:'#43a047'},
-  {max:20, label:'Exceptional', mod:3, color:'#ffd700'}
-];
+// ═══════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════
+function rand(sides){ return Math.floor(Math.random()*sides)+1; }
+function clamp(v,lo,hi){ return Math.max(lo,Math.min(hi,v)); }
 
 function getTier(val, table){
   for(const t of table) if(val <= t.max) return t;
   return table[table.length-1];
 }
 
-function getTraitBand(val){
-  for(const b of traitBands) if(val <= b.max) return b;
-  return traitBands[traitBands.length-1];
+// ═══════════════════════════════════════
+// BUILD TRAIT DISPLAY
+// ═══════════════════════════════════════
+function buildTraitDisplay(){
+  const el = document.getElementById('traitDisplay');
+  el.innerHTML = TRAIT_NAMES.map(name => {
+    const t = TRAITS[name];
+    const modStr = t.mod >= 0 ? '+'+t.mod : String(t.mod);
+    return `<div class="trait-card">
+      <span class="t-name">${name}</span>
+      <span>
+        <span class="t-val">${t.raw}</span>
+        <span class="t-mod" style="color:${t.color}">(${modStr})</span>
+        <span class="t-band" style="color:${t.color}">${t.band}</span>
+      </span>
+    </div>`;
+  }).join('');
 }
 
-function rand(sides){ return Math.floor(Math.random()*sides)+1; }
+// ═══════════════════════════════════════
+// BUILD TRAIT SELECTOR CHIPS
+// ═══════════════════════════════════════
+function buildTraitChips(){
+  const el = document.getElementById('traitChips');
+  // Add "None" chip
+  let html = `<button class="trait-chip${selectedTrait===null?' selected':''}" onclick="selectTrait(null)" role="radio" aria-checked="${selectedTrait===null}">None</button>`;
+  html += TRAIT_NAMES.map(name => {
+    const t = TRAITS[name];
+    const modStr = t.mod >= 0 ? '+'+t.mod : String(t.mod);
+    const sel = selectedTrait === name;
+    return `<button class="trait-chip${sel?' selected':''}" onclick="selectTrait('${name}')" role="radio" aria-checked="${sel}">${name}<span class="chip-mod" style="color:${t.color}">${modStr}</span></button>`;
+  }).join('');
+  el.innerHTML = html;
+}
 
+function selectTrait(name){
+  selectedTrait = name;
+  buildTraitChips();
+}
+
+// ═══════════════════════════════════════
+// ADVANTAGE / DISADVANTAGE
+// ═══════════════════════════════════════
+function setAdvMode(mode){
+  advMode = mode;
+  document.getElementById('advNorm').className = 'adv-btn' + (mode==='normal'?' active-norm':'');
+  document.getElementById('advAdv').className = 'adv-btn' + (mode==='advantage'?' active-adv':'');
+  document.getElementById('advDis').className = 'adv-btn' + (mode==='disadvantage'?' active-dis':'');
+  document.getElementById('advNorm').setAttribute('aria-pressed', mode==='normal');
+  document.getElementById('advAdv').setAttribute('aria-pressed', mode==='advantage');
+  document.getElementById('advDis').setAttribute('aria-pressed', mode==='disadvantage');
+}
+
+// ═══════════════════════════════════════
+// D20 ROLL
+// ═══════════════════════════════════════
 function rollD20(mode){
-  const val = rand(20);
-  const table = mode==='action' ? actionTiers : oppTiers;
-  const tier = getTier(val, table);
-  const label = mode==='action' ? 'Action Resolution' : 'Opportunity Scale';
-  const desc = mode==='action'
+  let roll1 = rand(20);
+  let roll2 = null;
+  let rawRoll = roll1;
+
+  if(advMode === 'advantage'){
+    roll2 = rand(20);
+    rawRoll = Math.max(roll1, roll2);
+  } else if(advMode === 'disadvantage'){
+    roll2 = rand(20);
+    rawRoll = Math.min(roll1, roll2);
+  }
+
+  const mod = selectedTrait ? TRAITS[selectedTrait].mod : 0;
+  const modifiedTotal = clamp(rawRoll + mod, 1, 20);
+
+  const table = mode === 'action' ? actionTiers : oppTiers;
+  const tier = getTier(modifiedTotal, table);
+  const label = mode === 'action' ? 'Action Resolution' : 'Opportunity Scale';
+  const desc = mode === 'action'
     ? 'How well the character performs an intentional action'
     : 'How big, valuable, serious, or dangerous is the opportunity';
 
-  lastD20 = {val, tier, label, desc, mode};
+  // Build breakdown string
+  let breakdown = `Natural ${rawRoll}`;
+  if(roll2 !== null){
+    const advLabel = advMode === 'advantage' ? 'ADV' : 'DIS';
+    breakdown = `${advLabel}: [${roll1}, ${roll2}] → ${rawRoll}`;
+  }
+  if(mod !== 0){
+    const modStr = mod >= 0 ? '+'+mod : String(mod);
+    breakdown += ` ${modStr} (${selectedTrait}) = ${modifiedTotal}`;
+  }
 
-  document.getElementById('d20result').innerHTML = `
-    <div class="result-num">${val}</div>
-    <div class="result-tier" style="color:${tier.color}">${tier.label}</div>
+  lastD20 = {rawRoll, roll1, roll2, mod, modifiedTotal, tier, label, desc, mode, advMode, trait: selectedTrait};
+
+  const el = document.getElementById('d20result');
+  el.innerHTML = `
+    <div class="result-num anim">${modifiedTotal}</div>
+    <div class="result-breakdown">${breakdown}</div>
+    <div class="result-tier" style="color:${tier.color}"><span class="tier-icon">${tier.icon}</span>${tier.label}</div>
     <div class="result-desc">${label} — ${desc}</div>
   `;
-  document.getElementById('d20copy').style.display='block';
-  addHistory(`d20 (${label})`, val, tier.label);
+  // Re-trigger animation
+  const numEl = el.querySelector('.result-num');
+  numEl.classList.remove('anim');
+  void numEl.offsetWidth;
+  numEl.classList.add('anim');
+
+  document.getElementById('d20copy').style.display = 'block';
+
+  const histExtra = selectedTrait ? ` [${selectedTrait} ${mod>=0?'+':''}${mod}]` : '';
+  const histAdv = advMode !== 'normal' ? ` (${advMode})` : '';
+  addHistory(`d20 ${label}${histAdv}${histExtra}`, modifiedTotal, tier.label, tier.icon);
 }
 
+// ═══════════════════════════════════════
+// D100 ROLL
+// ═══════════════════════════════════════
 function rollD100(mode){
   const val = rand(100);
-  const label = mode==='event' ? 'Life Event' : 'Risk / Consequence';
-  const desc = mode==='event'
-    ? 'What event enters the character\'s life or what development appears'
+  const label = mode === 'event' ? 'Life Event' : 'Risk / Consequence';
+  const desc = mode === 'event'
+    ? "What event enters the character's life or what development appears"
     : 'How severe does fallout become';
+  const severity = getTier(val, d100Tiers);
+  const context = document.getElementById('d100context').value.trim();
 
-  let severity;
-  if(val<=10) severity={label:'Negligible / Trivial', color:'#9e9e9e'};
-  else if(val<=25) severity={label:'Minor', color:'#8d6e63'};
-  else if(val<=50) severity={label:'Moderate', color:'#e65100'};
-  else if(val<=75) severity={label:'Significant', color:'#ef6c00'};
-  else if(val<=90) severity={label:'Severe', color:'#c62828'};
-  else if(val<=99) severity={label:'Critical', color:'#b71c1c'};
-  else severity={label:'Catastrophic / Extraordinary', color:'#ffd700'};
+  lastD100 = {val, severity, label, desc, mode, context};
 
-  lastD100 = {val, severity, label, desc, mode};
-
-  document.getElementById('d100result').innerHTML = `
-    <div class="result-num">${val}</div>
-    <div class="result-tier" style="color:${severity.color}">${severity.label}</div>
+  const el = document.getElementById('d100result');
+  el.innerHTML = `
+    <div class="result-num anim">${val}</div>
+    <div class="result-tier" style="color:${severity.color}"><span class="tier-icon">${severity.icon}</span>${severity.label}</div>
     <div class="result-desc">${label} — ${desc}</div>
+    ${context ? `<div class="result-extra">Context: ${context}</div>` : ''}
   `;
-  document.getElementById('d100copy').style.display='block';
-  addHistory(`d100 (${label})`, val, severity.label);
+  const numEl = el.querySelector('.result-num');
+  numEl.classList.remove('anim');
+  void numEl.offsetWidth;
+  numEl.classList.add('anim');
+
+  document.getElementById('d100copy').style.display = 'block';
+  addHistory(`d100 ${label}`, val, severity.label, severity.icon);
 }
 
-// TRAITS
-function buildTraitGrid(){
-  const grid = document.getElementById('traitGrid');
-  grid.innerHTML = '';
-  traits.forEach(t => {
-    const btn = document.createElement('button');
-    btn.className = 'trait-roll-btn';
-    btn.id = 'trait-'+t;
-    const r = traitResults[t];
-    if(r){
-      const b = getTraitBand(r);
-      const modStr = b.mod>=0?'+'+b.mod:String(b.mod);
-      btn.innerHTML = `<span>${t}</span><span><span class="trait-val">${r}</span><span class="trait-mod">(${modStr})</span> <span class="trait-band" style="color:${b.color}">${b.label}</span></span>`;
-    } else {
-      btn.innerHTML = `<span>${t}</span><span style="color:#333">—</span>`;
-    }
-    btn.onclick = () => rollSingleTrait(t);
-    grid.appendChild(btn);
-  });
-}
-
-function rollSingleTrait(t){
-  const val = rand(20);
-  traitResults[t] = val;
-  const b = getTraitBand(val);
-  addHistory(`Trait: ${t}`, val, `${b.label} (${b.mod>=0?'+':''}${b.mod})`);
-  buildTraitGrid();
-  updateTraitCopy();
-}
-
-function rollAllTraits(){
-  traits.forEach(t => { traitResults[t] = rand(20); });
-  traits.forEach(t => {
-    const b = getTraitBand(traitResults[t]);
-    addHistory(`Trait: ${t}`, traitResults[t], `${b.label} (${b.mod>=0?'+':''}${b.mod})`);
-  });
-  buildTraitGrid();
-  updateTraitCopy();
-}
-
-function updateTraitCopy(){
-  const filled = traits.filter(t => traitResults[t]);
-  document.getElementById('traitcopy').style.display = filled.length>0 ? 'block' : 'none';
-}
-
+// ═══════════════════════════════════════
 // COPY
+// ═══════════════════════════════════════
 function copyResult(type){
   let text = '';
-  if(type==='d20' && lastD20){
-    text = `PLAYER ROLL:\nd20 (${lastD20.label}) = ${lastD20.val}\nResult: ${lastD20.tier.label}\nPurpose: ${lastD20.desc}`;
-  } else if(type==='d100' && lastD100){
-    text = `PLAYER ROLL:\nd100 (${lastD100.label}) = ${lastD100.val}\nSeverity: ${lastD100.severity.label}\nPurpose: ${lastD100.desc}`;
-  } else if(type==='traits'){
-    const lines = traits.filter(t=>traitResults[t]).map(t=>{
-      const b = getTraitBand(traitResults[t]);
-      const modStr = b.mod>=0?'+'+b.mod:String(b.mod);
-      return `${t} = ${traitResults[t]} → ${b.label} (${modStr})`;
-    });
-    text = `PLAYER ROLL:\n${lines.join('\n')}`;
+  if(type === 'd20' && lastD20){
+    const d = lastD20;
+    text = `[${CHAR_NAME}] PLAYER ROLL:\n`;
+    text += `d20 (${d.label}) = ${d.modifiedTotal}\n`;
+    if(d.roll2 !== null) text += `Rolls: [${d.roll1}, ${d.roll2}] (${d.advMode}) → Natural ${d.rawRoll}\n`;
+    else text += `Natural roll: ${d.rawRoll}\n`;
+    if(d.trait) text += `Trait: ${d.trait} (${d.mod>=0?'+':''}${d.mod})\n`;
+    text += `Result: ${d.tier.label}\n`;
+    text += `Purpose: ${d.desc}`;
+  } else if(type === 'd100' && lastD100){
+    const d = lastD100;
+    text = `[${CHAR_NAME}] PLAYER ROLL:\n`;
+    text += `d100 (${d.label}) = ${d.val}\n`;
+    text += `Severity: ${d.severity.label}\n`;
+    text += `Purpose: ${d.desc}`;
+    if(d.context) text += `\nContext: ${d.context}`;
   }
   if(!text) return;
+
   navigator.clipboard.writeText(text).then(()=>{
     const btn = document.getElementById(type+'copy');
-    btn.textContent='Copied!';
+    btn.textContent = 'Copied!';
     btn.classList.add('copied');
-    setTimeout(()=>{btn.textContent='Copy result for ChatGPT';btn.classList.remove('copied');},1500);
+    setTimeout(()=>{btn.textContent='Copy result to clipboard';btn.classList.remove('copied');},1500);
   });
 }
 
+// ═══════════════════════════════════════
 // HISTORY
-function addHistory(type, val, tier){
-  historyArr.unshift({type, val, tier, time: new Date().toLocaleTimeString()});
-  if(historyArr.length>20) historyArr.pop();
-  const el = document.getElementById('historyList');
-  el.innerHTML = historyArr.map(h =>
-    `<div class="hist-entry">${h.time} — ${h.type}: <span>${h.val}</span> — <span class="tier-tag">${h.tier}</span></div>`
-  ).join('');
+// ═══════════════════════════════════════
+function addHistory(type, val, tier, icon){
+  historyArr.unshift({type, val, tier, icon, time: new Date().toLocaleTimeString()});
+  if(historyArr.length > 50) historyArr.pop();
+  renderHistory();
 }
 
-buildTraitGrid();
+function renderHistory(){
+  const el = document.getElementById('historyList');
+  if(historyArr.length === 0){
+    el.innerHTML = '<div style="color:#333;font-size:.78rem">No rolls yet</div>';
+    document.getElementById('histExport').style.display = 'none';
+    return;
+  }
+  el.innerHTML = historyArr.map(h =>
+    `<div class="hist-entry">
+      <span class="hist-left">${h.type}: <span>${h.val}</span> — <span class="tier-tag">${h.icon} ${h.tier}</span></span>
+      <span class="hist-time">${h.time}</span>
+    </div>`
+  ).join('');
+  document.getElementById('histExport').style.display = 'block';
+}
+
+function clearHistory(){
+  historyArr = [];
+  renderHistory();
+}
+
+function exportHistory(){
+  if(historyArr.length === 0) return;
+  const lines = historyArr.slice().reverse().map(h => `${h.time} | ${h.type}: ${h.val} → ${h.tier}`);
+  const text = `[${CHAR_NAME}] ROLL HISTORY — ${new Date().toLocaleDateString()}\n${'─'.repeat(40)}\n${lines.join('\n')}`;
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn = document.getElementById('histExport');
+    btn.textContent = 'Exported!';
+    setTimeout(()=>{btn.textContent='Export full history to clipboard';},1500);
+  });
+}
+
+// ═══════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════
+buildTraitDisplay();
+buildTraitChips();
 </script>
 </body>
 </html>
