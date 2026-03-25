@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Wars Life Sim — Dice Roller</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a0a12;color:#c8c8d0;min-height:100vh;display:flex;justify-content:center;padding:1.5rem}
+.wrap{max-width:600px;width:100%}
+h1{text-align:center;font-size:1.3rem;color:#6a9fd8;margin-bottom:.3rem;letter-spacing:1px}
+.sub{text-align:center;font-size:.75rem;color:#555;margin-bottom:1.8rem}
+
+.section{background:#12121e;border:1px solid #1e1e30;border-radius:10px;padding:1.2rem;margin-bottom:1rem}
+.section h2{font-size:.85rem;color:#6a9fd8;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:1rem;border-bottom:1px solid #1e1e30;padding-bottom:.5rem}
+
+.roll-row{display:flex;gap:.6rem;align-items:stretch;margin-bottom:.8rem}
+.roll-btn{flex:1;padding:.9rem .5rem;border:2px solid #1e1e30;background:#0e0e18;color:#c8c8d0;border-radius:8px;cursor:pointer;font-size:1rem;font-weight:600;transition:all .15s}
+.roll-btn:hover{border-color:#6a9fd8;background:#161625}
+.roll-btn:active{transform:scale(.96)}
+.roll-btn .die-label{font-size:.7rem;color:#555;display:block;margin-top:.2rem;font-weight:400}
+
+.result-box{background:#0e0e18;border:1px solid #1e1e30;border-radius:8px;padding:1rem;min-height:80px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.result-num{font-size:3rem;font-weight:700;color:#e8c840;line-height:1;animation:pop .3s ease-out}
+.result-tier{font-size:.95rem;font-weight:600;margin-top:.4rem;padding:.2rem .8rem;border-radius:4px}
+.result-desc{font-size:.78rem;color:#666;margin-top:.4rem;max-width:90%}
+@keyframes pop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+
+.copy-btn{width:100%;margin-top:.6rem;padding:.55rem;background:#1a2a40;border:1px solid #2a3a55;color:#6a9fd8;border-radius:6px;cursor:pointer;font-size:.8rem;font-weight:500;transition:all .15s}
+.copy-btn:hover{background:#223350;border-color:#6a9fd8}
+.copy-btn.copied{background:#1a3a1a;border-color:#4a8a4a;color:#6c6}
+
+.trait-section{margin-top:.5rem}
+.trait-grid{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.trait-roll-btn{padding:.5rem;background:#0e0e18;border:1px solid #1e1e30;border-radius:6px;cursor:pointer;text-align:left;font-size:.82rem;color:#c8c8d0;transition:all .15s;display:flex;justify-content:space-between;align-items:center}
+.trait-roll-btn:hover{border-color:#6a9fd8}
+.trait-val{font-weight:700;color:#e8c840}
+.trait-mod{font-size:.75rem;color:#888;margin-left:.3rem}
+.trait-band{font-size:.7rem}
+
+.roll-all-btn{width:100%;margin-top:.6rem;padding:.6rem;background:#2a1a3a;border:1px solid #3a2a55;color:#b080d0;border-radius:6px;cursor:pointer;font-size:.85rem;font-weight:600;transition:all .15s}
+.roll-all-btn:hover{background:#3a2a50;border-color:#b080d0}
+
+.history{margin-top:.5rem}
+.history h3{font-size:.7rem;color:#444;text-transform:uppercase;letter-spacing:1px;margin-bottom:.4rem}
+.hist-entry{font-size:.78rem;color:#555;padding:.25rem 0;border-bottom:1px solid #111}
+.hist-entry span{color:#e8c840}
+.hist-entry .tier-tag{color:#6a9fd8}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>STAR WARS LIFE SIM ENGINE</h1>
+<p class="sub">Dice Roller — d20 Action / d100 Event & Consequence</p>
+
+<!-- D20 SECTION -->
+<div class="section">
+<h2>d20 — Action Resolution / Opportunity Scale</h2>
+<div class="roll-row">
+<button class="roll-btn" onclick="rollD20('action')">Roll d20<span class="die-label">Action Check</span></button>
+<button class="roll-btn" onclick="rollD20('opportunity')">Roll d20<span class="die-label">Opportunity Scale</span></button>
+</div>
+<div class="result-box" id="d20result">
+<div style="color:#444;font-size:.85rem">Tap a button to roll</div>
+</div>
+<button class="copy-btn" id="d20copy" onclick="copyResult('d20')" style="display:none">Copy result for ChatGPT</button>
+</div>
+
+<!-- D100 SECTION -->
+<div class="section">
+<h2>d100 — Life Event / Risk & Consequence</h2>
+<div class="roll-row">
+<button class="roll-btn" onclick="rollD100('event')">Roll d100<span class="die-label">Life Event</span></button>
+<button class="roll-btn" onclick="rollD100('risk')">Roll d100<span class="die-label">Risk / Consequence</span></button>
+</div>
+<div class="result-box" id="d100result">
+<div style="color:#444;font-size:.85rem">Tap a button to roll</div>
+</div>
+<button class="copy-btn" id="d100copy" onclick="copyResult('d100')" style="display:none">Copy result for ChatGPT</button>
+</div>
+
+<!-- STARTING TRAITS SECTION -->
+<div class="section">
+<h2>Starting Trait Rolls (8× d20)</h2>
+<p style="font-size:.72rem;color:#555;margin-bottom:.8rem">Roll each trait individually or roll all 8 at once. Results auto-convert to your trait band system.</p>
+<div class="trait-grid" id="traitGrid"></div>
+<button class="roll-all-btn" onclick="rollAllTraits()">Roll All 8 Traits</button>
+<button class="copy-btn" id="traitcopy" onclick="copyResult('traits')" style="display:none">Copy all traits for ChatGPT</button>
+</div>
+
+<!-- HISTORY -->
+<div class="section history">
+<h3>Roll History</h3>
+<div id="historyList"><div style="color:#333;font-size:.78rem">No rolls yet</div></div>
+</div>
+</div>
+
+<script>
+const traits = ['Vigor','Attunement','Discipline','Instinct','Intellect','Authority','Cunning','Resonance'];
+const traitResults = {};
+let historyArr = [];
+let lastD20 = null;
+let lastD100 = null;
+
+// ACTION RESOLUTION tiers
+const actionTiers = [
+  {max:1, label:'Catastrophic Failure', color:'#d32f2f'},
+  {max:5, label:'Failure', color:'#c62828'},
+  {max:9, label:'Weak Result', color:'#e65100'},
+  {max:12, label:'Competent Success', color:'#9e9e9e'},
+  {max:15, label:'Strong Success', color:'#66bb6a'},
+  {max:17, label:'Major Success', color:'#43a047'},
+  {max:19, label:'Exceptional Success', color:'#2e7d32'},
+  {max:99, label:'Legendary Success', color:'#ffd700'}
+];
+
+// OPPORTUNITY SCALE tiers
+const oppTiers = [
+  {max:4, label:'Minor', color:'#9e9e9e'},
+  {max:9, label:'Modest', color:'#8d6e63'},
+  {max:14, label:'Solid', color:'#66bb6a'},
+  {max:17, label:'Major', color:'#43a047'},
+  {max:19, label:'Elite', color:'#2e7d32'},
+  {max:99, label:'Extraordinary', color:'#ffd700'}
+];
+
+// TRAIT CONVERSION
+const traitBands = [
+  {max:3, label:'Poor', mod:-2, color:'#d32f2f'},
+  {max:7, label:'Weak', mod:-1, color:'#e65100'},
+  {max:13, label:'Average', mod:0, color:'#9e9e9e'},
+  {max:16, label:'Capable', mod:1, color:'#66bb6a'},
+  {max:19, label:'Strong', mod:2, color:'#43a047'},
+  {max:20, label:'Exceptional', mod:3, color:'#ffd700'}
+];
+
+function getTier(val, table){
+  for(const t of table) if(val <= t.max) return t;
+  return table[table.length-1];
+}
+
+function getTraitBand(val){
+  for(const b of traitBands) if(val <= b.max) return b;
+  return traitBands[traitBands.length-1];
+}
+
+function rand(sides){ return Math.floor(Math.random()*sides)+1; }
+
+function rollD20(mode){
+  const val = rand(20);
+  const table = mode==='action' ? actionTiers : oppTiers;
+  const tier = getTier(val, table);
+  const label = mode==='action' ? 'Action Resolution' : 'Opportunity Scale';
+  const desc = mode==='action'
+    ? 'How well the character performs an intentional action'
+    : 'How big, valuable, serious, or dangerous is the opportunity';
+
+  lastD20 = {val, tier, label, desc, mode};
+
+  document.getElementById('d20result').innerHTML = `
+    <div class="result-num">${val}</div>
+    <div class="result-tier" style="color:${tier.color}">${tier.label}</div>
+    <div class="result-desc">${label} — ${desc}</div>
+  `;
+  document.getElementById('d20copy').style.display='block';
+  addHistory(`d20 (${label})`, val, tier.label);
+}
+
+function rollD100(mode){
+  const val = rand(100);
+  const label = mode==='event' ? 'Life Event' : 'Risk / Consequence';
+  const desc = mode==='event'
+    ? 'What event enters the character\'s life or what development appears'
+    : 'How severe does fallout become';
+
+  let severity;
+  if(val<=10) severity={label:'Negligible / Trivial', color:'#9e9e9e'};
+  else if(val<=25) severity={label:'Minor', color:'#8d6e63'};
+  else if(val<=50) severity={label:'Moderate', color:'#e65100'};
+  else if(val<=75) severity={label:'Significant', color:'#ef6c00'};
+  else if(val<=90) severity={label:'Severe', color:'#c62828'};
+  else if(val<=99) severity={label:'Critical', color:'#b71c1c'};
+  else severity={label:'Catastrophic / Extraordinary', color:'#ffd700'};
+
+  lastD100 = {val, severity, label, desc, mode};
+
+  document.getElementById('d100result').innerHTML = `
+    <div class="result-num">${val}</div>
+    <div class="result-tier" style="color:${severity.color}">${severity.label}</div>
+    <div class="result-desc">${label} — ${desc}</div>
+  `;
+  document.getElementById('d100copy').style.display='block';
+  addHistory(`d100 (${label})`, val, severity.label);
+}
+
+// TRAITS
+function buildTraitGrid(){
+  const grid = document.getElementById('traitGrid');
+  grid.innerHTML = '';
+  traits.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'trait-roll-btn';
+    btn.id = 'trait-'+t;
+    const r = traitResults[t];
+    if(r){
+      const b = getTraitBand(r);
+      const modStr = b.mod>=0?'+'+b.mod:String(b.mod);
+      btn.innerHTML = `<span>${t}</span><span><span class="trait-val">${r}</span><span class="trait-mod">(${modStr})</span> <span class="trait-band" style="color:${b.color}">${b.label}</span></span>`;
+    } else {
+      btn.innerHTML = `<span>${t}</span><span style="color:#333">—</span>`;
+    }
+    btn.onclick = () => rollSingleTrait(t);
+    grid.appendChild(btn);
+  });
+}
+
+function rollSingleTrait(t){
+  const val = rand(20);
+  traitResults[t] = val;
+  const b = getTraitBand(val);
+  addHistory(`Trait: ${t}`, val, `${b.label} (${b.mod>=0?'+':''}${b.mod})`);
+  buildTraitGrid();
+  updateTraitCopy();
+}
+
+function rollAllTraits(){
+  traits.forEach(t => { traitResults[t] = rand(20); });
+  traits.forEach(t => {
+    const b = getTraitBand(traitResults[t]);
+    addHistory(`Trait: ${t}`, traitResults[t], `${b.label} (${b.mod>=0?'+':''}${b.mod})`);
+  });
+  buildTraitGrid();
+  updateTraitCopy();
+}
+
+function updateTraitCopy(){
+  const filled = traits.filter(t => traitResults[t]);
+  document.getElementById('traitcopy').style.display = filled.length>0 ? 'block' : 'none';
+}
+
+// COPY
+function copyResult(type){
+  let text = '';
+  if(type==='d20' && lastD20){
+    text = `PLAYER ROLL:\nd20 (${lastD20.label}) = ${lastD20.val}\nResult: ${lastD20.tier.label}\nPurpose: ${lastD20.desc}`;
+  } else if(type==='d100' && lastD100){
+    text = `PLAYER ROLL:\nd100 (${lastD100.label}) = ${lastD100.val}\nSeverity: ${lastD100.severity.label}\nPurpose: ${lastD100.desc}`;
+  } else if(type==='traits'){
+    const lines = traits.filter(t=>traitResults[t]).map(t=>{
+      const b = getTraitBand(traitResults[t]);
+      const modStr = b.mod>=0?'+'+b.mod:String(b.mod);
+      return `${t} = ${traitResults[t]} → ${b.label} (${modStr})`;
+    });
+    text = `PLAYER ROLL:\n${lines.join('\n')}`;
+  }
+  if(!text) return;
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn = document.getElementById(type+'copy');
+    btn.textContent='Copied!';
+    btn.classList.add('copied');
+    setTimeout(()=>{btn.textContent='Copy result for ChatGPT';btn.classList.remove('copied');},1500);
+  });
+}
+
+// HISTORY
+function addHistory(type, val, tier){
+  historyArr.unshift({type, val, tier, time: new Date().toLocaleTimeString()});
+  if(historyArr.length>20) historyArr.pop();
+  const el = document.getElementById('historyList');
+  el.innerHTML = historyArr.map(h =>
+    `<div class="hist-entry">${h.time} — ${h.type}: <span>${h.val}</span> — <span class="tier-tag">${h.tier}</span></div>`
+  ).join('');
+}
+
+buildTraitGrid();
+</script>
+</body>
+</html>
