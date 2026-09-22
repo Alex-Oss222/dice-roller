@@ -1,8 +1,0 @@
-__pycache__/
-*.py[cod]
-.venv/
-.work/
-campaign-save*.json
-restored-campaign/
-*.tmp
-.DS_Store
