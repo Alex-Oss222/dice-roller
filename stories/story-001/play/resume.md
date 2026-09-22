@@ -1,17 +1,17 @@
 <!-- iron-engine-generated:resume.md:v1 -->
-<!-- source-event-hash:b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61 -->
+<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
 
 # Resume campaign
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
-Current turn: 1. Fictional time: Day 0, 22:30:00.
+Current turn: 0. Fictional time: Day 0, 18:00:00.
 
-Phase: Retired for the night before expected battle. Location: Ned's command tent, northern section of the rebel encampment beside the Trident.
+Phase: Pre-battle preparation. Location: Ned's command tent, northern section of the rebel encampment beside the Trident.
 
 Character: Eddard Stark. Aim: Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
 
@@ -23,7 +23,7 @@ Spoiler cutoff: Campaign history stops at the supplied starting moment. Retrospe
 
 ## Pending decision or fixed stakes
 
-Ned has completed the evening coordination and gone to bed in his command tent. What does he do next before the expected battle?
+No pending resume note is recorded.
 
 ## Interrupted plan
 
