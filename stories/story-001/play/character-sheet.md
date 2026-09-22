@@ -1,19 +1,19 @@
 <!-- iron-engine-generated:character-sheet.md:v1 -->
-<!-- source-event-hash:b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61 -->
+<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
 
 # Character sheet
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
 ## Campaign  
   
 A Song of Blood & Gold: The Trident  
-Turn 1 | Day 0, 22:30:00  
-Retired for the night before expected battle | Ned's command tent, northern section of the rebel encampment beside the Trident  
+Turn 0 | Day 0, 18:00:00  
+Pre-battle preparation | Ned's command tent, northern section of the rebel encampment beside the Trident  
 Next scheduled review: Turn 10  
 Capability system: Blood & Gold (0 to 9, descriptive evidence)  
 Resolution: Adjudicated  
@@ -843,7 +843,7 @@ Balances: not established
   
 Relationships: Robert Baratheon: Foster brother, close friend, principal rebel ally. Supplied starting relationship assessment: Strong mutual trust and affection; Robert values Ned's loyalty and military support. Basis: Raised together at the Eyrie; active rebellion; Battle of the Bells. Obligations: Support the rebel cause while retaining Ned's own judgment and command. This is background, not authority to dictate future choices or read private thoughts.; Jon Arryn: Foster father, mentor, senior rebel ally. Supplied starting relationship assessment: Deep trust and filial respect. Basis: Fostered Ned from age eight; refused Aerys's demand for Ned's head. Obligations: Coalition loyalty, counsel, and mutual military support. This is background, not authority to dictate future choices or read private thoughts.; Catelyn Tully: Newly married wife. Supplied starting relationship assessment: Relationship is new and politically arranged; mutual personal understanding is still limited. Basis: Married after the Battle of the Bells. Obligations: Marital and dynastic obligations; Tully alliance. This is background, not authority to dictate future choices or read private thoughts.; Hoster Tully: Father-in-law and rebel ally. Supplied starting relationship assessment: Political alliance and mutual military interest. Basis: Tully support tied to the marriages at Riverrun. Obligations: Coalition coordination and family alliance. This is background, not authority to dictate future choices or read private thoughts.; Lyanna Stark: Younger sister, missing. Supplied starting relationship assessment: Strong family concern; exact circumstances unresolved. Basis: Her disappearance helped trigger the crisis leading to war. Obligations: Personal desire to recover her or learn her fate. This is background, not authority to dictate future choices or read private thoughts.; Benjen Stark: Younger brother. Supplied starting relationship assessment: Familial bond; exact current duties not specified. Basis: Shared Stark upbringing. Obligations: House continuity and kinship. This is background, not authority to dictate future choices or read private thoughts.; Northern bannermen: Feudal vassals and fighting men under Ned's command. Supplied starting relationship assessment: Serving under their lawful lord in rebellion; individual attitudes vary. Basis: Ned called the banners and led the northern army south. Obligations: Ned owes competent leadership and must weigh their lives against military necessity. This is background, not authority to dictate future choices or read private thoughts.; Howland Reed: Bannerman and personal friend. Supplied starting relationship assessment: Friendly and trusted based on Harrenhal connection. Basis: Met at the tourney at Harrenhal. Obligations: Ordinary lord-vassal obligations plus personal friendship; present location not assumed. This is background, not authority to dictate future choices or read private thoughts.  
 Obligations: Duties as Lord of Winterfell and Warden of the North toward House Stark, northern bannermen, household, and dependents.; Rebel alliance obligations toward Robert Baratheon, Jon Arryn, Hoster Tully, and their forces.; Marriage obligations to Catelyn Tully and the political bond created with House Tully.; No additional specific promise or quantified coin debt is established.; House Stark income and household expenditure are ongoing but unquantified; no fabricated rate, payment, or due time is entered.; Army support responsibilities are active, with no mandatory individual pre-battle task chosen for Ned.  
-Standing orders: For the night before the expected Trident battle, northern lords and captains are to finish only necessary preparation, keep required watches manned, and get off-watch men to sleep rather than prolonging drinking or camp work.  
+Standing orders: none recorded  
   
 ### Tasks  
   
@@ -852,7 +852,7 @@ None recorded.
 ## Resume and unfinished activity  
   
 Interrupted plan: none recorded  
-Resume note: Ned has completed the evening coordination and gone to bed in his command tent. What does he do next before the expected battle?  
+Resume note: none recorded  
   
 ## Knowledge and assumptions  
   

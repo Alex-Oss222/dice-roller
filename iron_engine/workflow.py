@@ -199,9 +199,26 @@ def _authorization(payload):
         _fail("Elapsed time exceeds the declared authorization; an unfinished plan is not additional permission")
 
 
+def _adjudication_capability(before, actor, source, capabilities, reference, label, *, supporting=False):
+    fields = {"source", "key", "role"} if supporting else {"source", "key"}
+    _object(reference, label, fields)
+    _string(reference["source"], f"{label}.source")
+    key = _string(reference["key"], f"{label}.key")
+    if supporting:
+        _string(reference["role"], f"{label}.role")
+    if reference["source"] != source or key not in capabilities:
+        _fail("The relevant capability source must belong to the actor and exist before this action")
+    if actor == "pc" and before["campaign"].get("capability_system") == "blood_and_gold_0_9":
+        metadata = before["character"]["capabilities"][key]
+        if metadata["kind"] == "domain":
+            _fail("Blood & Gold adjudication must use a specific subskill, specialty, or derived ability; a broad domain cannot substitute for the action skill")
+    return reference["source"], key
+
+
 def _adjudication(before, payload):
-    record = _object(payload["adjudication"], "adjudication", {
-        "mode", "actor", "capability", "preparation", "opposition", "risk", "basis", "task_band"})
+    base_fields = {"mode", "actor", "capability", "preparation", "opposition", "risk", "basis", "task_band"}
+    record = _object(payload["adjudication"], "adjudication",
+                     base_fields | (set(payload["adjudication"]) & {"supporting_capabilities"}))
     for field in ("mode", "actor", "preparation", "opposition", "risk", "basis", "task_band"):
         _string(record[field], f"adjudication.{field}")
     if record["mode"] not in {"routine", "uncertain"}:
@@ -220,17 +237,24 @@ def _adjudication(before, payload):
             _fail("The adjudicated actor must be the PC or a previously recorded person")
         source = f"world.records.{actor}.details"
         capabilities = person["details"]
+
+    seen = set()
     reference = record["capability"]
     if reference is None:
         if record["mode"] == "uncertain":
             _fail("An uncertain act needs a relevant capability from the established record")
     else:
-        _object(reference, "adjudication.capability", {"source", "key"})
-        _string(reference["source"], "capability.source")
-        _string(reference["key"], "capability.key")
-        if reference["source"] != source or reference["key"] not in capabilities:
-            _fail("The relevant capability source must belong to the actor and exist before this action")
+        seen.add(_adjudication_capability(
+            before, actor, source, capabilities, reference, "adjudication.capability"))
 
+    supporting = _list(record.get("supporting_capabilities", []), "adjudication.supporting_capabilities")
+    for index, support in enumerate(supporting):
+        identity = _adjudication_capability(
+            before, actor, source, capabilities, support,
+            f"adjudication.supporting_capabilities[{index}]", supporting=True)
+        if identity in seen:
+            _fail("Adjudication capabilities cannot duplicate the primary capability or another supporting capability")
+        seen.add(identity)
 
 def _milestones(payload):
     milestones = _list(payload["milestones"], "milestones")

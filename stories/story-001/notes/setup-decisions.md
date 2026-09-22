@@ -1,6 +1,6 @@
 # Story 1 setup decisions
 
-Status: **prepared to start, not started**. These decisions describe [setup.json](../setup.json), not accepted events. No live store has been initialized and no turn has been played. The [opening](../opening.md) matches setup input `opening_narrative`.
+Status: **accepted as Turn 0; no resolved Turn 1 exists**. These decisions describe the prepared [setup.json](../setup.json) that was accepted as the campaign's Turn 0 setup event. The discarded test Turn 1 is not part of the live event chain. The [opening](../opening.md) matches setup input `opening_narrative`.
 
 ## Character and continuity
 

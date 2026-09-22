@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:threads.md:v1 -->
-<!-- source-event-hash:b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61 -->
+<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
 
 # Threads and commitments
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `b69182aca15b45747ceb2db3bd07b038fc61e6bb72532d15fa9b0a34eef7fc61`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -20,12 +20,12 @@ Canonical records, relative to this directory: `../campaign/events`.
 
 ## Standing orders
 
-- For the night before the expected Trident battle, northern lords and captains are to finish only necessary preparation, keep required watches manned, and get off-watch men to sleep rather than prolonging drinking or camp work.
+None recorded.
 
 ## Active and blocked
 
 - lyanna-whereabouts [active]: Lyanna's unresolved whereabouts. Her location, condition, and the complete circumstances behind the public account remain unresolved. Due: not scheduled. Full record: [world.md](world.md).
-- trident-engagement [active]: Expected engagement at the Trident. A major engagement is expected on relative Day 1. Turn 1 completed final coalition coordination and established broad command discipline, while exact royal strength, deployment, timing, and the battle's outcome remain unresolved. Due: not scheduled. Full record: [world.md](world.md).
+- trident-engagement [active]: Expected engagement at the Trident. A major engagement is expected on relative Day 1, without a canonical hour, fixed player orders, or predetermined outcome. Due: not scheduled. Full record: [world.md](world.md).
 
 ## Closed
 
