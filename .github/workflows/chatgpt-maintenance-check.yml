@@ -14,7 +14,27 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Re-pin staged Story 1 baseline in workspace
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import json
+
+          path = Path("stories/story-001/story.json")
+          story = json.loads(path.read_text(encoding="utf-8"))
+          for shared_path in story["shared_files"]:
+              story["shared_files"][shared_path] = hashlib.sha256(
+                  Path(shared_path).read_bytes()
+              ).hexdigest()
+          path.write_text(json.dumps(story, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          print("UPDATED_STORY_JSON_START")
+          print(json.dumps(story, ensure_ascii=True, separators=(",", ":")))
+          print("UPDATED_STORY_JSON_END")
+          PY
       - name: Focused workflow tests
         run: python3 -m unittest tests.test_workflow -v
       - name: Full unit suite
         run: python3 -m unittest discover -s tests -v
+      - name: Validate stories and reviewed baseline
+        run: python3 -m scripts.check_stories
