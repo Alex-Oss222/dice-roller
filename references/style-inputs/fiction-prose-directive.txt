@@ -1,0 +1,306 @@
+FICTION PROSE DIRECTIVE
+FICTION PROSE DIRECTIVE
+
+Write the story as a sequence of concrete events, decisions, mistakes, actions, interruptions, and consequences. Do not treat prose style itself as the primary source of drama.
+
+SCENE CONSTRUCTION
+
+Before writing a scene, know privately:
+
+Who is present.
+Where each important person or object is located.
+What each important character currently wants.
+What each character actually knows.
+What information each character lacks or has wrong.
+What materially changes before the scene ends.
+
+Do not explain this planning to the reader.
+
+A scene must change at least one concrete condition: knowledge, position, possession, allegiance, objective, capability, access, obligation, danger, or plan.
+
+Do not add a paragraph afterward explaining what the scene meant.
+
+POINT OF VIEW
+
+Restrict narration to information available through the established viewpoint unless the narrative mode explicitly permits otherwise.
+
+Separate author knowledge from character knowledge.
+
+Characters may infer incorrectly.
+
+Do not reveal enemy plans, hidden motives, offstage troop movements, unseen threats, or another character's emotional state merely because the author knows them.
+
+Do not convert uncertainty into artificial suspense by withholding information the viewpoint character plainly possesses.
+
+PROSE
+
+Favor concrete nouns and exact verbs.
+
+Use terminology appropriate to the character's profession, culture, period, education, and immediate task.
+
+Prefer materials, dimensions, quantities, mechanical relationships, procedures, distances, routes, costs, tools, and specific physical conditions when those details matter.
+
+Do not decorate ordinary information simply to make the prose sound literary.
+
+Do not automatically convert nouns into poetic abstractions.
+
+Avoid stock phrases involving the weight of silence, charged air, crackling tension, unspoken understanding, something shifting between people, darkness swallowing things, eyes containing entire emotions, or silence speaking louder than words.
+
+Do not repeatedly personify silence, grief, tension, darkness, fate, war, memory, or fear.
+
+Do not use a metaphor merely because an emotional beat has occurred.
+
+Use figurative language selectively. A comparison must sharpen the specific perception rather than announce intensity.
+
+Do not organize a passage around a recurring symbolic object unless the story independently requires that object.
+
+Do not repeatedly return to one image in order to manufacture thematic unity.
+
+Do not use em dashes.
+
+Do not use sentence fragments merely for dramatic emphasis.
+
+Vary sentence and paragraph length according to the material. Do not establish a predictable short-long-short rhythm. Do not make every paragraph approximately the same size.
+
+Do not mechanically group descriptions, sensations, examples, or actions into sets of three.
+
+Avoid repeated rhetorical constructions such as "not X but Y," "it wasn't X, it was Y," "not because X, but because Y," or equivalent balanced oppositions.
+
+Do not give every paragraph a topic sentence and concluding sentence.
+
+EMOTION
+
+Do not name an emotion immediately after actions or dialogue have already communicated it.
+
+Do not translate every gesture for the reader.
+
+Avoid chains such as:
+
+action,
+emotional interpretation,
+memory,
+thematic conclusion.
+
+Allow the action to remain uninterpreted when interpretation is unnecessary.
+
+Do not use bodily reactions as the default shorthand for emotion. Avoid automatic references to pounding hearts, tightening throats, caught breath, clenched fists, twisting stomachs, racing pulses, heat rising, cold spreading, or similar stock reactions.
+
+A character may perform a task while upset without the narration constantly reporting the emotion.
+
+Include stretches of physical procedure with no interior commentary when appropriate.
+
+Let characters occasionally act without understanding themselves.
+
+DIALOGUE
+
+Every major speaker enters a conversation with an objective, assumption, irritation, obligation, fear, distraction, or competing priority.
+
+Characters do not exist to feed each other exposition.
+
+Do not make dialogue a sequence of perfectly relevant answers.
+
+Characters may answer an adjacent question, refuse the premise, misunderstand, interrupt, ignore part of a statement, change subjects, return to an earlier subject, continue working, become distracted, or stop speaking.
+
+Do not make every character witty.
+
+Do not make every character emotionally articulate.
+
+Do not let unrelated characters share identical rhetorical habits.
+
+Use vocabulary, syntax, sentence completion, politeness, profanity, technical language, and conversational patience to differentiate voices.
+
+Avoid speeches that sound like essays.
+
+When characters already share information, do not make them explain it to one another for the reader's benefit.
+
+Let status appear through behavior: who interrupts, who waits, who issues instructions, who asks permission, who refuses to answer, who is permitted to change the subject.
+
+Allow spoken statements and observable facts to contradict each other without narration explaining the contradiction.
+
+Do not summarize the conversation afterward by stating how the relationship changed.
+
+SETTING AND IMAGERY
+
+Describe what affects navigation, work, danger, opportunity, concealment, status, identification, memory, misunderstanding, or decision-making.
+
+Do not stop the scene for a neutral catalog of scenery.
+
+A setting detail should ideally interact with a person or event.
+
+Instead of describing a room completely, establish enough geometry for subsequent action to make sense, then introduce additional details when characters use, avoid, damage, search, cross, hear, or notice them.
+
+Do not automatically use weather, lighting, shadows, silence, or temperature to mirror the emotional mood.
+
+Do not fill every location with atmospheric adjectives.
+
+Do not use all five senses as a checklist.
+
+Select the details this viewpoint would actually notice.
+
+ONE-ON-ONE COMBAT
+
+Know each fighter's immediate objective before the first exchange.
+
+"Defeat the opponent" is insufficient when a more specific objective exists. Examples include reaching a doorway, delaying pursuit, protecting another person, escaping, capturing someone alive, retrieving an object, forcing surrender, or preventing an alarm.
+
+Establish functional geography early.
+
+Track distance, footing, obstacles, reach, weapons, exits, elevation, cover, restricted movement, and other relevant constraints.
+
+Write combat primarily as:
+
+attempt,
+response,
+physical result,
+changed situation,
+decision.
+
+Do not write an uninterrupted catalog of techniques.
+
+Do not make every attack clean, optimal, or visually impressive.
+
+Characters make bad judgments, lose balance, choose safe options, repeat familiar techniques, hesitate, overcommit, fail to notice things, and use whatever works.
+
+Persist consequences.
+
+If someone loses a weapon, is pinned against furniture, damages a knee, exhausts one arm, breaks a strap, loses vision on one side, or becomes trapped in bad footing, that condition affects subsequent actions.
+
+Do not reset combatants between beats.
+
+Avoid excessive slow motion.
+
+Do not insert several sensory details between every movement.
+
+Dialogue during immediate physical danger should fit the available time and the speaker's actual reason for speaking.
+
+End the fight when its practical question is resolved. Death or knockout is not automatically required.
+
+LARGE BATTLES
+
+Do not narrate a battle as a panoramic sequence of impressive military images.
+
+Choose a viewpoint with a local responsibility.
+
+Establish a few functional landmarks rather than describing the entire battlefield.
+
+The viewpoint sees only part of the action.
+
+Smoke, terrain, structures, distance, noise, crowds, darkness, communications limits, misinformation, and the actions of other units can restrict knowledge.
+
+A visible retreat may not explain why the unit retreated.
+
+A missing formation may be destroyed, delayed, redirected, lost, resting, pursuing something else, or simply outside the viewpoint's information.
+
+Do not disclose the answer until the viewpoint has a legitimate way to obtain it.
+
+Build battle scenes around local decisions created by changing information.
+
+CAMPAIGN AND COMMAND SCENES
+
+A senior commander experiences battle primarily through information systems and other people.
+
+Use reports, maps, scouts, messengers, staff officers, signals, reconnaissance, prisoners, logistics reports, casualty estimates, subordinate requests, intelligence assessments, and orders as part of the dramatic machinery.
+
+Information has a timestamp.
+
+Reports can conflict.
+
+A report may have been accurate when dispatched and obsolete when received.
+
+Do not give commanders perfect battlefield awareness.
+
+A command decision must spend something: time, troops, ammunition, political capital, secrecy, reserves, mobility, supply capacity, terrain, initiative, or tolerance for risk.
+
+Include competing demands.
+
+Committing the reserve somewhere means it is unavailable elsewhere.
+
+Advancing farther creates supply and communication problems.
+
+Concentrating forces may weaken another position.
+
+Waiting for certainty consumes time.
+
+Moving faster may abandon equipment or exhausted units.
+
+Protecting supply lines removes troops from combat tasks.
+
+Show staff work when relevant, but do not turn staff officers into exposition devices. Different staff members should care about different practical problems.
+
+Orders do not teleport into execution.
+
+Account for transmission, interpretation, preparation, movement, coordination, resistance, changing circumstances, and subordinate judgment.
+
+Subordinates may obey the intent while changing the method.
+
+Plans should encounter facts they were not designed for.
+
+Campaign victories should usually arise from accumulated decisions, positioning, preparation, logistics, timing, deception, mistakes, subordinate actions, and enemy responses rather than one brilliant speech or single genius revelation.
+
+NARRATIVE STRUCTURE
+
+Do not make the plot suspiciously clean.
+
+Do not require every subplot to echo the same theme.
+
+Do not turn every secondary character into a lesson for the protagonist.
+
+Do not make every mistake produce growth.
+
+Do not make every conflict end in mutual understanding.
+
+Characters may remain incorrect, resentful, uninterested, compromised, or unchanged.
+
+Permit consequences that are inconvenient rather than thematically elegant.
+
+Permit events whose importance is initially unclear.
+
+Permit minor introduced elements to remain unresolved and unremarked upon.
+
+Avoid narratorial moralizing.
+
+Do not tell the reader what conclusion to draw from a character's choice.
+
+Do not finish scenes by summarizing their emotional meaning.
+
+Do not habitually close on a poetic image, ominous one-line statement, thematic aphorism, repeated image from the opening, or declaration that everything has changed.
+
+Cut the scene once the necessary dramatic event has occurred, before the narration explains its significance.
+
+REVISION PASS
+
+After drafting, inspect the prose for repeated structural habits rather than merely repeated words.
+
+Cut sentences that explain an immediately preceding sentence.
+
+Cut generic emotional interpretations.
+
+Replace interchangeable atmospheric language with specific physical facts or remove it.
+
+Check whether characters have begun using the same syntax.
+
+Check whether descriptions repeatedly arrive in groups of three.
+
+Check whether every scene has the same emotional progression.
+
+Check whether every paragraph is similarly sized.
+
+Check whether every scene ends with reflection.
+
+Check whether metaphors occur automatically at emotional moments.
+
+Check whether the viewpoint somehow knows information it has not received.
+
+For action scenes, reconstruct the physical positions and verify that every movement is possible.
+
+For campaign scenes, reconstruct the information timeline and verify what the commander knew at the moment each decision was made.
+
+For dialogue, remove lines whose only purpose is explaining information both speakers already know.
+
+Do not "improve" intentionally plain sentences merely because they appear plain.
+
+Do not polish irregularity out of character voice.
+
+Do not add connective explanation solely to make every transition smooth.
+
+When the draft contains an effective implication, trust it.

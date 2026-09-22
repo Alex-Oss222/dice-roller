@@ -1,0 +1,66 @@
+| Field        | Current                |
+| ------------ | ---------------------- |
+| **Name**     | [Full name and titles] |
+| **Age**      | [#]                    |
+| **Condition**      | [#]                    |
+| **Location** | [Current location]     |
+
+# Turn [N] | Day [D], [time] | [location] | Elapsed: [duration]
+
+### [Scene / Event Title]
+
+[Narrate what actually happens. Focus on the meaningful actions, dialogue, reactions, discoveries, and consequences of the scene rather than recounting every minor step.]
+
+Narrative resolution should realistically reflect the character's established skills, experience, training, authority, ability, social standing, reputation, equipment, preparation, physical circumstances, knowledge, relationships, opposition, and the situation itself.
+
+Relevant Domains, Sub-skills, and Specialties should influence the narration without displaying their numerical Ratings.
+
+Several capabilities may matter to the same action when appropriate. Consider them together according to what the character is actually attempting and the circumstances in which it occurs.
+
+Capability does not create automatic success or failure. It influences what the character can realistically accomplish and how well the action is carried out.
+
+An action may work exactly as intended, work imperfectly, accomplish only part of what was attempted, take longer than expected, produce an unintended consequence, be carried out haphazardly, be prevented by stronger opposition, or prove impossible under the established circumstances.
+
+Resolve the action according to the whole situation rather than reducing it to a visible mechanical result.
+
+Authority and standing matter where appropriate. A lord dealing with sworn retainers possesses forms of authority that a stranger does not. A renowned knight will be treated differently from an unknown traveler. Rank may provide access or obedience without creating friendship, loyalty, agreement, or competence.
+
+Likewise, training and experience should appear naturally in what the character does. A veteran swordsman, experienced steward, trained healer, practiced courtier, or skilled craftsman should act with the competence their established history supports.
+
+Do not display Capability numbers, calculations, hidden modifiers, or mechanical labels in normal turn narration.
+
+### [Additional Scene / Event Title]
+
+[Use another scene section only when the turn genuinely contains another distinct scene, event, location, or meaningful passage of time.]
+
+### Ledger
+
+**AI reference:** The Ledger records anything from the turn that materially changes what should appear on the character sheet.
+
+If the event would require the character sheet to be updated, record that change here.
+
+This includes, but is not limited to:
+
+* changes to a Capability, Sub-skill, Specialty, Development, or other recorded ability;
+* new training, experience, education, or established competence;
+* wounds, illness, disability, recovery, treatment, fatigue, or another lasting physical condition;
+* changes to appearance or physical features;
+* aging when relevant to the character sheet;
+* changes in title, office, rank, legal status, social standing, allegiance, or reputation;
+* new or lost relationships, kinship, marriage, wards, obligations, oaths, debts, or claims;
+* equipment, clothing, weapons, armor, property, animals, retainers, or possessions being gained, lost, damaged, replaced, or materially altered;
+* changes to money, income, property, or other recorded resources when those are part of the character sheet;
+* important knowledge, languages, literacy, or education becoming established;
+* any other durable fact that changes the character as recorded.
+
+Record only the material change.
+
+Do not repeat information merely because it remains true.
+
+Every Ledger change should also be applied to the character sheet or relevant persistent character record.
+
+If nothing on the character sheet materially changes during the turn, omit the Ledger entirely.
+
+### Next
+
+[Stop where the character's next decision is actually required. Do not provide suggested actions, objectives, plans, or menus unless the player asks for them.]

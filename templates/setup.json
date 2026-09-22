@@ -1,0 +1,52 @@
+{
+  "request_id": "",
+  "state": {
+    "campaign": {
+      "id": "",
+      "title": "",
+      "era": "",
+      "region": "",
+      "spoiler_cutoff": "",
+      "day_zero_anchor": "",
+      "rules_version": "iron-engine-blood-and-gold-1.0",
+      "resolution_mode": "adjudicated",
+      "capability_system": "blood_and_gold_0_9",
+      "permitted_books": []
+    },
+    "turn": 0,
+    "time_seconds": 0,
+    "phase": "",
+    "location": "",
+    "character": {
+      "name": "",
+      "age": null,
+      "status": "",
+      "background": "",
+      "aim": "",
+      "skills": {},
+      "capabilities": {},
+      "profile": {},
+      "conditions": [],
+      "equipment": [],
+      "condition": {
+        "rating": 8,
+        "tags": [
+          "Hale"
+        ],
+        "basis": ""
+      }
+    },
+    "resources": {},
+    "relationships": [],
+    "obligations": [],
+    "tasks": [],
+    "knowledge": [],
+    "assumptions": [],
+    "research": [],
+    "standing_orders": [],
+    "interrupted_plan": null,
+    "resume_note": null,
+    "alive": true,
+    "death": null
+  }
+}

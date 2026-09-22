@@ -1,0 +1,12 @@
+{
+  "from_turn": 1,
+  "to_turn": 10,
+  "findings": {
+    "results": {"assessment": "", "evidence_turns": []},
+    "decisions": {"assessment": "", "evidence_turns": []},
+    "capabilities": {"assessment": "", "evidence_turns": []},
+    "position": {"assessment": "", "evidence_turns": []},
+    "gm_consistency": {"assessment": "", "evidence_turns": []},
+    "next_constraint": {"assessment": "", "evidence_turns": []}
+  }
+}
