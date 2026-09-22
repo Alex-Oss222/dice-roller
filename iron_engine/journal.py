@@ -115,6 +115,9 @@ def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
 def _turn_scene(event: dict, before: dict) -> str:
     state, payload = event["state"], event["input"]
     phase = state["phase"] if before["phase"] == state["phase"] else f"{before['phase']} → {state['phase']}"
+    condition = state["character"].get("condition")
+    condition_note = (f"Condition tags: {'; '.join(condition['tags'])}. Basis: {condition['basis']}\n\n"
+                      if condition is not None and condition == before["character"].get("condition") else "")
     summary = (
         "| Field | Current |\n"
         "| --- | --- |\n"
@@ -129,7 +132,7 @@ def _turn_scene(event: dict, before: dict) -> str:
         f"Elapsed: {_duration(payload['elapsed_seconds'])}\n\n"
         f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}.\n\n"
         f"Phase: {phase}.\n\n"
-        + payload["narrative"]
+        + condition_note + payload["narrative"]
     ]
     ledger = _turn_ledger(before, state, payload)
     if ledger:

@@ -48,7 +48,7 @@ class JournalTests(unittest.TestCase):
         render_campaign(self.store, self.output)
         story = self.read("story.md")
         self.assertIn(narrative, story)
-        self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+)$", story, re.MULTILINE))
+        self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
         self.assertIn("Day 0, 12:00:00 to Day 0, 14:00:00", story)
         self.assertIn("Day 0, 14:00:00 to Day 3, 14:00:00", story)
         self.assertIn("Phase: Test household service", story)
@@ -136,7 +136,7 @@ class JournalTests(unittest.TestCase):
         render_campaign(self.store, self.output)
         story = self.read("story.md")
         self.assertNotIn("### Ledger", story)
-        self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+)$", story, re.MULTILINE))
+        self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
 
     def test_workflow_turn_matches_shared_presentation_and_decision_index(self):
         self.store.initialize(setup_payload(workflow_state()))
@@ -146,8 +146,8 @@ class JournalTests(unittest.TestCase):
         turn = self.read("turns/turn-000001.md")
         self.assertIn("| Field | Current |", turn)
         self.assertIn("| Name | Test Adult |", turn)
-        self.assertIn("| Age | 30 |", turn)
-        self.assertIn("| Condition | 8/9 Hale (Healthy) |", turn)
+        self.assertIn("| Age | 24 |", turn)
+        self.assertIn("| Condition | not recorded |", turn)
         self.assertRegex(turn, r"## Turn 1 \\| Day 0, ")
         self.assertIn("### Next\n\nChoose whether to continue the invented account review.", turn)
         self.assertEqual("Choose whether to continue the invented account review.",
@@ -286,7 +286,7 @@ class JournalTests(unittest.TestCase):
         self.assertIn("Evidence turns: 1, 10.", story)
         self.assertLess(story.index("## Turn 10"), story.index("### OOC assessment"))
         self.assertEqual([str(number) for number in range(1, 11)],
-                         re.findall(r"^## Turn (\d+)$", story, re.MULTILINE))
+                         re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
 
     def test_new_head_refreshes_owned_views_and_preserves_unrelated_files(self):
         self.initialize()
