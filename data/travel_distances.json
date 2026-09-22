@@ -1,0 +1,6457 @@
+{
+  "schema_version": 1,
+  "source": {
+    "spreadsheet_id": "1ZsY3lcDDtTdBWp1Gx6mfkdtZT6-Gk0kdTGeSC_Dj7WM",
+    "title": "ASOIAF Timeline - Vandal Proof",
+    "url": "https://docs.google.com/spreadsheets/d/1ZsY3lcDDtTdBWp1Gx6mfkdtZT6-Gk0kdTGeSC_Dj7WM/edit",
+    "accessed_date": "2026-09-22",
+    "classification": "Fan-made estimates; not canonical geography or chronology",
+    "import_scope": "Numeric road, sea and raven matrices and labeled road pace rows only. Timeline, plot notes and unnamed route stubs are excluded."
+  },
+  "units": {
+    "distance": "miles",
+    "rate": "miles per day",
+    "basis": "The road speed sheet explicitly labels distance in miles and uses 680 for Castle Black to Winterfell, matching the road matrix. The matrix titles omit units; treating sea and raven matrix numbers as miles is an explicit campaign convention consistent with the workbook's mpd rates, not a verified statement in those headers."
+  },
+  "assumptions": [
+    "Route mileage is treated as symmetric; travel time, access and conditions are not.",
+    "Cells are preserved as supplied, even when they conflict with other routes. No shortest-path recalculation or silent corrections.",
+    "Workbook travel speeds are estimates and require a suitable party, pace, conditions and means; the source warns that fast paces have limited endurance.",
+    "Raven distance does not establish a trained bird's destination, availability, successful delivery or recipient knowledge.",
+    "Sea distance does not establish ship availability, sailing conditions or embarkation time. Supply an explicit speed assumption for sea or raven estimates.",
+    "Estimates do not advance campaign time or guarantee uninterrupted travel.",
+    "One numeric row in the road speed sheet has no travel-mode label and was not assigned an invented profile."
+  ],
+  "aliases": {
+    "Kneeling Man": "Inn of Kneeling Man",
+    "Harroway's Twn": "Lord Harroway's Town"
+  },
+  "routes": [
+    {
+      "mode": "road",
+      "from": "Winterfell",
+      "to": "Castle Black",
+      "distance_miles": 680,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B6"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "White Harbor",
+      "to": "Castle Black",
+      "distance_miles": 1105,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B7"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "White Harbor",
+      "to": "Winterfell",
+      "distance_miles": 490,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C7"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Moat Cailin",
+      "to": "Castle Black",
+      "distance_miles": 1080,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B8"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Moat Cailin",
+      "to": "Winterfell",
+      "distance_miles": 590,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C8"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Moat Cailin",
+      "to": "White Harbor",
+      "distance_miles": 180,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D8"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Twins",
+      "to": "Castle Black",
+      "distance_miles": 1610,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B9"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Twins",
+      "to": "Winterfell",
+      "distance_miles": 1120,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C9"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Twins",
+      "to": "White Harbor",
+      "distance_miles": 710,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D9"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Twins",
+      "to": "Moat Cailin",
+      "distance_miles": 530,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E9"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Eyrie",
+      "to": "Castle Black",
+      "distance_miles": 2650,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B10"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Eyrie",
+      "to": "Winterfell",
+      "distance_miles": 1970,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C10"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Eyrie",
+      "to": "White Harbor",
+      "distance_miles": 1460,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D10"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Eyrie",
+      "to": "Moat Cailin",
+      "distance_miles": 1280,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E10"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Eyrie",
+      "to": "The Twins",
+      "distance_miles": 930,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F10"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "Castle Black",
+      "distance_miles": 2970,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "Winterfell",
+      "distance_miles": 2290,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "White Harbor",
+      "distance_miles": 1880,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "Moat Cailin",
+      "distance_miles": 1700,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "The Twins",
+      "distance_miles": 1350,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Gulltown",
+      "to": "The Eyrie",
+      "distance_miles": 450,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G11"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "Castle Black",
+      "distance_miles": 2175,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "Winterfell",
+      "distance_miles": 1495,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "White Harbor",
+      "distance_miles": 1185,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "Moat Cailin",
+      "distance_miles": 905,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "The Twins",
+      "distance_miles": 375,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "The Eyrie",
+      "distance_miles": 680,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Inn of Kneeling Man",
+      "to": "Gulltown",
+      "distance_miles": 930,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H12"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "Castle Black",
+      "distance_miles": 2040,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "Winterfell",
+      "distance_miles": 1360,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "White Harbor",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "Moat Cailin",
+      "distance_miles": 770,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "The Twins",
+      "distance_miles": 420,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "The Eyrie",
+      "distance_miles": 545,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "Gulltown",
+      "distance_miles": 830,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "The Trident",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 135,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I13"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "Castle Black",
+      "distance_miles": 2295,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "Winterfell",
+      "distance_miles": 1615,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "White Harbor",
+      "distance_miles": 1205,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "Moat Cailin",
+      "distance_miles": 1025,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "The Twins",
+      "distance_miles": 495,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "The Eyrie",
+      "distance_miles": 740,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "Gulltown",
+      "distance_miles": 1050,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 120,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Riverrun",
+      "to": "The Trident",
+      "distance_miles": 255,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J14"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Castle Black",
+      "distance_miles": 2240,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Winterfell",
+      "distance_miles": 1560,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "White Harbor",
+      "distance_miles": 1150,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Moat Cailin",
+      "distance_miles": 970,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "The Twins",
+      "distance_miles": 555,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "The Eyrie",
+      "distance_miles": 440,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Gulltown",
+      "distance_miles": 750,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 180,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "The Trident",
+      "distance_miles": 100,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lord Harroway's Town",
+      "to": "Riverrun",
+      "distance_miles": 300,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K15"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Castle Black",
+      "distance_miles": 2335,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Winterfell",
+      "distance_miles": 1655,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "White Harbor",
+      "distance_miles": 1245,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Moat Cailin",
+      "distance_miles": 1065,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "The Twins",
+      "distance_miles": 615,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "The Eyrie",
+      "distance_miles": 535,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Gulltown",
+      "distance_miles": 845,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 240,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "The Trident",
+      "distance_miles": 195,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Riverrun",
+      "distance_miles": 285,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Harrenhal",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 95,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L16"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Castle Black",
+      "distance_miles": 2515,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Winterfell",
+      "distance_miles": 1835,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "White Harbor",
+      "distance_miles": 1525,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Moat Cailin",
+      "distance_miles": 1245,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "The Twins",
+      "distance_miles": 715,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "The Eyrie",
+      "distance_miles": 805,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Gulltown",
+      "distance_miles": 1115,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 340,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "The Trident",
+      "distance_miles": 475,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Riverrun",
+      "distance_miles": 260,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 365,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Stoney Sept",
+      "to": "Harrenhal",
+      "distance_miles": 270,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M17"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Castle Black",
+      "distance_miles": 2885,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Winterfell",
+      "distance_miles": 2205,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "White Harbor",
+      "distance_miles": 1795,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Moat Cailin",
+      "distance_miles": 1615,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "The Twins",
+      "distance_miles": 1085,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "The Eyrie",
+      "distance_miles": 1330,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Gulltown",
+      "distance_miles": 1640,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 710,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "The Trident",
+      "distance_miles": 845,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Riverrun",
+      "distance_miles": 590,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Harrenhal",
+      "distance_miles": 795,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Lannisport",
+      "to": "Stoney Sept",
+      "distance_miles": 650,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N18"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Castle Black",
+      "distance_miles": 2690,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Winterfell",
+      "distance_miles": 2010,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "White Harbor",
+      "distance_miles": 1600,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Moat Cailin",
+      "distance_miles": 1420,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "The Twins",
+      "distance_miles": 1070,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "The Eyrie",
+      "distance_miles": 990,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Gulltown",
+      "distance_miles": 1200,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 630,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "The Trident",
+      "distance_miles": 550,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Riverrun",
+      "distance_miles": 750,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 450,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Harrenhal",
+      "distance_miles": 380,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Stoney Sept",
+      "distance_miles": 470,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "King's Landing",
+      "to": "Lannisport",
+      "distance_miles": 990,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O19"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Castle Black",
+      "distance_miles": 2965,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Winterfell",
+      "distance_miles": 2285,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "White Harbor",
+      "distance_miles": 1875,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Moat Cailin",
+      "distance_miles": 1695,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "The Twins",
+      "distance_miles": 1125,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "The Eyrie",
+      "distance_miles": 1165,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Gulltown",
+      "distance_miles": 1475,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 750,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "The Trident",
+      "distance_miles": 825,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Riverrun",
+      "distance_miles": 670,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 725,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Harrenhal",
+      "distance_miles": 630,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Stoney Sept",
+      "distance_miles": 410,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "Lannisport",
+      "distance_miles": 730,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Bitterbridge",
+      "to": "King's Landing",
+      "distance_miles": 520,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P20"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Castle Black",
+      "distance_miles": 3170,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Winterfell",
+      "distance_miles": 2490,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "White Harbor",
+      "distance_miles": 2080,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Moat Cailin",
+      "distance_miles": 1900,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "The Twins",
+      "distance_miles": 1350,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "The Eyrie",
+      "distance_miles": 1370,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Gulltown",
+      "distance_miles": 1680,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1110,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "The Trident",
+      "distance_miles": 1030,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Riverrun",
+      "distance_miles": 1230,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 930,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Harrenhal",
+      "distance_miles": 860,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Stoney Sept",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Lannisport",
+      "distance_miles": 1470,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "King's Landing",
+      "distance_miles": 480,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Storm's End",
+      "to": "Bitterbridge",
+      "distance_miles": 730,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q21"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Castle Black",
+      "distance_miles": 3150,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Winterfell",
+      "distance_miles": 2470,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "White Harbor",
+      "distance_miles": 2060,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Moat Cailin",
+      "distance_miles": 1880,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "The Twins",
+      "distance_miles": 1555,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "The Eyrie",
+      "distance_miles": 1350,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Gulltown",
+      "distance_miles": 1660,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1180,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "The Trident",
+      "distance_miles": 1010,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Riverrun",
+      "distance_miles": 1100,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 910,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Harrenhal",
+      "distance_miles": 840,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Stoney Sept",
+      "distance_miles": 840,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Lannisport",
+      "distance_miles": 1210,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "King's Landing",
+      "distance_miles": 460,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Bitterbridge",
+      "distance_miles": 410,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Summerhall",
+      "to": "Storm's End",
+      "distance_miles": 350,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R22"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Castle Black",
+      "distance_miles": 3185,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Winterfell",
+      "distance_miles": 2505,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "White Harbor",
+      "distance_miles": 2095,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Moat Cailin",
+      "distance_miles": 1915,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "The Twins",
+      "distance_miles": 1345,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "The Eyrie",
+      "distance_miles": 1385,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Gulltown",
+      "distance_miles": 1695,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 970,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "The Trident",
+      "distance_miles": 1045,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Riverrun",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 945,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Harrenhal",
+      "distance_miles": 850,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Stoney Sept",
+      "distance_miles": 630,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Lannisport",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "King's Landing",
+      "distance_miles": 650,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Bitterbridge",
+      "distance_miles": 220,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Storm's End",
+      "distance_miles": 650,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Ashford",
+      "to": "Summerhall",
+      "distance_miles": 300,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S23"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Castle Black",
+      "distance_miles": 3630,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Winterfell",
+      "distance_miles": 2950,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "White Harbor",
+      "distance_miles": 2540,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Moat Cailin",
+      "distance_miles": 2360,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "The Twins",
+      "distance_miles": 1740,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "The Eyrie",
+      "distance_miles": 1830,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Gulltown",
+      "distance_miles": 2140,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1365,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "The Trident",
+      "distance_miles": 1490,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Riverrun",
+      "distance_miles": 1285,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 1390,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Harrenhal",
+      "distance_miles": 1295,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Stoney Sept",
+      "distance_miles": 1025,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Lannisport",
+      "distance_miles": 730,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "King's Landing",
+      "distance_miles": 915,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Bitterbridge",
+      "distance_miles": 395,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Storm's End",
+      "distance_miles": 990,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Summerhall",
+      "distance_miles": 640,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Highgarden",
+      "to": "Ashford",
+      "distance_miles": 340,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "T24"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Castle Black",
+      "distance_miles": 3365,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Winterfell",
+      "distance_miles": 2685,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "White Harbor",
+      "distance_miles": 2275,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Moat Cailin",
+      "distance_miles": 2095,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "The Twins",
+      "distance_miles": 1525,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "The Eyrie",
+      "distance_miles": 1565,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Gulltown",
+      "distance_miles": 1875,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1150,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "The Trident",
+      "distance_miles": 1225,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Riverrun",
+      "distance_miles": 1070,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 1125,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Harrenhal",
+      "distance_miles": 1030,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Stoney Sept",
+      "distance_miles": 810,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Lannisport",
+      "distance_miles": 1100,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "King's Landing",
+      "distance_miles": 755,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Bitterbridge",
+      "distance_miles": 400,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Storm's End",
+      "distance_miles": 645,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Summerhall",
+      "distance_miles": 295,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Ashford",
+      "distance_miles": 180,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "T25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Tower of Joy",
+      "to": "Highgarden",
+      "distance_miles": 370,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "U25"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Castle Black",
+      "distance_miles": 3750,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Winterfell",
+      "distance_miles": 3070,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "White Harbor",
+      "distance_miles": 2660,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Moat Cailin",
+      "distance_miles": 2480,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "The Twins",
+      "distance_miles": 1910,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "The Eyrie",
+      "distance_miles": 1950,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Gulltown",
+      "distance_miles": 2260,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1535,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "The Trident",
+      "distance_miles": 1610,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Riverrun",
+      "distance_miles": 1455,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 1510,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Harrenhal",
+      "distance_miles": 1415,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Stoney Sept",
+      "distance_miles": 1195,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Lannisport",
+      "distance_miles": 1120,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "King's Landing",
+      "distance_miles": 1305,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Bitterbridge",
+      "distance_miles": 785,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Storm's End",
+      "distance_miles": 1380,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Summerhall",
+      "distance_miles": 1030,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Ashford",
+      "distance_miles": 730,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "T26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Highgarden",
+      "distance_miles": 390,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "U26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Oldtown",
+      "to": "Tower of Joy",
+      "distance_miles": 760,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "V26"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Castle Black",
+      "distance_miles": 3395,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Winterfell",
+      "distance_miles": 2715,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "White Harbor",
+      "distance_miles": 2305,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Moat Cailin",
+      "distance_miles": 2125,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "The Twins",
+      "distance_miles": 1555,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "The Eyrie",
+      "distance_miles": 1595,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Gulltown",
+      "distance_miles": 1905,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 1180,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "The Trident",
+      "distance_miles": 1255,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Riverrun",
+      "distance_miles": 1100,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 1155,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Harrenhal",
+      "distance_miles": 1060,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Stoney Sept",
+      "distance_miles": 840,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Lannisport",
+      "distance_miles": 1015,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "King's Landing",
+      "distance_miles": 885,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Bitterbridge",
+      "distance_miles": 430,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Storm's End",
+      "distance_miles": 775,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Summerhall",
+      "distance_miles": 425,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Ashford",
+      "distance_miles": 210,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "T27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Highgarden",
+      "distance_miles": 285,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "U27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Tower of Joy",
+      "distance_miles": 130,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "V27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Nightsong",
+      "to": "Oldtown",
+      "distance_miles": 675,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "W27"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Castle Black",
+      "distance_miles": 4565,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "B28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Winterfell",
+      "distance_miles": 3885,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "C28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "White Harbor",
+      "distance_miles": 3475,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "D28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Moat Cailin",
+      "distance_miles": 3295,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "E28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "The Twins",
+      "distance_miles": 2725,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "F28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "The Eyrie",
+      "distance_miles": 2765,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "G28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Gulltown",
+      "distance_miles": 3075,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "H28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Inn of Kneeling Man",
+      "distance_miles": 2350,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "I28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "The Trident",
+      "distance_miles": 2425,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "J28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Riverrun",
+      "distance_miles": 2270,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "K28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Lord Harroway's Town",
+      "distance_miles": 2325,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "L28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Harrenhal",
+      "distance_miles": 2230,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "M28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Stoney Sept",
+      "distance_miles": 2010,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "N28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Lannisport",
+      "distance_miles": 2185,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "O28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "King's Landing",
+      "distance_miles": 2055,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "P28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Bitterbridge",
+      "distance_miles": 1600,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "Q28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Storm's End",
+      "distance_miles": 1945,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "R28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Summerhall",
+      "distance_miles": 1595,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "S28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Ashford",
+      "distance_miles": 1380,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "T28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Highgarden",
+      "distance_miles": 1455,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "U28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Tower of Joy",
+      "distance_miles": 1300,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "V28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Oldtown",
+      "distance_miles": 1845,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "W28"
+      }
+    },
+    {
+      "mode": "road",
+      "from": "Sunspear",
+      "to": "Nightsong",
+      "distance_miles": 1170,
+      "source": {
+        "sheet": "Distance by road",
+        "gid": 1,
+        "cell": "X28"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Widow's Watch",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 1420,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B6"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "White Harbor",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 2130,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B7"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "White Harbor",
+      "to": "Widow's Watch",
+      "distance_miles": 710,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C7"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Gulltown",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 2330,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B8"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Gulltown",
+      "to": "Widow's Watch",
+      "distance_miles": 910,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C8"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Gulltown",
+      "to": "White Harbor",
+      "distance_miles": 1330,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D8"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Dragonstone",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 2580,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B9"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Dragonstone",
+      "to": "Widow's Watch",
+      "distance_miles": 1160,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C9"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Dragonstone",
+      "to": "White Harbor",
+      "distance_miles": 1560,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D9"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Dragonstone",
+      "to": "Gulltown",
+      "distance_miles": 360,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E9"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sharp Point",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 2685,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B10"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sharp Point",
+      "to": "Widow's Watch",
+      "distance_miles": 1265,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C10"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sharp Point",
+      "to": "White Harbor",
+      "distance_miles": 1665,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D10"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sharp Point",
+      "to": "Gulltown",
+      "distance_miles": 465,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E10"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sharp Point",
+      "to": "Dragonstone",
+      "distance_miles": 105,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F10"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 3070,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "Widow's Watch",
+      "distance_miles": 1650,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "White Harbor",
+      "distance_miles": 2050,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "Gulltown",
+      "distance_miles": 850,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "Dragonstone",
+      "distance_miles": 490,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "King's Landing",
+      "to": "Sharp Point",
+      "distance_miles": 375,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G11"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 3690,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "Widow's Watch",
+      "distance_miles": 2270,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "White Harbor",
+      "distance_miles": 2670,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "Gulltown",
+      "distance_miles": 1470,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "Dragonstone",
+      "distance_miles": 725,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "Sharp Point",
+      "distance_miles": 620,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Storm's End",
+      "to": "King's Landing",
+      "distance_miles": 995,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H12"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 4930,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Widow's Watch",
+      "distance_miles": 3510,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "White Harbor",
+      "distance_miles": 3910,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Gulltown",
+      "distance_miles": 2710,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Dragonstone",
+      "distance_miles": 1965,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Sharp Point",
+      "distance_miles": 1240,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "King's Landing",
+      "distance_miles": 1615,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Sunspear",
+      "to": "Storm's End",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I13"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 6690,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Widow's Watch",
+      "distance_miles": 5270,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "White Harbor",
+      "distance_miles": 5670,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Gulltown",
+      "distance_miles": 4470,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Dragonstone",
+      "distance_miles": 3725,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Sharp Point",
+      "distance_miles": 3000,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "King's Landing",
+      "distance_miles": 3375,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Storm's End",
+      "distance_miles": 2650,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Oldtown",
+      "to": "Sunspear",
+      "distance_miles": 1760,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "J14"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 7780,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Widow's Watch",
+      "distance_miles": 6360,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "White Harbor",
+      "distance_miles": 6760,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Gulltown",
+      "distance_miles": 5560,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Dragonstone",
+      "distance_miles": 4815,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Sharp Point",
+      "distance_miles": 4090,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "King's Landing",
+      "distance_miles": 4465,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Storm's End",
+      "distance_miles": 3470,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Sunspear",
+      "distance_miles": 2850,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "J15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Lannisport",
+      "to": "Oldtown",
+      "distance_miles": 1210,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "K15"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 8480,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Widow's Watch",
+      "distance_miles": 7060,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "White Harbor",
+      "distance_miles": 7460,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Gulltown",
+      "distance_miles": 6260,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Dragonstone",
+      "distance_miles": 5515,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Sharp Point",
+      "distance_miles": 4790,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "King's Landing",
+      "distance_miles": 5165,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Storm's End",
+      "distance_miles": 4170,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Sunspear",
+      "distance_miles": 3550,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "J16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Oldtown",
+      "distance_miles": 1910,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "K16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Pyke",
+      "to": "Lannisport",
+      "distance_miles": 700,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "L16"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 8930,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Widow's Watch",
+      "distance_miles": 7510,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "White Harbor",
+      "distance_miles": 7910,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Gulltown",
+      "distance_miles": 6710,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Dragonstone",
+      "distance_miles": 5965,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Sharp Point",
+      "distance_miles": 5240,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "King's Landing",
+      "distance_miles": 5615,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Storm's End",
+      "distance_miles": 4620,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Sunspear",
+      "distance_miles": 4000,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "J17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Oldtown",
+      "distance_miles": 2360,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "K17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Lannisport",
+      "distance_miles": 1150,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "L17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Seagard",
+      "to": "Pyke",
+      "distance_miles": 450,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "M17"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Eastwatch-by-the-Sea",
+      "distance_miles": 10215,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "B18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Widow's Watch",
+      "distance_miles": 8795,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "C18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "White Harbor",
+      "distance_miles": 9195,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "D18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Gulltown",
+      "distance_miles": 7995,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "E18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Dragonstone",
+      "distance_miles": 7250,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "F18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Sharp Point",
+      "distance_miles": 6525,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "G18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "King's Landing",
+      "distance_miles": 6900,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "H18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Storm's End",
+      "distance_miles": 5905,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "I18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Sunspear",
+      "distance_miles": 5285,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "J18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Oldtown",
+      "distance_miles": 3645,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "K18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Lannisport",
+      "distance_miles": 2435,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "L18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Pyke",
+      "distance_miles": 1880,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "M18"
+      }
+    },
+    {
+      "mode": "sea",
+      "from": "Bear Island",
+      "to": "Seagard",
+      "distance_miles": 2100,
+      "source": {
+        "sheet": "Distance by sea",
+        "gid": 3,
+        "cell": "N18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Winterfell",
+      "to": "Castle Black",
+      "distance_miles": 640,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B6"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "White Harbor",
+      "to": "Castle Black",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B7"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "White Harbor",
+      "to": "Winterfell",
+      "distance_miles": 410,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C7"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Twins",
+      "to": "Castle Black",
+      "distance_miles": 1480,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B8"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Twins",
+      "to": "Winterfell",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C8"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Twins",
+      "to": "White Harbor",
+      "distance_miles": 555,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D8"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Eyrie",
+      "to": "Castle Black",
+      "distance_miles": 1515,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B9"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Eyrie",
+      "to": "Winterfell",
+      "distance_miles": 1060,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C9"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Eyrie",
+      "to": "White Harbor",
+      "distance_miles": 630,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D9"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Eyrie",
+      "to": "The Twins",
+      "distance_miles": 505,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E9"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Gulltown",
+      "to": "Castle Black",
+      "distance_miles": 1690,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B10"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Gulltown",
+      "to": "Winterfell",
+      "distance_miles": 1305,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C10"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Gulltown",
+      "to": "White Harbor",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D10"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Gulltown",
+      "to": "The Twins",
+      "distance_miles": 880,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E10"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Gulltown",
+      "to": "The Eyrie",
+      "distance_miles": 370,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F10"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "Castle Black",
+      "distance_miles": 1840,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "Winterfell",
+      "distance_miles": 1230,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "White Harbor",
+      "distance_miles": 980,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "The Twins",
+      "distance_miles": 460,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "The Eyrie",
+      "distance_miles": 940,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Pyke",
+      "to": "Gulltown",
+      "distance_miles": 1280,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G11"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "Castle Black",
+      "distance_miles": 1700,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "Winterfell",
+      "distance_miles": 1140,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "White Harbor",
+      "distance_miles": 860,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "The Twins",
+      "distance_miles": 380,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "The Eyrie",
+      "distance_miles": 300,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "Gulltown",
+      "distance_miles": 590,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "The Trident",
+      "to": "Pyke",
+      "distance_miles": 700,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H12"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "Castle Black",
+      "distance_miles": 1820,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "Winterfell",
+      "distance_miles": 1340,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "White Harbor",
+      "distance_miles": 870,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "The Twins",
+      "distance_miles": 355,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "The Eyrie",
+      "distance_miles": 555,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "Gulltown",
+      "distance_miles": 860,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "Pyke",
+      "distance_miles": 450,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Riverrun",
+      "to": "The Trident",
+      "distance_miles": 270,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I13"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "Castle Black",
+      "distance_miles": 1860,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "Winterfell",
+      "distance_miles": 1320,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "White Harbor",
+      "distance_miles": 920,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "The Twins",
+      "distance_miles": 505,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "The Eyrie",
+      "distance_miles": 405,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "Gulltown",
+      "distance_miles": 620,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "Pyke",
+      "distance_miles": 735,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "The Trident",
+      "distance_miles": 150,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Harrenhal",
+      "to": "Riverrun",
+      "distance_miles": 275,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J14"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Castle Black",
+      "distance_miles": 1990,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Winterfell",
+      "distance_miles": 1580,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "White Harbor",
+      "distance_miles": 1140,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "The Twins",
+      "distance_miles": 995,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "The Eyrie",
+      "distance_miles": 555,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Gulltown",
+      "distance_miles": 320,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Pyke",
+      "distance_miles": 1295,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "The Trident",
+      "distance_miles": 650,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Riverrun",
+      "distance_miles": 830,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Dragonstone",
+      "to": "Harrenhal",
+      "distance_miles": 565,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K15"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Castle Black",
+      "distance_miles": 2060,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Winterfell",
+      "distance_miles": 1380,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "White Harbor",
+      "distance_miles": 1095,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "The Twins",
+      "distance_miles": 600,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "The Eyrie",
+      "distance_miles": 670,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Gulltown",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Pyke",
+      "distance_miles": 605,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "The Trident",
+      "distance_miles": 385,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Riverrun",
+      "distance_miles": 250,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Harrenhal",
+      "distance_miles": 280,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Stoney Sept",
+      "to": "Dragonstone",
+      "distance_miles": 785,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L16"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Castle Black",
+      "distance_miles": 2230,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Winterfell",
+      "distance_miles": 1670,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "White Harbor",
+      "distance_miles": 1330,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "The Twins",
+      "distance_miles": 815,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "The Eyrie",
+      "distance_miles": 1120,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Gulltown",
+      "distance_miles": 1390,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Pyke",
+      "distance_miles": 455,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "The Trident",
+      "distance_miles": 830,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Riverrun",
+      "distance_miles": 570,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Harrenhal",
+      "distance_miles": 775,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Dragonstone",
+      "distance_miles": 1290,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Lannisport",
+      "to": "Stoney Sept",
+      "distance_miles": 510,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M17"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Castle Black",
+      "distance_miles": 2170,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Winterfell",
+      "distance_miles": 1685,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "White Harbor",
+      "distance_miles": 1240,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "The Twins",
+      "distance_miles": 870,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "The Eyrie",
+      "distance_miles": 670,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Gulltown",
+      "distance_miles": 690,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Pyke",
+      "distance_miles": 1030,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "The Trident",
+      "distance_miles": 530,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Riverrun",
+      "distance_miles": 595,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Harrenhal",
+      "distance_miles": 360,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Dragonstone",
+      "distance_miles": 450,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Stoney Sept",
+      "distance_miles": 410,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "King's Landing",
+      "to": "Lannisport",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N18"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Castle Black",
+      "distance_miles": 2430,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Winterfell",
+      "distance_miles": 1780,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "White Harbor",
+      "distance_miles": 1380,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "The Twins",
+      "distance_miles": 1000,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "The Eyrie",
+      "distance_miles": 1000,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Gulltown",
+      "distance_miles": 1100,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Pyke",
+      "distance_miles": 930,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "The Trident",
+      "distance_miles": 775,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Riverrun",
+      "distance_miles": 645,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Harrenhal",
+      "distance_miles": 595,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Dragonstone",
+      "distance_miles": 870,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Stoney Sept",
+      "distance_miles": 400,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "Lannisport",
+      "distance_miles": 600,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Bitterbridge",
+      "to": "King's Landing",
+      "distance_miles": 420,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O19"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Castle Black",
+      "distance_miles": 2520,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Winterfell",
+      "distance_miles": 2080,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "White Harbor",
+      "distance_miles": 1620,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "The Twins",
+      "distance_miles": 1305,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "The Eyrie",
+      "distance_miles": 1020,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Gulltown",
+      "distance_miles": 905,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Pyke",
+      "distance_miles": 1450,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "The Trident",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Riverrun",
+      "distance_miles": 1030,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Harrenhal",
+      "distance_miles": 795,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Dragonstone",
+      "distance_miles": 590,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Stoney Sept",
+      "distance_miles": 815,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Lannisport",
+      "distance_miles": 605,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "King's Landing",
+      "distance_miles": 440,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Storm's End",
+      "to": "Bitterbridge",
+      "distance_miles": 630,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P20"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Castle Black",
+      "distance_miles": 2585,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Winterfell",
+      "distance_miles": 2080,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "White Harbor",
+      "distance_miles": 1650,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "The Twins",
+      "distance_miles": 1245,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "The Eyrie",
+      "distance_miles": 1095,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Gulltown",
+      "distance_miles": 1080,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Pyke",
+      "distance_miles": 1255,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "The Trident",
+      "distance_miles": 935,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Riverrun",
+      "distance_miles": 905,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Harrenhal",
+      "distance_miles": 780,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Dragonstone",
+      "distance_miles": 790,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Stoney Sept",
+      "distance_miles": 670,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Lannisport",
+      "distance_miles": 955,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "King's Landing",
+      "distance_miles": 420,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Bitterbridge",
+      "distance_miles": 355,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Summerhall",
+      "to": "Storm's End",
+      "distance_miles": 330,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "Q21"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Castle Black",
+      "distance_miles": 2615,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Winterfell",
+      "distance_miles": 1970,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "White Harbor",
+      "distance_miles": 1660,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "The Twins",
+      "distance_miles": 1195,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "The Eyrie",
+      "distance_miles": 1175,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Gulltown",
+      "distance_miles": 1235,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Pyke",
+      "distance_miles": 1110,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "The Trident",
+      "distance_miles": 960,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Riverrun",
+      "distance_miles": 840,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Harrenhal",
+      "distance_miles": 780,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Dragonstone",
+      "distance_miles": 980,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Stoney Sept",
+      "distance_miles": 595,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Lannisport",
+      "distance_miles": 730,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "King's Landing",
+      "distance_miles": 535,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Bitterbridge",
+      "distance_miles": 195,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Storm's End",
+      "distance_miles": 610,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "Q22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Ashford",
+      "to": "Summerhall",
+      "distance_miles": 290,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "R22"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Castle Black",
+      "distance_miles": 2735,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Winterfell",
+      "distance_miles": 2170,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "White Harbor",
+      "distance_miles": 1780,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "The Twins",
+      "distance_miles": 1285,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "The Eyrie",
+      "distance_miles": 1360,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Gulltown",
+      "distance_miles": 1490,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Pyke",
+      "distance_miles": 1080,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "The Trident",
+      "distance_miles": 1110,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Riverrun",
+      "distance_miles": 930,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Harrenhal",
+      "distance_miles": 950,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Dragonstone",
+      "distance_miles": 1250,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Stoney Sept",
+      "distance_miles": 705,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Lannisport",
+      "distance_miles": 610,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "King's Landing",
+      "distance_miles": 800,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Bitterbridge",
+      "distance_miles": 390,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Storm's End",
+      "distance_miles": 920,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "Q23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Summerhall",
+      "distance_miles": 595,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "R23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Highgarden",
+      "to": "Ashford",
+      "distance_miles": 310,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "S23"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Castle Black",
+      "distance_miles": 3060,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Winterfell",
+      "distance_miles": 2490,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "White Harbor",
+      "distance_miles": 2110,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "The Twins",
+      "distance_miles": 1605,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "The Eyrie",
+      "distance_miles": 1720,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Gulltown",
+      "distance_miles": 1850,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Pyke",
+      "distance_miles": 1310,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "The Trident",
+      "distance_miles": 1450,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Riverrun",
+      "distance_miles": 1270,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Harrenhal",
+      "distance_miles": 1305,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Dragonstone",
+      "distance_miles": 1605,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Stoney Sept",
+      "distance_miles": 1070,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Lannisport",
+      "distance_miles": 840,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "King's Landing",
+      "distance_miles": 1170,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Bitterbridge",
+      "distance_miles": 750,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Storm's End",
+      "distance_miles": 1215,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "Q24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Summerhall",
+      "distance_miles": 890,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "R24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Ashford",
+      "distance_miles": 635,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "S24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Oldtown",
+      "to": "Highgarden",
+      "distance_miles": 370,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "T24"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Castle Black",
+      "distance_miles": 3140,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "B25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Winterfell",
+      "distance_miles": 2710,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "C25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "White Harbor",
+      "distance_miles": 2250,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "D25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "The Twins",
+      "distance_miles": 1930,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "E25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "The Eyrie",
+      "distance_miles": 1670,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "F25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Gulltown",
+      "distance_miles": 1515,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "G25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Pyke",
+      "distance_miles": 1980,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "H25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "The Trident",
+      "distance_miles": 1590,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "I25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Riverrun",
+      "distance_miles": 1605,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "J25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Harrenhal",
+      "distance_miles": 1410,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "K25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Dragonstone",
+      "distance_miles": 1200,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "L25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Stoney Sept",
+      "distance_miles": 1380,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "M25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Lannisport",
+      "distance_miles": 1635,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "N25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "King's Landing",
+      "distance_miles": 1070,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "O25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Bitterbridge",
+      "distance_miles": 1060,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "P25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Storm's End",
+      "distance_miles": 620,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "Q25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Summerhall",
+      "distance_miles": 715,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "R25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Ashford",
+      "distance_miles": 925,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "S25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Highgarden",
+      "distance_miles": 1135,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "T25"
+      }
+    },
+    {
+      "mode": "raven",
+      "from": "Sunspear",
+      "to": "Oldtown",
+      "distance_miles": 1285,
+      "source": {
+        "sheet": "Distance by raven",
+        "gid": 5,
+        "cell": "U25"
+      }
+    }
+  ],
+  "road_profiles": [
+    {
+      "id": "large_group_walking",
+      "label": "Large group walking",
+      "source_range": "'Road travel speed rates'!A8:E8",
+      "rates_miles_per_day": {
+        "slow": 10,
+        "average": 13,
+        "fast_unconditioned": 15,
+        "fast_conditioned": 25
+      }
+    },
+    {
+      "id": "small_party_riding",
+      "label": "Single or small group riding",
+      "source_range": "'Road travel speed rates'!A9:E9",
+      "rates_miles_per_day": {
+        "slow": 18,
+        "average": 24,
+        "fast_unconditioned": 30,
+        "fast_conditioned": 50
+      }
+    },
+    {
+      "id": "large_group_riding",
+      "label": "Large group of riders",
+      "source_range": "'Road travel speed rates'!A10:E10",
+      "rates_miles_per_day": {
+        "slow": 16,
+        "average": 21,
+        "fast_unconditioned": 26,
+        "fast_conditioned": 42
+      }
+    },
+    {
+      "id": "horse_relays",
+      "label": "Change horses every 10-12 miles",
+      "source_range": "'Road travel speed rates'!A11:E11",
+      "rates_miles_per_day": {
+        "slow": 30,
+        "average": 50,
+        "fast_unconditioned": 75,
+        "fast_conditioned": 100
+      }
+    },
+    {
+      "id": "army_with_supply_train",
+      "label": "Army with supply train",
+      "source_range": "'Road travel speed rates'!A12:E12",
+      "rates_miles_per_day": {
+        "slow": 6,
+        "average": 11,
+        "fast_unconditioned": 14,
+        "fast_conditioned": 17
+      }
+    },
+    {
+      "id": "army_without_supply_train",
+      "label": "Army without supply train",
+      "source_range": "'Road travel speed rates'!A13:E13",
+      "rates_miles_per_day": {
+        "slow": 12,
+        "average": 14,
+        "fast_unconditioned": 16,
+        "fast_conditioned": 20
+      }
+    },
+    {
+      "id": "royal_wheelhouse",
+      "label": "Royal party with wheelhouse",
+      "source_range": "'Road travel speed rates'!A14:E14",
+      "rates_miles_per_day": {
+        "slow": 5,
+        "average": 10,
+        "fast_unconditioned": 12,
+        "fast_conditioned": 14
+      }
+    }
+  ]
+}
