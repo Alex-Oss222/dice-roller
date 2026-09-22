@@ -4,7 +4,7 @@ Read character-sheet.md first, then ../../AGENTS.md. This is Eddard Stark's supp
 
 The character, setup.json, opening.md and notes/setup-decisions.md are prepared and validated. The opening is a substantial Turn 0 scene governed by the shared opening/narrative rules, while resolved Turn 1+ pages use the shared turn-output contract. Preserve the supplied ratings and intentional appearance; money and unlisted possessions remain unknown. The healthy Condition8 basis, five-novel scope and Day0 18:00 anchor are explicit setup conventions. No exact canon date is asserted.
 
-No live events exist yet. Repository maintenance is not permission to start play. On the player's start request, use `start` to accept the prepared setup/opening and render output. It is Turn0; the player's first resolved action is Turn1. Start is idempotent and resumes an existing story.
+Turn 0 setup/opening is accepted and is the only live event. No resolved Turn 1+ event exists. Do not reinitialize or replay Turn 0. Continue from the accepted Turn 0 head when the player gives a new action; the first resolved action is Turn 1. `start` remains idempotent but is not needed to continue.
 
 After setup, campaign/events is authoritative. play/ contains generated reading pages. Do not import later starting-sheet edits automatically. Use context, focused record retrieval and advance for subsequent decisions; story-001 selects adjudicated workflow1 and Blood & Gold capabilities. No fabricated dice.
 
