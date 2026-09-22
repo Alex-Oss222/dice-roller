@@ -32,6 +32,40 @@ def workflow_state(records=None):
     return state
 
 
+def blood_gold_workflow_state():
+    state = workflow_state()
+    state["campaign"]["capability_system"] = "blood_and_gold_0_9"
+    state["campaign"]["permitted_books"] = ["Invented test source with no published plot facts"]
+    state["character"]["skills"] = {
+        "learning": 3, "accounts": 3, "reading": 3, "arithmetic": 3,
+    }
+
+    def trainable():
+        return {
+            "kind": "subskill",
+            "basis": "Invented specific test ability",
+            "evidence_turns": [0],
+            "development": 0,
+            "aptitude": {"level": "ordinary", "applied_to": "development"},
+            "experience": "Invented test experience",
+            "training": [],
+            "domain": "learning",
+        }
+
+    state["character"]["capabilities"] = {
+        "learning": {
+            "kind": "domain",
+            "basis": "Invented weighted summary for this test",
+            "evidence_turns": [0],
+            "anchors": {"accounts": 40, "reading": 30, "arithmetic": 30},
+        },
+        "accounts": trainable(),
+        "reading": trainable(),
+        "arithmetic": trainable(),
+    }
+    return state
+
+
 def advance_payload(store, seconds=3600, operations=None, changed=(), **overrides):
     state = store.current()
     payload = turn_payload(state["turn"], seconds=seconds)
@@ -42,6 +76,7 @@ def advance_payload(store, seconds=3600, operations=None, changed=(), **override
         "authorization": {"objective": payload["objective"], "max_elapsed_seconds": seconds,
                           "stop_condition": "Stop before any unapproved consequential choice"},
         "adjudication": {"mode": "routine", "actor": "pc", "capability": None,
+                         "supporting_capabilities": [],
                          "preparation": "The necessary test ledger is present", "opposition": "None established",
                          "risk": "No material uncertainty in this routine test action",
                          "basis": "Routine test work follows the established record", "task_band": "routine"},
@@ -372,6 +407,92 @@ class WorkflowTests(unittest.TestCase):
         npc["adjudication"].update(actor="test-clerk",
             capability={"source": "world.records.test-clerk.details", "key": "accounts"})
         self.store.advance(npc)
+
+    def test_supporting_capabilities_are_preexisting_actor_owned_distinct_and_role_labeled(self):
+        self.initialize()
+        valid = advance_payload(self.store)
+        valid["adjudication"]["supporting_capabilities"] = [{
+            "source": "character.skills",
+            "key": "accounts",
+            "role": "Tracks the established figures while the routine inspection is performed",
+        }]
+        self.store.advance(valid)
+
+        cases = []
+        wrong_source = advance_payload(self.store)
+        wrong_source["adjudication"]["supporting_capabilities"] = [{
+            "source": "world.records.test-clerk.details", "key": "accounts", "role": "Borrow an NPC ability",
+        }]
+        cases.append(wrong_source)
+
+        missing = advance_payload(self.store)
+        missing["adjudication"]["supporting_capabilities"] = [{
+            "source": "character.skills", "key": "unrecorded-test-skill", "role": "Use a missing ability",
+        }]
+        cases.append(missing)
+
+        blank_role = advance_payload(self.store)
+        blank_role["adjudication"]["supporting_capabilities"] = [{
+            "source": "character.skills", "key": "accounts", "role": " ",
+        }]
+        cases.append(blank_role)
+
+        duplicate = advance_payload(self.store)
+        duplicate["adjudication"]["supporting_capabilities"] = [
+            {"source": "character.skills", "key": "accounts", "role": "First use"},
+            {"source": "character.skills", "key": "accounts", "role": "Second use"},
+        ]
+        cases.append(duplicate)
+
+        primary_duplicate = advance_payload(self.store)
+        primary_duplicate["adjudication"].update(
+            mode="uncertain",
+            capability={"source": "character.skills", "key": "accounts"},
+            supporting_capabilities=[{
+                "source": "character.skills", "key": "accounts", "role": "Duplicate the primary ability",
+            }],
+            risk="The invented count could remain unresolved",
+            task_band="demanding",
+        )
+        cases.append(primary_duplicate)
+
+        for payload in cases:
+            with self.subTest(payload=payload["adjudication"]):
+                self.reject(payload)
+
+    def test_blood_and_gold_adjudication_uses_specific_abilities_not_broad_domains(self):
+        self.initialize(blood_gold_workflow_state())
+
+        broad_primary = advance_payload(self.store)
+        broad_primary["adjudication"].update(
+            mode="uncertain",
+            capability={"source": "character.skills", "key": "learning"},
+            risk="The invented problem may remain unresolved",
+            task_band="demanding",
+        )
+        self.reject(broad_primary)
+
+        broad_support = advance_payload(self.store)
+        broad_support["adjudication"]["supporting_capabilities"] = [{
+            "source": "character.skills",
+            "key": "learning",
+            "role": "Attempt to substitute a broad domain for a specific action skill",
+        }]
+        self.reject(broad_support)
+
+        valid = advance_payload(self.store)
+        valid["adjudication"].update(
+            mode="uncertain",
+            capability={"source": "character.skills", "key": "accounts"},
+            supporting_capabilities=[{
+                "source": "character.skills",
+                "key": "reading",
+                "role": "Reads the specific entries needed to support the accounting task",
+            }],
+            risk="The invented account could remain unresolved",
+            task_band="demanding",
+        )
+        self.store.advance(valid)
 
     def test_established_capability_does_not_protect_pc_from_a_supported_fatal_result(self):
         state = workflow_state()
