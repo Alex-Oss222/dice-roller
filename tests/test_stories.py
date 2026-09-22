@@ -28,6 +28,11 @@ class StoryTests(unittest.TestCase):
             "data/travel_distances.json": '{"test_fixture": true}\n',
             "references/books.md": "# Shared source policy, no story-specific facts\n",
             "docs/research.md": "# Shared research procedure\n",
+            "docs/play_workflow.md": "# Shared play workflow\n",
+            "docs/record_contract.md": "# Shared record contract\n",
+            "docs/travel.md": "# Shared travel policy\n",
+            "templates/advance.json": "{}\n",
+            "templates/turn-output.md": "# Shared turn output\n",
         }
         for relative, content in self.shared.items():
             path = self.root / relative
@@ -74,6 +79,14 @@ class StoryTests(unittest.TestCase):
 
     def shared_snapshot(self):
         return {relative: (self.root / relative).read_bytes() for relative in self.shared}
+
+    def test_turn_output_contract_is_part_of_story_baseline(self):
+        story = self.create("story-1")
+        contract = self.root / "templates" / "turn-output.md"
+        contract.write_text("# Changed presentation contract\n", encoding="utf-8")
+        mismatches = Story("story-1", root=self.root).baseline_mismatches()
+        self.assertTrue(any("templates/turn-output.md" in item for item in mismatches))
+        self.assertEqual([], story.validate())
 
     def test_creation_copies_character_preparation_without_starting_a_story(self):
         before = self.shared_snapshot()

@@ -4,6 +4,7 @@ from pathlib import Path
 import tempfile
 
 from iron_engine.engine import CampaignError, CampaignStore, read_json
+from iron_engine.journal import render_campaign
 from iron_engine.stories import Story
 
 
@@ -23,7 +24,10 @@ def main() -> int:
                 payload = read_json(story.path / "setup.json")
                 story.check_setup(payload)
                 with tempfile.TemporaryDirectory() as temporary:
-                    CampaignStore(Path(temporary) / "campaign").initialize(payload)
+                    temporary = Path(temporary)
+                    store = CampaignStore(temporary / "campaign")
+                    store.initialize(payload)
+                    render_campaign(store, temporary / "play")
             state = f"turn {events[-1]['state']['turn']}" if events else "awaiting character setup"
             print(f"{path.name}: valid, {state}")
             count += 1

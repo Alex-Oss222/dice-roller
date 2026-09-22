@@ -23,17 +23,45 @@
     "task_band": "routine"
   },
   "coverage": {
-    "character": {"status": "unchanged", "basis": ""},
-    "resources": {"status": "unchanged", "basis": ""},
-    "relationships": {"status": "unchanged", "basis": ""},
-    "obligations": {"status": "unchanged", "basis": ""},
-    "tasks": {"status": "unchanged", "basis": ""},
-    "knowledge": {"status": "unchanged", "basis": ""},
-    "assumptions": {"status": "unchanged", "basis": ""},
-    "plans": {"status": "unchanged", "basis": ""},
-    "world": {"status": "unchanged", "basis": ""}
+    "character": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "resources": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "relationships": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "obligations": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "tasks": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "knowledge": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "assumptions": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "plans": {
+      "status": "unchanged",
+      "basis": ""
+    },
+    "world": {
+      "status": "unchanged",
+      "basis": ""
+    }
   },
   "processed_tasks": {},
   "review": null,
-  "milestones": []
+  "milestones": [],
+  "next_decision": null
 }

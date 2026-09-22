@@ -21,7 +21,9 @@ class EntryPointTests(unittest.TestCase):
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
         for name in ("AGENTS.md", "iron_engine/engine.py", "rules/core.md",
-                     "data/travel_distances.json", "references/books.md", "docs/research.md"):
+                     "data/travel_distances.json", "references/books.md", "docs/research.md",
+                     "docs/play_workflow.md", "docs/record_contract.md", "docs/travel.md",
+                     "templates/advance.json", "templates/turn-output.md"):
             path = self.root / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text("Invented shared test fixture only\n", encoding="utf-8")
@@ -37,6 +39,7 @@ class EntryPointTests(unittest.TestCase):
             state["campaign"]["workflow_version"] = "1"
         payload = setup_payload(state)
         payload["opening_narrative"] = "An invented test clerk waits by the gate."
+        (story.path / "opening.md").write_text(payload["opening_narrative"] + "\n", encoding="utf-8")
         (story.path / "setup.json").write_text(json.dumps(payload), encoding="utf-8")
         return story
 
@@ -63,12 +66,19 @@ class EntryPointTests(unittest.TestCase):
                 "risk": "No meaningful uncertainty", "basis": "Routine visible inspection", "task_band": "routine"},
             "coverage": {key: {"status": "unchanged", "basis": "No change follows from this fixture inspection"}
                          for key in COVERAGE_FIELDS},
-            "processed_tasks": {}, "review": None, "milestones": [],
+            "processed_tasks": {}, "review": None, "next_decision": "Choose the next invented test action.", "milestones": [],
         }
 
     @staticmethod
     def snapshot(path):
         return {str(item.relative_to(path)): item.read_bytes() for item in path.rglob("*") if item.is_file()}
+
+    def test_start_rejects_opening_setup_mismatch_without_creating_events(self):
+        story = self.story()
+        (story.path / "opening.md").write_text("Different prepared opening.\n", encoding="utf-8")
+        result = self.cli("--story", "first", "start")
+        self.assertEqual(2, result[0], result)
+        self.assertEqual([], story.validate())
 
     def test_start_accepts_preparation_once_and_later_resumes_without_reset(self):
         story = self.story()

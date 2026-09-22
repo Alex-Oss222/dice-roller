@@ -11,7 +11,7 @@ from .condition import condition_summary
 
 
 FILENAMES = ("story.md", "character-sheet.md", "resume.md")
-CURRENT_FILENAMES = FILENAMES + ("README.md", "latest.md", "threads.md", "world.md")
+CURRENT_FILENAMES = FILENAMES + ("README.md", "latest.md", "threads.md", "world.md", "decisions.md")
 TURN_KINDS = {"turn", "advance"}
 
 
@@ -35,6 +35,10 @@ def _duration(seconds: int) -> str:
 
 def _value(value) -> str:
     return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, sort_keys=True)
+
+
+def _cell(value) -> str:
+    return str(value).replace("|", "\\|").replace("\n", "<br>")
 
 
 def _header(filename: str, title: str, head: str, records: str, *, historical=False) -> str:
@@ -111,18 +115,21 @@ def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
 def _turn_scene(event: dict, before: dict) -> str:
     state, payload = event["state"], event["input"]
     phase = state["phase"] if before["phase"] == state["phase"] else f"{before['phase']} → {state['phase']}"
-    place = state["location"] if before["location"] == state["location"] else f"{before['location']} → {state['location']}"
-    condition = state["character"].get("condition")
-    condition_note = (f"Condition tags: {'; '.join(condition['tags'])}. Basis: {condition['basis']}\n\n"
-                      if condition is not None and condition == before["character"].get("condition") else "")
+    summary = (
+        "| Field | Current |\n"
+        "| --- | --- |\n"
+        f"| Name | {_cell(state['character']['name'])} |\n"
+        f"| Age | {state['character']['age']} |\n"
+        f"| Condition | {_cell(condition_summary(state['character']))} |\n"
+        f"| Location | {_cell(state['location'])} |"
+    )
     segments = [
-        f"## Turn {state['turn']}\n\n"
-        f"Name: {state['character']['name']} | Age: {state['character']['age']} | "
-        f"Condition: {condition_summary(state['character'])} | Location: {state['location']}\n\n"
-        f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}. "
-        f"Elapsed: {_duration(payload['elapsed_seconds'])}.\n\n"
-        f"Phase: {phase}. Location: {place}.\n\n"
-        + condition_note + payload["narrative"]
+        summary + "\n\n"
+        f"## Turn {state['turn']} | {_time(state['time_seconds'])} | {state['location']} | "
+        f"Elapsed: {_duration(payload['elapsed_seconds'])}\n\n"
+        f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}.\n\n"
+        f"Phase: {phase}.\n\n"
+        + payload["narrative"]
     ]
     ledger = _turn_ledger(before, state, payload)
     if ledger:
@@ -137,6 +144,9 @@ def _turn_scene(event: dict, before: dict) -> str:
             lines.append(f"#### {category.replace('_', ' ').capitalize()}\n\n"
                          f"{finding['assessment']}\n\nEvidence turns: {references}.")
         segments.append("\n\n".join(lines))
+    next_decision = payload.get("next_decision")
+    if next_decision:
+        segments.append("### Next\n\n" + next_decision)
     return "\n\n".join(segments)
 
 
@@ -292,6 +302,28 @@ def _threads(events: list[dict]) -> str:
     return "\n\n".join(lines) + "\n"
 
 
+def _decisions(events: list[dict]) -> str:
+    if not events:
+        return "Awaiting setup. No player decisions have been accepted.\n"
+    lines = ["Derived from accepted turn events. This is an index, not a second source of truth."]
+    resolved = [event for event in events if event["kind"] in TURN_KINDS]
+    if not resolved:
+        lines.append("No resolved player decisions yet. Turn 0 is setup, not a resolved action.")
+    for event in resolved:
+        payload, state = event["input"], event["state"]
+        lines.extend([f"## Turn {state['turn']} | {_time(state['time_seconds'])}",
+                      f"Objective: {payload['objective']}",
+                      f"Outcome: {payload['outcome']}"])
+        authorization = payload.get("authorization")
+        if authorization is not None:
+            lines.append(f"Authorized scope: up to {_duration(authorization['max_elapsed_seconds'])}; "
+                         f"stop condition: {authorization['stop_condition']}")
+        if payload.get("next_decision"):
+            lines.append(f"Pending next decision: {payload['next_decision']}")
+        lines.append(f"Source event hash: `{event['hash']}`.")
+    return "\n\n".join(lines) + "\n"
+
+
 def _latest(events: list[dict]) -> str:
     if not events:
         return "Awaiting setup. Read the supplied starting character sheet and establish missing setup details. " \
@@ -299,7 +331,7 @@ def _latest(events: list[dict]) -> str:
     state = events[-1]["state"]
     lines = [f"Current turn: {state['turn']}. Current time: {_time(state['time_seconds'])}. "
              f"Location: {state['location']}. Phase: {state['phase']}.",
-             "[Current character sheet](character-sheet.md) · [Resume point](resume.md) · "
+             "[Current character sheet](character-sheet.md) · [Resume point](resume.md) · [Decisions](decisions.md) · "
              "[Threads](threads.md) · [World records](world.md)"]
     indices = [index for index, event in enumerate(events) if event["kind"] in TURN_KINDS]
     if indices:
@@ -323,7 +355,7 @@ def _latest(events: list[dict]) -> str:
 
 def _landing(events: list[dict], seed_reference: str) -> str:
     lines = ["[Latest scene](latest.md) · [Character sheet](character-sheet.md) · [Resume](resume.md) · "
-             "[Threads](threads.md) · [World](world.md) · [Complete reading history](story.md)"]
+             "[Decisions](decisions.md) · [Threads](threads.md) · [World](world.md) · [Complete reading history](story.md)"]
     if not events:
         lines.extend(["Awaiting setup. No campaign has been initialized and no opening narrative or turn is recorded.",
                       f"Read the supplied [starting character sheet]({seed_reference}), if provided. "
@@ -405,7 +437,8 @@ def render_campaign(store: CampaignStore, output_dir: str | os.PathLike = "play"
               "README.md": ("Read this story", _landing(events, seed_reference)),
               "latest.md": ("Latest scene and current record", _latest(events)),
               "threads.md": ("Threads and commitments", _threads(events)),
-              "world.md": ("Persistent world records", _world(events))}
+              "world.md": ("Persistent world records", _world(events)),
+              "decisions.md": ("Decision index", _decisions(events))}
     contents = {name: (_header(name, title, head, records) + body).encode("utf-8")
                 for name, (title, body) in bodies.items()}
     for index, event in enumerate(events):

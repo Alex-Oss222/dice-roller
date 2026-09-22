@@ -6,7 +6,7 @@ Use a chat that can read and write this repository and run the included Python e
 
 Your [Eddard sheet](stories/story-001/character-sheet.md), [opening](stories/story-001/opening.md) and machine-readable setup are ready. Declared conventions are Condition 8 (Hale), the five published main novels, and a relative Day 0 evening clock at 18:00. See [setup decisions](stories/story-001/notes/setup-decisions.md). Unknown money and equipment remain unknown.
 
-No campaign events have been created. When you say start, the GM accepts the prepared setup and opening once, refreshes the reading pages and publishes them. This is Turn 0. Your first decision produces Turn 1. Repeating start resumes the story instead of resetting it.
+No campaign events have been created. Before start, the GM validates the shared baseline, exact opening/setup mirror and prepared records, then runs the repository engine to accept the opening once, refresh the reading pages and publish them. This is Turn 0. Your first decision produces Turn 1. The GM must not hand-build the event or renderer output.
 
 ## Your normal loop
 
@@ -27,6 +27,7 @@ Narrative, changes and assessments are readable in the repository, with a short 
 | play/latest.md | Latest scene and changes |
 | play/turns/turn-000001.md | An individual accepted turn |
 | play/character-sheet.md | Current character |
+| play/decisions.md | Accepted objectives, outcomes and pending decisions |
 | play/threads.md | Active and resolved storylines |
 | play/world.md | People, divergences, projects and journeys |
 | play/resume.md | Continuation point |

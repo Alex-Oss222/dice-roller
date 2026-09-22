@@ -138,6 +138,26 @@ class JournalTests(unittest.TestCase):
         self.assertNotIn("### Ledger", story)
         self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+)$", story, re.MULTILINE))
 
+    def test_workflow_turn_matches_shared_presentation_and_decision_index(self):
+        self.store.initialize(setup_payload(workflow_state()))
+        accepted = self.store.advance(advance_payload(
+            self.store, next_decision="Choose whether to continue the invented account review."))
+        render_campaign(self.store, self.output)
+        turn = self.read("turns/turn-000001.md")
+        self.assertIn("| Field | Current |", turn)
+        self.assertIn("| Name | Test Adult |", turn)
+        self.assertIn("| Age | 30 |", turn)
+        self.assertIn("| Condition | 8/9 Hale (Healthy) |", turn)
+        self.assertRegex(turn, r"## Turn 1 \\| Day 0, ")
+        self.assertIn("### Next\n\nChoose whether to continue the invented account review.", turn)
+        self.assertEqual("Choose whether to continue the invented account review.",
+                         accepted["state"]["resume_note"])
+        decisions = self.read("decisions.md")
+        self.assertIn("## Turn 1", decisions)
+        self.assertIn("Objective:", decisions)
+        self.assertIn("Outcome:", decisions)
+        self.assertIn("Pending next decision: Choose whether to continue the invented account review.", decisions)
+
     def test_new_resource_is_shown_as_unrecorded_even_when_its_established_balance_is_zero(self):
         for amount in (0, 3):
             with self.subTest(amount=amount):
@@ -191,7 +211,7 @@ class JournalTests(unittest.TestCase):
         after = {path.relative_to(self.output).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
                  for path in self.output.rglob("*.md")}
         self.assertEqual(before, after)
-        self.assertEqual({"story.md", "character-sheet.md", "resume.md", "README.md", "latest.md", "threads.md", "world.md", "turns"},
+        self.assertEqual({"story.md", "character-sheet.md", "resume.md", "README.md", "latest.md", "threads.md", "world.md", "decisions.md", "turns"},
                          {path.name for path in self.output.iterdir()})
 
     def test_compact_turn_history_is_byte_stable_after_later_corrections_and_turns(self):

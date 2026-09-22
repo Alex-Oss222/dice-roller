@@ -18,7 +18,7 @@ This date belongs to the campaign’s chosen chronology. The opening remains the
 
 ## Opening position
 
-The rebel host is camped beside the Trident, with Rhaegar’s royal army nearby. Ned is in his command tent after the evening meal, working a whetstone along the sword across his knees. His leather-and-mail armor is nearby and unworn. The next action is yours.
+The rebel host is camped beside the Trident, with Rhaegar’s royal army nearby. Ned is in his command tent after the evening meal, working a whetstone along the sword across his knees. His steel field harness, mail gap protection and padded arming garment are nearby and unworn. The next action is yours.
 
 **Immediate aim:** Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
 
@@ -214,15 +214,15 @@ Condition is temporary physical function, separate from skill. Injuries, fatigue
 | --- | --- |
 | Worn | Campaign clothing, leather riding boots and belt. |
 | Across his knees / in use | Plain steel longsword and whetstone. |
-| In the tent, unworn | Fitted padded gambeson; long-sleeved riveted-mail hauberk to mid-thigh with riding slits; plain leather jerkin; padded cap; mail coif; simple steel helmet; leather gloves with mail mitten protection; fastening straps. |
+| In the tent, unworn | Well-fitted steel field harness with breastplate and backplate, articulated arm and leg defenses, mail protecting the gaps, padded arming garment, practical steel helmet, gauntlets, and fastening straps. |
 | In the tent, not readied | Dagger and heater shield. |
 | Travel gear in the tent | Saddlebag, cloak, blanket, waterskin, mess kit, flint and steel. Consumable quantities unrecorded. |
 | Northern picket line | One assigned riding horse with saddle, bridle and tack. |
 | Owned; location unrecorded | Ice, the ancestral House Stark Valyrian-steel greatsword. |
 
-**Protection:** No armor is worn at the opening. Once donned, the mail covers the torso, arms and upper thighs, with coif and mittens covering their respective areas. Lower legs have no mail or plate defenses. Leather provides clothing and fittings, not equivalent protection to mail.
+**Protection:** No armor is worn at the opening. Once donned, the fitted steel harness protects the torso and articulated limb areas recorded in the setup, with mail protecting the gaps. Coverage, fit, exertion, visibility, terrain and any unprotected areas still matter; the harness is not invulnerability.
 
-Mail remains flexible but adds weight and heat. Donning armor, readying weapons and reaching the horse take time. A two-handed sword grip does not permit simultaneous active shield use.
+Donning the harness, readying weapons and reaching the horse take time. A two-handed sword grip does not permit simultaneous active shield use.
 
 ## Property, money and supplies
 

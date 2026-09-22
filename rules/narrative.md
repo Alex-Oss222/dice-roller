@@ -15,7 +15,15 @@ Apply these priorities together, resolving conflicts in this order:
 
 Determine the justified result before writing it. Prose cannot add an unrecorded injury, possession, obligation, friendship, secret, resource cost, or outcome. A style preference cannot force success, failure, a revelation, an incorrect assumption, or a newly deceptive NPC. Quiet completion and durable success are valid. A scene needs an actual result, meaningful progress, or explicit pending condition, not a manufactured twist.
 
-For standalone fiction/editing requests, return the requested prose unless commentary is requested. For RPG turns, save the narrative once in the accepted event. The repository renders the compact header, narrative, conditional change ledger, and actual pending decision below. After verified publication, tell the player which turn is ready and link to its reading page. Repeat the scene in chat only if requested. Pure OOC replies, STATUS, research, audits, or roll requests do not become fictional turns merely to fit a format. Never print internal scene-planning or revision checklists.
+For standalone fiction/editing requests, return the requested prose unless commentary is requested. For RPG turns, save the narrative once in the accepted event. The repository renderer must follow the shared turn-output contract exactly: four-row summary, turn/time header, narrative, conditional change ledger, scheduled review when due, and the accepted pending decision when one exists. After verified publication, tell the player which turn is ready and link to its reading page. Repeat the scene in chat only if requested. Pure OOC replies, STATUS, research, audits, or roll requests do not become fictional turns merely to fit a format. Never print internal scene-planning or revision checklists.
+
+## Opening output
+
+Turn 0 is accepted setup, not a resolved player action. It does not use the resolved-turn wrapper in [turn-output.md](../templates/turn-output.md), does not increment the turn counter, and must not invent PC speech, decisions, intentions, loyalties, or interiority. It presents the established situation and stops before the player's first consequential choice.
+
+A substantial prepared opening follows the same prose standards as a substantial turn scene. It will often need roughly 600 to 1,200 words when sequence, physical arrangement, procedure, interaction, or command context materially matters; routine openings can be shorter. This remains a writing guide, not a quota. Use only setup facts and supported incidental detail. Minor texture cannot create an unrecorded durable wound, possession, obligation, visitor, order, secret, resource amount, or resolved outcome.
+
+For a prepared story, `opening.md` is the human-readable mirror of `setup.json.opening_narrative`. Story validation must reject a mismatch. The opening should leave the character in an actionable position without offering a menu or choosing what happens next.
 
 ## Turn output
 

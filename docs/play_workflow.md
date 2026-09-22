@@ -6,7 +6,7 @@ The player selects a story, reads its output, and gives the next decision. The G
 
 The player can say: “Start Story 1 from its character sheet and opening. Save the output in the repository and send me the reading link.” The GM reads that story's `character-sheet.md`, local instructions, staged `setup.json`, and `opening.md`. Do not ask again for supplied facts or turn examples into a character.
 
-Run `python -m iron_engine --story story-001 start` to accept the prepared setup and render its opening. Setup is Turn 0. An opening presents the situation for the player's action; it does not authorize invented PC speech, decisions, or a resolved Turn 1. If accepted records already exist, continue from them instead of resetting. The first authorized action produces Turn 1.
+Before start, validate that `opening.md` exactly mirrors `setup.json.opening_narrative` and that the prepared opening follows the shared opening guidance in `rules/narrative.md`. Then run the actual repository command `python -m iron_engine --story story-001 start`; do not reproduce its event/hash/render logic outside the engine. Setup is Turn 0. An opening presents the situation for the player's action; it does not authorize invented PC speech, decisions, or a resolved Turn 1. If accepted records already exist, continue from them instead of resetting. The first authorized action produces Turn 1.
 
 For a genuinely new story, `create-story NEW-ID --character-sheet FILE` creates a preparation folder from that character's document. It does not borrow another story's assets, knowledge, history, or choices. Fill only missing essentials before initialization: era, region, permitted books/spoiler scope, character facts, system, starting time/place, and established assets. Unknown quantities remain unknown.
 
@@ -14,8 +14,8 @@ For subsequent turns the player can say “Continue Story 1. My next action is �
 
 1. Validate the selected story and read its focused context packet. Retrieve the people, storylines, capability evidence, or earlier turns the decision needs.
 2. Establish the objective, maximum authorized elapsed time, and stopping condition. Research consequential uncertainty and adjudicate from the relevant capability, knowledge, preparation, opposition, and circumstances.
-3. Write the narrative once and prepare compact changes with evidence. Account for affected records, due consequences, and any required review or long-interval milestones.
-4. Submit one `advance` input. The engine validates it, applies changes once, saves the event and full resulting state, and regenerates the reading views.
+3. Write the narrative once under `rules/narrative.md`, identify the actual pending player decision if one stops further authorized activity, and prepare compact changes with evidence. Account for affected records, due consequences, and any required review or long-interval milestones.
+4. Submit one `advance` input with `next_decision` set to that pending decision or `null`. The engine validates it, applies changes once, saves the event and full resulting state, copies the pending decision into the resume state, and regenerates the reading views using `templates/turn-output.md`.
 5. Inspect and publish the accepted event and refreshed views together. Verify the remote commit, then reply briefly: “Turn N is saved. Read it here.”
 
 The player does not maintain JSON, copy summaries between chats, or update the sheet by hand. A new chat with repository tools resumes from the saved records. Actual reading and writing must succeed before it reports completion.
@@ -79,6 +79,7 @@ The story's `play/README.md` is the entry point. Generated views include:
 | `story.md` | Accepted prose in chronological order |
 | `character-sheet.md` | Current character and recorded possessions/obligations |
 | `resume.md` | Continuation point and pending work |
+| `decisions.md` | Derived index of accepted player objectives, outcomes and pending decisions |
 | `threads.md` | Active and settled storylines |
 | `world.md` | Relevant people, facts, divergences, journeys, projects, and account notes |
 

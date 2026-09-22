@@ -48,7 +48,7 @@ def advance_payload(store, seconds=3600, operations=None, changed=(), **override
         "coverage": {category: {"status": "changed" if category in changed else "unchanged",
                                 "basis": f"Explicit review of {category} for this test interval"}
                      for category in CATEGORIES},
-        "milestones": [],
+        "next_decision": None, "milestones": [],
     })
     payload.update(deepcopy(overrides))
     return bind_head(store, payload)
@@ -86,6 +86,16 @@ class WorkflowTests(unittest.TestCase):
         with self.assertRaises(CampaignError):
             (method or self.store.advance)(payload)
         self.assertEqual(before, self.store.validate())
+
+    def test_next_decision_is_saved_for_resume_and_validated(self):
+        self.initialize()
+        first = self.store.advance(advance_payload(
+            self.store, next_decision="Choose whether to continue the invented test work."))
+        self.assertEqual("Choose whether to continue the invented test work.", first["state"]["resume_note"])
+        self.reject(advance_payload(self.store, next_decision=" "))
+        self.reject(advance_payload(self.store, next_decision=True))
+        second = self.store.advance(advance_payload(self.store, next_decision=None))
+        self.assertIsNone(second["state"]["resume_note"])
 
     def test_compact_advance_replays_and_exact_retry_does_not_double_charge(self):
         self.initialize()

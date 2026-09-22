@@ -241,7 +241,7 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
         packet["recent_turns"].append({
             "turn": event["state"]["turn"], "start_seconds": events[index - 1]["state"]["time_seconds"],
             "end_seconds": event["state"]["time_seconds"], "objective": payload["objective"], "outcome": payload["outcome"],
-            "narrative": excerpt, "narrative_truncated": bool(omitted), "omitted_chars": omitted,
+            "next_decision": payload.get("next_decision"), "narrative": excerpt, "narrative_truncated": bool(omitted), "omitted_chars": omitted,
             "retrieve": {"turn": event["state"]["turn"]}, **_event_reference(store, event)})
         packet["narrative_budget"]["omitted_chars"] += omitted
     packet["recent_turns"].reverse()

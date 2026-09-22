@@ -17,7 +17,11 @@ from .journal import render_campaign
 
 
 PROJECT_ROOT = Path(__file__).parent.parent
-FIXED_SHARED = {"AGENTS.md", "data/travel_distances.json", "references/books.md", "docs/research.md"}
+FIXED_SHARED = {
+    "AGENTS.md", "data/travel_distances.json", "references/books.md", "docs/research.md",
+    "docs/play_workflow.md", "docs/record_contract.md", "docs/travel.md",
+    "templates/advance.json", "templates/turn-output.md",
+}
 STORY_ID = re.compile(r"[a-z0-9][a-z0-9-]{0,63}\Z", re.ASCII)
 SHARED_MODULE = re.compile(r"(?:iron_engine/[A-Za-z0-9_-]+\.py|rules/[A-Za-z0-9_-]+\.md)\Z", re.ASCII)
 DIGEST = re.compile(r"[a-f0-9]{64}\Z", re.ASCII)
@@ -151,6 +155,16 @@ class Story:
         _bytes(self.character_sheet_path)
         payload = _object(payload, "setup input")
         self._identity(payload.get("state"))
+        if "opening_narrative" in payload:
+            opening_path = _safe_path(self.path / "opening.md")
+            if not opening_path.exists():
+                raise CampaignError("Prepared setup with opening_narrative requires story opening.md")
+            try:
+                opening = _bytes(opening_path).decode("utf-8").rstrip("\n")
+            except UnicodeError as exc:
+                raise CampaignError("Story opening.md must be UTF-8 text") from exc
+            if opening != payload["opening_narrative"].rstrip("\n"):
+                raise CampaignError("story opening.md must exactly mirror setup.json opening_narrative")
 
     def start(self):
         """Accept the staged opening once, or resume without resetting the story."""

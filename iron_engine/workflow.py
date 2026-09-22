@@ -29,6 +29,7 @@ COVERAGE_FIELDS = {
 }
 ADVANCE_FIELDS = set("request_id expected_hash expected_turn objective outcome narrative elapsed_seconds "
                      "operations authorization adjudication coverage processed_tasks review milestones".split())
+ADVANCE_OPTIONAL_FIELDS = {"next_decision"}
 CAPABILITY_SET_FIELDS = {"development", "basis", "experience", "aptitude", "domain", "parent", "derivation", "anchors", "kind"}
 LIST_FIELDS = {"relationships", "obligations", "knowledge", "assumptions", "standing_orders"}
 MISSING = object()
@@ -265,7 +266,7 @@ def expand_advance(before, payload):
     workflow declarations and edits; the caller still runs ordinary turn/state,
     development, deadline, death, review and stale-hash validation afterward.
     """
-    _object(payload, "advance input", ADVANCE_FIELDS)
+    _object(payload, "advance input", ADVANCE_FIELDS | (set(payload) & ADVANCE_OPTIONAL_FIELDS))
     if before["campaign"].get("workflow_version") != VERSION:
         _fail("advance requires campaign.workflow_version '1'; legacy campaigns retain their turn interface")
     if before["campaign"]["resolution_mode"] != "adjudicated":
@@ -274,6 +275,8 @@ def expand_advance(before, payload):
     _integer(payload["elapsed_seconds"], "elapsed_seconds", 1)
     for field in ("objective", "outcome", "narrative"):
         _string(payload[field], field)
+    if payload.get("next_decision") is not None:
+        _string(payload["next_decision"], "next_decision")
     _authorization(payload)
     _adjudication(before, payload)
     _milestones(payload)
@@ -367,6 +370,8 @@ def expand_advance(before, payload):
             reason("death", basis)
         else:
             _fail(f"Unknown compact operation: {kind}")
+    if not result["alive"] and payload.get("next_decision") is not None:
+        _fail("A dead character cannot have a pending next decision")
     _coverage(before, result, payload["coverage"])
     changes, deltas, evidence = {}, {}, {}
     for field, bases in reasons.items():

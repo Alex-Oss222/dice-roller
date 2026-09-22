@@ -328,7 +328,10 @@ def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | N
         _fail("Stale expected_hash: inspect the latest event before preparing a new command")
     if kind == "advance":
         expanded = expand_advance(before, payload)
-        return _apply("turn", expanded, before, previous_hash, workflow_advance=True)
+        state = _apply("turn", expanded, before, previous_hash, workflow_advance=True)
+        state["resume_note"] = payload.get("next_decision")
+        _state(state)
+        return state
     if kind == "checkpoint":
         _object(payload, "checkpoint input", {"request_id", "expected_hash", "resume_note"})
         if payload["resume_note"] is not None:

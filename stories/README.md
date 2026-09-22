@@ -1,6 +1,6 @@
 # Story boundaries
 
-Shared engine, rules, book reference policy, distance data and templates live at the repository root. Each story owns its character, history, local rules and world changes. Ordinary turns only change that story's folder.
+Shared engine, active rules, workflow/record contracts, travel policy/data and turn-output templates live at the repository root. Each story owns its character, history, local rules and world changes. Ordinary turns only change that story's folder.
 
 | Story file | Role |
 | --- | --- |
@@ -11,6 +11,7 @@ Shared engine, rules, book reference policy, distance data and templates live at
 | play/README.md | Generated reading index |
 | play/latest.md and play/turns/ | Latest output and individual accepted turns |
 | play/character-sheet.md | Current generated character |
+| play/decisions.md | Generated index of accepted objectives, outcomes and pending decisions |
 | play/threads.md and play/world.md | Storylines and persistent world records |
 | play/resume.md | Continuation point |
 | notes/ | Player-safe supporting material, not competing state |
