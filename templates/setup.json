@@ -11,7 +11,8 @@
       "rules_version": "iron-engine-blood-and-gold-1.0",
       "resolution_mode": "adjudicated",
       "capability_system": "blood_and_gold_0_9",
-      "permitted_books": []
+      "permitted_books": [],
+      "workflow_version": "1"
     },
     "turn": 0,
     "time_seconds": 0,
@@ -47,6 +48,10 @@
     "interrupted_plan": null,
     "resume_note": null,
     "alive": true,
-    "death": null
-  }
+    "death": null,
+    "world": {
+      "records": {}
+    }
+  },
+  "opening_narrative": ""
 }

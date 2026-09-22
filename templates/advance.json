@@ -1,0 +1,39 @@
+{
+  "request_id": "",
+  "expected_hash": "",
+  "expected_turn": 0,
+  "objective": "",
+  "outcome": "",
+  "narrative": "",
+  "elapsed_seconds": 0,
+  "operations": [],
+  "authorization": {
+    "objective": "",
+    "max_elapsed_seconds": 0,
+    "stop_condition": ""
+  },
+  "adjudication": {
+    "mode": "routine",
+    "actor": "pc",
+    "capability": null,
+    "preparation": "",
+    "opposition": "",
+    "risk": "",
+    "basis": "",
+    "task_band": "routine"
+  },
+  "coverage": {
+    "character": {"status": "unchanged", "basis": ""},
+    "resources": {"status": "unchanged", "basis": ""},
+    "relationships": {"status": "unchanged", "basis": ""},
+    "obligations": {"status": "unchanged", "basis": ""},
+    "tasks": {"status": "unchanged", "basis": ""},
+    "knowledge": {"status": "unchanged", "basis": ""},
+    "assumptions": {"status": "unchanged", "basis": ""},
+    "plans": {"status": "unchanged", "basis": ""},
+    "world": {"status": "unchanged", "basis": ""}
+  },
+  "processed_tasks": {},
+  "review": null,
+  "milestones": []
+}

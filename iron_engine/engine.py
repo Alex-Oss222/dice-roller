@@ -25,7 +25,7 @@ STATE_FIELDS = set("campaign turn time_seconds phase location character resource
                    "relationships obligations tasks knowledge assumptions research "
                    "standing_orders interrupted_plan alive death resume_note".split())
 CHANGE_FIELDS = set("phase location character relationships obligations tasks knowledge "
-                    "assumptions standing_orders interrupted_plan alive death".split())
+                    "assumptions standing_orders interrupted_plan alive death world".split())
 REVIEW_FIELDS = set("results decisions capabilities position gm_consistency next_constraint".split())
 TASK_STATUSES = {"active", "completed", "blocked", "failed", "expired", "abandoned"}
 SOURCE_TYPES = {"canon", "secondary", "author", "historical_analogy", "campaign_assumption"}
@@ -122,12 +122,15 @@ def _source(value: Any) -> None:
 def _state(value: Any) -> None:
     from .capabilities import SYSTEM, validate_capabilities, validate_profile
     from .condition import validate_condition
+    from .workflow import validate_world
 
-    _object(value, "state", STATE_FIELDS)
+    _object(value, "state")
+    _object(value, "state", STATE_FIELDS | (set(value) & {"world"}))
     campaign = _object(value["campaign"], "campaign")
     _object(campaign, "campaign", set(
         "id title era region spoiler_cutoff day_zero_anchor rules_version resolution_mode".split())
-        | (set(campaign) & {"capability_system", "permitted_books"}))
+        | (set(campaign) & {"capability_system", "permitted_books", "workflow_version", "world_id",
+                            "predecessor_story_id", "predecessor_hash"}))
     for key, item in campaign.items():
         if key == "permitted_books":
             _strings(item, "campaign.permitted_books")
@@ -217,9 +220,12 @@ def _state(value: Any) -> None:
             _fail("Death time must equal the final campaign time")
     if "condition" in character:
         validate_condition(character["condition"], value["alive"])
+    validate_world(value)
 
 
-def _changes(state: dict, payload: dict, *, correction: bool) -> dict:
+def _changes(state: dict, payload: dict, *, correction: bool, allow_new_resources: bool = False) -> dict:
+    from .workflow import retain_world
+
     changes = _object(payload["changes"], "changes")
     allowed = CHANGE_FIELDS - ({"alive", "death"} if correction else set())
     if not set(changes) <= allowed:
@@ -236,10 +242,11 @@ def _changes(state: dict, payload: dict, *, correction: bool) -> dict:
     if "condition" in state["character"]:
         if "condition" not in _object(result["character"], "character"):
             _fail("An explicit Condition record cannot be removed from a character replacement")
+    retain_world(state, result)
     for unit, adjustment in delta.items():
         _string(unit, "resource unit")
         _integer(adjustment, f"resources_delta.{unit}")
-        if unit not in result["resources"] and not correction:
+        if unit not in result["resources"] and not correction and not allow_new_resources:
             _fail(f"Unknown resource unit {unit}; establish it in setup or correction")
         result["resources"][unit] = result["resources"].get(unit, 0) + adjustment
         if result["resources"][unit] < 0:
@@ -296,11 +303,15 @@ def _review(review: Any, turn: int) -> None:
             _integer(reference, "evidence_turn", first, turn)
 
 
-def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | None = None) -> dict:
+def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | None = None,
+           *, workflow_advance: bool = False) -> dict:
     from .capabilities import validate_setup, validate_transition
+    from .workflow import VERSION, expand_advance, validate_world_deadlines, world_records
 
     if kind == "setup":
-        _object(payload, "setup input", {"request_id", "state"})
+        _object(payload, "setup input", {"request_id", "state"} | (set(payload) & {"opening_narrative"}))
+        if "opening_narrative" in payload:
+            _string(payload["opening_narrative"], "opening_narrative")
         if before is not None:
             _fail("A campaign can only be initialized once")
         state = copy.deepcopy(payload["state"])
@@ -315,6 +326,9 @@ def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | N
     expected_hash = _string(payload.get("expected_hash"), "expected_hash")
     if expected_hash != previous_hash:
         _fail("Stale expected_hash: inspect the latest event before preparing a new command")
+    if kind == "advance":
+        expanded = expand_advance(before, payload)
+        return _apply("turn", expanded, before, previous_hash, workflow_advance=True)
     if kind == "checkpoint":
         _object(payload, "checkpoint input", {"request_id", "expected_hash", "resume_note"})
         if payload["resume_note"] is not None:
@@ -342,6 +356,8 @@ def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | N
         return state
     if kind != "turn":
         _fail(f"Unknown event kind: {kind}")
+    if before["campaign"].get("workflow_version") == VERSION and not workflow_advance:
+        _fail("Workflow version 1 requires advance; legacy turn cannot bypass authorization and coverage checks")
     _object(payload, "turn input", set(
         "request_id expected_hash expected_turn elapsed_seconds objective outcome narrative resources_delta "
         "changes evidence processed_tasks checks review".split()))
@@ -353,18 +369,20 @@ def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | N
     _integer(payload["elapsed_seconds"], "elapsed_seconds", 1)
     for key in ("objective", "outcome", "narrative"):
         _string(payload[key], key)
-    state = _changes(before, payload, correction=False)
+    state = _changes(before, payload, correction=False, allow_new_resources=workflow_advance)
     state["turn"] = before["turn"] + 1
     state["time_seconds"] = before["time_seconds"] + payload["elapsed_seconds"]
     state["resume_note"] = None
     processed = _object(payload["processed_tasks"], "processed_tasks")
     previous_tasks = {task["id"]: task for task in before["tasks"]}
+    previous_world = {f"world.{record_id}" for record_id in world_records(before)}
     for task_id, explanation in processed.items():
         _string(explanation, f"processed_tasks.{task_id}")
-        if task_id not in previous_tasks:
+        if task_id not in previous_tasks and task_id not in previous_world:
             _fail(f"processed_tasks contains an unknown previous task ID: {task_id}")
     _state(state)
     validate_transition(before, state)
+    validate_world_deadlines(before, state, processed)
     resulting_tasks = {task["id"]: task for task in state["tasks"]}
     for task_id, task in previous_tasks.items():
         if (task["status"] == "active" and task["due_seconds"] is not None
@@ -576,6 +594,9 @@ class CampaignStore:
 
     def commit_turn(self, payload: dict) -> dict:
         return self._commit("turn", payload)
+
+    def advance(self, payload: dict) -> dict:
+        return self._commit("advance", payload)
 
     def add_research(self, payload: dict) -> dict:
         return self._commit("research", payload)

@@ -24,11 +24,73 @@ Event envelope: `schema_version: 1`, `sequence`, `kind`, `request_id`, `input` (
 
 ## State
 
-Top-level fields: `campaign`, `turn`, `time_seconds`, `phase`, `location`, `character`, `resources`, `relationships`, `obligations`, `tasks`, `knowledge`, `assumptions`, `research`, `standing_orders`, `interrupted_plan`, `resume_note`, `alive`, `death`.
+Required top-level fields: `campaign`, `turn`, `time_seconds`, `phase`, `location`, `character`, `resources`, `relationships`, `obligations`, `tasks`, `knowledge`, `assumptions`, `research`, `standing_orders`, `interrupted_plan`, `resume_note`, `alive`, `death`. Optional `world` contains structured story-local records described below. Optional extensions are never inserted into historical state during replay.
 
 `campaign`: required nonempty strings `id`, `title`, `era`, `region`, `spoiler_cutoff`, `day_zero_anchor`, `rules_version`; `resolution_mode` is `adjudicated` or `real_dice`. Optional `permitted_books` is a list of nonempty strings. Optional `capability_system` can select `blood_and_gold_0_9`; this requires adjudicated resolution and nonempty permitted books. Omission preserves the original 0 to 5 record interpretation. No default era, protagonist, spoiler cutoff, or invented starting assets. Optional new fields are not injected into old records, so their original replay state and hashes remain valid.
 
 `character`: required `name`, `age` (nonnegative integer), `status`, `background`, `aim`; `skills` is a string-to-integer map bounded 0..5 for legacy records, or 0..9 for the explicitly selected Blood & Gold system. In that system, required `capabilities` has metadata with exactly the same keys as `skills`; the numerical rating is stored only in `skills`. Optional `profile` holds descriptive character information as specified below. Optional `condition` is the overall physical summary defined below. Existing `conditions` and `equipment` remain lists of strings. `resources` is a string-to-nonnegative-integer map, with each key its own unit. Copper pennies and copper stars require different keys. No currency conversion or float accounting.
+
+Optional `campaign.workflow_version` is the string `"1"`. It selects the compact, adjudicated workflow below. These stories reject legacy `turn` submissions so required time authorization, adjudication, and coverage cannot be bypassed. Omission preserves legacy input/replay behavior.
+
+Optional nonempty strings `campaign.world_id`, `predecessor_story_id`, and `predecessor_hash` record an explicitly linked successor's provenance. `create-successor NEW-ID --from-story OLD-ID --character-sheet FILE` requires a validated dead predecessor and prepares a new folder containing its source hash and ending-state snapshot. It does not initialize the successor. The GM must map surviving world records, clock, obligations, and source references into the new setup while reviewing ownership and what the new viewpoint knows. Replace former `pc` references with an explicit person ID; preserve old evidence coordinates in details and use Turn 0 references for accepted inherited setup. The preparation snapshot is supporting evidence, not a second active state. The predecessor remains dead and independent stories remain isolated.
+
+## Structured world records
+
+Optional `world` has exactly `records`, an ID-to-record map. A record has exactly `kind`, `title`, `status`, `summary`, `participants`, `links`, `known_by`, `due_seconds`, `details`, and `evidence_turns`.
+
+- `kind`: `person`, `thread`, `fact`, `divergence`, `project`, `journey`, or `account_note`.
+- `status`: `active`, `blocked`, `completed`, `failed`, `expired`, `abandoned`, `closed`, or `dead`.
+- `title` and `summary`: nonempty strings. `details`: string keys with nonempty string values.
+- `participants`: list of existing person IDs or `pc`. `known_by`: existing person IDs, `pc`, or `public`. `links`: existing record IDs of any kind. These lists express references, not automatic knowledge transfers.
+- `due_seconds`: nonnegative integer or null; an open record (`active` or `blocked`) cannot remain overdue after an accepted event.
+- `evidence_turns`: nonempty list of established turn numbers from 0 through the resulting current turn.
+
+Retain established IDs and close/settle records instead of deleting them. Descriptive details can record dependencies, ownership, reports, causes, or capability evidence when established. Numerical balances remain in `resources`; an account note is not a second balance. The record store does not infer economics, relationships, or entitlement from prose.
+
+These records are player-readable, including `known_by`; that field tracks in-world access to already disclosed information and is not a private GM store. A research source or public reference does not automatically add PC knowledge.
+
+## Compact advance input
+
+`CampaignStore.advance(payload)` accepts exactly `request_id`, `expected_hash`, `expected_turn`, `objective`, `outcome`, `narrative`, `elapsed_seconds`, `operations`, `authorization`, `adjudication`, `coverage`, `processed_tasks`, `review`, and `milestones`. `objective`, `outcome`, and `narrative` are nonempty strings; elapsed time is a positive integer. The story must select workflow version `"1"` and adjudicated resolution. There is no dice-check list in this input.
+
+An accepted event has kind `advance` and retains the submitted compact input. The engine expands operations against prior state, applies ordinary state/capability/deadline/review checks, and saves the full resulting state. Replay repeats that deterministic expansion. It does not inject new defaults into older events or change their hashes.
+
+`authorization` is exactly `{objective, max_elapsed_seconds, stop_condition}`. Its objective equals the input objective, the positive maximum bounds actual elapsed time, and the stopping condition is nonempty. The GM records the user's actual scope; an invented large maximum is not permission to skip an unresolved decision.
+
+`adjudication` is exactly `{mode, actor, capability, preparation, opposition, risk, basis, task_band}`. Mode is `routine` or `uncertain`; actor is `pc` or an existing `person` record ID. Preparation, opposition, risk, and basis are nonempty explanations. Routine mode uses task band `routine`. Uncertain mode uses `ordinary`, `demanding`, `hard`, or `extreme` and requires an already established capability. A capability is `{source, key}`: PC source is `character.skills`; NPC source is `world.records.ID.details` for that same actor. The key must exist before resolution. Routine mode permits null capability. Code establishes that evidence exists, not that its relevance or explanation is honest.
+
+Every operation has a nonempty `basis`. Other exact fields depend on `op`:
+
+| Operation | Fields in addition to `op` and `basis` | Meaning |
+| --- | --- | --- |
+| `set` | `path`, `expected`, `value` | Replace an allowed leaf with its expected old value; null denotes a missing leaf |
+| `list_add` / `list_remove` | `path`, `expected`, `value` | Add an absent item with expected false, or remove a present item with expected true |
+| `resource_establish` | `unit`, `expected`, `value` | Establish a previously absent unit; expected must be null and value is an integer at least zero |
+| `resource_adjust` | `unit`, `expected`, `delta` | Adjust an established integer-unit balance from the expected old amount |
+| `task_upsert` | `id`, `expected`, `value` | Insert or replace one complete task; expected is its prior record or null |
+| `world_upsert` | `id`, `expected`, `value` | Insert or replace one complete world record; expected is its prior record or null |
+| `death` | `expected_alive`, `cause` | Record final death at the accepted ending time; expected_alive must be true |
+
+`resource_establish` records an amount established during this action, such as counting a previously unrecorded purse. Its basis must explain that discovery or receipt. A known zero is different from an unknown balance, so establishing zero still changes resources. It cannot overwrite an existing unit; use `resource_adjust` for that. An established unit can be adjusted later in the same input. Genuine discoveries do not require pretending an earlier record was wrong and issuing a correction.
+
+Paths are JSON lists of field names, never executable expressions. They cannot edit campaign metadata, counters, arbitrary state, or whole character/world replacements. Missing parent objects fail. `set` supports:
+
+- `phase`, `location`, and `interrupted_plan` at top level.
+- `character` fields `name`, `age`, `status`, `background`, `aim`, `condition`, and `profile`.
+- `character.condition` fields `rating`, `tags`, and `basis`.
+- Individual `character.skills.ID` and complete `character.capabilities.ID` records.
+- Capability fields `development`, `basis`, `experience`, `aptitude`, `domain`, `parent`, `derivation`, `anchors`, and `kind`.
+- A profile section or a field within a profile section.
+
+List operations support top-level relationships, obligations, knowledge, assumptions, and standing_orders; character conditions/equipment; Condition tags; capability evidence_turns/training; and profile languages. Credited training is append-only on ordinary turns. Resource/task/world/liveness changes use their dedicated operations. Final state still must satisfy Condition/death consistency and capability-transition rules. A death operation never makes an unsupported lethal result justified.
+
+`coverage` has exactly nine keys: `character`, `resources`, `relationships`, `obligations`, `tasks`, `knowledge`, `assumptions`, `plans`, and `world`. Each is `{status: "changed" | "unchanged", basis: nonempty string}` and must agree with actual before/after state. Character includes alive/death; plans includes phase, location, standing_orders, and interrupted_plan. No-op operations do not make an unchanged category changed.
+
+`processed_tasks` retains its ordinary task-ID meanings below. It also uses `world.ID` for every previously open world record (`active` or `blocked`) whose deadline falls within the interval. Settle it as completed, failed, expired, abandoned, closed, or dead; or retain an open status with a future deadline and `details.deadline_reason`. Setting a world record to blocked does not settle its deadline or permit clearing the date. This differs from legacy tasks, whose blocked status retains its existing settled-deadline convention. Workflow task IDs cannot begin with the reserved `world.` prefix. Deadline handling is explicit; code does not simulate a dependency chain by itself.
+
+`milestones` is a list of `{elapsed_seconds, basis, evidence_turns}`. Offsets are positive integers within the resolved interval, strictly increasing. A turn of at least 30 days requires at least two milestones and the final offset must equal its endpoint. Each entry cites the resulting turn in its evidence list. These summaries account for elapsed developments; actual consequences still need operations. They supplement, rather than replace, the review required at every tenth resulting turn.
+
+The blank [advance template](../templates/advance.json) contains empty required strings and zero time deliberately. It must be completed from a real authorized action; it is not a live turn or a runnable claim that nothing changed.
 
 ## Overall Condition
 
@@ -71,11 +133,19 @@ Missing capability records mean not established, not automatically rating 0. Unk
 
 ## Commands and API
 
-Implement `iron_engine/engine.py` with `CampaignError`, `CampaignStore(path)`, `.initialize(payload)`, `.commit_turn(payload)`, `.add_research(payload)`, `.correct(payload)`, `.checkpoint(payload)`, `.validate()` returning the list of validated events, `.current()` returning current state, `.export_save(path)`, and `.restore_save(input_path)` into an empty store. Methods returning a created/reused event return its full envelope. `iron_engine/__main__.py` exposes `python -m iron_engine --store DIR init|turn|research|correct|checkpoint INPUT.json`, `validate`, `status`, `head`, `save OUTPUT.json`, `restore INPUT.json`, and `roll --sides 20 --count 1`. `roll` is an explicitly public random-number helper, does not save or advance state, uses `secrets`, and makes no claim of secret precommitment or resistance to rerolling. Rule instructions require fixed stakes before rolling.
+`iron_engine/engine.py` exposes `CampaignError`, `CampaignStore(path)`, `.initialize(payload)`, `.advance(payload)`, legacy `.commit_turn(payload)`, `.add_research(payload)`, `.correct(payload)`, `.checkpoint(payload)`, `.validate()` returning validated events, `.current()` returning state, `.export_save(path)`, and `.restore_save(input_path)` into an empty store. Methods creating/reusing an event return its full envelope. The CLI exposes these commands with explicit `--story ID` or legacy `--store DIR` routing. Story mutations regenerate their reading views; direct Python store calls require an explicit `render_campaign` afterward.
 
-Initialize input: `{request_id, state}`. Turn must be 0, alive true, death null, resume_note null. All state fields are explicit. Setup is excluded from ordinary turn numbering. Committed state must have no overdue active tasks.
+`context`, `record ID`, `records`, and `history --turn N` provide focused reads. The context API is `context_packet(store, focus_ids=None, recent_turns=2, max_chars=12000, read_record_ids=None)`, with `record_packet(store, record_id)` and `history_packet(store, turn)` for detail. CLI `context --max-chars N` bounds recent narrative excerpts only; it is not a total packet-size or token limit. Mandatory state, all open record indexes, deadlines, and explicitly selected records stay complete. These reads validate history without advancing time.
 
-Turn input: `{request_id, expected_hash, expected_turn, elapsed_seconds, objective, outcome, narrative, resources_delta, changes, evidence, processed_tasks, checks, review}`. Required nonempty objective/outcome/narrative; positive integer elapsed_seconds; expected_turn must match current turn. resources_delta is integer adjustments per named unit; keys must already exist in resources, or be explicitly introduced with a zero balance in setup/correction. `changes` replaces complete allowed state fields: phase/location/character/relationships/obligations/tasks/knowledge/assumptions/standing_orders/interrupted_plan/alive/death. Other fields cannot be replaced. `evidence` maps each changed field or resource unit (use `resources.UNIT`) to a nonempty causal explanation. All deltas must reconcile without negative resources. Time and turn are set by the code exactly once.
+Record selectors support a world ID, `world.ID`, `pc.character`, `capability.ID`, `task.ID`, and `research.ID`. The convenience alias `character` retrieves the PC only if no world record has that ID; `pc.character` is unambiguous. The packet identifies unloaded details and exact retrieval references. `history --turn 0` retrieves accepted setup and its opening; later history calls preserve exact accepted prose and separate subsequent same-turn correction notes.
+
+The ordinary context packet includes at most ten compact closed-record entries and reports total, remaining count, and a retrieval command. `records --query TEXT --kind KIND --status STATUS --offset N --limit N` searches and pages through the full world index in stable ID order. Filters accept an exact kind/status; status aliases `open` and `inactive` select active/blocked or settled records respectively. Text search covers record fields, so details omitted from a context packet remain discoverable. API: `record_index_packet(store, query='', kind=None, status=None, offset=0, limit=25)`. Pagination changes only the read result; it never deletes or closes a record.
+
+`roll --sides 20 --count 1` remains a public random-number helper for compatible legacy campaigns. It saves nothing, uses `secrets`, and makes no claim of secret precommitment or resistance to rerolling. Fix stakes before rolling. It does not convert adjudicated Blood & Gold ratings into dice bonuses.
+
+Initialize input: `{request_id, state}` with optional nonempty `opening_narrative`. The opening is retained in the setup input, not inserted into historical state. Turn must be 0, alive true, death null, resume_note null. All required state fields are explicit. Setup is excluded from ordinary turn numbering. Committed state must have no overdue active tasks. Story `start` accepts its staged setup only when no accepted setup exists; it does not reset a campaign or invent Turn 1.
+
+Legacy turn input: `{request_id, expected_hash, expected_turn, elapsed_seconds, objective, outcome, narrative, resources_delta, changes, evidence, processed_tasks, checks, review}`. Workflow version 1 rejects this route; its compact input is defined above. Required nonempty objective/outcome/narrative; positive integer elapsed_seconds; expected_turn must match current turn. resources_delta is integer adjustments per named unit; keys must already exist in resources, or be explicitly introduced with a zero balance in setup/correction. `changes` replaces complete allowed state fields: phase/location/character/relationships/obligations/tasks/knowledge/assumptions/standing_orders/interrupted_plan/alive/death and optional world. Other fields cannot be replaced. `evidence` maps each changed field or resource unit (use `resources.UNIT`) to a nonempty causal explanation. All deltas must reconcile without negative resources. Time and turn are set by the code exactly once.
 
 `processed_tasks` is a map of task ID to nonempty outcome explanation. Every previously active task whose deadline is at or before the ending time requires an entry and must be retained in the resulting task list with a settled status (including blocked) or a future deadline with an explanatory note. New active tasks cannot be overdue. Do not silently delete existing task IDs; settle them instead. These are direct deadline checks, not a simulation of dependent events.
 
@@ -103,8 +173,10 @@ The user can speak naturally: Start campaign, Status, Save, Review, Continue the
 
 ## Generated reading views
 
-`python -m iron_engine --story <id> render` validates that story's chain and writes `story.md`, `character-sheet.md`, and `resume.md` into its own `play/` directory. All files identify their source hash. No events or clocks are changed. The story preserves accepted narrative and places correction notes outside it; the sheet and resume file derive from the latest state. Empty stores produce awaiting-setup views.
+`python -m iron_engine --story <id> render` validates that story's chain and writes `README.md`, `latest.md`, numbered `turns/` pages, `story.md`, `character-sheet.md`, `resume.md`, `threads.md`, and `world.md` into its own `play/` directory. Files identify their source hash. Historical turn pages reference their accepted event instead of changing with each new global head. Only changed file bytes are written. No events or clocks change. The story preserves accepted narrative and places correction notes outside it; current views derive from latest state. Empty stores produce awaiting-setup views.
 
 The turn reader uses accepted ending state for its compact Name/Age/Condition/Location header. It derives a changed-only Ledger from actual before/after differences and accepted evidence, including resource deltas and Condition changes, separately from the unchanged scene text. It omits that Ledger for elapsed time alone, zero deltas, and unchanged replacements. Condition can show rating, label/band, tags, and basis when present; absence remains not established. Scene prose contains no numerical Capability explanations or mechanical outcome labels. A player-facing Ledger shows only material persistent changes and is omitted when empty; no unsolicited options menu is added. The GM follows [the output template](../templates/turn-output.md) and [narrative guidance](../rules/narrative.md). Required public checks, reviews, source notes, and save reports stay outside scene prose.
 
 Generated views are not canonical and must not be hand-edited to change state. The renderer refuses unsafe output targets and overwriting unrelated existing files. Regeneration may be retried after failure without resolving an action again. Publish accepted events and refreshed views together; verify remote publication separately. A view's presence is not proof of a successful GitHub commit.
+
+The GM supplies accepted prose once. After verified publication, its chat response normally contains only the completed turn and reading link. A chat transcript, old example campaign, hand-edited reading page, or unaccepted working draft never supersedes the selected story's validated records.

@@ -152,6 +152,22 @@ class Story:
         payload = _object(payload, "setup input")
         self._identity(payload.get("state"))
 
+    def start(self):
+        """Accept the staged opening once, or resume without resetting the story."""
+        self.require_current_baseline()
+        events = self.validate()
+        if events:
+            event = events[-1]
+        else:
+            payload = read_json(self.path / "setup.json")
+            self.check_setup(payload)
+            event = self.store.initialize(payload)
+        try:
+            render_campaign(self.store, self.play_path)
+        except CampaignError as exc:
+            raise CampaignError(f"Setup/state is saved at {event['hash']}; repair reading output and run render. {exc}") from exc
+        return event
+
     def check_restore(self, path):
         self.require_current_baseline()
         self.validate()
@@ -220,7 +236,7 @@ class Story:
         return _safe_path(self.path / "saves" / filename)
 
 
-def create_story(story_id, character_sheet, *, root=None):
+def create_story(story_id, character_sheet, *, root=None, _continuity=None):
     """Create a new isolated preparation folder without initializing a PC or turn."""
     story_id, root = _identifier(story_id), project_root(root)
     imported = _bytes(character_sheet)
@@ -261,6 +277,23 @@ def create_story(story_id, character_sheet, *, root=None):
                  "AGENTS.md": scope.encode("utf-8"),
                  "notes/README.md": ("# Story notes\n\nPlayer-safe preparation and supporting notes only. "
                                       "Accepted facts belong in campaign/events. These notes do not initialize or advance play.\n").encode("utf-8")}
+        if _continuity is not None:
+            files["notes/predecessor-world.json"] = (_canonical(_continuity) + b"\n")
+            files["notes/succession.md"] = (
+                "# Continuing an existing world\n\n"
+                f"Predecessor: `{_continuity['predecessor_story_id']}` at `{_continuity['predecessor_hash']}`.\n\n"
+                "predecessor-world.json preserves the validated ending state and its source coordinates. "
+                "The predecessor remains dead. This preparation has no initialized character or turns.\n\n"
+                "Use the supplied new character sheet. Keep the same world clock and surviving world consequences "
+                "when preparing setup. Record campaign.world_id, predecessor_story_id and predecessor_hash. "
+                "Carry each relevant world record explicitly with its original source and turn references in details; "
+                "use evidence_turns [0] for the accepted inherited setup. Replace predecessor 'pc' references with "
+                "an explicit person ID. Review known_by for the new viewpoint. A new PC receives only justified "
+                "knowledge, property, authority, relationships and personal obligations; none transfer automatically. "
+                "World deadlines continue at the same time_seconds. Pending institutions and projects survive even "
+                "when outside the new character's control. Do not import previous PC tasks as personal duties without basis.\n\n"
+                "Accept setup only after this mapping is checked. Normal create-story remains independent.\n"
+            ).encode("utf-8")
         for relative, contents in files.items():
             with (staging / relative).open("xb") as stream:
                 stream.write(contents)
@@ -282,3 +315,17 @@ def create_story(story_id, character_sheet, *, root=None):
             shutil.rmtree(staging)
         if locked:
             lock.rmdir()
+
+
+def create_successor(story_id, character_sheet, predecessor_id, *, root=None):
+    """Preserve a dead predecessor's world for an explicit new-character setup."""
+    predecessor = Story(predecessor_id, root=root)
+    predecessor.require_current_baseline()
+    events = predecessor.validate()
+    if not events or events[-1]["state"]["alive"]:
+        raise CampaignError("A successor requires an initialized, deceased predecessor; use create-story for an independent character")
+    final = events[-1]
+    continuity = {"predecessor_story_id": predecessor.id, "predecessor_hash": final["hash"],
+                  "world_id": final["state"]["campaign"].get("world_id", predecessor.id),
+                  "state": final["state"]}
+    return create_story(story_id, character_sheet, root=predecessor.root, _continuity=continuity)

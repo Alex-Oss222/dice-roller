@@ -12,6 +12,7 @@ from iron_engine.__main__ import main
 from iron_engine.engine import CampaignError, CampaignStore
 from iron_engine.journal import FILENAMES, render_campaign
 from tests.fixtures import bind_head, correction, setup_payload, source, starting_state, task, turn_payload
+from tests.test_workflow import advance_payload, resource_op, workflow_state, world_record
 
 
 class JournalTests(unittest.TestCase):
@@ -82,7 +83,8 @@ class JournalTests(unittest.TestCase):
         self.assertIn("Day 7, 00:00:00", resume)
         self.assertIn("Report the test shortage", resume)
         self.assertIn("test-delivery [active]", resume)
-        self.assertIn("entire validated canonical event chain", resume)
+        self.assertIn("context command validates the entire", resume)
+        self.assertIn("Retrieve relevant records and older turns on demand", resume)
         self.assertIn("rules/iron_engine.md", resume)
         self.assertIn("Aim: Check the test account", resume)
         self.assertIn(pending, self.read("character-sheet.md"))
@@ -136,6 +138,26 @@ class JournalTests(unittest.TestCase):
         self.assertNotIn("### Ledger", story)
         self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+)$", story, re.MULTILINE))
 
+    def test_new_resource_is_shown_as_unrecorded_even_when_its_established_balance_is_zero(self):
+        for amount in (0, 3):
+            with self.subTest(amount=amount):
+                state = workflow_state()
+                state["resources"] = {}
+                store = CampaignStore(self.root / f"established-{amount}")
+                store.initialize(setup_payload(state))
+                establish = {"op": "resource_establish", "unit": "silver_stags", "expected": None, "value": amount,
+                             "basis": "The test account is inspected and its previously unrecorded amount is established"}
+                store.advance(advance_payload(store, operations=[establish], changed=("resources",)))
+                output = self.root / f"play-{amount}"
+                render_campaign(store, output)
+                story = (output / "story.md").read_text(encoding="utf-8")
+                self.assertIn(f"silver_stags: unrecorded → {amount}", story)
+                self.assertNotIn(f"silver_stags: 0 → {amount}", story)
+                self.assertIn(establish["basis"], story)
+                store.advance(advance_payload(store, operations=[resource_op(expected=amount, delta=0)]))
+                render_campaign(store, output)
+                self.assertNotIn("### Ledger", (output / "latest.md").read_text(encoding="utf-8"))
+
     def test_condition_only_ledger_has_no_character_dump_and_survives_later_correction(self):
         state = starting_state()
         state["character"]["condition"] = {"rating": 8, "tags": ["Rested"], "basis": "Initial test assessment"}
@@ -163,11 +185,73 @@ class JournalTests(unittest.TestCase):
         self.initialize()
         self.turn()
         render_campaign(self.store, self.output)
-        before = {name: ((self.output / name).read_bytes(), (self.output / name).stat().st_mtime_ns) for name in FILENAMES}
+        before = {path.relative_to(self.output).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
+                  for path in self.output.rglob("*.md")}
         render_campaign(self.store, self.output)
-        after = {name: ((self.output / name).read_bytes(), (self.output / name).stat().st_mtime_ns) for name in FILENAMES}
+        after = {path.relative_to(self.output).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
+                 for path in self.output.rglob("*.md")}
         self.assertEqual(before, after)
-        self.assertEqual(set(FILENAMES), {path.name for path in self.output.iterdir()})
+        self.assertEqual({"story.md", "character-sheet.md", "resume.md", "README.md", "latest.md", "threads.md", "world.md", "turns"},
+                         {path.name for path in self.output.iterdir()})
+
+    def test_compact_turn_history_is_byte_stable_after_later_corrections_and_turns(self):
+        self.store.initialize(setup_payload(workflow_state()))
+        narrative = "The test clerk pays the carrier.\n\nThe receipt remains on the account.  "
+        accepted = self.store.advance(advance_payload(self.store, narrative=narrative,
+            operations=[resource_op()], changed=("resources",)))
+        render_campaign(self.store, self.output)
+        historical = self.output / "turns" / "turn-000001.md"
+        first_bytes = historical.read_bytes()
+        first_time = historical.stat().st_mtime_ns
+        self.assertIn(narrative.encode("utf-8"), first_bytes)
+        self.assertIn(accepted["hash"].encode("ascii"), first_bytes)
+        self.assertIn("silver_stags: 8 → 6 (-2)", first_bytes.decode("utf-8"))
+        correction_event = self.store.correct(bind_head(self.store, correction()))
+        render_campaign(self.store, self.output)
+        self.assertEqual(first_bytes, historical.read_bytes())
+        self.assertEqual(first_time, historical.stat().st_mtime_ns)
+        latest = self.read("latest.md")
+        self.assertIn(narrative, latest)
+        self.assertIn("OOC record note", latest)
+        self.assertIn(correction_event["hash"], latest)
+        next_event = self.store.advance(advance_payload(self.store, narrative="The second test scene begins."))
+        render_campaign(self.store, self.output)
+        self.assertEqual(first_bytes, historical.read_bytes())
+        self.assertEqual(first_time, historical.stat().st_mtime_ns)
+        self.assertNotIn(next_event["hash"].encode("ascii"), historical.read_bytes())
+        self.assertIn("The second test scene begins.", self.read("latest.md"))
+        self.assertIn("turns/turn-000001.md", self.read("README.md"))
+        self.assertIn("turns/turn-000002.md", self.read("README.md"))
+
+    def test_recorded_opening_is_rendered_verbatim_without_creating_a_first_turn(self):
+        opening = "The test clerk opens the ledger.\n\nNothing has yet been charged.  "
+        payload = setup_payload(workflow_state())
+        payload["opening_narrative"] = opening
+        self.store.initialize(payload)
+        render_campaign(self.store, self.output)
+        self.assertIn(opening, self.read("story.md"))
+        self.assertIn(opening, self.read("latest.md"))
+        self.assertIn("Opening: Turn 0", self.read("story.md"))
+        self.assertNotIn("## Turn 1", self.read("story.md"))
+        self.assertFalse((self.output / "turns" / "turn-000001.md").exists())
+        self.assertEqual(0, self.store.current()["turn"])
+
+    def test_world_and_thread_views_preserve_closed_records_and_knowledge_attribution(self):
+        records = {"test-clerk": world_record(),
+                   "open-thread": world_record("thread", title="Unresolved test account", participants=["test-clerk"],
+                       due=100000, known_by=["test-clerk"]),
+                   "closed-thread": world_record("thread", title="Settled test account", status="closed",
+                       summary="The closed test account remains in history")}
+        self.store.initialize(setup_payload(workflow_state(records)))
+        render_campaign(self.store, self.output)
+        world = self.read("world.md")
+        threads = self.read("threads.md")
+        for record_id in records:
+            self.assertIn(record_id, world)
+        self.assertIn("Unresolved test account", threads)
+        self.assertIn("Settled test account", threads)
+        self.assertIn("Known by: test-clerk", world)
+        self.assertEqual([], self.store.current()["knowledge"])
 
     def test_ten_turn_review_is_readable_and_separate_from_accepted_prose(self):
         self.initialize()

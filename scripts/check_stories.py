@@ -1,8 +1,9 @@
 """Validate each selected story without creating or advancing any campaign."""
 
 from pathlib import Path
+import tempfile
 
-from iron_engine.engine import CampaignError, CampaignStore
+from iron_engine.engine import CampaignError, CampaignStore, read_json
 from iron_engine.stories import Story
 
 
@@ -18,6 +19,11 @@ def main() -> int:
             story = Story(path.name, root=root)
             events = story.validate()
             story.require_current_baseline()
+            if not events and (story.path / "setup.json").exists():
+                payload = read_json(story.path / "setup.json")
+                story.check_setup(payload)
+                with tempfile.TemporaryDirectory() as temporary:
+                    CampaignStore(Path(temporary) / "campaign").initialize(payload)
             state = f"turn {events[-1]['state']['turn']}" if events else "awaiting character setup"
             print(f"{path.name}: valid, {state}")
             count += 1

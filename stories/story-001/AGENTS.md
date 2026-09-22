@@ -1,13 +1,11 @@
 # Scope: story-001
 
-Read character-sheet.md first, then ../../AGENTS.md and the selected shared rules. This folder is one independent story.
+Read character-sheet.md first, then ../../AGENTS.md. This is Eddard Stark's supplied opening before the expected Battle of the Trident. Use `python -m iron_engine --story story-001 ...` from the repository root. Ordinary play changes only this story.
 
-Use `python -m iron_engine --story story-001 ...` from the repository root. Never write another story, the shared engine, rules, references, or travel data as a side effect of play.
+The character, setup.json, opening.md and notes/setup-decisions.md are prepared and validated. Preserve the supplied ratings and intentional appearance; money and unlisted possessions remain unknown. The healthy Condition8 basis, five-novel scope and Day0 18:00 anchor are explicit setup conventions. No exact canon date is asserted.
 
-Start with character-sheet.md. It is editable preparation until setup, not an initialized character. Obtain only missing player details; never convert blanks into invented possessions or abilities. The accepted setup must use campaign.id `story-001`.
+No live events exist yet. Repository maintenance is not permission to start play. On the player's start request, use `start` to accept the prepared setup/opening and render output. It is Turn0; the player's first resolved action is Turn1. Start is idempotent and resumes an existing story.
 
-The campaign/events chain becomes authoritative after setup. play/ is generated reading material; saves/ holds portable exports; notes/ is player-safe supporting material, never competing state. Do not auto-apply later edits to the preparation sheet.
+After setup, campaign/events is authoritative. play/ contains generated reading pages. Do not import later starting-sheet edits automatically. Use context, focused record retrieval and advance for subsequent decisions; story-001 selects adjudicated workflow1 and Blood & Gold capabilities. No fabricated dice.
 
-story.json pins the shared baseline. Drift blocks new results until a separately reviewed upgrade. Do not silently edit baseline hashes. Its character-sheet hash records import provenance only.
-
-The active seed is Eddard Stark on the evening before the expected Battle of the Trident. Read notes/character-sheet-audit.md and notes/source-check.md before eventual setup. The user has asked for preparation, not the start of play. Do not initialize or write Turn 1 until they start. Proposed Condition 8, Hale is a labeled campaign assumption based on the supplied healthy premise; it is not a saved result. Preserve the intentional height and capability ratings and flag missing machine derivation metadata. The original attachment and previous unfilled sheet are provenance, not competing active characters.
+The original attachment in notes/source-inputs and the earlier 37-turn transcript are references, not imported play. This story does not inherit their outcomes. Changes to the map, canon characters, finances or institutions belong only here. Shared hashes are pinned in story.json; ordinary turns never update them.

@@ -116,7 +116,7 @@ class TravelCatalog:
 
     def estimate(self, mode, origin, destination, *, rate_mpd=None, profile=None, pace=None,
                  rest_days=0, multiplier=1, endurance_assumption=None):
-        """Estimate elapsed time, without changing a campaign or claiming arrival.
+        """Legacy arithmetic API, not the campaign's slowest-pace policy.
 
         ``multiplier`` multiplies speed, not duration. Rest days are added after
         moving days. An endurance warning is advisory, never concealed.
@@ -191,6 +191,91 @@ class TravelCatalog:
                                   "Routes are symmetric for mileage only. No route-finding, access checks, unit conversions, or automatic arrivals."]})
         return result
 
+    def estimate_slow(self, mode, origin, destination, *, profile=None, pace=None,
+                      rate_mpd=None, rate_basis=None, rest_days=0, multiplier=1,
+                      delay_basis=None, condition_basis=None):
+        """Apply the campaign's slowest applicable daily travel policy.
+
+        A road profile may be one id or a list of all applicable profile ids.
+        Human sleep, meals and ordinary stops belong inside the daily baseline.
+        Additional rest_days represent only explicit extra delays.
+        """
+        mode = _normalized(mode, "mode")
+        if mode not in MODES:
+            raise TravelError("mode must be road, sea, or raven")
+        factor = _number(multiplier, "multiplier")
+        if factor > 1:
+            raise TravelError("Slowest travel policy requires 0 < multiplier <= 1; speed increases are not allowed")
+        if pace is not None and _normalized(pace, "pace") != "slow":
+            raise TravelError("Slowest travel policy permits only pace='slow'")
+        for field, value in [("rate_basis", rate_basis), ("delay_basis", delay_basis), ("condition_basis", condition_basis)]:
+            if value is not None and (not isinstance(value, str) or not value.strip()):
+                raise TravelError(f"{field} must be a nonempty explanation")
+        rate_basis = rate_basis.strip() if rate_basis is not None else None
+        delay_basis = delay_basis.strip() if delay_basis is not None else None
+        condition_basis = condition_basis.strip() if condition_basis is not None else None
+        applicable = []
+        if mode == "road":
+            if rate_mpd is not None:
+                raise TravelError("Slowest road travel requires applicable road profiles; an explicit rate cannot override them")
+            if profile is None:
+                raise TravelError("Slowest road travel requires an explicit applicable road profile")
+            profile_ids = [profile] if isinstance(profile, str) else profile
+            if not isinstance(profile_ids, (tuple, list)) or not profile_ids:
+                raise TravelError("profile must be an id or a nonempty list of applicable road profile ids")
+            seen = set()
+            for profile_id in profile_ids:
+                key = _normalized(profile_id, "profile")
+                if key not in self._profiles:
+                    raise TravelError(f"Unknown road profile: {profile_id!r}")
+                if key in seen:
+                    continue
+                seen.add(key)
+                selected = self._profiles[key]
+                rates = selected["rates_miles_per_day"]
+                if "slow" not in rates or rates["slow"] != min(rates.values()):
+                    raise TravelError(f"Profile {key} must identify its lowest supplied rate as 'slow'")
+                applicable.append({"id": selected["id"], "label": selected["label"],
+                                   "rate_mpd": rates["slow"], "source_range": selected["source_range"]})
+            slowest = min(applicable, key=lambda entry: entry["rate_mpd"])
+            result = self.estimate(mode, origin, destination, profile=slowest["id"],
+                                   pace="slow", rest_days=rest_days, multiplier=multiplier)
+            policy_basis = "Lowest supplied daily rate for each declared applicable road profile; the slowest of those profiles sets party progress."
+        else:
+            if profile is not None:
+                raise TravelError("Road profiles cannot be applied to sea or raven travel")
+            if rate_mpd is None or rate_basis is None:
+                raise TravelError("Sea/raven slow travel requires rate_mpd and rate_basis documenting a sourced conservative rate or explicit conservative GM assumption")
+            result = self.estimate(mode, origin, destination, rate_mpd=rate_mpd,
+                                   rest_days=rest_days, multiplier=multiplier)
+            policy_basis = "Explicit conservative rate supplied by the GM; the imported source does not establish a minimum sea or raven speed."
+        result["travel_days"] = result["moving_days"]
+        result["policy"] = {"name": "slowest_applicable", "basis": policy_basis,
+                            "applicable_profiles": applicable, "rate_basis": rate_basis,
+                            "condition_basis": condition_basis, "delay_basis": delay_basis,
+                            "additional_delay_days": rest_days,
+                            "daily_baseline": {
+                                "human_sleep_hours": 8,
+                                "normal_meals_and_stops_included": True,
+                                "additional_seconds_for_routine": 0,
+                                "basis": "User-directed campaign convention: daily mileage already allows normal human sleep, meals and stops; the source does not specify an eight-hour sleep budget.",
+                                "scope": "Human party scheduling; not an assertion about raven physiology or whether a ship can move while its crew sleeps.",
+                            }}
+        result["assumptions"].extend([
+            policy_basis,
+            "Daily progress already includes eight hours of human sleep, meals and ordinary stops by campaign convention; do not add these again as rest days.",
+            "moving_days and travel_days both mean days of overall travel progress at the stated daily rate, not uninterrupted movement for 24 hours.",
+            "Only supplied extra delays and speed reductions are added; no encounter, weather event, or recovery schedule is generated.",
+        ])
+        if rate_basis is not None:
+            result["assumptions"].append(f"Conservative rate basis: {rate_basis}")
+        if condition_basis is not None:
+            result["assumptions"].append(f"Speed reduction basis: {condition_basis}")
+        if delay_basis is not None:
+            result["assumptions"].append(f"Additional delay basis: {delay_basis}")
+        result["limits"].append("The GM must identify every applicable party profile. The helper cannot infer party composition or verify an externally supplied conservative rate.")
+        return result
+
 
 def load_catalog(path=None):
     """Load the bundled snapshot, or a specified compatible JSON catalog."""
@@ -210,3 +295,12 @@ def estimate(mode, origin, destination, *, rate_mpd=None, profile=None, pace=Non
     return (catalog if catalog is not None else load_catalog()).estimate(
         mode, origin, destination, rate_mpd=rate_mpd, profile=profile, pace=pace,
         rest_days=rest_days, multiplier=multiplier, endurance_assumption=endurance_assumption)
+
+
+def estimate_slow(mode, origin, destination, *, profile=None, pace=None, rate_mpd=None,
+                  rate_basis=None, rest_days=0, multiplier=1, delay_basis=None,
+                  condition_basis=None, catalog=None):
+    return (catalog if catalog is not None else load_catalog()).estimate_slow(
+        mode, origin, destination, profile=profile, pace=pace, rate_mpd=rate_mpd,
+        rate_basis=rate_basis, rest_days=rest_days, multiplier=multiplier,
+        delay_basis=delay_basis, condition_basis=condition_basis)

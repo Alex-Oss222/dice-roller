@@ -3,21 +3,23 @@
   "story_id": "story-001",
   "character_sheet_sha256": "c6d9095e6cee9e64b56f0863260fad193c0e199789aa3eca5470e705f3118626",
   "shared_files": {
-    "AGENTS.md": "06519bd2a477345f5433d21faefb9cf1c4b3c2174ec76e4219846c53058fe38e",
+    "AGENTS.md": "fac4b54224bfa5ae1e5e8513730b0aeb6ec523063b2a7d79a5481e4c23fc915b",
     "data/travel_distances.json": "c4730ebd52e356f813ff9031ceaf08f1abb7c9050b33b97aa9433f6a2628d18b",
     "docs/research.md": "7b138862c700993e1aecdf49998209321bbe734f91141deeb1213fca1fa9cd09",
     "iron_engine/__init__.py": "d26f3507dfd22ba71714a9edd66d0bb8dbb53d01beca5bafd0e6a452fa685335",
-    "iron_engine/__main__.py": "5e1ae00908ba0c520c74a6ec0af8caf8b7fa61a4a490b2dd58177171f563b8c8",
+    "iron_engine/__main__.py": "28f7381e5d5547c3b9e9a414e402d9cf4cce828bcd55ab8378923ff8fa2dab81",
     "iron_engine/capabilities.py": "f88823cb82a9901fb36ae3a0b0406280b6a397dc012332671a75767c1abc839f",
     "iron_engine/condition.py": "b78e940cfd1f2651f29622278d531d0d3de128d722cb62c7c225a759e72957ed",
-    "iron_engine/engine.py": "df969940cf9f3eff5bfaa1d608323f574c8868f3970f1a39d27177fa19e8d27a",
-    "iron_engine/journal.py": "3307176bb5fe7e6ed449d60bc44b3ebff3d0f9203c3c3463c0d6b8f8b2085d0a",
-    "iron_engine/stories.py": "75fefe4813bc40596234676299276682c0efcfd1310bce283205cb78a6d442c9",
-    "iron_engine/travel.py": "8e905a9dd519588a6f82014bd0759d933d51642d81fbbe9f58a3f7debd3cd775",
+    "iron_engine/context.py": "037496f345f001d8ea58518813a395206981c4e10ea6dfe3682e1e70bbf29784",
+    "iron_engine/engine.py": "aee65d871516fbae9bbae83cdc1e76f23923e35ad43355d66af4c67843320037",
+    "iron_engine/journal.py": "24beb132f7a4d934651fa00b4d07a15d5a34ae922bfd9282be7ba1507e293ed5",
+    "iron_engine/stories.py": "ed938c3e173d9b391a29ce8d049b2bbb5dac7dff008c10e87d6fdd573492563b",
+    "iron_engine/travel.py": "112377a5ccdd672766f871ca69093ddc296a71ffdc6af1bbc5ded530900a2d71",
+    "iron_engine/workflow.py": "67c09b2528bc7fbe521f1c7d564a320795acb35cbf37696c0ed6ef49ca8ae56e",
     "references/books.md": "26b635d42575dfd33d6e93497caab06d68553aa16498828264f8b418b42d2011",
     "rules/capabilities.md": "05316a3b70de88a5b446370ed9bdbae3221b242a26b188bf4c113ca4d2bbfbc1",
     "rules/condition.md": "f04b048e3e32fd6d7991d71a417d8306d32e1bada10bf5a7f2b6e3969af6c65d",
-    "rules/iron_engine.md": "0d04dffcde3a897347e5cf4f559bc55ece1c892a38b005c6bd5878bcfea8cf5c",
-    "rules/narrative.md": "d8111ad8675c5dc6fa1470d43d06430303e972b5440de8d60706d189fa351f8f"
+    "rules/iron_engine.md": "984956cec1a51a2e29194420c5bccae77e275d3847cb562be41aea6846dbb6b8",
+    "rules/narrative.md": "94096ed928b5b956f440c3c64bdb81096f08f243fdbce0c4e54942608c247389"
   }
 }

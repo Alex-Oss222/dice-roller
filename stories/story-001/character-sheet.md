@@ -1,8 +1,8 @@
 # A Song of Blood & Gold
 
-## Story 1 character seed, awaiting start
+## Story 1 character seed, ready to start
 
-This is the supplied starting character for `story-001`, organized for later play. It is editable preparation, not an initialized ledger or a played scene. No Turn 0 event or Turn 1 has been created. References below to Turn 0 describe the proposed setup.
+This is the supplied starting character for `story-001`, organized for later play. Its complete [staged setup](setup.json), [prepared opening](opening.md), and [setup decisions](notes/setup-decisions.md) are prepared for a later start instruction. All requested ratings are now supported by the authorized changes recorded below. It remains editable preparation, not an initialized ledger or a played scene. No Turn 0 event or Turn 1 has been created. References below to Turn 0 describe the proposed setup.
 
 Read this sheet first, then the [preparation audit](notes/character-sheet-audit.md). The [original attachment](notes/source-inputs/eddard-trident-original.md) is preserved separately.
 
@@ -18,11 +18,12 @@ Read this sheet first, then the [preparation audit](notes/character-sheet-audit.
 | Resolution | **Adjudicated** |
 | Starting era/event | **283 AC, evening before the Battle of the Trident** |
 | Starting region | **The Riverlands, beside the Trident** |
-| Permitted continuity | **Book continuity for facts established before the starting moment. No television-continuity substitutions. Later events are not fixed and may diverge naturally from Turn 0.** |
+| Permitted books | **A Game of Thrones; A Clash of Kings; A Storm of Swords; A Feast for Crows; A Dance with Dragons.** Working setup scope: retrospective pre-start facts only; no television or companion works unless later explicitly approved. |
+| Permitted continuity | **Book-informed pre-start history, with the explicit player-authored capability and language divergences recorded below. No television-continuity substitutions. Later events are not fixed.** |
 | Spoiler cutoff | **Campaign history stops at the starting moment. Retrospective book material may establish earlier facts, but no later event is treated as inevitable or as PC knowledge.** |
 | Day 0 anchor | **The evening immediately before the expected Battle of the Trident; exact calendar date within 283 AC is not established and is not invented.** |
-| Ledger status | **Awaiting start; proposed setup is Turn 0** |
-| Proposed starting day/time | **Day 0, evening; evening meal already taken** |
+| Ledger status | **Ready to start from staged setup; no accepted events exist. Proposed setup is Turn 0.** |
+| Staged starting day/time | **Day 0, 18:00; 64800 seconds; evening meal already taken.** Relative clock convention only, not a canonical hour/date. |
 | Proposed starting location | **Ned's command tent, northern section of the rebel encampment beside the Trident** |
 | Season | **Not securely established for this exact date** |
 
@@ -69,7 +70,7 @@ No battlefield action has begun. No final pre-battle decision has been made for 
 **Religious background:** Keeps the old gods of the First Men.  
 **Important past events:** Fosterage at the Eyrie; friendship with Robert; tourney at Harrenhal; disappearance of Lyanna with Rhaegar Targaryen; executions of Rickard and Brandon; Aerys's demand for Ned's and Robert's heads; dangerous return north through the Mountains of the Moon, the Bite, and the Three Sisters; succession as Lord of Winterfell; raising the northern banners; Battle of the Bells; recent marriage to Catelyn Tully at Riverrun.
 
-Only established facts become campaign truth. Famous connections, hidden knowledge, equipment, exact troop counts, and future events are not granted merely because they would be useful.
+Supported background and explicit player-authored starting choices become campaign truth. This is a canon-informed version of Ned; the books do not fix his future choices, inner life, morality, or development. Growth follows actions, experience, and consequences. Unrelated secrets, connections, exact troop counts, and future outcomes are not granted by a skill or language choice.
 
 ---
 
@@ -125,7 +126,7 @@ All learned Capabilities use the **0 to 9 Rating scale** from the supplied chara
 | 8 | Exceptional; rare, renowned, or career-defining mastery |
 | 9 | Extraordinary; lifetime mastery requiring exceptional ability and opportunity |
 
-Ned is only about twenty and is fighting his first great war. His sheet therefore treats him as a **skilled young noble commander with unusually strong command and strategic ability for his age**, not as a legendary warrior or duelist by default.
+Ned is about twenty and in his first great war. The player has explicitly chosen **Longsword 7 and several unusually strong abilities** for this version of him. These are starting campaign premises, not a claim that the novels establish those ratings. They grant no automatic victories or mastery of unrelated skills.
 
 ### Development Initialization Convention
 
@@ -135,29 +136,31 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 ## Domain Summary
 
+All requested ratings are applied. The player authorized supporting changes to existing established skills and a suitable Fieldcraft anchor set. The [setup decisions](notes/setup-decisions.md) list every additional change and the complete arithmetic. No derived estimate is used as an anchor, no new ability is invented, and no past training award is fabricated.
+
 | Domain | Rating | Anchor basis |
 | --- | ---: | --- |
-| Diplomacy | **4** | Noble customs, public leadership, negotiation, protocol |
-| Martial | **4** | Longsword, frontline leadership, tactics, armored fighting, mounted combat |
-| Stewardship | **4** | Military logistics, supply, estate and household management, record keeping |
+| Diplomacy | **5** | Noble customs, public leadership, negotiation, protocol |
+| Martial | **6** | Longsword, frontline leadership, tactics, armored fighting, mounted combat |
+| Stewardship | **5** | Military logistics, supply, estate and household management, record keeping |
 | Intrigue | **3** | Detecting deception, concealment, information handling, counterintelligence; little evidence of sophisticated covert practice |
 | Learning | **4** | Law/custom, history, heraldry, geography, literacy |
-| Fieldcraft | **4** | Riding, horse handling, terrain reading, navigation, campaigning |
+| Fieldcraft | **7** | Survival, forest travel, trailcraft, terrain reading; narrower skills still govern their own tasks |
 | Craft | **3** | Routine personal weapon and field-gear maintenance; no professional trade |
 
 ---
 
-## Diplomacy 4
+## Diplomacy 5
 
 ### Anchor Skills
 
 | Sub-skill | Rating | Development | Weight | Basis |
 | --- | ---: | ---: | ---: | --- |
-| Noble Customs | 4 | 0 / 14 | 30% | Raised in two great noble households; accustomed to lordly obligations and rank |
-| Public Leadership | 3 | 0 / 12 | 25% | Commands northern bannermen, but is still young and not established as a charismatic orator |
-| Negotiation | 3 | 0 / 12 | 25% | Highborn political education and participation in rebel alliance politics |
-| Protocol | 4 | 0 / 14 | 20% | Great-house education, rank-conscious conduct, and long residence in Jon Arryn's household |
-| **Total** |  |  | **100%** | **3.50 → Diplomacy 4** |
+| Noble Customs | 5 | 0 / 16 | 30% | Raised in two great noble households; accustomed to lordly obligations and rank; authorized supporting starting rating, not a canonical numeric claim |
+| Public Leadership | 5 | 0 / 16 | 25% | Commands northern bannermen, but is still young and not established as a charismatic orator; authorized supporting starting rating, not a canonical numeric claim |
+| Negotiation | 5 | 0 / 16 | 25% | Highborn political education and participation in rebel alliance politics; authorized supporting starting rating, not a canonical numeric claim |
+| Protocol | 5 | 0 / 16 | 20% | Great-house education, rank-conscious conduct, and long residence in Jon Arryn's household; authorized supporting starting rating, not a canonical numeric claim |
+| **Total** |  |  | **100%** | **5.00 → Diplomacy 5** |
 
 ### Established Sub-skills
 
@@ -172,33 +175,33 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 | Sub-skill | Rating | Basis |
 | --- | ---: | --- |
-| Oratory | **2D** | Diplomacy 4 plus Public Leadership 3, reduced because Ned is reserved and not established as a polished public speaker |
+| Oratory | **2D** | Diplomacy 5 with Public Leadership 5, reduced because Ned is reserved and not established as a polished public speaker |
 | Bargaining | **3D** | Noble negotiation background, though not a commercial specialist |
 
 ---
 
-## Martial 4
+## Martial 6
 
 ### Anchor Skills
 
 | Sub-skill | Rating | Development | Weight | Basis |
 | --- | ---: | ---: | ---: | --- |
-| Longsword | 4 | 0 / 14 | 30% | Years of noble weapons training; canon consistently associates Ned with sword use |
-| Frontline Leadership | 5 | 0 / 16 | 25% | Personally commands the northern host and has already exercised independent wartime command, including at the Battle of the Bells |
-| Tactics | 4 | 0 / 14 | 20% | Competent campaign commander whose army helped turn the Battle of the Bells |
-| Armored Fighting | 4 | 0 / 14 | 15% | Noble martial training and current wartime service |
-| Mounted Combat | 4 | 0 / 14 | 10% | Noble riding and martial education; campaigning commander |
-| **Total** |  |  | **100%** | **4.25 → Martial 4** |
+| Longsword | 7 | 0 / 20 | 30% | Years of noble weapons training; canon consistently associates Ned with sword use; player-selected starting assessment, not a canonical numeric claim |
+| Frontline Leadership | 6 | 0 / 18 | 25% | Personally commands the northern host and has already exercised independent wartime command, including at the Battle of the Bells; authorized supporting starting rating, not a canonical numeric claim |
+| Tactics | 6 | 0 / 18 | 20% | Competent campaign commander whose army helped turn the Battle of the Bells; authorized supporting starting rating, not a canonical numeric claim |
+| Armored Fighting | 5 | 0 / 16 | 15% | Noble martial training and current wartime service; authorized supporting starting rating, not a canonical numeric claim |
+| Mounted Combat | 5 | 0 / 16 | 10% | Noble riding and martial education; campaigning commander; authorized supporting starting rating, not a canonical numeric claim |
+| **Total** |  |  | **100%** | **6.05 → Martial 6** |
 
 ### Established Sub-skills
 
 | Sub-skill | Rating | Development | Basis |
 | --- | ---: | ---: | --- |
 | Shield Use | 4 | 0 / 14 | Standard noble martial training; dependable but no exceptional feat established |
-| Two-Handed Sword | 4 | 0 / 14 | Years of noble weapons training; skilled with heavier two-handed sword use as well as an ordinary longsword |
-| Battlefield Awareness | 4 | 0 / 14 | Campaign command and Battle of the Bells experience |
+| Two-Handed Sword | 5 | 0 / 16 | Years of noble weapons training; skilled with heavier two-handed sword use as well as an ordinary longsword; player-selected starting assessment, not a canonical numeric claim |
+| Battlefield Awareness | 6 | 0 / 18 | Campaign command and Battle of the Bells experience; player-selected starting assessment, not a canonical numeric claim |
 | Formation Command | 5 | 0 / 16 | Commands organized northern forces within a coalition army |
-| Formation Fighting | 4 | 0 / 14 | Noble battlefield training and active war service |
+| Formation Fighting | 5 | 0 / 16 | Noble battlefield training and active war service; player-selected starting assessment, not a canonical numeric claim |
 | Logistics of War | 5 | 0 / 16 | Raised and marched a northern army a great distance into the Riverlands |
 | Strategy | 5 | 0 / 16 | Strong high-level military judgment for his age, supported by mobilization, campaigning, and coalition warfare; still limited by a short independent war career |
 | Defensive Fighting | 4 | 0 / 14 | General armored sword training; conservative, survival-oriented style is plausible but not treated as a special bonus |
@@ -210,8 +213,8 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 | Sub-skill | Rating | Basis |
 | --- | ---: | --- |
-| Cavalry Command | **4D** | Martial 4, Formation Command 5, Tactics 4, and Riding 4; mounted command is expected but not separately documented |
-| Infantry Command | **5D** | Martial 4, Frontline Leadership 5, Formation Command 5, and Tactics 4; leading northern troops directly supports unusually strong infantry command |
+| Cavalry Command | **4D** | Martial 6, Formation Command 5, Tactics 6, and Riding 5; mounted command is expected but not separately documented |
+| Infantry Command | **5D** | Martial 6, Frontline Leadership 6, Formation Command 5, and Tactics 6; leading northern troops directly supports unusually strong infantry command |
 | Lance | **3D** | Noble mounted-war training is plausible, but no specific pre-Trident lance reputation is established |
 | Protecting Another Person | **4D** | Sword, shield, armored fighting, and battlefield leadership support competent protective fighting |
 
@@ -219,30 +222,30 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 | Specialty | Parent Sub-skill | Rating | Development | Basis |
 | --- | --- | ---: | ---: | --- |
-| Commanding Northmen | Frontline Leadership | 5 | 0 / 16 | Legitimate Lord of Winterfell leading his own bannermen in active rebellion |
+| Commanding Northmen | Frontline Leadership | 6 | 0 / 18 | Legitimate Lord of Winterfell leading his own bannermen in active rebellion |
 | Coalition Battlefield Coordination | Formation Command | 3 | 0 / 12 | Works beside Arryn, Tully, and Baratheon leadership, but coalition command remains shared |
 
 ---
 
-## Stewardship 4
+## Stewardship 5
 
 ### Anchor Skills
 
 | Sub-skill | Rating | Development | Weight | Basis |
 | --- | ---: | ---: | ---: | --- |
-| Logistics | 4 | 0 / 14 | 30% | Successfully mustered and moved a northern host south during wartime |
-| Supply | 3 | 0 / 12 | 25% | Necessary part of field command; exact personal expertise not exceptional |
+| Logistics | 6 | 0 / 18 | 30% | Successfully mustered and moved a northern host south during wartime; player-selected starting assessment, not a canonical numeric claim |
+| Supply | 5 | 0 / 16 | 25% | Necessary part of field command; exact personal expertise not exceptional; authorized supporting starting rating, not a canonical numeric claim |
 | Estate Management | 4 | 0 / 14 | 20% | Noble education, though Ned only recently became Lord of Winterfell |
-| Household Management | 3 | 0 / 12 | 15% | Great-house education and current command responsibilities |
+| Household Management | 4 | 0 / 14 | 15% | Great-house education and current command responsibilities; authorized supporting starting rating, not a canonical numeric claim |
 | Record Keeping | 4 | 0 / 14 | 10% | Literate noble administration |
-| **Total** |  |  | **100%** | **3.60 → Stewardship 4** |
+| **Total** |  |  | **100%** | **4.85 → Stewardship 5** |
 
 ### Established Sub-skills
 
 | Sub-skill | Rating | Development | Basis |
 | --- | ---: | ---: | --- |
-| Provisioning | 3 | 0 / 12 | Campaign experience and lordly responsibility |
-| Labor Management | 3 | 0 / 12 | Command over retainers and organized forces |
+| Provisioning | 5 | 0 / 16 | Campaign experience and lordly responsibility; player-selected starting assessment, not a canonical numeric claim |
+| Labor Management | 5 | 0 / 16 | Command over retainers and organized forces; player-selected starting assessment, not a canonical numeric claim |
 | Budgeting | 4 | 0 / 14 | General noble exposure; no evidence of unusual financial skill |
 | Agriculture | 2 | 0 / 10 | Landed-noble familiarity, not specialist knowledge |
 
@@ -250,8 +253,8 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 | Sub-skill | Rating | Basis |
 | --- | ---: | --- |
-| Army Camp Administration | **4D** | Stewardship 4 plus Logistics 4 and current command role |
-| Large-Scale Provisioning | **4D** | Stewardship 4 plus Supply 3 and Logistics 4, supported by active host experience |
+| Army Camp Administration | **4D** | Stewardship 5 plus Logistics 6 and current command role |
+| Large-Scale Provisioning | **4D** | Stewardship 5 plus Supply 5 and Logistics 6, supported by active host experience |
 
 ---
 
@@ -294,17 +297,17 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 | Law / Feudal Custom | 5 | 0 / 16 | 25% | Great-house education and lordly succession |
 | History | 3 | 0 / 12 | 25% | Educated highborn background |
 | Heraldry | 3 | 0 / 12 | 20% | Noble military and court education |
-| Geography | 4 | 0 / 14 | 15% | Travel between North and Vale, campaign movement, knowledge expected of a lord |
+| Geography | 6 | 0 / 18 | 15% | Travel between North and Vale, campaign movement, knowledge expected of a lord; player-selected starting assessment, not a canonical numeric claim |
 | Reading | 4 | 0 / 14 | 15% | Fully literate high noble |
-| **Total** |  |  | **100%** | **3.80 → Learning 4** |
+| **Total** |  |  | **100%** | **4.10 → Learning 4** |
 
 ### Established Sub-skills
 
 | Sub-skill | Rating | Development | Basis |
 | --- | ---: | ---: | --- |
 | Writing | 4 | 0 / 14 | Fully literate great lord able to conduct correspondence |
-| Genealogy | 3 | 0 / 12 | Important noble-house knowledge |
-| Theology: Old Gods | 4 | 0 / 14 | Raised in the faith and familiar with its customs and observances; not a formal theologian |
+| Genealogy | 4 | 0 / 14 | Important noble-house knowledge; player-selected starting assessment, not a canonical numeric claim |
+| Theology: Old Gods | 7 | 0 / 20 | Raised in the faith and familiar with its customs and observances; not a formal theologian; player-selected starting assessment, not a canonical numeric claim |
 | Mathematics / Numeracy | 3 | 0 / 12 | Sufficient for lordly administration and military quantities |
 | Medicine | 1 | 0 / 8 | No specialist training established |
 
@@ -312,41 +315,43 @@ For play bookkeeping, established trainable Capabilities begin at **0 Developmen
 
 | Sub-skill | Rating | Basis |
 | --- | ---: | --- |
-| Genealogical Protocol | **4D** | Learning 4 plus Noble Customs 4 and Heraldry 3 |
-| Campaign Geography | **4D** | Learning 4 plus Fieldcraft 4, Navigation 3, and current wartime travel |
+| Genealogical Protocol | **4D** | Learning 4 plus Noble Customs 5 and Heraldry 3 |
+| Campaign Geography | **4D** | Learning 4 plus Geography 6, Reading Terrain 6, and Navigation 3; provisional scope remains unchanged |
 
 ---
 
-## Fieldcraft 4
+## Fieldcraft 7
+
+The chosen anchors emphasize survival and movement through northern country. This broad expertise does not replace Riding 5, Horse Handling 4, Navigation 3, Camping 5, or another narrower established skill when it directly governs an action.
 
 ### Anchor Skills
 
 | Sub-skill | Rating | Development | Weight | Basis |
 | --- | ---: | ---: | ---: | --- |
-| Riding | 4 | 0 / 14 | 30% | Noble upbringing and active campaigning |
-| Horse Handling | 4 | 0 / 14 | 20% | Long familiarity with horses through noble travel and war |
-| Reading Terrain | 4 | 0 / 14 | 20% | Campaign travel, command, and practical northern upbringing |
-| Navigation | 3 | 0 / 12 | 15% | Extensive travel, including difficult route from the Vale toward the North |
-| Camping | 4 | 0 / 14 | 15% | Sustained campaign life with the northern host |
-| **Total** |  |  | **100%** | **3.85 → Fieldcraft 4** |
+| Survival | 7 | 0 / 20 | 25% | Player-authorized expert starting field competence; northern upbringing is context, not proof of a canonical rating or invented feats |
+| Forest Travel | 7 | 0 / 20 | 25% | Player-authorized expert northern woodland travel; no supernatural perception or unrelated knowledge |
+| Trailcraft | 7 | 0 / 20 | 25% | Player-authorized expert practical trailcraft; no invented training chronology |
+| Reading Terrain | 6 | 0 / 18 | 25% | Explicitly requested terrain assessment, retained unchanged |
+| **Total** | | | **100%** | **6.75 → Fieldcraft 7** |
 
 ### Established Sub-skills
 
 | Sub-skill | Rating | Development | Basis |
 | --- | ---: | ---: | --- |
-| Survival | 3 | 0 / 12 | Northern upbringing and difficult wartime travel |
+| Riding | 5 | 0 / 16 | Explicitly requested rating; noble upbringing and campaigning provide context |
+| Horse Handling | 4 | 0 / 14 | Explicitly requested rating retained |
+| Navigation | 3 | 0 / 12 | Explicitly requested rating retained; broad Fieldcraft does not override it |
+| Camping | 5 | 0 / 16 | Explicitly requested rating; sustained campaign life provides context |
 | Scouting | 3 | 0 / 12 | Commander familiar with scouts and field reconnaissance, though not a specialist scout |
-| Forest Travel | 3 | 0 / 12 | Northern background |
 | Mountain Travel | 3 | 0 / 12 | Crossed the Mountains of the Moon during the opening of the rebellion |
-| Trailcraft | 3 | 0 / 12 | General field competence |
 | Hunting | 3 | 0 / 12 | Plausible highborn northern training; no specialist reputation |
 
 ### Derived Sub-skills
 
 | Sub-skill | Rating | Basis |
 | --- | ---: | --- |
-| River-Crossing Assessment | **3D** | Fieldcraft 4, Reading Terrain 4, military experience; no specialist engineering knowledge |
-| Concealment in Wilderness | **3D** | Fieldcraft 4 with ordinary practical exposure, not ranger-level specialization |
+| River-Crossing Assessment | **3D** | Conservative provisional estimate from Fieldcraft 7, Reading Terrain 6, Navigation 3, and Scouting 3; no specialist engineering knowledge |
+| Concealment in Wilderness | **3D** | Conservative provisional estimate; expertise in survival and travel does not grant stealth mastery |
 
 ---
 
@@ -377,14 +382,14 @@ Ned has no established professional craft. The Domain exists only to represent r
 | Language | Spoken | Read | Written | Relevant Capability / Basis |
 | --- | --- | --- | --- | --- |
 | Common Tongue | Fluent | Fluent | Fluent | Native language and noble education |
-| Old Tongue | Not established | Not established | Not established | The Old Tongue is not established as part of Ned's education or ordinary northern noble speech |
-| High Valyrian | Not established | Not established | Not established | No evidence sufficient for a rating |
+| Old Tongue | Fluent | Fluent | Fluent | Explicit player-authored starting divergence; no claim that canon establishes this proficiency |
+| High Valyrian | Fluent | Decent | Decent | Explicit player-authored starting divergence; difficult or specialist texts may still exceed his literacy |
 | Other | Not established | Not established | Not established | None assumed |
 
 ### Literacy and Numeracy
 
-**Reads:** Yes, fully literate in the Common Tongue  
-**Writes:** Yes  
+**Reads:** Fluent Common Tongue and Old Tongue; decent High Valyrian  
+**Writes:** Fluent Common Tongue and Old Tongue; decent High Valyrian  
 **Numeracy/accounting:** Trained noble competence; sufficient for orders, tallies, and ordinary estate or campaign figures, but not established as an expert accountant
 
 ---
@@ -397,35 +402,27 @@ Combat competence is recorded through Martial Sub-skills, with Fieldcraft contri
 
 | Area | Relevant Capability | Rating / Development | Basis |
 | --- | --- | --- | --- |
-| Primary fighting method | Longsword | **4, 0 / 14** | Years of noble weapons training and active war service |
-| Two-handed sword | Two-Handed Sword | **4, 0 / 14** | Skilled noble weapons training with two-handed swords |
+| Primary fighting method | Longsword | **7, 0 / 20** | Years of noble weapons training and active war service |
+| Two-handed sword | Two-Handed Sword | **5, 0 / 16** | Skilled noble weapons training with two-handed swords |
 | Secondary fighting method | Dagger | **3, 0 / 12** | Secondary weapon familiarity |
-| Armored fighting | Armored Fighting | **4, 0 / 14** | Noble training and campaign service |
+| Armored fighting | Armored Fighting | **5, 0 / 16** | Noble training and campaign service |
 | Shield use | Shield Use | **4, 0 / 14** | Standard noble battlefield competence |
-| Mounted combat | Mounted Combat | **4, 0 / 14** | Riding plus martial education |
+| Mounted combat | Mounted Combat | **5, 0 / 16** | Riding plus martial education |
 | Archery | Archery | **2, 0 / 10** | Familiar, not emphasized |
 | Wrestling / unarmed | Wrestling / Unarmed | **3, 0 / 12** | General martial schooling |
-| Battlefield awareness | Battlefield Awareness | **4, 0 / 14** | Command and Battle of the Bells experience |
+| Battlefield awareness | Battlefield Awareness | **6, 0 / 18** | Command and Battle of the Bells experience |
 
 **Formal training:** Sustained noble martial education at Winterfell and especially during fosterage at the Eyrie, beginning in childhood.  
 **Battle experience:** Robert's Rebellion; confirmed major combat-command experience at the Battle of the Bells, plus active campaigning and marches before the Trident.
 
-## Equipment
+## Equipment Reference
 
-**Primary weapon:** A sword is physically present in the opening scene and is being sharpened. Exact pattern is not fixed; use Longsword 4 for ordinary sword fighting unless a different weapon is established.  
-**Secondary weapon:** Not fixed at Turn 0. Ned is canonically familiar with a dagger, but possession at this exact moment is not assumed until relevant.  
-**Shield:** Not specifically established as present.  
-**Armor:** Battle armor is nearby in the tent but not worn. Exact construction and coverage are not yet established.  
-**Helmet:** Part of battle equipment only if later established; exact type is unknown.  
-**Horse:** Ned has mounted training and status consistent with access to a warhorse, but no individual mount is established as immediately available until play confirms it.  
-**Other field gear:** Whetstone is present. Ordinary command-tent and campaign necessities may be established when causally relevant, but convenience alone does not create possessions.
-
-**Ancestral weapon, Ice:** Ice is House Stark's Valyrian steel greatsword and Ned's inherited property as Lord of Winterfell. Canon chiefly establishes Ned's use of Ice for executions and ceremony. Its physical presence in the Trident camp is **not established** at Turn 0 and should not be assumed.
+The single physical inventory is in [Equipment](#equipment) below. Combat capability grants no additional weapon or protection. The prepared armor is unworn, and the assigned horse is at the northern picket line.
 
 ## Combat Considerations
 
 **Reach:** Normal for the sword actually in hand; exact blade dimensions not established.  
-**Armor coverage:** None at the opening instant because the armor is not being worn; future coverage depends on the armor actually donned.  
+**Armor coverage:** None at the opening instant. When the listed harness is donned, its plates and mail protect their covered areas; gaps and relevant attack methods still matter.  
 **Mobility:** Unarmored and inside a command tent at start.  
 **Current fatigue:** None specifically established.  
 **Current wounds:** None established.  
@@ -445,7 +442,7 @@ Combat adjudication considers training, weapon reach, armor coverage, surprise, 
 | State / functional band | **Hale / Healthy** |
 | Tags | **Hale** |
 | Basis | The supplied campaign premise starts Ned unwounded, fed, and without established illness or debilitating exhaustion. The ordinary healthy baseline is therefore proposed. This is a campaign assumption, not a verified book fact or saved result. |
-| Assessment point | Confirm against the opening circumstances when setup is accepted. No recovery or elapsed time has been applied. |
+| Assessment point | Staged with the existing opening assumption and explicit basis, ready for start. Amend only if new facts require it. No recovery or elapsed interval has been applied. |
 
 Condition measures temporary overall physical function, separately from learned Capabilities. Use the shared [Condition rules](../../rules/condition.md): 0 means dead; 8 is ordinary health; 9 requires specifically established rest, nourishment, and physical preparation. A recent meal alone does not establish 9.
 
@@ -489,7 +486,7 @@ No conversion assumption is required until money matters in play.
 
 **Land:** Winterfell and the lands held by House Stark under Ned's lordship  
 **Residence:** Winterfell  
-**Horse(s):** Access expected by status and campaign role, but individual animals and ownership details are not established at Turn 0  
+**Horse(s):** One assigned campaign riding horse, with location and access recorded in [Equipment](#equipment); no extra mounts are assumed  
 **Livestock:** House assets not individually tracked  
 **Ships:** No personal ships established  
 **Businesses:** None established  
@@ -635,42 +632,26 @@ No personal standing order is pre-authored beyond the ordinary camp preparations
 
 # Equipment
 
-## Worn at the Opening Moment
+This is the authoritative starting inventory. The user authorized practical equipment suited to Ned's station, protection, and mobility. The specific items are campaign loadout assumptions, not a claimed inventory from the novels. Nothing has been bought, donned, fetched, or used in a played turn.
 
-- Clothing: Campaign-appropriate noble clothing; exact garments not fixed
-- Boots/shoes: Riding/campaign boots assumed only at the ordinary descriptive level
-- Belt: Ordinary belt unless a specific item becomes relevant
-- Cloak: Not specifically established
-- Armor: **Not worn**
-- Jewelry/signifiers of rank: Not specifically established
+| Location / state | Equipment and limits |
+| --- | --- |
+| Worn | Ordinary campaign clothing, riding boots, and belt. Armor, helmet, gauntlets, shield, and battle weapons are not worn or readied. No special jewelry is assumed. |
+| Across his knees / in use | Plain serviceable steel longsword and whetstone. The sword is not Ice or another Valyrian-steel weapon; exact dimensions are not fixed. |
+| Nearby in the command tent, unworn | Well-fitted steel breastplate and backplate; articulated arm and leg defenses; mail at gaps; padded arming garment; practical steel helmet; gauntlets. |
+| Nearby in the command tent, not carried or readied | Serviceable dagger and heater shield. A two-handed sword grip and active shield use cannot be assumed together. |
+| Personal travel gear in the tent | Saddlebag, cloak, blanket, waterskin, mess kit, flint and steel. Contents and consumable reserves are unquantified. No purse balance is granted. |
+| Northern picket line | One assigned campaign riding horse with saddle, bridle, and ordinary tack. Reaching it or having it brought needs a plausible action and time. No name, breed, exceptional temperament, barding, or extra mounts are granted. |
+| Owned but not located | Ice, the ancestral House Stark Valyrian-steel greatsword. Its presence in the Trident camp is unestablished. |
 
-## In Immediate Reach
-
-- Sword: Across Ned's knees; being sharpened
-- Whetstone: In use
-- Battle armor and associated equipment: Nearby in the command tent, exact components not fixed
-
-## Carried
-
-- Coin purse: Not established
-- Secondary weapon: Not established as physically carried at this instant
-- Knife/tool: Not established beyond the whetstone in use
-- Pack: Not established
-- Food: Evening meal already taken; no carried food specified
-- Waterskin: Not established in immediate reach
-- Other: None established
-
-## Stored Elsewhere / Not Located Yet
-
-- Ice, the ancestral Stark greatsword: Owned by Ned as head of House Stark, but its location at the Trident is not established
-- Horse tack, spare equipment, servants' stores, and baggage: Exist only to the extent later established through the camp and retinue
+Well-fitted articulated field armor permits substantial trained movement. It still carries weight, and exertion, heat, helmet visibility, terrain, and actual coverage affect use. This is a historical analogy from the [Metropolitan Museum of Art](https://www.metmuseum.org/essays/arms-and-armor-common-misconceptions-and-frequently-asked-questions), not proof of Ned's canonical kit. Donning armor, retrieving equipment, and readying a mount remain actions; preparation has done none of them.
 
 ---
 
 # Mounts, Animals, and Retainers
 
-**Mount:** Individual horse not yet established. Ned is a capable mounted noble commander and can reasonably possess or be assigned a warhorse, but the actual animal must be established before it matters.  
-**Animals:** None personally established  
+**Mount:** The assigned riding horse and its access limits are recorded in [Equipment](#equipment).  
+**Animals:** No additional animals personally established  
 **Personal servants:** A great lord on campaign would normally have attendants, but names and number are not fixed  
 **Guards:** Northern household men and guards are available somewhere within the host; exact immediate number and placement are not fixed  
 **Sworn men:** The northern host and Ned's bannermen serve under his command; exact personal retinue is not separately enumerated  
@@ -700,7 +681,7 @@ Routine feasible actions succeed directly. Impossible actions need no check. Con
 
 - Legitimate Lord of Winterfell with direct authority over the northern contingent.
 - Long-term noble martial education.
-- Skilled personal combat, armor, riding, and tactics, with particularly strong battlefield leadership and military organization.
+- Expert longsword ability and particularly strong battlefield awareness, northern command, logistics, geography, terrain reading, and old-gods knowledge as explicitly selected for this campaign.
 - Already tested in a major battle during the rebellion.
 - Close personal trust with Robert Baratheon and Jon Arryn.
 - Recent formal alliance with House Tully through marriage.
@@ -710,7 +691,7 @@ Routine feasible actions succeed directly. Impossible actions need no check. Con
 
 - Approximately twenty years old and still in his first great war; his strongest command ratings reflect unusual responsibility rather than decades of campaigning.
 - Newly succeeded to lordship after catastrophic family losses.
-- No pre-Trident evidence supports treating him as an elite or legendary duelist.
+- Longsword 7 is an explicit player-authored starting difference, not proof of canonical elite swordsmanship. It grants no automatic victory or expertise in every weapon.
 - Coalition command is shared; he cannot simply command Arryn, Tully, or Baratheon forces as his own.
 - Exact enemy plan and reliable detailed strength are not granted automatically.
 - Armor is not worn at the opening instant.
@@ -756,7 +737,7 @@ Routine feasible actions succeed directly. Impossible actions need no check. Con
 
 - Army is in the field on the eve of battle.
 - Exact supply state is not quantified.
-- Exact personal cash, mount, shield, helmet, and armor construction are not fixed.
+- Personal cash and consumable amounts are unknown. Listed armor and weapons are available at their recorded locations; armor is unworn and the assigned horse is at the picket line.
 - Nighttime preparation limits how much can plausibly be reorganized before morning.
 - Enemy forces are nearby enough that surprise, scouting failure, or rapid changes in orders can matter.
 
@@ -795,17 +776,17 @@ These are the source sheet's background claims. The [source check](notes/source-
 
 ## Campaign inventions / adjudicative judgments
 
-- Numeric 0–9 Capability Ratings and all anchor weights, including Two-Handed Sword 4 and the higher command, strategy, diplomacy, learning, stewardship, intrigue, and craft assessments recorded above.
+- Numeric 0–9 Capability Ratings and anchor weights. The latest explicit subskill changes supersede the original attachment; Two-Handed Sword is now 5 and Longsword 7. Diplomacy, Martial, and Stewardship retain their original weights; Fieldcraft now uses four established northern field skills at 25% each.
 - Development is initialized at 0 toward the next Rating as a bookkeeping convention.
 - Qualitative natural-attribute assessments and the campaign-specific descriptive height of approximately 6'3".
 - Any Derived Rating.
 - Proposed starting Condition 8 with the Hale tag, based on the stated healthy campaign premise. This remains a preparation assessment until setup.
 - Exact interpretation of general noble education into specific sub-skills.
-- Any ordinary camp item not explicitly established remains unavailable until causally confirmed if it becomes consequential.
+- The exact field kit and assigned horse are player-authorized loadout assumptions; other camp items still require a causal basis before they matter.
 
 ## Established divergences from canon
 
-**None proposed at setup.** Canon constrains history only up to the starting moment. From the player's first consequential choice onward, outcomes follow campaign causality rather than a requirement to reproduce the novels' later history.
+The player has specified a more capable version of Ned and additional language knowledge: fluent Old Tongue speech and literacy; fluent spoken High Valyrian with decent reading and writing. Numerical capability choices are campaign assessments, not canonical statistics. These are explicit starting divergences; other supported pre-start history remains the background. Future decisions, personality, relationships, and outcomes develop through play without a fixed canon trajectory.
 
 ## Consequential campaign assumptions
 
@@ -817,14 +798,14 @@ These are the source sheet's background claims. The [source check](notes/source-
 
 ---
 
-# Engine Mapping and Remaining Setup Work
+# Engine mapping and start readiness
 
-The shared engine now supports this sheet's explicitly selected `blood_and_gold_0_9` Capability system with adjudicated resolution. Do not convert the ratings to 0–5 or add them to dice. Temporary Condition uses its own independent 0–9 scale.
+The complete [setup.json](setup.json) stages this sheet under `blood_and_gold_0_9`, adjudicated resolution, and shared workflow version 1. It contains all **90 ratings**: 7 domains, 65 established sub-skills, 2 specialties, and 16 derived abilities. All latest user-requested ratings and authorized supporting changes are encoded; the approximately 6'3" height is preserved. Ratings live in `character.skills`; matching metadata lives in `character.capabilities`. Temporary Condition is independent and detailed physical notes remain in `character.conditions`.
 
-When the player starts Story 1, the GM prepares the setup from this sheet. Canonical capability ratings go in `character.skills`; their domain, anchor, development, training, evidence, and derivation records go in `character.capabilities`. Narrative profile details retain unknowns rather than inventing balances, inventory, people, or dates. A skill does not grant possession of its associated equipment.
+All domain weights and Ordinary-aptitude thresholds are checked. All 67 trainables have Development 0 and empty credited training. Every derived entry now has explicit eligible related-subskill weights totaling 60%, with the domain contributing 40%, an exposure classification, and a limited causal basis. Infantry Command 5D uses its supplied specialist command basis. Campaign Geography draws on established sub-skills rather than using Fieldcraft as a related input. No new skill or training period was invented; the authorized increases to existing skills are documented in setup decisions.
 
-The proposed physical assessment maps to `character.condition` as rating `8`, tags `["Hale"]`, and the explicit campaign-assumption basis above. `character.conditions` holds detailed current physical notes. Both are carried into subsequent full character updates. No live state exists yet.
+The staged payload keeps personal balances, exact stores, immediate guards/attendants, and Ice's field location unknown. It now records the authorized field kit and one assigned horse with their actual opening locations and access limits. It preserves supplied knowledge and rumor boundaries without adding future canon or NPC secrets. Fourteen player-safe world records organize already supplied people, matters, and account limits; they do not advance a simulation.
 
-All seven domain calculations and ordinary-aptitude Development denominators have been checked. Preserve the supplied ratings. The sixteen provisional derived ratings still need explicit related-subskill percentage weights and exposure classifications before machine initialization; their prose alone is not that metadata. In particular, Infantry Command 5D needs an explicit specialist basis above Martial 4. Campaign Geography may draw on established Geography, Navigation, and Reading Terrain as justified; Fieldcraft itself is a Domain, not an eligible related-subskill input. The renamed Protecting Another Person remains a distinct provisional use from established Defensive Fighting.
+The working permitted scope is the five named novels, and the evening is represented as relative Day 0 18:00. These explicit preparation conventions make the setup usable without asking the same setup questions again. They may be amended before start and are not claims about a canonical hour or a precise date in 283 AC. See [setup-decisions.md](notes/setup-decisions.md) for the complete mapping, limits, and verification status.
 
-Only at start, settle the explicit permitted-book title list and a relative evening clock anchor. The era, protagonist, opening premise, region, aim, adjudicated mode, and spoiler policy are already supplied. Do not ask for them again or invent an exact calendar date. Supporting references, preparation decisions, and any remaining gaps stay in this story's notes. Shared books, distances, and rules do not acquire Ned's personal facts.
+The [175-word opening](opening.md) is also staged as `opening_narrative`. It contains the supplied tent, meal, whetstone, unworn armor, camp preparation, and expected engagement premise, with the newly authorized equipment. No visitor, NPC dialogue, final player order, hidden knowledge, elapsed action, or future outcome is added. It becomes an accepted opening only when the user starts; the first resolved action remains Turn 1. No live campaign has been initialized by this preparation.

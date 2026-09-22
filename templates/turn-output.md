@@ -27,10 +27,10 @@ Shared presentation template, not a live turn. Apply [narrative guidance](../rul
 
 [Only the actual unresolved decision requiring the player's input. Omit if none stops authorized activity. Do not offer possible actions, plans, objectives, or menus unless requested.]
 
-## Use notes, not part of the reply
+## Use notes, not part of the saved narrative
 
 - The tiny summary shows current accepted values, not guesses. Condition is a separate summary, never a capability bonus or substitute for recorded wound effects. Use [the shared Condition scale](../rules/condition.md) and accepted basis. Do not invent a healthy default or numerical change; 8 means established ordinary health and 9 needs additional readiness evidence.
-- Keep required public dice stakes/arithmetic, requested audits, source notes, and persistence confirmation outside the scene. At ten-turn boundaries, show the required review/full sheet/save separately. Prose-only presentation never permits concealing a required check or claiming an unsaved result was uploaded.
+- Keep required public dice stakes/arithmetic, requested audits, source notes, and persistence confirmation outside the scene. At ten-turn boundaries, save the required review and refresh the full sheet; link to the saved output in chat. Prose-only presentation never permits concealing a required check or claiming an unsaved result was uploaded.
 - Save the same accepted narrative and state together in the selected story, then render its journal/current sheet. A retry preserves the result, costs, time, and turn number. Do not write an alternative scene merely because publication failed.
 - An incomplete check says resolution is pending without pretending a result occurred. A pure roll request or OOC response consumes no turn. Do not create a header with an incremented turn until an in-world result is committed.
 - All examples are placeholders. This file establishes no character, age, Condition, location, or first turn.

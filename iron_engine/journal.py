@@ -11,6 +11,8 @@ from .condition import condition_summary
 
 
 FILENAMES = ("story.md", "character-sheet.md", "resume.md")
+CURRENT_FILENAMES = FILENAMES + ("README.md", "latest.md", "threads.md", "world.md")
+TURN_KINDS = {"turn", "advance"}
 
 
 def _marker(filename: str) -> str:
@@ -35,13 +37,15 @@ def _value(value) -> str:
     return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
-def _header(filename: str, title: str, head: str, records: str) -> str:
+def _header(filename: str, title: str, head: str, records: str, *, historical=False) -> str:
+    reference = ("This page records one accepted event. Check [the latest view](../latest.md) for the current head and later corrections."
+                 if historical else "Compare with the ledger's current `head` to detect a stale view.")
     return (
         f"{_marker(filename)}\n"
         f"<!-- source-event-hash:{head} -->\n\n"
         f"# {title}\n\n"
         "Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.\n\n"
-        f"Source event hash: `{head}`. Compare with the ledger's current `head` to detect a stale view.\n\n"
+        f"Source event hash: `{head}`. {reference}\n\n"
         f"Canonical records, relative to this directory: `{records}`.\n\n"
     )
 
@@ -49,27 +53,47 @@ def _header(filename: str, title: str, head: str, records: str) -> str:
 def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
     """A changed-only reading view, derived from the accepted event and evidence."""
     lines = []
-    for unit, delta in sorted(payload["resources_delta"].items()):
-        opening, closing = before["resources"][unit], after["resources"][unit]
+    evidence = payload.get("evidence", {})
+    if "operations" in payload:
+        from .workflow import expand_advance
+        return _turn_ledger(before, after, expand_advance(before, payload))
+    changes = payload.get("changes", {})
+    resource_changes = payload.get("resources_delta", {})
+    for unit, delta in sorted(resource_changes.items()):
+        basis = evidence.get('resources.' + unit, evidence.get('resources', 'See accepted operations.'))
+        if unit not in before["resources"] and unit in after["resources"]:
+            lines.append(f"- {unit}: unrecorded → {after['resources'][unit]}. Evidence: {basis}")
+            continue
+        opening, closing = before["resources"].get(unit, 0), after["resources"].get(unit, 0)
         if delta and opening != closing:
             lines.append(f"- {unit}: {opening} → {closing} ({delta:+d}). "
-                         f"Evidence: {payload['evidence']['resources.' + unit]}")
-    for field in sorted(payload["changes"]):
-        if before[field] == after[field]:
+                         f"Evidence: {basis}")
+    for field in sorted(changes):
+        if before.get(field) == after.get(field):
             continue
-        evidence = payload["evidence"][field]
+        basis = evidence.get(field, "See accepted operations and adjudication.")
         if field == "character":
             old_character, character = before[field], after[field]
             if old_character.get("condition") != character.get("condition"):
                 condition = character["condition"]
                 lines.append(f"- Condition: {condition_summary(old_character)} → {condition_summary(character)}. "
                              f"Tags: {'; '.join(condition['tags'])}. Basis: {condition['basis']} "
-                             f"Evidence: {evidence}")
+                             f"Evidence: {basis}")
             changed_keys = sorted(key for key in set(old_character) | set(character)
                                   if key != "condition" and old_character.get(key) != character.get(key))
             if changed_keys:
                 labels = ", ".join(key.replace("_", " ") for key in changed_keys)
-                lines.append(f"- Character ({labels}): updated. Evidence: {evidence}")
+                lines.append(f"- Character ({labels}): updated. Evidence: {basis}")
+            continue
+        if field == "world":
+            old_records = before.get("world", {}).get("records", {})
+            new_records = after.get("world", {}).get("records", {})
+            for record_id in sorted(set(old_records) | set(new_records)):
+                if old_records.get(record_id) != new_records.get(record_id):
+                    record = new_records.get(record_id, {})
+                    lines.append(f"- World record {record_id} [{record.get('status', 'not recorded')}]: "
+                                 f"{record.get('title', record.get('summary', 'updated'))}. Evidence: "
+                                 f"{evidence.get('world.records.' + record_id, basis)}")
             continue
         label = field.replace("_", " ").capitalize()
         if field in {"location", "phase"}:
@@ -80,8 +104,62 @@ def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
             change = f"{after[field]['cause']} at {_time(after[field]['time_seconds'])}"
         else:
             change = "updated"
-        lines.append(f"- {label}: {change}. Evidence: {evidence}")
+        lines.append(f"- {label}: {change}. Evidence: {basis}")
     return "### Ledger\n\n" + "\n".join(lines) if lines else ""
+
+
+def _turn_scene(event: dict, before: dict) -> str:
+    state, payload = event["state"], event["input"]
+    phase = state["phase"] if before["phase"] == state["phase"] else f"{before['phase']} → {state['phase']}"
+    place = state["location"] if before["location"] == state["location"] else f"{before['location']} → {state['location']}"
+    condition = state["character"].get("condition")
+    condition_note = (f"Condition tags: {'; '.join(condition['tags'])}. Basis: {condition['basis']}\n\n"
+                      if condition is not None and condition == before["character"].get("condition") else "")
+    segments = [
+        f"## Turn {state['turn']}\n\n"
+        f"Name: {state['character']['name']} | Age: {state['character']['age']} | "
+        f"Condition: {condition_summary(state['character'])} | Location: {state['location']}\n\n"
+        f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}. "
+        f"Elapsed: {_duration(payload['elapsed_seconds'])}.\n\n"
+        f"Phase: {phase}. Location: {place}.\n\n"
+        + condition_note + payload["narrative"]
+    ]
+    ledger = _turn_ledger(before, state, payload)
+    if ledger:
+        segments.append(ledger)
+    if payload.get("review") is not None:
+        review = payload["review"]
+        lines = [f"### OOC assessment: turns {review['from_turn']} to {review['to_turn']}",
+                 "This assessment is recorded with the turn; it is separate from the accepted scene prose."]
+        for category in ("results", "decisions", "capabilities", "position", "gm_consistency", "next_constraint"):
+            finding = review["findings"][category]
+            references = ", ".join(str(turn) for turn in finding["evidence_turns"])
+            lines.append(f"#### {category.replace('_', ' ').capitalize()}\n\n"
+                         f"{finding['assessment']}\n\nEvidence turns: {references}.")
+        segments.append("\n\n".join(lines))
+    return "\n\n".join(segments)
+
+
+def _correction_note(event: dict) -> str:
+    state, payload = event["state"], event["input"]
+    lines = [f"### OOC record note: correction at Turn {state['turn']}",
+             f"Event {event['sequence']}; {_time(state['time_seconds'])}. No fictional time elapsed.",
+             f"Source event hash: `{event['hash']}`.",
+             f"Reason: {payload['reason']}",
+             "This corrects the recorded state. Earlier accepted story text is preserved."]
+    for field, value in sorted(payload["changes"].items()):
+        lines.append(f"- Recorded {field}: {_value(value)}. Evidence: {payload['evidence'][field]}")
+    for unit, delta in sorted(payload["resources_delta"].items()):
+        lines.append(f"- Resource adjustment, {unit}: {delta:+d}; resulting balance: {state['resources'][unit]}. "
+                     f"Evidence: {payload['evidence']['resources.' + unit]}")
+    return "\n\n".join(lines)
+
+
+def _opening(events: list[dict]) -> str:
+    narrative = events[0]["input"].get("opening_narrative") if events else None
+    return "## Opening: Turn 0\n\n" + narrative if narrative else (
+        "Setup is recorded at Turn 0. No opening narrative was supplied."
+    )
 
 
 def _story(events: list[dict]) -> str:
@@ -89,50 +167,15 @@ def _story(events: list[dict]) -> str:
         return ("Awaiting setup. No character state has been initialized and no turns have been saved in the ledger. "
                 "A supplied starting character sheet may exist in the selected story's root folder.\n")
     segments = [f"Campaign: {events[-1]['state']['campaign']['title']}"]
-    if not any(event["kind"] == "turn" for event in events):
+    if events[0]["input"].get("opening_narrative"):
+        segments.append(_opening(events))
+    if not any(event["kind"] in TURN_KINDS for event in events):
         segments.append("No turns have been resolved. Setup is recorded at Turn 0.")
     for index, event in enumerate(events):
-        state, payload = event["state"], event["input"]
-        if event["kind"] == "turn":
-            before = events[index - 1]["state"]
-            phase = state["phase"] if before["phase"] == state["phase"] else f"{before['phase']} → {state['phase']}"
-            place = state["location"] if before["location"] == state["location"] else f"{before['location']} → {state['location']}"
-            condition = state["character"].get("condition")
-            condition_note = (f"Condition tags: {'; '.join(condition['tags'])}. Basis: {condition['basis']}\n\n"
-                              if condition is not None and condition == before["character"].get("condition") else "")
-            segments.append(
-                f"## Turn {state['turn']}\n\n"
-                f"Name: {state['character']['name']} | Age: {state['character']['age']} | "
-                f"Condition: {condition_summary(state['character'])} | Location: {state['location']}\n\n"
-                f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}. "
-                f"Elapsed: {_duration(payload['elapsed_seconds'])}.\n\n"
-                f"Phase: {phase}. Location: {place}.\n\n"
-                + condition_note + payload["narrative"]
-            )
-            ledger = _turn_ledger(before, state, payload)
-            if ledger:
-                segments.append(ledger)
-            if payload["review"] is not None:
-                review = payload["review"]
-                lines = [f"### OOC assessment: turns {review['from_turn']} to {review['to_turn']}",
-                         "This assessment is recorded with the turn; it is separate from the accepted scene prose."]
-                for category in ("results", "decisions", "capabilities", "position", "gm_consistency", "next_constraint"):
-                    finding = review["findings"][category]
-                    references = ", ".join(str(turn) for turn in finding["evidence_turns"])
-                    lines.append(f"#### {category.replace('_', ' ').capitalize()}\n\n"
-                                 f"{finding['assessment']}\n\nEvidence turns: {references}.")
-                segments.append("\n\n".join(lines))
+        if event["kind"] in TURN_KINDS:
+            segments.append(_turn_scene(event, events[index - 1]["state"]))
         elif event["kind"] == "correction":
-            lines = [f"### OOC record note: correction at Turn {state['turn']}",
-                     f"Event {event['sequence']}; {_time(state['time_seconds'])}. No fictional time elapsed.",
-                     f"Reason: {payload['reason']}",
-                     "This corrects the recorded state. Earlier accepted story text is preserved."]
-            for field, value in sorted(payload["changes"].items()):
-                lines.append(f"- Recorded {field}: {_value(value)}. Evidence: {payload['evidence'][field]}")
-            for unit, delta in sorted(payload["resources_delta"].items()):
-                lines.append(f"- Resource adjustment, {unit}: {delta:+d}; resulting balance: {state['resources'][unit]}. "
-                             f"Evidence: {payload['evidence']['resources.' + unit]}")
-            segments.append("\n\n".join(lines))
+            segments.append(_correction_note(event))
     return "\n\n".join(segments) + "\n"
 
 
@@ -172,16 +215,132 @@ def _resume(events: list[dict]) -> str:
     for task in state["tasks"]:
         due = "no deadline" if task["due_seconds"] is None else _time(task["due_seconds"])
         lines.append(f"- {task['id']} [{task['status']}]: {task['description']}. Due: {due}. Note: {task['note'] or 'None recorded.'}")
+    lines.extend(["## Continuing world", "[All persistent records](world.md) and [active and closed threads](threads.md). "
+                  "Use the focused context packet to inspect relevant records and every open deadline before advancing."])
     lines.append("## Continue")
     if not state["alive"]:
         lines.append(f"This character is dead: {state['death']['cause']} at {_time(state['death']['time_seconds'])}. "
                      "Do not advance this character or reverse the death. A successor requires an agreed separate setup.")
     lines.append(
-        "Read AGENTS.md, rules/iron_engine.md, docs/play_workflow.md, and the entire validated canonical event chain "
-        "before resolving the next authorized action. Check the current head against this view, load the current sheet, "
+        "Read AGENTS.md, rules/iron_engine.md, and docs/play_workflow.md. The context command validates the entire "
+        "canonical event chain internally and returns current state, obligations, record references, and recent scenes. "
+        "Retrieve relevant records and older turns on demand before resolving the next authorized action. "
+        "Check the current head against this view, load the current sheet, "
         "and reconcile all pending obligations and decisions. Research notes do not grant character knowledge. "
         "Continue from recorded facts; do not invent a missing chat history or advance time merely by opening this file."
     )
+    return "\n\n".join(lines) + "\n"
+
+
+def _record_body(record_id: str, record: dict) -> str:
+    lines = [f"### {record_id}: {record['title']}",
+             f"Kind: {record['kind']}. Status: {record['status']}.", record["summary"]]
+    for label in ("participants", "links", "known_by", "evidence_turns"):
+        entries = record.get(label, [])
+        lines.append(f"{label.replace('_', ' ').capitalize()}: " +
+                     (", ".join(str(entry) for entry in entries) or "none recorded"))
+    due = record.get("due_seconds")
+    lines.append("Due: " + (_time(due) if due is not None else "not scheduled"))
+    for key, value in sorted(record.get("details", {}).items()):
+        lines.append(f"- {key}: {value}")
+    return "\n\n".join(lines)
+
+
+def _world(events: list[dict]) -> str:
+    if not events:
+        return "Awaiting setup. No world records are established.\n"
+    state = events[-1]["state"]
+    records = state.get("world", {}).get("records", {})
+    lines = ["All persistent world records, including closed matters. Missing records remain unknown."]
+    if not records:
+        lines.append("No structured world records are established.")
+    for record_id, record in sorted(records.items()):
+        lines.append(_record_body(record_id, record))
+    for field in ("relationships", "knowledge", "assumptions", "standing_orders"):
+        lines.extend([f"## {field.replace('_', ' ').capitalize()}",
+                      "\n".join(f"- {item}" for item in state[field]) or "None recorded."])
+    lines.append("## Research\n\nResearch sources and their limits remain in the [current sheet](character-sheet.md). "
+                 "A source is not automatically character knowledge.")
+    return "\n\n".join(lines) + "\n"
+
+
+def _threads(events: list[dict]) -> str:
+    if not events:
+        return "Awaiting setup. No obligations, tasks, or continuing threads are established.\n"
+    state = events[-1]["state"]
+    lines = ["## Obligations", "\n".join(f"- {item}" for item in state["obligations"]) or "None recorded.",
+             "## Standing orders", "\n".join(f"- {item}" for item in state["standing_orders"]) or "None recorded."]
+    for label, active in (("Active and blocked", True), ("Closed", False)):
+        lines.append(f"## {label}")
+        entries = []
+        for task in state["tasks"]:
+            if (task["status"] in {"active", "blocked"}) == active:
+                due = _time(task["due_seconds"]) if task["due_seconds"] is not None else "not scheduled"
+                entries.append(f"- Task {task['id']} [{task['status']}]: {task['description']}. Due: {due}. "
+                               f"{task['note']}")
+        for record_id, record in sorted(state.get("world", {}).get("records", {}).items()):
+            if record["kind"] not in {"thread", "project", "journey"}:
+                continue
+            if (record["status"] in {"active", "blocked"}) == active:
+                due = _time(record["due_seconds"]) if record["due_seconds"] is not None else "not scheduled"
+                entries.append(f"- {record_id} [{record['status']}]: {record['title']}. {record['summary']} "
+                               f"Due: {due}. Full record: [world.md](world.md).")
+        lines.append("\n".join(entries) or "None recorded.")
+    plan = state["interrupted_plan"]
+    if plan is not None:
+        lines.extend(["## Interrupted plan", _value(plan)])
+    return "\n\n".join(lines) + "\n"
+
+
+def _latest(events: list[dict]) -> str:
+    if not events:
+        return "Awaiting setup. Read the supplied starting character sheet and establish missing setup details. " \
+               "No opening scene or resolved turn has been invented.\n"
+    state = events[-1]["state"]
+    lines = [f"Current turn: {state['turn']}. Current time: {_time(state['time_seconds'])}. "
+             f"Location: {state['location']}. Phase: {state['phase']}.",
+             "[Current character sheet](character-sheet.md) · [Resume point](resume.md) · "
+             "[Threads](threads.md) · [World records](world.md)"]
+    indices = [index for index, event in enumerate(events) if event["kind"] in TURN_KINDS]
+    if indices:
+        index = indices[-1]
+        event = events[index]
+        lines.append(f"Accepted turn event hash: `{event['hash']}`. The following prose and turn ledger "
+                     "remain exactly as accepted; later corrections follow separately.")
+        lines.append(_turn_scene(event, events[index - 1]["state"]))
+    else:
+        index = 0
+        lines.append(_opening(events))
+    for event in events[index + 1:]:
+        if event["kind"] == "correction":
+            lines.append(_correction_note(event))
+    if state["resume_note"]:
+        lines.extend(["## Current resume note", state["resume_note"]])
+    if not state["alive"]:
+        lines.append(f"This character is dead: {state['death']['cause']}. No further turns are permitted for this PC.")
+    return "\n\n".join(lines) + "\n"
+
+
+def _landing(events: list[dict], seed_reference: str) -> str:
+    lines = ["[Latest scene](latest.md) · [Character sheet](character-sheet.md) · [Resume](resume.md) · "
+             "[Threads](threads.md) · [World](world.md) · [Complete reading history](story.md)"]
+    if not events:
+        lines.extend(["Awaiting setup. No campaign has been initialized and no opening narrative or turn is recorded.",
+                      f"Read the supplied [starting character sheet]({seed_reference}), if provided. "
+                      "It is preparation until an agreed setup is accepted."])
+    else:
+        state = events[-1]["state"]
+        lines.extend([f"Campaign: {state['campaign']['title']}",
+                      f"{state['character']['name']} | Age {state['character']['age']} | "
+                      f"Condition: {condition_summary(state['character'])} | {state['location']}",
+                      f"Turn {state['turn']} | {_time(state['time_seconds'])} | {state['phase']}"])
+        if events[0]["input"].get("opening_narrative"):
+            lines.append("The accepted opening is in the [complete reading history](story.md#opening-turn-0).")
+    lines.append("## Saved turns")
+    entries = [f"- [Turn {event['state']['turn']}](turns/turn-{event['state']['turn']:06d}.md): "
+               f"{_time(event['state']['time_seconds'])}; {event['state']['location']}"
+               for event in events if event["kind"] in TURN_KINDS]
+    lines.append("\n".join(entries) or "No resolved turns.")
     return "\n\n".join(lines) + "\n"
 
 
@@ -225,11 +384,11 @@ def _existing_generated(path: Path, filename: str) -> bytes | None:
 
 
 def render_campaign(store: CampaignStore, output_dir: str | os.PathLike = "play") -> dict[str, Path]:
-    """Write three replaceable views, never changing canonical records or time.
+    """Write replaceable reading views, never changing canonical records or time.
 
     All destinations are checked before any file is published. Each replacement is
-    atomic; the three-file set is not a transaction. Every file carries its source
-    hash, so interrupted renders remain recognizable and safe to repeat.
+    atomic; the file set is not a transaction. Current views carry the latest hash.
+    Historical turn pages carry only their accepted event hash and remain stable.
     """
     events = store.validate()
     output = _safe_directory(output_dir, store)
@@ -239,27 +398,47 @@ def render_campaign(store: CampaignStore, output_dir: str | os.PathLike = "play"
         "Awaiting setup. No initialized character state is stored in the ledger. Consult any supplied starting "
         "character sheet in the selected story's root folder; it remains preparation until setup is accepted.\n"
     )
+    seed_reference = Path(os.path.relpath(store.path.parent / "character-sheet.md", output)).as_posix()
     bodies = {"story.md": ("Campaign story", _story(events)),
               "character-sheet.md": ("Character sheet", sheet),
-              "resume.md": ("Resume campaign", _resume(events))}
+              "resume.md": ("Resume campaign", _resume(events)),
+              "README.md": ("Read this story", _landing(events, seed_reference)),
+              "latest.md": ("Latest scene and current record", _latest(events)),
+              "threads.md": ("Threads and commitments", _threads(events)),
+              "world.md": ("Persistent world records", _world(events))}
     contents = {name: (_header(name, title, head, records) + body).encode("utf-8")
                 for name, (title, body) in bodies.items()}
-    files = {name: output / name for name in FILENAMES}
+    for index, event in enumerate(events):
+        if event["kind"] not in TURN_KINDS:
+            continue
+        turn = event["state"]["turn"]
+        name = f"turns/turn-{turn:06d}.md"
+        event_reference = Path(os.path.relpath(store.path / "events" / f"{event['sequence']:06d}.json",
+                                             output / "turns")).as_posix()
+        body = _turn_scene(event, events[index - 1]["state"]) + "\n"
+        contents[name] = (_header(name, f"Turn {turn}", event["hash"], event_reference, historical=True)
+                          + body).encode("utf-8")
+    files = {name: output / name for name in contents}
     staging = []
     try:
+        # Inspect every parent and destination before publishing any view.
+        for parent in {path.parent for path in files.values()}:
+            _safe_directory(parent, store)
         prior = {name: _existing_generated(path, name) for name, path in files.items()}
         output.mkdir(parents=True, exist_ok=True)
         for name, data in contents.items():
             if data == prior[name]:
                 continue
-            fd, temporary = tempfile.mkstemp(dir=output, prefix=".iron-view-")
+            parent = _safe_directory(files[name].parent, store)
+            parent.mkdir(parents=True, exist_ok=True)
+            fd, temporary = tempfile.mkstemp(dir=parent, prefix=".iron-view-")
             temporary = Path(temporary)
             staging.append(temporary)
             with os.fdopen(fd, "wb") as stream:
                 stream.write(data)
                 stream.flush()
                 os.fsync(stream.fileno())
-            _safe_directory(output, store)
+            _safe_directory(parent, store)
             current = _existing_generated(files[name], name)
             if current != prior[name]:
                 raise CampaignError("A render destination changed during export; inspect and render again")

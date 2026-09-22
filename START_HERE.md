@@ -1,57 +1,51 @@
-# Start or continue a story
+# Start and continue
 
-Play in chat. Name the story and describe what its character attempts. The GM reads that story's files, researches relevant uncertainties, resolves the action, writes the scene, and saves the result. You do not need to edit JSON or run Python.
+Use a chat that can read and write this repository and run the included Python engine. Give it the [starting prompt](START_PROMPT.md). The chat handles records and commits. You read the story and give your next decision.
 
-## Two layers
+## Story 1 is prepared
 
-**The shared base** contains the engine, common play rules, optional capability rules, [book reference catalog](references/books.md), and distance data. These serve separate stories. The book catalog contains reference information and source policy, not bundled ebook texts or a promise of source access.
+Your [Eddard sheet](stories/story-001/character-sheet.md), [opening](stories/story-001/opening.md) and machine-readable setup are ready. Declared conventions are Condition 8 (Hale), the five published main novels, and a relative Day 0 evening clock at 18:00. See [setup decisions](stories/story-001/notes/setup-decisions.md). Unknown money and equipment remain unknown.
 
-**Each story folder** contains that story's own character, history, assumptions, journal, and saves. A new character starts from its own supplied sheet. It does not inherit another story's NPCs, claims, relationships, outcomes, knowledge, inventions, or special rules.
+No campaign events have been created. When you say start, the GM accepts the prepared setup and opening once, refreshes the reading pages and publishes them. This is Turn 0. Your first decision produces Turn 1. Repeating start resumes the story instead of resetting it.
 
-For the prepared `story-001`, read [its starting sheet](stories/story-001/character-sheet.md) first. It contains the supplied Eddard Stark seed for the evening before the expected Battle of the Trident. It is preparation only, with no setup event or Turn 1. Resolution and capability choices belong to that story's sheet/setup. Availability of the Blood & Gold module does not select it for every future story.
+## Your normal loop
 
-## Where the story goes
+1. Open [Story 1's reading page](stories/story-001/play/README.md), then its latest output.
+2. Say in chat: “Continue story-001. My decision is: [what I attempt].” Include the intended duration when it matters.
+3. The GM loads current records, resolves the authorized activity, writes the scene once, and submits changes to the engine.
+4. The engine updates the relevant sheet, storylines, world records and resume point. The GM checks and publishes the complete result, then sends the reading link.
 
-- `stories/story-001/character-sheet.md`: starting input, read first and completed before setup. After initialization, it preserves the starting document.
-- `stories/story-001/story.json`: story identity and pinned shared-file hashes.
-- `stories/story-001/campaign/events/`: authoritative outcomes and state, including research, corrections, and reviews.
-- [stories/story-001/play/story.md](stories/story-001/play/story.md): the journal, preserving accepted turn prose.
-- [stories/story-001/play/character-sheet.md](stories/story-001/play/character-sheet.md): the current sheet rendered from events.
-- [stories/story-001/play/resume.md](stories/story-001/play/resume.md): the saved continuation point.
-- `stories/story-001/saves/`: portable full-history saves.
+The GM stops for a real decision. A five-year plan does not authorize skipping the meeting where you propose it. No time passes while you are away. A turn is a saved action interval, not a fixed week.
 
-The same layout applies independently to each story ID; see [the layout guide](stories/README.md). Current state follows validated events, not edits to the starting sheet. Story prose appears in chat and its journal. Rendered files identify their source version.
+Narrative, changes and assessments are readable in the repository, with a short confirmation in chat. Turn 10, 20, 30 and so on includes an evidence-based assessment. Improvement is earned and recorded; reviews do not promise higher ratings.
 
-## First session
+## Finding things
 
-Say: “Start story-001. Read its character sheet first and ask together for only missing setup facts.” For another character, supply that character's sheet and ask the GM to create a new story folder before play.
+| File within stories/story-001/ | Purpose |
+| --- | --- |
+| play/README.md | Reading index |
+| play/latest.md | Latest scene and changes |
+| play/turns/turn-000001.md | An individual accepted turn |
+| play/character-sheet.md | Current character |
+| play/threads.md | Active and resolved storylines |
+| play/world.md | People, divergences, projects and journeys |
+| play/resume.md | Continuation point |
+| campaign/events/ | Authoritative history and state |
 
-Story 1 already supplies its protagonist, era, region, opening premise, aim, adjudicated mode, and spoiler policy. Its proposed Condition is 8, Hale, under the stated healthy starting assumption. No time, recovery, or scene has been resolved.
+Before play, generated views say awaiting setup. The starting sheet and setup.json are preparation inputs. Accepted events determine current state after setup.
 
-When you are ready to start, settle only the explicit permitted-book title list and a relative evening clock anchor. The GM prepares the detailed capability metadata from the supplied ratings and flags any unsupported derivation. Do not invent an exact calendar date, purse balance, carried equipment, or future knowledge. Other stories begin from their own sheets and only their own missing facts.
+## A fresh chat
 
-Once agreed, setup is saved as Turn 0 in that story only. The opening situation follows, then Turn 1 after the player's first resolved action. Creating a folder is not initializing its character.
+Say: “Use Alex-Oss222/dice-roller. Continue story-001 from its saved state. My next decision is: [action]. Follow AGENTS.md and publish the updated turn.”
 
-## Turns and references
+The model gets a focused packet of current facts and relevant records. Python validates full history without putting it all into the chat. Older scenes and records are retrieved by turn number or stable ID as needed. This saves context without discarding history. There is no fixed token cost per turn.
 
-“Inspect the goods,” “Train and work for a week,” and “Continue the journey” are sufficient. A turn can cover minutes, hours, days, or weeks. The GM stops at meaningful choices and records remaining work. Costs and state changes are saved with the outcome, then readable views are refreshed. Every tenth turn reviews results, decisions, capability, position, and GM consistency.
+To pause, say “Save story-001 and stop.” Pending instructions are checkpointed when necessary. A failed upload is retried with the accepted result; your action is not played again.
 
-A story's blocked road, detour, local price, invention, or interpretation stays in that story's notes and accepted assumptions/research. It does not rewrite shared distance or book files. Its manifest pins the common baseline. If shared files change, normal story writes stop; existing history can still be read, rendered, or saved with a warning. Common maintenance requires separate review across affected stories. There is no automatic re-pin, and the GM must not bypass the check merely to continue a turn.
+## Other stories and later expansion
 
-## Pause and resume
+An independent story begins with its own supplied sheet and create-story. Shared sources stay common; story-specific changes stay local. A peasant story does not automatically load kingdom accounts or relationships with major characters.
 
-Say: “Save story-001 and stop.” The GM checkpoints pending choices/fixed stakes, exports to that story's `saves/` folder, and refreshes its resume view. Saving consumes no fictional time.
+Projects, account notes, ownership facts and timed obligations can be recorded now. When you provide the North's economy workbook, its reusable calculation rules can be added to the shared base, with each story owning balances, institutions and projects. This build does not invent that missing economy model.
 
-Later, say: “Load story-001. Read its starting sheet, validate its records and shared baseline, show where we stopped, and wait for my next action.” The latest event is current state, not the original starting sheet or another story's history.
-
-For a chat without repository access, attach the complete project package. A story JSON save includes its identity, baseline hashes, and events; it does not include actual engine/reference/data files or unaccepted local notes. It therefore needs the matching project or Git baseline elsewhere. A current sheet alone cannot recover earlier scenes or review evidence. Story restore checks identity and baseline and rejects another story's save or a bare legacy engine export.
-
-Use one active copy of a particular story. Reconcile divergent copies before continuing. Separate stories can proceed independently.
-
-## Confirmed saving
-
-The engine writes local files. GitHub publishing requires repository write access, a coherent commit, and remote verification. No unattended upload service runs, and the world does not advance between messages.
-
-The last upload attempt to `Alex-Oss222/dice-roller` failed with HTTP 403, `Resource not accessible by integration`. It did not publish the build. The downloadable package remains the handoff until write access works. A chat reply, local event, or rendered journal is not proof of upload.
-
-After a local result, retry failed publication using that exact result. Do not replay the action, reroll, or charge again. If the current chat cannot write files, the GM provides a clear draft/handoff and states what remains unsaved.
+After a character dies, an explicitly requested successor can continue the saved world. create-successor preserves the predecessor's ending state for a new character's preparation. The GM maps surviving world consequences and justifies what the new character inherits and knows. It does not resurrect the predecessor or initialize the new character automatically.

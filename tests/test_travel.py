@@ -9,7 +9,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from iron_engine.travel import DEFAULT_CATALOG, TravelCatalog, TravelError, estimate, load_catalog, lookup
+from iron_engine.travel import DEFAULT_CATALOG, TravelCatalog, TravelError, estimate, estimate_slow, load_catalog, lookup
 
 
 class TravelTests(unittest.TestCase):
@@ -203,13 +203,15 @@ class TravelTests(unittest.TestCase):
                                  cwd=DEFAULT_CATALOG.parent.parent, capture_output=True, text=True)
             self.assertEqual(0, run.returncode, run.stderr)
             result = json.loads(run.stdout)
-            self.assertEqual(12, result["effective_rate_mpd"])
-            self.assertEqual(5068800, result["elapsed_seconds"])
+            self.assertEqual(9, result["effective_rate_mpd"])
+            self.assertEqual(6700800, result["elapsed_seconds"])
+            self.assertEqual("slowest_applicable", result["policy"]["name"])
             self.assertFalse(store.exists())
 
     def test_cli_sea_explicit_rate(self):
         run = subprocess.run([sys.executable, "-m", "iron_engine", "travel", "--mode", "sea",
-                              "--from", "White Harbor", "--to", "Eastwatch-by-the-Sea", "--rate-mpd", "100"],
+                              "--from", "White Harbor", "--to", "Eastwatch-by-the-Sea", "--rate-mpd", "100",
+                              "--rate-basis", "Explicit conservative GM assumption for this example vessel and route"],
                              cwd=DEFAULT_CATALOG.parent.parent, capture_output=True, text=True)
         self.assertEqual(0, run.returncode, run.stderr)
         result = json.loads(run.stdout)
@@ -218,12 +220,97 @@ class TravelTests(unittest.TestCase):
 
     def test_cli_rejects_nan_without_a_traceback(self):
         run = subprocess.run([sys.executable, "-m", "iron_engine", "travel", "--mode", "road",
-                              "--from", "Castle Black", "--to", "Winterfell", "--rate-mpd", "nan"],
+                              "--from", "Castle Black", "--to", "Winterfell", "--profile", "small_party_riding",
+                              "--speed-multiplier", "nan"],
                              cwd=DEFAULT_CATALOG.parent.parent, capture_output=True, text=True)
         self.assertEqual(2, run.returncode)
         self.assertIn("finite", run.stderr)
         self.assertNotIn("Traceback", run.stderr)
         self.assertEqual("", run.stdout)
+
+    def test_slow_policy_uses_lowest_sourced_rate_for_each_profile(self):
+        expected = {"large_group_walking": 10, "small_party_riding": 18, "large_group_riding": 16,
+                    "horse_relays": 30, "army_with_supply_train": 6, "army_without_supply_train": 12,
+                    "royal_wheelhouse": 5}
+        for profile, rate in expected.items():
+            with self.subTest(profile=profile):
+                result = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile=profile)
+                self.assertEqual(rate, result["rate_mpd"])
+                self.assertEqual("slow", result["pace"])
+                self.assertEqual(680 / rate, result["travel_days"])
+                self.assertEqual(result["moving_days"], result["travel_days"])
+                self.assertEqual("B6", result["source"]["cell"])
+
+    def test_slow_policy_mixed_party_uses_its_slowest_applicable_profile(self):
+        profiles = ["small_party_riding", "large_group_riding", "royal_wheelhouse"]
+        result = estimate_slow("road", "Castle Black", "Winterfell", profile=profiles, catalog=self.catalog)
+        self.assertEqual("royal_wheelhouse", result["profile"])
+        self.assertEqual(5, result["rate_mpd"])
+        self.assertEqual(136, result["travel_days"])
+        self.assertEqual(profiles, [p["id"] for p in result["policy"]["applicable_profiles"]])
+        self.assertEqual(["small_party_riding", "large_group_riding", "royal_wheelhouse"], profiles)
+        alone = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile="small_party_riding")
+        self.assertGreater(result["elapsed_seconds"], alone["elapsed_seconds"])
+
+    def test_slow_policy_cannot_override_a_road_profile_with_faster_arithmetic(self):
+        invalid = [{"profile": "small_party_riding", "pace": pace} for pace in
+                   ["average", "fast_unconditioned", "fast_conditioned"]]
+        invalid.extend([{"rate_mpd": 1}, {"profile": "small_party_riding", "rate_mpd": 1},
+                        {"profile": []}, {"profile": ["small_party_riding", "missing"]}, {}])
+        for options in invalid:
+            with self.subTest(options=options), self.assertRaises(TravelError):
+                self.catalog.estimate_slow("road", "Castle Black", "Winterfell", **options)
+
+    def test_slow_policy_only_permits_positive_speed_reductions(self):
+        for multiplier in [0, -1, 1.01, 2, float("inf"), float("nan"), True, "0.5"]:
+            with self.subTest(multiplier=multiplier), self.assertRaises(TravelError):
+                self.catalog.estimate_slow("road", "Castle Black", "Winterfell",
+                                            profile="small_party_riding", multiplier=multiplier)
+        result = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile="small_party_riding",
+                                            multiplier=0.5, condition_basis="A documented damaged road reduces daily progress.")
+        self.assertEqual(9, result["effective_rate_mpd"])
+        self.assertIn("damaged road", result["policy"]["condition_basis"])
+
+    def test_slow_policy_normal_sleep_meals_and_stops_are_not_counted_twice(self):
+        base = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile="royal_wheelhouse")
+        delayed = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile="royal_wheelhouse",
+                                             rest_days=1.5, delay_basis="Explicit extra delay awaiting the repaired axle.")
+        self.assertEqual(136 * 86400, base["elapsed_seconds"])
+        self.assertEqual(base["elapsed_seconds"] + 129600, delayed["elapsed_seconds"])
+        self.assertEqual(136, delayed["travel_days"])
+        baseline = base["policy"]["daily_baseline"]
+        self.assertEqual(8, baseline["human_sleep_hours"])
+        self.assertTrue(baseline["normal_meals_and_stops_included"])
+        self.assertEqual(0, baseline["additional_seconds_for_routine"])
+        self.assertIn("convention", baseline["basis"])
+        self.assertEqual(1.5, delayed["policy"]["additional_delay_days"])
+        self.assertIn("repaired axle", delayed["policy"]["delay_basis"])
+
+    def test_slow_policy_sea_and_raven_require_an_explicit_conservative_basis(self):
+        routes = [("sea", "White Harbor", "Eastwatch-by-the-Sea"),
+                  ("raven", "Castle Black", "Winterfell")]
+        for route in routes:
+            for options in [{}, {"rate_mpd": 80}, {"rate_mpd": 80, "rate_basis": " "},
+                            {"rate_mpd": 80, "rate_basis": True},
+                            {"profile": "royal_wheelhouse", "rate_mpd": 80, "rate_basis": "test"}]:
+                with self.subTest(route=route, options=options), self.assertRaises(TravelError):
+                    self.catalog.estimate_slow(*route, **options)
+            result = self.catalog.estimate_slow(*route, rate_mpd=80,
+                        rate_basis="Explicit conservative GM assumption for the available means; no source minimum is claimed.")
+            self.assertEqual(80, result["rate_mpd"])
+            self.assertEqual([], result["policy"]["applicable_profiles"])
+            self.assertIn("does not establish a minimum", result["policy"]["basis"])
+            self.assertIsNone(result["rate_source"])
+
+    def test_slow_policy_does_not_invent_delay_conditions_or_write_source(self):
+        source_before = DEFAULT_CATALOG.read_bytes()
+        result = self.catalog.estimate_slow("road", "Castle Black", "Winterfell", profile="small_party_riding")
+        self.assertEqual(0, result["rest_days"])
+        self.assertIsNone(result["policy"]["condition_basis"])
+        self.assertIsNone(result["policy"]["delay_basis"])
+        self.assertEqual([], result["warnings"])
+        self.assertEqual(source_before, DEFAULT_CATALOG.read_bytes())
+        json.dumps(result, allow_nan=False)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,5 @@
-# Story 1 source inputs
+# Story 1 source input
 
-- [eddard-trident-original.md](eddard-trident-original.md) preserves the Eddard attachment unchanged.
-- [previous-unfilled-sheet.md](previous-unfilled-sheet.md) preserves the earlier unfilled preparation document. It is superseded by Eddard's seed and is not another protagonist.
+[eddard-trident-original.md](eddard-trident-original.md) preserves the supplied Eddard attachment unchanged. The active prepared input is [../../character-sheet.md](../../character-sheet.md).
 
-The active starting input is [../../character-sheet.md](../../character-sheet.md). None of these source documents constitutes a saved campaign event. Any original wording about Current Turn 0 refers to a proposed setup until the player starts and setup is committed.
+The superseded blank sheet and its audit were removed during the approved cleanup. They remain recoverable from Git history. No source document constitutes an accepted campaign event. The earlier 37-turn conversation is reference material, not this story's history.

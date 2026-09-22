@@ -1,37 +1,28 @@
-# Independent stories
+# Story boundaries
 
-The shared engine, rules, book reference index, and distance catalog live at the repository root. Each story owns everything specific to its character and course of events.
+Shared engine, rules, book reference policy, distance data and templates live at the repository root. Each story owns its character, history, local rules and world changes. Ordinary turns only change that story's folder.
 
-Start with `stories/<id>/character-sheet.md`. This is the story's starting character input, prepared before setup. Create a story folder from its own supplied sheet; never choose a protagonist by copying example data or another story's current state. Once setup is accepted, immutable events own the current character, and `play/character-sheet.md` displays it. The starting sheet remains historical input.
+| Story file | Role |
+| --- | --- |
+| character-sheet.md | Supplied starting character, read first |
+| setup.json and opening.md | Prepared setup and opening, accepted only when play starts |
+| story.json | Story identity, imported-sheet provenance and shared baseline hashes |
+| campaign/events/ | Authoritative immutable events and resulting state |
+| play/README.md | Generated reading index |
+| play/latest.md and play/turns/ | Latest output and individual accepted turns |
+| play/character-sheet.md | Current generated character |
+| play/threads.md and play/world.md | Storylines and persistent world records |
+| play/resume.md | Continuation point |
+| notes/ | Player-safe supporting material, not competing state |
+| .work/ | Ignored local drafts |
+| saves/ | Ignored portable history exports |
 
-Inside each story:
+An independent story starts with its own supplied character. It does not inherit another story's events, money, inventions, relationships or private knowledge. Use `create-story story-002 --character-sheet /path/to/its-sheet.md`, then prepare its setup. Creation alone initializes nothing. Story1 is already prepared; start only when requested.
 
-- `character-sheet.md`: starting character and setup preparation.
-- `story.json`: story identity, imported-sheet provenance, and exact shared baseline hashes.
-- `AGENTS.md`: instructions scoped to this story.
-- `campaign/events/`: authoritative turns, character/world state, reviews, research, and corrections.
-- `play/character-sheet.md`: current generated sheet; awaiting setup until initialized.
-- `play/story.md`: accepted scene prose in order.
-- `play/resume.md`: pending choices and continuation details.
-- `notes/`: local planning, source notes, and documented assumptions. Accepted consequences still require an event.
-- `.work/`: local drafts, never another canonical ledger.
-- `saves/`: portable full saves created on request or at a checkpoint; ignored by Git because events already preserve history.
+A road closure or local price stays in its story. It does not change shared distances or book sources. The GM records each local assumption and its actual effects. Story selectors and output paths are explicit; there is no global active-character pointer.
 
-Story 1 may record a destroyed bridge, different travel route, altered ruler, or special ruling. That belongs only to Story 1. Story 2 still consults the same shared reference baseline and its own circumstances. A local note is not an automatic executable override or a change to the common map. The GM must identify the local assumption when using it and record its actual effects in that story's turn.
+After a PC dies, an explicitly requested `create-successor new-id --from-story old-id --character-sheet /path/to/new-sheet.md` prepares a linked continuation. It preserves the predecessor's ending state and hash in notes/predecessor-world.json, without changing the old story or initializing the new one. New setup must map surviving world consequences, clock and deadlines, with explicit inheritance and knowledge attribution. Old death remains final. Independent creation never invokes this transfer.
 
-The supplied Eddard Stark sheet is staged as `story-001` preparation. His identity and starting premise are supplied, but no setup event, resolved action, or Turn 1 has been created. Additional stories are created only when requested with their own starting sheets. Story IDs are explicit on every operation; no shared active-story pointer is maintained.
+Shared-file changes are detected before further play. Existing history can still be read, rendered and exported. Retain the matching Git version or perform reviewed shared maintenance; never silently re-pin a story just to bypass drift. Hashes identify the baseline but do not archive its files, so retain repository history.
 
-Examples from the repository root, using an actual supplied sheet:
-
-```sh
-python -m iron_engine create-story story-002 --character-sheet /path/to/its-own-sheet.md
-python -m iron_engine --story story-001 status
-python -m iron_engine --story story-001 render
-python -m iron_engine --story story-001 save turn-010.json
-```
-
-Creation prepares files only. It does not parse a sheet into an initialized character. The GM first reads and completes the selected story's actual setup with the player, then commits Turn 0. Save requires an initialized story and a new simple filename. Story-mode output paths are fixed within that story; a caller cannot redirect its sheet or save into another story.
-
-Shared-file changes are detected against a story's recorded baseline before further play. Existing history can still be read, rendered, and exported, with drift reported. Continue on the retained matching baseline or carry out explicit shared maintenance and a reviewed migration. Do not silently rewrite manifest hashes. Hashes identify a baseline but do not archive it; retain the corresponding repository commit or complete project package. There is no automatic baseline upgrade tool.
-
-General shared maintenance is distinct from a story turn. Ordinary story commits contain only paths under their selected story folder. See [the play workflow](../docs/play_workflow.md) and [Start here](../START_HERE.md).
+See [Start here](../START_HERE.md), [play workflow](../docs/play_workflow.md), and [record contract](../docs/record_contract.md).
