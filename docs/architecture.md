@@ -36,6 +36,6 @@ Player decisions remain authoritative in accepted turn events through `objective
 
 ## Presentation
 
-Turn 0 is setup/opening and does not use the resolved-turn wrapper. Resolved turns use `templates/turn-output.md`: four-row Name/Age/Condition/Location summary, turn/time/location/elapsed header, scene prose, changed-only Ledger, scheduled review when due, and `Next` only from accepted `next_decision`.
+Turn 0 is setup/opening and does not use the resolved-turn wrapper. Resolved turns use `templates/turn-output.md`: four-row Name/Age/Condition/Location summary, turn/time/location/elapsed header, scene prose, and `Next` only from accepted `next_decision`. Material changes, adjudication, per-turn and cumulative elapsed time, and scheduled reviews are rendered separately in `play/changes.md`.
 
 Story-local instructions may add stricter style or presentation requirements. They cannot weaken player agency, state integrity, source boundaries, or persistence rules.

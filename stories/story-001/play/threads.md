@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:threads.md:v1 -->
-<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
+<!-- source-event-hash:850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac -->
 
 # Threads and commitments
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 

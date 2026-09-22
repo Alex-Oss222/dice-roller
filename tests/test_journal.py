@@ -12,7 +12,7 @@ from iron_engine.__main__ import main
 from iron_engine.engine import CampaignError, CampaignStore
 from iron_engine.journal import FILENAMES, render_campaign
 from tests.fixtures import bind_head, correction, setup_payload, source, starting_state, task, turn_payload
-from tests.test_workflow import advance_payload, resource_op, workflow_state, world_record
+from tests.test_workflow import advance_payload, resource_op, set_op, workflow_state, world_op, world_record
 
 
 class JournalTests(unittest.TestCase):
@@ -49,14 +49,19 @@ class JournalTests(unittest.TestCase):
         story = self.read("story.md")
         self.assertIn(narrative, story)
         self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
-        self.assertIn("Day 0, 12:00:00 to Day 0, 14:00:00", story)
-        self.assertIn("Day 0, 14:00:00 to Day 3, 14:00:00", story)
-        self.assertIn("Phase: Test household service", story)
-        self.assertIn("OOC record note: correction at Turn 1", story)
-        self.assertIn("duplicate recorded charge", story)
-        self.assertIn("resulting balance: 9", story)
-        self.assertLess(story.index(narrative), story.index("OOC record note"))
-        self.assertLess(story.index("OOC record note"), story.index("## Turn 2"))
+        changes = self.read("changes.md")
+        self.assertIn("Elapsed: 0 days, 2 hours, 0 minutes, 0 seconds", story)
+        self.assertIn("Day 0, 12:00:00 to Day 0, 14:00:00", changes)
+        self.assertIn("Day 0, 14:00:00 to Day 3, 14:00:00", changes)
+        self.assertIn("Elapsed since opening: 3 days, 2 hours, 0 minutes, 0 seconds", changes)
+        self.assertIn("Location: Invented test store yard", changes)
+        self.assertIn("Phase: Test household service", changes)
+        self.assertIn("OOC record note: correction at Turn 1", changes)
+        self.assertIn("duplicate recorded charge", changes)
+        self.assertIn("resulting balance: 9", changes)
+        self.assertLess(changes.index("## Turn 1"), changes.index("OOC record note"))
+        self.assertLess(changes.index("OOC record note"), changes.index("## Turn 2"))
+        self.assertNotIn("OOC record note", story)
         self.assertNotIn(source()["claim"], story)
         self.assertEqual(before, self.snapshot())
         self.assertEqual(2, self.store.current()["turn"])
@@ -87,10 +92,9 @@ class JournalTests(unittest.TestCase):
         self.assertIn("Retrieve relevant records and older turns on demand", resume)
         self.assertIn("rules/iron_engine.md", resume)
         self.assertIn("Aim: Check the test account", resume)
-        self.assertIn(pending, self.read("character-sheet.md"))
         self.assertEqual(before, self.snapshot())
 
-    def test_turn_ledger_reports_actual_costs_condition_and_other_material_changes(self):
+    def test_changes_page_reports_costs_condition_and_material_changes_outside_the_scene(self):
         state = starting_state()
         state["character"]["condition"] = {
             "rating": 8, "tags": ["Rested"], "basis": "The initial test assessment establishes ordinary good health"
@@ -102,6 +106,7 @@ class JournalTests(unittest.TestCase):
             "basis": "The combined test effects restrict current function."
         }
         character["equipment"].append("Test bandage")
+        character["skills"]["accounts"] = 3
         narrative = 'The clerk pays two stags.\n\nThe carrier signs the test receipt.  '
         self.turn(narrative=narrative, resources_delta={"silver_stags": -2, "ration_days": 0},
                   changes={"character": character, "knowledge": ["The test ford is closed"]},
@@ -112,16 +117,21 @@ class JournalTests(unittest.TestCase):
         events_before = self.snapshot()
         render_campaign(self.store, self.output)
         story = self.read("story.md")
+        changes = self.read("changes.md")
         self.assertIn(narrative, story)
-        self.assertLess(story.index(narrative), story.index("### Ledger"))
-        self.assertIn("silver_stags: 8 → 6 (-2)", story)
-        self.assertIn("Two stags paid for the recorded test supply", story)
-        self.assertNotIn("- ration_days:", story)
-        self.assertIn("Condition: 8/9 Hale (Healthy) → 6/9 Worn (Strained)", story)
-        self.assertIn("Test ankle restriction; Short of sleep", story)
-        self.assertEqual(1, story.count(character["condition"]["basis"]))
-        self.assertIn("Character (equipment): updated", story)
-        self.assertIn("Knowledge: updated. Evidence: The test carrier reports the closed ford", story)
+        self.assertIn("silver_stags: 8 → 6 (-2)", changes)
+        self.assertIn("Two stags paid for the recorded test supply", changes)
+        self.assertNotIn("- ration_days:", changes)
+        self.assertIn("Condition: 8/9 Hale (Healthy) → 6/9 Worn (Strained)", changes)
+        self.assertIn("Test ankle restriction; Short of sleep", changes)
+        self.assertEqual(1, changes.count(character["condition"]["basis"]))
+        self.assertIn("Character / equipment: added Test bandage", changes)
+        self.assertIn("Character / skills / accounts: 2 → 3", changes)
+        self.assertIn("Knowledge: added The test ford is closed", changes)
+        self.assertIn("Evidence: The test carrier reports the closed ford", changes)
+        self.assertIn("| Condition | 6 |", story)
+        for mechanics in ("Test ankle restriction", "Short of sleep", "### Changes", "### Ledger", "Evidence:"):
+            self.assertNotIn(mechanics, story)
         self.assertNotIn('"skills":', story)
         self.assertEqual(events_before, self.snapshot())
 
@@ -136,6 +146,7 @@ class JournalTests(unittest.TestCase):
         render_campaign(self.store, self.output)
         story = self.read("story.md")
         self.assertNotIn("### Ledger", story)
+        self.assertNotIn("### Changes", self.read("changes.md"))
         self.assertEqual(["1", "2"], re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
 
     def test_workflow_turn_matches_shared_presentation_and_decision_index(self):
@@ -147,7 +158,7 @@ class JournalTests(unittest.TestCase):
         self.assertIn("| Field | Current |", turn)
         self.assertIn("| Name | Test Adult |", turn)
         self.assertIn("| Age | 24 |", turn)
-        self.assertIn("| Condition | not recorded |", turn)
+        self.assertIn("| Condition | Not established |", turn)
         self.assertRegex(turn, r"## Turn 1 \\| Day 0, ")
         self.assertIn("### Next\n\nChoose whether to continue the invented account review.", turn)
         self.assertEqual("Choose whether to continue the invented account review.",
@@ -157,6 +168,16 @@ class JournalTests(unittest.TestCase):
         self.assertIn("Objective:", decisions)
         self.assertIn("Outcome:", decisions)
         self.assertIn("Pending next decision: Choose whether to continue the invented account review.", decisions)
+        visible_turn = re.sub(r"<!--.*?-->\s*", "", turn, flags=re.DOTALL)
+        self.assertTrue(visible_turn.startswith("| Field | Current |\n"))
+        self.assertEqual(4, len(re.findall(r"^\| (Name|Age|Condition|Location) \|", visible_turn, re.MULTILINE)))
+        for field in ("Source event hash", "Generated reading view", "Canonical records", "Phase:",
+                      "### Ledger", "### OOC", "Actor:", "Task:", "Basis:", "Current resume note"):
+            for name in ("story.md", "latest.md", "turns/turn-000001.md"):
+                self.assertNotIn(field, self.read(name))
+        self.assertIn("Basis: Routine test work follows the established record", self.read("changes.md"))
+        self.assertEqual(accepted["input"]["narrative"],
+                         visible_turn.split("\n\n")[2])
 
     def test_new_resource_is_shown_as_unrecorded_even_when_its_established_balance_is_zero(self):
         for amount in (0, 3):
@@ -170,13 +191,96 @@ class JournalTests(unittest.TestCase):
                 store.advance(advance_payload(store, operations=[establish], changed=("resources",)))
                 output = self.root / f"play-{amount}"
                 render_campaign(store, output)
-                story = (output / "story.md").read_text(encoding="utf-8")
-                self.assertIn(f"silver_stags: unrecorded → {amount}", story)
-                self.assertNotIn(f"silver_stags: 0 → {amount}", story)
-                self.assertIn(establish["basis"], story)
+                changes = (output / "changes.md").read_text(encoding="utf-8")
+                self.assertIn(f"silver_stags: unrecorded → {amount}", changes)
+                self.assertNotIn(f"silver_stags: 0 → {amount}", changes)
+                self.assertIn(establish["basis"], changes)
                 store.advance(advance_payload(store, operations=[resource_op(expected=amount, delta=0)]))
                 render_campaign(store, output)
                 self.assertNotIn("### Ledger", (output / "latest.md").read_text(encoding="utf-8"))
+
+    def test_journey_progress_and_cumulative_time_are_recorded_without_inventing_distance(self):
+        journey = world_record("journey", title="The test road", summary="The carrier has not departed",
+                               details={"route": "Test yard to test ford", "distance_travelled": "0 miles"})
+        state = workflow_state({"test-road": journey})
+        state["time_seconds"] = 18 * 3600
+        self.store.initialize(setup_payload(state))
+        arrival = world_record("journey", title="The test road", summary="The carrier reaches the test ford",
+                               evidence_turns=[0, 1], details={"route": "Test yard to test ford",
+                                   "distance_this_turn": "9 miles", "distance_travelled": "9 miles",
+                                   "travel_basis": "Recorded conservative test route; routine rests included"})
+        accepted = self.store.advance(advance_payload(self.store, seconds=5 * 3600,
+            narrative="The carrier stops at the ford.", changed=("world", "plans"), operations=[
+                world_op("test-road", journey, arrival),
+                set_op(["location"], state["location"], "Invented test ford")]))
+        self.store.advance(advance_payload(self.store, seconds=2 * 3600,
+                                          narrative="The carrier waits beside the ford."))
+        before = self.snapshot()
+        render_campaign(self.store, self.output)
+        changes = self.read("changes.md")
+        first, second = changes.split("## Turn 1", 1)[1].split("## Turn 2", 1)
+        self.assertIn("Elapsed this turn: 0 days, 5 hours, 0 minutes, 0 seconds", first)
+        self.assertIn("Elapsed since opening: 0 days, 5 hours, 0 minutes, 0 seconds", first)
+        self.assertIn("Location: Invented test ford", first)
+        self.assertIn("Distance this turn: 9 miles", first)
+        self.assertIn("Distance travelled: 9 miles", first)
+        self.assertIn("Elapsed since opening: 0 days, 7 hours, 0 minutes, 0 seconds", second)
+        self.assertIn("unchanged in this turn; it establishes no additional distance travelled", second)
+        self.assertNotIn("14 miles", changes)
+        self.assertNotIn("Distance travelled:", self.read("story.md"))
+        self.assertIn(accepted["hash"], self.read("turns/turn-000001.md"))
+        self.assertEqual(before, self.snapshot())
+
+    def test_missing_journey_data_remains_unknown_and_capability_reasoning_stays_separate(self):
+        self.store.initialize(setup_payload(workflow_state()))
+        payload = advance_payload(self.store)
+        payload["adjudication"].update(mode="uncertain", task_band="ordinary",
+            capability={"source": "character.skills", "key": "accounts"},
+            supporting_capabilities=[{"source": "character.skills", "key": "sword",
+                                      "role": "Recognizing whether the carrier has a safe weapon grip"}])
+        self.store.advance(payload)
+        render_campaign(self.store, self.output)
+        changes = self.read("changes.md")
+        self.assertIn("Unrecorded distance is unknown, not zero", changes)
+        self.assertIn("Journey distance for this interval: not recorded", changes)
+        self.assertNotIn("Distance travelled: 0", changes)
+        self.assertIn("Primary capability: accounts (2; character.skills)", changes)
+        self.assertIn("Supporting capability: sword (0; character.skills)", changes)
+        self.assertIn("Recognizing whether the carrier has a safe weapon grip", changes)
+        for name in ("story.md", "latest.md", "turns/turn-000001.md"):
+            self.assertNotIn("Primary capability", self.read(name))
+            self.assertNotIn("Recognizing whether the carrier has a safe weapon grip", self.read(name))
+
+    def test_dotted_npc_id_keeps_its_complete_capability_source_during_render(self):
+        person = world_record(details={"accounts": "5", "sword": "4"})
+        self.store.initialize(setup_payload(workflow_state({"house.heir": person})))
+        payload = advance_payload(self.store)
+        payload["adjudication"].update(mode="uncertain", task_band="ordinary", actor="house.heir",
+            capability={"source": "world.records.house.heir.details", "key": "accounts"},
+            supporting_capabilities=[{"source": "world.records.house.heir.details", "key": "sword",
+                                      "role": "Assessing the carrier's weapon grip"}])
+        self.store.advance(payload)
+        before = self.snapshot()
+        render_campaign(self.store, self.output)
+        changes = self.read("changes.md")
+        self.assertIn("Primary capability: accounts (5; world.records.house.heir.details)", changes)
+        self.assertIn("Supporting capability: sword (4; world.records.house.heir.details)", changes)
+        self.assertEqual(before, self.snapshot())
+
+    def test_landing_page_has_navigation_and_plain_condition_without_visible_engine_metadata(self):
+        state = workflow_state()
+        state["character"]["condition"] = {"rating": 8, "tags": ["Hale"], "basis": "Recorded health"}
+        self.store.initialize(setup_payload(state))
+        render_campaign(self.store, self.output)
+        landing = self.read("README.md")
+        visible = re.sub(r"<!--.*?-->\s*", "", landing, flags=re.DOTALL)
+        self.assertTrue(visible.startswith("# Read this story\n\n"))
+        self.assertIn("[Latest scene](latest.md)", visible)
+        self.assertIn("[Changes and assessments](changes.md)", visible)
+        self.assertIn("Condition: 8 |", visible)
+        for metadata in ("Generated reading view", "Source event hash", "Canonical records", "8/9", "Healthy", "Basis:"):
+            self.assertNotIn(metadata, visible)
+        self.assertIn(self.store.head(), landing)
 
     def test_condition_only_ledger_has_no_character_dump_and_survives_later_correction(self):
         state = starting_state()
@@ -192,13 +296,15 @@ class JournalTests(unittest.TestCase):
             evidence={"character": "The recorded test rating was copied incorrectly"})))
         render_campaign(self.store, self.output)
         story = self.read("story.md")
-        original_turn, correction_note = story.split("### OOC record note", 1)
-        self.assertIn(narrative, original_turn)
+        original_turn, correction_note = self.read("changes.md").split("### OOC record note", 1)
+        self.assertIn(narrative, story)
         self.assertIn("8/9 Hale (Healthy) → 6/9 Worn (Strained)", original_turn)
-        self.assertNotIn("Character (", original_turn)
+        self.assertNotIn("Character /", original_turn)
         self.assertNotIn('"skills":', original_turn)
         self.assertNotIn("7/9", original_turn)
         self.assertIn("copied incorrectly", correction_note)
+        self.assertIn("| Condition | 6 |", story)
+        self.assertNotIn("copied incorrectly", story)
         self.assertEqual(7, self.store.current()["character"]["condition"]["rating"])
 
     def test_same_head_render_is_byte_identical_and_does_not_rewrite_files(self):
@@ -211,7 +317,7 @@ class JournalTests(unittest.TestCase):
         after = {path.relative_to(self.output).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
                  for path in self.output.rglob("*.md")}
         self.assertEqual(before, after)
-        self.assertEqual({"story.md", "character-sheet.md", "resume.md", "README.md", "latest.md", "threads.md", "world.md", "decisions.md", "turns"},
+        self.assertEqual({"story.md", "character-sheet.md", "resume.md", "README.md", "latest.md", "threads.md", "world.md", "decisions.md", "changes.md", "turns"},
                          {path.name for path in self.output.iterdir()})
 
     def test_compact_turn_history_is_byte_stable_after_later_corrections_and_turns(self):
@@ -225,14 +331,16 @@ class JournalTests(unittest.TestCase):
         first_time = historical.stat().st_mtime_ns
         self.assertIn(narrative.encode("utf-8"), first_bytes)
         self.assertIn(accepted["hash"].encode("ascii"), first_bytes)
-        self.assertIn("silver_stags: 8 → 6 (-2)", first_bytes.decode("utf-8"))
+        self.assertNotIn("silver_stags", first_bytes.decode("utf-8"))
+        self.assertIn("silver_stags: 8 → 6 (-2)", self.read("changes.md"))
         correction_event = self.store.correct(bind_head(self.store, correction()))
         render_campaign(self.store, self.output)
         self.assertEqual(first_bytes, historical.read_bytes())
         self.assertEqual(first_time, historical.stat().st_mtime_ns)
         latest = self.read("latest.md")
         self.assertIn(narrative, latest)
-        self.assertIn("OOC record note", latest)
+        self.assertNotIn("OOC record note", latest)
+        self.assertIn("OOC record note", self.read("changes.md"))
         self.assertIn(correction_event["hash"], latest)
         next_event = self.store.advance(advance_payload(self.store, narrative="The second test scene begins."))
         render_campaign(self.store, self.output)
@@ -251,9 +359,31 @@ class JournalTests(unittest.TestCase):
         render_campaign(self.store, self.output)
         self.assertIn(opening, self.read("story.md"))
         self.assertIn(opening, self.read("latest.md"))
+        self.assertIn(opening, self.read("turns/turn-000000.md"))
+        self.assertIn("[Turn 0: opening](turns/turn-000000.md)", self.read("README.md"))
         self.assertIn("Opening: Turn 0", self.read("story.md"))
         self.assertNotIn("## Turn 1", self.read("story.md"))
         self.assertFalse((self.output / "turns" / "turn-000001.md").exists())
+        self.assertEqual(0, self.store.current()["turn"])
+
+    def test_explicit_turn_zero_opening_correction_updates_views_without_rewriting_setup(self):
+        original = "The original test opening contains a copied mistake."
+        revised = "The clerk puts the corrected account on the table.  "
+        payload = setup_payload(workflow_state())
+        payload["opening_narrative"] = original
+        self.store.initialize(payload)
+        setup_file = self.store.path / "events" / "000000.json"
+        original_bytes = setup_file.read_bytes()
+        render_campaign(self.store, self.output)
+        accepted = self.store.correct(bind_head(self.store, correction(opening_narrative=revised)))
+        render_campaign(self.store, self.output)
+        for name in ("story.md", "latest.md", "turns/turn-000000.md"):
+            self.assertIn(revised, self.read(name))
+            self.assertNotIn(original, self.read(name))
+            self.assertIn(accepted["hash"], self.read(name))
+            self.assertNotIn("Opening presentation revised", self.read(name))
+        self.assertIn("Opening presentation revised before the first resolved turn", self.read("changes.md"))
+        self.assertEqual(original_bytes, setup_file.read_bytes())
         self.assertEqual(0, self.store.current()["turn"])
 
     def test_world_and_thread_views_preserve_closed_records_and_knowledge_attribution(self):
@@ -279,12 +409,16 @@ class JournalTests(unittest.TestCase):
             self.turn(number)
         render_campaign(self.store, self.output)
         story = self.read("story.md")
-        self.assertIn("### OOC assessment: turns 1 to 10", story)
-        self.assertIn("#### Gm consistency", story)
-        self.assertIn("#### Next constraint", story)
-        self.assertIn("routine work is recorded; ability remains uncertain", story)
-        self.assertIn("Evidence turns: 1, 10.", story)
-        self.assertLess(story.index("## Turn 10"), story.index("### OOC assessment"))
+        changes = self.read("changes.md")
+        self.assertIn("### Assessment: turns 1 to 10", changes)
+        self.assertIn("#### Gm consistency", changes)
+        self.assertIn("#### Next constraint", changes)
+        self.assertIn("routine work is recorded; ability remains uncertain", changes)
+        self.assertIn("Evidence turns: 1, 10.", changes)
+        self.assertLess(changes.index("## Turn 10"), changes.index("### Assessment"))
+        for name in ("story.md", "latest.md", "turns/turn-000010.md"):
+            self.assertNotIn("Assessment", self.read(name))
+            self.assertNotIn("routine work is recorded; ability remains uncertain", self.read(name))
         self.assertEqual([str(number) for number in range(1, 11)],
                          re.findall(r"^## Turn (\d+) \|", story, re.MULTILINE))
 

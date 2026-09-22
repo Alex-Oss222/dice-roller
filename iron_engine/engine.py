@@ -350,8 +350,13 @@ def _apply(kind: str, payload: dict, before: dict | None, previous_hash: str | N
         return state
     if kind == "correction":
         _object(payload, "correction input", {
-            "request_id", "expected_hash", "reason", "changes", "resources_delta", "evidence"})
+            "request_id", "expected_hash", "reason", "changes", "resources_delta", "evidence"}
+            | (set(payload) & {"opening_narrative"}))
         _string(payload["reason"], "correction.reason")
+        if "opening_narrative" in payload:
+            _string(payload["opening_narrative"], "correction.opening_narrative")
+            if before["turn"] != 0:
+                _fail("The opening narrative can only be corrected before the first resolved turn")
         if not payload["changes"] and not payload["resources_delta"]:
             _fail("A correction must change at least one field or resource unit")
         state = _changes(before, payload, correction=True)

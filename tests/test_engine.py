@@ -163,6 +163,51 @@ class CampaignTests(unittest.TestCase):
             evidence={"resources.test_coppers": "Received three test coppers"}))
         self.assertEqual(3, self.store.current()["resources"]["test_coppers"])
 
+    def test_opening_correction_preserves_setup_and_replays_without_advancing(self):
+        setup = setup_payload()
+        setup["opening_narrative"] = "The test clerk has the incorrectly recorded account."
+        original = self.store.initialize(setup)
+        before = self.store.current()
+        payload = self.correction(opening_narrative="The test clerk sets the corrected account on the table.")
+        accepted = self.store.correct(payload)
+        reloaded = CampaignStore(self.root / "campaign")
+        self.assertEqual([original, accepted], reloaded.validate())
+        self.assertEqual(original, reloaded.validate()[0])
+        self.assertEqual(payload, accepted["input"])
+        self.assertEqual((before["turn"], before["time_seconds"]),
+                         (reloaded.current()["turn"], reloaded.current()["time_seconds"]))
+        self.assertEqual(accepted, reloaded.correct(payload))
+        self.assertNotIn("opening_narrative", reloaded.current())
+
+    def test_legacy_correction_does_not_gain_an_opening_field(self):
+        self.initialize()
+        payload = self.correction()
+        accepted = self.store.correct(payload)
+        self.assertEqual(payload, accepted["input"])
+        self.assertNotIn("opening_narrative", accepted["input"])
+        self.assertEqual(canonical_hash(accepted), accepted["hash"])
+        self.assertEqual(accepted, self.store.validate()[-1])
+
+    def test_opening_correction_requires_nonempty_text_reason_and_record_change(self):
+        self.initialize()
+        for invalid in ("", " \n ", None, 0, []):
+            with self.subTest(opening_narrative=invalid):
+                self.assert_rejected_without_change(self.store.correct,
+                    self.correction(opening_narrative=invalid))
+        self.assert_rejected_without_change(self.store.correct,
+            self.correction(opening_narrative="The corrected opening.", reason=" "))
+        self.assert_rejected_without_change(self.store.correct,
+            self.correction(opening_narrative="The corrected opening.", changes={},
+                resources_delta={}, evidence={}))
+
+    def test_opening_correction_is_blocked_after_first_resolved_turn(self):
+        self.initialize()
+        self.store.commit_turn(self.turn())
+        self.assert_rejected_without_change(self.store.correct,
+            self.correction(opening_narrative="A replacement opening after play has begun."))
+        self.assert_rejected_without_change(self.store.commit_turn,
+            self.turn(1, opening_narrative="A replacement opening in a resolved turn."))
+
     def test_evidence_is_required_for_every_change_and_delta(self):
         self.initialize()
         for payload in [

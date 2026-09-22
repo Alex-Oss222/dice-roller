@@ -35,6 +35,14 @@ def _event_reference(store, event):
             "event_file": str(store.path / "events" / f"{event['sequence']:06d}.json")}
 
 
+def _opening_event(events):
+    """The latest accepted pre-play wording, retaining original setup evidence."""
+    return next((event for event in reversed(events)
+                 if event["kind"] in {"setup", "correction"}
+                 and event["state"]["turn"] == 0
+                 and "opening_narrative" in event["input"]), None)
+
+
 def _record_index(record_id, record):
     return {"id": record_id, "kind": record["kind"], "title": record["title"],
             "status": record["status"], "summary": record["summary"],
@@ -45,6 +53,27 @@ def _record_index(record_id, record):
 def _compact_record_index(record_id, record):
     return {"id": record_id, "kind": record["kind"], "title": record["title"],
             "status": record["status"], "retrieve": {"record_id": "world." + record_id}}
+
+
+def _continuity_index(records, subjects, loaded=()):
+    """Surface durable constraints pointing to this focus without archive loading.
+
+    Links need not be reciprocal. A closed capture or death record can still
+    constrain a person whose own record does not link back to it. Knowledge
+    attribution alone is not relevance: knowing a fact must not load every fact
+    the person has ever heard. Related summaries provide explicit retrieval;
+    they do not recursively widen the focus or grant the PC knowledge.
+    """
+    subjects = set(subjects)
+    loaded = set(loaded)
+    result = []
+    for record_id, record in sorted(records.items()):
+        durable = record["kind"] in {"fact", "divergence"} or (
+            record["kind"] == "person" and record["status"] == "dead")
+        related = subjects.intersection(record.get("links", []) + record.get("participants", []))
+        if durable and related and record_id not in loaded:
+            result.append({**_record_index(record_id, record), "related_to": sorted(related)})
+    return result
 
 
 def record_index_packet(store: CampaignStore, query="", kind=None, status=None, offset=0, limit=25) -> dict:
@@ -118,9 +147,13 @@ def record_packet(store: CampaignStore, record_id: str) -> dict:
     events = store.validate()
     if not events:
         raise CampaignError("Campaign is awaiting setup; no current records exist")
-    key, record = _resolve_record(events[-1]["state"], record_id)
+    state = events[-1]["state"]
+    key, record = _resolve_record(state, record_id)
+    records = state.get("world", {}).get("records", {})
+    subjects = [key] if record is records.get(key) else ["pc"] if record is state["character"] else []
     return {"head": events[-1]["hash"], "turn": events[-1]["state"]["turn"],
             "record_id": key, "record": deepcopy(record),
+            "continuity_record_index": _continuity_index(records, subjects, [key]),
             "source": _event_reference(store, events[-1]),
             "knowledge_note": "A player-safe record is not automatically knowledge possessed by the PC; inspect known_by."}
 
@@ -139,11 +172,17 @@ def history_packet(store: CampaignStore, turn: int) -> dict:
               **_event_reference(store, item)}
              for item in events[index + 1:]
              if item["state"]["turn"] == turn and item["kind"] not in TURN_KINDS]
-    return {"head": events[-1]["hash"], "turn": turn,
+    packet = {"head": events[-1]["hash"], "turn": turn,
             "start_seconds": events[index - 1]["state"]["time_seconds"] if index else event["state"]["time_seconds"],
             "end_seconds": event["state"]["time_seconds"], "kind": event["kind"],
             "accepted_input": deepcopy(event["input"]), "later_same_turn_notes": notes,
             **_event_reference(store, event)}
+    if turn == 0:
+        opening = _opening_event(events)
+        if opening:
+            packet["effective_opening_narrative"] = opening["input"]["opening_narrative"]
+            packet["opening_reference"] = _event_reference(store, opening)
+    return packet
 
 
 def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_chars=12000,
@@ -185,6 +224,10 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
             dependencies = list(record.get("links", [])) + list(record.get("participants", [])) + list(record.get("known_by", []))
             queue.extend("world." + link for link in dependencies if link in records and link not in selected)
     character = state["character"]
+    continuity_subjects = set(selected)
+    if "pc.character" in selected_details or "character" in selected_details:
+        continuity_subjects.add("pc")
+    continuity = _continuity_index(records, continuity_subjects, selected)
     closed_records = [(key, record) for key, record in sorted(records.items()) if record["status"] not in OPEN_STATUSES]
     packet = {
         "status": "ready" if state["alive"] else "character_dead",
@@ -216,11 +259,17 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
                             "retrieve": {"record_id": "research." + source["id"]}} for source in state["research"]],
         "selected_records": selected,
         "selected_details": selected_details,
+        "continuity_record_index": continuity,
         "selection": {"requested_ids": list(dict.fromkeys(requested)),
                       "expanded_through": ["links", "participants", "known_by", "all open dated records"],
+                      "continuity_note": "Related facts, divergences and dead people remain binding after closure. "
+                                         "Incoming links and participants supply summaries, not recursive archive loading. "
+                                         "Retrieve their details before a dependent ruling. Focus or retrieve each relevant "
+                                         "person or subject before using canonical assumptions about them.",
                       "details_not_loaded": sorted(({key for key, record in records.items()
                                                       if record["status"] in OPEN_STATUSES}
-                                                     | {key for key, _ in closed_records[:10]}) - set(selected)),
+                                                     | {key for key, _ in closed_records[:10]}
+                                                     | {row["id"] for row in continuity}) - set(selected)),
                       "note": "Indexed records retain their full details in the ledger. Retrieve them before a ruling that depends on those details."},
         "recent_turns": [],
         "narrative_budget": {"max_chars": max_chars, "used_chars": 0, "omitted_chars": 0,
@@ -245,16 +294,17 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
             "retrieve": {"turn": event["state"]["turn"]}, **_event_reference(store, event)})
         packet["narrative_budget"]["omitted_chars"] += omitted
     packet["recent_turns"].reverse()
-    opening = events[0]["input"].get("opening_narrative")
+    opening_event = _opening_event(events)
+    opening = opening_event["input"]["opening_narrative"] if opening_event else None
     if opening:
-        packet["opening_reference"] = {"turn": 0, **_event_reference(store, events[0])}
+        packet["opening_reference"] = {"turn": 0, **_event_reference(store, opening_event)}
         if not resolved and recent_turns:
             excerpt = opening[:remaining]
             omitted = len(opening) - len(excerpt)
             remaining -= len(excerpt)
             packet["opening_scene"] = {"narrative": excerpt, "narrative_truncated": bool(omitted),
                                        "omitted_chars": omitted, "retrieve": {"turn": 0},
-                                       **_event_reference(store, events[0])}
+                                       **_event_reference(store, opening_event)}
             packet["narrative_budget"]["omitted_chars"] += omitted
     packet["narrative_budget"]["used_chars"] = max_chars - remaining
     packet["history_retrieval"] = {"resolved_turns": len(resolved),

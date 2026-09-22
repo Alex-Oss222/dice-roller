@@ -127,6 +127,53 @@ class ContextTests(unittest.TestCase):
         self.assertEqual(records["closed-17"], record_packet(self.store, found["records"][0]["retrieve"]["record_id"])["record"])
         self.assertEqual({"active", "blocked"}, {row["id"] for row in record_index_packet(self.store, status="open")["records"]})
 
+    def test_focus_finds_incoming_closed_constraints_without_loading_unrelated_archives(self):
+        records = {f"archive-{number:02}": world_record("fact", status="closed") for number in range(15)}
+        records.update({
+            "heir": world_record(title="Invented surviving heir"),
+            "witness": world_record(title="Invented witness"),
+            "z-capture": world_record("divergence", status="closed", links=["heir"],
+                summary="The heir remains a prisoner; the closed capture cannot be undone by canon.",
+                known_by=["witness"], details={"constraint": "RETRIEVE_CAPTURE_DETAIL"}),
+            "z-death": world_record("person", status="dead", links=["heir"],
+                summary="The heir's predecessor died and cannot resume the command."),
+            "z-fact": world_record("fact", status="closed", participants=["heir"],
+                summary="The heir's sworn obligation survives the settled meeting."),
+            "old-speech": world_record("thread", status="completed", participants=["heir"],
+                details={"wording": "UNNEEDED_SPEECH"}),
+            "heard-only": world_record("divergence", status="closed", known_by=["heir"],
+                details={"distant_event": "UNRELATED_KNOWN_FACT"}),
+            "unrelated": world_record("divergence", status="closed", links=["witness"],
+                details={"full_history": "UNRELATED_ARCHIVE"}),
+        })
+        self.initialize(workflow_state(records))
+        packet = context_packet(self.store, focus_ids=["heir"], recent_turns=0, max_chars=0)
+        self.assertEqual({"heir"}, set(packet["selected_records"]))
+        constraints = {row["id"]: row for row in packet["continuity_record_index"]}
+        self.assertEqual({"z-capture", "z-death", "z-fact"}, set(constraints))
+        self.assertEqual(["witness"], constraints["z-capture"]["known_by"])
+        self.assertEqual(["heir"], constraints["z-capture"]["related_to"])
+        self.assertIn("z-capture", packet["selection"]["details_not_loaded"])
+        for omitted in ("RETRIEVE_CAPTURE_DETAIL", "UNNEEDED_SPEECH", "UNRELATED_KNOWN_FACT", "UNRELATED_ARCHIVE"):
+            self.assertNotIn(omitted, json.dumps(packet))
+        capture = record_packet(self.store, constraints["z-capture"]["retrieve"]["record_id"])
+        self.assertEqual(records["z-capture"], capture["record"])
+        self.assertEqual(packet["continuity_record_index"], record_packet(self.store, "world.heir")["continuity_record_index"])
+        self.assertEqual([], context_packet(self.store, recent_turns=0)["continuity_record_index"])
+
+    def test_outbound_loaded_constraints_are_not_duplicated_and_pc_focus_is_explicit(self):
+        records = {
+            "heir": world_record(links=["old-oath"]),
+            "old-oath": world_record("fact", status="closed", participants=["heir", "pc"]),
+        }
+        self.initialize(workflow_state(records))
+        packet = context_packet(self.store, focus_ids=["heir"])
+        self.assertEqual({"heir", "old-oath"}, set(packet["selected_records"]))
+        self.assertEqual([], packet["continuity_record_index"])
+        pc_packet = context_packet(self.store, focus_ids=["pc.character"])
+        self.assertEqual(["old-oath"], [row["id"] for row in pc_packet["continuity_record_index"]])
+        self.assertEqual(pc_packet["continuity_record_index"], record_packet(self.store, "pc.character")["continuity_record_index"])
+
     def test_full_character_task_source_and_capability_retrieval_preserve_separation(self):
         state = workflow_state({"test-clerk": world_record(), "character": world_record(title="World record with a colliding name")})
         state["tasks"] = [task(due=100000)]
@@ -175,6 +222,38 @@ class ContextTests(unittest.TestCase):
         self.assertEqual(fix["hash"], packet["later_same_turn_notes"][0]["event_hash"])
         self.assertEqual((0, 3600), (packet["start_seconds"], packet["end_seconds"]))
         self.assertNotIn("state", packet)
+
+    def test_opening_revision_is_current_but_original_setup_and_corrections_remain_retrievable(self):
+        payload = setup_payload(workflow_state())
+        payload["opening_narrative"] = "Original opening retained as evidence."
+        original = self.store.initialize(payload)
+        original_bytes = (self.store.path / "events" / "000000.json").read_bytes()
+        revised_character = deepcopy(payload["state"]["character"])
+        revised_character["background"] = "Corrected invented starting background."
+        self.store.correct(bind_head(self.store, correction(request_id="opening-first", resources_delta={},
+            changes={"character": revised_character}, evidence={"character": "The player's starting background was miscopied."},
+            reason="Correct the background and remove its unsupported opening detail before play.",
+            opening_narrative="First corrected opening.")))
+        revised_character["equipment"] = ["Corrected test ledger"]
+        latest = self.store.correct(bind_head(self.store, correction(request_id="opening-second", resources_delta={},
+            changes={"character": revised_character}, evidence={"character": "The player's starting ledger description was miscopied."},
+            reason="Use the player's settled pre-play equipment and starting description.",
+            opening_narrative="Final corrected opening.")))
+        packet = context_packet(self.store, max_chars=10)
+        self.assertEqual("Final corr", packet["opening_scene"]["narrative"])
+        self.assertEqual(latest["hash"], packet["opening_reference"]["event_hash"])
+        self.assertEqual(len("Final corrected opening.") - 10, packet["narrative_budget"]["omitted_chars"])
+        history = history_packet(self.store, 0)
+        self.assertEqual(original["hash"], history["event_hash"])
+        self.assertEqual(payload["opening_narrative"], history["accepted_input"]["opening_narrative"])
+        self.assertEqual("Final corrected opening.", history["effective_opening_narrative"])
+        self.assertEqual(latest["hash"], history["opening_reference"]["event_hash"])
+        self.assertEqual(2, len(history["later_same_turn_notes"]))
+        self.assertEqual(original_bytes, (self.store.path / "events" / "000000.json").read_bytes())
+        self.store.advance(advance_payload(self.store))
+        later = context_packet(self.store)
+        self.assertNotIn("opening_scene", later)
+        self.assertEqual(latest["hash"], later["opening_reference"]["event_hash"])
 
     def test_packet_mutations_do_not_change_canonical_records(self):
         self.initialize(workflow_state({"test-clerk": world_record()}))

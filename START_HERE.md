@@ -2,30 +2,31 @@
 
 Use a chat that can read and write this repository and run the included Python engine. Give it the [starting prompt](START_PROMPT.md). The chat handles records and commits. You read the story and give your next decision.
 
-## Story 1 is prepared
+## Story 1 is ready for the first decision
 
-Your [Eddard sheet](stories/story-001/character-sheet.md), [opening](stories/story-001/opening.md) and machine-readable setup are ready. Declared conventions are Condition 8 (Hale), the five published main novels, and a relative Day 0 evening clock at 18:00. See [setup decisions](stories/story-001/notes/setup-decisions.md). Unknown money and equipment remain unknown.
+Story 1's opening has been accepted as Turn 0. Its [current sheet](stories/story-001/play/character-sheet.md) and [reading page](stories/story-001/play/README.md) come from the saved records. The starting scene is at 18:00 on the first day of the first moon, 283 AC, using the story's chosen chronology. See [setup decisions](stories/story-001/notes/setup-decisions.md). Unknown money and unlisted possessions remain unknown.
 
-No campaign events have been created. Before start, the GM validates the shared baseline, exact opening/setup mirror and prepared records, then runs the repository engine to accept the opening once, refresh the reading pages and publish them. This is Turn 0. Your first decision produces Turn 1. The GM must not hand-build the event or renderer output.
+Your first resolved decision produces Turn 1. The GM reads the latest accepted state and continues from it; it does not initialize the opening again. The same starting prompt works in a fresh chat after later turns because it checks the repository's current position first.
 
 ## Your normal loop
 
 1. Open [Story 1's reading page](stories/story-001/play/README.md), then its latest output.
 2. Say in chat: “Continue story-001. My decision is: [what I attempt].” Include the intended duration when it matters.
-3. The GM loads current records, resolves the authorized activity, writes the scene once, and submits changes to the engine.
+3. The GM loads current records, starts with your action, applies the specific relevant capabilities, writes the scene once, and submits changes to the engine.
 4. The engine updates the relevant sheet, storylines, world records and resume point. The GM checks and publishes the complete result, then sends the reading link.
 
 The GM stops for a real decision. A five-year plan does not authorize skipping the meeting where you propose it. No time passes while you are away. A turn is a saved action interval, not a fixed week.
 
-Narrative, changes and assessments are readable in the repository, with a short confirmation in chat. Turn 10, 20, 30 and so on includes an evidence-based assessment. Improvement is earned and recorded; reviews do not promise higher ratings.
+The turn output contains the four-row character summary, turn/time/location and elapsed duration, the scene, and a real pending decision when needed. Competence appears through what the character notices and does. Stat changes, lasting consequences, travel progress and assessments update the separate records; they are not appended to the scene. Turns 10, 20, 30 and so on receive an evidence-based assessment in `play/changes.md`. Improvement is earned and recorded; reviews do not promise higher ratings.
 
 ## Finding things
 
 | File within stories/story-001/ | Purpose |
 | --- | --- |
 | play/README.md | Reading index |
-| play/latest.md | Latest scene and changes |
+| play/latest.md | Latest scene |
 | play/turns/turn-000001.md | An individual accepted turn |
+| play/changes.md | Time elapsed, material updates and assessments, grouped by turn |
 | play/character-sheet.md | Current character |
 | play/decisions.md | Accepted objectives, outcomes and pending decisions |
 | play/threads.md | Active and resolved storylines |
@@ -33,7 +34,9 @@ Narrative, changes and assessments are readable in the repository, with a short 
 | play/resume.md | Continuation point |
 | campaign/events/ | Authoritative history and state |
 
-Before play, generated views say awaiting setup. The starting sheet and setup.json are preparation inputs. Accepted events determine current state after setup.
+The starting sheet and setup.json are preparation inputs. Accepted events determine current state after setup. The opening and numbered turns stay readable in sequence; you do not need to maintain the records yourself.
+
+The turn header tells you how much time passed and where the character ended. Journey records keep established distances, progress and delays. A captured prince or an unexpected death remains part of this story's world; a one-off speech needs no follow-up unless it creates a lasting effect. Settled matters leave the active storyline list while their history remains available.
 
 ## A fresh chat
 

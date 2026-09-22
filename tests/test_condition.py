@@ -196,9 +196,10 @@ class ConditionTests(unittest.TestCase):
         self.assertIn(condition["basis"], readable_sheet)
         story = (output / "story.md").read_text(encoding="utf-8")
         self.assertIn("Condition", story)
-        self.assertIn("6/9", story)
+        self.assertIn("| Condition | 6 |", story)
+        self.assertNotIn(condition["basis"], story)
         for tag in condition["tags"]:
-            self.assertIn(tag, story)
+            self.assertNotIn(tag, story)
         resume = (output / "resume.md").read_text(encoding="utf-8")
         self.assertIn("6/9", resume)
         self.assertIn(condition["basis"], resume)

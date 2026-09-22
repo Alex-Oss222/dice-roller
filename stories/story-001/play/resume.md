@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:resume.md:v1 -->
-<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
+<!-- source-event-hash:850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac -->
 
 # Resume campaign
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -17,7 +17,7 @@ Character: Eddard Stark. Aim: Help defeat the royal army at the Trident, preserv
 
 Age: 20. Condition: 8/9 Hale (Healthy).
 
-Condition tags: Hale. Basis: Existing explicit campaign starting assumption: Ned is unwounded, has taken the evening meal, and has no established illness or debilitating exhaustion. Ordinary health supports 8, not the additional rest/preparedness needed for 9; this is not a verified novel health statistic.
+Condition tags: Hale. Basis: Unwounded, fed and without illness, debilitating exhaustion or lasting disability.
 
 Spoiler cutoff: Campaign history stops at the supplied starting moment. Retrospective material in the permitted novels may establish earlier facts; later events are neither inevitable nor PC knowledge.. Resolution: adjudicated.
 

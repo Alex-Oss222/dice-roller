@@ -16,9 +16,11 @@ There is still no economy simulator. Numerical resources are established only fr
 
 ## Story 1
 
-Story 1 is prepared but uninitialized. There are no accepted campaign events. Its human starting sheet, machine setup and prepared opening are aligned on the authorized steel field harness and other starting equipment. The prepared opening is a substantial Turn 0 scene, but it makes no Eddard decision and resolves no Turn 1 action.
+Story 1 has its accepted Turn 0 setup and a transparent Turn 0 correction incorporating the player's latest uploaded character sheet. No resolved Turn 1 exists. The correction preserves the original setup event, applies the changed abilities and leather/mail inventory, and accepts an opening stripped of mechanical commentary. The campaign clock remains at Day 0, 18:00, mapped to the chosen first day of the first moon, 283 AC.
 
-Repository preparation, validation and tests do not start play. The start command requires the prepared opening file to mirror the setup opening exactly and accepts it only when the player explicitly starts the story.
+The uploaded sheet is preserved as source input. Learning and Craft totals and Development denominators are recalculated; Diplomacy anchors reflect the uploaded mediation strength. The current sheet is generated from the corrected state. Shared presentation changes do not alter another story's character, distances or history.
+
+Narrative pages contain only the agreed presentation. Detailed changes, time accounting and assessments have their own page. Focused context follows related persistent divergences even after their immediate follow-up has closed. Journey distances require explicit accepted records; the renderer does not infer mileage from location names.
 
 ## Verification
 

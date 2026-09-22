@@ -1,257 +1,327 @@
-# Eddard “Ned” Stark
+# Eddard “Ned” Stark — starting character
 
-**A Song of Blood & Gold: The Trident**
+## Eddard Stark
 
-| Starting record | Details |
+A Song of Blood & Gold: The Trident
+
+| Current record | Details |
 | --- | --- |
-| Date | 1st day of the first moon, 283 AC |
-| Time | 18:00, after the evening meal |
-| Turn | 0 · not started |
-| Age | Approximately 20; born 263 AC; birthday unspecified |
-| Titles | Lord of Winterfell; Warden of the North |
-| Role | Commander of the northern forces in the rebel coalition |
+| Turn | 0 |
+| Time | Day 0, 18:00 |
+| Age | 20 |
+| Standing | Great lord; head of House Stark; rebel army commander |
 | Location | Ned's command tent, northern section of the rebel encampment beside the Trident |
 | Condition | 8 — Hale |
-| Resolution | Adjudicated; Blood & Gold 0–9 capabilities |
 
-This date belongs to the campaign’s chosen chronology. The opening remains the evening before the expected Trident engagement.
+## Background
 
-## Opening position
+Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his household at eight; Robert Baratheon became his closest friend. He performed the work of a page and a squire, accompanied Jon on journeys, and returned north when he could. After sixteen, those stays became longer. His father's and brother's deaths made him Lord of Winterfell before he had expected to inherit. He called the northern banners and marched south; by this evening beside the Trident, he has helped relieve Robert at the Bells and married Catelyn Tully.
 
-The rebel host is camped beside the Trident, with Rhaegar’s royal army nearby. Ned is in his command tent after the evening meal, working a whetstone along the sword across his knees. His steel field harness, mail gap protection and padded arming garment are nearby and unworn. The next action is yours.
+## Experience
 
-**Immediate aim:** Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
+**Arms and command:** In this story, Ned gave particular attention to sword practice throughout that upbringing. Repeated work with household men-at-arms made his footwork, distance and recovery dependable under pressure; practice in armor taught him its restrictions before campaigning exposed him to exhaustion and confusion. Raising and moving his own host, then joining allied forces at the Bells, gave him experience of command beyond the practice yard. He can recognize a formation losing order and give a useful instruction while frightened men are still trying to understand what happened. His relationship with Robert and Jon helps him coordinate with them. It gives him neither their authority over their men nor knowledge of orders they have not shared.
 
-**Longer concerns:** Lyanna’s disappearance, his family, and the future of the North.
+**Faith and languages:** The old gods belong to Ned's family life and northern upbringing. His knowledge is strongest in customary observance, oaths, sacred places and inherited stories. It supplies neither a priestly office nor knowledge of forgotten magic. His education in this story included sustained tuition in the Old Tongue, with regular conversation and written practice; he reads, writes and speaks it fluently. High Valyrian received more spoken practice than formal composition, leaving him fluent in conversation and competent, though less assured, with a difficult written passage. Understanding either language does not supply the facts concealed in an unfamiliar document.
 
-[Read the opening](opening.md).
+**Law and negotiation:** Service in two great households also gave him a sustained education in obligations, petitions and disputes. For this Ned, hearing both sides and working through customary claims became a particular strength. His study of inheritance, allegiance and precedent sits alongside a good memory for history and heraldry. He can identify a point of agreement, explain what a settlement requires and distinguish an insult from a claim that needs answering. His manner is generally quiet and direct. He is less accomplished at addressing a crowd, detecting a practiced lie or bargaining over a merchant's margins. A sound settlement still needs people willing or compelled to keep it.
 
-## Identity and background
+**Supply and maintenance:** Campaigning has made supply an immediate responsibility: provisions must reach the men, pack animals must be fed, and a delayed baggage train changes what the army can do. Ned understands those dependencies and can organize work around them. His experience of a household's accounts is narrower, and he has had little time to manage Winterfell as its lord. He can question a tally and plan an allocation without possessing a farmer's knowledge of every crop or an experienced steward's familiarity with every estate. His habit of caring for his own sword and riding gear makes him capable of routine maintenance; forging a blade and rebuilding badly damaged armor remain other men's trades.
 
-A trueborn Stark and Northman who keeps the old gods. Raised at Winterfell, then fostered from age eight at the Eyrie under Jon Arryn alongside Robert Baratheon. He succeeded Rickard and Brandon, raised the northern banners, marched south and fought at the Battle of the Bells. He recently married Catelyn Tully at Riverrun.
+**Travel and fieldcraft:** His northern visits and longer stays supplied repeated practical instruction in woodland travel, exposure, trails and shelter. He became especially good at preserving strength on rough ground and noticing signs of recent passage. The march south added experience of reading terrain for men, horses and baggage. These strengths are uneven. Knowing the shape of a region and its principal roads does not always tell him his bearing in unfamiliar country. He is a serviceable hunter and mountain traveller, with less experience of covert scouting than of moving openly with companions. Local guides can know things that he does not.
 
-Aerys II claims his fealty, but Ned is in open rebellion after the deaths of his father and brother and the demand for his own head. Robert is his ally and foster brother, not yet his king.
+## Identity
 
-| Family | Situation |
-| --- | --- |
-| Rickard Stark | Father; deceased |
-| Lyarra Stark | Mother; current status unrecorded |
-| Brandon Stark | Older brother; deceased |
-| Lyanna Stark | Younger sister; missing |
-| Benjen Stark | Younger brother; living; current duties unrecorded |
-| Catelyn Tully | Recently married wife |
-| Children | None present in his household; Catelyn’s pregnancy is not established as his knowledge |
+**Age precision:** Approximately twenty, born in 263 AC; exact birthday unknown.
 
-## Appearance and natural attributes
+**Birthplace:** Winterfell, the North
 
-Approximately **6'3"**, with long brown hair, dark grey eyes and the long Stark face. Fit from training and active campaigning; usually reserved in manner. His arms are a grey direwolf on an ice-white field.
+**Character trajectory:** His reserve and upbringing describe him at the outset. The life that follows has not been decided.
 
-| Attribute | Assessment |
-| --- | --- |
-| Strength | Good, not exceptional |
-| Agility | Good |
-| Endurance | Strong |
-| Intelligence | Good |
-| Perception | Good |
-| Appearance | Ordinary noble bearing |
-| Willpower | Strong |
+**Common name:** Ned
 
-**Aptitude:** Ordinary. Attributes describe his starting condition and tendencies; learned skills are recorded separately.
+**Culture / people:** Northman; First Men-descended northern nobility
 
-## Languages and literacy
+**Current residence:** Winterfell; presently campaigning in the Riverlands
+
+**House / allegiance:** House Stark; rebel coalition of Stark, Baratheon, Arryn, and Tully
+
+**Liege:** King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
+
+**Longer ambitions:** Lyanna remains missing; her fate and the future of his family and the North are unresolved concerns.
+
+**Offices:** Commander of the northern forces within the rebel coalition
+
+**Opening date:** 1st day of the first moon, 283 AC, at 18:00. Day 0 begins at midnight on that date.
+
+**Season:** Not securely established for this exact date; no season is invented.
+
+**Sex:** Male
+
+**Titles:** Lord of Winterfell; Warden of the North
+
+## Appearance
+
+**Distinguishing features:** Long Stark face; reserved expression
+
+**Eyes:** Dark grey
+
+**Hair:** Long brown hair
+
+**Height/build:** Approximately 6'3"; tall, fit from sustained training and active campaigning.
+
+**Heraldry or personal device:** House Stark, a grey direwolf on an ice-white field; words: *Winter Is Coming*.
+
+## Natural attributes
+
+**Agility:** Good: Long-term martial and riding training; no evidence of exceptional quickness
+
+**Appearance:** Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon.
+
+**Endurance:** Strong: Demanding travel from the Vale to the North, long campaign marches, and sustained military service
+
+**Intelligence:** Good: Educated great lord trusted with independent command; not portrayed as a scholar or prodigy
+
+**Perception:** Good: Military responsibility and field experience; no special sensory talent established
+
+**Strength:** Good, not exceptional: Trained noble warrior; no pre-Trident evidence of unusual raw strength comparable to Robert Baratheon
+
+**Willpower:** Strong: Survived family catastrophe, assumed an unexpected lordship, raised his banners, and continued campaigning
+
+## Family
+
+**Children:** No child is present in his household. Catelyn’s pregnancy is not known to him.
+
+**Father:** Lord Rickard Stark, deceased
+
+**Mother:** Lady Lyarra Stark; her status at the opening is unrecorded.
+
+**Other significant kin:** None required for the opening state
+
+**Siblings:** Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother
+
+**Spouse:** Lady Catelyn Tully, recently married at Riverrun
+
+## Languages
 
 | Language | Speaking | Reading | Writing |
 | --- | --- | --- | --- |
 | Common Tongue | Fluent | Fluent | Fluent |
 | Old Tongue | Fluent | Fluent | Fluent |
 | High Valyrian | Fluent | Decent | Decent |
-
-Literate and numerate through noble education; able to handle ordinary orders, tallies and household figures. Other languages are unestablished.
+| Other | Not established | Not established | Not established |
 
 ## Capabilities
 
-Scale: **5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary**. Lower ratings run from 0 untrained to 4 skilled. **D** marks a provisional derived ability. Development is progress toward the next rating; every trainable skill starts at 0.
+5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development records progress toward the next rating; a dash means no separate training track.
 
 | Domain | Rating |
-| --- | --- |
-| Diplomacy | **5** |
-| Martial | **6** |
-| Stewardship | **5** |
-| Intrigue | **3** |
-| Learning | **4** |
-| Fieldcraft | **7** |
-| Craft | **3** |
-
-### Diplomacy
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Noble Customs | 5 | 0 / 16 |
-| Public Leadership | 5 | 0 / 16 |
-| Negotiation | 5 | 0 / 16 |
-| Protocol | 5 | 0 / 16 |
-| Persuasion | 3 | 0 / 12 |
-| Hospitality | 3 | 0 / 12 |
-| Mediation | 3 | 0 / 12 |
-| Court Etiquette | 3 | 0 / 12 |
-| Oratory | 2D | — |
-| Bargaining | 3D | — |
-
-### Martial
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Longsword | 7 | 0 / 20 |
-| Frontline Leadership | 6 | 0 / 18 |
-| Tactics | 6 | 0 / 18 |
-| Armored Fighting | 5 | 0 / 16 |
-| Mounted Combat | 5 | 0 / 16 |
-| Shield Use | 4 | 0 / 14 |
-| Two-Handed Sword | 5 | 0 / 16 |
-| Battlefield Awareness | 6 | 0 / 18 |
-| Formation Command | 5 | 0 / 16 |
-| Formation Fighting | 5 | 0 / 16 |
-| Logistics of War | 5 | 0 / 16 |
-| Strategy | 5 | 0 / 16 |
-| Defensive Fighting | 4 | 0 / 14 |
-| Dagger | 3 | 0 / 12 |
-| Wrestling / Unarmed | 3 | 0 / 12 |
-| Archery | 2 | 0 / 10 |
-| Cavalry Command | 4D | — |
-| Infantry Command | 5D | — |
-| Lance | 3D | — |
-| Protecting Another Person | 4D | — |
-| Commanding Northmen (specialty: Frontline Leadership) | 6 | 0 / 18 |
-| Coalition Battlefield Coordination (specialty: Formation Command) | 3 | 0 / 12 |
-
-### Stewardship
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Logistics | 6 | 0 / 18 |
-| Supply | 5 | 0 / 16 |
-| Estate Management | 4 | 0 / 14 |
-| Household Management | 4 | 0 / 14 |
-| Record Keeping | 4 | 0 / 14 |
-| Provisioning | 5 | 0 / 16 |
-| Labor Management | 5 | 0 / 16 |
-| Budgeting | 4 | 0 / 14 |
-| Agriculture | 2 | 0 / 10 |
-| Army Camp Administration | 4D | — |
-| Large-Scale Provisioning | 4D | — |
-
-### Intrigue
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Detecting Lies | 2 | 0 / 10 |
-| Concealment | 4 | 0 / 14 |
-| Information Networks | 3 | 0 / 12 |
-| Counterintelligence | 2 | 0 / 10 |
-| Deception | 1 | 0 / 8 |
-| Eavesdropping | 1 | 0 / 8 |
-| Rumor | 2 | 0 / 10 |
-| Secret Correspondence | 2 | 0 / 10 |
-| Surveillance | 2D | — |
-| Espionage Management | 1D | — |
-
-### Learning
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Law / Feudal Custom | 5 | 0 / 16 |
-| History | 3 | 0 / 12 |
-| Heraldry | 3 | 0 / 12 |
-| Geography | 6 | 0 / 18 |
-| Reading | 4 | 0 / 14 |
-| Writing | 4 | 0 / 14 |
-| Genealogy | 4 | 0 / 14 |
-| Theology: Old Gods | 7 | 0 / 20 |
-| Mathematics / Numeracy | 3 | 0 / 12 |
-| Medicine | 1 | 0 / 8 |
-| Genealogical Protocol | 4D | — |
-| Campaign Geography | 4D | — |
-
-### Fieldcraft
-
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Riding | 5 | 0 / 16 |
-| Horse Handling | 4 | 0 / 14 |
-| Reading Terrain | 6 | 0 / 18 |
-| Navigation | 3 | 0 / 12 |
-| Camping | 5 | 0 / 16 |
-| Survival | 7 | 0 / 20 |
-| Scouting | 3 | 0 / 12 |
-| Forest Travel | 7 | 0 / 20 |
-| Mountain Travel | 3 | 0 / 12 |
-| Trailcraft | 7 | 0 / 20 |
-| Hunting | 3 | 0 / 12 |
-| River-Crossing Assessment | 3D | — |
-| Concealment in Wilderness | 3D | — |
+| --- | ---: |
+| Craft | 5 |
+| Diplomacy | 6 |
+| Fieldcraft | 7 |
+| Intrigue | 3 |
+| Learning | 6 |
+| Martial | 6 |
+| Stewardship | 5 |
 
 ### Craft
 
-| Skill | Rating | Development |
-| --- | --- | --- |
-| Weapon Care | 4 | 0 / 14 |
-| Leather / Strap Maintenance | 2 | 0 / 10 |
-| Camp Gear Maintenance | 2 | 0 / 10 |
-| Armor Repair | 2D | — |
-| Field-Expedient Gear Repair | 2D | — |
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Armor Repair | 4 | — |
+| Camp Gear Maintenance | 5 | 0 / 16 |
+| Field-Expedient Gear Repair | 2 | — |
+| Leather / Strap Maintenance | 5 | 0 / 16 |
+| Weapon Care | 6 | 0 / 18 |
 
-Use the relevant specific skill for an action. A broad domain does not replace a weaker subskill. Derived ratings remain provisional, and improvement requires evidence from play.
+### Diplomacy
 
-## Condition
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Bargaining | 3 | — |
+| Court Etiquette | 5 | 0 / 16 |
+| Hospitality | 4 | 0 / 14 |
+| Mediation | 7 | 0 / 20 |
+| Negotiation | 5 | 0 / 16 |
+| Noble Customs | 5 | 0 / 16 |
+| Oratory | 2 | — |
+| Persuasion | 5 | 0 / 16 |
+| Protocol | 5 | 0 / 16 |
+| Public Leadership | 5 | 0 / 16 |
 
-**8 — Hale.** Unwounded, fed and without established illness, debilitating exhaustion, intoxication or lasting disability. No active wounds or treatment.
+### Fieldcraft
 
-Condition is temporary physical function, separate from skill. Injuries, fatigue, illness and recovery are recorded when they occur.
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Camping | 5 | 0 / 16 |
+| Concealment in Wilderness | 3 | — |
+| Forest Travel | 7 | 0 / 20 |
+| Horse Handling | 4 | 0 / 14 |
+| Hunting | 3 | 0 / 12 |
+| Mountain Travel | 3 | 0 / 12 |
+| Navigation | 3 | 0 / 12 |
+| Reading Terrain | 6 | 0 / 18 |
+| Riding | 5 | 0 / 16 |
+| River-Crossing Assessment | 3 | — |
+| Scouting | 3 | 0 / 12 |
+| Survival | 7 | 0 / 20 |
+| Trailcraft | 7 | 0 / 20 |
+
+### Intrigue
+
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Concealment | 4 | 0 / 14 |
+| Counterintelligence | 2 | 0 / 10 |
+| Deception | 1 | 0 / 8 |
+| Detecting Lies | 2 | 0 / 10 |
+| Eavesdropping | 1 | 0 / 8 |
+| Espionage Management | 1 | — |
+| Information Networks | 3 | 0 / 12 |
+| Rumor | 2 | 0 / 10 |
+| Secret Correspondence | 2 | 0 / 10 |
+| Surveillance | 2 | — |
+
+### Learning
+
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Campaign Geography | 4 | — |
+| Genealogical Protocol | 4 | — |
+| Genealogy | 4 | 0 / 14 |
+| Geography | 6 | 0 / 18 |
+| Heraldry | 5 | 0 / 16 |
+| History | 6 | 0 / 18 |
+| Law / Feudal Custom | 7 | 0 / 20 |
+| Mathematics / Numeracy | 3 | 0 / 12 |
+| Medicine | 1 | 0 / 8 |
+| Reading | 4 | 0 / 14 |
+| Theology: Old Gods | 7 | 0 / 20 |
+| Writing | 5 | 0 / 16 |
+
+### Martial
+
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Archery | 2 | 0 / 10 |
+| Armored Fighting | 6 | 0 / 18 |
+| Battlefield Awareness | 6 | 0 / 18 |
+| Cavalry Command | 4 | — |
+| Coalition Battlefield Coordination | 6 | 0 / 18 |
+| Commanding Northmen | 6 | 0 / 18 |
+| Dagger | 3 | 0 / 12 |
+| Defensive Fighting | 4 | 0 / 14 |
+| Formation Command | 6 | 0 / 18 |
+| Formation Fighting | 5 | 0 / 16 |
+| Frontline Leadership | 6 | 0 / 18 |
+| Infantry Command | 5 | — |
+| Lance | 3 | — |
+| Logistics of War | 5 | 0 / 16 |
+| Longsword | 7 | 0 / 20 |
+| Mounted Combat | 5 | 0 / 16 |
+| Protecting Another Person | 5 | — |
+| Shield Use | 4 | 0 / 14 |
+| Strategy | 5 | 0 / 16 |
+| Tactics | 6 | 0 / 18 |
+| Two-Handed Sword | 5 | 0 / 16 |
+| Wrestling / Unarmed | 3 | 0 / 12 |
+
+### Stewardship
+
+| Ability | Rating | Development |
+| --- | ---: | --- |
+| Agriculture | 2 | 0 / 10 |
+| Army Camp Administration | 4 | — |
+| Budgeting | 4 | 0 / 14 |
+| Estate Management | 4 | 0 / 14 |
+| Household Management | 4 | 0 / 14 |
+| Labor Management | 5 | 0 / 16 |
+| Large-Scale Provisioning | 4 | — |
+| Logistics | 6 | 0 / 18 |
+| Provisioning | 5 | 0 / 16 |
+| Record Keeping | 4 | 0 / 14 |
+| Supply | 5 | 0 / 16 |
+
+## Physical condition
+
+8 — Hale
+
+Unwounded, fed and without illness, debilitating exhaustion or lasting disability.
+
+Starting premise: unwounded and no established illness, debilitating exhaustion, intoxication, or long-term disability; evening meal already taken. No recovery period or treatment has been credited.
 
 ## Equipment
 
-| Location / state | Equipment |
-| --- | --- |
-| Worn | Campaign clothing, leather riding boots and belt. |
-| Across his knees / in use | Plain steel longsword and whetstone. |
-| In the tent, unworn | Well-fitted steel field harness with breastplate and backplate, articulated arm and leg defenses, mail protecting the gaps, padded arming garment, practical steel helmet, gauntlets, and fastening straps. |
-| In the tent, not readied | Dagger and heater shield. |
-| Travel gear in the tent | Saddlebag, cloak, blanket, waterskin, mess kit, flint and steel. Consumable quantities unrecorded. |
-| Northern picket line | One assigned riding horse with saddle, bridle and tack. |
-| Owned; location unrecorded | Ice, the ancestral House Stark Valyrian-steel greatsword. |
+- Campaign clothing, leather riding boots and belt worn. Armor remains unworn.
+- Plain steel longsword and whetstone across his knees; the sword is not Ice.
+- In the tent, unworn: fitted padded gambeson; long-sleeved riveted-mail hauberk to mid-thigh with riding slits; plain leather jerkin; padded cap; mail coif; simple steel helmet; leather gloves with mail mitten protection; fastening straps. Torso, arms and upper thighs have mail coverage when donned; lower legs have no mail or plate defenses.
+- Dagger and heater shield nearby in the tent, neither readied.
+- Saddlebag, cloak, blanket, waterskin, mess kit, flint and steel in the tent. Consumable quantities unrecorded.
+- One assigned riding horse with saddle, bridle and tack at the northern picket line.
+- Ice, the ancestral House Stark Valyrian-steel greatsword; field location unknown.
 
-**Protection:** No armor is worn at the opening. Once donned, the fitted steel harness protects the torso and articulated limb areas recorded in the setup, with mail protecting the gaps. Coverage, fit, exertion, visibility, terrain and any unprotected areas still matter; the harness is not invulnerability.
+## Property and supplies
 
-Donning the harness, readying weapons and reaching the horse take time. A two-handed sword grip does not permit simultaneous active shield use.
+**Businesses:** None established
 
-## Property, money and supplies
+**Cash and denominations:** Personal money and available reserves are unquantified.
 
-Ned holds Winterfell and House Stark’s lands and inherited property. House livestock and facilities are not individually counted. No personal business, workshop or ship is established.
+**Horse(s):** One assigned riding horse, saddle, bridle and tack at the northern picket line.
 
-**Personal money:** Unquantified in every denomination. **Food and water:** Available through the camp at the opening; personal reserves and medical stores are unquantified. **Income, household costs and army support:** Active responsibilities without established balances or rates. **Coin debt:** None established.
+**Household access:** House Stark campaign household present in some form; details to be established when relevant
 
-Household attendants and northern fighting men are present within the host, but personal retinue numbers, guard positions and individual loyalties are not assigned. No additional mounts or animals are recorded.
+**Land:** Winterfell and the lands held by House Stark under Ned's lordship
+
+**Livestock:** House assets not individually tracked
+
+**Other property:** Ancestral House Stark arms and property, including Ice; current field presence must be established separately
+
+**Residence:** Winterfell
+
+**Ships:** No personal ships established
+
+**Supply access:** Food and water are available through the camp. Personal reserves, medical stores and household retinue numbers are unquantified.
+
+**Workshops:** House facilities may exist at Winterfell, but no personal workshop is established
+
+## Standing and ties
+
+**Bounties:** None specifically established
+
+**Claims:** Lordship of Winterfell and Stark authority in the North
+
+**Crimes/accusations:** In the eyes of the royal government, armed rebellion and treason; Aerys previously demanded Ned's death
+
+**Inheritance position:** Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon
+
+**Legitimacy/status at birth:** Trueborn second son of Rickard Stark; now surviving senior son and lawful head of House Stark
+
+**Marriage arrangements:** Marriage to Catelyn Tully completed; it forms part of the Stark-Tully alliance
+
+**Oaths:** Lordly obligations to House Stark's bannermen and household; practical obedience to Aerys II has been broken by rebellion
+
+**Reputation at starting moment:** A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
+
+**Wards/hostages:** None personally established
+
+## Counted resources
+
+Personal balances and counted reserves are not established.
 
 ## Relationships
 
-| Person / group | Starting relationship |
-| --- | --- |
-| Robert Baratheon | Foster brother, close friend, principal rebel ally. Strong mutual trust and affection; Robert values Ned's loyalty and military support. |
-| Jon Arryn | Foster father, mentor, senior rebel ally. Deep trust and filial respect. |
-| Catelyn Tully | Newly married wife. Relationship is new and politically arranged; mutual personal understanding is still limited. |
-| Hoster Tully | Father-in-law and rebel ally. Political alliance and mutual military interest. |
-| Lyanna Stark | Younger sister, missing. Strong family concern; exact circumstances unresolved. |
-| Benjen Stark | Younger brother. Familial bond; exact current duties not specified. |
-| Northern bannermen | Feudal vassals and fighting men under Ned's command. Serving under their lawful lord in rebellion; individual attitudes vary. |
-| Howland Reed | Bannerman and personal friend. Friendly and trusted based on Harrenhal connection. |
-
-Individual loyalties and reputations can change through events. Command of the northern host does not give Ned direct command of allied lords’ forces.
+- Robert Baratheon: Foster brother, close friend, principal rebel ally. Supplied starting relationship assessment: Strong mutual trust and affection; Robert values Ned's loyalty and military support. Basis: Raised together at the Eyrie; active rebellion; Battle of the Bells. Obligations: Support the rebel cause while retaining Ned's own judgment and command. This is background, not authority to dictate future choices or read private thoughts.
+- Jon Arryn: Foster father, mentor, senior rebel ally. Supplied starting relationship assessment: Deep trust and filial respect. Basis: Fostered Ned from age eight; refused Aerys's demand for Ned's head. Obligations: Coalition loyalty, counsel, and mutual military support. This is background, not authority to dictate future choices or read private thoughts.
+- Catelyn Tully: Newly married wife. Supplied starting relationship assessment: Relationship is new and politically arranged; mutual personal understanding is still limited. Basis: Married after the Battle of the Bells. Obligations: Marital and dynastic obligations; Tully alliance. This is background, not authority to dictate future choices or read private thoughts.
+- Hoster Tully: Father-in-law and rebel ally. Supplied starting relationship assessment: Political alliance and mutual military interest. Basis: Tully support tied to the marriages at Riverrun. Obligations: Coalition coordination and family alliance. This is background, not authority to dictate future choices or read private thoughts.
+- Lyanna Stark: Younger sister, missing. Supplied starting relationship assessment: Strong family concern; exact circumstances unresolved. Basis: Her disappearance helped trigger the crisis leading to war. Obligations: Personal desire to recover her or learn her fate. This is background, not authority to dictate future choices or read private thoughts.
+- Benjen Stark: Younger brother. Supplied starting relationship assessment: Familial bond; exact current duties not specified. Basis: Shared Stark upbringing. Obligations: House continuity and kinship. This is background, not authority to dictate future choices or read private thoughts.
+- Northern bannermen: Feudal vassals and fighting men under Ned's command. Supplied starting relationship assessment: Serving under their lawful lord in rebellion; individual attitudes vary. Basis: Ned called the banners and led the northern army south. Obligations: Ned owes competent leadership and must weigh their lives against military necessity. This is background, not authority to dictate future choices or read private thoughts.
+- Howland Reed: Bannerman and personal friend. Supplied starting relationship assessment: Friendly and trusted based on Harrenhal connection. Basis: Met at the tourney at Harrenhal. Obligations: Ordinary lord-vassal obligations plus personal friendship; present location not assumed. This is background, not authority to dictate future choices or read private thoughts.
 
 ## Knowledge
 
-**Known:**
-
-- The current campaign date is 1st day of the first moon, 283 AC.
+- The current campaign date is the 1st day of the first moon, 283 AC.
 - King Aerys II ordered the deaths of Rickard and Brandon Stark and later demanded that Jon Arryn send him the heads of Eddard Stark and Robert Baratheon.
 - Jon Arryn refused and rebelled.
 - Ned is now Lord of Winterfell and commands the northern forces he called south.
@@ -266,33 +336,17 @@ Individual loyalties and reputations can change through events. Command of the n
 - Attributed report: Loyalist intentions for the coming engagement. Source: Military observation and reports; arrival: Ongoing, precise time unestablished. Status: Only what is causally established in play becomes reliable PC knowledge.
 - No later-canon secret is preloaded; future outcomes and Lyanna's full circumstances remain unknown to the PC.
 
-**Reports and uncertainties:**
+## Duties and commitments
 
-- The public account says Rhaegar took Lyanna; her location, condition and the full circumstances remain unresolved to Ned.
-- Enemy strength, deployments and plans require reliable reports; they are not supplied by reader knowledge.
-- The battle’s timing, outcome and Ned’s survival are unsettled.
-- Exact birthday, personal balances, detailed supplies and Ice’s field location are unrecorded.
-- Later revelations and future events are not known merely because they appear in the books.
+- Duties as Lord of Winterfell and Warden of the North toward House Stark, northern bannermen, household, and dependents.
+- Rebel alliance obligations toward Robert Baratheon, Jon Arryn, Hoster Tully, and their forces.
+- Marriage obligations to Catelyn Tully and the political bond created with House Tully.
+- No additional specific promise or quantified coin debt is established.
+- House Stark income and household expenditure are ongoing but unquantified; no fabricated rate, payment, or due time is entered.
+- Army support responsibilities are active, with no mandatory individual pre-battle task chosen for Ned.
 
-## Duties and ongoing matters
+## Present aim
 
-- Lead and support the northern host; answer obligations to bannermen, household and dependents.
-- Coordinate with Robert, Jon Arryn and Hoster Tully as coalition allies.
-- Fulfil marital and dynastic obligations to Catelyn and House Tully.
-- Lyanna’s disappearance remains unresolved.
+Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
 
-**Standing orders:** No new personal orders issued. **Assigned tasks:** None. **Additional promises:** None recorded.
-
-## Strengths and limits
-
-Ned begins with strong swordsmanship, northern fieldcraft, battlefield leadership, supply management and legitimate authority over his bannermen. Noble education, his ties to Robert and Jon Arryn, and the Tully marriage give him substantial social standing.
-
-He remains young, newly established as lord, and in his first great war. Sophisticated intrigue, espionage, professional medicine, specialized engineering, naval work and professional crafts remain weaker or unestablished. Excellent swordsmanship does not guarantee victory or solve political problems.
-
-The war, family losses and Lyanna’s disappearance create immediate pressures. His future decisions, loyalties, conduct and development follow the player’s choices and their consequences.
-
-## Campaign references
-
-Book continuity: A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, A Dance with Dragons. Later outcomes are not fixed.
-
-[Opening](opening.md) · [Story reading page](play/README.md) · [Setup details](notes/setup-decisions.md)
+[Current character sheet](play/character-sheet.md) · [Opening](play/turns/turn-000000.md) · [Background and sources](notes/character-background.md)

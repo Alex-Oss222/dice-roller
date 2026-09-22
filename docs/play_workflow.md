@@ -13,7 +13,7 @@ For a genuinely new story, `create-story NEW-ID --character-sheet FILE` creates 
 For subsequent turns the player can say “Continue Story 1. My next action is …”. The GM completes this sequence:
 
 1. Validate the selected story and read its focused context packet. Retrieve the people, storylines, capability evidence, or earlier turns the decision needs.
-2. Establish the objective, maximum authorized elapsed time, and stopping condition. Map each material part of the action to the narrowest established capabilities that actually govern it before drafting the result. Record the primary capability for the main uncertainty and any other materially relevant abilities as supporting capabilities with explicit roles. Research consequential uncertainty and adjudicate from those abilities, knowledge, preparation, opposition, and circumstances.
+2. Establish the objective, maximum authorized elapsed time, and stopping condition. Action comes first; then select the narrowest established capabilities that causally govern its material parts. Their actual ratings limit what the character can perceive, understand and accomplish. Record the primary capability for the main uncertainty and any other materially relevant abilities as supporting capabilities with explicit roles. Research consequential uncertainty and adjudicate from those abilities, knowledge, preparation, opposition, and circumstances before drafting the result.
 3. Write the narrative once under `rules/narrative.md`, identify the actual pending player decision if one stops further authorized activity, and prepare compact changes with evidence. Account for affected records, due consequences, and any required review or long-interval milestones.
 4. Submit one `advance` input with `next_decision` set to that pending decision or `null`. The engine validates it, applies changes once, saves the event and full resulting state, copies the pending decision into the resume state, and regenerates the reading views using `templates/turn-output.md`.
 5. Inspect and publish the accepted event and refreshed views together. Verify the remote commit, then reply briefly: “Turn N is saved. Read it here.”
@@ -32,7 +32,7 @@ python -m iron_engine --story story-001 record RECORD-ID
 python -m iron_engine --story story-001 history --turn 12
 ```
 
-The packet keeps current identity, physical state, capability ratings, obligations, deadlines, unfinished plans, and all open record indexes available. It includes the first ten compact closed-record entries and tells the GM how to retrieve the rest. `records` can search by text or filter by kind/status and page through the full index. Focused records supply details and links. Recent prose is bounded, with explicit references for omitted text. `--max-chars` limits only those narrative excerpts, not the whole packet or its token count; mandatory state and selected records remain complete.
+The packet keeps current identity, physical state, capability ratings, obligations, deadlines, unfinished plans, and open record indexes available. Settled records remain searchable; their closed status removes a follow-up from active work without undoing its facts. Retrieve relevant deaths, divergences and linked causes before relying on a canonical event or person's availability. `records` can search by text or filter by kind/status and page through the full index. Focused records supply details and links. Recent prose is bounded, with explicit references for omitted text. `--max-chars` limits only those narrative excerpts, not the whole packet or its token count; mandatory state and selected records remain complete.
 
 Use the index to retrieve what matters. Before changing a capability, read its actual evidence/training; before resolving a storyline, read its record and causal history. Retrieve the full ten-turn evidence window when a review is due. Summaries never license invented missing facts. Reuse checked research and browse again for unresolved material questions.
 
@@ -62,7 +62,9 @@ A turn resolves an authorized action or meaningful partial result over seconds, 
 
 Use the slowest applicable travel profile for the actual party. Routine sleep and food stops are part of the adopted daily-rate convention; add genuine extra delays once. A procession can be slower than a lone traveler. Shared distance data stays unchanged; local roadblocks and detours belong to the story. See [travel.md](travel.md).
 
-Turns 10, 20, and so on require the six-part evidence-based review in that same event: results, decisions, capabilities, position, GM consistency, and next constraint. Support favorable and adverse findings alike. The boundary grants no automatic skill rise, healing, income, or punishment.
+The turn header gives its elapsed duration, ending time and location. `play/changes.md` records elapsed time for each turn and the cumulative time since the accepted opening. For actual travel, maintain one journey record with the route, current position, distance basis and units. Its `details` can use `distance_this_turn`, `distance_total`, `distance_remaining` and `travel_seconds_this_turn`, plus the party profile and separately explained delays. Distinguish walking/riding time from the full turn interval. Unknown distance is not zero; a planned route length is not distance already covered. Replace the journey's cumulative snapshot when progress changes rather than repeatedly adding old totals, and identify new legs or return trips explicitly.
+
+Turns 10, 20, and so on require the six-part evidence-based review in that same event: results, decisions, capabilities, position, GM consistency, and next constraint. Support favorable and adverse findings alike. The boundary grants no automatic skill rise, healing, income, or punishment. Reviews appear in `play/changes.md`, never appended to the scene.
 
 An interval of at least 30 days also requires ordered milestones through its endpoint. Account for intermediate progress/failure, expenses/receipts, physical change, training evidence, and news when relevant. Milestones do not replace state operations, due-task settlement, or the tenth-turn review. Use enough milestones for the actual consequences, not two decorative timestamps.
 
@@ -77,17 +79,22 @@ The story's `play/README.md` is the entry point. Generated views include:
 | `latest.md` | Current opening or latest accepted turn |
 | `turns/turn-000001.md`, etc. | Individual accepted-turn reading pages |
 | `story.md` | Accepted prose in chronological order |
+| `changes.md` | Per-turn time accounting, material record changes, evidence and scheduled reviews |
 | `character-sheet.md` | Current character and recorded possessions/obligations |
 | `resume.md` | Continuation point and pending work |
 | `decisions.md` | Derived index of accepted player objectives, outcomes and pending decisions |
 | `threads.md` | Active and settled storylines |
 | `world.md` | Relevant people, facts, divergences, journeys, projects, and account notes |
 
-Each view identifies its source. The original sheet remains starting input after setup; generated files are never separately editable truth. Correct genuine errors with an evidenced correction event, preserving the original scene. If rendering fails after acceptance, run `render` again without replaying the action.
+The narrative pages follow the output template: Name/Age/Condition/Location, turn number with ending time/location and elapsed duration, prose, then an actual pending Next only when needed. The Condition row contains its recorded number only. Capability ratings, tags, engine metadata, Ledger sections and reviews stay off those pages. Source hashes and detailed changes belong in the records views. Substantial scenes usually need 600 to 1,200 words; short routine results can be shorter and a complex scene can be longer. Do not pad to a quota or skip an unresolved decision to make a longer scene.
 
-Stable record IDs and links preserve causes and dependencies. A divergence records what changed, why, and which later assumptions it affects. A project records its stage, commitments, dependencies, and next date when established. Record account/asset ownership and separate personal from household or territorial resources. Numerical balances belong in resources with explicit units; account notes are not a second balance ledger. A later economy sheet can add supported detail without invented prices or wealth now.
+The original sheet remains starting input after setup; generated files are never separately editable truth. Correct genuine errors with an evidenced correction event, preserving accepted history. If rendering fails after acceptance, run `render` again without replaying the action.
 
-Keep closed threads and completed projects in history. Book events require surviving prerequisites; do not restore a defeated threat to match the published timetable. An uploaded old chat, including a 37-turn reference, is not imported campaign state.
+Stable record IDs and links preserve causes and dependencies. Record facts with a plausible future effect; create an open thread or task only when something genuinely remains to be resolved. A divergence records what changed, why, and which later assumptions it affects. A project records its stage, commitments, dependencies, and next date when established. Record account/asset ownership and separate personal from household or territorial resources. Numerical balances belong in resources with explicit units; account notes are not a second balance ledger. A later economy sheet can add supported detail without invented prices or wealth now.
+
+For example, capturing Rhaegar requires his surviving identity, custody and the divergence from his canonical fate to persist. A ransom, guard duty or political negotiation becomes a linked follow-up only when established. If a noble dies contrary to canon, record the death permanently and follow known consequences such as succession or an evidenced grievance; do not invent an automatic revenge plot. A battle speech stays in that scene unless its effects include an actual oath, continuing order, obligation or reputation change. Those effects receive records, not an active task merely titled “speech.” These are examples, not events in any current story.
+
+Keep closed threads and completed projects in history, out of ordinary active work unless relevant again. Closing a follow-up never removes a death, changed ownership or other enduring divergence. Book events require surviving prerequisites; check those records before using canon, and do not restore a defeated threat to match the published timetable. An uploaded old chat, including a 37-turn reference, is not imported campaign state.
 
 ## Isolation, publication, and recovery
 

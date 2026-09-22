@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:world.md:v1 -->
-<!-- source-event-hash:bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a -->
+<!-- source-event-hash:850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac -->
 
 # Persistent world records
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `bb73dd197aad02c3ae884e15987ecf43de8b35bc536801a7edd29c4b8fa1599a`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -296,6 +296,7 @@ Due: not scheduled
 
 ## Knowledge
 
+- The current campaign date is the 1st day of the first moon, 283 AC.
 - King Aerys II ordered the deaths of Rickard and Brandon Stark and later demanded that Jon Arryn send him the heads of Eddard Stark and Robert Baratheon.
 - Jon Arryn refused and rebelled.
 - Ned is now Lord of Winterfell and commands the northern forces he called south.
@@ -313,19 +314,18 @@ Due: not scheduled
 ## Assumptions
 
 - Story-local convention: the five published main-sequence novels are the working permitted-text scope: A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, and A Dance with Dragons. Retrospective passages may support pre-start background. Television and companion works are not included unless later explicitly approved. This preparation choice can be amended before start.
-- Story-local clock convention: Day 0 starts at midnight on the relative day preceding the expected battle; the supplied evening-after-meal scene is represented as Day 0 18:00, 64800 seconds. This is bookkeeping, not a canonical date or hour; amend before start if desired.
-- Age 20 represents the supplied approximately twenty years in 283 AC from a 263 AC birth year. Birthday and exact calendar date remain unestablished.
-- Numeric ratings, anchor choices, derived weights/exposure classifications, Ordinary aptitude, qualitative attributes, and approximately 6-foot-3 height are player-authored campaign judgments, not canonical statistics. Latest requested ratings and authorized supporting changes supersede the original attachment. Diplomacy, Martial, and Stewardship keep their original anchor weights; Fieldcraft uses four northern field skills at25% each.
 - Initial Development is 0 and all credited training lists are empty by the supplied bookkeeping convention; established background experience is retained descriptively, not converted to invented pre-start periods.
 - Starting Condition 8 Hale is the existing explicit healthy campaign assumption: unwounded, evening meal taken, and no illness or debilitating exhaustion established. It is not a independently verified book-health claim or Condition 9 readiness.
 - The ordinary tent/camp preparations and nearby equipment are the player-supplied opening premise. They grant no new player orders, training credit, spending, final battle plan, or future outcome.
 - Personal balances, resource rates, exact stores, immediate attendants/guards, and Ice's field location remain unestablished. Empty resources does not mean zero assets. The player-authorized field kit and one assigned campaign riding horse are detailed in character.equipment, with their opening locations and unworn status.
 - Book continuity supplies supported pre-start background except explicitly accepted player-authored divergences. Later canon outcomes, personality, decisions, survival, wounds, routes, discoveries, and revelations remain contingent; no hidden later knowledge is granted.
-- Unknown at setup: Exact calendar date within 283 AC.; Exact royal battle plan.; Exact reliable enemy numbers and order of battle unless established through in-world intelligence.; The outcome of the coming battle.; Ned's own survival, wounds, capture status, or future route.; Lyanna's precise whereabouts and condition.; Any later canon event after this starting moment.
 - Explicit player-authored starting divergence: Old Tongue is fluent in speech, reading, and writing; High Valyrian is fluent spoken with decent reading and writing. These proficiencies are not claims about canonical Eddard and do not create unrelated secret, historical, or technical knowledge.
-- Player-authorized loadout convention: practical well-fitted steel field armor, longsword, dagger, heater shield, travel kit, and one assigned riding horse suit this campaign version of a great lord. They are a prepared inventory, not a book-attested Trident inventory or a purchase/recovery event. Exact money, supplies, troop numbers, and Ice location remain unknown.
 - Future capability growth is earned through actions, experience, instruction, and recorded development; player plans do not automatically grant expertise. This version of Ned may change personality, goals, and conduct through player decisions and consequences without being forced back to canon.
-- The user authorized supporting established-skill increases and suitable anchors to realize Diplomacy 5, Martial 6, Stewardship 5, and Fieldcraft 7 while preserving all explicitly named narrower ratings. Thirteen additional existing skills were raised; no new skill, derived anchor, exceptional aptitude, invented biography, or retrospective training award was added.
+- Story-local calendar: Day 0 is the 1st day of the first moon, 283 AC; the opening is at 18:00. The expected battle is the following day. This selected chronology is not an asserted canon date; earlier marches retain plausible durations.
+- Age is approximately twenty; exact birthday unknown. Enemy numbers, deployment and intentions, Lyanna’s whereabouts, personal balances and Ice’s field location remain unestablished.
+- The latest supplied skills are the starting build. Diplomacy uses Mediation 40%, Noble Customs 20%, Negotiation 20%, Protocol 20%. Learning and Craft are recalculated from their existing anchors. Development remains zero; these are setup corrections, not earned turn advancement.
+- The background note distinguishes sourced upbringing and pre-Trident events from the particular depth of education, practice and language tuition chosen for Story 1.
+- The available field armor is leather over padding and mail, with a steel helmet; no plate limb defenses or breastplate/backplate. This corrects the older setup inventory rather than recording a purchase.
 
 ## Standing orders
 
@@ -333,4 +333,40 @@ None recorded.
 
 ## Research
 
-Research sources and their limits remain in the [current sheet](character-sheet.md). A source is not automatically character knowledge.
+Sources support these records; a source is not automatically character knowledge.
+
+### starting-scope-convention
+
+Use the five named novels for retrospectively established pre-start facts; exact date/hour and future history are not imported.
+
+Source: campaign convention
+
+Scope: Story 1 only, before the expected Trident engagement in 283 AC; prepared 22 September 2026.
+
+Confidence: Explicit working preparation convention, amendable before start.
+
+Limits: No television or companion works are permitted by this selection. This does not claim that all five novels were independently read during preparation.
+
+### relative-evening-clock
+
+Represent the supplied opening evening as Day 0 18:00, 64800 seconds.
+
+Source: campaign convention
+
+Scope: Story 1 only; no exact canonical calendar date.
+
+Confidence: Explicit bookkeeping choice for a ready-to-start input.
+
+Limits: Not a source-derived hour or an elapsed training/recovery period; amend before start if desired.
+
+### field-armor-mobility-analogy
+
+Well-fitted articulated field armor can distribute its load and allow substantial movement; it should not be treated as automatic immobility.
+
+Source: https://www.metmuseum.org/essays/arms-and-armor-common-misconceptions-and-frequently-asked-questions
+
+Scope: Historical European field-armor analogy, especially the discussion of fit and mobility in section 4; consulted 22 September 2026.
+
+Confidence: Museum explanation based on surviving armor and historical/experimental evidence.
+
+Limits: Supports mobility judgment only. It does not verify Eddard's inventory, establish Westerosi equipment chronology or prices, or make armor weightless or complete protection. The precise campaign loadout is a separate player-authorized assumption.

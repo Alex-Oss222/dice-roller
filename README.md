@@ -4,7 +4,7 @@ A repository-based ASOIAF roleplaying campaign. You make decisions in chat. The 
 
 **[Start playing](START_HERE.md)** · **[Story 1](stories/story-001/play/README.md)** · **[Starting prompt](START_PROMPT.md)** · **[Costs](docs/costs.md)**
 
-Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. Its sheet, detailed capability metadata and opening are prepared. Play has not started. Starting accepts the opening as Turn 0; your first action becomes Turn 1.
+Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. The opening is accepted as Turn 0, and the latest supplied character changes have been reconciled into the saved state. Your first resolved action will be Turn 1. Read the scene, then give Ned’s intended action.
 
 ## What gets saved
 
@@ -15,7 +15,7 @@ Story 1 contains your Eddard Stark character at the supplied opening before the 
 | Distance catalog and conservative travel helper | Actual journeys, delays and local obstacles |
 | Reusable record templates | Divergences, projects, accounts and consequences |
 
-Validated events are authoritative. Python generates the current sheet, numbered scenes, storyline records and resume packet. Closed threads remain retrievable. A story's changes never rewrite the common map or another story.
+Validated events are authoritative. Python generates the current sheet, numbered scenes, separate changes and time records, storyline records and resume packet. Closed threads remain retrievable. A story's changes never rewrite the common map or another story.
 
 Turns can cover minutes, days or weeks. The engine checks authorized elapsed time, deadlines, affected records and every tenth-turn assessment. Long intervals require milestones. Abilities and Condition change only with recorded grounds. The GM must still judge evidence, uncertainty and prose honestly; software cannot certify realism.
 
