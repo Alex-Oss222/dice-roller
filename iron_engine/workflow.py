@@ -6,11 +6,21 @@ authorization is true. Account notes are descriptive; no economy is simulated.
 """
 
 import copy
+import re
 
 from .engine import _canonical, _fail, _integer, _list, _object, _string
 
 
 VERSION = "1"
+JOURNEY_DISTANCE_KEYS = {"distance_this_turn", "distance_total", "distance_remaining", "travel_seconds_this_turn"}
+# Markers that belong on the records pages, never inside accepted scene prose.
+NARRATIVE_MARKERS = (
+    re.compile(r"^\s*#{1,6}\s*(Ledger|Changes|Resolution record|Record review|Assessment)\b", re.M | re.I),
+    re.compile(r"^\s*(Evidence|Basis|Actor|Task band|Primary capability|Supporting capability|Source event hash)\s*:", re.M),
+    re.compile(r"\bCondition\s*:?\s*\d\s*/\s*9\b"),
+    re.compile(r"\[\s*Tags?\b"),
+    re.compile(r"\([^()\n]*\b[A-Z][A-Za-z/-]{2,}(?: [A-Za-z/-]+){0,3} [0-9]\b[^()\n]*\)"),
+)
 LONG_INTERVAL = 30 * 86400
 WORLD_KINDS = {"person", "thread", "fact", "divergence", "project", "journey", "account_note"}
 WORLD_STATUSES = {"active", "blocked", "completed", "failed", "expired", "abandoned", "closed", "dead"}
@@ -91,6 +101,8 @@ def validate_world(state):
         for key, value in _object(record["details"], f"world.{record_id}.details").items():
             _string(key, "world detail key")
             _string(value, f"world.{record_id}.details.{key}")
+            if record["kind"] == "journey" and key.startswith(("distance", "travel_seconds")) and key not in JOURNEY_DISTANCE_KEYS:
+                _fail(f"Journey {record_id} uses an unknown progress key {key}; use {sorted(JOURNEY_DISTANCE_KEYS)}")
         _evidence(record["evidence_turns"], state["turn"], f"world.{record_id}.evidence_turns")
         due = record["due_seconds"]
         if due is not None:
@@ -256,6 +268,28 @@ def _adjudication(before, payload):
             _fail("Adjudication capabilities cannot duplicate the primary capability or another supporting capability")
         seen.add(identity)
 
+def lint_narrative(text):
+    """Refuse mechanics inside the scene; the records pages carry them instead."""
+    for pattern in NARRATIVE_MARKERS:
+        match = pattern.search(text)
+        if match is not None:
+            _fail(f"Narrative contains mechanical text that belongs in the records, not the scene: {match.group(0).strip()!r}")
+
+
+def _consequential(before, result, operations):
+    """Death, a worsened Condition or a new divergence needs a named governing ability."""
+    if any(operation.get("op") == "death" for operation in operations):
+        return "a death"
+    old_condition, new_condition = before["character"].get("condition"), result["character"].get("condition")
+    if old_condition is not None and new_condition is not None and new_condition["rating"] < old_condition["rating"]:
+        return "a lowered Condition"
+    old_records, new_records = world_records(before), world_records(result)
+    for record_id, record in new_records.items():
+        if record["kind"] == "divergence" and old_records.get(record_id) != record:
+            return f"divergence record {record_id}"
+    return None
+
+
 def _milestones(payload):
     milestones = _list(payload["milestones"], "milestones")
     previous = 0
@@ -299,6 +333,7 @@ def expand_advance(before, payload):
     _integer(payload["elapsed_seconds"], "elapsed_seconds", 1)
     for field in ("objective", "outcome", "narrative"):
         _string(payload[field], field)
+    lint_narrative(payload["narrative"])
     if payload.get("next_decision") is not None:
         _string(payload["next_decision"], "next_decision")
     _authorization(payload)
@@ -396,6 +431,9 @@ def expand_advance(before, payload):
             _fail(f"Unknown compact operation: {kind}")
     if not result["alive"] and payload.get("next_decision") is not None:
         _fail("A dead character cannot have a pending next decision")
+    consequence = _consequential(before, result, payload["operations"])
+    if consequence is not None and payload["adjudication"]["capability"] is None:
+        _fail(f"This advance records {consequence}; name the governing capability in adjudication instead of routine mode with none")
     _coverage(before, result, payload["coverage"])
     changes, deltas, evidence = {}, {}, {}
     for field, bases in reasons.items():

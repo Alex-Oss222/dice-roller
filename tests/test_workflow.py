@@ -551,3 +551,69 @@ class WorkflowTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GuardTests(unittest.TestCase):
+    """Consequential results name an ability; scenes carry no mechanics; ratings rise one step at a time."""
+
+    setUp = WorkflowTests.setUp
+    initialize = WorkflowTests.initialize
+    reject = WorkflowTests.reject
+
+    def test_narrative_rejects_mechanical_markers_and_accepts_plain_prose(self):
+        self.initialize()
+        for text in ("He rides out (Riding 6, Tactics 5).", "Condition: 8/9 Hale.", "[Tag: Wounded]",
+                     "The scene ends.\n\n### Ledger\n\n- accounts 2 -> 3", "The clerk nods.\nEvidence: he rode."):
+            self.reject(advance_payload(self.store, narrative=text))
+        accepted = self.store.advance(advance_payload(self.store,
+            narrative="He rides out at first light; the road is dry.\n\n### The mill\n\nThe wheel is fixed by noon."))
+        self.assertEqual(1, accepted["state"]["turn"])
+
+    def test_death_lowered_condition_or_divergence_cannot_be_routine_with_no_capability(self):
+        state = workflow_state()
+        state["character"]["condition"] = {"rating": 8, "tags": ["Hale"], "basis": "Invented healthy test start"}
+        self.initialize(state)
+        death = advance_payload(self.store, seconds=60, changed=("character",),
+            operations=[{"op": "death", "expected_alive": True, "cause": "Invented fatal test collapse",
+                         "basis": "The test structure fails"}])
+        self.reject(death)
+        worse = advance_payload(self.store, changed=("character",),
+            operations=[set_op(["character", "condition", "rating"], 8, 6)])
+        self.reject(worse)
+        divergence = world_record("divergence", title="Invented test departure",
+                                  summary="The test ledger is burned instead of audited", evidence_turns=[0, 1])
+        self.reject(advance_payload(self.store, changed=("world",), operations=[world_op("test-departure", None, divergence)]))
+        named = advance_payload(self.store, changed=("world",), operations=[world_op("test-departure", None, divergence)])
+        named["adjudication"].update(mode="uncertain", task_band="ordinary",
+                                     capability={"source": "character.skills", "key": "accounts"})
+        self.assertEqual(1, self.store.advance(named)["state"]["turn"])
+
+    def test_journey_progress_keys_are_canonical(self):
+        bad = world_record("journey", title="Invented test road", summary="Not yet departed",
+                           details={"distance_travelled": "0 miles"})
+        with self.assertRaises(CampaignError):
+            self.initialize(workflow_state({"test-road": bad}))
+        good = world_record("journey", title="Invented test road", summary="Not yet departed",
+                            details={"distance_total": "0 miles", "route": "Test yard to test ford"})
+        self.initialize(workflow_state({"test-road": good}))
+
+    def test_rating_rises_at_most_one_step_per_event(self):
+        self.initialize(blood_gold_workflow_state())
+        state = self.store.current()
+        record = deepcopy(state["character"]["capabilities"]["accounts"])
+        period = {"id": "test-period-1", "start_seconds": 0, "end_seconds": 3600, "development": 30,
+                  "activity": "Invented sustained test instruction", "basis": "Invented test evidence", "evidence_turns": [1]}
+        two_steps = deepcopy(record)
+        two_steps["training"] = [period]
+        two_steps["development"] = 30 - 12 - 14
+        payload = advance_payload(self.store, changed=("character",), operations=[
+            set_op(["character", "capabilities", "accounts"], record, two_steps),
+            set_op(["character", "skills", "accounts"], 3, 5)])
+        self.reject(payload)
+        one_step = deepcopy(record)
+        one_step["training"] = [period]
+        one_step["development"] = 30 - 12
+        payload = advance_payload(self.store, changed=("character",), operations=[
+            set_op(["character", "capabilities", "accounts"], record, one_step),
+            set_op(["character", "skills", "accounts"], 3, 4)])
+        self.assertEqual(4, self.store.advance(payload)["state"]["character"]["skills"]["accounts"])

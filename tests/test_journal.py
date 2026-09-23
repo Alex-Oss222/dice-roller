@@ -159,7 +159,7 @@ class JournalTests(unittest.TestCase):
         self.assertIn("| Name | Test Adult |", turn)
         self.assertIn("| Age | 24 |", turn)
         self.assertIn("| Condition | Not established |", turn)
-        self.assertRegex(turn, r"## Turn 1 \\| Day 0, ")
+        self.assertRegex(turn, r"## Turn 1 \| Day 0, ")
         self.assertIn("### Next\n\nChoose whether to continue the invented account review.", turn)
         self.assertEqual("Choose whether to continue the invented account review.",
                          accepted["state"]["resume_note"])
@@ -201,13 +201,13 @@ class JournalTests(unittest.TestCase):
 
     def test_journey_progress_and_cumulative_time_are_recorded_without_inventing_distance(self):
         journey = world_record("journey", title="The test road", summary="The carrier has not departed",
-                               details={"route": "Test yard to test ford", "distance_travelled": "0 miles"})
+                               details={"route": "Test yard to test ford", "distance_total": "0 miles"})
         state = workflow_state({"test-road": journey})
         state["time_seconds"] = 18 * 3600
         self.store.initialize(setup_payload(state))
         arrival = world_record("journey", title="The test road", summary="The carrier reaches the test ford",
                                evidence_turns=[0, 1], details={"route": "Test yard to test ford",
-                                   "distance_this_turn": "9 miles", "distance_travelled": "9 miles",
+                                   "distance_this_turn": "9 miles", "distance_total": "9 miles",
                                    "travel_basis": "Recorded conservative test route; routine rests included"})
         accepted = self.store.advance(advance_payload(self.store, seconds=5 * 3600,
             narrative="The carrier stops at the ford.", changed=("world", "plans"), operations=[
@@ -223,11 +223,11 @@ class JournalTests(unittest.TestCase):
         self.assertIn("Elapsed since opening: 0 days, 5 hours, 0 minutes, 0 seconds", first)
         self.assertIn("Location: Invented test ford", first)
         self.assertIn("Distance this turn: 9 miles", first)
-        self.assertIn("Distance travelled: 9 miles", first)
+        self.assertIn("Distance total: 9 miles", first)
         self.assertIn("Elapsed since opening: 0 days, 7 hours, 0 minutes, 0 seconds", second)
         self.assertIn("unchanged in this turn; it establishes no additional distance travelled", second)
         self.assertNotIn("14 miles", changes)
-        self.assertNotIn("Distance travelled:", self.read("story.md"))
+        self.assertNotIn("Distance total:", self.read("story.md"))
         self.assertIn(accepted["hash"], self.read("turns/turn-000001.md"))
         self.assertEqual(before, self.snapshot())
 

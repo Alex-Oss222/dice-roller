@@ -241,6 +241,8 @@ def validate_transition(before, after):
                         or previous.get("parent") != current.get("parent"))
         if reclassified and new_ratings[key] > old_ratings[key]:
             _fail("Reclassification cannot grant a higher rating on the same turn")
+        if new_ratings[key] > old_ratings[key] + 1:
+            _fail(f"{key} can rise by at most one rating in a single event; surplus Development carries forward")
         consumed = sum(development_required(rating, current["aptitude"])
                        for rating in range(old_ratings[key], new_ratings[key]))
         expected = previous["development"] + awarded - consumed

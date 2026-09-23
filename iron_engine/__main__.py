@@ -183,6 +183,11 @@ def main(argv=None, *, root=None) -> int:
                 except CampaignError as exc:
                     raise CampaignError(f"Event accepted at {event['hash']}, but reading views could not refresh. "
                                         f"Fix the output problem and run render; do not replay the action. {exc}") from exc
+            if args.command in {"advance", "turn"}:
+                words = len(payload["narrative"].split())
+                note = (" Substantial scenes usually run 600 to 1,200 words; this is guidance, not a limit."
+                        if words < 600 or words > 1200 else "")
+                print(f"narrative: {words} words.{note}", file=sys.stderr)
             print(json.dumps({"sequence": event["sequence"], "turn": event["state"]["turn"],
                               "story_id": event["state"]["campaign"]["id"],
                               "kind": event["kind"], "request_id": event["request_id"], "hash": event["hash"]},
