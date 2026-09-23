@@ -1,5 +1,5 @@
 <!-- iron-engine-generated:character-sheet.md:v1 -->
-<!-- source-event-hash:3478fe4c3f6be0f13130674e8000490715a528d6f0c1ed37b8ff698038269b34 -->
+<!-- source-event-hash:cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c -->
 
 # Character sheet
 
@@ -22,7 +22,7 @@ Jon was brought to Winterfell as an infant at the end of Robert's Rebellion and 
 
 ## Experience
 
-**Arms:** Ser Rodrik has had Jon in the yard since he could hold a wooden sword. He drills with Robb daily and with Theon often; the master-at-arms rates him well, and in the yard he is at least Robb's match and quicker, though Robb is the stronger. He has learned footwork, guards, the cuts and the recovery, and to fight with a shield on his arm, all against boys and against the master-at-arms who is teaching him. He has never fought in armor heavier than a padded jack and mail shirt, never in a line, never against a man who wanted him dead. He wrestles well enough for his weight. He has shot a bow since he was small and can hit a target; Theon is the better archer by a wide margin and says so.
+**Arms:** Ser Rodrik has had Jon in the yard since he could hold a wooden sword. He drills with Robb daily and with Theon often; the master-at-arms rates him well, and in the yard he and Robb are an even match, Jon quick and graceful where Robb is strong and fast. His edge is a good teacher's training, not any mastery: against boys who never had one he looks better than he is. He has learned footwork, guards, the cuts and the recovery, and to fight with a shield on his arm, all against boys and against the master-at-arms who is teaching him. He has never fought in armor heavier than a padded jack and mail shirt, never in a line, never against a man who wanted him dead. He wrestles well enough for his weight. He has shot a bow since he was small and can hit a target; Theon is the better archer by a wide margin and says so.
 
 **Conduct at winterfell:** He knows how a great hall is ordered, where he may sit and where he may not, how to serve at table and when to be silent. He can speak to a lord's son as an equal and to a servant as a lord's son should. He has no experience of court beyond his father's hall.
 
@@ -32,7 +32,7 @@ Jon was brought to Winterfell as an infant at the end of Robert's Rebellion and 
 
 **The old gods:** He keeps the old gods with his father, before the heart tree in the godswood. He knows the customs, the oaths sworn there, and the stories; there is nothing more to know.
 
-**Watching:** A bastard in a lady's household learns to notice. Jon reads a room before he speaks in it, keeps his own counsel, and knows when he is being mocked before the sentence ends. He does not lie well and does not care to, but he can keep a thing to himself for years.
+**Watching:** A bastard in a lady's household learns to notice. Jon is markedly observant: he reads a room and the people in it before he speaks, keeps his own counsel, and knows when he is being mocked before the sentence ends. He does not lie well and does not care to, but he can keep a thing to himself for years.
 
 ## Disposition
 

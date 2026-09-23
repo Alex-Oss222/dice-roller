@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:changes.md:v1 -->
-<!-- source-event-hash:3478fe4c3f6be0f13130674e8000490715a528d6f0c1ed37b8ff698038269b34 -->
+<!-- source-event-hash:cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c -->
 
 # Changes and assessments
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `3478fe4c3f6be0f13130674e8000490715a528d6f0c1ed37b8ff698038269b34`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
