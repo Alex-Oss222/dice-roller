@@ -32,6 +32,10 @@ His field armor is a padded gambeson, mail hauberk and coif, leather jerkin, pad
 
 Money, reserve quantities, household income and troop counts remain unquantified. A blank balance is not zero wealth. No purchase, training award, new order, visitor, intelligence report or resolved decision occurs in this maintenance correction.
 
+## Sheet wording
+
+Event 2 (23 September 2026) rewrote the player-facing sheet's relationships, knowledge, duties, condition note, natural attributes and profile fields as narrative. It removed GM directives, audit disclaimers, empty placeholders and canon/premise framing. Ratings, Development, equipment, Condition, time, location and the opening are unchanged; the cautions those sentences carried remain stated once in rules/narrative.md.
+
 ## Continuity
 
 The working book scope remains the five published main novels. Author correspondence and secondary chapter indexes provide research context for the background note; they grant no future character knowledge. Television events and the earlier 37-turn transcript are not imported history.

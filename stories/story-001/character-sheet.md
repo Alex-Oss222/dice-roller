@@ -19,11 +19,11 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 ## Experience
 
-**Arms and command:** In this story, Ned gave particular attention to sword practice throughout that upbringing. Repeated work with household men-at-arms made his footwork, distance and recovery dependable under pressure; practice in armor taught him its restrictions before campaigning exposed him to exhaustion and confusion. Raising and moving his own host, then joining allied forces at the Bells, gave him experience of command beyond the practice yard. He can recognize a formation losing order and give a useful instruction while frightened men are still trying to understand what happened. His relationship with Robert and Jon helps him coordinate with them. It gives him neither their authority over their men nor knowledge of orders they have not shared.
+**Arms and command:** Ned gave particular attention to sword practice throughout that upbringing. Repeated work with household men-at-arms made his footwork, distance and recovery dependable under pressure; practice in armor taught him its restrictions before campaigning exposed him to exhaustion and confusion. Raising and moving his own host, then joining allied forces at the Bells, gave him experience of command beyond the practice yard. He can recognize a formation losing order and give a useful instruction while frightened men are still trying to understand what happened. His relationship with Robert and Jon helps him coordinate with them. It gives him neither their authority over their men nor knowledge of orders they have not shared.
 
-**Faith and languages:** The old gods belong to Ned's family life and northern upbringing. His knowledge is strongest in customary observance, oaths, sacred places and inherited stories. It supplies neither a priestly office nor knowledge of forgotten magic. His education in this story included sustained tuition in the Old Tongue, with regular conversation and written practice; he reads, writes and speaks it fluently. High Valyrian received more spoken practice than formal composition, leaving him fluent in conversation and competent, though less assured, with a difficult written passage. Understanding either language does not supply the facts concealed in an unfamiliar document.
+**Faith and languages:** The old gods belong to Ned's family life and northern upbringing. His knowledge is strongest in customary observance, oaths, sacred places and inherited stories. It supplies neither a priestly office nor knowledge of forgotten magic. His education included sustained tuition in the Old Tongue, with regular conversation and written practice; he reads, writes and speaks it fluently. High Valyrian received more spoken practice than formal composition, leaving him fluent in conversation and competent, though less assured, with a difficult written passage. Understanding either language does not supply the facts concealed in an unfamiliar document.
 
-**Law and negotiation:** Service in two great households also gave him a sustained education in obligations, petitions and disputes. For this Ned, hearing both sides and working through customary claims became a particular strength. His study of inheritance, allegiance and precedent sits alongside a good memory for history and heraldry. He can identify a point of agreement, explain what a settlement requires and distinguish an insult from a claim that needs answering. His manner is generally quiet and direct. He is less accomplished at addressing a crowd, detecting a practiced lie or bargaining over a merchant's margins. A sound settlement still needs people willing or compelled to keep it.
+**Law and negotiation:** Service in two great households also gave him a sustained education in obligations, petitions and disputes. Hearing both sides and working through customary claims became a particular strength. His study of inheritance, allegiance and precedent sits alongside a good memory for history and heraldry. He can identify a point of agreement, explain what a settlement requires and distinguish an insult from a claim that needs answering. His manner is generally quiet and direct. He is less accomplished at addressing a crowd, detecting a practiced lie or bargaining over a merchant's margins. A sound settlement still needs people willing or compelled to keep it.
 
 **Supply and maintenance:** Campaigning has made supply an immediate responsibility: provisions must reach the men, pack animals must be fed, and a delayed baggage train changes what the army can do. Ned understands those dependencies and can organize work around them. His experience of a household's accounts is narrower, and he has had little time to manage Winterfell as its lord. He can question a tally and plan an allocation without possessing a farmer's knowledge of every crop or an experienced steward's familiarity with every estate. His habit of caring for his own sword and riding gear makes him capable of routine maintenance; forging a blade and rebuilding badly damaged armor remain other men's trades.
 
@@ -35,8 +35,6 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 **Birthplace:** Winterfell, the North
 
-**Character trajectory:** His reserve and upbringing describe him at the outset. The life that follows has not been decided.
-
 **Common name:** Ned
 
 **Culture / people:** Northman; First Men-descended northern nobility
@@ -47,13 +45,11 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 **Liege:** King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
 
-**Longer ambitions:** Lyanna remains missing; her fate and the future of his family and the North are unresolved concerns.
+**Longer ambitions:** Lyanna is missing; her fate, his family and the future of the North weigh on him.
 
 **Offices:** Commander of the northern forces within the rebel coalition
 
-**Opening date:** 1st day of the first moon, 283 AC, at 18:00. Day 0 begins at midnight on that date.
-
-**Season:** Not securely established for this exact date; no season is invented.
+**Opening date:** 1st day of the first moon, 283 AC, at 18:00.
 
 **Sex:** Male
 
@@ -73,29 +69,27 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 ## Natural attributes
 
-**Agility:** Good: Long-term martial and riding training; no evidence of exceptional quickness
+**Agility:** Good: years in the yard and the saddle; quick enough, not remarkable.
 
-**Appearance:** Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon.
+**Appearance:** Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon was.
 
-**Endurance:** Strong: Demanding travel from the Vale to the North, long campaign marches, and sustained military service
+**Endurance:** Strong: the road from the Vale to the North, long marches and months of campaigning.
 
-**Intelligence:** Good: Educated great lord trusted with independent command; not portrayed as a scholar or prodigy
+**Intelligence:** Good: an educated lord trusted with independent command, not a scholar.
 
-**Perception:** Good: Military responsibility and field experience; no special sensory talent established
+**Perception:** Good: he notices what a commander must; nothing uncanny.
 
-**Strength:** Good, not exceptional: Trained noble warrior; no pre-Trident evidence of unusual raw strength comparable to Robert Baratheon
+**Strength:** Good: a trained fighting man's strength, well short of Robert's.
 
-**Willpower:** Strong: Survived family catastrophe, assumed an unexpected lordship, raised his banners, and continued campaigning
+**Willpower:** Strong: he survived his family's destruction, took up a lordship he never expected, raised his banners and kept campaigning.
 
 ## Family
 
-**Children:** No child is present in his household. Catelyn’s pregnancy is not known to him.
+**Children:** None in his household. He does not know whether Catelyn is with child.
 
 **Father:** Lord Rickard Stark, deceased
 
-**Mother:** Lady Lyarra Stark; her status at the opening is unrecorded.
-
-**Other significant kin:** None required for the opening state
+**Mother:** Lady Lyarra Stark.
 
 **Siblings:** Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother
 
@@ -108,7 +102,6 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 | Common Tongue | Fluent | Fluent | Fluent |
 | Old Tongue | Fluent | Fluent | Fluent |
 | High Valyrian | Fluent | Decent | Decent |
-| Other | Not established | Not established | Not established |
 
 ## Capabilities
 
@@ -248,7 +241,7 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 Unwounded, fed and without illness, debilitating exhaustion or lasting disability.
 
-Starting premise: unwounded and no established illness, debilitating exhaustion, intoxication, or long-term disability; evening meal already taken. No recovery period or treatment has been credited.
+The evening meal is finished; he carries no wound and no sickness.
 
 ## Equipment
 
@@ -262,47 +255,35 @@ Starting premise: unwounded and no established illness, debilitating exhaustion,
 
 ## Property and supplies
 
-**Businesses:** None established
+**Coin:** He has not counted his purse; what coin he carries is unknown.
 
-**Cash and denominations:** Personal money and available reserves are unquantified.
+**Horse:** One assigned riding horse, with saddle, bridle and tack, at the northern picket line.
 
-**Horse(s):** One assigned riding horse, saddle, bridle and tack at the northern picket line.
+**Household:** His campaign household travels with the host.
 
-**Household access:** House Stark campaign household present in some form; details to be established when relevant
+**Land:** Winterfell and the lands held by House Stark under Ned's lordship.
 
-**Land:** Winterfell and the lands held by House Stark under Ned's lordship
+**Other property:** The arms and property of House Stark, Ice among them; where Ice is tonight is not known.
 
-**Livestock:** House assets not individually tracked
+**Residence:** Winterfell.
 
-**Other property:** Ancestral House Stark arms and property, including Ice; current field presence must be established separately
-
-**Residence:** Winterfell
-
-**Ships:** No personal ships established
-
-**Supply access:** Food and water are available through the camp. Personal reserves, medical stores and household retinue numbers are unquantified.
-
-**Workshops:** House facilities may exist at Winterfell, but no personal workshop is established
+**Supply:** The camp feeds and waters his men and his horse; his own reserves and medical stores have not been counted.
 
 ## Standing and ties
 
-**Bounties:** None specifically established
+**Claims:** Lordship of Winterfell and Stark authority in the North.
 
-**Claims:** Lordship of Winterfell and Stark authority in the North
+**Crimes/accusations:** To the royal government he is a rebel and a traitor; Aerys demanded his head.
 
-**Crimes/accusations:** In the eyes of the royal government, armed rebellion and treason; Aerys previously demanded Ned's death
+**Inheritance position:** Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon.
 
-**Inheritance position:** Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon
+**Legitimacy/status at birth:** Trueborn second son of Rickard Stark; now the surviving senior son and lawful head of House Stark.
 
-**Legitimacy/status at birth:** Trueborn second son of Rickard Stark; now surviving senior son and lawful head of House Stark
+**Marriage arrangements:** Married to Catelyn Tully; the match is part of the Stark-Tully alliance.
 
-**Marriage arrangements:** Marriage to Catelyn Tully completed; it forms part of the Stark-Tully alliance
+**Oaths:** He owes his bannermen and household a lord's duty; his obedience to Aerys ended when the king demanded his death.
 
-**Oaths:** Lordly obligations to House Stark's bannermen and household; practical obedience to Aerys II has been broken by rebellion
-
-**Reputation at starting moment:** A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
-
-**Wards/hostages:** None personally established
+**Reputation:** A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
 
 ## Counted resources
 
@@ -310,14 +291,14 @@ Personal balances and counted reserves are not established.
 
 ## Relationships
 
-- Robert Baratheon: Foster brother, close friend, principal rebel ally. Supplied starting relationship assessment: Strong mutual trust and affection; Robert values Ned's loyalty and military support. Basis: Raised together at the Eyrie; active rebellion; Battle of the Bells. Obligations: Support the rebel cause while retaining Ned's own judgment and command. This is background, not authority to dictate future choices or read private thoughts.
-- Jon Arryn: Foster father, mentor, senior rebel ally. Supplied starting relationship assessment: Deep trust and filial respect. Basis: Fostered Ned from age eight; refused Aerys's demand for Ned's head. Obligations: Coalition loyalty, counsel, and mutual military support. This is background, not authority to dictate future choices or read private thoughts.
-- Catelyn Tully: Newly married wife. Supplied starting relationship assessment: Relationship is new and politically arranged; mutual personal understanding is still limited. Basis: Married after the Battle of the Bells. Obligations: Marital and dynastic obligations; Tully alliance. This is background, not authority to dictate future choices or read private thoughts.
-- Hoster Tully: Father-in-law and rebel ally. Supplied starting relationship assessment: Political alliance and mutual military interest. Basis: Tully support tied to the marriages at Riverrun. Obligations: Coalition coordination and family alliance. This is background, not authority to dictate future choices or read private thoughts.
-- Lyanna Stark: Younger sister, missing. Supplied starting relationship assessment: Strong family concern; exact circumstances unresolved. Basis: Her disappearance helped trigger the crisis leading to war. Obligations: Personal desire to recover her or learn her fate. This is background, not authority to dictate future choices or read private thoughts.
-- Benjen Stark: Younger brother. Supplied starting relationship assessment: Familial bond; exact current duties not specified. Basis: Shared Stark upbringing. Obligations: House continuity and kinship. This is background, not authority to dictate future choices or read private thoughts.
-- Northern bannermen: Feudal vassals and fighting men under Ned's command. Supplied starting relationship assessment: Serving under their lawful lord in rebellion; individual attitudes vary. Basis: Ned called the banners and led the northern army south. Obligations: Ned owes competent leadership and must weigh their lives against military necessity. This is background, not authority to dictate future choices or read private thoughts.
-- Howland Reed: Bannerman and personal friend. Supplied starting relationship assessment: Friendly and trusted based on Harrenhal connection. Basis: Met at the tourney at Harrenhal. Obligations: Ordinary lord-vassal obligations plus personal friendship; present location not assumed. This is background, not authority to dictate future choices or read private thoughts.
+- Robert Baratheon: foster brother and the closest friend Ned has, raised beside him at the Eyrie. He leads the rebellion in the field and counts on Ned's loyalty and the northern host; Ned marched south for him and stood with him at the Bells.
+- Jon Arryn: the man who raised Ned from eight, a second father and his teacher in most of what he knows of lordship. He refused to send Aerys Ned's head and raised his own banners instead; Ned owes him counsel and his sword.
+- Catelyn Tully: his wife of a few weeks, married at Riverrun after the Bells to bind Tully to the cause. They barely know each other yet.
+- Hoster Tully: father-in-law and ally, whose support came with the marriages at Riverrun. The alliance is political; shared campaigning has not yet made it more.
+- Lyanna Stark: his younger sister, missing since Rhaegar took her. Finding her, or learning what became of her, is never far from his mind.
+- Benjen Stark: his younger brother, alive; what he is doing this evening Ned does not know.
+- Northern bannermen: the lords and fighting men who answered his call and followed him south. They serve their lawful lord in rebellion; each has his own temper and his own reasons, and Ned owes them competent leadership and care with their lives.
+- Howland Reed: bannerman of Greywater Watch and a friend since Harrenhal. Ned trusts him; where he is tonight is not known.
 
 ## Knowledge
 
@@ -328,22 +309,18 @@ Personal balances and counted reserves are not established.
 - Robert, Jon Arryn, Hoster Tully, and Ned are principal leaders of the rebel coalition in the field.
 - Ned and Hoster's daughter Catelyn were recently married at Riverrun after the Battle of the Bells.
 - Prince Rhaegar Targaryen is with and commands the royal army nearby.
-- A major battle is expected the next day under the campaign starting premise.
+- A major battle is expected tomorrow.
 - The rebel camp is making final evening preparations: armor, weapons, horses, sentries, and command orders.
 - Ned is currently in his tent with his sword, whetstone, and battle equipment nearby.
-- Attributed report: Royal army strength and exact deployment. Source: Scouts, captains, allied commanders; arrival: Pre-battle, precise time unestablished. Status: Not fixed in Ned's sheet. He may seek or receive better intelligence in play..
-- Attributed report: Lyanna was taken by Prince Rhaegar. Source: Widely accepted cause of the crisis; arrival: Before rebellion, precise time unestablished. Status: Ned knows the public account, but her exact current location, condition, and full circumstances are unresolved to him.
-- Attributed report: Loyalist intentions for the coming engagement. Source: Military observation and reports; arrival: Ongoing, precise time unestablished. Status: Only what is causally established in play becomes reliable PC knowledge.
-- No later-canon secret is preloaded; future outcomes and Lyanna's full circumstances remain unknown to the PC.
+- What Ned knows of the royal host's strength and ground comes from his scouts, his captains and the allied commanders: partial reports, nothing firm enough to plan on yet. He can seek better intelligence.
+- The account everyone repeats is that Rhaegar took Lyanna. Where she is now, how she fares and what truly happened, Ned does not know.
+- Of the royal army's intentions for tomorrow he knows only what observation and reports have shown so far; anything more must be learned.
 
 ## Duties and commitments
 
 - Duties as Lord of Winterfell and Warden of the North toward House Stark, northern bannermen, household, and dependents.
 - Rebel alliance obligations toward Robert Baratheon, Jon Arryn, Hoster Tully, and their forces.
 - Marriage obligations to Catelyn Tully and the political bond created with House Tully.
-- No additional specific promise or quantified coin debt is established.
-- House Stark income and household expenditure are ongoing but unquantified; no fabricated rate, payment, or due time is entered.
-- Army support responsibilities are active, with no mandatory individual pre-battle task chosen for Ned.
 
 ## Present aim
 

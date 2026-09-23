@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:resume.md:v1 -->
-<!-- source-event-hash:850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac -->
+<!-- source-event-hash:88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671 -->
 
 # Resume campaign
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -34,9 +34,6 @@ No interrupted plan is recorded.
 - Duties as Lord of Winterfell and Warden of the North toward House Stark, northern bannermen, household, and dependents.
 - Rebel alliance obligations toward Robert Baratheon, Jon Arryn, Hoster Tully, and their forces.
 - Marriage obligations to Catelyn Tully and the political bond created with House Tully.
-- No additional specific promise or quantified coin debt is established.
-- House Stark income and household expenditure are ongoing but unquantified; no fabricated rate, payment, or due time is entered.
-- Army support responsibilities are active, with no mandatory individual pre-battle task chosen for Ned.
 
 ## Tasks
 

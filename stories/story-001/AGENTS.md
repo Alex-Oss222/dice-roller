@@ -2,7 +2,7 @@
 
 Read character-sheet.md first, then ../../AGENTS.md. This is Eddard Stark's story before the expected Battle of the Trident. Use `python -m iron_engine --story story-001 ...` from the repository root. Ordinary play changes only this story.
 
-Turn 0 is accepted. A Turn 0 correction incorporates the player's September 22 uploaded sheet, researched background, leather-and-mail equipment and revised opening. No resolved Turn 1 exists. The clock is Day 0, 18:00, mapped to the first day of the first moon, 283 AC. Resume from the current accepted head; never reset or replay the original setup. The first resolved player action will be Turn 1.
+Turn 0 is accepted. A Turn 0 correction incorporates the player's September 22 uploaded sheet, researched background, leather-and-mail equipment and revised opening; a second Turn 0 correction (event 2, 23 September) rewrites the sheet's relationships, knowledge, duties, condition note and profile fields as plain narrative without changing any rating, item or outcome. No resolved Turn 1 exists. The clock is Day 0, 18:00, mapped to the first day of the first moon, 283 AC. Resume from the current accepted head; never reset or replay the original setup. The first resolved player action will be Turn 1.
 
 Campaign events are authoritative. The original setup.json remains the accepted original input; opening.md mirrors the latest accepted opening revision. The root character-sheet.md is the corrected starting reference, while play/character-sheet.md is regenerated from current state as play continues. Do not import a later hand-edited sheet silently. Reconcile an explicitly requested build correction through a recorded correction and preserve its source.
 

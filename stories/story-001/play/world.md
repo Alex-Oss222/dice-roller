@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:world.md:v1 -->
-<!-- source-event-hash:850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac -->
+<!-- source-event-hash:88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671 -->
 
 # Persistent world records
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `850a2052be6a3c554cfa7b6d418ba61c6312c32811112889ad0f2bc2996ba1ac`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -285,14 +285,14 @@ Due: not scheduled
 
 ## Relationships
 
-- Robert Baratheon: Foster brother, close friend, principal rebel ally. Supplied starting relationship assessment: Strong mutual trust and affection; Robert values Ned's loyalty and military support. Basis: Raised together at the Eyrie; active rebellion; Battle of the Bells. Obligations: Support the rebel cause while retaining Ned's own judgment and command. This is background, not authority to dictate future choices or read private thoughts.
-- Jon Arryn: Foster father, mentor, senior rebel ally. Supplied starting relationship assessment: Deep trust and filial respect. Basis: Fostered Ned from age eight; refused Aerys's demand for Ned's head. Obligations: Coalition loyalty, counsel, and mutual military support. This is background, not authority to dictate future choices or read private thoughts.
-- Catelyn Tully: Newly married wife. Supplied starting relationship assessment: Relationship is new and politically arranged; mutual personal understanding is still limited. Basis: Married after the Battle of the Bells. Obligations: Marital and dynastic obligations; Tully alliance. This is background, not authority to dictate future choices or read private thoughts.
-- Hoster Tully: Father-in-law and rebel ally. Supplied starting relationship assessment: Political alliance and mutual military interest. Basis: Tully support tied to the marriages at Riverrun. Obligations: Coalition coordination and family alliance. This is background, not authority to dictate future choices or read private thoughts.
-- Lyanna Stark: Younger sister, missing. Supplied starting relationship assessment: Strong family concern; exact circumstances unresolved. Basis: Her disappearance helped trigger the crisis leading to war. Obligations: Personal desire to recover her or learn her fate. This is background, not authority to dictate future choices or read private thoughts.
-- Benjen Stark: Younger brother. Supplied starting relationship assessment: Familial bond; exact current duties not specified. Basis: Shared Stark upbringing. Obligations: House continuity and kinship. This is background, not authority to dictate future choices or read private thoughts.
-- Northern bannermen: Feudal vassals and fighting men under Ned's command. Supplied starting relationship assessment: Serving under their lawful lord in rebellion; individual attitudes vary. Basis: Ned called the banners and led the northern army south. Obligations: Ned owes competent leadership and must weigh their lives against military necessity. This is background, not authority to dictate future choices or read private thoughts.
-- Howland Reed: Bannerman and personal friend. Supplied starting relationship assessment: Friendly and trusted based on Harrenhal connection. Basis: Met at the tourney at Harrenhal. Obligations: Ordinary lord-vassal obligations plus personal friendship; present location not assumed. This is background, not authority to dictate future choices or read private thoughts.
+- Robert Baratheon: foster brother and the closest friend Ned has, raised beside him at the Eyrie. He leads the rebellion in the field and counts on Ned's loyalty and the northern host; Ned marched south for him and stood with him at the Bells.
+- Jon Arryn: the man who raised Ned from eight, a second father and his teacher in most of what he knows of lordship. He refused to send Aerys Ned's head and raised his own banners instead; Ned owes him counsel and his sword.
+- Catelyn Tully: his wife of a few weeks, married at Riverrun after the Bells to bind Tully to the cause. They barely know each other yet.
+- Hoster Tully: father-in-law and ally, whose support came with the marriages at Riverrun. The alliance is political; shared campaigning has not yet made it more.
+- Lyanna Stark: his younger sister, missing since Rhaegar took her. Finding her, or learning what became of her, is never far from his mind.
+- Benjen Stark: his younger brother, alive; what he is doing this evening Ned does not know.
+- Northern bannermen: the lords and fighting men who answered his call and followed him south. They serve their lawful lord in rebellion; each has his own temper and his own reasons, and Ned owes them competent leadership and care with their lives.
+- Howland Reed: bannerman of Greywater Watch and a friend since Harrenhal. Ned trusts him; where he is tonight is not known.
 
 ## Knowledge
 
@@ -303,13 +303,12 @@ Due: not scheduled
 - Robert, Jon Arryn, Hoster Tully, and Ned are principal leaders of the rebel coalition in the field.
 - Ned and Hoster's daughter Catelyn were recently married at Riverrun after the Battle of the Bells.
 - Prince Rhaegar Targaryen is with and commands the royal army nearby.
-- A major battle is expected the next day under the campaign starting premise.
+- A major battle is expected tomorrow.
 - The rebel camp is making final evening preparations: armor, weapons, horses, sentries, and command orders.
 - Ned is currently in his tent with his sword, whetstone, and battle equipment nearby.
-- Attributed report: Royal army strength and exact deployment. Source: Scouts, captains, allied commanders; arrival: Pre-battle, precise time unestablished. Status: Not fixed in Ned's sheet. He may seek or receive better intelligence in play..
-- Attributed report: Lyanna was taken by Prince Rhaegar. Source: Widely accepted cause of the crisis; arrival: Before rebellion, precise time unestablished. Status: Ned knows the public account, but her exact current location, condition, and full circumstances are unresolved to him.
-- Attributed report: Loyalist intentions for the coming engagement. Source: Military observation and reports; arrival: Ongoing, precise time unestablished. Status: Only what is causally established in play becomes reliable PC knowledge.
-- No later-canon secret is preloaded; future outcomes and Lyanna's full circumstances remain unknown to the PC.
+- What Ned knows of the royal host's strength and ground comes from his scouts, his captains and the allied commanders: partial reports, nothing firm enough to plan on yet. He can seek better intelligence.
+- The account everyone repeats is that Rhaegar took Lyanna. Where she is now, how she fares and what truly happened, Ned does not know.
+- Of the royal army's intentions for tomorrow he knows only what observation and reports have shown so far; anything more must be learned.
 
 ## Assumptions
 
