@@ -4,7 +4,7 @@ A repository-based ASOIAF roleplaying campaign. You make decisions in chat. The 
 
 **[Start playing](START_HERE.md)** · **[Story 1](stories/story-001/play/README.md)** · **[Story 2](stories/story-002/play/README.md)** · **[Starting prompt](START_PROMPT.md)** · **[Costs](docs/costs.md)**
 
-Story 2 is prepared and not started: Jon Snow on the morning of the deserter's execution near Winterfell, 298 AC; say "Start story-002" to accept its opening as Turn 0. Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. The opening is accepted as Turn 0, and the latest supplied character changes have been reconciled into the saved state. Your first resolved action will be Turn 1. Read the scene, then give Ned’s intended action.
+Story 2 is started: Jon Snow on the morning of the deserter's execution near Winterfell, 298 AC, with its opening accepted as Turn 0. Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. The opening is accepted as Turn 0, and the latest supplied character changes have been reconciled into the saved state. Your first resolved action will be Turn 1. Read the scene, then give Ned’s intended action.
 
 ## What gets saved
 

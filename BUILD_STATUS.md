@@ -18,7 +18,7 @@ Conservative travel uses the slowest applicable party profile. There is no econo
 
 Story 1 (Eddard Stark, Trident eve, 283 AC) is started: Turn 0 setup plus two Turn 0 corrections (the 22 September sheet reconciliation and the 23 September wording rewrite), no resolved turn. Its person records predate the opposition rule and carry no ratings; they are filled at first contested contact.
 
-Story 2 (Jon Snow, the deserter's execution near Winterfell, 298 AC) is prepared and not started, with opposition and household person records in its staged setup.
+Story 2 (Jon Snow, the deserter's execution near Winterfell, 298 AC) is started at Turn 0, with opposition and household person records in its accepted setup.
 
 ## Verification
 

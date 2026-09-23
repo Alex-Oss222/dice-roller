@@ -6,7 +6,7 @@ Use a chat that can read and write this repository and run the included Python e
 
 Story 1, Eddard Stark on the evening before the expected Battle of the Trident, 283 AC, is started: its opening is accepted as Turn 0 and its first resolved decision produces Turn 1. Read its [reading page](stories/story-001/play/README.md) and [current sheet](stories/story-001/play/character-sheet.md); its chosen chronology and starting choices are in [setup decisions](stories/story-001/notes/setup-decisions.md).
 
-Story 2, Jon Snow on the morning of a deserter's execution near Winterfell, 298 AC, is prepared and not started. Read its [character sheet](stories/story-002/character-sheet.md) and [setup decisions](stories/story-002/notes/setup-decisions.md), then say "Start story-002" to accept its opening as Turn 0.
+Story 2, Jon Snow on the morning of a deserter's execution near Winterfell, 298 AC, is started: its opening is accepted as Turn 0. Read its [reading page](stories/story-002/play/README.md) and [current sheet](stories/story-002/play/character-sheet.md); its starting choices are in [setup decisions](stories/story-002/notes/setup-decisions.md).
 
 The GM reads the latest accepted state and continues from it; it never initializes an opening twice. The same starting prompt works in a fresh chat after later turns because it checks the repository's current position first.
 

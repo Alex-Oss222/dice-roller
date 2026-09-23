@@ -2,7 +2,7 @@
 
 Read character-sheet.md first, then ../../AGENTS.md. This is Jon Snow's story from the morning of a deserter's execution near Winterfell, 298 AC, the start of the published novels. Use `python -m iron_engine --story story-002 ...` from the repository root. Ordinary play changes only this story.
 
-The story is prepared and not started. `setup.json` and `opening.md` are the staged Turn 0; run the actual `start` command only when the player says to begin, and never replay it. The clock at the opening is Day 0, about 08:00. The first resolved player action will be Turn 1.
+The story is started: the opening is accepted as Turn 0 (event 000000). `setup.json` and `opening.md` remain the accepted original input; never replay `start` to reset. The clock at the opening is Day 0, 08:00. The first resolved player action will be Turn 1.
 
 Ned's, Catelyn's, Robb's and Theon's records, and the others', live in this story's setup and belong to it. Nothing is imported from any other story, and nothing from this story goes into the shared layer.
 
