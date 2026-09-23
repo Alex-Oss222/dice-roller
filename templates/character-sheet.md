@@ -49,6 +49,12 @@ Start only after this story's era/region, books/spoiler cutoff, name/age/status/
 
 Name supporting background statements, event IDs, or approved sources where relevant. Family connections, offices, property, famous acquaintances, and supernatural gifts need evidence. The player controls dialogue, intentions, loyalties, emotions, and future decisions; the sheet records only what they established or did.
 
+### Experience
+
+Write four to six paragraphs describing how the character came to their strongest abilities and where those abilities stop. Each paragraph covers one area of life (arms, travel, household, letters, faith, trade, whatever the character actually has) and names the practice, instruction, service or hardship behind the ratings recorded below, in the voice of a biography rather than a rules note. Give the low ratings the same treatment: a plain sentence on what the character never learned or never had reason to. Do not write "in this campaign" or "for this version of the character"; the notes folder holds the distinction between sourced history and the player's premise. Do not include instructions to the GM, disclaimers about evidence, or lists of things that are not established.
+
+TBD
+
 ## Appearance and natural attributes
 
 | Descriptive field | Detail |

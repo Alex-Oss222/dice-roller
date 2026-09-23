@@ -21,6 +21,35 @@ Shared presentation contract for accepted resolved turns. The generated turn pag
 
 [Only the accepted `next_decision` that actually requires player input. Omit when null. Do not offer possible actions, plans, objectives, or menus unless requested.]
 
+## Example page
+
+An invented character in an invented situation, shown only so the shape of a complete page is unambiguous. Nothing here is a story fact.
+
+| Field | Current |
+| --- | --- |
+| Name | Alys Coldwater |
+| Age | 31 |
+| Condition | 7 |
+| Location | The mill road, two miles short of Harrow Ford |
+
+## Turn 4 | Day 2, 15:30 | The mill road, two miles short of Harrow Ford | Elapsed: 5 hours
+
+### The carter's cart
+
+The cart had lost its off-side wheel where the road dipped to the stream. Alys walked the length of it before she said anything. The axle was sound; the linchpin was gone, and the wheel lay in the reeds with two spokes cracked.
+
+"You want it lifted," the carter said. He was already looking for a pole.
+
+She did not want it lifted. She had him unload the four hindmost sacks first, then set the pole under the axle box with a flat stone beneath it. The wheel went back on with the cracked spokes to the top. She cut a linchpin from a green ash stick, thicker than the old one, and drove it in with the back of her hatchet. It would hold to the ford and probably to the mill. It would not hold a full load at a trot.
+
+They reloaded three of the four sacks. The fourth she left on the bank with the carter's mark on it. He argued for the length of the reloading and stopped when she gave him her hand to climb up.
+
+The ford was down to knee height. They crossed at a walk.
+
+### Next
+
+The miller offers to buy the whole load at the price he paid last autumn, tonight, cash, or to hold it until the road is repaired and pay the market rate then.
+
 ## Contract notes
 
 - The four-row summary is part of the generated turn format. The renderer and tests must agree with this file.

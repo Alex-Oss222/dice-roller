@@ -1,0 +1,19 @@
+{
+  "_template": "Person record for a figure who may contest the character. Copy into a world_upsert operation (or the setup state's world.records) under a stable lowercase ID, fill every value, and delete this key and any detail you cannot support. Values in details must be nonempty strings; a capability rating is the number as a string with its basis beside it. Do not copy a person from another story.",
+  "kind": "person",
+  "title": "",
+  "status": "active",
+  "summary": "Who this person is at the story's current moment, in one or two plain sentences.",
+  "participants": [],
+  "links": [],
+  "known_by": ["pc"],
+  "due_seconds": null,
+  "details": {
+    "goals": "What this person is trying to do now, as far as the record can establish it; revised when play shows otherwise.",
+    "pc_knowledge": "What the character actually knows or has heard of this person, and from whom.",
+    "capability:<Ability name>": "<0 to 9>",
+    "capability:<Ability name>:basis": "Why that rating, from established history, held to the same evidence standard as the character sheet.",
+    "limits": "What this person cannot do or does not know, where established."
+  },
+  "evidence_turns": [0]
+}
