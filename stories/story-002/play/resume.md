@@ -1,14 +1,47 @@
 <!-- iron-engine-generated:resume.md:v1 -->
-<!-- source-event-hash:awaiting-setup -->
+<!-- source-event-hash:cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c -->
 
 # Resume campaign
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `awaiting-setup`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
-Awaiting setup. No initialized character state, resolved turn, or pending action is recorded in the ledger.
+Current turn: 0. Fictional time: Day 0, 08:00.
 
-Read AGENTS.md, rules/iron_engine.md, and docs/play_workflow.md. Validate the selected campaign store, then read any supplied starting character sheet in the selected story's root folder and establish only the missing setup details with the player. Examples and tests are not campaign facts.
+Phase: Riding out with the lord's party. Location: The yard of a holdfast in the hills north of Winterfell.
+
+Character: Jon Snow. Aim: Ride with his father to the holdfast, see the deserter's sentence done, and keep Bran steady through it.
+
+Age: 14. Condition: 8/9 Hale (Healthy).
+
+Condition tags: Hale. Basis: Fourteen, sound, fed, unhurt.
+
+Spoiler cutoff: Campaign history stops at this morning. Retrospective material in the permitted novels may establish earlier facts; later events are neither inevitable nor the character's knowledge.. Resolution: adjudicated.
+
+## Pending decision or fixed stakes
+
+No pending resume note is recorded.
+
+## Interrupted plan
+
+No interrupted plan is recorded.
+
+## Obligations
+
+- Obedience to his father as son and as household member; the duties of a lord's son toward the household, without a lord's son's rights.
+- Ride with the party this morning and see the sentence carried out.
+
+## Tasks
+
+None recorded.
+
+## Continuing world
+
+[All persistent records](world.md) and [active and closed threads](threads.md). Use the focused context packet to inspect relevant records and every open deadline before advancing.
+
+## Continue
+
+Read AGENTS.md, rules/iron_engine.md, and docs/play_workflow.md. The context command validates the entire canonical event chain internally and returns current state, obligations, record references, and recent scenes. Retrieve relevant records and older turns on demand before resolving the next authorized action. Check the current head against this view, load the current sheet, and reconcile all pending obligations and decisions. Research notes do not grant character knowledge. Continue from recorded facts; do not invent a missing chat history or advance time merely by opening this file.

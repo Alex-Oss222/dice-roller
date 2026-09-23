@@ -31,4 +31,4 @@ The working book scope is the five published novels. Nothing after this morning 
 
 ## Baseline
 
-Story 2 was created on 23 September 2026 against the reviewed shared baseline and re-pinned the same day after the repository cleanup, before any start. No event exists, so nothing replays.
+Story 2 was created on 23 September 2026 against the reviewed shared baseline and re-pinned the same day after the repository cleanup, before any start. No event existed then, so nothing replayed. The player started the story later that day; Turn 0 is the accepted setup event.
