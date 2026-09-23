@@ -26,13 +26,23 @@ def render_character_sheet(state):
              f"| Location | {_cell(state['location'])} |\n"
              f"| Condition | {_cell(health)} |",
              "## Background", character["background"]]
+    def table(values, left, right):
+        return (f"| {left} | {right} |\n| --- | --- |\n" +
+                "\n".join(f"| {_cell(key.replace('_', ' ').capitalize())} | {_cell(value)} |" for key, value in values.items()))
+
     for section, heading in (("background_details", "Experience"), ("identity", "Identity"),
                              ("appearance", "Appearance"), ("natural_attributes", "Natural attributes"),
                              ("kinship", "Family")):
         values = profile.get(section, {})
-        if values:
-            lines.append(f"## {heading}")
+        if not values:
+            continue
+        lines.append(f"## {heading}")
+        if section == "background_details":
             lines.extend(f"**{key.replace('_', ' ').capitalize()}:** {value}" for key, value in values.items())
+        elif section in {"natural_attributes", "kinship"}:
+            lines.append(table(values, "Attribute" if section == "natural_attributes" else "Family", "Detail"))
+        else:
+            lines.extend(f"{key.replace('_', ' ').capitalize()}: {value}" for key, value in values.items())
     languages = profile.get("languages", [])
     if languages:
         lines.extend(["## Languages", "| Language | Speaking | Reading | Writing |\n| --- | --- | --- | --- |\n" +
@@ -77,7 +87,7 @@ def render_character_sheet(state):
     for section, heading in (("property", "Property and supplies"), ("social_position", "Standing and ties")):
         if profile.get(section):
             lines.append(f"## {heading}")
-            lines.extend(f"**{key.replace('_', ' ').capitalize()}:** {value}" for key, value in profile[section].items())
+            lines.extend(f"{key.replace('_', ' ').capitalize()}: {value}" for key, value in profile[section].items())
     lines.extend(["## Counted resources", "\n".join(f"- {key}: {value}" for key, value in sorted(state["resources"].items()))
                   or "Personal balances and counted reserves are not established."])
     for key, heading in (("relationships", "Relationships"), ("knowledge", "Knowledge"),

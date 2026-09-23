@@ -34,8 +34,34 @@ def _duration(seconds: int) -> str:
     return f"{day} days, {hour} hours, {minute} minutes, {second} seconds"
 
 
+def _clock(seconds: int) -> str:
+    """Reader-facing clock: seconds only when they are not zero."""
+    day, rest = divmod(seconds, 86400)
+    hour, rest = divmod(rest, 3600)
+    minute, second = divmod(rest, 60)
+    return f"Day {day}, {hour:02}:{minute:02}" + (f":{second:02}" if second else "")
+
+
+def _span(seconds: int) -> str:
+    """Reader-facing duration: only the units that are present."""
+    day, rest = divmod(seconds, 86400)
+    hour, rest = divmod(rest, 3600)
+    minute, second = divmod(rest, 60)
+    parts = [(day, "day"), (hour, "hour"), (minute, "minute"), (second, "second")]
+    words = [f"{count} {unit}" + ("" if count == 1 else "s") for count, unit in parts if count]
+    return ", ".join(words) if words else "0 seconds"
+
+
+JOURNEY_LABELS = {"distance_this_turn": "Distance this turn", "distance_total": "Distance so far",
+                  "distance_remaining": "Distance remaining", "travel_seconds_this_turn": "Travel time this turn"}
+
+
 def _value(value) -> str:
-    return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, sort_keys=True)
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict) and all(isinstance(item, (str, int, float)) or item is None for item in value.values()):
+        return "; ".join(f"{key.replace('_', ' ')}: {item}" for key, item in value.items() if item not in (None, ""))
+    return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
 def _cell(value) -> str:
@@ -161,8 +187,8 @@ def _turn_scene(event: dict, before: dict) -> str:
     )
     segments = [
         summary + "\n\n"
-        f"## Turn {state['turn']} | {_time(state['time_seconds'])} | {state['location']} | "
-        f"Elapsed: {_duration(payload['elapsed_seconds'])}\n\n"
+        f"## Turn {state['turn']} | {_clock(state['time_seconds'])} | {state['location']} | "
+        f"Elapsed: {_span(payload['elapsed_seconds'])}\n\n"
         + payload["narrative"]
     ]
     next_decision = payload.get("next_decision")
@@ -171,15 +197,94 @@ def _turn_scene(event: dict, before: dict) -> str:
     return "\n\n".join(segments)
 
 
+WORDING_FIELDS = {"basis", "experience", "derivation"}
+
+
+def _list_summary(label: str, before, after) -> list[str]:
+    """Rewritten lists read as their new text; partial edits read as additions and removals."""
+    if before == after:
+        return []
+    before, after = list(before or []), list(after or [])
+    kept = [item for item in after if item in before]
+    if before and after and not kept:
+        return [f"- {label}: {len(after)} entries rewritten."] + [f"  - {_value(item)}" for item in after]
+    return _changed_values(label, before, after)
+
+
+def _character_summary(before: dict, after: dict) -> list[str]:
+    """Group a whole-character replacement into what a reader needs: ratings, wording, records, profile."""
+    lines = []
+    old_ratings, new_ratings = before.get("skills", {}), after.get("skills", {})
+    ratings = [(key, old_ratings.get(key), new_ratings.get(key)) for key in sorted(set(old_ratings) | set(new_ratings))
+               if old_ratings.get(key) != new_ratings.get(key)]
+    if ratings:
+        lines.append("- Ratings: " + "; ".join(
+            f"{key} {'new' if old is None else old} → {'removed' if new is None else new}" for key, old, new in ratings) + ".")
+    old_caps, new_caps = before.get("capabilities", {}), after.get("capabilities", {})
+    reworded, structural = [], []
+    for key in sorted(set(old_caps) | set(new_caps)):
+        old, new = old_caps.get(key), new_caps.get(key)
+        if old == new:
+            continue
+        if old is None or new is None:
+            structural.append(key)
+            continue
+        same_shape = {k: v for k, v in old.items() if k not in WORDING_FIELDS} == {k: v for k, v in new.items() if k not in WORDING_FIELDS}
+        (reworded if same_shape else structural).append(key)
+    if reworded:
+        lines.append(f"- Capability records reworded ({len(reworded)}): {', '.join(reworded)}.")
+    for key in structural:
+        lines.extend(_changed_values(f"Capability / {key}", old_caps.get(key), new_caps.get(key)))
+    for field in ("name", "age", "status", "background", "aim"):
+        if before.get(field) != after.get(field):
+            lines.append(f"- {field.capitalize()} revised: {_value(after.get(field))}")
+    if before.get("condition") != after.get("condition"):
+        lines.append(f"- Condition: {condition_summary(before)} → {condition_summary(after)}. Basis: {after['condition']['basis']}")
+    for field in ("conditions", "equipment"):
+        lines.extend(_list_summary(f"Character / {field}", before.get(field, []), after.get(field, [])))
+    old_profile, new_profile = before.get("profile", {}), after.get("profile", {})
+    for section in sorted(set(old_profile) | set(new_profile)):
+        old, new = old_profile.get(section), new_profile.get(section)
+        if old == new:
+            continue
+        label = f"Profile / {section.replace('_', ' ')}"
+        if isinstance(old, list) or isinstance(new, list):
+            lines.extend(_list_summary(label, old, new))
+            continue
+        old, new = old or {}, new or {}
+        removed = sorted(key for key in old if key not in new)
+        added = sorted(key for key in new if key not in old)
+        revised = sorted(key for key in new if key in old and old[key] != new[key])
+        parts = []
+        if revised:
+            parts.append("revised " + ", ".join(revised))
+        if added:
+            parts.append("added " + ", ".join(added))
+        if removed:
+            parts.append("removed " + ", ".join(removed))
+        lines.append(f"- {label}: {'; '.join(parts)}.")
+        for key in revised + added:
+            lines.append(f"  - {key}: {_value(new[key])}")
+    return lines
+
+
 def _correction_note(event: dict, before: dict) -> str:
     state, payload = event["state"], event["input"]
     lines = [f"### OOC record note: correction at Turn {state['turn']}",
-             f"Event {event['sequence']}; {_time(state['time_seconds'])}. No fictional time elapsed.",
+             f"Event {event['sequence']}; {_clock(state['time_seconds'])}. No fictional time elapsed.",
              f"Source event hash: `{event['hash']}`.",
              f"Reason: {payload['reason']}",
              "This corrects the recorded state. Earlier accepted story text is preserved."]
     for field, value in sorted(payload["changes"].items()):
-        lines.extend(_changed_values(field.replace("_", " ").capitalize(), before.get(field), value))
+        label = field.replace("_", " ").capitalize()
+        if field == "character":
+            lines.extend(_character_summary(before.get(field, {}), value))
+        elif field == "world":
+            lines.extend(_changed_values(label, before.get(field), value))
+        elif isinstance(value, list):
+            lines.extend(_list_summary(label, before.get(field), value))
+        else:
+            lines.extend(_changed_values(label, before.get(field), value))
         lines.append(f"Evidence: {payload['evidence'][field]}")
     for unit, delta in sorted(payload["resources_delta"].items()):
         lines.append(f"- Resource adjustment, {unit}: {delta:+d}; resulting balance: {state['resources'][unit]}. "
@@ -226,21 +331,27 @@ def _capability_note(reference: dict, before: dict) -> str:
         value = before["world"]["records"][record_id]["details"]
     else:
         raise CampaignError(f"Unsupported capability source in accepted record: {source}")
-    rating = value[reference["key"]]
-    return f"{reference['key']} ({_value(rating)}; {reference['source']})"
+    if reference["key"] not in value:
+        raise CampaignError(f"Accepted adjudication names an unknown capability: {reference['key']}")
+    return reference["key"]
 
 
 def _adjudication_note(payload: dict, before: dict) -> str:
+    """Which abilities governed the attempt and why; the numbers stay in the records."""
     adjudication = payload.get("adjudication")
     if adjudication is None:
         return ""
+    actor = adjudication["actor"]
+    who = before["character"]["name"] if actor == "pc" else before["world"]["records"][actor]["title"]
+    attempt = ("a routine attempt" if adjudication["mode"] == "routine"
+               else f"an uncertain, {adjudication['task_band']} attempt")
     lines = ["### Resolution record", f"Objective: {payload['objective']}", f"Outcome: {payload['outcome']}",
-             f"Actor: {adjudication['actor']}. Task: {adjudication['task_band']}. Mode: {adjudication['mode']}."]
+             f"{who} made {attempt}."]
     primary = adjudication.get("capability")
     if primary is not None:
-        lines.append("Primary capability: " + _capability_note(primary, before))
+        lines.append("Primary ability: " + _capability_note(primary, before))
     for supporting in adjudication.get("supporting_capabilities", []):
-        lines.append(f"Supporting capability: {_capability_note(supporting, before)}. Role: {supporting['role']}")
+        lines.append(f"Supporting ability: {_capability_note(supporting, before)}. Role: {supporting['role']}")
     for field in ("preparation", "opposition", "risk", "basis"):
         lines.append(f"{field.capitalize()}: {adjudication[field]}")
     return "\n\n".join(lines)
@@ -259,7 +370,7 @@ def _journey_notes(before: dict, after: dict) -> str:
         lines.extend([f"#### {record['title']} ({record_id})", record["summary"],
                       f"Status: {record['status']}."])
         for key, value in sorted(record.get("details", {}).items()):
-            lines.append(f"- {key.replace('_', ' ').capitalize()}: {value}")
+            lines.append(f"- {JOURNEY_LABELS.get(key, key.replace('_', ' ').capitalize())}: {value}")
         if record == old_records.get(record_id):
             lines.append("This journey record is unchanged in this turn; it establishes no additional distance travelled.")
     return "\n\n".join(lines)
@@ -283,17 +394,17 @@ def _changes(events: list[dict]) -> str:
              "[Threads](threads.md) · [World records](world.md)",
              "Elapsed totals count fictional time since the accepted opening. Unrecorded distance is unknown, "
              "not zero; journey details are preserved as supplied and overlapping routes are not summed.",
-             "## Turn 0: starting position", f"Time: {_time(opening['time_seconds'])}. Location: {opening['location']}.",
-             f"Elapsed since opening: {_duration(0)}."]
+             "## Turn 0: starting position", f"Time: {_clock(opening['time_seconds'])}. Location: {opening['location']}.",
+             "Elapsed since opening: none."]
     for index, event in enumerate(events):
         if event["kind"] == "correction":
             lines.append(_correction_note(event, events[index - 1]["state"]))
         elif event["kind"] in TURN_KINDS:
             state, payload, before = event["state"], event["input"], events[index - 1]["state"]
             lines.extend([f"## Turn {state['turn']}",
-                          f"{_time(before['time_seconds'])} to {_time(state['time_seconds'])}.",
-                          f"Elapsed this turn: {_duration(payload['elapsed_seconds'])}.",
-                          f"Elapsed since opening: {_duration(state['time_seconds'] - opening['time_seconds'])}.",
+                          f"{_clock(before['time_seconds'])} to {_clock(state['time_seconds'])}.",
+                          f"Elapsed this turn: {_span(payload['elapsed_seconds'])}.",
+                          f"Elapsed since opening: {_span(state['time_seconds'] - opening['time_seconds'])}.",
                           f"Location: {state['location']}.", f"Phase: {state['phase']}."])
             change_note = _turn_ledger(before, state, payload)
             if change_note:
@@ -304,7 +415,7 @@ def _changes(events: list[dict]) -> str:
                 lines.append(adjudication_note)
             authorization = payload.get("authorization")
             if authorization is not None:
-                lines.append(f"Authorized scope: up to {_duration(authorization['max_elapsed_seconds'])}; "
+                lines.append(f"Authorized scope: up to {_span(authorization['max_elapsed_seconds'])}; "
                              f"stop condition: {authorization['stop_condition']}")
             checks = payload.get("checks", [])
             if checks:
@@ -319,7 +430,7 @@ def _changes(events: list[dict]) -> str:
                 lines.append("### Milestones")
                 for milestone in milestones:
                     references = ", ".join(str(turn) for turn in milestone["evidence_turns"])
-                    lines.append(f"At {_duration(milestone['elapsed_seconds'])} into this turn: "
+                    lines.append(f"At {_span(milestone['elapsed_seconds'])} into this turn: "
                                  f"{milestone['basis']} Evidence turns: {references}.")
             processed = payload.get("processed_tasks", {})
             if processed:
@@ -327,12 +438,14 @@ def _changes(events: list[dict]) -> str:
                              "\n".join(f"- {key}: {value}" for key, value in sorted(processed.items())))
             coverage = payload.get("coverage", {})
             if coverage:
-                lines.append("### Record review\n\n| Record | Result | Basis |\n| --- | --- | --- |\n" +
-                             "\n".join(f"| {_cell(key.capitalize())} | {item['status']} | {_cell(item['basis'])} |"
-                                       for key, item in coverage.items()))
+                changed = [(key, item) for key, item in coverage.items() if item["status"] == "changed"]
+                if changed:
+                    lines.append("### Records changed\n\n" +
+                                 "\n".join(f"- {key.capitalize()}: {item['basis']}" for key, item in changed))
+                else:
+                    lines.append("No records changed this turn beyond the clock.")
             if payload.get("review") is not None:
                 lines.append(_review_note(payload["review"]))
-            lines.append(f"Source event hash: `{event['hash']}`.")
     return "\n\n".join(lines) + "\n"
 
 
@@ -394,12 +507,14 @@ def _record_body(record_id: str, record: dict) -> str:
              f"Kind: {record['kind']}. Status: {record['status']}.", record["summary"]]
     for label in ("participants", "links", "known_by", "evidence_turns"):
         entries = record.get(label, [])
-        lines.append(f"{label.replace('_', ' ').capitalize()}: " +
-                     (", ".join(str(entry) for entry in entries) or "none recorded"))
+        if not entries or (label == "known_by" and entries == ["pc"]):
+            continue
+        lines.append(f"{label.replace('_', ' ').capitalize()}: " + ", ".join(str(entry) for entry in entries))
     due = record.get("due_seconds")
-    lines.append("Due: " + (_time(due) if due is not None else "not scheduled"))
+    if due is not None:
+        lines.append(f"Due: {_clock(due)}")
     for key, value in sorted(record.get("details", {}).items()):
-        lines.append(f"- {key}: {value}")
+        lines.append(f"- {JOURNEY_LABELS.get(key, key.replace('_', ' ').capitalize())}: {value}")
     return "\n\n".join(lines)
 
 
@@ -502,13 +617,14 @@ def _landing(events: list[dict], seed_reference: str) -> str:
         lines.extend([f"Campaign: {state['campaign']['title']}",
                       f"{state['character']['name']} | Age {state['character']['age']} | "
                       f"Condition: {health} | {state['location']}",
-                      f"Turn {state['turn']} | {_time(state['time_seconds'])} | {state['phase']}"])
+                      f"Turn {state['turn']} | {_clock(state['time_seconds'])} | {state['phase']}"])
     lines.append("## Saved turns")
     entries = [f"- [Turn {event['state']['turn']}](turns/turn-{event['state']['turn']:06d}.md): "
-               f"{_time(event['state']['time_seconds'])}; {event['state']['location']}"
+               f"{_clock(event['state']['time_seconds'])}; {event['state']['location']}"
                for event in events if event["kind"] in TURN_KINDS]
     if _opening_event(events) is not None:
-        entries.insert(0, "- [Turn 0: opening](turns/turn-000000.md)")
+        opening = events[0]["state"]
+        entries.insert(0, f"- [Turn 0: opening](turns/turn-000000.md): {_clock(opening['time_seconds'])}; {opening['location']}")
     lines.append("\n".join(entries) or "No resolved turns.")
     return "\n\n".join(lines) + "\n"
 
