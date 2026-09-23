@@ -11,8 +11,8 @@
   "details": {
     "goals": "What this person is trying to do now, as far as the record can establish it; revised when play shows otherwise.",
     "pc_knowledge": "What the character actually knows or has heard of this person, and from whom.",
-    "capability:<Ability name>": "<0 to 9>",
-    "capability:<Ability name>:basis": "Why that rating, from established history, held to the same evidence standard as the character sheet.",
+    "<Ability name>": "<0 to 9>",
+    "<Ability name> basis": "Why that rating, from established history, held to the same evidence standard as the character sheet. The ability name is the key an adjudication references (source world.records.<id>.details).",
     "limits": "What this person cannot do or does not know, where established."
   },
   "evidence_turns": [0]
