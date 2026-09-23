@@ -17,19 +17,11 @@ Kind: person. Status: active.
 
 The king whose government regards Ned as a rebel; ordered Rickard and Brandon's deaths and demanded Ned's and Robert's heads.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### benjen-stark: Benjen Stark
 
@@ -37,19 +29,11 @@ Kind: person. Status: active.
 
 Ned's living younger brother. Exact current duties and location are not specified.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### camp-preparations: Ordinary camp preparations
 
@@ -59,15 +43,9 @@ Men are checking armor, feeding and watering horses, repairing weapons, assignin
 
 Participants: pc
 
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
-
-- scope: No new player standing order, named visitor, guard position, completed project, or training award is invented.
+- Scope: No new player standing order, named visitor, guard position, completed project, or training award is invented.
 
 ### catelyn-tully: Catelyn Tully
 
@@ -75,19 +53,11 @@ Kind: person. Status: active.
 
 Ned's recently married wife; marriage at Riverrun followed the Bells. Current personal understanding is limited. Pregnancy status is not granted as PC knowledge.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### hoster-tully: Hoster Tully
 
@@ -95,19 +65,11 @@ Kind: person. Status: active.
 
 Father-in-law and rebel coalition ally; the Tully marriage alliance and shared campaigning support the connection.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### howland-reed: Howland Reed
 
@@ -115,19 +77,11 @@ Kind: person. Status: active.
 
 Bannerman and trusted friend from the Harrenhal connection; present location is not assumed.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### jon-arryn: Jon Arryn
 
@@ -135,19 +89,11 @@ Kind: person. Status: active.
 
 Foster father, mentor, and rebel coalition leader; refused Aerys's demand for Ned's and Robert's heads.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### lyanna-stark: Lyanna Stark
 
@@ -155,19 +101,11 @@ Kind: person. Status: active.
 
 Ned's missing younger sister. The public account involves Rhaegar, but her precise location, condition, and full circumstances are unknown.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### lyanna-whereabouts: Lyanna's unresolved whereabouts
 
@@ -177,15 +115,9 @@ Her location, condition, and the complete circumstances behind the public accoun
 
 Participants: pc, lyanna-stark
 
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
-
-- knowledge_limit: No later-book revelation enters PC knowledge.
+- Knowledge limit: No later-book revelation enters PC knowledge.
 
 ### northern-host: Northern host and bannermen
 
@@ -195,15 +127,9 @@ Ned commands the northern forces in the rebel encampment; numbers, exact immedia
 
 Participants: pc
 
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
-
-- authority_limit: Authority over the northern contingent does not make other coalition forces Ned's personal troops.
+- Authority limit: Authority over the northern contingent does not make other coalition forces Ned's personal troops.
 
 ### rhaegar-targaryen: Rhaegar Targaryen
 
@@ -211,19 +137,11 @@ Kind: person. Status: active.
 
 Commands the royal army nearby under the supplied starting premise; exact plans and deployment remain unknown.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### robert-baratheon: Robert Baratheon
 
@@ -231,19 +149,11 @@ Kind: person. Status: active.
 
 Foster brother, close friend, and principal rebel ally. A fellow ward at the Eyrie, now a coalition leader; he is not yet Ned's king.
 
-Participants: none recorded
-
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Current intentions: No private plans or additional immediate action is inferred.
 
-- current_intentions: No private plans or additional immediate action is inferred.
-
-- provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
+- Provenance: Player-supplied pre-start background/premise; see source-check notes for checked claims and limits.
 
 ### trident-engagement: Expected engagement at the Trident
 
@@ -253,17 +163,11 @@ A major engagement is expected on relative Day 1, without a canonical hour, fixe
 
 Participants: pc, robert-baratheon, jon-arryn, hoster-tully, rhaegar-targaryen
 
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
+- Pending player action: No final pre-battle decision has been chosen for Ned.
 
-- pending_player_action: No final pre-battle decision has been chosen for Ned.
-
-- timing: Expectation only; no invented fixed deadline.
+- Timing: Expectation only; no invented fixed deadline.
 
 ### unknown-personal-balances: Unquantified personal resources
 
@@ -273,15 +177,9 @@ No purse balance, currency conversion, exact personal stores, income rate, or de
 
 Participants: pc
 
-Links: none recorded
-
-Known by: pc
-
 Evidence turns: 0
 
-Due: not scheduled
-
-- ledger_representation: resources is empty because amounts are unknown, not because wealth is zero.
+- Ledger representation: resources is empty because amounts are unknown, not because wealth is zero.
 
 ## Relationships
 

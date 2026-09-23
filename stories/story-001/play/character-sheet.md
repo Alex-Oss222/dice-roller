@@ -34,69 +34,63 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 ## Identity
 
-**Age precision:** Approximately twenty, born in 263 AC; exact birthday unknown.
+Age precision: Approximately twenty, born in 263 AC; exact birthday unknown.
 
-**Birthplace:** Winterfell, the North
+Birthplace: Winterfell, the North
 
-**Common name:** Ned
+Common name: Ned
 
-**Culture / people:** Northman; First Men-descended northern nobility
+Culture / people: Northman; First Men-descended northern nobility
 
-**Current residence:** Winterfell; presently campaigning in the Riverlands
+Current residence: Winterfell; presently campaigning in the Riverlands
 
-**House / allegiance:** House Stark; rebel coalition of Stark, Baratheon, Arryn, and Tully
+House / allegiance: House Stark; rebel coalition of Stark, Baratheon, Arryn, and Tully
 
-**Liege:** King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
+Liege: King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
 
-**Longer ambitions:** Lyanna is missing; her fate, his family and the future of the North weigh on him.
+Longer ambitions: Lyanna is missing; her fate, his family and the future of the North weigh on him.
 
-**Offices:** Commander of the northern forces within the rebel coalition
+Offices: Commander of the northern forces within the rebel coalition
 
-**Opening date:** 1st day of the first moon, 283 AC, at 18:00.
+Opening date: 1st day of the first moon, 283 AC, at 18:00.
 
-**Sex:** Male
+Sex: Male
 
-**Titles:** Lord of Winterfell; Warden of the North
+Titles: Lord of Winterfell; Warden of the North
 
 ## Appearance
 
-**Distinguishing features:** Long Stark face; reserved expression
+Distinguishing features: Long Stark face; reserved expression
 
-**Eyes:** Dark grey
+Eyes: Dark grey
 
-**Hair:** Long brown hair
+Hair: Long brown hair
 
-**Height/build:** Approximately 6'3"; tall, fit from sustained training and active campaigning.
+Height/build: Approximately 6'3"; tall, fit from sustained training and active campaigning.
 
-**Heraldry or personal device:** House Stark, a grey direwolf on an ice-white field; words: *Winter Is Coming*.
+Heraldry or personal device: House Stark, a grey direwolf on an ice-white field; words: *Winter Is Coming*.
 
 ## Natural attributes
 
-**Agility:** Good: years in the yard and the saddle; quick enough, not remarkable.
-
-**Appearance:** Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon was.
-
-**Endurance:** Strong: the road from the Vale to the North, long marches and months of campaigning.
-
-**Intelligence:** Good: an educated lord trusted with independent command, not a scholar.
-
-**Perception:** Good: he notices what a commander must; nothing uncanny.
-
-**Strength:** Good: a trained fighting man's strength, well short of Robert's.
-
-**Willpower:** Strong: he survived his family's destruction, took up a lordship he never expected, raised his banners and kept campaigning.
+| Attribute | Detail |
+| --- | --- |
+| Agility | Good: years in the yard and the saddle; quick enough, not remarkable. |
+| Appearance | Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon was. |
+| Endurance | Strong: the road from the Vale to the North, long marches and months of campaigning. |
+| Intelligence | Good: an educated lord trusted with independent command, not a scholar. |
+| Perception | Good: he notices what a commander must; nothing uncanny. |
+| Strength | Good: a trained fighting man's strength, well short of Robert's. |
+| Willpower | Strong: he survived his family's destruction, took up a lordship he never expected, raised his banners and kept campaigning. |
 
 ## Family
 
-**Children:** None in his household. He does not know whether Catelyn is with child.
-
-**Father:** Lord Rickard Stark, deceased
-
-**Mother:** Lady Lyarra Stark.
-
-**Siblings:** Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother
-
-**Spouse:** Lady Catelyn Tully, recently married at Riverrun
+| Family | Detail |
+| --- | --- |
+| Children | None in his household. He does not know whether Catelyn is with child. |
+| Father | Lord Rickard Stark, deceased |
+| Mother | Lady Lyarra Stark. |
+| Siblings | Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother |
+| Spouse | Lady Catelyn Tully, recently married at Riverrun |
 
 ## Languages
 
@@ -258,35 +252,35 @@ The evening meal is finished; he carries no wound and no sickness.
 
 ## Property and supplies
 
-**Coin:** He has not counted his purse; what coin he carries is unknown.
+Coin: He has not counted his purse; what coin he carries is unknown.
 
-**Horse:** One assigned riding horse, with saddle, bridle and tack, at the northern picket line.
+Horse: One assigned riding horse, with saddle, bridle and tack, at the northern picket line.
 
-**Household:** His campaign household travels with the host.
+Household: His campaign household travels with the host.
 
-**Land:** Winterfell and the lands held by House Stark under Ned's lordship.
+Land: Winterfell and the lands held by House Stark under Ned's lordship.
 
-**Other property:** The arms and property of House Stark, Ice among them; where Ice is tonight is not known.
+Other property: The arms and property of House Stark, Ice among them; where Ice is tonight is not known.
 
-**Residence:** Winterfell.
+Residence: Winterfell.
 
-**Supply:** The camp feeds and waters his men and his horse; his own reserves and medical stores have not been counted.
+Supply: The camp feeds and waters his men and his horse; his own reserves and medical stores have not been counted.
 
 ## Standing and ties
 
-**Claims:** Lordship of Winterfell and Stark authority in the North.
+Claims: Lordship of Winterfell and Stark authority in the North.
 
-**Crimes/accusations:** To the royal government he is a rebel and a traitor; Aerys demanded his head.
+Crimes/accusations: To the royal government he is a rebel and a traitor; Aerys demanded his head.
 
-**Inheritance position:** Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon.
+Inheritance position: Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon.
 
-**Legitimacy/status at birth:** Trueborn second son of Rickard Stark; now the surviving senior son and lawful head of House Stark.
+Legitimacy/status at birth: Trueborn second son of Rickard Stark; now the surviving senior son and lawful head of House Stark.
 
-**Marriage arrangements:** Married to Catelyn Tully; the match is part of the Stark-Tully alliance.
+Marriage arrangements: Married to Catelyn Tully; the match is part of the Stark-Tully alliance.
 
-**Oaths:** He owes his bannermen and household a lord's duty; his obedience to Aerys ended when the king demanded his death.
+Oaths: He owes his bannermen and household a lord's duty; his obedience to Aerys ended when the king demanded his death.
 
-**Reputation:** A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
+Reputation: A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
 
 ## Counted resources
 

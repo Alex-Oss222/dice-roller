@@ -9,8 +9,8 @@ Campaign: A Song of Blood & Gold: The Trident
 
 Eddard Stark | Age 20 | Condition: 8 | Ned's command tent, northern section of the rebel encampment beside the Trident
 
-Turn 0 | Day 0, 18:00:00 | Pre-battle preparation
+Turn 0 | Day 0, 18:00 | Pre-battle preparation
 
 ## Saved turns
 
-- [Turn 0: opening](turns/turn-000000.md)
+- [Turn 0: opening](turns/turn-000000.md): Day 0, 18:00; Ned's command tent, northern section of the rebel encampment beside the Trident
