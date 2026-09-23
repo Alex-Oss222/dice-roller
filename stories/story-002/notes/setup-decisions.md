@@ -6,18 +6,18 @@ The opening stops at the moment before the sentence is carried out. The player's
 
 ## Character
 
-Jon is fourteen, Lord Eddard's acknowledged bastard, raised at Winterfell. Ratings are inferences from the record as of this morning ([reasoning and sources](character-background.md)): 54 rated entries: six numeric domains, one derived estimate (Lance), and 47 established abilities, two of them under Stewardship with no numeric domain because a boy who has never run a household has too few anchors. Every trainable ability starts at 0 Development. Longsword carries a strong aptitude, the one forward-looking judgment on the sheet.
+This is the Jon of the novels, not of the television series: a trained boy with a sword, a reader, observant, proud and quick-tempered, dry-witted ([reasoning and sources](character-background.md)). Jon is fourteen, Lord Eddard's acknowledged bastard, raised at Winterfell. Ratings are inferences from the record as of this morning ([reasoning and sources](character-background.md)): 54 rated entries: six numeric domains, one derived estimate (Lance), and 47 established abilities, two of them under Stewardship with no numeric domain because a boy who has never run a household has too few anchors. Every trainable ability starts at 0 Development. History carries a strong aptitude, the one forward-looking judgment on the sheet; the sword is training, not talent, as the books have it.
 
 | Domain | Anchors and weights | Rating |
 | --- | --- | ---: |
 | Martial | Longsword 40, Shield Use 20, Defensive Fighting 20, Wrestling / Unarmed 20 | 3 |
 | Fieldcraft | Riding 30, Hunting 25, Forest Travel 25, Survival 20 | 3 |
-| Learning | Reading 30, History 25, Heraldry 25, Genealogy 20 | 3 |
+| Learning | Reading 30, History 25, Heraldry 25, Genealogy 20 | 4 |
 | Diplomacy | Court Etiquette 35, Noble Customs 35, Persuasion 30 | 3 |
 | Intrigue | Concealment, Detecting Lies, Deception, Eavesdropping, Rumor at 20 each | 2 |
 | Craft | Weapon Care 40, Leather / Strap Maintenance 30, Camp Gear Maintenance 30 | 2 |
 
-Condition is 8, Hale. He carries a belt-knife and rides a Winterfell garron; his practice sword, jack, mail shirt and bow are in the castle. He owns nothing counted.
+He speaks, reads and writes the Common Tongue, the Old Tongue, High Valyrian and Low Valyrian; the three beyond the Common are the player's premise, recorded as such. Condition is 8, Hale. He carries a belt-knife and rides a Winterfell garron; his practice sword, jack, mail shirt and bow are in the castle. He owns nothing counted.
 
 ## Opposition and household
 
