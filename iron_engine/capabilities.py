@@ -22,9 +22,23 @@ RECORD_FIELDS = {
     "derived": COMMON | {"domain", "derivation"},
 }
 PROFILE_SECTIONS = {
-    "identity", "background_details", "appearance", "natural_attributes",
+    "identity", "background_details", "disposition", "appearance", "natural_attributes",
     "literacy", "property", "social_position", "kinship", "adjudication", "languages",
 }
+
+
+def capability_usage(events):
+    """Turns in which each PC ability governed or supported an accepted advance."""
+    usage = {}
+    for event in events:
+        if event["kind"] != "advance":
+            continue
+        adjudication = event["input"].get("adjudication") or {}
+        references = [adjudication.get("capability")] + list(adjudication.get("supporting_capabilities") or [])
+        for reference in references:
+            if reference and reference.get("source") == "character.skills":
+                usage.setdefault(reference["key"], []).append(event["state"]["turn"])
+    return usage
 
 
 def _evidence_turns(value, turn, label):

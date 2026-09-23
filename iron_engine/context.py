@@ -185,6 +185,23 @@ def history_packet(store: CampaignStore, turn: int) -> dict:
     return packet
 
 
+def _capability_index(character, events):
+    """Each rating with the reason behind it, so the GM selects abilities by meaning."""
+    from .capabilities import capability_usage
+    usage = capability_usage(events)
+    records = character.get("capabilities", {})
+    index = {}
+    for key, rating in character["skills"].items():
+        record = records.get(key, {})
+        entry = {"rating": rating, "kind": record.get("kind", "skill")}
+        if record.get("basis"):
+            entry["basis"] = record["basis"]
+        if usage.get(key):
+            entry["use_turns"] = usage[key]
+        index[key] = entry
+    return index
+
+
 def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_chars=12000,
                    read_record_ids=None) -> dict:
     """Return current essentials, complete indexes, selected closure, recent prose.
@@ -238,6 +255,10 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
                       ("name", "age", "status", "background", "aim", "skills", "condition", "conditions", "equipment")
                       if key in character},
         "character_detail_reference": {"record_id": "pc.character"},
+        "disposition": deepcopy(character.get("profile", {}).get("disposition", {})),
+        "capability_index": _capability_index(character, events),
+        "capability_note": "Action first. Choose the governing ability by what its basis says the character "
+                           "can actually do, not by its name; use_turns shows where it has already governed play.",
         "resources": deepcopy(state["resources"]), "alive": state["alive"], "death": deepcopy(state["death"]),
         "mandatory": {
             "obligations": deepcopy(state["obligations"]),

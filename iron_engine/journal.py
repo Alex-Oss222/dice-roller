@@ -679,7 +679,8 @@ def render_campaign(store: CampaignStore, output_dir: str | os.PathLike = "play"
     output = _safe_directory(output_dir, store)
     head = events[-1]["hash"] if events else "awaiting-setup"
     records = Path(os.path.relpath(store.path / "events", output)).as_posix()
-    sheet = render_character_sheet(events[-1]["state"]) if events else (
+    from .capabilities import capability_usage
+    sheet = render_character_sheet(events[-1]["state"], capability_usage(events)) if events else (
         "Awaiting setup. No initialized character state is stored in the ledger. Consult any supplied starting "
         "character sheet in the selected story's root folder; it remains preparation until setup is accepted.\n"
     )

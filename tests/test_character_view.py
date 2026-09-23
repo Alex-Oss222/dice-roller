@@ -16,9 +16,13 @@ class CharacterViewTests(unittest.TestCase):
         state["character"]["capabilities"]["Mediation"]["development"] = 2
         state["character"]["background"] = "A mediator who learned through household disputes."
         state["resources"] = {"silver stags": 0}
+        state["character"]["profile"]["disposition"] = {"Conduct": "Says what he means; expects the same of others."}
         before = copy.deepcopy(state)
-        sheet = render_character_sheet(state)
-        self.assertIn("| Mediation | 7 | 2 / 20 |", sheet)
+        sheet = render_character_sheet(state, {"Mediation": [3, 7]})
+        self.assertIn("| Mediation | 7 | 2 / 20 | 3, 7 |", sheet)
+        self.assertIn("## Disposition", sheet)
+        self.assertIn("### Provisional estimates", sheet)
+        self.assertLess(sheet.index("## Present aim"), sheet.index("## Capabilities"))
         self.assertIn(state["character"]["background"], sheet)
         self.assertIn("silver stags: 0", sheet)
         self.assertIn("| Condition | 8 — Hale |", sheet)

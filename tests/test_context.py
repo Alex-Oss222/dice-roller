@@ -189,6 +189,8 @@ class ContextTests(unittest.TestCase):
         self.assertEqual(state["tasks"][0], record_packet(self.store, "task.test-delivery")["record"])
         self.assertEqual(source(), record_packet(self.store, "research.test-source")["record"])
         self.assertEqual(2, record_packet(self.store, "capability.accounts")["record"]["rating"])
+        self.assertEqual({"rating": 2, "kind": "skill"}, packet["capability_index"]["accounts"])
+        self.assertIn("by what its basis says", packet["capability_note"])
         self.assertEqual([], packet["known_context"]["knowledge"])
         self.assertIn("do not grant PC knowledge", packet["knowledge_note"])
         self.assertEqual(record_packet(self.store, "test-clerk")["record"],

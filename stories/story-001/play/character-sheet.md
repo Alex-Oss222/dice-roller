@@ -100,138 +100,6 @@ Heraldry or personal device: House Stark, a grey direwolf on an ice-white field;
 | Old Tongue | Fluent | Fluent | Fluent |
 | High Valyrian | Fluent | Decent | Decent |
 
-## Capabilities
-
-5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development records progress toward the next rating; a dash means no separate training track.
-
-| Domain | Rating |
-| --- | ---: |
-| Craft | 5 |
-| Diplomacy | 6 |
-| Fieldcraft | 7 |
-| Intrigue | 3 |
-| Learning | 6 |
-| Martial | 6 |
-| Stewardship | 5 |
-
-### Craft
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Armor Repair | 4 | — |
-| Camp Gear Maintenance | 5 | 0 / 16 |
-| Field-Expedient Gear Repair | 2 | — |
-| Leather / Strap Maintenance | 5 | 0 / 16 |
-| Weapon Care | 6 | 0 / 18 |
-
-### Diplomacy
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Bargaining | 3 | — |
-| Court Etiquette | 5 | 0 / 16 |
-| Hospitality | 4 | 0 / 14 |
-| Mediation | 7 | 0 / 20 |
-| Negotiation | 5 | 0 / 16 |
-| Noble Customs | 5 | 0 / 16 |
-| Oratory | 2 | — |
-| Persuasion | 5 | 0 / 16 |
-| Protocol | 5 | 0 / 16 |
-| Public Leadership | 5 | 0 / 16 |
-
-### Fieldcraft
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Camping | 5 | 0 / 16 |
-| Concealment in Wilderness | 3 | — |
-| Forest Travel | 7 | 0 / 20 |
-| Horse Handling | 4 | 0 / 14 |
-| Hunting | 3 | 0 / 12 |
-| Mountain Travel | 3 | 0 / 12 |
-| Navigation | 3 | 0 / 12 |
-| Reading Terrain | 6 | 0 / 18 |
-| Riding | 5 | 0 / 16 |
-| River-Crossing Assessment | 3 | — |
-| Scouting | 3 | 0 / 12 |
-| Survival | 7 | 0 / 20 |
-| Trailcraft | 7 | 0 / 20 |
-
-### Intrigue
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Concealment | 4 | 0 / 14 |
-| Counterintelligence | 2 | 0 / 10 |
-| Deception | 1 | 0 / 8 |
-| Detecting Lies | 2 | 0 / 10 |
-| Eavesdropping | 1 | 0 / 8 |
-| Espionage Management | 1 | — |
-| Information Networks | 3 | 0 / 12 |
-| Rumor | 2 | 0 / 10 |
-| Secret Correspondence | 2 | 0 / 10 |
-| Surveillance | 2 | — |
-
-### Learning
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Campaign Geography | 4 | — |
-| Genealogical Protocol | 4 | — |
-| Genealogy | 4 | 0 / 14 |
-| Geography | 6 | 0 / 18 |
-| Heraldry | 5 | 0 / 16 |
-| History | 6 | 0 / 18 |
-| Law / Feudal Custom | 7 | 0 / 20 |
-| Mathematics / Numeracy | 3 | 0 / 12 |
-| Medicine | 1 | 0 / 8 |
-| Reading | 4 | 0 / 14 |
-| Theology: Old Gods | 7 | 0 / 20 |
-| Writing | 5 | 0 / 16 |
-
-### Martial
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Archery | 2 | 0 / 10 |
-| Armored Fighting | 6 | 0 / 18 |
-| Battlefield Awareness | 6 | 0 / 18 |
-| Cavalry Command | 4 | — |
-| Coalition Battlefield Coordination | 6 | 0 / 18 |
-| Commanding Northmen | 6 | 0 / 18 |
-| Dagger | 3 | 0 / 12 |
-| Defensive Fighting | 4 | 0 / 14 |
-| Formation Command | 6 | 0 / 18 |
-| Formation Fighting | 5 | 0 / 16 |
-| Frontline Leadership | 6 | 0 / 18 |
-| Infantry Command | 5 | — |
-| Lance | 3 | — |
-| Logistics of War | 5 | 0 / 16 |
-| Longsword | 7 | 0 / 20 |
-| Mounted Combat | 5 | 0 / 16 |
-| Protecting Another Person | 5 | — |
-| Shield Use | 4 | 0 / 14 |
-| Strategy | 5 | 0 / 16 |
-| Tactics | 6 | 0 / 18 |
-| Two-Handed Sword | 5 | 0 / 16 |
-| Wrestling / Unarmed | 3 | 0 / 12 |
-
-### Stewardship
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Agriculture | 2 | 0 / 10 |
-| Army Camp Administration | 4 | — |
-| Budgeting | 4 | 0 / 14 |
-| Estate Management | 4 | 0 / 14 |
-| Household Management | 4 | 0 / 14 |
-| Labor Management | 5 | 0 / 16 |
-| Large-Scale Provisioning | 4 | — |
-| Logistics | 6 | 0 / 18 |
-| Provisioning | 5 | 0 / 16 |
-| Record Keeping | 4 | 0 / 14 |
-| Supply | 5 | 0 / 16 |
-
 ## Physical condition
 
 8 — Hale
@@ -322,3 +190,141 @@ Personal balances and counted reserves are not established.
 ## Present aim
 
 Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
+
+## Capabilities
+
+5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development is progress toward the next rating. Used lists the turns in which the ability governed or supported an accepted action.
+
+| Domain | Rating |
+| --- | ---: |
+| Craft | 5 |
+| Diplomacy | 6 |
+| Fieldcraft | 7 |
+| Intrigue | 3 |
+| Learning | 6 |
+| Martial | 6 |
+| Stewardship | 5 |
+
+### Craft
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Camp Gear Maintenance | 5 | 0 / 16 | — |
+| Leather / Strap Maintenance | 5 | 0 / 16 | — |
+| Weapon Care | 6 | 0 / 18 | — |
+
+### Diplomacy
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Court Etiquette | 5 | 0 / 16 | — |
+| Hospitality | 4 | 0 / 14 | — |
+| Mediation | 7 | 0 / 20 | — |
+| Negotiation | 5 | 0 / 16 | — |
+| Noble Customs | 5 | 0 / 16 | — |
+| Persuasion | 5 | 0 / 16 | — |
+| Protocol | 5 | 0 / 16 | — |
+| Public Leadership | 5 | 0 / 16 | — |
+
+### Fieldcraft
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Camping | 5 | 0 / 16 | — |
+| Forest Travel | 7 | 0 / 20 | — |
+| Horse Handling | 4 | 0 / 14 | — |
+| Hunting | 3 | 0 / 12 | — |
+| Mountain Travel | 3 | 0 / 12 | — |
+| Navigation | 3 | 0 / 12 | — |
+| Reading Terrain | 6 | 0 / 18 | — |
+| Riding | 5 | 0 / 16 | — |
+| Scouting | 3 | 0 / 12 | — |
+| Survival | 7 | 0 / 20 | — |
+| Trailcraft | 7 | 0 / 20 | — |
+
+### Intrigue
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Concealment | 4 | 0 / 14 | — |
+| Counterintelligence | 2 | 0 / 10 | — |
+| Deception | 1 | 0 / 8 | — |
+| Detecting Lies | 2 | 0 / 10 | — |
+| Eavesdropping | 1 | 0 / 8 | — |
+| Information Networks | 3 | 0 / 12 | — |
+| Rumor | 2 | 0 / 10 | — |
+| Secret Correspondence | 2 | 0 / 10 | — |
+
+### Learning
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Genealogy | 4 | 0 / 14 | — |
+| Geography | 6 | 0 / 18 | — |
+| Heraldry | 5 | 0 / 16 | — |
+| History | 6 | 0 / 18 | — |
+| Law / Feudal Custom | 7 | 0 / 20 | — |
+| Mathematics / Numeracy | 3 | 0 / 12 | — |
+| Medicine | 1 | 0 / 8 | — |
+| Reading | 4 | 0 / 14 | — |
+| Theology: Old Gods | 7 | 0 / 20 | — |
+| Writing | 5 | 0 / 16 | — |
+
+### Martial
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Archery | 2 | 0 / 10 | — |
+| Armored Fighting | 6 | 0 / 18 | — |
+| Battlefield Awareness | 6 | 0 / 18 | — |
+| Coalition Battlefield Coordination | 6 | 0 / 18 | — |
+| Commanding Northmen | 6 | 0 / 18 | — |
+| Dagger | 3 | 0 / 12 | — |
+| Defensive Fighting | 4 | 0 / 14 | — |
+| Formation Command | 6 | 0 / 18 | — |
+| Formation Fighting | 5 | 0 / 16 | — |
+| Frontline Leadership | 6 | 0 / 18 | — |
+| Logistics of War | 5 | 0 / 16 | — |
+| Longsword | 7 | 0 / 20 | — |
+| Mounted Combat | 5 | 0 / 16 | — |
+| Shield Use | 4 | 0 / 14 | — |
+| Strategy | 5 | 0 / 16 | — |
+| Tactics | 6 | 0 / 18 | — |
+| Two-Handed Sword | 5 | 0 / 16 | — |
+| Wrestling / Unarmed | 3 | 0 / 12 | — |
+
+### Stewardship
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Agriculture | 2 | 0 / 10 | — |
+| Budgeting | 4 | 0 / 14 | — |
+| Estate Management | 4 | 0 / 14 | — |
+| Household Management | 4 | 0 / 14 | — |
+| Labor Management | 5 | 0 / 16 | — |
+| Logistics | 6 | 0 / 18 | — |
+| Provisioning | 5 | 0 / 16 | — |
+| Record Keeping | 4 | 0 / 14 | — |
+| Supply | 5 | 0 / 16 | — |
+
+### Provisional estimates
+Inferred from related abilities; they become established only through evidenced play.
+
+| Ability | Domain | Rating | Used |
+| --- | --- | ---: | --- |
+| Armor Repair | Craft | 4 | — |
+| Army Camp Administration | Stewardship | 4 | — |
+| Bargaining | Diplomacy | 3 | — |
+| Campaign Geography | Learning | 4 | — |
+| Cavalry Command | Martial | 4 | — |
+| Concealment in Wilderness | Fieldcraft | 3 | — |
+| Espionage Management | Intrigue | 1 | — |
+| Field-Expedient Gear Repair | Craft | 2 | — |
+| Genealogical Protocol | Learning | 4 | — |
+| Infantry Command | Martial | 5 | — |
+| Lance | Martial | 3 | — |
+| Large-Scale Provisioning | Stewardship | 4 | — |
+| Oratory | Diplomacy | 2 | — |
+| Protecting Another Person | Martial | 5 | — |
+| River-Crossing Assessment | Fieldcraft | 3 | — |
+| Surveillance | Intrigue | 2 | — |
