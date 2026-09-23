@@ -1,7 +1,6 @@
 """The player-facing start/continue flow publishes coherent local reading views."""
 
 from contextlib import redirect_stderr, redirect_stdout
-from copy import deepcopy
 from io import StringIO
 import json
 from pathlib import Path

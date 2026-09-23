@@ -17,6 +17,17 @@ import tempfile
 from typing import Any
 
 
+TURN_KINDS = {"turn", "advance"}
+OPEN_STATUSES = {"active", "blocked"}
+
+
+def opening_event(events):
+    """The latest accepted Turn 0 wording (setup or a Turn 0 correction), or None."""
+    return next((event for event in reversed(events)
+                 if event["kind"] in {"setup", "correction"} and event["state"]["turn"] == 0
+                 and event["input"].get("opening_narrative")), None)
+
+
 class CampaignError(ValueError):
     """Invalid campaign data, damaged history, or unsafe filesystem operation."""
 
@@ -672,7 +683,7 @@ class CampaignStore:
 
 
 def character_sheet(state: dict) -> str:
-    """Render the entire current public state without maintaining a second copy."""
+    """Full audit dump for the `status` command. The player sheet is character_view.render_character_sheet."""
     from .capabilities import SYSTEM, render_details
     from .condition import render_condition
 

@@ -6,7 +6,7 @@ appendix, with provisional estimates kept apart from established abilities.
 """
 
 from .capabilities import TRAINABLE, development_required
-from .condition import RATING_LABELS
+from .condition import rating_label
 
 
 def _cell(value):
@@ -22,9 +22,10 @@ def _capabilities(character, usage):
     ratings, records = character["skills"], character.get("capabilities", {})
     lines = ["## Capabilities"]
     if not records:
-        lines.append("\n".join(f"- {key}: {value}" for key, value in ratings.items()) or "Not established.")
+        if ratings:
+            lines.append("\n".join(f"- {key}: {value}" for key, value in ratings.items()))
         return lines
-    lines.append("5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. "
+    lines.append("0 untrained · 1 novice · 2 familiar · 3 trained · 4 skilled · 5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. "
                  "Development is progress toward the next rating. Used lists the turns in which the ability "
                  "governed or supported an accepted action.")
     domains = [key for key, record in records.items() if record["kind"] == "domain"]
@@ -74,7 +75,7 @@ def render_character_sheet(state, usage=None):
     hour, rest = divmod(rest, 3600)
     minute = rest // 60
     condition = character.get("condition")
-    health = (f"{condition['rating']} — {RATING_LABELS[condition['rating']]}"
+    health = (f"{condition['rating']} — {rating_label(condition['rating'])}"
               if condition is not None else "Not established")
     lines = [f"## {character['name']}", state["campaign"]["title"],
              "| Current record | Details |\n| --- | --- |\n"
@@ -104,19 +105,22 @@ def render_character_sheet(state, usage=None):
         lines.extend(["## Languages", "| Language | Speaking | Reading | Writing |\n| --- | --- | --- | --- |\n" +
                       "\n".join(f"| {_cell(item['language'])} | {_cell(item['spoken'])} | {_cell(item['read'])} | {_cell(item['written'])} |"
                                 for item in languages)])
+    if profile.get("literacy"):
+        lines.extend(f"{key.replace('_', ' ').capitalize()}: {value}" for key, value in profile["literacy"].items())
     lines.extend(["## Physical condition", health])
     if condition:
         lines.append(condition["basis"])
     lines.extend(character["conditions"])
     if not state["alive"]:
         lines.append(f"Died: {state['death']['cause']}.")
-    lines.extend(["## Equipment", "\n".join(f"- {item}" for item in character["equipment"]) or "Not established."])
+    if character["equipment"]:
+        lines.extend(["## Equipment", "\n".join(f"- {item}" for item in character["equipment"])])
     for section, heading in (("property", "Property and supplies"), ("social_position", "Standing and ties")):
         if profile.get(section):
             lines.append(f"## {heading}")
             lines.extend(f"{key.replace('_', ' ').capitalize()}: {value}" for key, value in profile[section].items())
-    lines.extend(["## Counted resources", "\n".join(f"- {key}: {value}" for key, value in sorted(state["resources"].items()))
-                  or "Personal balances and counted reserves are not established."])
+    if state["resources"]:
+        lines.extend(["## Counted resources", "\n".join(f"- {key}: {value}" for key, value in sorted(state["resources"].items()))])
     for key, heading in (("relationships", "Relationships"), ("knowledge", "Knowledge"),
                          ("obligations", "Duties and commitments"), ("standing_orders", "Standing orders")):
         if state[key]:

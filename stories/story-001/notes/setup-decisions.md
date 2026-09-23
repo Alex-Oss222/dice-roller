@@ -2,7 +2,7 @@
 
 The opening is accepted as **Turn 0**, at **18:00 on the 1st day of the first moon, 283 AC**. No player action has been resolved. Day 0 begins at midnight on that chosen date. The expected engagement is the following day; its outcome is unsettled. This is the story's selected chronology, not a verified canon date, and it does not shorten any earlier journey.
 
-The original `setup.json` remains the input accepted in event 000000. The later Turn 0 correction incorporates the [latest supplied sheet](source-inputs/character-sheet-2026-09-22.md), corrected equipment and [revised opening](../opening.md). The campaign event chain and [current sheet](../play/character-sheet.md) carry the active values. Starting again resumes them; it does not import or replay setup.
+The original `setup.json` remains the input accepted in event 000000. Correction 000001 (22 September) incorporates the [latest supplied sheet](source-inputs/character-sheet-2026-09-22.md), corrected equipment and [revised opening](../opening.md); correction 000002 (23 September) rewrote the sheet's wording only. The accepted `campaign.day_zero_anchor` still reads as a relative-day convention; the first-moon date is the story's chosen mapping of that Day 0, recorded in the character's profile and assumptions, not a change to setup metadata. The campaign event chain and [current sheet](../play/character-sheet.md) carry the active values. Starting again resumes them; it does not import or replay setup.
 
 ## Character and experience
 
@@ -30,7 +30,7 @@ Condition is 8, Hale. Ned is unwounded and has eaten. No exceptional readiness, 
 
 His field armor is a padded gambeson, mail hauberk and coif, leather jerkin, padded cap, steel helmet, gloves with mail protection and straps. Lower legs have no mail or plate defenses. The armor is unworn in the tent. His longsword and whetstone are across his knees, with dagger and heater shield nearby. Travel gear is in the tent; one assigned riding horse and its tack are at the northern picket line. Ice belongs to House Stark, but its field location is unknown.
 
-Money, reserve quantities, household income and troop counts remain unquantified. A blank balance is not zero wealth. No purchase, training award, new order, visitor, intelligence report or resolved decision occurs in this maintenance correction.
+Money, reserve quantities, household income and troop counts remain unquantified. A blank balance is not zero wealth. No purchase, training award, new order, visitor, intelligence report or resolved decision occurs in either Turn 0 correction.
 
 ## Sheet wording
 

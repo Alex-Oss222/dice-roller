@@ -2,7 +2,7 @@
 
 **Status: awaiting setup. This is a blank template, not an initialized character or Turn 1.**
 
-Each new story requires its own character document at that story's root `character-sheet.md`, read first and completed before initialization. After setup it preserves starting input; current state comes from accepted events and that story's generated `play/character-sheet.md`, which follows the same order as this template. See [the isolated story layout](../stories/README.md).
+Each new story requires its own character document at that story's root `character-sheet.md`, read first and completed before initialization. After setup it preserves starting input; current state comes from accepted events and that story's generated `play/character-sheet.md`, which renders the same sections person first (a current-record table, background, experience, disposition, identity, appearance, attributes, family, languages, condition, equipment, property, standing, relationships, knowledge, duties, aim) and ends with the rating tables, showing which turns used each ability instead of the basis column below. See [the isolated story layout](../stories/README.md).
 
 Write the sheet as a description of a person. Sections are prose or short tables; nothing on it addresses the GM. `TBD` marks a fact still to be supplied before start. A fact that is unknown is left out, not written as "not established" or "none recorded"; leaving it out does not make it zero, healthy, absent or owned. Sourced history and the player's own premises are distinguished in the story's notes folder, never on the sheet.
 
@@ -142,12 +142,10 @@ One table per domain.
 | --- | --- | ---: | --- | --- |
 | TBD | TBD | TBD | TBD | TBD |
 
-### Development record
+Credited training periods are empty at setup and are added by accepted events; the rating tables on the generated sheet show current Development.
 
-Empty at setup. Credited periods are added by accepted events with their turns as evidence; an ability rises at most one rating between reviews.
+## Opposition (preparation only, not rendered)
 
-## Opposition
-
-Before Turn 1, each principal figure the opening sets against the character receives a `person` world record prepared from [the person-record template](person-record.json), with goals, what the character knows of them, and the few ratings their probable contests need. Those records belong to the story; list their IDs here.
+Before Turn 1, each principal figure the opening sets against the character receives a `person` world record in the staged setup, prepared from [the person-record template](person-record.json) (delete its `_template` key), with goals, what the character knows of them, and the few ratings their probable contests need, each with a `<ability> basis` detail. Those records belong to the story; list their IDs here.
 
 TBD

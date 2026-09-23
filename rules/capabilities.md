@@ -1,6 +1,6 @@
 # Blood & Gold capabilities
 
-This is the capability reference extracted from the supplied cleaned character sheet. It governs the `blood_and_gold_0_9` capability system in adjudicated play. The [main rules](iron_engine.md) continue to govern agency, outcomes, time, research, injuries, and saves. The [blank sheet](../templates/character-sheet.md) records only the character's established facts.
+This is the capability reference for the optional Blood & Gold module. It governs the `blood_and_gold_0_9` capability system in adjudicated play. The [main rules](iron_engine.md) continue to govern agency, outcomes, time, research, injuries, and saves. The [blank sheet](../templates/character-sheet.md) records only the character's established facts.
 
 ## Scale and authority
 
@@ -75,7 +75,7 @@ When evidence permits a provisional estimate, calculate an **upper candidate**, 
 
 `40% established parent domain + 60% relevant established skills + exposure adjustment`
 
-Divide the 60% among named relevant established skills; weights total 100%. State the supporting background, missing prerequisites, and limits. A derived skill may not be an anchor, an input skill, or a parent in this calculation.
+Divide the 60% among named relevant established skills; those related-skill weights total 60, and with the domain's 40 the formula totals 100. State the supporting background, missing prerequisites, and limits. A derived skill may not be an anchor, an input skill, or a parent in this calculation.
 
 | Exposure supported by the record | Candidate adjustment |
 | --- | ---: |
@@ -110,7 +110,7 @@ Development records lasting improvement, not action count or success count. An o
 
 These award sizes are **house pacing conventions**, not researched rates of human learning. Establish the intended period's duration and activity before evaluating its result. Appropriate periods vary with the skill, training schedule, demands, and circumstances. A turn can contain only part of a period or several completed periods. Ten turns never creates a development award by itself.
 
-For every credited period retain: unique period ID; capability ID; start and end in campaign seconds; actual duration; training/use undertaken; instruction, challenge, or practice basis; award; evidence turns/source facts; and the capability's last credited period. The ledger's credited-period list contains positive awards only. Explain evaluated intervals earning zero in the turn's outcome/evidence or task notes. Distinguish scheduled duration from time actually completed after an interruption.
+Every credited period is a training entry on its capability with exactly: a unique period ID, start and end in campaign seconds, the award, the activity undertaken, its basis (instruction, challenge or practice), and evidence turns. Duration and the last credited endpoint are derived from those entries. The ledger's credited-period list contains positive awards only. Explain evaluated intervals earning zero in the turn's outcome/evidence or task notes. Distinguish scheduled duration from time actually completed after an interruption.
 
 End must be after start. Credited periods for one capability cannot overlap or reuse the same work. Combine several causes within one period into one justified award: a lesson is not three awards because it was practice, instruction, and difficult. An exceptional +2 replaces that period's ordinary award; it does not stack on top. Splitting one period into several records must not increase its credit. Distinct skills or a parent/specialty need distinct learning evidence and a plausible allocation of the actual time; they cannot each claim the full same work automatically.
 
@@ -132,11 +132,11 @@ Both meaningful Development and relevant experience must support an advance. Yea
 | 7 to 8 | 20 | 35+ years of exceptional practice and experience |
 | 8 to 9 | 30 | An exceptional career and extraordinary opportunity |
 
-The former reference to structured training around age 7 is also a contextual house convention, **not a minimum age for recording skills**. Younger children may possess evidenced age-appropriate learned abilities. A skill's demands, intensity of exposure, quality of teaching, opportunities, and an established exceptional history can justify a different trajectory. Explain exceptions from the background or recorded experience; neither age nor a formula grants a rating. Do not infer that all veteran soldiers must be at least 19, or that a renowned young practitioner is impossible, from adding seven to the table.
+No minimum age applies to recording a skill. Younger children may possess evidenced age-appropriate learned abilities. A skill's demands, intensity of exposure, quality of teaching, opportunities, and an established exceptional history can justify a different trajectory. Explain exceptions from the background or recorded experience; neither age nor a formula grants a rating. Do not infer that all veteran soldiers must be at least 19, or that a renowned young practitioner is impossible, from adding seven to the table.
 
 At ratings 0 to 3, ordinary instruction and deliberate practice may suffice. At 4 to 5, increasingly difficult work, wider experience, and refinement matter. At 6 to 7, unusual problems, capable teachers/rivals, demanding responsibility, and experimentation become important. Ratings 8 and 9 require extraordinary demonstrated mastery and opportunity, not accumulating easy work. A court position, long career, war, famous teacher, or exceptional aptitude is evidence to assess, never automatic rank. Do not use the top rating to claim universal competence or invulnerability.
 
-Advancement is paced as well as gated. An ability rises by at most one rating in any single accepted event and at most one rating between consecutive tenth-turn reviews, however much Development it has accumulated; surplus carries forward. Ratings of 6 and above additionally need the demanding conditions described above to appear in the evidence turns themselves, not only in accumulated time. At each tenth-turn review, list every capability recorded as primary or supporting in the window, with the actual elapsed time and activity, and for each either credit a period or state why the use earned nothing. Heavy uncredited use is a review finding, not a silent zero; so is a credit without evidence turns.
+Advancement is paced as well as gated. An ability rises by at most one rating in any single accepted event (engine-checked) and at most one rating between consecutive tenth-turn reviews (a GM rule the reviewer checks), however much Development it has accumulated; surplus carries forward. A trainable ability first recorded on an ordinary turn starts at rating 0; established prior competence is a correction with evidence. Ratings of 6 and above additionally need the demanding conditions described above to appear in the evidence turns themselves, not only in accumulated time. At each tenth-turn review, list every capability recorded as primary or supporting in the window, with the actual elapsed time and activity, and for each either credit a period or state why the use earned nothing. Heavy uncredited use is a review finding, not a silent zero; so is a credit without evidence turns.
 
 When a threshold is met and prerequisites support advancement, consume that threshold from accumulated Development and add one rating. Carry legitimate excess forward toward the next threshold. If prerequisites remain unmet, retain recorded progress without granting the rating. Do not consume the same progress twice. Further advancement needs its own evidence and threshold; no bulk leap from a balance alone. At Rating 9, there is no next threshold: Development is 0, and no further progress balance accumulates. Preserve historical awards and consumed totals in the event record.
 

@@ -31,69 +31,63 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 
 ## Identity
 
-**Age precision:** Approximately twenty, born in 263 AC; exact birthday unknown.
+Age precision: Approximately twenty, born in 263 AC; exact birthday unknown.
 
-**Birthplace:** Winterfell, the North
+Birthplace: Winterfell, the North
 
-**Common name:** Ned
+Common name: Ned
 
-**Culture / people:** Northman; First Men-descended northern nobility
+Culture / people: Northman; First Men-descended northern nobility
 
-**Current residence:** Winterfell; presently campaigning in the Riverlands
+Current residence: Winterfell; presently campaigning in the Riverlands
 
-**House / allegiance:** House Stark; rebel coalition of Stark, Baratheon, Arryn, and Tully
+House / allegiance: House Stark; rebel coalition of Stark, Baratheon, Arryn, and Tully
 
-**Liege:** King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
+Liege: King Aerys II Targaryen claims his fealty, but Ned is in open rebellion after Aerys ordered his death. Robert Baratheon is an allied lord and foster brother, not yet Ned's king.
 
-**Longer ambitions:** Lyanna is missing; her fate, his family and the future of the North weigh on him.
+Longer ambitions: Lyanna is missing; her fate, his family and the future of the North weigh on him.
 
-**Offices:** Commander of the northern forces within the rebel coalition
+Offices: Commander of the northern forces within the rebel coalition
 
-**Opening date:** 1st day of the first moon, 283 AC, at 18:00.
+Opening date: 1st day of the first moon, 283 AC, at 18:00.
 
-**Sex:** Male
+Sex: Male
 
-**Titles:** Lord of Winterfell; Warden of the North
+Titles: Lord of Winterfell; Warden of the North
 
 ## Appearance
 
-**Distinguishing features:** Long Stark face; reserved expression
+Distinguishing features: Long Stark face; reserved expression
 
-**Eyes:** Dark grey
+Eyes: Dark grey
 
-**Hair:** Long brown hair
+Hair: Long brown hair
 
-**Height/build:** Approximately 6'3"; tall, fit from sustained training and active campaigning.
+Height/build: Approximately 6'3"; tall, fit from sustained training and active campaigning.
 
-**Heraldry or personal device:** House Stark, a grey direwolf on an ice-white field; words: *Winter Is Coming*.
+Heraldry or personal device: House Stark, a grey direwolf on an ice-white field; words: *Winter Is Coming*.
 
 ## Natural attributes
 
-**Agility:** Good: years in the yard and the saddle; quick enough, not remarkable.
-
-**Appearance:** Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon was.
-
-**Endurance:** Strong: the road from the Vale to the North, long marches and months of campaigning.
-
-**Intelligence:** Good: an educated lord trusted with independent command, not a scholar.
-
-**Perception:** Good: he notices what a commander must; nothing uncanny.
-
-**Strength:** Good: a trained fighting man's strength, well short of Robert's.
-
-**Willpower:** Strong: he survived his family's destruction, took up a lordship he never expected, raised his banners and kept campaigning.
+| Attribute | Detail |
+| --- | --- |
+| Agility | Good: years in the yard and the saddle; quick enough, not remarkable. |
+| Appearance | Ordinary noble bearing, with the solemn Stark face; less handsome than Brandon was. |
+| Endurance | Strong: the road from the Vale to the North, long marches and months of campaigning. |
+| Intelligence | Good: an educated lord trusted with independent command, not a scholar. |
+| Perception | Good: he notices what a commander must; nothing uncanny. |
+| Strength | Good: a trained fighting man's strength, well short of Robert's. |
+| Willpower | Strong: he survived his family's destruction, took up a lordship he never expected, raised his banners and kept campaigning. |
 
 ## Family
 
-**Children:** None in his household. He does not know whether Catelyn is with child.
-
-**Father:** Lord Rickard Stark, deceased
-
-**Mother:** Lady Lyarra Stark.
-
-**Siblings:** Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother
-
-**Spouse:** Lady Catelyn Tully, recently married at Riverrun
+| Family | Detail |
+| --- | --- |
+| Children | None in his household. He does not know whether Catelyn is with child. |
+| Father | Lord Rickard Stark, deceased |
+| Mother | Lady Lyarra Stark. |
+| Siblings | Brandon Stark, deceased; Lyanna Stark, missing; Benjen Stark, living younger brother |
+| Spouse | Lady Catelyn Tully, recently married at Riverrun |
 
 ## Languages
 
@@ -103,137 +97,11 @@ Ned grew up between Winterfell and the Eyrie. Jon Arryn took him into his househ
 | Old Tongue | Fluent | Fluent | Fluent |
 | High Valyrian | Fluent | Decent | Decent |
 
-## Capabilities
+Numeracy/accounting: Trained noble competence; sufficient for orders, tallies, and ordinary estate or campaign figures, but not established as an expert accountant
 
-5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development records progress toward the next rating; a dash means no separate training track.
+Reads: Fluent Common Tongue and Old Tongue; decent High Valyrian.
 
-| Domain | Rating |
-| --- | ---: |
-| Craft | 5 |
-| Diplomacy | 6 |
-| Fieldcraft | 7 |
-| Intrigue | 3 |
-| Learning | 6 |
-| Martial | 6 |
-| Stewardship | 5 |
-
-### Craft
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Armor Repair | 4 | — |
-| Camp Gear Maintenance | 5 | 0 / 16 |
-| Field-Expedient Gear Repair | 2 | — |
-| Leather / Strap Maintenance | 5 | 0 / 16 |
-| Weapon Care | 6 | 0 / 18 |
-
-### Diplomacy
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Bargaining | 3 | — |
-| Court Etiquette | 5 | 0 / 16 |
-| Hospitality | 4 | 0 / 14 |
-| Mediation | 7 | 0 / 20 |
-| Negotiation | 5 | 0 / 16 |
-| Noble Customs | 5 | 0 / 16 |
-| Oratory | 2 | — |
-| Persuasion | 5 | 0 / 16 |
-| Protocol | 5 | 0 / 16 |
-| Public Leadership | 5 | 0 / 16 |
-
-### Fieldcraft
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Camping | 5 | 0 / 16 |
-| Concealment in Wilderness | 3 | — |
-| Forest Travel | 7 | 0 / 20 |
-| Horse Handling | 4 | 0 / 14 |
-| Hunting | 3 | 0 / 12 |
-| Mountain Travel | 3 | 0 / 12 |
-| Navigation | 3 | 0 / 12 |
-| Reading Terrain | 6 | 0 / 18 |
-| Riding | 5 | 0 / 16 |
-| River-Crossing Assessment | 3 | — |
-| Scouting | 3 | 0 / 12 |
-| Survival | 7 | 0 / 20 |
-| Trailcraft | 7 | 0 / 20 |
-
-### Intrigue
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Concealment | 4 | 0 / 14 |
-| Counterintelligence | 2 | 0 / 10 |
-| Deception | 1 | 0 / 8 |
-| Detecting Lies | 2 | 0 / 10 |
-| Eavesdropping | 1 | 0 / 8 |
-| Espionage Management | 1 | — |
-| Information Networks | 3 | 0 / 12 |
-| Rumor | 2 | 0 / 10 |
-| Secret Correspondence | 2 | 0 / 10 |
-| Surveillance | 2 | — |
-
-### Learning
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Campaign Geography | 4 | — |
-| Genealogical Protocol | 4 | — |
-| Genealogy | 4 | 0 / 14 |
-| Geography | 6 | 0 / 18 |
-| Heraldry | 5 | 0 / 16 |
-| History | 6 | 0 / 18 |
-| Law / Feudal Custom | 7 | 0 / 20 |
-| Mathematics / Numeracy | 3 | 0 / 12 |
-| Medicine | 1 | 0 / 8 |
-| Reading | 4 | 0 / 14 |
-| Theology: Old Gods | 7 | 0 / 20 |
-| Writing | 5 | 0 / 16 |
-
-### Martial
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Archery | 2 | 0 / 10 |
-| Armored Fighting | 6 | 0 / 18 |
-| Battlefield Awareness | 6 | 0 / 18 |
-| Cavalry Command | 4 | — |
-| Coalition Battlefield Coordination | 6 | 0 / 18 |
-| Commanding Northmen | 6 | 0 / 18 |
-| Dagger | 3 | 0 / 12 |
-| Defensive Fighting | 4 | 0 / 14 |
-| Formation Command | 6 | 0 / 18 |
-| Formation Fighting | 5 | 0 / 16 |
-| Frontline Leadership | 6 | 0 / 18 |
-| Infantry Command | 5 | — |
-| Lance | 3 | — |
-| Logistics of War | 5 | 0 / 16 |
-| Longsword | 7 | 0 / 20 |
-| Mounted Combat | 5 | 0 / 16 |
-| Protecting Another Person | 5 | — |
-| Shield Use | 4 | 0 / 14 |
-| Strategy | 5 | 0 / 16 |
-| Tactics | 6 | 0 / 18 |
-| Two-Handed Sword | 5 | 0 / 16 |
-| Wrestling / Unarmed | 3 | 0 / 12 |
-
-### Stewardship
-
-| Ability | Rating | Development |
-| --- | ---: | --- |
-| Agriculture | 2 | 0 / 10 |
-| Army Camp Administration | 4 | — |
-| Budgeting | 4 | 0 / 14 |
-| Estate Management | 4 | 0 / 14 |
-| Household Management | 4 | 0 / 14 |
-| Labor Management | 5 | 0 / 16 |
-| Large-Scale Provisioning | 4 | — |
-| Logistics | 6 | 0 / 18 |
-| Provisioning | 5 | 0 / 16 |
-| Record Keeping | 4 | 0 / 14 |
-| Supply | 5 | 0 / 16 |
+Writes: Fluent Common Tongue and Old Tongue; decent High Valyrian.
 
 ## Physical condition
 
@@ -255,39 +123,35 @@ The evening meal is finished; he carries no wound and no sickness.
 
 ## Property and supplies
 
-**Coin:** He has not counted his purse; what coin he carries is unknown.
+Coin: He has not counted his purse; what coin he carries is unknown.
 
-**Horse:** One assigned riding horse, with saddle, bridle and tack, at the northern picket line.
+Horse: One assigned riding horse, with saddle, bridle and tack, at the northern picket line.
 
-**Household:** His campaign household travels with the host.
+Household: His campaign household travels with the host.
 
-**Land:** Winterfell and the lands held by House Stark under Ned's lordship.
+Land: Winterfell and the lands held by House Stark under Ned's lordship.
 
-**Other property:** The arms and property of House Stark, Ice among them; where Ice is tonight is not known.
+Other property: The arms and property of House Stark, Ice among them; where Ice is tonight is not known.
 
-**Residence:** Winterfell.
+Residence: Winterfell.
 
-**Supply:** The camp feeds and waters his men and his horse; his own reserves and medical stores have not been counted.
+Supply: The camp feeds and waters his men and his horse; his own reserves and medical stores have not been counted.
 
 ## Standing and ties
 
-**Claims:** Lordship of Winterfell and Stark authority in the North.
+Claims: Lordship of Winterfell and Stark authority in the North.
 
-**Crimes/accusations:** To the royal government he is a rebel and a traitor; Aerys demanded his head.
+Crimes/accusations: To the royal government he is a rebel and a traitor; Aerys demanded his head.
 
-**Inheritance position:** Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon.
+Inheritance position: Succeeded to Winterfell and the lordship of House Stark after the deaths of Rickard and Brandon.
 
-**Legitimacy/status at birth:** Trueborn second son of Rickard Stark; now the surviving senior son and lawful head of House Stark.
+Legitimacy/status at birth: Trueborn second son of Rickard Stark; now the surviving senior son and lawful head of House Stark.
 
-**Marriage arrangements:** Married to Catelyn Tully; the match is part of the Stark-Tully alliance.
+Marriage arrangements: Married to Catelyn Tully; the match is part of the Stark-Tully alliance.
 
-**Oaths:** He owes his bannermen and household a lord's duty; his obedience to Aerys ended when the king demanded his death.
+Oaths: He owes his bannermen and household a lord's duty; his obedience to Aerys ended when the king demanded his death.
 
-**Reputation:** A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
-
-## Counted resources
-
-Personal balances and counted reserves are not established.
+Reputation: A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
 
 ## Relationships
 
@@ -325,5 +189,143 @@ Personal balances and counted reserves are not established.
 ## Present aim
 
 Help defeat the royal army at the Trident, preserve his northern forces where possible, support Robert and the rebel cause, and survive the coming battle.
+
+## Capabilities
+
+0 untrained · 1 novice · 2 familiar · 3 trained · 4 skilled · 5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development is progress toward the next rating. Used lists the turns in which the ability governed or supported an accepted action.
+
+| Domain | Rating |
+| --- | ---: |
+| Craft | 5 |
+| Diplomacy | 6 |
+| Fieldcraft | 7 |
+| Intrigue | 3 |
+| Learning | 6 |
+| Martial | 6 |
+| Stewardship | 5 |
+
+### Craft
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Camp Gear Maintenance | 5 | 0 / 16 | — |
+| Leather / Strap Maintenance | 5 | 0 / 16 | — |
+| Weapon Care | 6 | 0 / 18 | — |
+
+### Diplomacy
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Court Etiquette | 5 | 0 / 16 | — |
+| Hospitality | 4 | 0 / 14 | — |
+| Mediation | 7 | 0 / 20 | — |
+| Negotiation | 5 | 0 / 16 | — |
+| Noble Customs | 5 | 0 / 16 | — |
+| Persuasion | 5 | 0 / 16 | — |
+| Protocol | 5 | 0 / 16 | — |
+| Public Leadership | 5 | 0 / 16 | — |
+
+### Fieldcraft
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Camping | 5 | 0 / 16 | — |
+| Forest Travel | 7 | 0 / 20 | — |
+| Horse Handling | 4 | 0 / 14 | — |
+| Hunting | 3 | 0 / 12 | — |
+| Mountain Travel | 3 | 0 / 12 | — |
+| Navigation | 3 | 0 / 12 | — |
+| Reading Terrain | 6 | 0 / 18 | — |
+| Riding | 5 | 0 / 16 | — |
+| Scouting | 3 | 0 / 12 | — |
+| Survival | 7 | 0 / 20 | — |
+| Trailcraft | 7 | 0 / 20 | — |
+
+### Intrigue
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Concealment | 4 | 0 / 14 | — |
+| Counterintelligence | 2 | 0 / 10 | — |
+| Deception | 1 | 0 / 8 | — |
+| Detecting Lies | 2 | 0 / 10 | — |
+| Eavesdropping | 1 | 0 / 8 | — |
+| Information Networks | 3 | 0 / 12 | — |
+| Rumor | 2 | 0 / 10 | — |
+| Secret Correspondence | 2 | 0 / 10 | — |
+
+### Learning
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Genealogy | 4 | 0 / 14 | — |
+| Geography | 6 | 0 / 18 | — |
+| Heraldry | 5 | 0 / 16 | — |
+| History | 6 | 0 / 18 | — |
+| Law / Feudal Custom | 7 | 0 / 20 | — |
+| Mathematics / Numeracy | 3 | 0 / 12 | — |
+| Medicine | 1 | 0 / 8 | — |
+| Reading | 4 | 0 / 14 | — |
+| Theology: Old Gods | 7 | 0 / 20 | — |
+| Writing | 5 | 0 / 16 | — |
+
+### Martial
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Archery | 2 | 0 / 10 | — |
+| Armored Fighting | 6 | 0 / 18 | — |
+| Battlefield Awareness | 6 | 0 / 18 | — |
+| Coalition Battlefield Coordination | 6 | 0 / 18 | — |
+| Commanding Northmen | 6 | 0 / 18 | — |
+| Dagger | 3 | 0 / 12 | — |
+| Defensive Fighting | 4 | 0 / 14 | — |
+| Formation Command | 6 | 0 / 18 | — |
+| Formation Fighting | 5 | 0 / 16 | — |
+| Frontline Leadership | 6 | 0 / 18 | — |
+| Logistics of War | 5 | 0 / 16 | — |
+| Longsword | 7 | 0 / 20 | — |
+| Mounted Combat | 5 | 0 / 16 | — |
+| Shield Use | 4 | 0 / 14 | — |
+| Strategy | 5 | 0 / 16 | — |
+| Tactics | 6 | 0 / 18 | — |
+| Two-Handed Sword | 5 | 0 / 16 | — |
+| Wrestling / Unarmed | 3 | 0 / 12 | — |
+
+### Stewardship
+
+| Ability | Rating | Development | Used |
+| --- | ---: | --- | --- |
+| Agriculture | 2 | 0 / 10 | — |
+| Budgeting | 4 | 0 / 14 | — |
+| Estate Management | 4 | 0 / 14 | — |
+| Household Management | 4 | 0 / 14 | — |
+| Labor Management | 5 | 0 / 16 | — |
+| Logistics | 6 | 0 / 18 | — |
+| Provisioning | 5 | 0 / 16 | — |
+| Record Keeping | 4 | 0 / 14 | — |
+| Supply | 5 | 0 / 16 | — |
+
+### Provisional estimates
+Inferred from related abilities; they become established only through evidenced play.
+
+| Ability | Domain | Rating | Used |
+| --- | --- | ---: | --- |
+| Armor Repair | Craft | 4 | — |
+| Army Camp Administration | Stewardship | 4 | — |
+| Bargaining | Diplomacy | 3 | — |
+| Campaign Geography | Learning | 4 | — |
+| Cavalry Command | Martial | 4 | — |
+| Concealment in Wilderness | Fieldcraft | 3 | — |
+| Espionage Management | Intrigue | 1 | — |
+| Field-Expedient Gear Repair | Craft | 2 | — |
+| Genealogical Protocol | Learning | 4 | — |
+| Infantry Command | Martial | 5 | — |
+| Lance | Martial | 3 | — |
+| Large-Scale Provisioning | Stewardship | 4 | — |
+| Oratory | Diplomacy | 2 | — |
+| Protecting Another Person | Martial | 5 | — |
+| River-Crossing Assessment | Fieldcraft | 3 | — |
+| Surveillance | Intrigue | 2 | — |
 
 [Current character sheet](play/character-sheet.md) · [Opening](play/turns/turn-000000.md) · [Background and sources](notes/character-background.md)

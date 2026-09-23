@@ -2,7 +2,7 @@
 
 A repository-based ASOIAF roleplaying campaign. You make decisions in chat. The GM reads the saved story, resolves the action, and commits the scene together with the records it changes. The next chat continues from those files.
 
-**[Start playing](START_HERE.md)** · **[Story 1](stories/story-001/play/README.md)** · **[Story 2](stories/story-002/character-sheet.md)** · **[Starting prompt](START_PROMPT.md)** · **[Costs](docs/costs.md)**
+**[Start playing](START_HERE.md)** · **[Story 1](stories/story-001/play/README.md)** · **[Story 2](stories/story-002/play/README.md)** · **[Starting prompt](START_PROMPT.md)** · **[Costs](docs/costs.md)**
 
 Story 2 is prepared and not started: Jon Snow on the morning of the deserter's execution near Winterfell, 298 AC; say "Start story-002" to accept its opening as Turn 0. Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. The opening is accepted as Turn 0, and the latest supplied character changes have been reconciled into the saved state. Your first resolved action will be Turn 1. Read the scene, then give Ned’s intended action.
 
@@ -15,7 +15,7 @@ Story 2 is prepared and not started: Jon Snow on the morning of the deserter's e
 | Distance catalog and conservative travel helper | Actual journeys, delays and local obstacles |
 | Reusable record templates | Divergences, projects, accounts and consequences |
 
-Validated events are authoritative. Python generates the current sheet, numbered scenes, separate changes and time records, storyline records and resume packet. Closed threads remain retrievable. A story's changes never rewrite the common map or another story.
+Validated events are authoritative. Python generates the reading index, the latest scene, numbered scenes, the whole story, a changes page with time accounting, the current sheet, decisions, threads, world records and the resume point. Closed threads remain retrievable. A story's changes never rewrite the common map or another story.
 
 Turns can cover minutes, days or weeks. The engine checks authorized elapsed time, deadlines, affected records and every tenth-turn assessment. Long intervals require milestones. Abilities and Condition change only with recorded grounds. The GM must still judge evidence, uncertainty and prose honestly; software cannot certify realism.
 
@@ -29,6 +29,6 @@ python -m unittest discover -s tests -v
 python -m scripts.check_stories
 ```
 
-See [the play workflow](docs/play_workflow.md), [record contract](docs/record_contract.md), [story boundaries](stories/README.md), [travel](docs/travel.md), and [verification](BUILD_STATUS.md). The original unrelated dice page is preserved in [archive](archive/README.md).
+Repository hooks in `.claude/settings.json` block hand edits to generated pages and events and run these checks before a turn can end. See [the play workflow](docs/play_workflow.md), [record contract](docs/record_contract.md), [story boundaries](stories/README.md), [travel](docs/travel.md), and [verification](BUILD_STATUS.md). The original unrelated dice page is preserved in [archive](archive/README.md).
 
 The shared catalog preserves 577 source-linked distances and seven road profiles from the supplied [distance workbook](https://docs.google.com/spreadsheets/d/1ZsY3lcDDtTdBWp1Gx6mfkdtZT6-Gk0kdTGeSC_Dj7WM/edit#gid=1). It is a fan-made reference snapshot, not a canon guarantee or a live spreadsheet connection. The [book catalog](references/books.md) contains source guidance, not bundled book texts.

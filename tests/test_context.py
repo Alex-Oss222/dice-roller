@@ -196,6 +196,18 @@ class ContextTests(unittest.TestCase):
         self.assertEqual(record_packet(self.store, "test-clerk")["record"],
                          record_packet(self.store, "world.test-clerk")["record"])
 
+    def test_records_only_history_withholds_prose_and_all_turn_zero_corrections_are_listed(self):
+        self.initialize(workflow_state())
+        self.store.correct(bind_head(self.store, correction()))
+        self.store.correct(bind_head(self.store, correction(request_id="context-second-correction",
+                                                             reason="Second invented repair")))
+        self.assertEqual(2, len(context_packet(self.store)["recent_corrections"]))
+        self.store.advance(advance_payload(self.store, narrative="The clerk closes the test ledger at noon."))
+        withheld = history_packet(self.store, 1, include_prose=False)["accepted_input"]
+        self.assertEqual("[withheld: records-only retrieval]", withheld["narrative"])
+        self.assertEqual(8, withheld["narrative_words"])
+        self.assertIn("closes the test ledger", history_packet(self.store, 1)["accepted_input"]["narrative"])
+
     def test_accepted_opening_uses_the_prose_budget_and_remains_retrievable_as_turn_zero(self):
         opening = "An accepted test opening with precise wording. " * 10
         payload = setup_payload(workflow_state())

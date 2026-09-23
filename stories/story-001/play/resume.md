@@ -9,7 +9,7 @@ Source event hash: `88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff42
 
 Canonical records, relative to this directory: `../campaign/events`.
 
-Current turn: 0. Fictional time: Day 0, 18:00:00.
+Current turn: 0. Fictional time: Day 0, 18:00.
 
 Phase: Pre-battle preparation. Location: Ned's command tent, northern section of the rebel encampment beside the Trident.
 

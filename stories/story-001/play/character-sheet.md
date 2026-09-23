@@ -100,6 +100,12 @@ Heraldry or personal device: House Stark, a grey direwolf on an ice-white field;
 | Old Tongue | Fluent | Fluent | Fluent |
 | High Valyrian | Fluent | Decent | Decent |
 
+Numeracy/accounting: Trained noble competence; sufficient for orders, tallies, and ordinary estate or campaign figures, but not established as an expert accountant
+
+Reads: Fluent Common Tongue and Old Tongue; decent High Valyrian.
+
+Writes: Fluent Common Tongue and Old Tongue; decent High Valyrian.
+
 ## Physical condition
 
 8 — Hale
@@ -150,10 +156,6 @@ Oaths: He owes his bannermen and household a lord's duty; his obedience to Aerys
 
 Reputation: A reserved young lord who raised the northern host and helped relieve Robert at the Bells. Robert and Jon Arryn trust him; other men know him less well.
 
-## Counted resources
-
-Personal balances and counted reserves are not established.
-
 ## Relationships
 
 - Robert Baratheon: foster brother and the closest friend Ned has, raised beside him at the Eyrie. He leads the rebellion in the field and counts on Ned's loyalty and the northern host; Ned marched south for him and stood with him at the Bells.
@@ -193,7 +195,7 @@ Help defeat the royal army at the Trident, preserve his northern forces where po
 
 ## Capabilities
 
-5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development is progress toward the next rating. Used lists the turns in which the ability governed or supported an accepted action.
+0 untrained · 1 novice · 2 familiar · 3 trained · 4 skilled · 5 veteran · 6 highly skilled · 7 expert · 8 exceptional · 9 extraordinary. Development is progress toward the next rating. Used lists the turns in which the ability governed or supported an accepted action.
 
 | Domain | Rating |
 | --- | ---: |

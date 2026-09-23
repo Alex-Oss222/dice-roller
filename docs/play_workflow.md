@@ -4,9 +4,9 @@ The player selects a story, reads its output, and gives the next decision. The G
 
 ## Start and continue
 
-The player can say: “Start Story 1 from its character sheet and opening. Save the output in the repository and send me the reading link.” The GM reads that story's `character-sheet.md`, local instructions, staged `setup.json`, and `opening.md`. Do not ask again for supplied facts or turn examples into a character.
+For a prepared, unstarted story the player can say: “Start story-002 from its character sheet and opening. Save the output in the repository and send me the reading link.” The GM reads that story's `character-sheet.md`, local instructions, staged `setup.json`, and `opening.md`. Do not ask again for supplied facts or turn examples into a character.
 
-Before start, validate that `opening.md` exactly mirrors `setup.json.opening_narrative` and that the prepared opening follows the shared opening guidance in `rules/narrative.md`. Then run the actual repository command `python -m iron_engine --story story-001 start`; do not reproduce its event/hash/render logic outside the engine. Setup is Turn 0. An opening presents the situation for the player's action; it does not authorize invented PC speech, decisions, or a resolved Turn 1. If accepted records already exist, continue from them instead of resetting. The first authorized action produces Turn 1.
+Before start, validate that `opening.md` exactly mirrors `setup.json.opening_narrative` and that the prepared opening follows the shared opening guidance in `rules/narrative.md`. Then run the actual repository command `python -m iron_engine --story <id> start`; do not reproduce its event/hash/render logic outside the engine. Setup is Turn 0. An opening presents the situation for the player's action; it does not authorize invented PC speech, decisions, or a resolved Turn 1. If accepted records already exist, continue from them instead of resetting. The first authorized action produces Turn 1.
 
 For a genuinely new story, `create-story NEW-ID --character-sheet FILE` creates a preparation folder from that character's document. It does not borrow another story's assets, knowledge, history, or choices. Fill only missing essentials before initialization: era, region, permitted books/spoiler scope, character facts, system, starting time/place, established assets, and a `person` record for each principal figure the opening sets against the character, from `templates/person-record.json`. Unknown quantities remain unknown.
 
@@ -16,7 +16,7 @@ For subsequent turns the player can say “Continue Story 1. My next action is �
 2. Establish the objective, maximum authorized elapsed time, and stopping condition. Action comes first; then select the narrowest established capabilities that causally govern its material parts. Their actual ratings limit what the character can perceive, understand and accomplish. Record the primary capability for the main uncertainty and any other materially relevant abilities as supporting capabilities with explicit roles. Research consequential uncertainty and adjudicate from those abilities, knowledge, preparation, opposition, and circumstances before drafting the result.
 3. Write the narrative once under `rules/narrative.md`, identify the actual pending player decision if one stops further authorized activity, and prepare compact changes with evidence. Account for affected records, due consequences, and any required review or long-interval milestones.
 4. Submit one `advance` input with `next_decision` set to that pending decision or `null`. The engine validates it, applies changes once, saves the event and full resulting state, copies the pending decision into the resume state, and regenerates the reading views using `templates/turn-output.md`.
-5. Inspect and publish the accepted event and refreshed views together. Verify the remote commit by fetching and showing that the remote head equals the local commit, then reply briefly: “Turn N is saved. Read it here.” with that one line of output.
+5. Inspect and publish the accepted event and refreshed views together, verify and show publication, and reply as AGENTS.md (Save and publish) specifies.
 
 The player does not maintain JSON, copy summaries between chats, or update the sheet by hand. A new chat with repository tools resumes from the saved records. Actual reading and writing must succeed before it reports completion.
 
@@ -32,7 +32,7 @@ python -m iron_engine --story story-001 record RECORD-ID
 python -m iron_engine --story story-001 history --turn 12
 ```
 
-The packet keeps current identity, physical state, capability ratings, obligations, deadlines, unfinished plans, and open record indexes available. Settled records remain searchable; their closed status removes a follow-up from active work without undoing its facts. Retrieve relevant deaths, divergences and linked causes before relying on a canonical event or person's availability. `records` can search by text or filter by kind/status and page through the full index. Focused records supply details and links. Recent prose is bounded, with explicit references for omitted text. `--max-chars` limits only those narrative excerpts, not the whole packet or its token count; mandatory state and selected records remain complete.
+The packet keeps current identity, physical state, capability ratings with their bases and use turns (`capability_index`), disposition, obligations, deadlines, unfinished plans, and open record indexes available. Settled records remain searchable; their closed status removes a follow-up from active work without undoing its facts. Retrieve relevant deaths, divergences and linked causes before relying on a canonical event or person's availability. `records` can search by text or filter by kind/status and page through the full index. Focused records supply details and links. Recent prose is bounded, with explicit references for omitted text. `--max-chars` limits only those narrative excerpts, not the whole packet or its token count; mandatory state and selected records remain complete.
 
 Use the index to retrieve what matters. Before changing a capability, read its actual evidence/training; before resolving a storyline, read its record and causal history. Retrieve the full ten-turn evidence window when a review is due. Summaries never license invented missing facts. Reuse checked research and browse again for unresolved material questions.
 
@@ -46,7 +46,7 @@ Prepared workflow stories select `campaign.workflow_version: "1"` with adjudicat
 python -m iron_engine --story story-001 advance stories/story-001/.work/advance.json
 ```
 
-Each input has the current `expected_hash`/`expected_turn`, a stable unique `request_id`, actual result/prose, and positive elapsed seconds. Operations name expected old values and causal evidence. The engine owns counters and resource arithmetic. It rejects stale drafts, unsupported paths, inconsistent coverage, lost task/record IDs, unsettled deadlines, missing reviews, and time beyond authorization. A research or correction event also makes an earlier hash stale; reconcile the action against current facts instead of merely changing its hash.
+Each input has the current `expected_hash`/`expected_turn`, a stable unique `request_id`, actual result/prose, and positive elapsed seconds. Operations name expected old values and causal evidence. The engine owns counters and resource arithmetic. It rejects stale drafts, unsupported paths, inconsistent coverage, lost task/record IDs, unsettled deadlines, missing reviews, time beyond authorization, mechanics inside the narrative, a routine advance that records a death, a lowered Condition or a divergence without a named ability, and a rating rise of more than one step. A research or correction event also makes an earlier hash stale; reconcile the action against current facts instead of merely changing its hash.
 
 Open world records include both active and blocked matters. If their deadline passes, settle them explicitly or record a future deadline with a reason; marking them blocked does not make the obligation disappear. A newly discovered resource amount can be recorded with `resource_establish`, including an established zero. Use `resource_adjust` thereafter. Unknown balances stay unknown until evidence establishes them.
 
@@ -64,7 +64,7 @@ Use the slowest applicable travel profile for the actual party. Routine sleep an
 
 The turn header gives its elapsed duration, ending time and location. `play/changes.md` records elapsed time for each turn and the cumulative time since the accepted opening. For actual travel, maintain one journey record with the route, current position, distance basis and units. Its `details` can use `distance_this_turn`, `distance_total`, `distance_remaining` and `travel_seconds_this_turn`, plus the party profile and separately explained delays. Distinguish walking/riding time from the full turn interval. Unknown distance is not zero; a planned route length is not distance already covered. Replace the journey's cumulative snapshot when progress changes rather than repeatedly adding old totals, and identify new legs or return trips explicitly.
 
-Turns 10, 20, and so on require the six-part evidence-based review in that same event: results, decisions, capabilities, position, GM consistency, and next constraint. A fresh-context reviewer agent writes it from the window's records rather than its prose; the capabilities finding lists every ability used in the window and credits or declines each. Support favorable and adverse findings alike. The boundary grants no automatic skill rise, healing, income, or punishment. Reviews appear in `play/changes.md`, never appended to the scene.
+Turns 10, 20, and so on require the six-part evidence-based review in that same event: results, decisions, capabilities, position, GM consistency, and next constraint, written as rules/iron_engine.md §9 describes. Support favorable and adverse findings alike. The boundary grants no automatic skill rise, healing, income, or punishment. Reviews appear in `play/changes.md`, never appended to the scene.
 
 An interval of at least 30 days also requires ordered milestones through its endpoint. Account for intermediate progress/failure, expenses/receipts, physical change, training evidence, and news when relevant. Milestones do not replace state operations, due-task settlement, or the tenth-turn review. Use enough milestones for the actual consequences, not two decorative timestamps.
 
@@ -77,7 +77,7 @@ The story's `play/README.md` is the entry point. Generated views include:
 | Page | Purpose |
 | --- | --- |
 | `latest.md` | Current opening or latest accepted turn |
-| `turns/turn-000001.md`, etc. | Individual accepted-turn reading pages |
+| `turns/turn-NNNNNN.md` | Individual accepted-turn reading pages, from `turn-000000.md` for the opening |
 | `story.md` | Accepted prose in chronological order |
 | `changes.md` | Per-turn time accounting, material record changes, evidence and scheduled reviews |
 | `character-sheet.md` | Current character and recorded possessions/obligations |
@@ -102,7 +102,7 @@ Shared engine, rules, books, distances, and templates serve every story. Ordinar
 
 Exact request-ID retries return the accepted result without another turn, interval, payment, or roll. If publication fails, retain that event and retry publishing it. Never reinitialize, reroll, force-push, or overwrite concurrent work to repair an upload. Publish events and views as one coherent Git change and verify the remote commit before claiming success.
 
-Research, correction, and checkpoint events consume no fictional time. Research grants no character knowledge. A checkpoint preserves pending player-safe stakes/resume details in `resume_note`; a resolved turn clears it. Records are player-readable, with no durable hidden GM store.
+Research, correction, and checkpoint events consume no fictional time. Research grants no character knowledge. A checkpoint preserves pending player-safe stakes/resume details in `resume_note`; an advance replaces it with its own `next_decision`. Records are player-readable, with no durable hidden GM store.
 
 Git preserves the event chain. The GM can also export a complete story save every tenth turn, at session end, on request, and after death. Exports belong in the story's ignored `saves/` folder. They need the matching shared baseline for a complete handoff. Restore only into an empty matching destination. Compare the latest confirmed Git commit before treating an older valid prefix as current.
 

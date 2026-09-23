@@ -1,35 +1,31 @@
 # Integration and verification
 
-Repository: [Alex-Oss222/dice-roller](https://github.com/Alex-Oss222/dice-roller). Reviewed 22 September 2026.
+Repository: [Alex-Oss222/dice-roller](https://github.com/Alex-Oss222/dice-roller). Reviewed 23 September 2026.
 
 ## Implemented
 
-The shared base separates engine/state, narrative rules, resolved-turn presentation, travel, and story-owned records. Workflow 1 accepts compact evidenced advances with explicit authorization, adjudication, coverage, deadlines, reviews, long-interval milestones and a player-facing `next_decision`. The accepted pending decision is preserved in resume state and rendered under `Next`.
+The shared base separates engine and state, narrative rules, resolved-turn presentation, travel, and story-owned records. Workflow 1 accepts compact evidenced advances with explicit authorization, adjudication (a primary ability and supporting abilities with roles), coverage, deadlines, reviews, long-interval milestones and a player-facing `next_decision`. The engine refuses mechanics inside the narrative, refuses routine mode with no ability when an advance records a death, a lowered Condition or a divergence, caps a trainable rating at one step per event, and validates journey progress keys. The context packet carries each rating with its basis and the turns it has governed, plus the character's disposition; `history --turn N --no-prose` serves a records-only reviewer.
 
-Generated reading views include the current story, character, resume point, storylines/world records and a derived decision index. The decision index is not a second truth store; it is built from accepted turn events.
+Generated reading views are the ten pages listed in [the record contract](docs/record_contract.md#generated-reading-views). Turn pages follow the template exactly; the changes page groups material updates per turn with plain time and duration; the sheet reads person first with the rating tables as an appendix and a use column.
 
-Shared baseline drift now covers the active workflow/record contract, travel policy, advance template and turn-output template in addition to the engine, rules, book policy, research policy and distance data. Ordinary story play cannot silently adopt a changed shared contract.
+Shared baseline drift covers the engine modules, rules, `AGENTS.md`, the workflow and record contracts, research and travel policy, distance data, the advance template and the turn-output template (`FIXED_SHARED` in `iron_engine/stories.py`). Ordinary story play cannot silently adopt a changed shared contract; a reviewed re-pin is recorded in each story's `notes/baseline-adoption.md`.
 
-Conservative travel uses the slowest applicable party profile. Daily rest and meals are included by the stated house convention; actual extra delays are added once. The source distance snapshot remains shared and story-local obstacles remain local.
+Repository hooks (`.claude/settings.json`, `scripts/hooks/`) block direct edits under any story's `play/` and `campaign/events/`, refuse to end a turn while story validation or the test suite fails, and print the baseline check at session start.
 
-There is still no economy simulator. Numerical resources are established only from actual evidence, and account notes are descriptive. Unknown balances remain unknown until a future shared economy module or in-story evidence establishes them.
+Conservative travel uses the slowest applicable party profile. There is no economy simulator; unknown balances remain unknown.
 
-## Story 1
+## Stories
 
-Story 1 has its accepted Turn 0 setup and a transparent Turn 0 correction incorporating the player's latest uploaded character sheet. No resolved Turn 1 exists. The correction preserves the original setup event, applies the changed abilities and leather/mail inventory, and accepts an opening stripped of mechanical commentary. The campaign clock remains at Day 0, 18:00, mapped to the chosen first day of the first moon, 283 AC.
+Story 1 (Eddard Stark, Trident eve, 283 AC) is started: Turn 0 setup plus two Turn 0 corrections (the 22 September sheet reconciliation and the 23 September wording rewrite), no resolved turn. Its person records predate the opposition rule and carry no ratings; they are filled at first contested contact.
 
-The uploaded sheet is preserved as source input. Learning and Craft totals and Development denominators are recalculated; Diplomacy anchors reflect the uploaded mediation strength. The current sheet is generated from the corrected state. Shared presentation changes do not alter another story's character, distances or history.
-
-Narrative pages contain only the agreed presentation. Detailed changes, time accounting and assessments have their own page. Focused context follows related persistent divergences even after their immediate follow-up has closed. Journey distances require explicit accepted records; the renderer does not infer mileage from location names.
+Story 2 (Jon Snow, the deserter's execution near Winterfell, 298 AC) is prepared and not started, with opposition and household person records in its staged setup.
 
 ## Verification
 
-The GitHub workflow runs the complete Python test suite and story validation. Story validation checks the selected baseline, validates staged setup in a disposable store, and renders the staged reading views without touching the live campaign.
+The GitHub workflow and the Stop hook run the complete test suite and `scripts/check_stories.py`, which checks every story's baseline, validates staged setups in a disposable store, and renders staged views without touching a live campaign.
 
-Tests cover immutable replay, stale-input rejection, exact retries, deadline settlement, authorization, reviews, capability development, Condition, compact operations, resource establishment, typed world records, story isolation, focused context, start/resume behavior, opening/setup synchronization, turn presentation, pending-decision persistence and generated decision indexing.
+Tests cover immutable replay, stale-input rejection, exact retries, deadline settlement, authorization, reviews, capability development and the one-step cap, Condition, compact operations, resource establishment, typed world records and person ratings, story isolation, focused context including the capability index and records-only history, start and resume behaviour, opening and setup synchronization, turn presentation, the narrative lint, the named-ability guard, pending-decision persistence and generated decision indexing.
 
 ## Limits
 
-The GM remains responsible for lore, fair causal adjudication, truthful authorization and coherent prose. Schema checks cannot prove literary quality or factual judgment. Records are player-readable; no hidden GM store exists.
-
-The engine saves events and renders views. Publication still occurs through the available GitHub connection and must be verified before completion is claimed. The world never advances unattended.
+The GM remains responsible for lore, fair causal adjudication, truthful authorization and coherent prose. Schema checks cannot prove literary quality or factual judgment. Records are player-readable; no hidden GM store exists. Publication occurs through the available GitHub connection and must be verified and shown before completion is claimed. The world never advances unattended.

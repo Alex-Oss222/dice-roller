@@ -6,32 +6,16 @@ from pathlib import Path
 import stat
 import tempfile
 
-from .engine import CampaignError, CampaignStore
-from .character_view import render_character_sheet
+from .engine import OPEN_STATUSES, TURN_KINDS, CampaignError, CampaignStore, opening_event as _opening_event
+from .character_view import _cell, render_character_sheet
 from .condition import condition_summary
 
 
 FILENAMES = ("story.md", "character-sheet.md", "resume.md")
-CURRENT_FILENAMES = FILENAMES + ("README.md", "latest.md", "threads.md", "world.md", "decisions.md", "changes.md")
-TURN_KINDS = {"turn", "advance"}
 
 
 def _marker(filename: str) -> str:
     return f"<!-- iron-engine-generated:{filename}:v1 -->"
-
-
-def _time(seconds: int) -> str:
-    day, rest = divmod(seconds, 86400)
-    hour, rest = divmod(rest, 3600)
-    minute, second = divmod(rest, 60)
-    return f"Day {day}, {hour:02}:{minute:02}:{second:02}"
-
-
-def _duration(seconds: int) -> str:
-    day, rest = divmod(seconds, 86400)
-    hour, rest = divmod(rest, 3600)
-    minute, second = divmod(rest, 60)
-    return f"{day} days, {hour} hours, {minute} minutes, {second} seconds"
 
 
 def _clock(seconds: int) -> str:
@@ -64,13 +48,8 @@ def _value(value) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
-def _cell(value) -> str:
-    return str(value).replace("|", "\\|").replace("\n", "<br>")
-
-
-def _header(filename: str, title: str, head: str, records: str, *, historical=False) -> str:
-    reference = ("This page records one accepted event. Check [the latest view](../latest.md) for the current head and later corrections."
-                 if historical else "Compare with the ledger's current `head` to detect a stale view.")
+def _header(filename: str, title: str, head: str, records: str) -> str:
+    reference = "Compare with the ledger's current `head` to detect a stale view."
     return (
         f"{_marker(filename)}\n"
         f"<!-- source-event-hash:{head} -->\n\n"
@@ -164,7 +143,7 @@ def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
         elif field == "alive":
             label, change = "Life status", "living" if after[field] else "dead"
         elif field == "death":
-            change = f"{after[field]['cause']} at {_time(after[field]['time_seconds'])}"
+            change = f"{after[field]['cause']} at {_clock(after[field]['time_seconds'])}"
         else:
             lines.extend(_changed_values(label, before.get(field), after.get(field)))
             lines.append(f"  Evidence: {basis}")
@@ -173,7 +152,7 @@ def _turn_ledger(before: dict, after: dict, payload: dict) -> str:
     return "### Changes\n\n" + "\n".join(lines) if lines else ""
 
 
-def _turn_scene(event: dict, before: dict) -> str:
+def _turn_scene(event: dict) -> str:
     state, payload = event["state"], event["input"]
     condition = state["character"].get("condition")
     condition_rating = condition["rating"] if condition is not None else "Not established"
@@ -294,11 +273,6 @@ def _correction_note(event: dict, before: dict) -> str:
     return "\n\n".join(lines)
 
 
-def _opening_event(events: list[dict]) -> dict | None:
-    return next((event for event in reversed(events) if event["kind"] in {"setup", "correction"}
-                 and event["input"].get("opening_narrative")), None)
-
-
 def _opening(events: list[dict]) -> str:
     event = _opening_event(events)
     narrative = event["input"]["opening_narrative"] if event is not None else None
@@ -312,13 +286,11 @@ def _story(events: list[dict]) -> str:
         return ("Awaiting setup. No character state has been initialized and no turns have been saved in the ledger. "
                 "A supplied starting character sheet may exist in the selected story's root folder.\n")
     segments = []
-    if _opening_event(events) is not None:
+    if _opening_event(events) is not None or not any(event["kind"] in TURN_KINDS for event in events):
         segments.append(_opening(events))
-    if not segments and not any(event["kind"] in TURN_KINDS for event in events):
-        segments.append(_opening(events))
-    for index, event in enumerate(events):
+    for event in events:
         if event["kind"] in TURN_KINDS:
-            segments.append(_turn_scene(event, events[index - 1]["state"]))
+            segments.append(_turn_scene(event))
     return "\n\n".join(segments) + "\n"
 
 
@@ -362,7 +334,7 @@ def _journey_notes(before: dict, after: dict) -> str:
     records = after.get("world", {}).get("records", {})
     selected = [(record_id, record) for record_id, record in sorted(records.items())
                 if record["kind"] == "journey" and
-                (record["status"] in {"active", "blocked"} or old_records.get(record_id) != record)]
+                (record["status"] in OPEN_STATUSES or old_records.get(record_id) != record)]
     if not selected:
         return "Journey distance for this interval: not recorded."
     lines = ["### Journey records", "Distances and progress below are recorded facts, not estimates from elapsed time."]
@@ -459,7 +431,7 @@ def _resume(events: list[dict]) -> str:
         )
     state = events[-1]["state"]
     character = state["character"]
-    lines = [f"Current turn: {state['turn']}. Fictional time: {_time(state['time_seconds'])}.",
+    lines = [f"Current turn: {state['turn']}. Fictional time: {_clock(state['time_seconds'])}.",
              f"Phase: {state['phase']}. Location: {state['location']}.",
              f"Character: {character['name']}. Aim: {character['aim']}",
              f"Age: {character['age']}. Condition: {condition_summary(character)}.",
@@ -475,21 +447,21 @@ def _resume(events: list[dict]) -> str:
     else:
         lines.append(f"Objective: {plan['objective']}")
         if plan["endpoint_seconds"] is not None:
-            lines.append(f"Planned endpoint: {_time(plan['endpoint_seconds'])}.")
+            lines.append(f"Planned endpoint: {_clock(plan['endpoint_seconds'])}.")
         if plan["remaining_seconds"] is not None:
-            lines.append(f"Recorded time remaining: {_duration(plan['remaining_seconds'])}.")
+            lines.append(f"Recorded time remaining: {_span(plan['remaining_seconds'])}.")
         lines.append("Stopping conditions:\n\n" + ("\n".join(f"- {item}" for item in plan["stopping_conditions"]) or "None recorded."))
     lines.extend(["## Obligations", "\n".join(f"- {item}" for item in state["obligations"]) or "None recorded.", "## Tasks"])
     if not state["tasks"]:
         lines.append("None recorded.")
     for task in state["tasks"]:
-        due = "no deadline" if task["due_seconds"] is None else _time(task["due_seconds"])
+        due = "no deadline" if task["due_seconds"] is None else _clock(task["due_seconds"])
         lines.append(f"- {task['id']} [{task['status']}]: {task['description']}. Due: {due}. Note: {task['note'] or 'None recorded.'}")
     lines.extend(["## Continuing world", "[All persistent records](world.md) and [active and closed threads](threads.md). "
                   "Use the focused context packet to inspect relevant records and every open deadline before advancing."])
     lines.append("## Continue")
     if not state["alive"]:
-        lines.append(f"This character is dead: {state['death']['cause']} at {_time(state['death']['time_seconds'])}. "
+        lines.append(f"This character is dead: {state['death']['cause']} at {_clock(state['death']['time_seconds'])}. "
                      "Do not advance this character or reverse the death. A successor requires an agreed separate setup.")
     lines.append(
         "Read AGENTS.md, rules/iron_engine.md, and docs/play_workflow.md. The context command validates the entire "
@@ -551,15 +523,15 @@ def _threads(events: list[dict]) -> str:
         lines.append(f"## {label}")
         entries = []
         for task in state["tasks"]:
-            if (task["status"] in {"active", "blocked"}) == active:
-                due = _time(task["due_seconds"]) if task["due_seconds"] is not None else "not scheduled"
+            if (task["status"] in OPEN_STATUSES) == active:
+                due = _clock(task["due_seconds"]) if task["due_seconds"] is not None else "not scheduled"
                 entries.append(f"- Task {task['id']} [{task['status']}]: {task['description']}. Due: {due}. "
                                f"{task['note']}")
         for record_id, record in sorted(state.get("world", {}).get("records", {}).items()):
             if record["kind"] not in {"thread", "project", "journey"}:
                 continue
-            if (record["status"] in {"active", "blocked"}) == active:
-                due = _time(record["due_seconds"]) if record["due_seconds"] is not None else "not scheduled"
+            if (record["status"] in OPEN_STATUSES) == active:
+                due = _clock(record["due_seconds"]) if record["due_seconds"] is not None else "not scheduled"
                 entries.append(f"- {record_id} [{record['status']}]: {record['title']}. {record['summary']} "
                                f"Due: {due}. Full record: [world.md](world.md).")
         lines.append("\n".join(entries) or "None recorded.")
@@ -578,12 +550,12 @@ def _decisions(events: list[dict]) -> str:
         lines.append("No resolved player decisions yet. Turn 0 is setup, not a resolved action.")
     for event in resolved:
         payload, state = event["input"], event["state"]
-        lines.extend([f"## Turn {state['turn']} | {_time(state['time_seconds'])}",
+        lines.extend([f"## Turn {state['turn']} | {_clock(state['time_seconds'])}",
                       f"Objective: {payload['objective']}",
                       f"Outcome: {payload['outcome']}"])
         authorization = payload.get("authorization")
         if authorization is not None:
-            lines.append(f"Authorized scope: up to {_duration(authorization['max_elapsed_seconds'])}; "
+            lines.append(f"Authorized scope: up to {_span(authorization['max_elapsed_seconds'])}; "
                          f"stop condition: {authorization['stop_condition']}")
         if payload.get("next_decision"):
             lines.append(f"Pending next decision: {payload['next_decision']}")
@@ -598,7 +570,7 @@ def _latest(events: list[dict]) -> str:
     indices = [index for index, event in enumerate(events) if event["kind"] in TURN_KINDS]
     if indices:
         index = indices[-1]
-        return _turn_scene(events[index], events[index - 1]["state"]) + "\n"
+        return _turn_scene(events[index]) + "\n"
     return _opening(events) + "\n"
 
 
@@ -707,7 +679,7 @@ def render_campaign(store: CampaignStore, output_dir: str | os.PathLike = "play"
             continue
         turn = event["state"]["turn"]
         name = f"turns/turn-{turn:06d}.md"
-        body = _turn_scene(event, events[index - 1]["state"]) + "\n"
+        body = _turn_scene(event) + "\n"
         contents[name] = (_story_header(name, event["hash"]) + body).encode("utf-8")
     files = {name: output / name for name in contents}
     staging = []

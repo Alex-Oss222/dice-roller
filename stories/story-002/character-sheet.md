@@ -5,11 +5,11 @@
 | Starting record | Details |
 | --- | --- |
 | Date | Ninth year of summer, 298 AC; a clear cold morning |
-| Time | About 08:00, riding out from Winterfell |
+| Time | About 08:00, at the holdfast |
 | Turn | 0 · not started |
 | Age | 14; born 283 AC, at the end of the rebellion |
 | Standing | Acknowledged bastard son of Lord Eddard Stark, raised at Winterfell |
-| Location | The road into the hills north of Winterfell, riding to the holdfast where a deserter is held |
+| Location | The yard of a holdfast in the hills north of Winterfell, where a deserter is held |
 | Condition | 8 — Hale |
 | Resolution | Adjudicated; Blood & Gold 0 to 9 capabilities |
 

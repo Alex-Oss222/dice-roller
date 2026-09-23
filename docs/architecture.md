@@ -17,15 +17,15 @@ Each story owns its character preparation, selected systems, setup/opening, acce
 ## Prompt to published output
 
 1. Select the explicit story.
-2. If unstarted, read its starting sheet, scoped instructions, setup, opening and setup decisions. Validate the pinned shared baseline and exact opening/setup mirror.
-3. If started, validate the whole event chain and load focused context. Retrieve relevant people, storylines, capability evidence and older turns by stable ID only as needed.
+2. If unstarted, read its starting sheet, scoped instructions, setup, opening and setup decisions. Validate the pinned shared baseline, the exact opening/setup mirror, and that every principal opposing figure has a person record.
+3. If started, validate the whole event chain and load focused context (current state, capability index with bases and use turns, disposition, open records). Retrieve relevant people, storylines, capability evidence and older turns by stable ID only as needed.
 4. Parse the player's authorization into objective, maximum elapsed time and stopping condition.
 5. Apply only relevant shared systems, such as research, capabilities, Condition and travel. Do not invoke an absent economy model.
 6. Adjudicate the actual result before prose, using character knowledge, capability, preparation, opposition, resources, physical constraints and established world state.
 7. Write the scene once under the narrative rules. Identify the real unresolved `next_decision`, or null.
-8. Submit one compact `advance` transaction with the current hash/turn, evidence-backed operations, coverage, deadlines, review/milestones when due, and `next_decision`.
+8. Submit one compact `advance` transaction with the current hash/turn, evidence-backed operations, coverage, deadlines, milestones when due, the tenth-turn review from a fresh-context reviewer when due, and `next_decision`.
 9. The engine validates and accepts exactly one event, derives the full resulting state, stores the pending decision in `resume_note`, and renders all reading pages.
-10. Publish the accepted event and all changed generated views together in one coherent Git commit. Verify the remote head and checks. A publication retry never re-adjudicates or advances again.
+10. Publish the accepted event and all changed generated views together in one coherent Git commit. Verify and show that the fetched remote head equals the local commit. A publication retry never re-adjudicates or advances again.
 11. Return the reading link and wait for the player's next decision.
 
 ## Persistent records

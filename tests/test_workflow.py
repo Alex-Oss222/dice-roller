@@ -19,7 +19,7 @@ def world_record(kind="person", title="Invented test clerk", due=None, **overrid
     record = {
         "kind": kind, "title": title, "status": "active", "summary": "Explicit test facts, not published canon",
         "participants": [], "links": [], "known_by": ["pc"], "due_seconds": due,
-        "details": {"accounts": "Established test bookkeeping experience"}, "evidence_turns": [0],
+        "details": {"accounts": "3", "accounts basis": "Established test bookkeeping experience"}, "evidence_turns": [0],
     }
     record.update(deepcopy(overrides))
     return record

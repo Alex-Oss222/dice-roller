@@ -76,7 +76,7 @@ These illustrate how the same cause can produce different function. Use the actu
 | 2 | Wounded | Life-threatening wound |
 | 1 | Wounded, Bleeding | Actively dying |
 
-The earlier minor/serious/critical/fatal wound descriptions remain detailed classifications. They are not an automatic conversion table to Condition. A high aggregate score cannot cancel a specific restriction, such as inability to use an injured limb.
+The minor/serious/critical/fatal wound descriptions in [the play rules, section 7](iron_engine.md) remain detailed classifications. They are not an automatic conversion table to Condition. A high aggregate score cannot cancel a specific restriction, such as inability to use an injured limb.
 
 ## Illness examples
 

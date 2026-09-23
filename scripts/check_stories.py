@@ -1,4 +1,4 @@
-"""Validate each selected story without creating or advancing any campaign."""
+"""Validate every story folder. Prepared setups are dry-run in a temporary store; no story's campaign is created or advanced."""
 
 from pathlib import Path
 import tempfile

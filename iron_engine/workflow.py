@@ -8,7 +8,8 @@ authorization is true. Account notes are descriptive; no economy is simulated.
 import copy
 import re
 
-from .engine import _canonical, _fail, _integer, _list, _object, _string
+from .capabilities import SYSTEM
+from .engine import OPEN_STATUSES, _canonical, _fail, _integer, _list, _object, _string
 
 
 VERSION = "1"
@@ -24,7 +25,8 @@ NARRATIVE_MARKERS = (
 LONG_INTERVAL = 30 * 86400
 WORLD_KINDS = {"person", "thread", "fact", "divergence", "project", "journey", "account_note"}
 WORLD_STATUSES = {"active", "blocked", "completed", "failed", "expired", "abandoned", "closed", "dead"}
-OPEN_WORLD_STATUSES = {"active", "blocked"}
+OPEN_WORLD_STATUSES = OPEN_STATUSES
+RATING = re.compile(r"[0-9]\Z")
 WORLD_FIELDS = {"kind", "title", "status", "summary", "participants", "links", "known_by", "due_seconds", "details", "evidence_turns"}
 COVERAGE_FIELDS = {
     "character": ("character", "alive", "death"),
@@ -103,6 +105,8 @@ def validate_world(state):
             _string(value, f"world.{record_id}.details.{key}")
             if record["kind"] == "journey" and key.startswith(("distance", "travel_seconds")) and key not in JOURNEY_DISTANCE_KEYS:
                 _fail(f"Journey {record_id} uses an unknown progress key {key}; use {sorted(JOURNEY_DISTANCE_KEYS)}")
+            if record["kind"] == "person" and RATING.fullmatch(value) and f"{key} basis" not in record["details"]:
+                _fail(f"Person {record_id} rates {key} without a '{key} basis' detail explaining it")
         _evidence(record["evidence_turns"], state["turn"], f"world.{record_id}.evidence_turns")
         due = record["due_seconds"]
         if due is not None:
@@ -220,7 +224,9 @@ def _adjudication_capability(before, actor, source, capabilities, reference, lab
         _string(reference["role"], f"{label}.role")
     if reference["source"] != source or key not in capabilities:
         _fail("The relevant capability source must belong to the actor and exist before this action")
-    if actor == "pc" and before["campaign"].get("capability_system") == "blood_and_gold_0_9":
+    if actor != "pc" and not RATING.fullmatch(str(capabilities[key])):
+        _fail(f"Person detail {key} is not a 0 to 9 rating; adjudicate from a rated ability")
+    if actor == "pc" and before["campaign"].get("capability_system") == SYSTEM:
         metadata = before["character"]["capabilities"][key]
         if metadata["kind"] == "domain":
             _fail("Blood & Gold adjudication must use a specific subskill, specialty, or derived ability; a broad domain cannot substitute for the action skill")

@@ -42,6 +42,7 @@ def main(argv=None, *, root=None) -> int:
     records.add_argument("--limit", type=int, default=25)
     history = subparsers.add_parser("history", help="Retrieve one saved turn without loading the entire journal")
     history.add_argument("--turn", type=int, required=True)
+    history.add_argument("--no-prose", action="store_true", help="Withhold the scene text; records only, for a fresh-context reviewer")
     subparsers.add_parser("validate")
     subparsers.add_parser("status")
     subparsers.add_parser("head", help="Print the latest event hash for expected_hash")
@@ -91,7 +92,7 @@ def main(argv=None, *, root=None) -> int:
         if story is not None:
             story.validate()
             mutations = {"start", "init", "advance", "turn", "research", "correct", "checkpoint", "restore"}
-            if args.command in mutations | {"travel", "distance", "travel-profiles"}:
+            if args.command in mutations:
                 story.require_current_baseline()
             else:
                 mismatches = story.baseline_mismatches()
@@ -131,7 +132,7 @@ def main(argv=None, *, root=None) -> int:
                 result = record_index_packet(store, query=args.query, kind=args.kind, status=args.status,
                                              offset=args.offset, limit=args.limit)
             else:
-                result = history_packet(store, args.turn)
+                result = history_packet(store, args.turn, include_prose=not args.no_prose)
             print(json.dumps(result, ensure_ascii=False, indent=2))
         elif args.command == "start":
             if story is None:

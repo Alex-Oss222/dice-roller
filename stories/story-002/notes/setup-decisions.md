@@ -28,3 +28,7 @@ Two threads are open: the execution now under way, and Jon's place, which nothin
 ## Continuity
 
 The working book scope is the five published novels. Nothing after this morning is preloaded: not the direwolves, the raven, the royal visit, the oath, or his mother. Later choices and consequences belong to this story and do not alter shared distances, the books or another story.
+
+## Baseline
+
+Story 2 was created on 23 September 2026 against the reviewed shared baseline and re-pinned the same day after the repository cleanup, before any start. No event exists, so nothing replays.

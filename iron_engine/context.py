@@ -9,11 +9,7 @@ from __future__ import annotations
 from copy import deepcopy
 import json
 
-from .engine import CampaignError, CampaignStore
-
-
-TURN_KINDS = {"turn", "advance"}
-OPEN_STATUSES = {"active", "blocked"}
+from .engine import OPEN_STATUSES, TURN_KINDS, CampaignError, CampaignStore, opening_event as _opening_event
 
 
 def _count(value, label, *, minimum=0):
@@ -33,14 +29,6 @@ def _ids(value, label):
 def _event_reference(store, event):
     return {"event_hash": event["hash"], "sequence": event["sequence"],
             "event_file": str(store.path / "events" / f"{event['sequence']:06d}.json")}
-
-
-def _opening_event(events):
-    """The latest accepted pre-play wording, retaining original setup evidence."""
-    return next((event for event in reversed(events)
-                 if event["kind"] in {"setup", "correction"}
-                 and event["state"]["turn"] == 0
-                 and "opening_narrative" in event["input"]), None)
 
 
 def _record_index(record_id, record):
@@ -158,8 +146,20 @@ def record_packet(store: CampaignStore, record_id: str) -> dict:
             "knowledge_note": "A player-safe record is not automatically knowledge possessed by the PC; inspect known_by."}
 
 
-def history_packet(store: CampaignStore, turn: int) -> dict:
-    """Retrieve one accepted turn and its same-turn OOC notes, not the chain."""
+def _maybe_strip(payload, include_prose):
+    packet = deepcopy(payload)
+    if not include_prose and "narrative" in packet:
+        packet["narrative_words"] = len(packet["narrative"].split())
+        packet["narrative"] = "[withheld: records-only retrieval]"
+    return packet
+
+
+def history_packet(store: CampaignStore, turn: int, *, include_prose: bool = True) -> dict:
+    """Retrieve one accepted turn and its same-turn OOC notes, not the chain.
+
+    include_prose=False replaces the narrative with its length, for a reviewer
+    who must judge the records rather than the scene.
+    """
     _count(turn, "turn")
     events = store.validate()
     matching = [(index, event) for index, event in enumerate(events)
@@ -175,7 +175,7 @@ def history_packet(store: CampaignStore, turn: int) -> dict:
     packet = {"head": events[-1]["hash"], "turn": turn,
             "start_seconds": events[index - 1]["state"]["time_seconds"] if index else event["state"]["time_seconds"],
             "end_seconds": event["state"]["time_seconds"], "kind": event["kind"],
-            "accepted_input": deepcopy(event["input"]), "later_same_turn_notes": notes,
+            "accepted_input": _maybe_strip(event["input"], include_prose), "later_same_turn_notes": notes,
             **_event_reference(store, event)}
     if turn == 0:
         opening = _opening_event(events)
@@ -331,7 +331,7 @@ def context_packet(store: CampaignStore, focus_ids=None, recent_turns=2, max_cha
     packet["history_retrieval"] = {"resolved_turns": len(resolved),
                                    "returned_turns": len(chosen), "command": "history --turn N",
                                    "note": "Retrieve older or truncated scenes before relying on their exact wording."}
-    first_sequence = chosen[0][1]["sequence"] if chosen else events[-1]["sequence"]
+    first_sequence = chosen[0][1]["sequence"] if chosen else 0
     packet["recent_corrections"] = [{"turn": event["state"]["turn"], "reason": event["input"]["reason"],
                                      "changed_fields": sorted(event["input"]["changes"]),
                                      "resource_adjustments": deepcopy(event["input"]["resources_delta"]),

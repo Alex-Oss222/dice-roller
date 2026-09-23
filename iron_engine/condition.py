@@ -45,7 +45,7 @@ def validate_condition(value, alive):
 def condition_summary(character):
     """A concise reading header; absence remains unknown rather than baseline 8."""
     if "condition" not in character:
-        return "not recorded"
+        return "Not established"
     condition = character["condition"]
     return f"{condition['rating']}/9 {rating_label(condition['rating'])} ({condition_band(condition['rating'])})"
 
@@ -53,7 +53,7 @@ def condition_summary(character):
 def render_condition(character):
     lines = ["", "## Condition", ""]
     if "condition" not in character:
-        lines.append("Condition: not recorded. No rating is assumed.")
+        lines.append("Condition: Not established. No rating is assumed.")
         return lines
     condition = character["condition"]
     lines.extend([f"Condition: {condition_summary(character)}",

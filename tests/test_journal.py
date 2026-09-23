@@ -84,8 +84,8 @@ class JournalTests(unittest.TestCase):
         render_campaign(self.store, self.output)
         resume = self.read("resume.md")
         self.assertIn(pending, resume)
-        self.assertIn("5 days, 0 hours, 0 minutes, 0 seconds", resume)
-        self.assertIn("Day 7, 00:00:00", resume)
+        self.assertIn("5 days", resume)
+        self.assertIn("Day 7, 00:00", resume)
         self.assertIn("Report the test shortage", resume)
         self.assertIn("test-delivery [active]", resume)
         self.assertIn("context command validates the entire", resume)
@@ -254,7 +254,7 @@ class JournalTests(unittest.TestCase):
             self.assertNotIn("Recognizing whether the carrier has a safe weapon grip", self.read(name))
 
     def test_dotted_npc_id_keeps_its_complete_capability_source_during_render(self):
-        person = world_record(details={"accounts": "5", "sword": "4"})
+        person = world_record(details={"accounts": "5", "accounts basis": "Invented test bookkeeping", "sword": "4", "sword basis": "Invented test drill"})
         self.store.initialize(setup_payload(workflow_state({"house.heir": person})))
         payload = advance_payload(self.store)
         payload["adjudication"].update(mode="uncertain", task_band="ordinary", actor="house.heir",

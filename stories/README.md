@@ -5,11 +5,14 @@ Shared engine, active rules, workflow/record contracts, travel policy/data and t
 | Story file | Role |
 | --- | --- |
 | character-sheet.md | Supplied starting character, read first |
+| AGENTS.md | The story's scoped instructions: whether it is prepared or started, and its local premises |
 | setup.json and opening.md | Prepared setup and opening, accepted only when play starts |
-| story.json | Story identity, imported-sheet provenance and shared baseline hashes |
+| story.json | Story identity, the hash of the originally imported sheet (provenance; later sheet edits are expected) and shared baseline hashes |
 | campaign/events/ | Authoritative immutable events and resulting state |
 | play/README.md | Generated reading index |
 | play/latest.md and play/turns/ | Latest output and individual accepted turns |
+| play/story.md | The whole accepted story in order |
+| play/changes.md | Time elapsed and material updates per turn, assessments, correction notes |
 | play/character-sheet.md | Current generated character |
 | play/decisions.md | Generated index of accepted objectives, outcomes and pending decisions |
 | play/threads.md and play/world.md | Storylines and persistent world records |
@@ -18,7 +21,7 @@ Shared engine, active rules, workflow/record contracts, travel policy/data and t
 | .work/ | Ignored local drafts |
 | saves/ | Ignored portable history exports |
 
-An independent story starts with its own supplied character. It does not inherit another story's events, money, inventions, relationships or private knowledge. Use `create-story story-002 --character-sheet /path/to/its-sheet.md`, then prepare its setup. Creation alone initializes nothing. Story1 is already prepared; start only when requested.
+An independent story starts with its own supplied character. It does not inherit another story's events, money, inventions, relationships or private knowledge. Use `create-story NEW-ID --character-sheet /path/to/its-sheet.md`, then prepare its setup, opening and person records. Creation alone initializes nothing. Story 1 is started; Story 2 is prepared and starts only when requested.
 
 A road closure or local price stays in its story. It does not change shared distances or book sources. The GM records each local assumption and its actual effects. Story selectors and output paths are explicit; there is no global active-character pointer.
 

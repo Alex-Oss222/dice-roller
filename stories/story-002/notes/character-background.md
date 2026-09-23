@@ -19,4 +19,4 @@ The reference wiki (awoiaf.westeros.org) was unreachable from the preparation en
 - *A Game of Thrones*, Catelyn II and Arya I: Catelyn's feeling about Jon and Arya's closeness to him.
 - *A Game of Thrones*, Bran II and Tyrion II: Ser Rodrik's yard, Robb and Jon's sparring, Theon's archery.
 
-Sources checked in memory, 23 September 2026. This background belongs only to Story 2.
+Cited from memory, 23 September 2026, not checked against the text. This background belongs only to Story 2.
