@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:world.md:v1 -->
-<!-- source-event-hash:cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c -->
+<!-- source-event-hash:a132fc8792556a2f8582ff43dafe312bd096f9d07897496aff1427e24c2579d8 -->
 
 # Persistent world records
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `a132fc8792556a2f8582ff43dafe312bd096f9d07897496aff1427e24c2579d8`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -141,9 +141,13 @@ Eddard's heir, fourteen; raised beside Jon and his closest friend and rival.
 
 Evidence turns: 0
 
+- Lance: 3
+
+- Lance basis: A stronger lance than Jon; tilting at rings and quintain in the yard, no war.
+
 - Longsword: 4
 
-- Longsword basis: The same yard, the same master-at-arms; stronger than Jon, a little slower.
+- Longsword basis: The same yard and master-at-arms as Jon; the stronger of the two, though Jon is the better sword.
 
 - Riding: 4
 
@@ -161,7 +165,7 @@ Master-at-arms of Winterfell; Jon's teacher at arms.
 
 Evidence turns: 0
 
-- Pc knowledge: Fair to him. Rates him well in the yard.
+- Pc knowledge: Fair to him; his teacher at arms since he could hold a wooden sword.
 
 ### sansa-stark: Sansa Stark
 
@@ -261,7 +265,7 @@ Evidence turns: 0
 ## Assumptions
 
 - Story-local calendar: Day 0 is the day of the execution in 298 AC; the party reaches the holdfast at about 08:00. The exact date is not established.
-- Ratings are inferences from what the novels show of Jon by this morning, not the television version: a well-trained boy of fourteen whose edge with a sword is Ser Rodrik's teaching rather than mastery, who rides and hunts, reads beyond his lessons, and has a bastard's habits of watching. No rating claims more than that record supports.
+- Ratings are inferences from what the novels show of Jon by this morning, not the television version: a well-trained boy of fourteen, the better sword of the two brothers and a rider the master of horse rates with anyone in the castle, whose edge with a sword is Ser Rodrik's teaching rather than mastery; a reader and a watcher; proud and reserved, with moods that show and a temper that flares when his birth is touched. No rating claims more than that record supports.
 - The four languages are the player's premise for this story, not book canon; the novels establish only the Common Tongue for Jon.
 - No later-book knowledge is preloaded: not the direwolves, not the raven from King's Landing, not the royal party, not his mother.
 - Money and counted stores are not established; he owns nothing counted.

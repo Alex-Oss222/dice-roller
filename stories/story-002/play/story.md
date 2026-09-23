@@ -1,5 +1,5 @@
 <!-- iron-engine-generated:story.md:v1 -->
-<!-- source-event-hash:cbad7292a6bb76069ab02697e748dfe62fba5dbf58f64da074b3b1d56d15759c -->
+<!-- source-event-hash:a132fc8792556a2f8582ff43dafe312bd096f9d07897496aff1427e24c2579d8 -->
 
 ## Opening: Turn 0
 

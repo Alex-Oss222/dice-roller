@@ -23,25 +23,27 @@ This morning a deserter from the Night's Watch has been taken near a holdfast in
 
 ## Experience
 
-**Arms.** Ser Rodrik has had Jon in the yard since he could hold a wooden sword. He drills with Robb daily and with Theon often; the master-at-arms rates him well, and in the yard he and Robb are an even match, Jon quick and graceful where Robb is strong and fast. His edge is a good teacher's training, not any mastery: against boys who never had one he looks better than he is. He has learned footwork, guards, the cuts and the recovery, and to fight with a shield on his arm, all against boys and against the master-at-arms who is teaching him. He has never fought in armor heavier than a padded jack and mail shirt, never in a line, never against a man who wanted him dead. He wrestles well enough for his weight. He has shot a bow since he was small and can hit a target; Theon is the better archer by a wide margin and says so.
+**Arms.** Ser Rodrik has had Jon in the yard since he could hold a wooden sword. He drills with Robb daily and with Theon often. Of the two boys Jon is the better sword and Robb the stronger lance, Jon quick and graceful where Robb is strong and fast. His edge is a good teacher's training, not any mastery: against boys who never had one he looks better than he is. He has learned footwork, guards, the cuts and the recovery, and to fight with a shield on his arm, all against boys and against the master-at-arms who is teaching him. He has never fought in armor heavier than a padded jack and mail shirt, never in a line, never against a man who wanted him dead. He wrestles well enough for his weight. He can shoot a bow and hit a target; Theon is by far the better archer.
 
-**Riding and the wild.** Jon has ridden since he was a small boy and sits a horse well, on the road and at speed. He has hunted with his father's party in the wolfswood and knows its near paths, how a deer moves, where the game trails run, and how to set a snare. He can make a fire and sleep rough for a night or two in summer weather. He has never crossed unknown country on his own, never navigated by more than a known road, and knows the true North beyond the wolfswood only from stories.
+**Riding and the wild.** Jon has ridden since he was a small boy, and Hullen, the master of horse, says he sits a horse as well as anyone in the castle. He has hunted with his father's party in the wolfswood and knows its near paths, how a deer moves, where the game trails run, and how to set a snare. He can make a fire and sleep rough for a night or two in summer weather. He has never crossed unknown country on his own, never navigated by more than a known road, and knows the true North beyond the wolfswood only from stories.
 
-**Letters and lessons.** Maester Luwin taught him to read and write a fair hand, to reckon, and to know the great houses, their arms, their seats and their words. He read more than the lessons required: the Kings of Winter and the Long Night as the maester tells them and as Old Nan tells them, which is not the same; the First Men; the Free Cities; the Young Dragon's conquest of Dorne, which he knows nearly by heart. He has had the lessons in law and custom that a lord's son gets, and knows that as a bastard none of it is his. His tongues are the one thing in his schooling that goes beyond a lord's son's: the Old Tongue of the First Men, High Valyrian from the maester's books, and the Low Valyrian of the Free Cities, each of which he speaks, reads and writes as readily as the Common Tongue.
+**Letters and lessons.** Maester Luwin taught him to read and write a fair hand, to reckon, and to know the great houses, their arms, their seats and their words. He read more than the lessons required: the Kings of Winter and the Long Night as the maester tells them and as Old Nan tells them, which is not the same; the First Men; the Free Cities; the Young Dragon, who conquered Dorne at fourteen and has been his hero since he was small. He has had the lessons in law and custom that a lord's son gets, and knows that as a bastard none of it is his. His tongues are the one thing in his schooling that goes beyond a lord's son's: the Old Tongue of the First Men, High Valyrian from the maester's books, and the Low Valyrian of the Free Cities, each of which he speaks, reads and writes as readily as the Common Tongue.
 
 **Conduct at Winterfell.** He knows how a great hall is ordered, where he may sit and where he may not, how to serve at table and when to be silent. He can speak to a lord's son as an equal and to a servant as a lord's son should. He has no experience of court beyond his father's hall.
 
-**Watching.** A bastard in a lady's household learns to notice. Jon is markedly observant: he reads a room and the people in it before he speaks, keeps his own counsel, and knows when he is being mocked before the sentence ends. He does not lie well and does not care to, but he can keep a thing to himself for years.
+**Watching.** A bastard in a lady's household learns to notice. Jon is markedly observant, and there is little his dark eyes do not see. He reads a room and the people in it before he speaks, and knows when he is being mocked before the sentence ends. He keeps his own counsel about what he wants and keeps his moods much less well. He does not lie well and does not care to.
 
 **The old gods.** He keeps the old gods with his father, before the heart tree in the godswood. He knows the customs, the oaths sworn there, and the stories; there is nothing more to know.
 
 ## Disposition
 
-**Conduct.** He keeps his word and expects his father's word to be kept. He does not start a fight but does not walk away from one. He minds a slight and does not show it, and broods on his bastardy more than he lets anyone see. He is protective of Arya and of Bran and defers to Robb without resenting him. He wants a place that is his by his own doing, and has begun to think that place is the Wall.
+**Conduct.** He keeps his word and expects his father's word to be kept. He does not go looking for a fight, but a taunt about his birth or his father can start one. He is protective of Arya and of Bran. He wants a place that is his by his own doing, and has begun to think that place is the Wall.
 
-**Temper and pride.** He is a lord's son in everything but name and does not yet know how much that has given him; he can be quick to think others hate him for being better when they hate him for thinking so. Pressed on his bastardy or told to wait, his temper shows, and he says the sharp thing before the careful one.
+**Robb and Winterfell.** He loves Robb and defers to him. When he was small he dreamed of being Lord of Winterfell himself. He is ashamed of the dream now, since Winterfell is Robb's by right and after Robb his brothers' and sisters', and he keeps it to himself.
 
-**Wit.** Dry and sardonic, kept for Robb and Arya and for anyone who earns it; more often a thought than a spoken line.
+**Temper and pride.** He is a lord's son in everything but name and does not yet know how much that has given him; he can be quick to think others hate him for being better when they hate him for thinking so. He minds a slight and it shows: he broods and sulks over his bastardy, and pities himself more readily than he knows. Pressed on his birth or told to wait, his temper flares, and he says the sharp thing before the careful one.
+
+**Wit.** Dry and sardonic, more often a thought than a spoken line. He shares it with Robb and Arya and turns it on those who mock him.
 
 **Manner.** He speaks plainly, listens more than he talks, watches before he acts, and judges quickly.
 
@@ -75,7 +77,7 @@ Lean and dark, with grey eyes so dark they look black and the long solemn face o
 | Intelligence | Good: quick at the maester's lessons, quicker at reading people. |
 | Perception | Strong: markedly observant; he reads people and rooms before he speaks. |
 | Appearance | The Stark look, plain dress; solemn beyond his years. |
-| Willpower | Strong: he has borne his place without complaint or surrender. |
+| Willpower | Strong: stubborn once his mind is made up; he bears his place, though not without complaint. |
 
 ## Family
 
