@@ -1,11 +1,11 @@
 <!-- iron-engine-generated:changes.md:v1 -->
-<!-- source-event-hash:88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671 -->
+<!-- source-event-hash:5430159a19be878d8562cf056c03b2fb4c5ecf9c614a6a7960100e248664d23b -->
 
 # Changes and assessments
 
 Generated reading view. The immutable event chain is authoritative; regenerate this file instead of editing it.
 
-Source event hash: `88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671`. Compare with the ledger's current `head` to detect a stale view.
+Source event hash: `5430159a19be878d8562cf056c03b2fb4c5ecf9c614a6a7960100e248664d23b`. Compare with the ledger's current `head` to detect a stale view.
 
 Canonical records, relative to this directory: `../campaign/events`.
 
@@ -296,3 +296,100 @@ Evidence: Player instruction of 23 September 2026: the sheet should read as stor
   - Howland Reed: bannerman of Greywater Watch and a friend since Harrenhal. Ned trusts him; where he is tonight is not known.
 
 Evidence: Player instruction of 23 September 2026: the sheet should read as story, not as directives, audit notes or tags. Wording only; no rating, Development, equipment, Condition rating, time, location or outcome changes. The GM cautions removed here remain stated once in rules/narrative.md.
+
+## Turn 1
+
+Day 0, 18:00 to Day 0, 23:10.
+
+Elapsed this turn: 5 hours, 10 minutes.
+
+Elapsed since opening: 5 hours, 10 minutes.
+
+Location: Ned's command tent, northern section of the rebel encampment beside the Trident.
+
+Phase: Pre-battle preparation.
+
+### Changes
+
+- Assumptions: added Story-local assumptions from Turn 1: Jory Cassel serves in Ned's campaign household with the host; Lords Karstark and Dustin are among the northern lords present; the northern camp lies on the near bank downstream of the kingsroad ford, with the royal host across the river. The permitted novels do not establish these particulars for this evening..
+  Evidence: Needed to resolve the player's order to summon the lords and to go over the battle plan; labeled as campaign assumptions rather than canon.
+- Knowledge: added Coalition plan for Day 1, confirmed on Day 0 evening: Robert's heavy horse in the center at the kingsroad ford, the Vale on the right, the northmen on the left downstream, Hoster's riverlanders in reserve behind the center; Jon's horns, one long blast to stand ready and three to advance; nobody crosses before the three except to meet an enemy already over the water..
+- Knowledge: added Below the bend downstream of the ford the river is shallow enough for horse in places (Karstark's outriders, Hoster Tully). Outriders sound it at first light; the northmen watch it and hold the bank if royal horse cross, sending word to Jon..
+- Knowledge: added Robert told Ned he means to kill Rhaegar himself tomorrow and will not stay behind the line; he agreed that the horns are Jon's and that the northmen move only on the horns..
+- Knowledge: added Northern lords' worries on the eve of battle: the downstream shallows, whether the Tully levies will stand against the royal knights, a smallfolk rumor that the prince has sorcerers, and no word from Winterfell since the last raven at Riverrun..
+  Evidence: Heard and discussed at the command meeting.; Karstark's report at the lords' council and Hoster's knowledge at the command meeting.; Robert's own words in his pavilion, repeated before Jon Arryn.; Heard directly at the council in the command tent.
+- World record coalition-battle-plan [active]: Coalition battle plan for the Trident. Evidence: Robert stated his intentions for the battle to Ned in person and agreed to the signal arrangement.; The player's order names Jory as the messenger; he is recorded as a member of Ned's campaign household (story-local assumption recorded this turn).; The dispositions, signals and shallows arrangement were confirmed at the command meeting Ned attended.; Ned's council with the northern lords, his rest order and the shallows watch affect the host's state tomorrow.; The pre-battle coordination is now done; the obsolete pending-action note is replaced and the plan linked.
+- World / coalition-battle-plan / details: established as dispositions: Robert and the stormlanders' heavy horse hold the center at the kingsroad ford. The Vale host holds the right under Jon Arryn. The northmen hold the left, downstream, on the near bank. Hoster Tully's riverlanders stand behind the center as the reserve.; dissent: Hoster Tully would rather have his men in the line than in reserve; he accepted the placement without agreeing that it suits them.; downstream shallows: Below the bend downstream of the ford the river is wide and shallow enough for horse in places, by Karstark's outriders' report and Hoster Tully's knowledge. Outriders are to sound it at first light; the northmen watch that bank through the night and morning. If royal horse cross there, the north meets them on the bank and sends word to Jon, and does not advance before the horns.; robert: Robert means to seek Rhaegar in person once the attack goes forward; he agreed the signals remain Jon's.; signals: Jon Arryn controls the horns: one long blast to stand ready, three to advance across the whole front. No contingent crosses before the three blasts except to meet an enemy already over the water..
+- World / coalition-battle-plan / due seconds: established as null.
+- World / coalition-battle-plan / evidence turns: established as [1].
+- World / coalition-battle-plan / kind: established as fact.
+- World / coalition-battle-plan / known by: established as ["pc"].
+- World / coalition-battle-plan / links: established as ["trident-engagement", "northern-host"].
+- World / coalition-battle-plan / participants: established as ["pc", "robert-baratheon", "jon-arryn", "hoster-tully"].
+- World / coalition-battle-plan / status: established as active.
+- World / coalition-battle-plan / summary: established as Dispositions and signals confirmed by Robert, Jon Arryn, Hoster Tully and Ned in Robert's pavilion on Day 0 evening..
+- World / coalition-battle-plan / title: established as Coalition battle plan for the Trident.
+- World record jory-cassel [active]: Jory Cassel. Evidence: Robert stated his intentions for the battle to Ned in person and agreed to the signal arrangement.; The player's order names Jory as the messenger; he is recorded as a member of Ned's campaign household (story-local assumption recorded this turn).; The dispositions, signals and shallows arrangement were confirmed at the command meeting Ned attended.; Ned's council with the northern lords, his rest order and the shallows watch affect the host's state tomorrow.; The pre-battle coordination is now done; the obsolete pending-action note is replaced and the plan linked.
+- World / jory-cassel / details: established as pc knowledge: A Cassel of the Winterfell household, known to Ned; on Day 0 evening he carried the summons to the northern lords, walked the lines with Ned and was told to wake him an hour before first light.; role: Attendant and runner in Ned's campaign household with the northern host..
+- World / jory-cassel / due seconds: established as null.
+- World / jory-cassel / evidence turns: established as [1].
+- World / jory-cassel / kind: established as person.
+- World / jory-cassel / known by: established as ["pc"].
+- World / jory-cassel / links: established as [].
+- World / jory-cassel / participants: established as [].
+- World / jory-cassel / status: established as active.
+- World / jory-cassel / summary: established as A young member of Ned's campaign household who carries his messages in camp and attends him..
+- World / jory-cassel / title: established as Jory Cassel.
+- World record northern-host [active]: Northern host and bannermen. Evidence: Robert stated his intentions for the battle to Ned in person and agreed to the signal arrangement.; The player's order names Jory as the messenger; he is recorded as a member of Ned's campaign household (story-local assumption recorded this turn).; The dispositions, signals and shallows arrangement were confirmed at the command meeting Ned attended.; Ned's council with the northern lords, his rest order and the shallows watch affect the host's state tomorrow.; The pre-battle coordination is now done; the obsolete pending-action note is replaced and the plan linked.
+- World / northern-host / details / evening council: established as On Day 0 between about 18:40 and 20:00 the northern lords, including Lords Karstark and Dustin, met Ned in his command tent and were briefed on the plan. Concerns raised: the downstream shallows (Karstark); whether the Tully levies will stand against the royal knights (Dustin); a rumor among smallfolk that the prince has sorcerers; no word from Winterfell since the last raven at Riverrun..
+- World / northern-host / details / rest order: established as Ned ordered every northern company and its lord to rest by the second watch on Day 0. Karstark's men complied early; Dustin's were still at their gear after the order came down..
+- World / northern-host / details / shallows watch: established as Karstark posted some of his own riders by the downstream shallows on Day 0 night on his own initiative; the commanders' meeting later made the watch a northern duty through the night and morning..
+- World / northern-host / evidence turns: added 1.
+- World record robert-baratheon [active]: Robert Baratheon. Evidence: Robert stated his intentions for the battle to Ned in person and agreed to the signal arrangement.; The player's order names Jory as the messenger; he is recorded as a member of Ned's campaign household (story-local assumption recorded this turn).; The dispositions, signals and shallows arrangement were confirmed at the command meeting Ned attended.; Ned's council with the northern lords, his rest order and the shallows watch affect the host's state tomorrow.; The pre-battle coordination is now done; the obsolete pending-action note is replaced and the plan linked.
+- World / robert-baratheon / details / current intentions: removed (No private plans or additional immediate action is inferred.).
+- World / robert-baratheon / details / goals: established as To win the battle expected on Day 1 and to find and kill Rhaegar Targaryen himself in the fighting. He means to hold the center at the kingsroad ford with the heavy horse until the royal line is set, then lead the attack through it..
+- World / robert-baratheon / details / pc knowledge: established as On Day 0 at about 21:30 Robert told Ned in his pavilion that he means to kill Rhaegar tomorrow whatever else happens. He refused to promise to stay behind the line. He agreed, first privately and then before Jon Arryn, that Jon controls the horn signals and that the northmen do not cross on his temper alone..
+- World / robert-baratheon / evidence turns: added 1.
+- World / robert-baratheon / summary: Foster brother, close friend, and principal rebel ally. A fellow ward at the Eyrie, now a coalition leader; he is not yet Ned's king. → Foster brother, close friend, and principal rebel ally; commands the center at the Trident with the heavy horse. He is not yet Ned's king..
+- World record trident-engagement [active]: Expected engagement at the Trident. Evidence: Robert stated his intentions for the battle to Ned in person and agreed to the signal arrangement.; The player's order names Jory as the messenger; he is recorded as a member of Ned's campaign household (story-local assumption recorded this turn).; The dispositions, signals and shallows arrangement were confirmed at the command meeting Ned attended.; Ned's council with the northern lords, his rest order and the shallows watch affect the host's state tomorrow.; The pre-battle coordination is now done; the obsolete pending-action note is replaced and the plan linked.
+- World / trident-engagement / details / coordination: established as Final command coordination was held in Robert's pavilion on Day 0 evening; see the coalition battle plan record..
+- World / trident-engagement / details / pending player action: removed (No final pre-battle decision has been chosen for Ned.).
+- World / trident-engagement / details / timing: Expectation only; no invented fixed deadline. → Expected on relative Day 1; no fixed hour..
+- World / trident-engagement / evidence turns: added 1.
+- World / trident-engagement / links: added coalition-battle-plan.
+
+Journey distance for this interval: not recorded.
+
+### Resolution record
+
+Objective: Before the expected battle: have Jory summon the northern lords, question them, drink with them, hear their worries, go over the battle plan and order early rest; walk the northern lines and talk with the men; go to Robert, hear his intentions in person and warn him against recklessness; hold final command coordination with Robert, Jon Arryn and Hoster Tully; then go to bed.
+
+Outcome: Completed. The northern lords were briefed on the standing plan and ordered to have every company abed by the second watch; Karstark raised the downstream shallows and posted his own riders there. Ned walked the northern lines; the rest order spread unevenly. Robert stated he means to hold the center, break the royal line and kill Rhaegar himself; he would not promise to stay back but agreed that the horns are Jon's and that the northmen move only on the horns. The command meeting confirmed dispositions and signals and added outriders at first light and a northern watch on the shallows. Hoster accepted the reserve without agreeing it suits him. Ned went to bed at 23:10 in the command tent. Development: one evening of ordinary professional use of command, persuasion, coordination and leadership earns no credited period for any ability.
+
+Eddard Stark made an uncertain, ordinary attempt.
+
+Primary ability: Commanding Northmen
+
+Supporting ability: Persuasion. Role: Governs the private counsel to Robert: how far Ned's warning against recklessness can change Robert's reasons.
+
+Supporting ability: Coalition Battlefield Coordination. Role: Governs the command meeting with Robert, Jon Arryn and Hoster Tully: carrying the northern concern into the allied plan and fixing signals and duties across separate commands.
+
+Supporting ability: Public Leadership. Role: Governs walking the northern lines and talking with the men one fire at a time.
+
+Supporting ability: Tactics. Role: Governs going over the plan with the lords and recognizing the downstream shallows as a local problem for the northern position.
+
+Preparation: The northmen were already in camp at their evening work; a plan from earlier councils existed. Ned used his household runner to gather the lords, questioned them before briefing, and carried their main concern to the commanders the same night.
+
+Opposition: No hostile opposition. Robert's settled intent to kill Rhaegar himself resisted counsel; this is a matter of his recorded goal, not a contest of skill, so no rating of Robert's is set against Ned's. Hoster Tully's preference for a place in the line; the lords' uneven discipline; the time left before the men must sleep.
+
+Risk: A poorly understood plan, a tired host, or a reckless commander could cost northern lives tomorrow. Little personal risk tonight.
+
+Basis: Commanding Northmen (6, highly skilled) makes the lords' council productive: they report, raise real concerns and accept the rest order, though its execution spreads unevenly through independent lords' companies. Tactics (6) lets Ned see Karstark's shallows as a genuine threat to the northern line. Coalition Battlefield Coordination (6) gets the concern into the allied plan with a concrete answer, but Ned cannot command the other hosts; Jon decides and Hoster's objection stays open. Persuasion (5, veteran) against Robert's fixed purpose earns only a partial result: their bond keeps the bluntness from giving offence, but Robert concedes the signals and the northmen's discipline, not his own restraint. Public Leadership (5), with no talent for oratory, suits individual conversations rather than a speech; some men talk easily and many only answer.
+
+Authorized scope: up to 6 hours; stop condition: Ned goes to bed in his command tent after the final command coordination, or an event before then demands a new decision.
+
+### Records changed
+
+- Assumptions: Added labeled story-local assumptions about Jory, the named lords and camp geography.
+- Knowledge: Ned learned the confirmed plan and signals, the shallows report, Robert's stated intent and the lords' worries.
+- World: Robert's record gains goals; Jory and the coalition plan are recorded; the northern host and Trident engagement records are updated.

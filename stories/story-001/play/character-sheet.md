@@ -1,5 +1,5 @@
 <!-- iron-engine-generated:character-sheet.md:v1 -->
-<!-- source-event-hash:88d35212f5bb36a8a3725c071e99b5a4be263711e22a84cf75ffad5bff421671 -->
+<!-- source-event-hash:5430159a19be878d8562cf056c03b2fb4c5ecf9c614a6a7960100e248664d23b -->
 
 # Character sheet
 
@@ -9,8 +9,8 @@ A Song of Blood & Gold: The Trident
 
 | Current record | Details |
 | --- | --- |
-| Turn | 0 |
-| Time | Day 0, 18:00 |
+| Turn | 1 |
+| Time | Day 0, 23:10 |
 | Age | 20 |
 | Standing | Great lord; head of House Stark; rebel army commander |
 | Location | Ned's command tent, northern section of the rebel encampment beside the Trident |
@@ -182,6 +182,10 @@ Reputation: A reserved young lord who raised the northern host and helped reliev
 - What Ned knows of the royal host's strength and ground comes from his scouts, his captains and the allied commanders: partial reports, nothing firm enough to plan on yet. He can seek better intelligence.
 - The account everyone repeats is that Rhaegar took Lyanna. Where she is now, how she fares and what truly happened, Ned does not know.
 - Of the royal army's intentions for tomorrow he knows only what observation and reports have shown so far; anything more must be learned.
+- Coalition plan for Day 1, confirmed on Day 0 evening: Robert's heavy horse in the center at the kingsroad ford, the Vale on the right, the northmen on the left downstream, Hoster's riverlanders in reserve behind the center; Jon's horns, one long blast to stand ready and three to advance; nobody crosses before the three except to meet an enemy already over the water.
+- Below the bend downstream of the ford the river is shallow enough for horse in places (Karstark's outriders, Hoster Tully). Outriders sound it at first light; the northmen watch it and hold the bank if royal horse cross, sending word to Jon.
+- Robert told Ned he means to kill Rhaegar himself tomorrow and will not stay behind the line; he agreed that the horns are Jon's and that the northmen move only on the horns.
+- Northern lords' worries on the eve of battle: the downstream shallows, whether the Tully levies will stand against the royal knights, a smallfolk rumor that the prince has sorcerers, and no word from Winterfell since the last raven at Riverrun.
 
 ## Duties and commitments
 
@@ -224,9 +228,9 @@ Help defeat the royal army at the Trident, preserve his northern forces where po
 | Mediation | 7 | 0 / 20 | — |
 | Negotiation | 5 | 0 / 16 | — |
 | Noble Customs | 5 | 0 / 16 | — |
-| Persuasion | 5 | 0 / 16 | — |
+| Persuasion | 5 | 0 / 16 | 1 |
 | Protocol | 5 | 0 / 16 | — |
-| Public Leadership | 5 | 0 / 16 | — |
+| Public Leadership | 5 | 0 / 16 | 1 |
 
 ### Fieldcraft
 
@@ -279,8 +283,8 @@ Help defeat the royal army at the Trident, preserve his northern forces where po
 | Archery | 2 | 0 / 10 | — |
 | Armored Fighting | 6 | 0 / 18 | — |
 | Battlefield Awareness | 6 | 0 / 18 | — |
-| Coalition Battlefield Coordination | 6 | 0 / 18 | — |
-| Commanding Northmen | 6 | 0 / 18 | — |
+| Coalition Battlefield Coordination | 6 | 0 / 18 | 1 |
+| Commanding Northmen | 6 | 0 / 18 | 1 |
 | Dagger | 3 | 0 / 12 | — |
 | Defensive Fighting | 4 | 0 / 14 | — |
 | Formation Command | 6 | 0 / 18 | — |
@@ -291,7 +295,7 @@ Help defeat the royal army at the Trident, preserve his northern forces where po
 | Mounted Combat | 5 | 0 / 16 | — |
 | Shield Use | 4 | 0 / 14 | — |
 | Strategy | 5 | 0 / 16 | — |
-| Tactics | 6 | 0 / 18 | — |
+| Tactics | 6 | 0 / 18 | 1 |
 | Two-Handed Sword | 5 | 0 / 16 | — |
 | Wrestling / Unarmed | 3 | 0 / 12 | — |
 
