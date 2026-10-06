@@ -4,41 +4,35 @@ A minimal ASOIAF narrative RPG.
 
 You make the character's choices. The AI GM adjudicates what reasonably happens, writes the narrative, and records only lasting changes that may matter later.
 
-No D&D-style rules layer. No giant skill list. No constant dice. No bookkeeping for things that do not matter.
+No D&D-style rules layer. No giant universal bookkeeping system. No constant dice.
 
-## Character Sheet
+## Stories
 
-| Field | Current |
-| --- | --- |
-| Name | Not created yet |
-| Age | — |
-| House / status | — |
-| Location | — |
-| Condition | — |
-| Background | — |
-| Relevant strengths | — |
-| Important relationships | — |
-| Holdings | — |
-| Important knowledge | — |
-| Current situation | Story not started |
+### Story 1 · Eddard Stark · 283 AC
 
-The character sheet stays here on the main repo page and changes only when the story gives a real reason to change it.
+- [Character](stories/story-001/CHARACTER.md)
+- [Story](stories/story-001/STORY.md)
+- [World](stories/story-001/WORLD.md)
+
+Starts with Eddard Stark beside the Trident during Robert's Rebellion.
+
+### Story 2 · Jon Snow · 298 AC
+
+- [Character](stories/story-002/CHARACTER.md)
+- [Story](stories/story-002/STORY.md)
+- [World](stories/story-002/WORLD.md)
+
+Starts with Jon Snow at the holdfast north of Winterfell on the morning of the Night's Watch deserter's execution.
 
 ## Play
 
-1. Tell the GM what your character attempts.
-2. The GM reads the established character, story, and relevant world facts.
-3. The GM adjudicates the result from the situation, character ability, knowledge, relationships, opposition, and consequences.
-4. The GM writes the scene.
-5. Only meaningful lasting changes are recorded.
-6. Stop when you have another meaningful decision.
+1. Choose one story.
+2. Tell the GM what that character attempts.
+3. The GM reads only that story's character, story, and relevant world state.
+4. The GM adjudicates the result and writes the next scene.
+5. Update only lasting facts that may matter later.
+6. Stop for the next meaningful player choice.
 
-Most ordinary actions do not need a roll. Randomness can be added later only where genuine uncertainty benefits from it.
+Each story is isolated. One story never changes the other.
 
-## Files
-
-- [STORY.md](STORY.md) — accepted narrative in order.
-- [WORLD.md](WORLD.md) — only lasting world facts that matter beyond the current scene.
-- [AGENTS.md](AGENTS.md) — short GM rules.
-
-That is the whole project for now. Railway will be added later as a small hosting layer, not as another game system.
+Railway can be added later as a small hosting layer.
