@@ -1,34 +1,66 @@
 # The Iron Engine
 
-A repository-based ASOIAF roleplaying campaign. You make decisions in chat. The GM reads the saved story, resolves the action, and commits the scene together with the records it changes. The next chat continues from those files.
+A simple ASOIAF narrative RPG.
 
-**[Start playing](START_HERE.md)** · **[Story 1](stories/story-001/play/README.md)** · **[Story 2](stories/story-002/play/README.md)** · **[Starting prompt](START_PROMPT.md)** · **[Costs](docs/costs.md)**
+You make the character's choices in chat. The AI GM reads the current character and world state, adjudicates what reasonably happens, writes the narrative, and saves only the lasting changes that may matter later.
 
-Story 2 is started: Jon Snow on the morning of the deserter's execution near Winterfell, 298 AC, with its opening accepted as Turn 0. Story 1 contains your Eddard Stark character at the supplied opening before the expected Battle of the Trident. The opening is accepted as Turn 0, and the latest supplied character changes have been reconciled into the saved state. Your first resolved action will be Turn 1. Read the scene, then give Ned’s intended action.
+There is no D&D-style play loop to manage. You do not maintain stats, JSON, inventories, NPC databases, or turn records yourself.
 
-## What gets saved
+## Play
 
-| Shared by all stories | Owned by each story |
+### Story 2 · Jon Snow · 298 AC
+
+[Read the current story](stories/story-002/play/README.md) · [Latest scene](stories/story-002/play/latest.md) · [Full character sheet](stories/story-002/play/character-sheet.md)
+
+| Character | Current |
 | --- | --- |
-| Engine and resolution rules | Character, Condition, knowledge and possessions |
-| Book reference policy | NPCs, relationships and storylines |
-| Distance catalog and conservative travel helper | Actual journeys, delays and local obstacles |
-| Reusable record templates | Divergences, projects, accounts and consequences |
+| Name | Jon Snow |
+| Age | 14 |
+| Standing | Acknowledged bastard son of Lord Eddard Stark, raised at Winterfell |
+| Location | A holdfast in the hills north of Winterfell |
+| Condition | Hale |
+| Home | Winterfell |
+| Holdings | Personal clothes and small possessions; housed, fed, and mounted through Winterfell |
+| Relevant strengths | Observant, educated, good rider, trained young swordsman |
+| Current situation | Riding with his father and household party for the execution of a Night's Watch deserter |
 
-Validated events are authoritative. Python generates the reading index, the latest scene, numbered scenes, the whole story, a changes page with time accounting, the current sheet, decisions, threads, world records and the resume point. Closed threads remain retrievable. A story's changes never rewrite the common map or another story.
+### Story 1 · Eddard Stark · 283 AC
 
-Turns can cover minutes, days or weeks. The engine checks authorized elapsed time, deadlines, affected records and every tenth-turn assessment. Long intervals require milestones. Abilities and Condition change only with recorded grounds. The GM must still judge evidence, uncertainty and prose honestly; software cannot certify realism.
+[Read the current story](stories/story-001/play/README.md) · [Latest scene](stories/story-001/play/latest.md) · [Full character sheet](stories/story-001/play/character-sheet.md)
 
-## Running it
+| Character | Current |
+| --- | --- |
+| Name | Eddard Stark |
+| Age | About 20 |
+| Standing | Lord of Winterfell, Warden of the North, rebel army commander |
+| Location | Northern rebel encampment beside the Trident |
+| Condition | Hale |
+| Holdings | Winterfell and House Stark lands; campaign household and equipment |
+| Relevant strengths | Experienced commander, strong fieldcraft, capable swordsman, educated noble |
+| Current situation | The rebel coalition expects a major battle against Prince Rhaegar's army |
 
-The GM needs repository read/write access and a Python execution tool. You do not need to maintain JSON or run commands yourself. No third-party Python packages, API calls, hosted services or background turns are required.
+## How the game works
 
-```sh
-python -m iron_engine --story story-001 context
-python -m unittest discover -s tests -v
-python -m scripts.check_stories
-```
+1. Read the latest scene for the story you want to continue.
+2. Tell the GM what your character attempts.
+3. The GM uses the character, current world state, established knowledge, relationships, circumstances, and prior consequences to adjudicate the result.
+4. The GM writes the next scene.
+5. Only meaningful lasting changes are saved, such as injuries, holdings, relationships, titles, knowledge, obligations, deaths, travel progress, or major world consequences.
+6. Play stops when you have another meaningful choice.
 
-Repository hooks in `.claude/settings.json` block hand edits to generated pages and events and run these checks before a turn can end. See [the play workflow](docs/play_workflow.md), [record contract](docs/record_contract.md), [story boundaries](stories/README.md), [travel](docs/travel.md), and [verification](BUILD_STATUS.md). The original unrelated dice page is preserved in [archive](archive/README.md).
+Most actions do not need dice. Randomness is only useful when genuine uncertainty calls for it.
 
-The shared catalog preserves 577 source-linked distances and seven road profiles from the supplied [distance workbook](https://docs.google.com/spreadsheets/d/1ZsY3lcDDtTdBWp1Gx6mfkdtZT6-Gk0kdTGeSC_Dj7WM/edit#gid=1). It is a fan-made reference snapshot, not a canon guarantee or a live spreadsheet connection. The [book catalog](references/books.md) contains source guidance, not bundled book texts.
+## Repository layout
+
+- `stories/` — the campaigns and their saved state
+- `iron_engine/` — validation and save logic
+- `rules/` — GM and narrative rules
+- `references/` — ASOIAF reference guidance
+- `tests/` — checks that protect saved campaigns
+- `START_HERE.md` — the short continuation instructions
+
+Everything else is supporting infrastructure. The player should not need to manage it during normal play.
+
+## Railway
+
+Railway is not required to play. Later, it can host the Iron Engine and a clean campaign website/API, while GitHub remains the permanent story record. It should not become a second complicated game system.
