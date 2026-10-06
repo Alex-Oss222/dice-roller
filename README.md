@@ -24,11 +24,18 @@ Starts with Eddard Stark beside the Trident during Robert's Rebellion.
 
 Starts with Jon Snow at the holdfast north of Winterfell on the morning of the Night's Watch deserter's execution.
 
-## Shared economic reference
+## Shared economic model
 
-Both stories use [the economic usage rules](references/ECONOMY.md) and [Westeros 283 AC Economic Model](references/Westeros_283_AC_Economic_Model.xlsx) when money, wages, holdings, trade, provisioning, land, taxes, transport, scarcity, or other material questions actually matter.
+Both stories use [the economic model rules](references/ECONOMY.md) and [the Westeros economic workbook](references/Westeros_283_AC_Economic_Model.xlsx).
 
-The workbook grounds scale and plausibility. It is not a second game system and does not require bookkeeping in scenes where economics are irrelevant.
+The economic model is instantiated at each campaign's opening date:
+
+- Story 1 begins with a 283 AC economic snapshot.
+- Story 2 begins with a 298 AC economic snapshot.
+
+Each story then develops forward from its own opening economy. Economic consequences in one story never rewrite the other.
+
+The model is used only when economics materially affects the story. It is not a second game system and does not require routine accounting.
 
 ## Play
 

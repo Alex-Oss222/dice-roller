@@ -2,6 +2,6 @@
 
 Starting continuity: the North, 298 AC.
 
-Shared economic baseline: [references/ECONOMY.md](../../references/ECONOMY.md). The 283 AC workbook is a historical anchor for scale, not an exact 298 AC price list; apply the fifteen-year and local-context rules there.
+Economic opening point: 298 AC. This story begins with its own 298 AC economic snapshot under [the shared economic model](../../references/ECONOMY.md). Once established, that 298 AC economy is this story's baseline; it is not recalculated from 283 AC during ordinary play.
 
 Only lasting facts created or changed during this story belong here. Keep this separate from Story 1.

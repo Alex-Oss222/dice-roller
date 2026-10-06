@@ -2,6 +2,6 @@
 
 Starting continuity: Robert's Rebellion, 283 AC.
 
-Shared economic baseline: [references/ECONOMY.md](../../references/ECONOMY.md). The 283 AC workbook applies directly as a baseline, with local and wartime adjustments.
+Economic opening point: 283 AC. This story begins with its own 283 AC economic snapshot under [the shared economic model](../../references/ECONOMY.md). Later economic changes belong only to this story.
 
 Only lasting facts created or changed during this story belong here. Keep this separate from Story 2.
