@@ -33,3 +33,14 @@ Keep this project simple.
 - Prefer plausible ranges and relative scale over false precision when the model does not justify an exact number.
 - A noble household often uses stores, rents, retainers, obligations, credit, or bulk purchasing rather than paying cash for every ordinary need. Smallfolk may use coin, barter, payment in kind, customary dues, or local credit. Armies may purchase, requisition, forage, or consume prepared stores depending on circumstance.
 - The GM may use economic information the character does not know, but the narrative must not give the character that knowledge without a plausible way to learn it.
+
+
+## Persistent economic change
+
+- Player decisions can permanently change the economy of lands, households, towns, routes, or realms.
+- Capture economic change causally, not as an automatic growth score. A decision only produces the effects that its labor, time, materials, capital, authority, geography, and circumstances can support.
+- Development takes time. Building a road, mill, mine, harbor, walls, irrigation, workshops, farms, ships, or a larger settlement has construction costs, labor needs, delays, maintenance, and possible failure or political resistance before benefits appear.
+- When a project succeeds, carry forward its realistic effects where relevant: productive capacity, labor demand, population attraction or loss, trade access, transport cost, stores, revenues, rents, taxes, prices, availability, military supply, debt, and political obligations.
+- Do not assume every investment makes everything richer. Gains can be local, delayed, uneven, captured by elites, offset by debt or maintenance, or reversed by war, harvest failure, disease, raids, fire, blockade, or bad administration.
+- Do not update every economic category after every turn. Record only changes large enough to matter later.
+- Keep these lasting changes in the selected story's WORLD.md under Economic state and Economic changes. Do not create a separate management subsystem.

@@ -55,3 +55,36 @@ Regional conditions, the long summer, trade access, political stability, local p
 ## Divergence
 
 Each story may develop its own economy through war, deaths, destroyed holdings, marriages, trade decisions, rebuilding, debts, harvests, political changes, or other consequences. Story-specific established facts override the general shared model where they conflict.
+
+
+## Economy changes during play
+
+The opening snapshot is a starting state, not a fixed world.
+
+A character can change the economy through choices such as developing land, clearing fields, improving irrigation, building roads, bridges, mills, mines, ports, markets, workshops or fortifications, changing taxes or rents, founding settlements, attracting craftsmen or merchants, borrowing, investing, redistributing stores, opening trade routes, fighting wars, raiding, rebuilding, or changing law and administration.
+
+Treat those actions as real projects with causes and constraints:
+
+- **Inputs:** money or stores, labor, skilled labor, materials, land, authority, transport and time.
+- **Execution:** construction time, seasonal limits, distance, security, management, local resistance and interruptions.
+- **Direct results:** new capacity or infrastructure only when the project actually completes or reaches a useful stage.
+- **Second-order results:** changes in trade, employment, migration, rents, tax base, prices, availability, military logistics, debt or political relationships only where the causal connection is plausible.
+- **Maintenance:** useful assets can still require labor, repairs, garrisons, dredging, feed, replacement stock, or other continuing costs.
+- **Damage and reversal:** war, fire, flood, disease, raids, bad harvests, blockade, neglect or political collapse can reduce or destroy earlier gains.
+
+Do not use a generic percentage-growth mechanic. Estimate effects from the actual project and the local economy. Use approximate ranges when exact values are not supported.
+
+### What to persist
+
+WORLD.md should stay compact. When economics changes materially, update only what matters for future play, for example:
+
+- important holdings or productive assets;
+- active or completed development projects;
+- meaningful changes in productive capacity or local supply;
+- important trade routes or market access;
+- major stores, revenues, debts, taxes, rents or recurring obligations;
+- labor or population changes when material;
+- lasting shortages, surpluses or price shifts;
+- economic damage from war or disaster.
+
+If a character builds up a lordship over years, later scenes should reflect the accumulated results. A better road can lower transport friction and improve access to markets; a working mill can change local processing capacity; a mine can increase output but require labor, timber, transport and security; settlement growth can expand the tax base while increasing food and infrastructure demand. Those consequences persist until later events change them.
