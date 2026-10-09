@@ -10,7 +10,7 @@ Each story has its own economy, established at its opening date and subsequently
 
 - Story 1 begins in 283 AC, during Robert's Rebellion. War and local conditions affect supply, labor, transport, credit, prices, and security.
 - Story 2 begins in 298 AC. Its own opening conditions, including the long summer, trade, production, and political situation, form the baseline. Do not repeatedly rebuild it as the 283 AC economy plus fifteen years.
-- Story 3 begins in 126 AC. Its opening snapshot and first household audit are qualitative. The workbook's 283 AC amounts are not established prices or reserves for this earlier period.
+- Story 3 begins in 126 AC. Its fresh opening is qualitative; no audit or financial quantities from the retired play-test carry over. The workbook's 283 AC amounts are not established prices or reserves for this earlier period.
 
 Book facts and recorded campaign changes govern. Use historical comparisons and the workbook to fill gaps, preserving the selected date and place. Jon's remembered later developments do not create roads, institutions, wealth, or supplies in 126 AC.
 

@@ -40,7 +40,7 @@ Begins at the holdfast north of Winterfell on the morning of the Night's Watch d
 - [Story](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
 
-The selected pilot. Jon retains his own identity, memories, personality, knowledge, and experience. His current record links the complete prior-life profile inside Story 3; its legacy scores are inactive.
+A fresh run from the original opening. The first player action will be Turn 1. Jon retains his own identity, memories, personality, knowledge, and experience. His current record links the complete prior-life profile inside Story 3; its legacy scores are inactive.
 
 See [HANDOFF.md](HANDOFF.md) for the current position, unresolved premise, and development agenda.
 
@@ -56,11 +56,11 @@ Use a plain chat with repository access, without a preconfigured RPG chatbot's a
 
 Each campaign develops independently. Its own recorded facts govern subsequent turns. Save during play and review continuity and prose after completed Turns 20, 40, 60, and so on. These checkpoints use the existing files and take no fictional time; the procedure is in `AGENTS.md`.
 
-For a fresh continuation:
+For a new chat:
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Continue stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked source profile, and required writing rules. Use the live state without reading the full chat archive unless a discrepancy requires it. Resolve any flagged premise affecting the scene, present the current situation, and wait for my action. I control Jon's meaningful choices. Do not restart the opening or advance time before my response.
+> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Open the current run of stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked source profile, and required writing rules. Use the live files without importing the retired play-test. If no player turn has been resolved in this run, present the saved opening for my first action; otherwise resume the latest saved situation. Resolve any flagged premise when it affects the scene, and wait for my action. I control Jon's meaningful choices. Do not advance time before my response.
 
-If the chat cannot write, retain both player actions and GM responses for later reconciliation. Confirm the import before resuming elsewhere. The [first play-test transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) remains preserved evidence.
+If the chat cannot write, retain both player actions and GM responses from the current run for later reconciliation. Confirm the import before resuming elsewhere. The [retired first play-test transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) remains historical evidence, not current campaign state.
 
 ## Rules and references
 

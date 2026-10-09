@@ -1,70 +1,48 @@
 # Story 3 · World · 126 AC
 
-Current state: after Turn 5, evening of the 26th day of the fourth moon, 126 AC, in a working chamber at Winterfell. No sixth turn has occurred. This campaign remains independent of Stories 1 and 2.
+Current state: fresh opening, Turn 0. The first player action will be Turn 1; no action has been resolved in this run. The first checkpoint is after Turn 20.
 
-## Reconciliation and pending choice
+This campaign is independent of Stories 1 and 2. Jon's supplied prior life is its explicit alternate-history premise, not an outcome already played in either of those campaigns. The earlier five-turn play-test is retired. Its later events, findings, arrivals, disclosures, promises, and dates are not current history. Use the live files, not that archived run, to begin.
 
-Turns 1 through 5 have been imported from the [original transcript](ChatGPT-Play%20Story%20003-20261009-0251.md). Its five responses contain several consequential choices each; they are five played turns, not five atomic decisions. The archive is evidence, not an additional live state file.
+## Opening anchor
 
-**Unresolved premise:** the player called Arra his wife in the first action. The GM explicitly retained the opening's unmarried-friend assumption, but never established whether the player's wording was an intended change. No wedding was played. Resolve this one point before depending on marital status; do not erase either the user's wording or the way the scenes were played.
+The story starts in 126 AC, shortly after Cregan has imprisoned Bennard and his three sons. Placement after the imprisonment is the opening anchor; no exact day or month is established. Arra and Cregan's marital status remains a setup choice to clarify before it affects a scene.
 
-Arra has just delivered the inquiry and warned that some staff interpret Jon's financial audit as a search for people to punish. Edrik and Ronnel retain their posts. Jon has not answered the report or chosen another action.
+Jon's consciousness arrives in a working chamber at Winterfell on a morning when household business is being brought to the lord. The transfer, the room's activity, the unnamed staff, and the immediate audience request are authored opening circumstances.
 
-## Settlement and Bennard's death
+## Political and household facts
 
-- On the fifteenth, Jon sealed and swore an undertaking before the heart tree protecting Bennard's sons, Benjen, Brandon, and Elric. They are to live and receive maintenance, not be sent to the Wall, hold lands, or enter another lord's service. Jon promised not to act against them unless they first moved against him.
-- Their confinement was eased into guarded household lodging with meals, clothing, fires, and access to one another. They have not received unrestricted leave to depart. Their father's death does not cancel the undertaking or establish their loyalty.
-- Bennard signed admissions of retaining government after Cregan came of age, continuing to demand obedience, and directing his sons. He acknowledged Cregan's authority and told his former followers to obey. He did not denounce his sons as traitors.
-- Arra, Walton, the captain of guards, and the clerk witnessed the exchange. Walton retained the originals; Benjen received the brothers' copy. Both documents were read in Winterfell's hall. Copies began going to northern holds for joint proclamation; receipt and reactions at distant holdings have not been established.
-- After permitted farewells, Jon personally beheaded Bennard with Ice on the morning of the twenty-second. Benjen attended; Brandon and Elric remained in their lodging.
-- Arra reported mixed local reactions before the execution, including the accusation of kinslaying. No collective northern judgment, uprising, or reconciliation has been established.
+- Cregan succeeded his father Rickon in 121 AC. Bennard governed as regent, resisted surrendering power, and was imprisoned with his sons in 126 AC.
+- Cregan now rules personally. Confining his uncle has not established the private loyalty of every officer, household servant, or northern lord.
+- Arra Norrey is Cregan's childhood friend. Whether they are already married at this opening remains unresolved. No future marriage, birth, or death is guaranteed.
+- Viserys I is king and Rhaenyra is his designated heir. Alicent's sons and the rival royal households make succession politically consequential; the civil war has not begun.
+- House Stark holds the North under the Iron Throne. Jon's former independent monarchy and succession law have no authority in this world.
+- The household recognizes its lord as Cregan. There has been no disclosure of Jon's identity. NPCs have their own knowledge and do not recognize a consciousness transfer by narrative convenience.
 
-## Household, travel, and outstanding work
+## Immediate unresolved matter
 
-Walton is the steward. Jon required household officers to report resources, obligations, shortages, and unfinished work through him, with clerical help where needed. Ordinary work and prisoner restrictions continued. No general dismissal or new dues were ordered.
+Bennard and his three sons remain confined at Winterfell. The steward reports a request from Bennard to speak to Cregan without a clerk present. The request has not been granted. Its purpose and the accuracy of any claim Bennard may make are not yet established.
 
-The request for an additional maester was dispatched toward the Citadel on the twelfth. The resident maester was not dismissed. Receipt, acceptance, an appointment, and an arrival remain unconfirmed.
+The steward has brought household accounts. They have not been examined or approved by Jon. A clerk has delivered a further bundle of documents; their contents have not been established. No money, pardon, appointment, new detention, or order has been issued by the player.
 
-The resident maester departed for Moat Cailin on the thirteenth with Donnel, a mason, and a groom leading a packhorse. They are to consult the keeper, inspect the works, and report repair needs, materials, labor, and the financial information available to them. This authorizes inspection, not rebuilding. Arra instructed Donnel to remain with the maester, return with him, and send word of a proposed diversion.
+## Geography and material conditions
 
-The original seven-day report date, the nineteenth, was superseded when Jon authorized as much time as the personal inspection required. The party is still away as of the twenty-sixth; no new return deadline or completed survey exists. Their current location and condition have not been reported. Winterfell has no resident maester meanwhile; a rookery attendant and Walton's clerk handle routine correspondence.
+Winterfell is the center of Cregan's household and authority. Distance, routes, messengers, local lords, and the people maintaining stores and records limit how quickly instructions can become action elsewhere.
 
-Donnel's absence reduced Arra's inquiry to work available through Harl and their existing contacts. The inquiry and her requested personal answer were due on the twenty-sixth. She gave her personal answer early, on the twenty-first, and delivered the local report on the twenty-sixth. Those appointments have been met; there is no new fortnight deadline.
+The opening economic baseline is qualitative and specific to 126 AC: the existing Stark lordship supports a working household, retainers, property, stores, and obligations. Exact revenues, cash reserves, debts, levies, harvest conditions, and project costs have not been established for this run.
 
-## Arra, Ghost, and reported loyalties
+When amounts become relevant, distinguish Winterfell's treasury and direct estates from Jon's personal money and the wealth of other northern houses. Record the date, currency or physical unit, cash present, unpaid bills and existing commitments, ordinary expenses over a stated period, and income expected but not yet received. Separate coin available for a new commitment from money already needed elsewhere. A complete inventory of the North is not required before play.
 
-Jon told Arra his identity and transfer claim privately on the twelfth. She agreed on the twenty-first to help and keep the disclosure private, reaffirming that on the twenty-sixth. She still wants to learn what happened to Cregan. Help is not an explanation of the transfer, romantic consent, unconditional allegiance, or settled marital status.
+Use [the shared economic reference](../../references/ECONOMY.md) when a decision materially needs it. Its 283 AC workbook is a modeling aid, not a ready-made 126 AC balance sheet. Establish period and local conditions without automatic backward growth calculations. Jon's later building programs and reforms have not already happened here.
 
-The original Ghost arrived physically in the godswood on the fifteenth at the player's explicit direction. Arra and household witnesses saw him recognize Jon. Ghost remained at Winterfell through the later scenes. His arrival has not revealed Jon's identity to the household or demonstrated other magic.
+## Canon and knowledge
 
-Arra's findings are reports based on Harl's local inquiries, not omniscient certificates of loyalty:
+Book continuity supplies the world at the opening, except for the explicit transfer premise and recorded setup assumptions. Television-only details are not defaults. Where the books offer competing accounts, preserve uncertainty unless the story needs a coherent underlying fact; do not present an inference as established canon.
 
-- **Edrik, gate serjeant:** owes his appointment to Bennard and objects to the execution. Arra reports that on the nineteenth he redirected Bennard's former servant to Walton rather than bypass visitor arrangements. Harl compared accounts from the porter and servant. No disobedience was found.
-- **Ronnel, household clerk:** copied Bennard's recommendations before the imprisonment, opposed the sentence, and also copied the undertaking protecting the sons. Arra reports no evidence of later clandestine messages or altered instructions. He fears dismissal; no decision on his post has been made.
-- **Walton:** Harl found no evidence that he was working against Jon for Bennard. That does not establish unconditional future loyalty.
-- **Harl and Donnel:** Arra trusts them and says they bring her unwelcome information. Donnel is still on the road.
+After Jon arrives, actions and consequences determine events. The canonical Dance and Cregan's later life are possible historical expectations, not mandatory future scenes or a deadline that overrides causality. Only information Jon can perceive, learn, infer, or reasonably recall belongs in his viewpoint.
 
-The local inquiry did not establish an organized attempt to free the brothers or remove Cregan. It did not cover every northern household. Staff concern about punishment is reported by Arra from more than one source, not attributed to everyone.
+## Source checks
 
-## Economic findings and limits
+The original opening's source notes used the book-referenced entries for [Cregan Stark](https://awoiaf.westeros.org/index.php/Cregan_Stark), [Arra Norrey](https://awoiaf.westeros.org/index.php/Arra_Norrey), and [Viserys I](https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen). These are secondary guides to the books, not authority for television additions or invented local details.
 
-Jon personally examined Winterfell's accounts, receipts, cash, and stores between the twenty-second and twenty-sixth.
-
-- Cash on hand reconciled with the household account after tracing small differences to entries awaiting transfer from the daily book. There was no unexplained missing chest. Coin remained after accounting for verified immediate bills and the next ordinary wage payment, but the transcript states no amount.
-- A payment to the miller covered carriage; the verified grinding bill remains unpaid. No payment was authorized in the scene.
-- Proposed gate ironwork had been incorrectly counted as a debt. The work was neither authorized nor performed. Its petition is still awaiting Jon's decision.
-- Six sacks were recorded as received while still awaiting collection at the mill. Kitchen issues missing from the main book and an internal transfer counted twice were also found. Corrections were entered beside legible old entries. No later collection of those six sacks was established.
-- The corrected grain account is smaller. The findings do not establish theft of every discrepancy.
-- The last completed year's records showed a functioning estate whose ordinary receipts supported its ordinary business. No large loan appeared among the documents examined; the wider debt review remains incomplete.
-
-Broader returns were requested from Stark estates and bannermen on dues, deliveries, obligations, and uncounted items. White Harbor was asked about current trade and merchants' difficulties. Messages went through existing routes; no new tax or impossible universal reply deadline was imposed. Replies have not yet been established.
-
-There is no quantified balance sheet for the North, verified capital budget, completed Moat survey, approved major construction, or committed remaining cash. None of the numerical workbook values was validated during this play-test. Before an actual expenditure, establish the necessary local quantities, liabilities, availability, and costs.
-
-## Foundation and sources
-
-The campaign began after Cregan's removal of Bennard's regency. The draft's placement before Arra's marriage is now the explicit unresolved premise above. The exact month and day were established in Turn 2 as campaign dates, not asserted as book dates.
-
-Book continuity remains the foundation except for the user's premises and subsequent consequences. Viserys I is king, Rhaenyra his designated heir, and the North remains under the Iron Throne. Jon's former kingdom and its institutions do not already exist here. Later canonical events are not mandatory outcomes.
-
-Read [Jon's prior-life profile](Jon_Stark_487_AC_.md) for his background and [the economic reference](../../references/ECONOMY.md) when material decisions require it. The 283 AC workbook is a modeling reference, not a ready-made 126 AC economy. Current character knowledge and transfer limits are in `CHARACTER.md`.
+The complete prior-life source remains [Jon Stark, 487 AC](Jon_Stark_487_AC_.md).
