@@ -28,6 +28,7 @@ Starts with Jon Snow at the holdfast north of Winterfell on the morning of the N
 
 - [GM rules](AGENTS.md)
 - [Narrative rules](rules/NARRATIVE.md)
+- [Turn output](rules/TURN_OUTPUT.md)
 - [Combat and battle rules](rules/COMBAT.md)
 - [Economic model rules](references/ECONOMY.md)
 - [Project handoff / remaining work](HANDOFF.md)
@@ -49,8 +50,9 @@ Each story then develops forward from its own opening economy. Player choices ca
 2. Tell the GM what that character attempts.
 3. The GM loads that story's character, story, world, and the small rules relevant to the turn.
 4. The GM adjudicates first, then writes the result as fiction.
-5. Only lasting facts that may matter later are updated.
-6. Stop for the next meaningful player choice.
+5. The player-facing turn shows Name, Age, ending Location, time, the scene, only lasting changes when there are any, and the next real decision.
+6. Only lasting facts that may matter later are updated in the story files.
+7. Stop for the next meaningful player choice.
 
 Each story is isolated. One story never changes the other.
 

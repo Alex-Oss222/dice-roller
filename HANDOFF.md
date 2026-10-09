@@ -52,6 +52,8 @@ Shared material:
 AGENTS.md
 rules/
   NARRATIVE.md
+  NARRATIVE.md
+  TURN_OUTPUT.md
   COMBAT.md
 references/
   ECONOMY.md
@@ -75,6 +77,7 @@ references/
 - Compact mandatory narrative rules now control normal scene writing.
 - Combat and battle writing have a separate small add-on loaded only when needed.
 - `AGENTS.md` tells the GM exactly which files to load for a turn.
+- A compact turn-output contract is established: Name, Age, ending Location, turn/date/time, elapsed time, narrative, an optional `Changed this turn` section only for persistent changes, and `Next` only for a real player decision.
 
 ## What still needs to be done
 
@@ -82,7 +85,7 @@ Do these in this order. Do not add complexity preemptively.
 
 1. **Clean the character sheets.** Preserve their useful biography and established capabilities, but remove old Blood & Gold / numerical capability / progression-system remnants that encourage mechanical play.
 2. **Establish each opening world state.** Put only the political, military, geographic, social, and economic facts that actually matter at the start of that campaign into its `WORLD.md`.
-3. **Write or confirm the opening scene for each story.** Each `STORY.md` should begin with a proper narrative opening and stop at the player's first real decision.
+3. **Write or confirm the opening scene for each story using `rules/TURN_OUTPUT.md`.** Each `STORY.md` should begin with a proper narrative opening and stop at the player's first real decision.
 4. **Clarify canon and character-knowledge policy if play exposes ambiguity.** Canon establishes the starting world; later story facts can permanently diverge. GM knowledge must remain separate from character knowledge.
 5. **Play-test before building more systems.** Run roughly 5 to 10 meaningful decisions in at least one story. Add a new record or rule only when actual play demonstrates that the existing three story files cannot reliably preserve something important.
 6. **After the narrative loop is proven, add Railway.** Keep it thin: load story state, serve readable pages/API, support safe persistence, and later add protected writes if needed.
