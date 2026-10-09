@@ -44,12 +44,18 @@ stories/
     CHARACTER.md
     STORY.md
     WORLD.md
+
+  story-003/
+    CHARACTER.md
+    STORY.md
+    WORLD.md
 ```
 
 Shared material:
 
 ```text
 AGENTS.md
+Jon_Stark_487_AC_.md  # preserved source profile for Story 3
 rules/
   NARRATIVE.md
   TURN_OUTPUT.md
@@ -65,11 +71,13 @@ references/
 - The old complicated engine/research/report structure was removed from `main`.
 - Story 1 is Eddard Stark beginning in 283 AC.
 - Story 2 is Jon Snow beginning in 298 AC.
+- Story 3 is Jon Stark's consciousness from 487 AC inhabiting Cregan Stark in 126 AC. It is the selected pilot campaign. The user's complete prior-life profile remains at `Jon_Stark_487_AC_.md`.
 - Each story has its own character, story, and world files.
 - The stories are explicitly isolated from each other.
 - A shared Westeros economic model is in the repo.
 - Story 1 begins with its own qualitative 283 AC economic snapshot.
-- Story 2 begins with its own qualitative 298 AC economic snapshot. Neither snapshot claims to be a fully counted treasury, price list, or supply ledger.
+- Story 2 begins with its own qualitative 298 AC economic snapshot.
+- Story 3 begins with its own qualitative 126 AC economic snapshot. These snapshots do not claim to be fully counted treasuries, price lists, or supply ledgers.
 - Each story's economy can change persistently because of war, development, trade, taxation, population, infrastructure, harvests, debt, destruction, administration, and player decisions.
 - Economic development is causal rather than a generic percentage-growth mechanic.
 - A long narrative research document was preserved as source material.
@@ -82,22 +90,33 @@ references/
 
 Work through the remaining agenda in order. Do not add complexity preemptively.
 
-1. **Complete: clean the character sheets.** Removed Blood & Gold labels, numerical capability and condition scales, domain tables, rating-based adjudication, and progression rules. Retained biography, training, specific strengths, limitations, equipment, relationships, and knowledge. Jon's additional languages remain explicit campaign premises; obsolete links to deleted setup notes were removed.
+1. **Complete: prepare non-mechanical active character records.** Stories 1 and 2 have cleaned sheets that retain biography, strengths, limits, equipment, relationships, and knowledge. Story 3 has a compact current record linked to the user's complete 487 AC profile. That uploaded source remains intact; its legacy scores and progression instructions are explicitly inactive.
 2. **Complete: establish each opening world state.** Each `WORLD.md` now records the relevant authority, alliances or household relationships, local ground, immediate unresolved situation, and qualitative economic baseline. Unknown troop counts, accounts, prices, routes, and hidden events have not been invented as established facts.
 3. **Complete: write each opening scene.** Each `STORY.md` now contains a Turn 0 opening in `rules/TURN_OUTPUT.md` format, with a real pending decision. These are initial situations, not completed player turns. No player decision, execution, battle outcome, or later canon event has been resolved.
-4. **Conditional: clarify canon and character knowledge if play exposes ambiguity.** Canon establishes the starting world except for recorded campaign premises; later story facts can permanently diverge. Existing rules already separate GM knowledge from character knowledge. No additional policy file is needed before an actual ambiguity appears.
-5. **Next: play-test before building more systems.** Run roughly 5 to 10 meaningful player decisions in at least one story. **Progress: 0 decisions played.** Add a new record or rule only when actual play demonstrates that the existing three story files cannot reliably preserve something important. Confirm that later turns use saved consequences and that the unselected campaign remains unchanged.
+4. **Addressed for Story 3; refine only when needed.** Its character and world records distinguish Jon's prior-life knowledge from Cregan's current body, authority, resources, and personal memories. Book continuity is the foundation, with no predetermined future. The precise transfer assumptions are explicit in `stories/story-003/CHARACTER.md`; unanswered magical or bodily effects remain unestablished until relevant clarification. No separate policy system was added.
+5. **Next: play-test Story 3 before building more systems.** The player plans a first batch of five meaningful decisions, then will supply the complete chat log. **Progress: 0 of 5 decisions played.** Five is an initial review point within the original roughly 5 to 10 decision test, not proof by turn count alone. Confirm believable consequences, player agency, remembered state, and campaign isolation. Add a record or rule only for a concrete problem observed in play.
 6. **Deferred: after the narrative loop is proven, add Railway.** Keep it thin: load story state, serve readable pages/API, support safe persistence, and later add protected writes if needed. The current persistence is the repository's three files per story; no hosted service has been built.
 7. **Optional only after play-testing:** add a small narrative validator/editor pass if mechanical language, exposition-heavy dialogue, or repeated AI-style prose continues to leak into saved scenes.
 
 ## Next session
 
-Ask the player to choose one campaign and give that character's first response. Load only that campaign for play.
+Continue **Story 3**, unless the player explicitly chooses another campaign. Read its three files and the linked `Jon_Stark_487_AC_.md` source profile. The setup references that profile rather than reproducing it.
 
-- **Story 1:** Ned is in his command tent beside the Trident at 18:00, before the expected battle. A captain needs orders about two overdue scouts. Two other riders await instructions; one needs a replacement mount. No search has been authorized.
-- **Story 2:** Jon is at the holdfast at about 08:00, before the deserter's execution. Bran has asked whether leaving was the man's only offense. Jon has not answered or intervened, and the prisoner is still alive.
+Turn 0 is ready: Jon has arrived in Cregan's body in Winterfell, shortly after Bennard's imprisonment and before Cregan's marriage to Arra. A steward is awaiting an answer about Bennard's request for a private audience without a clerk. Jon has issued no order.
 
-Do not simulate the player's choices to mark the play-test complete. Preserve the opening time until the player's response authorizes the scene to proceed.
+The player can start in the current chat or open a repository-enabled chat using the prompt in [README.md](README.md). Present the saved opening, then let the player give the first action. That begins Turn 1.
+
+For the planned five-decision batch:
+
+- Keep play in one chat. A meaningful decision is an attempted action or choice whose outcome changes what follows, not merely a message, correction, or explanation.
+- Save accepted turns and lasting changes when writing directly to the repository. If playing without writes or using the player's batch-import option, clearly identify the turns as awaiting import and preserve the complete conversation until reconciliation.
+- After five decisions, review the supplied transcript, including user actions, GM responses, and corrections. The player can attach it or upload `stories/story-003/PLAYTEST_CHAT.md`; do not create a placeholder log.
+- Reconcile accepted events into the three story files before resuming in a different chat. If the log and saved state conflict and the accepted version is unclear, ask about that specific conflict rather than silently overwriting either.
+- Report what worked, what failed, what was actually persisted, and the smallest justified next change. After importing the batch, use the next turn in a fresh chat to check that the saved files carry the situation forward without the original conversation. Extend toward ten decisions only if the first batch leaves a concrete issue untested.
+
+Stories 1 and 2 remain at their own Turn 0 openings. Story 3's former-life profile is not a continuation of Story 2 and must not change it.
+
+Do not simulate the player's choices to complete the test or advance fictional time while awaiting a response.
 
 ## Development guardrail
 

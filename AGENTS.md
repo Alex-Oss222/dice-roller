@@ -5,7 +5,7 @@ Keep the game simple, persistent, and literary.
 ## Before every turn
 
 1. Select one story only.
-2. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md`.
+2. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md`. If `CHARACTER.md` names a source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
 3. Read `rules/NARRATIVE.md`.
 4. Read `rules/TURN_OUTPUT.md`.
 5. Read `rules/COMBAT.md` only if the turn contains combat, a battle, siege, pursuit, or military movement where those rules matter.
@@ -34,10 +34,11 @@ Stop when the player reaches the next meaningful decision. Do not continue throu
 ## Save
 
 - Append the accepted scene to the selected story's `STORY.md`.
+- Confirm repository writes before describing state as saved. If a play chat cannot write, or the player chooses to import a batch later, keep the turns together in that chat and identify them as awaiting import. Reconcile the accepted transcript into the three story files before resuming elsewhere.
 - Update `CHARACTER.md` only for lasting changes to the player character.
 - Update `WORLD.md` only for lasting facts likely to matter later, including important NPC, political, holding, economic, travel, death, obligation, project, or world changes.
 - The optional `Changed this turn` section in the player-facing output summarizes those saved changes. It is not a separate ledger and is never the source of truth.
 - Incidental movement needs no persistent update. Save travel or location changes only when they matter later.
 - If nothing lasting changed outside the scene, do not manufacture an update or a `Changed this turn` section.
-- Keep the two stories independent.
+- Keep all campaigns independent.
 - Do not create new schemas, trackers, subsystems, or files unless a real play problem proves they are needed.

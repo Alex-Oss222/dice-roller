@@ -14,6 +14,7 @@ At initialization, establish the economic state appropriate to that story's exac
 
 - **Story 1:** 283 AC opening snapshot.
 - **Story 2:** 298 AC opening snapshot.
+- **Story 3:** 126 AC opening snapshot.
 
 The 298 AC economy is not treated during play as "283 AC plus fifteen years of adjustment." It is established once as the 298 AC starting economy using the shared model together with the economic conditions that exist at the 298 AC opening.
 
@@ -51,6 +52,12 @@ The story begins with an economy established for 298 AC.
 Once that opening snapshot is established, it is the active economic baseline for Story 2. Ordinary adjudication should not keep looking backward fifteen years and rebuilding every value from 283 AC.
 
 Regional conditions, the long summer, trade access, political stability, local production, transport, demand, scarcity, and later story events can change the 298 AC economy from that starting point.
+
+## Story 3: 126 AC
+
+The Jon Stark / Cregan Stark campaign starts from its own qualitative 126 AC conditions. The workbook's 283 AC figures are not established prices, revenues, population, or reserves for this earlier date. Use its economic relationships and unit definitions as a reference, then establish any needed amounts from the selected campaign's period, place, and circumstances.
+
+Jon's memories of later northern development do not create those roads, ports, institutions, or supplies in 126 AC. He may try to develop them through actual authority, resources, labor, knowledge, and time. Record only results that occur in this campaign.
 
 ## Divergence
 
