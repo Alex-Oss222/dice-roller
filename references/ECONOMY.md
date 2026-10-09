@@ -35,9 +35,17 @@ Do not consult it merely because someone eats a meal, rides a horse, enters a ma
 5. Account for current circumstances. Harvest quality, season, war, siege, levies, requisition, disrupted roads, unusual demand, disease, political disorder, and shortages may alter price and availability.
 6. Check availability before affordability. Having enough coin does not create grain, horses, ships, craftsmen, wagons, or labor where they are unavailable.
 7. Account for status and institutions. Great houses command stores, rents, retainers, credit, obligations, and bulk purchasing. Lesser households have less reach. Smallfolk may rely partly on barter, dues in kind, informal credit, or household production. Armies can consume stores, purchase supplies, requisition them, or forage, with different political consequences.
-8. Use ranges or approximate scale when the evidence does not support an exact figure. Do not manufacture precision.
+8. Give specific amounts when a count, account, agreed price, or decision warrants them. Use ranges for genuinely unresolved costs or incomplete reports, not as a default substitute for an amount the character could obtain. When canon is silent, establish a plausible campaign value as described below; do not present it as a sourced book figure.
 9. Keep GM knowledge separate from character knowledge.
 10. Record an economic fact in a story's WORLD.md or CHARACTER.md only when it becomes a lasting fact that may matter later.
+
+## Establishing useful quantities
+
+The GM may invent missing economic quantities as part of establishing the fictional world. Keep them consistent with book scale, the selected campaign's date and circumstances, and already established amounts. Historical analogies and the workbook inform gaps; they do not override book facts or recorded campaign changes.
+
+- When a decision needs available cash, stores, a wage, debt, or a price, establish the necessary amount through an appropriate count, account, or offer. Do not require repeated demands from the player or indefinite audits merely because the books give no figure. A consequential missing report may still take real time to obtain.
+- Record the amount, unit, scope, and basis in the existing state: counted balance, quoted price, estimate, or authored campaign assumption. Keep source labels outside the fiction. Do not call an estimate an audited fact or confuse revenue, cash, credit, and spendable funds after obligations.
+- Carry payments, outstanding commitments, receipts, and deliveries forward from the established baseline. Existing obligations reduce what can be committed; coin does not create unavailable labor or materials. Establish only the figures needed for the decision, not a full ledger for the realm.
 
 ## Story 1: 283 AC
 
@@ -79,7 +87,7 @@ Treat those actions as real projects with causes and constraints:
 - **Maintenance:** useful assets can still require labor, repairs, garrisons, dredging, feed, replacement stock, or other continuing costs.
 - **Damage and reversal:** war, fire, flood, disease, raids, bad harvests, blockade, neglect or political collapse can reduce or destroy earlier gains.
 
-Do not use a generic percentage-growth mechanic. Estimate effects from the actual project and the local economy. Use approximate ranges when exact values are not supported.
+Do not use a generic percentage-growth mechanic. Estimate effects from the actual project and the local economy. Future uncertain effects may use ranges; agreed prices, actual payments, and counted deliveries should retain their specific amounts.
 
 ### What to persist
 

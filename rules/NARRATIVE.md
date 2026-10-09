@@ -21,6 +21,8 @@ Do not mention rolls, checks, ratings, stats, difficulty, modifiers, success sta
 
 Do not explain an outcome by saying a character succeeded because of a skill or failed because of a rating. Show the result in the event itself.
 
+Troop counts, deaths, coin, stores, prices, and days of work are ordinary world facts, not RPG statistics. Use known quantities naturally when they matter, through orders, counts, accounts, or conversation. Do not hide a useful figure behind vague language merely to sound literary, or turn every scene into a ledger.
+
 ## Viewpoint and knowledge
 
 - Do not give the viewpoint character information they could not see, hear, infer, remember, or learn from another person.

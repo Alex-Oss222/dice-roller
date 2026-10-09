@@ -15,6 +15,15 @@ These rules supplement `NARRATIVE.md`. They do not create a combat minigame.
 - A famous person's death does not automatically end a battle.
 - Retreat, pursuit, surrender, capture, straggling, reorganization, and supply after the fight are part of the military outcome.
 
+## Strength and losses
+
+- Use book forces for the relevant date, commander, and location, then account for changes established in this campaign. A realm's potential levy, its combined armies, and one host present at a battle are different quantities. Do not lower a book figure to fit a generic historical benchmark or import another war's forces.
+- If a needed strength is unstated, establish a plausible campaign count at the books' scale. Distinguish a muster or roll from a scout's estimate. Do not withhold an available count until the player repeatedly asks.
+- Resolve losses from how the engagement unfolds, including surprise, formation, flight, pursuit, capture, and conditions afterward. Do not default to token losses or impose a high death rate merely for a grim tone. Canonical losses are reference points for comparable circumstances, not predetermined outcomes after divergence.
+- Distinguish killed, wounded, captured, missing or dispersed, and those presently fit for duty. A routed or destroyed army has not necessarily been killed to the last man. Avoid double-counting; a wounded man later dying changes categories rather than creating a second loss.
+- When counts become available, save the material changes and remaining available strength in `WORLD.md`, with the date and scope of the report. Account for detachments, reinforcements, recoveries, desertions, and returning stragglers when relevant. A later, better count may correct an estimate explicitly.
+- Make losses matter in the fiction through consequences such as absent officers, reduced formations, wounded needing transport, prisoners, or changed orders. Use what affects the scene, not a mandatory casualty report during the fighting.
+
 ## Individual fighting
 
 - Track distance, space, footing, weapons, armor, numbers, position, fatigue, injury, and routes of escape.

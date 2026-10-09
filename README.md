@@ -4,7 +4,7 @@ A minimal ASOIAF narrative RPG.
 
 You make the character's choices. The AI GM adjudicates what realistically happens, writes the narrative, and records only lasting changes that may matter later.
 
-No D&D-style rules layer. No giant universal bookkeeping system. No constant dice.
+No D&D-style rules layer. No giant universal bookkeeping system. No constant dice. Consequential troop counts, losses, money, and supplies still use numbers. Book scale supplies the foundation; the GM may establish missing campaign quantities and preserve them as play develops.
 
 ## Stories
 
@@ -71,7 +71,7 @@ Each story is isolated. One story never changes another.
 
 The [original five-turn transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) is preserved unchanged. Its accepted events are now in the three live story files, with the Arra premise question flagged. The handoff records the findings and remaining tests.
 
-For a fresh chat with repository access, use:
+Use a plain chat with repository access for this project, without a preconfigured RPG chatbot's additional instructions. For a fresh continuation, use:
 
 > Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Continue stories/story-003 after Turn 5. Read its CHARACTER.md, STORY.md, WORLD.md, the source profile linked from CHARACTER.md, and the required narrative and turn-output rules. For this continuation test, use the saved state without reading the full chat transcript. Resolve any flagged premise that affects the next scene, present the current situation, and wait for my action. I control Jon's meaningful choices. Do not restart the opening or advance time before my response.
 

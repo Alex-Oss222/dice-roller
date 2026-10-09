@@ -17,7 +17,7 @@ The basic loop is:
 5. Only lasting changes that may matter later are saved.
 6. The scene stops when I have another meaningful choice.
 
-I do not want numerical RPG clutter, giant skill trees, constant dice, relationship meters, automatic growth scores, or bookkeeping for facts that do not matter.
+I do not want numerical RPG clutter, giant skill trees, constant dice, relationship meters, automatic growth scores, or bookkeeping for facts that do not matter. Useful world quantities still belong: troop strengths, losses, stores, prices, and balances. Use book scale, then preserve campaign changes. The GM may establish missing amounts; the player should not have to repeatedly demand numbers.
 
 ## End goal
 
@@ -105,13 +105,21 @@ Reviewed on 2026-10-09 from the [complete uploaded transcript](stories/story-003
 
 **What did not meet the writing contract:** the saved opening was paraphrased; all six opening/turn outputs offered unsolicited action menus; citations appeared inside the prose and headers; repeated assurances about what had not been authorized or verified often read like an administrative explanation. No numerical RPG system appeared, but avoiding scores alone did not make every passage natural fiction.
 
-The export identifies a custom RPG GPT and repeatedly shows preparation for four-option endings. Competing instructions are a possible cause of the menu pattern, not a verified diagnosis; its underlying instructions are not available. Prefer a plain repository-enabled chat for the next continuation test to reduce that uncertainty.
+The export identifies a custom RPG GPT and repeatedly shows preparation for four-option endings. Competing instructions are a possible cause of the menu pattern, not a verified diagnosis; its underlying instructions are not available. The player has chosen plain repository-enabled chats for this project, without a preconfigured RPG chatbot. That operating choice does not prove the unavailable configuration caused every prose problem.
 
 **What the import changed:** the original Turn 0 was retained. Turns 1 through 5 were appended with their events and dialogue intact; external citation wrappers, the two source/setup notes outside the scene, and unsolicited ending menus were removed from the reading copy. Brief open questions replace those menus. The original transcript preserves every response and the full review. This was not a prose rewrite or a new played turn.
 
 `CHARACTER.md` and `WORLD.md` now distinguish direct actions and findings from Arra's reported evidence, uncounted amounts, and unanswered requests. The import leaves marital status explicitly unresolved rather than inventing a wedding. The small shared-rule edits reinforce the existing requirements for unchanged saved openings, fiction without citation clutter or administrative narration, and endings without unrequested menus. Their effect still needs testing in actual play.
 
 **Remaining evidence gaps:** no cross-chat memory test or deliberate false-memory check has run. The financial work found useful discrepancies but supplied no spending amounts or priced project. The Moat party, Citadel response, wider returns, sons' later conduct, and broader reaction to the execution remain unresolved. These are future story consequences, not grounds for adding speculative machinery.
+
+## Clarification after review
+
+The player reports an earlier campaign of roughly 47 turns that retained army numbers across journeys. That transcript has not been reviewed here. This is useful reported experience, not a demonstrated limit or a guarantee for every 50-turn conversation. Five turns was a review batch, not a memory threshold.
+
+The current priority is choosing appropriate quantities and carrying their consequences forward. The shared rules now explicitly allow authored campaign amounts where the books are silent, retain book scale over generic historical normalization, and distinguish deaths from other losses and remaining effective strength. These are instruction changes, not yet a successful battle or spending test. Story 3's existing audit remains qualitative; no treasury amount, completed survey, payment, or casualty was retroactively invented.
+
+Use ordinary continuation to check the saved state. Keep deliberate false-memory and campaign-isolation probes optional and outside canon; do not require another long campaign merely to demonstrate that numbers can be remembered. Continue saving material changes as play proceeds, or reconcile the player's chosen batch before switching chats.
 
 ## Next session
 
