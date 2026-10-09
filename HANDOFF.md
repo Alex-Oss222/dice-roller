@@ -68,8 +68,8 @@ references/
 - Each story has its own character, story, and world files.
 - The stories are explicitly isolated from each other.
 - A shared Westeros economic model is in the repo.
-- Story 1 begins with its own 283 AC economic snapshot.
-- Story 2 begins with its own 298 AC economic snapshot.
+- Story 1 begins with its own qualitative 283 AC economic snapshot.
+- Story 2 begins with its own qualitative 298 AC economic snapshot. Neither snapshot claims to be a fully counted treasury, price list, or supply ledger.
 - Each story's economy can change persistently because of war, development, trade, taxation, population, infrastructure, harvests, debt, destruction, administration, and player decisions.
 - Economic development is causal rather than a generic percentage-growth mechanic.
 - A long narrative research document was preserved as source material.
@@ -78,17 +78,26 @@ references/
 - `AGENTS.md` tells the GM exactly which files to load for a turn.
 - A compact turn-output contract is established: Name, Age, ending Location, turn/date/time, elapsed time, narrative, an optional `Changed this turn` section only for persistent changes, and `Next` only for a real player decision.
 
-## What still needs to be done
+## Agenda and current status
 
-Do these in this order. Do not add complexity preemptively.
+Work through the remaining agenda in order. Do not add complexity preemptively.
 
-1. **Clean the character sheets.** Preserve their useful biography and established capabilities, but remove old Blood & Gold / numerical capability / progression-system remnants that encourage mechanical play.
-2. **Establish each opening world state.** Put only the political, military, geographic, social, and economic facts that actually matter at the start of that campaign into its `WORLD.md`.
-3. **Write or confirm the opening scene for each story using `rules/TURN_OUTPUT.md`.** Each `STORY.md` should begin with a proper narrative opening and stop at the player's first real decision.
-4. **Clarify canon and character-knowledge policy if play exposes ambiguity.** Canon establishes the starting world; later story facts can permanently diverge. GM knowledge must remain separate from character knowledge.
-5. **Play-test before building more systems.** Run roughly 5 to 10 meaningful decisions in at least one story. Add a new record or rule only when actual play demonstrates that the existing three story files cannot reliably preserve something important.
-6. **After the narrative loop is proven, add Railway.** Keep it thin: load story state, serve readable pages/API, support safe persistence, and later add protected writes if needed.
+1. **Complete: clean the character sheets.** Removed Blood & Gold labels, numerical capability and condition scales, domain tables, rating-based adjudication, and progression rules. Retained biography, training, specific strengths, limitations, equipment, relationships, and knowledge. Jon's additional languages remain explicit campaign premises; obsolete links to deleted setup notes were removed.
+2. **Complete: establish each opening world state.** Each `WORLD.md` now records the relevant authority, alliances or household relationships, local ground, immediate unresolved situation, and qualitative economic baseline. Unknown troop counts, accounts, prices, routes, and hidden events have not been invented as established facts.
+3. **Complete: write each opening scene.** Each `STORY.md` now contains a Turn 0 opening in `rules/TURN_OUTPUT.md` format, with a real pending decision. These are initial situations, not completed player turns. No player decision, execution, battle outcome, or later canon event has been resolved.
+4. **Conditional: clarify canon and character knowledge if play exposes ambiguity.** Canon establishes the starting world except for recorded campaign premises; later story facts can permanently diverge. Existing rules already separate GM knowledge from character knowledge. No additional policy file is needed before an actual ambiguity appears.
+5. **Next: play-test before building more systems.** Run roughly 5 to 10 meaningful player decisions in at least one story. **Progress: 0 decisions played.** Add a new record or rule only when actual play demonstrates that the existing three story files cannot reliably preserve something important. Confirm that later turns use saved consequences and that the unselected campaign remains unchanged.
+6. **Deferred: after the narrative loop is proven, add Railway.** Keep it thin: load story state, serve readable pages/API, support safe persistence, and later add protected writes if needed. The current persistence is the repository's three files per story; no hosted service has been built.
 7. **Optional only after play-testing:** add a small narrative validator/editor pass if mechanical language, exposition-heavy dialogue, or repeated AI-style prose continues to leak into saved scenes.
+
+## Next session
+
+Ask the player to choose one campaign and give that character's first response. Load only that campaign for play.
+
+- **Story 1:** Ned is in his command tent beside the Trident at 18:00, before the expected battle. A captain needs orders about two overdue scouts. Two other riders await instructions; one needs a replacement mount. No search has been authorized.
+- **Story 2:** Jon is at the holdfast at about 08:00, before the deserter's execution. Bran has asked whether leaving was the man's only offense. Jon has not answered or intervened, and the prisoner is still alive.
+
+Do not simulate the player's choices to mark the play-test complete. Preserve the opening time until the player's response authorizes the scene to proceed.
 
 ## Development guardrail
 

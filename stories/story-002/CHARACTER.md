@@ -1,17 +1,14 @@
-# Jon Snow — starting character
+# Jon Snow
 
-**A Song of Blood & Gold: Winterfell**
-
-| Starting record | Details |
+| Current record | Details |
 | --- | --- |
 | Date | Ninth year of summer, 298 AC; a clear cold morning |
 | Time | About 08:00, at the holdfast |
-| Turn | 0 · not started |
+| Turn | 0 · opening |
 | Age | 14; born 283 AC, at the end of the rebellion |
 | Standing | Acknowledged bastard son of Lord Eddard Stark, raised at Winterfell |
 | Location | The yard of a holdfast in the hills north of Winterfell, where a deserter is held |
-| Condition | 8 — Hale |
-| Resolution | Adjudicated; Blood & Gold 0 to 9 capabilities |
+| Condition | Hale |
 
 ## Background
 
@@ -19,9 +16,11 @@ Jon was brought to Winterfell as an infant at the end of Robert's Rebellion and 
 
 He shares Robb's lessons and Robb's practice yard. Maester Luwin taught them both their letters, sums, the histories of the North and the houses of the realm. Ser Rodrik Cassel trained them at arms. Theon Greyjoy, Lord Eddard's ward since the Greyjoy rebellion, trains beside them and is five years older. Jon eats at the lower tables when guests of rank are present, and sits with the family otherwise; Lady Catelyn has never wanted him at Winterfell and does not hide it.
 
-This morning a deserter from the Night's Watch has been taken near a holdfast in the hills. Lord Eddard is riding out to give the king's justice himself, as the lord of Winterfell does, and Jon rides with him, with Robb, with Theon, and with Bran, who is seven and going to see a man die for the first time.
+This morning a deserter from the Night's Watch has been taken near a holdfast in the hills. Lord Eddard has brought the party there to give the king's justice himself, as the lord of Winterfell does. Jon is with him, with Robb, with Theon, and with Bran, who is seven and going to see a man die for the first time.
 
 ## Experience
+
+These abilities come from Jon’s actual upbringing and practice. They do not establish experience of work, danger, or authority he has not yet encountered.
 
 **Arms.** Ser Rodrik has had Jon in the yard since he could hold a wooden sword. He drills with Robb daily and with Theon often; the master-at-arms rates him well, and in the yard he and Robb are an even match, Jon quick and graceful where Robb is strong and fast. His edge is a good teacher's training, not any mastery: against boys who never had one he looks better than he is. He has learned footwork, guards, the cuts and the recovery, and to fight with a shield on his arm, all against boys and against the master-at-arms who is teaching him. He has never fought in armor heavier than a padded jack and mail shirt, never in a line, never against a man who wanted him dead. He wrestles well enough for his weight. He has shot a bow since he was small and can hit a target; Theon is the better archer by a wide margin and says so.
 
@@ -33,9 +32,11 @@ This morning a deserter from the Night's Watch has been taken near a holdfast in
 
 **Watching.** A bastard in a lady's household learns to notice. Jon is markedly observant: he reads a room and the people in it before he speaks, keeps his own counsel, and knows when he is being mocked before the sentence ends. He does not lie well and does not care to, but he can keep a thing to himself for years.
 
-**The old gods.** He keeps the old gods with his father, before the heart tree in the godswood. He knows the customs, the oaths sworn there, and the stories; there is nothing more to know.
+**The old gods.** He keeps the old gods with his father, before the heart tree in the godswood. He knows the customs, the oaths sworn there, and the stories. He has no established knowledge of magic beyond those accounts.
 
 ## Disposition
+
+These are his habits at the opening, not decisions made for the player or guarantees of how he must act.
 
 **Conduct.** He keeps his word and expects his father's word to be kept. He does not start a fight but does not walk away from one. He minds a slight and does not show it, and broods on his bastardy more than he lets anyone see. He is protective of Arya and of Bran and defers to Robb without resenting him. He wants a place that is his by his own doing, and has begun to think that place is the Wall.
 
@@ -63,19 +64,11 @@ Liege: Lord Eddard Stark, his father, Warden of the North under King Robert Bara
 
 Longer ambitions: A place of his own. The Night's Watch, where his uncle serves and a bastard can rise, is the one he has begun to name to himself.
 
-## Appearance and natural attributes
+## Appearance and physical experience
 
 Lean and dark, with grey eyes so dark they look black and the long solemn face of the Starks; of the children at Winterfell he looks most like his father. Slender where Robb is muscular, dark where Robb is fair, graceful and quick where Robb is strong and fast. Not yet at his full height. Dresses in plain northern grey and brown.
 
-| Attribute | Detail |
-| --- | --- |
-| Strength | Fair for fourteen; Robb is stronger. |
-| Agility | Good: quick in the yard and on a horse. |
-| Endurance | Good: a boy raised outdoors in the North. |
-| Intelligence | Good: quick at the maester's lessons, quicker at reading people. |
-| Perception | Strong: markedly observant; he reads people and rooms before he speaks. |
-| Appearance | The Stark look, plain dress; solemn beyond his years. |
-| Willpower | Strong: he has borne his place without complaint or surrender. |
+His strength is ordinary for a well-fed, trained boy of fourteen; Robb is stronger. Yard practice and riding have made him quick and coordinated, and he is accustomed to outdoor exertion. That does not give him an adult campaigner's endurance. He learns readily from the maester and is particularly observant of people. He has endured his uncertain place in the household, though slights can still provoke him.
 
 ## Family
 
@@ -96,11 +89,11 @@ Lean and dark, with grey eyes so dark they look black and the long solemn face o
 | High Valyrian | Fluent | Fluent | Fluent |
 | Low Valyrian | Fluent | Fluent | Fluent |
 
-The three tongues beyond the Common are this story's premise, not book canon; the reasoning is in the notes.
+The three tongues beyond the Common are established premises of this campaign, not claims about book canon. Language knowledge does not supply a traveller's experience of the places where it is spoken.
 
 ## Condition
 
-8 — Hale. Fourteen, sound, fed, unhurt.
+Hale. Fourteen, sound, fed, unhurt.
 
 ## Equipment
 
@@ -135,7 +128,8 @@ Acknowledged natural son of the Lord of Winterfell; no inheritance, no lands, no
 ## Knowledge
 
 - It is the ninth year of a long summer, 298 AC. Robert Baratheon is king; Jon Arryn is his Hand, so far as Winterfell has heard.
-- A deserter from the Night's Watch was taken near a holdfast in the hills and is to die this morning by his father's hand.
+- A deserter from the Night's Watch was taken near a holdfast in the hills and is to die this morning by his father's hand. The sentence has not yet been carried out.
+- At the holdfast, Jon has heard the prisoner admit leaving without orders and say there were three of them. Jon has no verified account of what happened to the others.
 - His uncle Benjen is at the Wall. The Watch takes bastards and lets them rise.
 - His mother's name and fate are unknown to him; his father will not speak of her.
 - Old Nan's stories of the Others and the Long Night; the maester's histories, which treat them as stories.
@@ -147,6 +141,4 @@ Acknowledged natural son of the Lord of Winterfell; no inheritance, no lands, no
 
 ## Present aim
 
-Ride with his father to the holdfast, see the deserter's sentence done, and keep Bran steady through it.
-
-[Setup details](notes/setup-decisions.md) · [Background and sources](notes/character-background.md)
+At the holdfast with his father, expecting to see the deserter's sentence carried out and concerned for Bran. What Jon actually says or does here belongs to the player.
