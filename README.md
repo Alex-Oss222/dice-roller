@@ -1,6 +1,6 @@
 # Iron Engine
 
-Persistent memory for an ASOIAF role-playing chat.
+Narrative guidance and persistent memory for an ASOIAF role-playing chat.
 
 The role-play happens in chat. This repository stores what happened and what remains true so the next turn or a fresh conversation can use the saved facts.
 
@@ -54,7 +54,7 @@ Use a plain chat with repository access, without a preconfigured RPG chatbot's a
 4. Save the accepted scene and material changes.
 5. Stop at the next meaningful choice.
 
-Each campaign develops independently. Its own recorded facts govern subsequent turns.
+Each campaign develops independently. Its own recorded facts govern subsequent turns. Save during play and review continuity and prose after completed Turns 20, 40, 60, and so on. These checkpoints use the existing files and take no fictional time; the procedure is in `AGENTS.md`.
 
 For a fresh continuation:
 

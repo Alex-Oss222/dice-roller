@@ -69,6 +69,8 @@ A scene needs a practical reason to exist, but not every scene needs a revelatio
 
 Ordinary work, delay, misunderstanding, incomplete conversations, administrative problems, travel, waiting, and failed attempts can be part of the story when they follow naturally from events.
 
+Let scene length and paragraphing follow the action and conversation. There is no fixed word count, paragraph count, or minimum length. Give authorized actions and their consequences enough space to be understood; compress repetition. Do not manufacture delays, setbacks, or extra decisions to lengthen a scene, or rush past a meaningful choice to finish it.
+
 End at the next consequential decision the player should make. Do not resolve that decision on the player's behalf.
 
 ## Special cases

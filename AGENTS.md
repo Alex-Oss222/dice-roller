@@ -52,3 +52,15 @@ Stop when the player reaches the next meaningful decision. Do not continue throu
 - If nothing lasting changed outside the scene, do not manufacture an update or a `Changed this turn` section.
 - Keep all campaigns independent.
 - Do not create new schemas, trackers, subsystems, or files unless a real play problem proves they are needed.
+
+## Checkpoints
+
+After completed Turns 20, 40, 60, and each subsequent multiple of 20, review the selected campaign's continuity. Count accepted numbered story turns, not setup messages, clarifications, or maintenance. A turn may contain several actions the player authorized.
+
+Continue saving accepted scenes and material changes during play. The checkpoint is an additional review, not a reason to hold twenty turns only in chat.
+
+Reconcile the three live files with the accepted events. Check established balances, payments, commitments, stores, army strengths and losses, project progress, elapsed time, locations, and unresolved business where relevant. Preserve the distinction between world facts, reports, and character knowledge. Flag unsupported or conflicting facts rather than quietly choosing a replacement.
+
+Review the recent prose for believable conduct, consequences, repeated exposition, imposed menus, and loss of player control. Update `HANDOFF.md` with the current position, unresolved premises, and next checkpoint. Confirm the saved result briefly outside the fiction. If writes are unavailable, identify the checkpoint as awaiting import.
+
+A checkpoint advances no fictional time and makes no choice for the player.

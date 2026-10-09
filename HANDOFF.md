@@ -18,13 +18,13 @@ Each campaign has three live files:
 
 `AGENTS.md` owns the general adjudication and saving instructions. `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md` govern scene writing. Load combat and economic references when relevant. Source profiles and archives provide evidence, not competing game instructions.
 
-Use a plain repository-enabled chat for this project. Save accepted scenes and material changes during play when writes are available. Otherwise preserve the conversation and reconcile the player's chosen batch before changing chats. Five turns is a review interval, not a memory limit.
+Use a plain repository-enabled chat for this project. Save accepted scenes and material changes during play when writes are available. Otherwise preserve the conversation and reconcile the player's chosen batch before changing chats. Review continuity after completed Turns 20, 40, 60, and so on, following the checkpoint instructions in `AGENTS.md`. This is a review interval, not a guarantee of chat memory.
 
 ## Current status
 
 - Story 1: Eddard Stark, 283 AC, at its Turn 0 opening.
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
-- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turns 1 through 5 are imported; no sixth turn has occurred. The full profile is inside Story 3 and its legacy scores are inactive.
+- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turns 1 through 5 are imported; no sixth turn has occurred. The next checkpoint is after Turn 20. The full profile is inside Story 3 and its legacy scores are inactive.
 - The original [Story 3 transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md), source profile, economic workbook, and narrative research are preserved.
 
 ## What the first batch established
@@ -49,11 +49,11 @@ Deliberate false-memory and campaign-isolation probes are optional and outside c
 
 ## Development agenda
 
-The existing three-file structure serves the intended purpose. Improve the accuracy and use of this memory through ordinary play.
+The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. Story 3 still needs useful local quantities established as play requires them; its treasury and project costs are not yet quantified. Improve the prose and the accuracy and use of this memory through ordinary play.
 
 1. Continue Story 3 from the saved situation. Apply the general adjudication and writing guidance, resolving the flagged premise before relying on it.
 2. Save accepted events and their material effects. As play establishes army strengths, losses, spending, balances, or development costs, carry those quantities and project changes forward in `WORLD.md`. Do not invent retrospective transactions or outcomes to fill gaps.
-3. Verify that a fresh chat uses the current saved situation, quantities, commitments, and unresolved work. Keep all campaigns independent.
+3. Verify that a fresh chat uses the current saved situation, quantities, commitments, and unresolved work. At each twentieth completed turn, review continuity and recent prose, then refresh this handoff. Keep all campaigns independent.
 4. Fix observed memory or adjudication problems in the existing files and shared guidance. Add structure only when a concrete play problem requires it.
 
 Do not simulate player decisions or advance time during maintenance.
