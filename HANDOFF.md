@@ -4,7 +4,7 @@ Read this first, then `AGENTS.md`. Continue the existing project.
 
 ## Purpose
 
-Build a persistent, literary ASOIAF alternate-history roleplaying experience. The player makes the character's meaningful choices. The GM resolves attempts through established competence, knowledge, intentions, resources, opposition, circumstances, and prior consequences, then writes the resulting events as fiction.
+Maintain persistent memory for a literary ASOIAF alternate-history role-playing chat. The repository stores the campaign's facts and history; the chat supplies the role-play. The player makes the character's meaningful choices. The GM resolves attempts through established competence, knowledge, intentions, resources, opposition, circumstances, and prior consequences, then writes the resulting events as fiction.
 
 Book continuity supplies the foundation and scale; future events can diverge. Useful quantities belong in the world. Avoid RPG scores, constant rolls, menus, and unnecessary bookkeeping.
 
@@ -13,7 +13,7 @@ Book continuity supplies the foundation and scale; future events can diverge. Us
 Each campaign has three live files:
 
 - `CHARACTER.md`: the character's established identity, experience, limits, and current condition.
-- `WORLD.md`: lasting facts, relationships, obligations, resources, and unresolved business.
+- `WORLD.md`: lasting facts, relationships, obligations, and unresolved business, including army strengths and losses, available funds, spending and commitments, and development projects with their location, cost, progress, and effects.
 - `STORY.md`: accepted scenes.
 
 `AGENTS.md` owns the general adjudication and saving instructions. `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md` govern scene writing. Load combat and economic references when relevant. Source profiles and archives provide evidence, not competing game instructions.
@@ -26,7 +26,6 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
 - Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turns 1 through 5 are imported; no sixth turn has occurred. The full profile is inside Story 3 and its legacy scores are inactive.
 - The original [Story 3 transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md), source profile, economic workbook, and narrative research are preserved.
-- Railway is a documented proposal in [RAILWAY.md](RAILWAY.md). No application or deployment configuration has been built for it.
 
 ## What the first batch established
 
@@ -50,10 +49,11 @@ Deliberate false-memory and campaign-isolation probes are optional and outside c
 
 ## Development agenda
 
-1. Apply the general adjudication and writing guidance in ordinary continuation. Fix observed problems at the appropriate shared rule, without accumulating action-specific exceptions.
-2. Verify that a fresh chat uses the current saved situation and that material changes persist. Keep all campaigns independent.
-3. Review the Railway proposal before implementation: choose the playing interface, establish a usable read/write connection, and agree on the initial scope and running cost.
-4. Build the smallest authorized service only if it removes demonstrated loading, saving, or access friction. Retain one authoritative campaign store.
-5. Consider further validation or infrastructure only when an observed problem warrants it.
+The existing three-file structure serves the intended purpose. Improve the accuracy and use of this memory through ordinary play.
 
-Do not simulate player decisions, advance time during maintenance, or turn hosting into a second game system.
+1. Continue Story 3 from the saved situation. Apply the general adjudication and writing guidance, resolving the flagged premise before relying on it.
+2. Save accepted events and their material effects. As play establishes army strengths, losses, spending, balances, or development costs, carry those quantities and project changes forward in `WORLD.md`. Do not invent retrospective transactions or outcomes to fill gaps.
+3. Verify that a fresh chat uses the current saved situation, quantities, commitments, and unresolved work. Keep all campaigns independent.
+4. Fix observed memory or adjudication problems in the existing files and shared guidance. Add structure only when a concrete play problem requires it.
+
+Do not simulate player decisions or advance time during maintenance.

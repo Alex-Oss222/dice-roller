@@ -1,6 +1,6 @@
 # GM rules
 
-Keep the game simple, persistent, and literary.
+Keep the role-playing chat simple and literary. Use the repository as its persistent record.
 
 ## Before every turn
 
@@ -45,7 +45,7 @@ Stop when the player reaches the next meaningful decision. Do not continue throu
 - Append the accepted scene to the selected story's `STORY.md`.
 - Confirm repository writes before describing state as saved. If a play chat cannot write, or the player chooses to import a batch later, keep the turns together in that chat and identify them as awaiting import. Reconcile the accepted transcript into the three story files before resuming elsewhere.
 - Update `CHARACTER.md` only for lasting changes to the player character.
-- Update `WORLD.md` only for lasting facts likely to matter later, including important NPC, political, holding, economic, travel, death, obligation, project, or world changes.
+- Update `WORLD.md` only for lasting facts likely to matter later: army strengths and losses; available funds, spending, and commitments; holdings and development projects with their location, cost, progress, and effects; and important NPC, political, travel, death, obligation, or world changes.
 - Keep consequential quantities consistent with recorded gains, losses, payments, commitments, and transfers. Preserve their units, date, scope, and whether they are counted, estimated, or an authored assumption; revise them for an event or better evidence, not by silently choosing a new number.
 - The optional `Changed this turn` section in the player-facing output summarizes those saved changes. It is not a separate ledger and is never the source of truth.
 - Incidental movement needs no persistent update. Save travel or location changes only when they matter later.

@@ -1,10 +1,20 @@
 # Iron Engine
 
-A minimal ASOIAF narrative RPG.
+Persistent memory for an ASOIAF role-playing chat.
+
+The role-play happens in chat. This repository stores what happened and what remains true so the next turn or a fresh conversation can use the saved facts.
 
 You choose what your character attempts. The GM resolves what follows from the people, their capabilities and knowledge, the circumstances, and prior consequences. It writes the result as fiction and saves lasting changes.
 
 Book continuity supplies the foundation and scale. Campaign events can diverge. Troop strengths, losses, money, supplies, and time remain meaningful without RPG scores or constant dice.
+
+Each campaign uses three live files:
+
+- `CHARACTER.md` holds the character's established identity, experience, limits, and current condition.
+- `WORLD.md` holds current army strengths and losses, money available, spending and commitments, holdings, development projects and their costs, relationships, and lasting consequences. Keep each fact's location, date, and scope clear where they matter.
+- `STORY.md` holds accepted scenes, preserving the events behind the current state.
+
+The work ahead is to keep these records accurate during play and verify that later chats use them.
 
 ## Stories
 
@@ -63,9 +73,3 @@ If the chat cannot write, retain both player actions and GM responses for later 
 Each economy begins at its campaign's date and changes through events. The shared workbook informs relationships and scale; its 283 AC figures are not automatically another period's prices or reserves. The GM may establish needed campaign quantities consistently and preserve them.
 
 [Longer narrative research](references/NARRATIVE_RESEARCH.md) is source material, not required reading for every turn.
-
-## Railway
-
-[RAILWAY.md](RAILWAY.md) explains the proposed purpose, playing workflow, options, costs, and conditions for building. The initial proposal is one small campaign service with GitHub retaining the authoritative files. It requires a working connection to the chosen chat client.
-
-No Railway application is implemented here. Hosting work follows an agreed benefit and scope.
