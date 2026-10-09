@@ -1,105 +1,54 @@
 # Shared economic model
 
-Source workbook: [Westeros_283_AC_Economic_Model.xlsx](Westeros_283_AC_Economic_Model.xlsx)
+Source workbook: [Westeros_283_AC_Economic_Model.xlsx](Westeros_283_AC_Economic_Model.xlsx).
 
-The workbook supplies the common economic framework and quantitative scale for Westeros. Each campaign establishes its own economy at its opening date, then develops independently from that point.
+The workbook supplies economic relationships, units, and quantitative scale. It is a modeling reference, not automatic canon or a turn-by-turn accounting system. Apply the general adjudication principle in `AGENTS.md`: experience works through actual authority, resources, people, circumstances, and time.
 
-This is a modeling reference, not automatic canon and not a turn-by-turn accounting system.
+## Campaign baselines
 
-## Campaign-start snapshots
+Each story has its own economy, established at its opening date and subsequently changed by its events:
 
-A story does not carry another story's economy forward.
+- Story 1 begins in 283 AC, during Robert's Rebellion. War and local conditions affect supply, labor, transport, credit, prices, and security.
+- Story 2 begins in 298 AC. Its own opening conditions, including the long summer, trade, production, and political situation, form the baseline. Do not repeatedly rebuild it as the 283 AC economy plus fifteen years.
+- Story 3 begins in 126 AC. Its opening snapshot and first household audit are qualitative. The workbook's 283 AC amounts are not established prices or reserves for this earlier period.
 
-At initialization, establish the economic state appropriate to that story's exact opening date:
+Book facts and recorded campaign changes govern. Use historical comparisons and the workbook to fill gaps, preserving the selected date and place. Jon's remembered later developments do not create roads, institutions, wealth, or supplies in 126 AC.
 
-- **Story 1:** 283 AC opening snapshot.
-- **Story 2:** 298 AC opening snapshot.
-- **Story 3:** 126 AC opening snapshot.
+## When to consult this reference
 
-The 298 AC economy is not treated during play as "283 AC plus fifteen years of adjustment." It is established once as the 298 AC starting economy using the shared model together with the economic conditions that exist at the 298 AC opening.
+Use it when prices, wages, hiring, expenses, holdings, rents, taxes, debt, credit, trade, transport, provisions, construction, harvests, military supply, ransom, dowry, shortages, or valuable property materially affect a choice.
 
-After initialization, the story's own established economic facts are the active baseline.
+Ordinary eating, riding, shopping, and possessions do not require accounting unless cost or supply becomes consequential.
 
-## What the model should inform
+## Establishing and using quantities
 
-Consult it when the story materially involves prices, wages, hiring, household expenses, land or holdings, rents, taxes, debt, loans, trade, transport, provisioning, construction, harvests, military supply, ransom, dowry, valuable property, shortages, or the economic scale of a decision.
+1. Start from the selected story's established amounts and subsequent changes. Check units and what each amount represents.
+2. Consider local production, distance, access, tolls, storage, perishability, security, and market conditions. War, harvests, season, disease, blockade, demand, and policy can change availability and price.
+3. Check availability as well as affordability. Coin does not create grain, horses, ships, craftsmen, wagons, or labor where they are unavailable.
+4. Account for institutions and authority. Lords can draw on rents, retainers, credit, stores, and obligations. Smallfolk may use barter or dues in kind. Buying, requisitioning, and foraging carry different practical and political consequences.
+5. Establish useful missing amounts as fictional campaign facts consistent with book scale and existing conditions. A count, account, or offer can provide an amount without repeated demands from the player. A genuinely missing distant report may still take time to obtain.
+6. Use specific counted balances, agreed prices, payments, and deliveries. Use estimates or ranges when costs or reports remain uncertain. Do not present an authored amount as a sourced book figure, or an estimate as an audited fact.
+7. Distinguish revenue, cash, credit, and spendable funds after obligations. Carry receipts, payments, outstanding commitments, and deliveries forward without silently resetting the baseline.
 
-Do not consult it merely because someone eats a meal, rides a horse, enters a market, or owns ordinary possessions unless cost or supply becomes consequential.
+Record consequential amounts, units, scope, date, and basis in the existing state. Keep source labels outside the fiction and preserve what the character can actually know. Establish the quantities needed for the decision, not a complete ledger for every holding.
 
-## Realistic use
+## Development and change
 
-1. Begin from the selected story's opening economic snapshot and any later economic facts already established in that story.
-2. Use the workbook's categories, relationships, and scale to keep values internally coherent.
-3. Check units and what a value actually represents before using it.
-4. Account for place. Local production, distance from supply, road or sea access, tolls, storage, perishability, market size, security, and merchant risk matter.
-5. Account for current circumstances. Harvest quality, season, war, siege, levies, requisition, disrupted roads, unusual demand, disease, political disorder, and shortages may alter price and availability.
-6. Check availability before affordability. Having enough coin does not create grain, horses, ships, craftsmen, wagons, or labor where they are unavailable.
-7. Account for status and institutions. Great houses command stores, rents, retainers, credit, obligations, and bulk purchasing. Lesser households have less reach. Smallfolk may rely partly on barter, dues in kind, informal credit, or household production. Armies can consume stores, purchase supplies, requisition them, or forage, with different political consequences.
-8. Give specific amounts when a count, account, agreed price, or decision warrants them. Use ranges for genuinely unresolved costs or incomplete reports, not as a default substitute for an amount the character could obtain. When canon is silent, establish a plausible campaign value as described below; do not present it as a sourced book figure.
-9. Keep GM knowledge separate from character knowledge.
-10. Record an economic fact in a story's WORLD.md or CHARACTER.md only when it becomes a lasting fact that may matter later.
+The economy can change through trade, taxation, law, borrowing, migration, cultivation, construction, marriage, inheritance, warfare, destruction, administration, and player decisions.
 
-## Establishing useful quantities
+For a material project, determine:
 
-The GM may invent missing economic quantities as part of establishing the fictional world. Keep them consistent with book scale, the selected campaign's date and circumstances, and already established amounts. Historical analogies and the workbook inform gaps; they do not override book facts or recorded campaign changes.
+- Inputs: money or stores, land, authority, labor, skills, materials, transport, and time.
+- Execution: management, seasonal limits, distance, security, local interests, resistance, and interruptions.
+- Results: capacity or infrastructure that actually completes or reaches a useful stage.
+- Consequences: changes in trade, employment, rents, population, supply, debt, or political relationships where the causes support them.
+- Continuing needs: maintenance, feed, repairs, garrisons, dredging, or replacement stock.
+- Damage and reversal: war, fire, flood, disease, raids, harvest failure, blockade, neglect, or political collapse.
 
-- When a decision needs available cash, stores, a wage, debt, or a price, establish the necessary amount through an appropriate count, account, or offer. Do not require repeated demands from the player or indefinite audits merely because the books give no figure. A consequential missing report may still take real time to obtain.
-- Record the amount, unit, scope, and basis in the existing state: counted balance, quoted price, estimate, or authored campaign assumption. Keep source labels outside the fiction. Do not call an estimate an audited fact or confuse revenue, cash, credit, and spendable funds after obligations.
-- Carry payments, outstanding commitments, receipts, and deliveries forward from the established baseline. Existing obligations reduce what can be committed; coin does not create unavailable labor or materials. Establish only the figures needed for the decision, not a full ledger for the realm.
+Do not use generic percentage growth. Estimate effects from the work and local economy. Keep uncertain future effects distinct from agreed costs and completed work.
 
-## Story 1: 283 AC
+## What to persist
 
-The story begins with an economy established for 283 AC.
+Keep `WORLD.md` compact. Save important assets and projects, stores, revenues, debts, obligations, supply or labor changes, trade routes, shortages, price shifts, and economic damage when they may matter later.
 
-Robert's Rebellion and local conditions may immediately affect supply, labor, transport, credit, risk, requisition, and prices. A besieged town, marching army, intact estate, major port, and isolated village should not behave as one market.
-
-## Story 2: 298 AC
-
-The story begins with an economy established for 298 AC.
-
-Once that opening snapshot is established, it is the active economic baseline for Story 2. Ordinary adjudication should not keep looking backward fifteen years and rebuilding every value from 283 AC.
-
-Regional conditions, the long summer, trade access, political stability, local production, transport, demand, scarcity, and later story events can change the 298 AC economy from that starting point.
-
-## Story 3: 126 AC
-
-The Jon Stark / Cregan Stark campaign starts from its own qualitative 126 AC conditions. The workbook's 283 AC figures are not established prices, revenues, population, or reserves for this earlier date. Use its economic relationships and unit definitions as a reference, then establish any needed amounts from the selected campaign's period, place, and circumstances.
-
-Jon's memories of later northern development do not create those roads, ports, institutions, or supplies in 126 AC. He may try to develop them through actual authority, resources, labor, knowledge, and time. Record only results that occur in this campaign.
-
-## Divergence
-
-Each story may develop its own economy through war, deaths, destroyed holdings, marriages, trade decisions, rebuilding, debts, harvests, political changes, or other consequences. Story-specific established facts override the general shared model where they conflict.
-
-
-## Economy changes during play
-
-The opening snapshot is a starting state, not a fixed world.
-
-A character can change the economy through choices such as developing land, clearing fields, improving irrigation, building roads, bridges, mills, mines, ports, markets, workshops or fortifications, changing taxes or rents, founding settlements, attracting craftsmen or merchants, borrowing, investing, redistributing stores, opening trade routes, fighting wars, raiding, rebuilding, or changing law and administration.
-
-Treat those actions as real projects with causes and constraints:
-
-- **Inputs:** money or stores, labor, skilled labor, materials, land, authority, transport and time.
-- **Execution:** construction time, seasonal limits, distance, security, management, local resistance and interruptions.
-- **Direct results:** new capacity or infrastructure only when the project actually completes or reaches a useful stage.
-- **Second-order results:** changes in trade, employment, migration, rents, tax base, prices, availability, military logistics, debt or political relationships only where the causal connection is plausible.
-- **Maintenance:** useful assets can still require labor, repairs, garrisons, dredging, feed, replacement stock, or other continuing costs.
-- **Damage and reversal:** war, fire, flood, disease, raids, bad harvests, blockade, neglect or political collapse can reduce or destroy earlier gains.
-
-Do not use a generic percentage-growth mechanic. Estimate effects from the actual project and the local economy. Future uncertain effects may use ranges; agreed prices, actual payments, and counted deliveries should retain their specific amounts.
-
-### What to persist
-
-WORLD.md should stay compact. When economics changes materially, update only what matters for future play, for example:
-
-- important holdings or productive assets;
-- active or completed development projects;
-- meaningful changes in productive capacity or local supply;
-- important trade routes or market access;
-- major stores, revenues, debts, taxes, rents or recurring obligations;
-- labor or population changes when material;
-- lasting shortages, surpluses or price shifts;
-- economic damage from war or disaster.
-
-If a character builds up a lordship over years, later scenes should reflect the accumulated results. A better road can lower transport friction and improve access to markets; a working mill can change local processing capacity; a mine can increase output but require labor, timber, transport and security; settlement growth can expand the tax base while increasing food and infrastructure demand. Those consequences persist until later events change them.
+Later scenes must reflect accumulated results. A road can improve access; a mill can change processing capacity; a mine needs labor, timber, transport, and security; settlement growth can increase both revenue and demands on food and infrastructure. Benefits and burdens continue until events change them.

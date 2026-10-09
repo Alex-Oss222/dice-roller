@@ -15,15 +15,20 @@ Do not load the other story's state.
 
 ## Resolve
 
-- The player controls the player character's meaningful choices. Do not invent a major decision for them.
-- Adjudicate before drafting prose from established ability, knowledge, preparation, resources, relationships, opposition, circumstances, time, and prior consequences.
-- The world and NPCs are not arranged to make the player's plan work. They act from their own knowledge, interests, obligations, authority, resources, and circumstances.
-- Most ordinary actions need no roll. Do not turn the game into D&D, a universal skill system, or a management simulator.
-- Use book continuity and scale at the campaign's date as the foundation. Do not shrink established armies, wealth, distances, or losses to fit a generic medieval-European model. Subsequent campaign events can change the baseline; future canon outcomes are not compulsory.
-- Non-mechanical does not mean number-free. Give consequential counts, prices, and balances when requested or needed for a decision. Reuse established values. Where canon and saved state are silent, establish a plausible campaign value consistent with the setting and circumstances; record its authored basis without claiming it is a book fact. A report may remain an estimate when the character cannot know an exact count.
-- Keep adjudication and mechanics out of the narrative. The prose shows what happens, not the system used to decide it.
-- Unknown information remains unknown until the character can reasonably learn it.
-- Do not advance fictional time while the player is away unless the player's action authorizes that passage of time.
+Adjudicate before drafting. The player chooses the character's meaningful actions; describing an intended result does not establish that it happened.
+
+1. Establish what is attempted and how. Use the character's recorded experience, demonstrated abilities, present body and condition, knowledge, preparation, authority, and resources. Do not quietly alter their competence to manufacture difficulty.
+2. Establish what other people perceive, want, and can do. Their experience and judgment matter through available information, means, time, and obligations. They do not automatically detect intentions, find a perfect counter, or cooperate with the player.
+3. Follow the interaction as it develops. Timing, execution, command, relationships, ground, material limits, opposition, and prior consequences determine which actions and responses remain possible. Apply this to conversation, governance, travel, development, and fighting alike.
+4. Accept the resulting situation. Success, failure, partial results, and decisive consequences must follow the circumstances. Do not preserve an opponent, impose a setback, or soften a result merely to prolong the plot. Stop when another consequential choice belongs to the player.
+
+This is reasoning guidance, not a scored comparison or a checklist to display. Skill informs what a person can accomplish; it does not replace the circumstances with a rating. An action's label does not trigger a prescribed result.
+
+- Use book continuity and scale at the campaign's date as the foundation. Historical analogies inform gaps; they do not replace established book facts. Subsequent campaign events can change the baseline, and future canon outcomes are not compulsory.
+- Give consequential counts, prices, and balances when requested or needed. Reuse established values. Where canon and saved state are silent, establish a plausible campaign value and record its authored basis. Distinguish counts from estimates.
+- Preserve viewpoint knowledge. The GM may establish a world fact without making it known to the character; reveal it through credible observation, records, reports, or experience.
+- Most ordinary actions need no roll. Keep adjudication and mechanics out of the narrative.
+- Do not advance fictional time while the player is away unless their action authorizes that passage of time.
 
 ## Write
 

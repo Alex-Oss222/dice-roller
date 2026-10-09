@@ -2,9 +2,9 @@
 
 A minimal ASOIAF narrative RPG.
 
-You make the character's choices. The AI GM adjudicates what realistically happens, writes the narrative, and records only lasting changes that may matter later.
+You choose what your character attempts. The GM resolves what follows from the people, their capabilities and knowledge, the circumstances, and prior consequences. It writes the result as fiction and saves lasting changes.
 
-No D&D-style rules layer. No giant universal bookkeeping system. No constant dice. Consequential troop counts, losses, money, and supplies still use numbers. Book scale supplies the foundation; the GM may establish missing campaign quantities and preserve them as play develops.
+Book continuity supplies the foundation and scale. Campaign events can diverge. Troop strengths, losses, money, supplies, and time remain meaningful without RPG scores or constant dice.
 
 ## Stories
 
@@ -14,7 +14,7 @@ No D&D-style rules layer. No giant universal bookkeeping system. No constant dic
 - [Story](stories/story-001/STORY.md)
 - [World](stories/story-001/WORLD.md)
 
-Starts with Eddard Stark beside the Trident during Robert's Rebellion.
+Begins beside the Trident during Robert's Rebellion.
 
 ### Story 2 · Jon Snow · 298 AC
 
@@ -22,63 +22,50 @@ Starts with Eddard Stark beside the Trident during Robert's Rebellion.
 - [Story](stories/story-002/STORY.md)
 - [World](stories/story-002/WORLD.md)
 
-Starts with Jon Snow at the holdfast north of Winterfell on the morning of the Night's Watch deserter's execution.
+Begins at the holdfast north of Winterfell on the morning of the Night's Watch deserter's execution.
 
 ### Story 3 · Jon Stark in Cregan Stark's body · 126 AC
 
 - [Current character](stories/story-003/CHARACTER.md)
-- [Story so far](stories/story-003/STORY.md)
+- [Story](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
 
-Jon retains his own consciousness, memories, personality, knowledge, and experience while occupying Cregan Stark's body and public position. This is the selected pilot. Its first five turns are imported; the current scene ends on the evening of the 26th day of the fourth moon, 126 AC. Book continuity supplies the foundation; the campaign has begun to diverge.
+The selected pilot. Jon retains his own identity, memories, personality, knowledge, and experience. His current record links the complete prior-life profile inside Story 3; its legacy scores are inactive.
 
-The current character record links the complete prior-life profile, preserved inside Story 3. Its legacy scores are not active mechanics. One premise needs the player's answer: the opening assumed Arra was unmarried, but the player called her his wife. No wedding was played, and the import has not silently settled that conflict.
-
-## Shared rules
-
-- [GM rules](AGENTS.md)
-- [Narrative rules](rules/NARRATIVE.md)
-- [Turn output](rules/TURN_OUTPUT.md)
-- [Combat and battle rules](rules/COMBAT.md)
-- [Economic model rules](references/ECONOMY.md)
-- [Project handoff / remaining work](HANDOFF.md)
-
-The full narrative research is preserved in [references/NARRATIVE_RESEARCH.md](references/NARRATIVE_RESEARCH.md). It is source material, not something the GM must load every turn.
-
-## Economy
-
-The economic model is instantiated at each campaign's opening date:
-
-- Story 1 begins with a 283 AC economic snapshot.
-- Story 2 begins with a 298 AC economic snapshot.
-- Story 3 begins with a qualitative 126 AC economic snapshot. The workbook supplies modeling relationships, not period-specific figures ready to copy backward.
-
-Each story then develops forward from its own opening economy. Player choices can permanently change holdings, production, trade, infrastructure, debt, taxation, population, supply, and other material conditions when the causes support those changes.
+See [HANDOFF.md](HANDOFF.md) for the current position, unresolved premise, and development agenda.
 
 ## Play
 
-1. Choose one story.
-2. Tell the GM what that character attempts.
-3. The GM loads that story's character, story, world, and the small rules relevant to the turn.
-4. The GM adjudicates first, then writes the result as fiction.
-5. The player-facing turn shows Name, Age, ending Location, time, the scene, only lasting changes when there are any, and the next real decision.
-6. Only lasting facts that may matter later are updated in the story files.
-7. Stop for the next meaningful player choice.
+Use a plain chat with repository access, without a preconfigured RPG chatbot's additional instructions.
 
-Each story is isolated. One story never changes another.
+1. Select one campaign and load its current files and relevant rules.
+2. Say what the character chooses or attempts.
+3. The GM resolves the interaction and writes the events as fiction.
+4. Save the accepted scene and material changes.
+5. Stop at the next meaningful choice.
 
-## Continue after the first play-test
+Each campaign develops independently. Its own recorded facts govern subsequent turns.
 
-The [original five-turn transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) is preserved unchanged. Its accepted events are now in the three live story files, with the Arra premise question flagged. The handoff records the findings and remaining tests.
+For a fresh continuation:
 
-Use a plain chat with repository access for this project, without a preconfigured RPG chatbot's additional instructions. For a fresh continuation, use:
+> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Continue stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked source profile, and required writing rules. Use the live state without reading the full chat archive unless a discrepancy requires it. Resolve any flagged premise affecting the scene, present the current situation, and wait for my action. I control Jon's meaningful choices. Do not restart the opening or advance time before my response.
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Continue stories/story-003 after Turn 5. Read its CHARACTER.md, STORY.md, WORLD.md, the source profile linked from CHARACTER.md, and the required narrative and turn-output rules. For this continuation test, use the saved state without reading the full chat transcript. Resolve any flagged premise that affects the next scene, present the current situation, and wait for my action. I control Jon's meaningful choices. Do not restart the opening or advance time before my response.
+If the chat cannot write, retain both player actions and GM responses for later reconciliation. Confirm the import before resuming elsewhere. The [first play-test transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) remains preserved evidence.
 
-The next action begins Turn 6. The first batch contained five turns with several choices each; no fresh-chat continuation has yet been tested.
+## Rules and references
 
-Review whether the next scene correctly uses existing commitments, absent people, reported evidence, and incomplete work. Then test an actual resource commitment or the returning Moat survey when play reaches it. Do not approve a project from an unspecified cash balance.
+- [GM rules](AGENTS.md)
+- [Narrative rules](rules/NARRATIVE.md)
+- [Turn format](rules/TURN_OUTPUT.md)
+- [Combat and battle](rules/COMBAT.md)
+- [Economic reference](references/ECONOMY.md)
 
-With write access, save accepted scenes and lasting changes as play proceeds. If using another batch, keep the conversation together and preserve both user actions and responses until it is reconciled into the three story files. The transcript remains review evidence rather than another live state ledger.
+Each economy begins at its campaign's date and changes through events. The shared workbook informs relationships and scale; its 283 AC figures are not automatically another period's prices or reserves. The GM may establish needed campaign quantities consistently and preserve them.
 
-Railway remains deferred until loading, consequences, saving, and continuation work reliably. A narrative validator is optional only if ordinary use of the existing writing rules remains insufficient.
+[Longer narrative research](references/NARRATIVE_RESEARCH.md) is source material, not required reading for every turn.
+
+## Railway
+
+[RAILWAY.md](RAILWAY.md) explains the proposed purpose, playing workflow, options, costs, and conditions for building. The initial proposal is one small campaign service with GitHub retaining the authoritative files. It requires a working connection to the chosen chat client.
+
+No Railway application is implemented here. Hosting work follows an agreed benefit and scope.
