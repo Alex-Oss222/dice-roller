@@ -52,7 +52,6 @@ Shared material:
 AGENTS.md
 rules/
   NARRATIVE.md
-  NARRATIVE.md
   TURN_OUTPUT.md
   COMBAT.md
 references/
