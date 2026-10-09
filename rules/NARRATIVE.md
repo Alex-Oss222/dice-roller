@@ -13,6 +13,7 @@ The rules determine what happens. The prose never talks about the rules.
 - Preserve uncertainty. Characters act on what they know, not on what the GM or reader knows.
 - NPCs have their own concerns. They are not exposition devices, quest dispensers, or automatic supporters/opponents of the player.
 - Competence appears through what a character notices, chooses, prepares, avoids, and accomplishes. Do not announce that someone is skilled.
+- Avoid repeated narration certifying what has not been authorized, verified, or completed. Keep the relevant limits in state and show them through work, evidence, refusal, delay, or conversation when they affect the scene.
 
 ## Never put mechanics in the scene
 

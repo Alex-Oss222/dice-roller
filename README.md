@@ -27,13 +27,12 @@ Starts with Jon Snow at the holdfast north of Winterfell on the morning of the N
 ### Story 3 · Jon Stark in Cregan Stark's body · 126 AC
 
 - [Current character](stories/story-003/CHARACTER.md)
-- [Story and opening decision](stories/story-003/STORY.md)
+- [Story so far](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
-- [Complete prior-life profile: Jon Stark, 487 AC](Jon_Stark_487_AC_.md)
 
-Jon retains his own consciousness, memories, personality, knowledge, and experience while occupying Cregan Stark's body and public position. This is the selected five-decision pilot. Book continuity supplies the opening world; subsequent events can diverge.
+Jon retains his own consciousness, memories, personality, knowledge, and experience while occupying Cregan Stark's body and public position. This is the selected pilot. Its first five turns are imported; the current scene ends on the evening of the 26th day of the fourth moon, 126 AC. Book continuity supplies the foundation; the campaign has begun to diverge.
 
-The opening is placed just after Cregan's removal of Bennard's regency, before his marriage to Arra Norrey. The character file identifies the transfer assumptions. The uploaded profile is preserved as a reference; its legacy capability scores are not active mechanics.
+The current character record links the complete prior-life profile, preserved inside Story 3. Its legacy scores are not active mechanics. One premise needs the player's answer: the opening assumed Arra was unmarried, but the player called her his wife. No wedding was played, and the import has not silently settled that conflict.
 
 ## Shared rules
 
@@ -68,18 +67,18 @@ Each story then develops forward from its own opening economy. Player choices ca
 
 Each story is isolated. One story never changes another.
 
-## Starting the five-decision pilot
+## Continue after the first play-test
 
-You can play in the current chat or open a new chat with access to this repository. For a fresh chat, use:
+The [original five-turn transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) is preserved unchanged. Its accepted events are now in the three live story files, with the Arra premise question flagged. The handoff records the findings and remaining tests.
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Play stories/story-003, Jon Stark in Cregan Stark's body in 126 AC. Load its three story files, the linked Jon_Stark_487_AC_.md profile, and the required narrative and turn-output rules. Present the saved opening and wait for my first action. I control Jon's meaningful choices. Keep the book-based world persistent and let events diverge through consequences. We will play five meaningful decisions, then review the full transcript.
+For a fresh chat with repository access, use:
 
-The opening is Turn 0. Your first consequential response begins Turn 1. Say what Jon attempts, says, asks, or orders in ordinary language. No command syntax is needed.
+> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Continue stories/story-003 after Turn 5. Read its CHARACTER.md, STORY.md, WORLD.md, the source profile linked from CHARACTER.md, and the required narrative and turn-output rules. For this continuation test, use the saved state without reading the full chat transcript. Resolve any flagged premise that affects the next scene, present the current situation, and wait for my action. I control Jon's meaningful choices. Do not restart the opening or advance time before my response.
 
-Keep the five decisions in one chat. Clarifications, corrections, and requests to explain a rule do not count as played decisions. Do not compress several important choices into one GM response just to reach five turns.
+The next action begins Turn 6. The first batch contained five turns with several choices each; no fresh-chat continuation has yet been tested.
 
-With write access, the GM saves accepted scenes and lasting changes as play proceeds. If you prefer a batch import after five decisions, or the play chat cannot write, keep the complete transcript and treat those turns as awaiting import. Do not start a new chat from the older repository state in the middle of that batch.
+Review whether the next scene correctly uses existing commitments, absent people, reported evidence, and incomplete work. Then test an actual resource commitment or the returning Moat survey when play reaches it. Do not approve a project from an unspecified cash balance.
 
-After the fifth decision, attach the full chat here or upload it to the repository as `stories/story-003/PLAYTEST_CHAT.md`. Include both your actions and the GM's responses, plus corrections that establish which version was accepted. The transcript is review evidence, not a fourth live state file. Review it, reconcile `STORY.md`, `CHARACTER.md`, and `WORLD.md`, and identify concrete problems before building anything else. The next turn can then begin in a fresh chat from those saved files, which checks whether the campaign resumes correctly without relying on the old conversation.
+With write access, save accepted scenes and lasting changes as play proceeds. If using another batch, keep the conversation together and preserve both user actions and responses until it is reconciled into the three story files. The transcript remains review evidence rather than another live state ledger.
 
-Railway will be added later as a thin hosting/persistence layer after the core play loop is proven.
+Railway remains deferred until loading, consequences, saving, and continuation work reliably. A narrative validator is optional only if ordinary use of the existing writing rules remains insufficient.

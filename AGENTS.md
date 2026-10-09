@@ -27,6 +27,8 @@ Do not load the other story's state.
 
 Follow `rules/NARRATIVE.md` and present the resolved turn using `rules/TURN_OUTPUT.md`.
 
+When asked to present a saved opening or scene, reproduce its narrative rather than silently redrafting it. When resuming, use the latest saved position, not Turn 0.
+
 The player-facing scene is fiction, not a game report.
 
 Stop when the player reaches the next meaningful decision. Do not continue through a decision the player should make.

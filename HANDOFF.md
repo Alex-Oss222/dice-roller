@@ -55,7 +55,6 @@ Shared material:
 
 ```text
 AGENTS.md
-Jon_Stark_487_AC_.md  # preserved source profile for Story 3
 rules/
   NARRATIVE.md
   TURN_OUTPUT.md
@@ -71,13 +70,13 @@ references/
 - The old complicated engine/research/report structure was removed from `main`.
 - Story 1 is Eddard Stark beginning in 283 AC.
 - Story 2 is Jon Snow beginning in 298 AC.
-- Story 3 is Jon Stark's consciousness from 487 AC inhabiting Cregan Stark in 126 AC. It is the selected pilot campaign. The user's complete prior-life profile remains at `Jon_Stark_487_AC_.md`.
+- Story 3 is Jon Stark's consciousness from 487 AC inhabiting Cregan Stark in 126 AC. It is the selected pilot campaign. The user's complete prior-life profile is preserved inside Story 3 at `stories/story-003/Jon_Stark_487_AC_.md`; the root-level copy has been removed.
 - Each story has its own character, story, and world files.
 - The stories are explicitly isolated from each other.
 - A shared Westeros economic model is in the repo.
 - Story 1 begins with its own qualitative 283 AC economic snapshot.
 - Story 2 begins with its own qualitative 298 AC economic snapshot.
-- Story 3 begins with its own qualitative 126 AC economic snapshot. These snapshots do not claim to be fully counted treasuries, price lists, or supply ledgers.
+- Story 3 began with a qualitative 126 AC economic snapshot. Its first household audit now supplies specific findings, but no quantified capital budget or complete northern balance sheet. The workbook has not been validated against the played economic findings.
 - Each story's economy can change persistently because of war, development, trade, taxation, population, infrastructure, harvests, debt, destruction, administration, and player decisions.
 - Economic development is causal rather than a generic percentage-growth mechanic.
 - A long narrative research document was preserved as source material.
@@ -92,31 +91,47 @@ Work through the remaining agenda in order. Do not add complexity preemptively.
 
 1. **Complete: prepare non-mechanical active character records.** Stories 1 and 2 have cleaned sheets that retain biography, strengths, limits, equipment, relationships, and knowledge. Story 3 has a compact current record linked to the user's complete 487 AC profile. That uploaded source remains intact; its legacy scores and progression instructions are explicitly inactive.
 2. **Complete: establish each opening world state.** Each `WORLD.md` now records the relevant authority, alliances or household relationships, local ground, immediate unresolved situation, and qualitative economic baseline. Unknown troop counts, accounts, prices, routes, and hidden events have not been invented as established facts.
-3. **Complete: write each opening scene.** Each `STORY.md` now contains a Turn 0 opening in `rules/TURN_OUTPUT.md` format, with a real pending decision. These are initial situations, not completed player turns. No player decision, execution, battle outcome, or later canon event has been resolved.
-4. **Addressed for Story 3; refine only when needed.** Its character and world records distinguish Jon's prior-life knowledge from Cregan's current body, authority, resources, and personal memories. Book continuity is the foundation, with no predetermined future. The precise transfer assumptions are explicit in `stories/story-003/CHARACTER.md`; unanswered magical or bodily effects remain unestablished until relevant clarification. No separate policy system was added.
-5. **Next: play-test Story 3 before building more systems.** The player plans a first batch of five meaningful decisions, then will supply the complete chat log. **Progress: 0 of 5 decisions played.** Five is an initial review point within the original roughly 5 to 10 decision test, not proof by turn count alone. Confirm believable consequences, player agency, remembered state, and campaign isolation. Add a record or rule only for a concrete problem observed in play.
+3. **Complete: establish openings and preserve played scenes.** All campaigns retain their openings. Story 3 additionally contains imported Turns 1 through 5, ending on the evening of the 26th day of the fourth moon, 126 AC. Its original Turn 0 prose is unchanged. No sixth turn has occurred.
+4. **One premise remains unresolved.** The opening assumed Arra was unmarried, but the first player action called her his wife. The GM explicitly retained the friend interpretation without establishing whether the player meant a premise change. Ask that one question before relying on marital status. Other transfer assumptions remain in the character record; Ghost's physical arrival is now an explicit player-authorized exception.
+5. **First batch complete and imported; fresh continuation is next.** Five player-directed turns were played, several bundling multiple choices. The coherent-chat run exercised deadlines, delegation, testimony, negotiation, bodily adaptation, execution, and a qualitative audit. It did not test resumption in a fresh chat, quantified project spending, a completed survey, or distant political consequences. Use the next turn to test the imported state rather than repeating the opening or manufacturing more test decisions.
 6. **Deferred: after the narrative loop is proven, add Railway.** Keep it thin: load story state, serve readable pages/API, support safe persistence, and later add protected writes if needed. The current persistence is the repository's three files per story; no hosted service has been built.
 7. **Optional only after play-testing:** add a small narrative validator/editor pass if mechanical language, exposition-heavy dialogue, or repeated AI-style prose continues to leak into saved scenes.
 
+## Review of the first batch
+
+Reviewed on 2026-10-09 from the [complete uploaded transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md). The archive and the relocated prior-life profile are unchanged. No new state tracker or game system was needed.
+
+**What held up:** Bennard's due answer interrupted the wait for the maester; sending Donnel away narrowed Arra's inquiry; travel did not finish on demand. Arra's assistance did not erase her concern for Cregan. Sympathy for Bennard was distinguished from evidence of disobedience. Jon's experience survived the transfer while his body still required adjustment. His orders, not a forced canon plot, led to Bennard's death and Ghost's arrival.
+
+**What did not meet the writing contract:** the saved opening was paraphrased; all six opening/turn outputs offered unsolicited action menus; citations appeared inside the prose and headers; repeated assurances about what had not been authorized or verified often read like an administrative explanation. No numerical RPG system appeared, but avoiding scores alone did not make every passage natural fiction.
+
+The export identifies a custom RPG GPT and repeatedly shows preparation for four-option endings. Competing instructions are a possible cause of the menu pattern, not a verified diagnosis; its underlying instructions are not available. Prefer a plain repository-enabled chat for the next continuation test to reduce that uncertainty.
+
+**What the import changed:** the original Turn 0 was retained. Turns 1 through 5 were appended with their events and dialogue intact; external citation wrappers, the two source/setup notes outside the scene, and unsolicited ending menus were removed from the reading copy. Brief open questions replace those menus. The original transcript preserves every response and the full review. This was not a prose rewrite or a new played turn.
+
+`CHARACTER.md` and `WORLD.md` now distinguish direct actions and findings from Arra's reported evidence, uncounted amounts, and unanswered requests. The import leaves marital status explicitly unresolved rather than inventing a wedding. The small shared-rule edits reinforce the existing requirements for unchanged saved openings, fiction without citation clutter or administrative narration, and endings without unrequested menus. Their effect still needs testing in actual play.
+
+**Remaining evidence gaps:** no cross-chat memory test or deliberate false-memory check has run. The financial work found useful discrepancies but supplied no spending amounts or priced project. The Moat party, Citadel response, wider returns, sons' later conduct, and broader reaction to the execution remain unresolved. These are future story consequences, not grounds for adding speculative machinery.
+
 ## Next session
 
-Continue **Story 3**, unless the player explicitly chooses another campaign. Read its three files and the linked `Jon_Stark_487_AC_.md` source profile. The setup references that profile rather than reproducing it.
+Continue **Story 3 after Turn 5**, unless the player chooses another campaign. Read its three live files and the source profile linked from `CHARACTER.md`. For the fresh-chat continuation test, do not read the full transcript unless a specific discrepancy requires reconciliation.
 
-Turn 0 is ready: Jon has arrived in Cregan's body in Winterfell, shortly after Bennard's imprisonment and before Cregan's marriage to Arra. A steward is awaiting an answer about Bennard's request for a private audience without a clerk. Jon has issued no order.
+First settle whether the player's earlier “my wife” was an intended change making Arra already married to Cregan at the opening. Preserve the played events while making any necessary targeted relationship corrections; do not invent an intervening wedding or force a new marriage choice.
 
-The player can start in the current chat or open a repository-enabled chat using the prompt in [README.md](README.md). Present the saved opening, then let the player give the first action. That begins Turn 1.
+Current scene: the evening of the twenty-sixth, in Winterfell's working chamber. Arra has delivered her local report and warned that household staff fear punishment through the audit. Jon has not replied.
 
-For the planned five-decision batch:
+The continuation must retain:
 
-- Keep play in one chat. A meaningful decision is an attempted action or choice whose outcome changes what follows, not merely a message, correction, or explanation.
-- Save accepted turns and lasting changes when writing directly to the repository. If playing without writes or using the player's batch-import option, clearly identify the turns as awaiting import and preserve the complete conversation until reconciliation.
-- After five decisions, review the supplied transcript, including user actions, GM responses, and corrections. The player can attach it or upload `stories/story-003/PLAYTEST_CHAT.md`; do not create a placeholder log.
-- Reconcile accepted events into the three story files before resuming in a different chat. If the log and saved state conflict and the accepted version is unclear, ask about that specific conflict rather than silently overwriting either.
-- Report what worked, what failed, what was actually persisted, and the smallest justified next change. After importing the batch, use the next turn in a fresh chat to check that the saved files carry the situation forward without the original conversation. Extend toward ten decisions only if the first batch leaves a concrete issue untested.
+- Bennard is dead, executed on the twenty-second. His sons' witnessed protections, maintenance, and guarded lodging continue.
+- Ghost is present. Only Arra has been told Jon's identity claim; her cooperation does not explain what happened to Cregan.
+- The maester, Donnel, mason, and groom are still away. The seven-day inspection deadline was explicitly replaced by permission to take the time needed. The Citadel request is unanswered.
+- Arra's personal answer and report have arrived; they are not still due. Edrik and Ronnel have not been convicted or dismissed.
+- Local audit corrections exist, but no quantified project budget, new tax, major building approval, or comprehensive northern economic account has been established.
 
-Stories 1 and 2 remain at their own Turn 0 openings. Story 3's former-life profile is not a continuation of Story 2 and must not change it.
+Use the [continuation prompt in README.md](README.md). Resume from this position, then wait for the player's next action. Check whether the resulting scene uses the saved facts and uncertainties without needing the old conversation.
 
-Do not simulate the player's choices to complete the test or advance fictional time while awaiting a response.
+Stories 1 and 2 remain at their original Turn 0 states. Their files were not changed by this import. Do not simulate the player's next choice or advance the clock during review.
 
 ## Development guardrail
 

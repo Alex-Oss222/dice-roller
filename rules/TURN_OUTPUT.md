@@ -86,10 +86,12 @@ The scene itself follows `NARRATIVE.md`.
 
 Do not put mechanics, adjudication explanations, state ledgers, or repository language into the prose.
 
+Keep web and repository citations out of the scene and its Name/Age/Location table. Any essential factual or source note belongs separately and briefly outside the fiction. Play-test counters, import status, and transcript reviews also belong outside the scene.
+
 ## Next
 
 Show `Next` only when the scene has reached a real decision the player should make.
 
-Do not provide menus of suggested actions unless the player asks for options.
+Do not provide menus of suggested actions unless the player asks for options. A paragraph listing four possible actions is still a menu. A brief question about the actual pending choice is sufficient.
 
 Do not resolve the pending decision on the player's behalf.
