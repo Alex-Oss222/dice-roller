@@ -1,6 +1,6 @@
 # Story 3 · World · 126 AC
 
-Current state: Turn 2 completed. Third day of the fourth moon, 126 AC, night, about nine. About nine hours elapsed this turn, thirteen since the opening. Jon is in the working chamber, hearing Bennard as a guarded prisoner, and must answer his proposal. The first checkpoint remains after Turn 20.
+Current state: Turn 3 completed. Fifth day of the fourth moon, 126 AC, night, about nine. About two days elapsed this turn, two days and thirteen hours since the opening. Jon is in the working chamber after two mornings of practice and ordinary duties. Arra's answer is due after the midday meal on the sixth; Bennard's answer is deferred until after hers. The first checkpoint remains after Turn 20.
 
 This campaign is independent of Stories 1 and 2. Jon's supplied prior life is its explicit alternate-history premise, not an outcome already played in either of those campaigns. The earlier five-turn play-test is retired. Its later events, findings, arrivals, disclosures, promises, and dates are not current history.
 
@@ -15,6 +15,7 @@ Jon's consciousness arrived in a working chamber at Winterfell. The transfer, ro
 - Cregan succeeded his father Rickon in 121 AC. Bennard governed as regent, resisted surrendering power, and was imprisoned with his three sons in 126 AC.
 - Cregan now rules personally. Confining his uncle has not established the private loyalty of every officer, household servant or northern lord.
 - The player clarified before Turn 2 that Arra Norrey and Cregan are still unmarried childhood friends. This setup clarification consumed no fictional time. No romantic attachment, betrothal or future marriage is established.
+- Existing household officers introduced by name in Turn 3: Osric, steward; Moryn, responsible for stores; Donnel, responsible for stables; Wyl, responsible for arranging the daily watch. These are authored minor NPCs holding existing functions, not newly appointed officers.
 - Arra remains in Winterfell. She attended Jon's requested godswood meeting in Turn 2. Two men from her father's Norrey household accompany her; Harl is the better swordsman of these two by her account. These minor escort details are authored Turn 2 circumstances, not named book characters or a transferred military force.
 - Viserys I is king and Rhaenyra is his designated heir. Alicent's sons and the rival royal households make succession politically consequential; the civil war has not begun.
 - House Stark holds the North under the Iron Throne. Jon's former independent monarchy and succession law have no authority here.
@@ -24,25 +25,37 @@ Jon's consciousness arrived in a working chamber at Winterfell. The transfer, ro
 
 After the midday meal on the third, Jon privately told Arra his name, his remembered life through 487 AC and his arrival in Cregan's body that morning. He said that he lacks Cregan's private memories and does not know Cregan's fate or whether he will return. He disclaimed any right to her friendship or possible love for Cregan and asked for discretion and help understanding the present.
 
-Arra suggested illness as a possibility, did not accept Cregan's disappearance as proven, and promised not to repeat the account during the three days offered for consideration. She has not yet agreed to become a confidante or adviser beyond that provisional discretion. Her answer is due after the midday meal on the sixth day of the fourth moon, 126 AC. This is the offered three-day period, not an ultimatum backed by punishment.
+Arra suggested illness as a possibility, did not accept Cregan's disappearance as proven, and promised not to repeat the account during the three days offered for consideration. She has not yet agreed to become a confidante or adviser beyond that provisional discretion. Her answer is due after the midday meal on the sixth day of the fourth moon, 126 AC. This is the offered three-day period, not an ultimatum backed by punishment. She has not answered early; by the end of the fifth her answer remains due tomorrow.
 
-The conversation occurred in a checked shallow recess screened from the path by an outcrop near the inner wall of the godswood, with guards left outside. No one overheard it and no wider disclosure has occurred by the end of Turn 2. This successful private conversation does not establish a soundproof site, exclusive Stark knowledge or guaranteed privacy in later visits.
+The conversation occurred in a checked shallow recess screened from the path by an outcrop near the inner wall of the godswood, with guards left outside. No one overheard it and no wider disclosure has occurred by the end of Turn 3. This successful private conversation does not establish a soundproof site, exclusive Stark knowledge or guaranteed privacy in later visits.
 
-At Jon's request, Arra approached Harl, the better swordsman of her two accompanying Norrey men. Harl came that afternoon and personally agreed to practice at first light in Winterfell's practice yard on the fourth, fifth and sixth, ending sooner if Arra answers. He arranged escort coverage with his companion. Blunted swords and padded coats are planned. No bout has occurred and his ability relative to Jon has not been tested. He knows only that the lord requested practice. This is temporary cooperation, not a transfer of service, exceptional combat mastery or a new paid appointment.
+At Jon's request, Arra approached Harl, the better swordsman of her two accompanying Norrey men. Harl came that afternoon and personally agreed to practice at first light in Winterfell's practice yard on the fourth, fifth and sixth, ending sooner if Arra answers. He arranged escort coverage with his companion. Blunted swords and padded coats are planned. The fourth and fifth sessions are now complete. Jon consistently created controlled touches through timing, changes of line and blade control against Harl's competent resistance. The sixth session is still scheduled. Neither man was injured. He knows only that the lord requested practice. This is temporary cooperation, not a transfer of service, exceptional combat mastery or a new paid appointment.
 
-## Bennard: audience and pending proposal
+## Bennard: competing proposals, no agreement
 
-Near nine that night, the steward had Bennard brought from confinement under guard for the audience Jon requested. Guards searched him and remain outside the closed working-chamber door. No clerk attends. No oath of secrecy or other new condition was imposed or accepted.
+On the night of the third, Bennard was brought under guard to the working chamber without a clerk. He proposed moving his three sons from close confinement into their former rooms inside Winterfell under guard, with supervised movements, shared meals and exercise. In exchange he offered to remain confined, publicly acknowledge Cregan's sole authority before the household officers and instruct his sons to obey. His claims that they merely followed his orders and that he had considered Cregan unready remain his representations.
 
-Bennard asks that his three sons leave close confinement for their former rooms inside Winterfell, with a guard on the door, supervised movements, shared meals and exercise in the yard. He offers to remain confined himself, publicly acknowledge Cregan's sole authority before the household officers, and instruct his sons to obey.
+Jon answered with a different offer in Turn 3:
 
-Bennard says the sons followed his orders, that he had considered Cregan unready, and that he should have yielded when asked. These are his representations, not established proof that his sons lack independent culpability or that he has no further motives.
+- Bennard is to surrender his knowledge of the northern lords, his dealings and the records supporting them. This reaches what he knows or controls, not omniscience or automatic verification.
+- Jon promises survival for Bennard and his sons, subject to the proposed settlement. The sons would receive no keeps and hold no offices of rule or importance, but have means to earn a living.
+- Jon also spoke of the family's freedom in the North in future generations; its precise extent was not defined. Sons born to the sons would serve at the Wall; daughters would marry lords selected by Jon. The exact scope across further generations is not settled. These are proposed terms, not already valid Watch vows or marriages, and do not bind every future person by automatic consent.
+- When winter comes, Bennard would go hunting without aid from northern lords or other men; Jon disavows execution and continuing support. The player's wording left the hunt unfinished. Its duration, equipment, food, shelter, permitted paid trade, whether the sons accompany him and the scope/enforcement of the aid prohibition remain unsettled. Do not turn this into a fixed exile, an unarmed exposure sentence or a scheduled death by inference.
+- Jon described this as mercy Bennard would not have shown him. That is Jon's accusation, not established knowledge of Bennard's counterfactual conduct.
 
-Jon has heard the proposal but has made no answer. No custody arrangement, pardon, release, appointment or settlement has changed. Bennard remains a prisoner temporarily present in the audience; his three sons remain confined. Stop for Jon's response. Do not implement Bennard's offer or advance to sleep or morning practice automatically.
+Bennard asked for the hunting condition to be written plainly and said that he cannot speak vows for boys not yet born. He did not accept or reject the bargain. Jon deferred hearing Bennard's decision until after Arra's answer. He did not tell Bennard about the transfer or Arra's role as a prospective confidante.
 
-## Completed work and concurrent activity
+Bennard was returned to confinement that night. He and his three sons remain under the existing custody arrangements. No pardon, release, new property settlement, household-wide aid ban, public proclamation, Watch commitment or marriage arrangement has been implemented. No records or substantive testimony have yet been supplied under the proposed bargain. The incomplete terms require clarification before any agreement or enforcement dependent on them.
 
-The previously authorized sequence is now completed through hearing Bennard's words. Jon's initial account review remains as recorded below; no new fiscal policy, expenditure or development project has been approved. Harl's arrangement and Bennard's summons occurred during the authorized afternoon and evening. No unrelated world event or distant news was introduced without cause.
+## Practice and routine activity, fourth and fifth
+
+Jon completed controlled sword practice with Harl on both mornings. Borrowed blunted swords, padded coats and head/neck protection were used. The present body proved healthy, strong and trained, and his existing swordsmanship retained a clear advantage against Harl. The second session showed better calibration of step, stopping distance and recovery. It did not create new physical conditioning.
+
+Sustained work required rests sooner than comparable practice in Jon's remembered old body; the old small extra speed advantage was not reproduced. No greater raw strength, reach, eventual potential or superiority of Cregan's present body has been established. Neither participant suffered an injury.
+
+After practice Jon read reports, met existing officers, reviewed ordinary grain issues and stable arrangements, and supervised continuing household operations. Matters requiring new judgments, grants or appointments are held pending Arra's answer. No new policy, appointment or material spending commitment was made. No urgent petition or new external deadline was invented.
+
+Ordinary household consumption and work continued. The treasury/grain figures below remain explicitly dated opening book balances, not a new physical inventory on the fifth. No annual forecast has been booked as a realized transaction; reconcile actual elapsed operations once when a later detailed financial review needs them.
 
 ## Dated finances and stores
 

@@ -203,3 +203,71 @@ Bennard had brought no witness to the offer. He wanted the terms settled here be
 ### Next
 
 What does Jon say to Bennard?
+
+| Field | Current |
+| --- | --- |
+| Name | Jon Stark, known here as Cregan Stark |
+| Age | About eighteen physically; approximately 204 years remembered |
+| Location | Winterfell, working chamber |
+
+## Turn 3 | Fifth day of the fourth moon, 126 AC | Night, about nine
+
+Elapsed: About two days.
+
+“What do I gain by keeping your sons alive?” Jon asked. “They may trouble a son of mine years from now.”
+
+Bennard remained in the chair.
+
+Jon set out his counteroffer. Bennard would surrender what he knew of the northern lords, his dealings with them and the records supporting his account. In return, he and his sons would live. The sons would receive no keep and hold no position of rule or importance, but would have a means of earning their living. Sons born to them would serve at the Wall; their daughters would marry lords of Jon's choosing.
+
+There was another condition. When winter came, Bennard would go hunting without help from northern lords or other men. Jon would neither execute him nor undertake to sustain him.
+
+“This is mercy you would not have shown me.”
+
+“You have promised a living,” Bennard said. “Then you have forbidden help. I shall need the hunting condition written plainly.”
+
+His gaze moved from Jon to the unused writing case.
+
+“And I cannot speak vows for boys who have not been born.”
+
+Jon deferred Bennard's answer. He would hear it after the other matter he was awaiting had been settled. No agreement was signed. The length of the winter hunt, what Bennard could take with him, and whether that same condition applied to his sons remained unsettled when the guards returned him to confinement.
+
+Harl was waiting in the practice yard at first light.
+
+They examined the sword edges, tightened the padded coats and buckled on protection for head and neck. Harl scraped loose grit from their footing with his boot. Jon made several cuts into empty space, stopped each before full extension, then repeated them while stepping forward and back.
+
+The first exchanges were slow enough to feel where Cregan's weight carried him. Jon changed the length of his step and the point at which he checked a cut. Harl offered resistance without trying to drive through a stopped blade.
+
+“I'm ready,” Harl said.
+
+He was still fastening his right glove. Jon waited.
+
+Once they began in earnest, Harl kept a serviceable guard. He followed Jon's first movement with his blade. Jon let him follow, changed the line and laid the blunt edge against his padded ribs. In the next exchange he drew Harl's cut, turned it aside and stopped his own point before the throat protection.
+
+Harl began withholding his attacks. Jon closed the distance in smaller steps, obliged him to move, and touched him again as he reset his feet.
+
+The new body answered the technique. It was healthy, strong and already accustomed to weapons. Repeated hard exchanges exposed a different limit: Jon needed a pause sooner than he remembered needing one in his former body. The small reserve of speed he had once relied upon was absent. He could recognize the opening before Harl did, but he still had to cross the distance.
+
+They rested, then resumed with shorter passages.
+
+The morning of the fifth went more smoothly. Jon checked his movement without the extra correction at the end. He could put the sword where he intended while keeping enough control to stop it. Harl made him work, but could not consistently defeat the changes of line and timing. Neither man suffered an injury.
+
+Cregan's later reputation could not supply years he had not yet lived. These mornings showed Jon a capable young body, not one already superior to the body he had trained for so long. His former endurance and speed still exceeded what he had found here. Greater raw strength, or greater eventual potential, had not been established by the bouts.
+
+After each practice, Jon washed, ate and returned to the household's work.
+
+Osric, the steward, brought Moryn from the stores, Donnel from the stables and Wyl, who arranged the daily watch. Jon learned their names against their duties. He followed a grain issue from the written tally to the sacks being opened for the kitchens, watched the measure filled and struck level, then checked the entry made for it. In the stables he heard which animals were being rested and which were available for ordinary messages.
+
+He read incoming reports and the papers already awaiting his attention. Existing work continued under standing instructions. Petitions requiring a judgment, new grants or appointments were kept for decision; he made none of those commitments during the two days.
+
+Arra did not bring her answer early. Bennard supplied neither an acceptance nor the requested account of his dealings. By the fifth night's return to the working chamber, the steward had separated the papers requiring Jon's decision from the completed daily returns. Tomorrow's practice remained arranged, and Arra's promised answer was due after the midday meal.
+
+### Changed this turn
+
+- Bennard has heard Jon's conditional offer. He has not accepted it or delivered records; custody remains unchanged. The winter-hunt terms remain incomplete.
+- Two mornings of controlled sparring completed without injury. Jon is better accustomed to Cregan's body; his established swordsmanship carries over, but his former peak speed and sustained endurance have not been matched.
+- Jon has learned the names and duties of several household officers and reviewed routine operations. No new appointments, grants or policy decisions were made.
+
+### Next
+
+First-light practice on the sixth, then Arra's answer after the midday meal. Bennard's answer is deferred until after hers.
