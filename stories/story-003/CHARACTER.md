@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 5 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 6 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 5 completed |
-| Date and time | Thirtieth day of the tenth moon, 126 AC, evening |
+| Turn | 6 completed |
+| Date and time | Thirtieth day of the second moon, 127 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
-| Age | Eighteen physically; 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
+| Age | Nineteen physically since the ninth moon of 126 (an authored nameday); 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Recovered from the 124 injury and fully accustomed to Cregan's body since 125; no current illness, injury or lasting impairment established |
-| Immediate situation | Harvest in, the second instalment counted and the Crown's share sent; winter closing the works; the fair of the second moon of 127 proclaimed; four rural granaries to be let for spring |
+| Immediate situation | The first fortnight fair is closed and reckoned. Jon intends to ride north after the thaw by the Dreadfort, the Last Hearth, Karhold and the Hornwood once the Acorn Water centering is up |
 
 ## Transfer and memory
 
