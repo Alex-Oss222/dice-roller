@@ -1,8 +1,8 @@
-# Story 3 · World · Thirtieth day of the first moon, 129 AC
+# Story 3 · World · Second day of the second moon, 129 AC
 
 ## Current position and authority
 
-Turn 12 accepted and saved. It is the evening of the thirtieth day of the first moon, 129 AC. Jon is in Winterfell's solar with the Roll of Northern Works examined and closed, Lord Desmond's letter of 129/01/20 unanswered (the king not expected to live out the winter; both parties writing to every lord; Manderly will answer as Winterfell does), the steward asking whether a second roll is to be written for 129, and Arra saying the Norrey wants the same word from a man's mouth.
+Turn 13 accepted and saved. It is the evening of the second day of the second moon, 129 AC. Jon is in Winterfell's lord's solar. Preparatory muster orders and eastern coastal readiness instructions were dispatched this morning. The muster is to build gradually at Moat Cailin by 129/04/01, with a ceiling of 12,000 across the land and shipboard call and the majority of each house's men left at home. No claimant, southern sailing or march beyond the Moat is authorized. Arra has privately accepted remaining in the North as Jon's intended regent during his prospective absence; the written appointment and public declaration remain to be made. She asks what Jon will obtain for the North before committing its forces. The steward's two-day return on the broader second roll is now due.
 
 The accepted backstory and links to each complete turn are preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
@@ -38,6 +38,8 @@ The accepted backstory and links to each complete turn are preserved in [STORY.m
 
 - **129/01/01 to 01/30 (Turn 12):** Jon walked the roll's works (01/03 to 01/06); the closing examination in the great hall (01/08 to 01/12) closed the roll at 477,200 GD paid; the looms leased to the independent weavers, the tannery let to the journeyman, the unbuilt works struck by name, a keeping charge of about 2,680 GD a year made standing. Lord Desmond's letter of 01/20: the king dying, both parties writing to every lord.
 
+- **129/01/30 to 02/02 (Turn 13):** Jon deferred the steward's second-roll discussion for two days, examined the existing military and stores papers, and dispatched common preparation notices, gradual muster instructions and eastern coastal readiness orders on 02/02. No contingent or fleet return is yet confirmed. He privately told Arra his remembered account of the coming battles; she chose to stay in the North and accepted his offer of a prospective regency, requiring written authority and public declaration before departure.
+
 ## Family settlement and security
 
 | Person | Established position |
@@ -60,9 +62,11 @@ Winterfell's household loyalty and the captains' personal loyalty to Jon are est
 
 Jon has established relationships with the Cerwyns, Glovers and Norreys. He has now sat at table with Lord Cerwyn, Master Tallhart, Lord Dustin and Lord Hornwood. He works with House Manderly on port logistics. These relationships matter in future adjudication without deciding every future disagreement.
 
-Arra Norrey was Cregan's childhood friend and lover, and loved him romantically. Jon knows their shared history through Cregan's inherited memories. She knows that he is Jon and loves him as a friend. They remain unmarried and unbetrothed. On 126/03/05 Jon told her he cannot marry her or anyone now, that he means to make as few marriages between the lords as he can, that he is not the man she loved and has become the Lord of the North, and that as long as he lives she has mead at his table and shelter at his hearth. She left for the Norrey's hall at first light on 126/03/13 and does not expect to return before the shearing. She is back at Winterfell for the winter of 128–129, in the rooms over the Hunter's Gate. No formal advisory appointment, secrecy oath or new service agreement is established.
+Arra Norrey was Cregan's childhood friend and lover, and loved him romantically. Jon knows their shared history through Cregan's inherited memories. She knows that he is Jon and loves him as a friend. They remain unmarried and unbetrothed. On 126/03/05 Jon told her he cannot marry her or anyone now, that he means to make as few marriages between the lords as he can, that he is not the man she loved and has become the Lord of the North, and that as long as he lives she has mead at his table and shelter at his hearth. She left for the Norrey's hall at first light on 126/03/13 and did not expect to return before the shearing. She is back at Winterfell for the winter of 128–129, in the rooms over the Hunter's Gate.
 
-**Arra alone has been told the truth of the transfer.** The rest of the household attributes Jon's increased maturity to the injury and conflict with Bennard. Other NPCs do not share Arra's knowledge.
+On 129/02/02 Arra accepted remaining in the North as Jon's intended regent during a prospective southern absence. She wants to learn the steward's business while Jon remains and requires written appointment and his public declaration to the captains and lords before departure. No active regency, completed oath-taking, marriage or removal of the existing steward and captains follows yet. Her acceptance is private; the lords and household have not automatically learned of the appointment.
+
+**Arra alone has been told the truth of the transfer.** On 129/02/02 she also heard Jon's remembered histories of the coming battles, as recorded in CHARACTER. This is knowledge of his account, not certain future history or access to the entire calendar. She advised caution about following remembered battles and that Manderly receive the naval warning before sailing. Other NPCs do not share this knowledge. The rest of the household attributes Jon's increased maturity to the injury and conflict with Bennard.
 
 Viserys I remains king and Rhaenyra his designated heir. Jon's historical studies warn of the coming succession war, but he has made no commitment to either faction. Stark still holds the North under the Iron Throne; his former independent monarchy's laws do not automatically govern this century. Jon's stated policy is no marriage of his own for now and as few brokered northern marriages as he can manage; lords have begun to ask (Cerwyn openly, Manderly by a remembrance from his lady).
 
@@ -74,7 +78,7 @@ Standing orders and findings from play:
 
 - Garrison bread and ale drawn against the signed muster count (126/01/04). Garrison being raised by a hundred men from the estates' sons from the sixth moon of 128 at the book's pay (about 7,573 GD a year for the hundred), drilled with the rest; charged to the household, not the roll.
 - Moat Cailin: the road gang and the carpenter sent in the sixth moon of 128 under the 125 repair order to put the causeway and the three standing towers in order by the summer of 129; timber and coin on the old order's sheet (about 8,000 GD to 128/07/30; an authored estimate of about 48,000 GD in all).
-- Lords' harvest accounts of men: exact since 127 (31,400 reported fit at a moon's notice; 4,700 mustered in ten years; 2,100 with horse and mail; unverified); for 128 each house is to name every man with horse and mail of his own and where he lives.
+- Lords' harvest accounts of men: exact since 127 (31,400 reported fit at a moon's notice; 4,700 mustered in ten years; 2,100 with horse and mail; unverified); the later horse roll names 2,260 men with horse and mail, not 2,260 additional to the North's reported manpower.
 - Every road cut has a hurdle and a man; below ten feet a well's shoring stays in until lined and a man stands at the top (127/09).
 - Grain weighed in at the granary doors from the 126 harvest; heaps turned daily in wet years.
 - Gate court on the fifth day of each week; a fair court under the steward during the fortnight fair; appeals to Jon.
@@ -82,13 +86,25 @@ Standing orders and findings from play:
 - Road poles on about 100 miles of Stark road and on six clan tracks; patrols keep the road in snow; pulling a pole is answered by Jon himself (the Knott, 128/07).
 - Sealed measures: thirty-six sets, nineteen issued to lords, one in the Winter Town weighhouse; a Stark receiver dismissed by them in 128.
 
+### Muster and coastal orders of 129/02/02
+
+**Dispatched, not a completed muster.** Preparatory instructions went to the principal northern lords with a common preparation notice for the other direct houses, by available ravens and riders. Coastal instructions went to Manderly, Locke and Flint of Widow's Watch and onward to the other eastern coastal holdings. No letter was sent to Dragonstone merely because the player identified the eastern seaboard. Manderly has been answered about readiness, not about the succession.
+
+- **Ceiling and home defense:** no more than 12,000 in the combined newly mobilized land and shipboard call; newly called crews count too, rather than becoming an uncounted second force. The majority of each house's strength remains at home to maintain lands, castles and local defense. Existing home establishments are not newly dispatched by this order.
+- **Method and date:** houses return proposed companies, food, transport and departure dates. Departure allotments are to be cleared against one northern total before contingents are released, preventing independent summonses from exceeding the cap. Small bodies are to arrive gradually at Moat Cailin, with readiness sought by **129/04/01**. This interprets the player's fourth turning as the beginning of the fourth moon of 129, not four moons after the current date. Actual compliance and arrival follow communications, local circumstances and travel; no exact house quota or force total has yet been established.
+- **Moat and supply:** the carpenter and Moat officers are asked for current road, camp-ground and cart-access reports; the houses must state what provisions and transport accompany their detachments. The three towers are not accommodation for 12,000. Existing repair orders continue and are not automatically completed or enlarged into a finished army camp. Camp and field-supply costs require their own account. No grain issue or new camp payment is yet recorded.
+- **Fleet:** eastern coastal lords are to ready serviceable ships and crews, strengthen local patrols, report hulls, crews, carrying room and readiness dates, and watch and turn away armed vessels serving the Triarchy where their means permit. This is a local naval instruction, not a proclaimed blockade of all Westerosi waters, a merchant embargo or an automatic victory. No southern sailing is authorized. No ship return, mobilized fleet strength, enemy contact or interdiction is established at the end of Turn 13.
+- **Political and movement limits:** no march beyond Moat Cailin, no claimant pledge, no bargain, no southern target and no departure date for Jon are chosen. Prepared forces remain available for the player's later decision. Northern lords may interpret the preparation once their letters arrive; they cannot react to the private discussion with Arra.
+
+Outgoing letters departed on 129/02/02 morning. At the ending evening no recipient acknowledgement is established. For continuation, use authored delivery windows of **129/02/03–02/10** for direct principal-house ravens and **129/02/08–02/20** for longer rider or relay routes, including relevant clan and Neck destinations. These are scheduling assumptions to resolve against actual routes, not completed arrivals. Responses then need their own return journey. The future calendar carries the same outstanding task.
+
 ## Finances
 
 All monetary values in this current record use the revised scale. The original 126 report and works proposal convert by ×20; the scenes and backstory already use current values; the [129 fiscal account](references/FISCAL_129_AC.md) reconciles both. This is a revision of the model, not newly received money.
 
 ### Treasury
 
-| Item | Revised GD | Position at 129/01/30 |
+| Item | Revised GD | Position at the last count, 129/01/30 |
 | --- | ---: | --- |
 | Counted vault | **16,576,000** | Includes Bennard’s 400,000 once; no grant has yet been paid. |
 | Mormont commitment | 180,000 | New player-authorized wharf and stone enclosure. |
@@ -106,9 +122,11 @@ All monetary values in this current record use the revised scale. The original 1
 
 Plan ordinary annual cash receipts of **5,829,820**, ordinary surplus after the Crown of **4,509,679**, and a conditional year-end vault of **20,897,219** after 154,000 further capital payments. These are forecasts, not counted money. Income is 272,420 above a comparable 126 estimate using that year’s actual tribute and rent collections; the remaining 126 trading income is modeled. Tribute and rents arrive six tenths in moon four and four tenths in moon ten. The Mormont and Reed gifts do not create first-year receipts.
 
+Turn 13 recorded no new treasury count, extraordinary disbursement, troop wage payment, charter or grain issue. The preceding figures retain their 129/01/30 scope; no two-day share of forecast annual income is credited as received cash. The ordinary-year forecast explicitly excludes mobilization and war shipping. The new preparations create a requirement to cost the actual force and supply plan when returns arrive, not a priced commitment or a revised year-end cash count. Existing gifts remain reserved and unspent.
+
 ### Grain and stores
 
-The last complete grain count was **78,600 quarters on 128/10/20**, including the 12,000 bought for 18,000 GD. Subsequent issues are incompletely recorded, so that is not an exact January stock. The castle’s 20,200 quarters is included in the total, under three old granaries and six new. Four rural stores each have 1,000-quarter nominal capacity. The four clan stores received 600 quarters apiece from existing stocks; their later issues are not all known. Dry-year loss in 128 was 420 quarters, against 1,100 in wet 127. Grain rent arrears were last established at 1,800 quarters from 125.
+The last complete grain count was **78,600 quarters on 128/10/20**, including the 12,000 bought for 18,000 GD. Subsequent issues are incompletely recorded, so that is not an exact February stock. The castle’s 20,200 quarters is included in the total, under three old granaries and six new. Four rural stores each have 1,000-quarter nominal capacity. The four clan stores received 600 quarters apiece from existing stocks; their later issues are not all known. Dry-year loss in 128 was 420 quarters, against 1,100 in wet 127. Grain rent arrears were last established at 1,800 quarters from 125. Turn 13 requested current supply returns; it did not complete a new northern count.
 
 ### Cash confiscated from Bennard
 
@@ -150,7 +168,7 @@ Struck from the old roll: four castle granaries, two castle baths, four acres of
 
 ## Mormont and Reed grants for 129
 
-**Player-authorized after Turn 12; no time advanced and no payment made.** Reserve **180,000 GD for House Mormont**: a sixty-foot timber wharf and a roughly 120-yard stone curtain enclosing the store and landing approach, with a plain gate, drainage and fittings. The grant includes freight and a substantial site reserve. It is a protected landing and refuge, not a new castle. The old four fish stations and harbour granary already exist. Survey after access permits; allow one working season for the wharf and two or three for the stone enclosure. Plan 100,000 paid in 129, 80,000 later, with about 3,000 annual upkeep under Mormont when operating.
+**Player-authorized after Turn 12; authorization advanced no time and no payment was made. Still unspent at Turn 13.** Reserve **180,000 GD for House Mormont**: a sixty-foot timber wharf and a roughly 120-yard stone curtain enclosing the store and landing approach, with a plain gate, drainage and fittings. The grant includes freight and a substantial site reserve. It is a protected landing and refuge, not a new castle. The old four fish stations and harbour granary already exist. Survey after access permits; allow one working season for the wharf and two or three for the stone enclosure. Plan 100,000 paid in 129, 80,000 later, with about 3,000 annual upkeep under Mormont when operating.
 
 Reserve **50,000 GD for House Reed**: two raised 500-quarter stores, two small timber landings, eight shallow-draft boats, removable approaches and an initial thousand quarters of food. Reed chooses the sites and controls access. No road is cut through the Neck and Greywater Watch is not treated as a fixed masonry town. Plan 40,000 paid in 129 and 10,000 later; allow 129–130 for site agreement and construction, with about 2,000 annual upkeep and intermittent crew/handling cost under Reed. The food is a funded future purchase, not a deduction already made from Stark’s stores.
 
@@ -158,15 +176,17 @@ Both grants are gifts with no repayment or higher tribute. The detailed [129 acc
 
 ## Future-event calendar
 
-The [conditional future-event calendar](FUTURE_EVENTS.md) tracks the player's supplied 129–133 AC timeline and remaining time from the saved date. It holds pending baselines and their changes; this file holds actual lasting world outcomes. No scheduled future event has occurred.
+The [conditional future-event calendar](FUTURE_EVENTS.md) tracks the player's supplied 129–133 AC timeline and remaining time from the saved date. It holds pending baselines and their changes; this file holds actual lasting world outcomes. No scheduled historical future event has occurred by 129/02/02.
 
 Independent events proceed during authorized elapsed time unless changed circumstances alter them. Historical battles, casualties, plague deaths and succession outcomes are not compulsory. Historical actions belonging to Cregan require Jon's choice. Apply lasting consequences once and record them here when they actually occur, keeping offscreen facts distinct from news reaching Winterfell.
 
 ## Open matters
 
-- Lord Desmond's letter of 129/01/20 unanswered: the king dying; the Hand's and the princess's letters to every lord; Manderly, the Dreadfort, Dustin, Glover, Cerwyn, Hornwood, Tallhart and the Norrey all waiting for Winterfell's word, which Jon has promised to give to every house at once before he acts.
-- Whether a broader second roll is written for 129; Mormont and Reed grants are already authorized, with surveys and delivery still ahead.
-- Moat Cailin by the summer of 129; the garrison's hundred; the horse roll; the reserve.
+- Jon's strategic purpose, claimant and terms for northern participation. Manderly's letter of 129/01/20 has a readiness answer in transit, but its succession question is still unanswered. A common preparation notice has been dispatched; no faction declaration has been made.
+- House and fleet returns, departure allotments within the 12,000 combined cap, current grain and transport accounts, and Moat Cailin camp readiness for the 129/04/01 target. No received acknowledgement or assembled force is yet established.
+- Arra's accepted prospective regency: written appointment, public declaration to captains and lords, and preparation with the steward before Jon leaves. No current regency or automatic bannerman acceptance.
+- Whether a broader second roll is written for 129; the steward's two-day return is due on 129/02/02 evening. Mormont and Reed grants are already authorized, with surveys and delivery still ahead.
+- Moat Cailin's existing repair order by the summer of 129; the garrison's hundred; the horse roll; the reserve.
 - The fair of 129/02; the end of Orro's contract around that moon; the weavers' body and the Braavosi contract.
 - The Dreadfort's 30,000 GD at 129/04; the commercial advances; tribute arrears.
 - Brandon's answer at his majority (127/12 oath's two years run to the end of 129); Elric's marriage.

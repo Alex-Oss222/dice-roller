@@ -2,7 +2,9 @@
 
 ## Current position
 
-Turn 12 is complete. Resume on **129/01/30, evening**, in Winterfell's lord's solar; the next action is Turn 13. The Roll of Northern Works is closed. Lord Desmond’s letter and a broader second roll await Jon’s answer. The player has since authorized the Mormont and Reed grants recorded in WORLD; they are unspent commitments. No time has passed since the [end of Turn 12](turns/TURN_012.md#the-thirtieth-day).
+Turn 13 is complete. Resume on **129/02/02, evening**, in Winterfell's lord's solar; the next action is Turn 14. Read the [latest turn](turns/TURN_013.md) for the exact scene. Preparatory summonses and eastern coastal orders were dispatched this morning. The gradual Moat Cailin muster is capped at 12,000 across the land and shipboard call, with the majority of each house's men retained at home, targeting 129/04/01. No southern sailing or march beyond the Moat is authorized and no claimant is chosen. Arra has privately accepted being Jon's intended regent during a prospective absence; her written appointment and public declaration remain ahead. She asks what Jon will obtain for the North before committing its forces.
+
+The old works roll remains closed. The broader second roll and Manderly's succession question remain open. Mormont and Reed's grants remain authorized and unspent. The last counted vault remains the dated 129/01/30 count, not a new count or a forecast credited as cash.
 
 [Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal account](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
 
@@ -25,6 +27,7 @@ Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arith
 | [10](turns/TURN_010.md) | Thirtieth day of the seventh moon, 128 AC, Evening |
 | [11](turns/TURN_011.md) | Thirtieth day of the twelfth moon, 128 AC, Evening |
 | [12](turns/TURN_012.md) | Thirtieth day of the first moon, 129 AC, Evening |
+| [13](turns/TURN_013.md) | Second day of the second moon, 129 AC, Evening |
 
 ## Established backstory, 124–126 AC
 
@@ -50,4 +53,4 @@ By the third day of the first moon, 126 AC, Jon had fully established himself as
 
 Arra Norrey had been Cregan's childhood friend and lover, and she had loved him romantically. Jon possessed Cregan's memories of their upbringing and shared history, so their familiarity was genuine to him, even though his own experiences and personality were different. Before the opening, he told her the truth of the transfer because he trusted her as Cregan's friend. Arra knew that he was Jon and loved him as a friend. They had not married or become formally betrothed; their current relationship was friendship.
 
-At the opening of 126 AC, Jon governed personally from Winterfell, leaving daily household matters to his steward while retaining control over justice, appointments, military readiness, and relations with his bannermen. He knew from his extensive historical studies that a Targaryen succession war was approaching, but had made no commitment to either faction. His immediate priorities remained northern stability, sufficient winter reserves, reliable roads and defenses, and keeping the authority he had recovered firmly in the hands of House Stark.
+At the opening of 126 AC, Jon governed personally from Winterfell, leaving daily household matters to the steward while retaining control over justice, appointments, military readiness, and relations with his bannermen. He knew from his extensive historical studies that a Targaryen succession war was approaching, but had made no commitment to either faction. His immediate priorities remained northern stability, sufficient winter reserves, reliable roads and defenses, and keeping the authority he had recovered firmly in the hands of House Stark.
