@@ -10,7 +10,7 @@ Book continuity supplies the foundation and scale. Campaign events can diverge. 
 
 Each campaign uses three live files:
 
-- `CHARACTER.md` holds the character's established identity, experience, limits, and current condition.
+- `CHARACTER.md` holds the character's established identity, experience, limits, and current record.
 - `WORLD.md` holds current army strengths and losses, money available, spending and commitments, holdings, development projects and their costs, relationships, and lasting consequences. Keep each fact's location, date, and scope clear where they matter.
 - `STORY.md` holds accepted scenes, preserving the events behind the current state.
 
@@ -51,11 +51,16 @@ See [HANDOFF.md](HANDOFF.md) for the current position, unresolved premise, and d
 
 Use a plain chat with repository access, without a preconfigured RPG chatbot's additional instructions.
 
-1. Select one campaign and load its current files and relevant rules.
+1. Select one campaign and load one consistent repository snapshot.
 2. Say what the character chooses or attempts.
-3. The GM resolves the interaction and writes the events as fiction.
-4. Save the accepted scene and material changes.
-5. Stop at the next meaningful choice.
+3. The GM adjudicates before writing.
+4. The GM writes and self-edits the complete scene under the narrative rules and research.
+5. Derive lasting changes from the accepted scene.
+6. Save the complete turn and all affected live files in one coherent Git commit.
+7. Verify the repository write before reporting the turn as saved.
+8. Stop at the next meaningful choice.
+
+The detailed turn and save procedure is in [rules/TURN_PROCESS.md](rules/TURN_PROCESS.md).
 
 Each campaign develops independently. Its own recorded facts govern subsequent turns. Save during play and review continuity and prose after completed Turns 20, 40, 60, and so on. These checkpoints use the existing files and take no fictional time; the procedure is in `AGENTS.md`.
 
@@ -68,11 +73,12 @@ If the chat cannot write, retain both player actions and GM responses from the c
 ## Rules and references
 
 - [GM rules](AGENTS.md)
+- [Full turn and save process](rules/TURN_PROCESS.md)
 - [Narrative rules](rules/NARRATIVE.md)
 - [Turn format](rules/TURN_OUTPUT.md)
 - [Combat and battle](rules/COMBAT.md)
 - [Economic reference](references/ECONOMY.md)
 
-Each economy begins at its campaign's date and changes through events. The shared workbook informs relationships and scale; its 283 AC figures are not automatically another period's prices or reserves. The GM may establish needed campaign quantities consistently and preserve them.
+`rules/NARRATIVE.md` is mandatory every turn. At the first resolved turn in a new chat, and whenever a scene's dialogue, combat, historical institutions, or prose quality requires it, the GM must consult the relevant sections of [the longer narrative research](references/NARRATIVE_RESEARCH.md). The research supports drafting and revision; it is not merely archive material.
 
-[Longer narrative research](references/NARRATIVE_RESEARCH.md) is source material, not required reading for every turn.
+Each economy begins at its campaign's date and changes through events. The shared workbook informs relationships and scale; its 283 AC figures are not automatically another period's prices or reserves. The GM may establish needed campaign quantities consistently and preserve them.

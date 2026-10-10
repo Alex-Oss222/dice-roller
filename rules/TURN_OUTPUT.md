@@ -29,6 +29,14 @@ Elapsed: [actual elapsed time]
 [Only the real decision that now requires player input. Omit if there is no pending decision.]
 ```
 
+## Narrative is required
+
+Every resolved turn must contain the complete literary scene required by `rules/NARRATIVE.md`.
+
+Do not substitute a synopsis, adjudication explanation, state ledger, repository update, `Changed this turn` section, or `Next` prompt for the scene. Out-of-character maintenance and research are not resolved turns and should not be presented as though they were.
+
+The turn header's turn number, date, ending time, and location must agree with the scene and the selected story's updated `CHARACTER.md`.
+
 ## Physical profile
 
 The top table stays deliberately small:
@@ -65,7 +73,7 @@ Use only the categories that matter. Examples may include:
 
 Do not print a fixed checklist. Do not add "no change" entries.
 
-The section is a concise reading summary of persistent changes. It does not replace the actual state files.
+The section is a concise reading summary of persistent changes. It does not replace the actual state files. Every listed change must match a change actually written to `CHARACTER.md` or `WORLD.md` in the same turn commit.
 
 ### Movement
 
@@ -82,7 +90,7 @@ Include movement under `Changed this turn` only when the movement itself matters
 
 ## Narrative
 
-The scene itself follows `NARRATIVE.md`.
+The scene itself follows `rules/NARRATIVE.md` and must pass its mandatory narrative gate before saving.
 
 Do not put mechanics, adjudication explanations, state ledgers, or repository language into the prose.
 

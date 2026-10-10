@@ -1,8 +1,21 @@
 # Narrative rules
 
-Read this before writing every scene.
+Read this before writing every scene. These rules are mandatory.
 
 The rules determine what happens. The prose never talks about the rules.
+
+## Using the narrative research
+
+`references/NARRATIVE_RESEARCH.md` is the evidence and reasoning behind this contract. It is not decorative archive material.
+
+- At the first resolved turn in a new chat, consult the research sections relevant to the expected scene.
+- For ordinary historical/social scenes, use the research on realistic medieval narrative and avoiding AI-like prose.
+- For dialogue-heavy scenes, also use the research section on natural, realistic conversation.
+- For battles, military movement, or sieges, use the battle research and `rules/COMBAT.md`.
+- For individual or multiple-opponent fighting, use the combat research and `rules/COMBAT.md`.
+- Reconsult the relevant research when the draft becomes exposition-heavy, mechanically phrased, overly polished, repetitive, symbol-driven, or detached from practical reality.
+
+The research informs selection and revision. Do not copy its examples or source commentary into the story.
 
 ## Core approach
 
@@ -11,7 +24,7 @@ The rules determine what happens. The prose never talks about the rules.
 - Treat the world as a functioning society. Material limits, rank, custom, work, travel, communication, supply, law, religion, money, and authority should affect what people can actually do.
 - Write through cause and consequence. People attempt things; circumstances and other people respond; the available choices change.
 - Preserve uncertainty. Characters act on what they know, not on what the GM or reader knows.
-- NPCs have their own concerns. They are not exposition devices, quest dispensers, or automatic supporters/opponents of the player.
+- NPCs have their own concerns. They are not exposition devices, quest dispensers, or automatic supporters or opponents of the player.
 - Competence appears through what a character notices, chooses, prepares, avoids, and accomplishes. Do not announce that someone is skilled.
 - Avoid repeated narration certifying what has not been authorized, verified, or completed. Keep the relevant limits in state and show them through work, evidence, refusal, delay, or conversation when they affect the scene.
 
@@ -73,8 +86,22 @@ Let scene length and paragraphing follow the action and conversation. There is n
 
 End at the next consequential decision the player should make. Do not resolve that decision on the player's behalf.
 
+## Mandatory narrative gate
+
+A resolved turn cannot be saved until its scene has been reviewed against this file and the relevant narrative research.
+
+Before saving, confirm that the prose:
+
+- contains a complete scene rather than a summary of one;
+- remains inside credible viewpoint knowledge;
+- presents dialogue that belongs to the speakers rather than to the author's need to explain;
+- shows competence, limits, status, and material conditions through events;
+- contains no visible game mechanics or adjudication explanation;
+- does not invent the player's next meaningful choice;
+- stops at the real decision point without a menu, manufactured cliffhanger, polished moral, or resonant closing image.
+
+Revise before saving if any item fails. This mandatory self-edit is the current narrative quality control. There is no separate automated narrative checker.
+
 ## Special cases
 
 For individual combat, battles, sieges, pursuits, or military movement, also read `rules/COMBAT.md`.
-
-The longer research behind these rules is preserved in `references/NARRATIVE_RESEARCH.md`. It is source material for maintaining these rules, not required reading for every turn.
