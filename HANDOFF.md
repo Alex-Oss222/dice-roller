@@ -24,30 +24,30 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 
 - Story 1: Eddard Stark, 283 AC, at its Turn 0 opening.
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
-- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turn 3 is completed in the current run. It is about nine at night on the fifth day of the fourth moon, 126 AC. Two mornings of practice and ordinary duties are complete. Arra's answer is due after the midday meal on the sixth; Bennard's decision is deferred until after hers. The first checkpoint remains after Turn 20.
+- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turn 4 is completed in the current run. It is about three in the afternoon on the sixth day of the fourth moon, 126 AC. Jon has heard Arra and Bennard and returned to the lord's solar. No settlement has been accepted. The first checkpoint remains after Turn 20.
 - [Jon_Stark_487_AC_.md](stories/story-003/Jon_Stark_487_AC_.md) is Story 3's complete character sheet. `CHARACTER.md` records his current 126 AC state; the sheet's legacy scores are inactive.
 - Story 3's `references/` folder holds the [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), including regional output figures, and the [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx). Fiscal graphs are in the adjacent `fiscal-figures/` folder. Consult these references when economics matters to the scene.
 - The economic workbook and narrative research remain references.
 
 ## Next play session
 
-Resume Story 3 from its live files, linked character sheet and latest scene, Turn 3. Do not replay the opening or import the retired run.
+Resume Story 3 from its live files, linked character sheet and latest scene, Turn 4. Do not replay the opening or import the retired run.
 
-The authorized two-day period ended at night on the fifth. First-light practice with Harl is still arranged for the sixth, followed by Arra's answer after the midday meal. Arra and Cregan are unmarried childhood friends. She knows Jon's account but has not accepted it as proven; her provisional discretion remains in force and no wider disclosure has occurred.
+Jon is back in the lord's solar, afternoon on the sixth, having heard both replies. Arra and Cregan are unmarried childhood friends. She now offers discreet practical help with people, customs and recent events she knows, while remaining uncertain about Jon's account of the transfer. She suggests a voluntary visit to the maester and offers to accompany him; no examination has been accepted or arranged, and she has told nobody the secret.
 
-Jon gave Bennard a counteroffer on the third: disclosure of northern dealings and records in return for survival, no keeps or important offices for the sons, means to earn a living, future boys to the Wall and girls to marriages Jon chooses, plus a winter hunt without northern aid. Bennard has neither accepted nor rejected; Jon will hear his decision after Arra's answer. All four prisoners remain confined. No bargain, aid ban, release or descendants' commitment has been enacted.
+Bennard rejected the undefined unsupported winter hunt and the restrictions on unborn descendants. He counteroffers an account of his regency, dealings and records, continued confinement for himself, and public acknowledgment of Cregan's rule. He will urge his sons to accept no keep, command or governing office, but asks supervised residence and maintenance for them at Winterfell until a definite livelihood is agreed. His sons have not separately assented. Jon has heard the proposal without accepting it. Bennard and his three sons remain confined, and no records or testimony have been delivered under a bargain.
 
-The winter condition is explicitly unfinished. Do not infer duration, equipment, food, shelter, paid trade, whether the sons are included, or a death sentence. Clarify before agreement or enforcement depends on those details. Bennard has asked for plain written terms and disputed speaking vows for unborn boys. No records or substantive testimony have been delivered under the offer.
+Do not silently complete the old winter condition or repeat the same rejected proposal as a fresh attempt. Any renewed negotiation needs changed terms or circumstances. No pardon, release, aid ban, descendants' Watch vows or marriage settlement has been enacted.
 
-Harl's practice on the fourth and fifth showed Jon retaining his swordsmanship and improving calibration of Cregan's healthy, trained young body. Neither was injured. The old body's sustained endurance and small extra speed advantage have not been matched. No claim about greater raw strength, reach or eventual potential is established. The sixth practice remains scheduled.
+All three morning practices with Harl, on the fourth, fifth and sixth, are completed without injury. The temporary arrangement is over. Jon retains his demonstrated swordsmanship and improved calibration of the healthy young body. The old body's small extra speed advantage and sustained endurance have not been matched; no greater raw strength, reach or eventual potential is established.
 
-Routine duties introduced existing officers by name: Osric (steward), Moryn (stores), Donnel (stables), Wyl (daily watch). Jon has withheld new grants, judgments, appointments and policy while awaiting Arra. WORLD.md retains the explicitly dated opening financial balances and ordinary-year estimates; do not silently treat them as a fresh inventory.
+The condition of waiting for Arra before new governing choices is satisfied, but grants, judgments, appointments, policy and spending have not been chosen automatically. The held petitions remain pending. Known officers are Osric (steward), Moryn (stores), Donnel (stables) and Wyl (daily watch). Financial balances remain explicitly dated opening accounts, not a fresh inventory.
 
 ## Development agenda
 
 The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The supplied fiscal reference provides 126 AC model amounts and assumptions. Use its opening stocks and relevant rates when establishing dated campaign finances; its annual receipts, closing balances, and stress tests are not events already played. Turn 1 includes an initial review of accounts, not a physical audit; it creates no new expenditure. Keep consequential amounts in the live state as play changes them.
 
-1. Continue from the end of Turn 3 with the next authorized action. Preserve Arra's sixth-day answer, the remaining practice and Bennard's deferred decision. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
+1. Continue from the end of Turn 4 with the player's next action in the solar. Preserve Arra's practical cooperation, Bennard's pending counteroffer and completed practices. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
 2. Save accepted scenes and material changes during play. Keep consequential quantities, costs, resources, obligations, and project progress in the existing state.
 3. After Turn 20 and each subsequent twentieth completed turn, reconcile continuity and review the prose, then refresh this handoff. Keep the retired run and all other campaigns separate.
 4. Check that a new chat resumes the latest state of this fresh run. Fix observed problems in existing guidance before adding structure.

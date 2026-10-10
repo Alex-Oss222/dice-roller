@@ -271,3 +271,73 @@ Arra did not bring her answer early. Bennard supplied neither an acceptance nor 
 ### Next
 
 First-light practice on the sixth, then Arra's answer after the midday meal. Bennard's answer is deferred until after hers.
+
+| Field | Current |
+| --- | --- |
+| Name | Jon Stark, known here as Cregan Stark |
+| Age | About eighteen physically; approximately 204 years remembered |
+| Location | Winterfell, lord's solar |
+
+## Turn 4 | Sixth day of the fourth moon, 126 AC | Afternoon, about three
+
+Elapsed: About eighteen hours.
+
+The last arranged practice with Harl took place at first light. Jon's movement held the adjustments of the previous mornings. They worked through controlled exchanges, rested, and finished without injury. Afterward they wiped the borrowed blades, rubbed oil over the steel and returned them to the rack. The padded coats were hung separately to dry.
+
+Arra met Jon after the midday meal. They walked far enough into the godswood to leave the attendants behind, and stopped where they could see the approach.
+
+“I'll help you,” she said. “I know this household. I know some of the mountain families. I can tell you what I saw while your uncle ruled here.”
+
+She corrected herself.
+
+“While Cregan's uncle ruled here.”
+
+She would answer questions, explain customs and recent events she knew, and identify people Jon could ask when she did not know enough herself.
+
+“I haven't told anyone what you said. I won't make it household talk.”
+
+Her agreement went no further than that. She would not swear that Cregan had vanished, or repeat Jon's account as something she could prove.
+
+“If you're ill, you still need someone who knows you. If you're telling me what really happened, you need someone who knows this place. I can do that much.”
+
+She asked him to consider seeing the maester. She offered to accompany him if he chose to go, but did not make the visit a condition of helping.
+
+Jon heard her out. The conversation ended without an appointment being made or anyone else being told his secret.
+
+Bennard was brought to a small chamber adjoining the guardroom later that afternoon. Wyl checked the passage before Jon entered.
+
+“The room is empty.”
+
+Inside, a servant was wrapping a linen cloth around a jug. He carried it out while the guards brought Bennard through the other door.
+
+Jon asked for his answer.
+
+“I will give you an account of my regency. The letters I sent, the promises I made, the men I dealt with. Your clerk can take it down and compare it with the records.”
+
+Bennard laid his palms flat on the table.
+
+“I won't promise to remember every word of every conversation. I will answer what I can.”
+
+He would remain confined. He would acknowledge Cregan's rule before the household officers and instruct his sons to obey. He was prepared to urge his sons to accept a settlement without a keep, command or governing office.
+
+In return, he wanted them allowed to live under supervision at Winterfell, with food, clothing and exercise, until a definite means of earning their living was arranged. Any eventual settlement would have to state where they could live and what work they could undertake.
+
+“But I will not agree to the winter hunt as you've left it. You haven't said when it ends, what we may take, or whether buying food counts as receiving help.”
+
+Nor would he agree to commit unborn grandchildren to the Watch or to marriages already prescribed as part of their fathers' punishment.
+
+“You can keep me here. You can ask me about what I did. I am offering to answer. Leave their children out of the bargain.”
+
+The account of his regency was still an offer. He supplied no letters during the audience, and Jon accepted none of the proposed terms.
+
+When Jon finished listening, the guards returned Bennard to his existing confinement. Jon crossed the passage and made his way back to the lord's solar. Osric had left the unanswered petitions on the writing table; the clerk waiting beside them gathered his tablets and withdrew.
+
+### Changed this turn
+
+- Arra agrees to discreet practical help with people, customs and events she knows. She remains uncertain about the transfer and suggests a voluntary visit to the maester.
+- Bennard offers an account of his regency and continued confinement for himself, seeking supervised maintenance for his sons until a definite livelihood is arranged. He rejects the undefined winter hunt and restrictions on unborn descendants. No settlement has been accepted.
+- The third practice with Harl is complete without injury. The temporary arrangement has ended.
+
+### Next
+
+Jon is back in the solar. Bennard's counteroffer awaits his decision; Arra is available for questions.
