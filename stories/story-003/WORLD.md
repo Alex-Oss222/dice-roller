@@ -1,8 +1,8 @@
-# Story 3 · World · Thirtieth day of the second moon, 127 AC
+# Story 3 · World · Thirtieth day of the sixth moon, 127 AC
 
 ## Current position and authority
 
-Turn 6 accepted and saved. It is the evening of the thirtieth day of the second moon, 127 AC. Jon is in Winterfell's solar. The first fortnight fair under the roll's charges has closed with 23,400 GD of goods sold. The works wait on the thaw; Jon means to ride north after it.
+Turn 7 accepted and saved. It is the evening of the thirtieth day of the sixth moon, 127 AC. Jon is in Winterfell's solar, back since 05/22 from the Dreadfort, the Last Hearth, Karhold and the Hornwood. The Acorn Water arch is being turned on its centering. Lord Desmond reports the king's court split after the feast of the first moon.
 
 The complete accepted history is preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
@@ -25,6 +25,8 @@ The complete accepted history is preserved in [STORY.md](STORY.md#established-ba
 - **126/07/16 to 10/30 (Turn 5):** A good, dry harvest taken under cover; Cerwyn's and Tallhart's bridges built; Master Wyl priced the Acorn Water arch and drove the north coffer; the market square finished and a foreman's fraud judged; Jon rode with the Barrowton-road patrol in the first snow; Bolton and Dustin agreed terms on the regency's notes; the second instalment and the Crown's share; the school and the bath opened; the clan stores built; the fair of 127 proclaimed.
 
 - **126/11/01 to 127/02/30 (Turn 6):** Fire in Winter Town's low lane (126/11/18), three houses lost, warehouses saved; the winter hall and infirmary in use; the cloth trial's first season reckoned at a loss and the fulling mill let; the tannery begun; Umber's granary roof failed under snow; the fortnight fair of 127/02/15 to 02/28 held with the roll's charges; Cerwyn offered his daughter and was refused under policy; the Braavosi master weaver engaged.
+
+- **127/03/01 to 06/30 (Turn 7):** Jon's northern ride (04/08 to 05/22): the Dreadfort paid the first 1,500 GD and had copied the granaries; Umber's roof judged and his arrears paid; a bout at the Last Hearth; Margaret Karstark granted a visit; the Hornwood landing wharf agreed. The spring instalment counted under the maester's delegated key. The arch's south abutment built and the centering stood 06/12. News of the king's feast and the court's split.
 
 ## Family settlement and security
 
@@ -74,17 +76,17 @@ Standing orders and findings from play:
 
 | Item | Amount | Basis and date |
 | --- | ---: | --- |
-| Coin in the vault, running count | 406,140 GD | Clerk's running count on 127/02/30; includes the 20,000 GD strongbox held apart; Dustin's first 1,250 GD and the fair's 214 GD net in it |
-| 126 tribute, received | 174,600 GD of 181,571 due | First and second instalments; about 6,971 GD short: Ryswell's 1,100 GD granted until 127/04, the rest owed by small houses |
-| 126 tenants' rents | 46,600 GD of 47,712 due | Counted |
-| Crown's share, 126 | 24,585 GD and 16,390 GD | Sent; the spring receipt held; the autumn receipt not yet returned |
-| Tribute arrears from 125 | about 5,500 GD | Umber withholds 1,600 (now tied by him to the roof dispute); the rest owed by other houses |
+| Coin in the vault, running count | 526,380 GD | Clerk's running count on 127/06/30; includes the 20,000 GD strongbox held apart |
+| 127 tribute, first instalment | 105,600 GD of 108,943 due | Counted 04/10 to 04/25 under the maester's holding of Jon's key; Ryswell's 1,100 GD 126 arrears paid with it |
+| 127 tenants' rents, first | 28,300 GD of 28,600 due | Counted |
+| Crown's share, 127 first | 24,585 GD plus 32 GD for the fair | Sent 04/27 with the clerk's letter on the fair; receipts for 126 both held |
+| Tribute arrears | about 9,100 GD | 126 small-house shortfalls (about 5,900 GD) and 125 remnants (about 3,900 GD); Umber's 1,600 GD paid 04/26 |
 | Tenants' cash rent owed from 125 | about 1,200 GD | Owed, unpaid |
 | Tenants' grain rent owed | 1,800 quarters | In the tenants' barns |
-| Regency drawings unaccounted for, 121 to late 125 | about 38,000 GD | Clerk's estimate; 11,000 GD under notes of hand, now on terms |
-| The Dreadfort's note | 6,000 GD owed | 1,500 a year for four years from 127/04 |
-| Barrowton's note | 3,450 GD owed | 1,250 GD in coin paid at the fair 127/02; thirty horses valued at the book price (300 GD) by the stable master; the balance half coin, half horses |
-| Fair of 127/02 | 214 GD net | Crown's part to be reckoned at the instalment; reported to the king's treasurer |
+| Regency drawings unaccounted for | about 38,000 GD | Clerk's estimate; 11,000 GD under notes of hand on terms |
+| The Dreadfort's note | 4,500 GD owed | 1,500 GD paid at the Dreadfort 127/04/15; 1,500 a year at the fourth moon to 130 |
+| Barrowton's note | 3,450 GD owed | 1,250 GD coin and 300 GD in horses paid; next coin at the tenth moon |
+| Fair of 127/02 | 214 GD net | Crown's part (32 GD) sent |
 
 Ordinary flows, an authored instalment timing taken from the fiscal reference: six tenths of tribute and rents in the fourth moon, four tenths in the tenth; the Crown's share goes south at each instalment. Quiet moons bring in a little under 5,000 GD from the estates' own stock, leases and grain and spend a little under 2,000 on household and ordinary works.
 
@@ -111,59 +113,60 @@ The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](refe
 
 ### Coin paid and committed under the roll
 
-| Item | Paid to 127/02/30 | Ordered and unpaid |
+| Item | Paid to 127/06/30 | Ordered and unpaid |
 | --- | ---: | ---: |
-| Castle: account room, weights (chest, six sets, thirty at White Harbor half paid), two granaries, three wells, approach, school books | 1,145 GD | 20 GD |
-| Winter Town: market hall, weighhouse, two warehouses, winter hall, infirmary house, school house (all done, retentions paid after inspection) | 1,590 GD | — |
-| Winter Town: market square (net of the 72 GD deducted) | 468 GD | — |
-| Winter Town: privies, wells, fire casks (second casks added) | 574 GD | — |
-| Winter Town: first bath, done | 200 GD | — |
-| Winter Town: infirmary kit, remedies, beds | 12 GD | — |
-| Winter Town: looms, troughs, cloth wages, the master weaver's first quarter (from the trade cash) | 245 GD | trade cash balance about 1,755 GD in the chest |
-| Winter Town: tannery shed (let), ten pits, rubble | 91 GD | about 244 GD, wells and shed stages |
-| Winter Town: fulling mill (760 GD), signed | 38 GD | 722 GD |
+| Castle: account room, weights (all thirty-six sets made), two granaries, three wells, approach, school books | 1,165 GD | — |
+| Winter Town: market hall, weighhouse, warehouses, winter hall, infirmary, school house, square, privies, wells, fire casks, first bath, infirmary kit | 2,844 GD | — |
+| Winter Town: second bath (house and copper) | — | about 200 GD |
+| Winter Town: side lanes (1,490 GD), a quarter laid | 447 GD | 1,043 GD |
+| Winter Town: cloth (looms, troughs, wages, master weaver), from the trade cash | 325 GD | trade cash balance about 1,675 GD |
+| Winter Town: tannery (shed, pits, two wells) | 302 GD | about 8 GD and later pits |
+| Winter Town: fulling mill (760 GD): wheel pit and sluice | 228 GD | 532 GD |
 | Stark land: twelve village wells | 577 GD | — |
-| Stark land: four rural granaries and the wool house, timber felled | 349 GD | about 629 GD |
-| Other lords: Cerwyn's and Tallhart's bridges; Cerwyn's two and Tallhart's two wells | 258 GD | about 71 GD |
-| Other lords: Glover's road (two miles); Dustin's road (four miles) | 513 GD | about 1,198 GD as the miles are made |
-| Other lords: Umber's granary timber | 90 GD | about 364 GD |
-| Other lords: Karstark's granaries | 19 GD | about 208 GD |
-| The Acorn Water arch (Stark's 3,540 GD) | 708 GD | about 2,832 GD |
-| Clan stores: the Norrey's and the Wull's; timber for the Harclay's | 190 GD | — |
+| Stark land: four rural granaries (east meadow moved), wool house | 670 GD | about 338 GD |
+| Other lords: Cerwyn's bridge and wells; Cerwyn's granaries begun | 362 GD | about 170 GD |
+| Other lords: Tallhart's bridge and four wells | 206 GD | second bridge 85 GD |
+| Other lords: Dustin's road, eight of twelve miles | 977 GD | about 489 GD |
+| Other lords: Glover's road, four of six miles; bridge for harvest | 488 GD | about 329 GD |
+| Other lords: Umber's granary timber | 90 GD | — (the new roof's timber is a gift outside the roll) |
+| Other lords: Karstark's granaries | 76 GD | about 151 GD |
+| Other lords: Bolton's four wells, let | — | 107 GD |
+| Other lords: Locke's wharf (piles driven) and five of ten stations | 387 GD | about 683 GD |
+| Other lords: Mormont's granary and two of four stations | 94 GD | about 152 GD |
+| Other lords: the Hornwood landing wharf, agreed, unpriced | — | about 709 GD |
+| The Acorn Water arch (Stark's 3,540 GD): both abutments, centering | 1,608 GD | 1,932 GD |
+| Clan stores: the Norrey's, the Wull's, the Harclay's timber | 190 GD | about 80 GD |
 | Road poles | 29 GD | — |
-| Riders, surveys, journeys, parchment | 231 GD | — |
-| Granted, nothing paid: Locke's wharf (Stark's six tenths of 1,232 GD) and ten stations (331 GD advance); Mormont's granary (114 GD) and four stations (132 GD advance); Tallhart's second bridge | — | about 1,316 GD |
-| **Total** | **7,226 GD** | **about 8,000 GD** |
+| Riders, surveys, journeys, parchment | 351 GD | — |
+| **Total** | **10,956 GD** | **about 6,700 GD** |
 
-The 126 reckoning period closed at 126/12/30 with about 6,900 GD paid against its 12,369.34 GD ceiling. The 127 period's ceiling is 31,799.30 GD. In kind, not cash: 3,000 stone of wool each season and 1,200 quarters of grain to the clan stores.
+The 127 reckoning period's ceiling is 31,799.30 GD; about 3,730 GD of it is spent at midyear. In kind, not cash: 3,000 stone of wool each season, 1,200 quarters of grain to the clan stores, and the timber for Umber's new roof.
 
 ### Works ledger
 
-Status at 127/02/30.
+Status at 127/06/30.
 
 | Division and work | Status |
 | --- | --- |
-| Castle: granaries, wells, approach, weights, school | In use; thirty measure sets coming from White Harbor with the spring carts; school: fourteen boys, two cutting a true tally |
-| Castle: service yards, baths | Not begun |
-| Winter Town: market hall, weighhouse, two warehouses, winter hall, infirmary, school house, square, wells, privies, fire points, first bath | All built and in use; winter hall keeper (late east-gate gaoler); chirurgeon Lew from the first moon; second casks near the warehouses; the low lane widened and three houses rebuilding in shingle |
-| Winter Town: stable for fifty horses; four further baths | Held |
-| Winter Town: cloth | Season one: 6,800 yards, 5,200 passed, 74 GD earned against about 140 GD cost; season two at 3,000 stone; master weaver Orro from 127/02 |
-| Winter Town: fulling mill | Let 127/01, 760 GD, eighteen moons; sluice timber cut; second wheel on the lord's mill race |
-| Winter Town: tannery | Ten pits lined; shed let; two wells at the thaw; forty hides in the third moon; leather at the year's end at the earliest |
-| Stark land: village wells | Twelve in use |
-| Stark land: four rural granaries, wool house | Timber felled; building from the thaw |
-| Stark land: hide house | Cancelled |
-| Stark land: road poles | In use |
-| Kingsroad: the Acorn Water arch | Footings done; voussoirs cut at White Harbor; centering to be raised and the arch turned at low water in 127 |
-| Cerwyn | Castle-road bridge in use; two wells dug; two granaries for 127 |
-| Tallhart | Barrowton-road bridge in use; two wells dug, two to come; a second bridge granted on a sworn site |
-| Dustin | Road four of twelve miles; wells for 127 |
-| Glover | Road two of six miles; bridge for 127 |
-| Umber | Four granaries framed and roofed by Umber's carpenter; one roof sagged under snow, gable split, eighty quarters spoiling; blame disputed; Winterfell's carpenter to inspect at the thaw |
-| Karstark | Two granaries for 127; spinning house selling yarn |
-| Hornwood | Six tar kilns, two hundred gallons in barrels; Manderly's factor the buyer |
-| Mormont, Locke | Granted; to begin in 127; Locke's piles cut over winter |
-| Clans | The Norrey's and the Wull's stores stocked; poles on four tracks; the Harclay's timber felled |
+| Castle | Granaries, wells, approach, weights (all thirty-six sets made; nineteen issued, sixteen held), school in use; service yards and castle baths not begun |
+| Winter Town: buildings, square, wells, privies, fire points, first bath | In use; second bath granted on the same lease |
+| Winter Town: side lanes | A quarter laid; stopped for the hay |
+| Winter Town: cloth | Second season spinning; Orro finishing; mill eighteen moons from 127/01 |
+| Winter Town: fulling mill | Wheel pit dug, sluice frame in |
+| Winter Town: tannery | Two wells; forty hides in ten pits under lime until 128 |
+| Stark land | Twelve wells; four granaries raised (east meadow moved to the rise); wool house framed; hide house cancelled; poles in use |
+| Kingsroad: the Acorn Water arch | Both abutments built; centering stood 06/12; voussoirs rising from both springers; keystone expected in the eighth moon |
+| Cerwyn | Bridge and two wells in use; two granaries on foundations |
+| Tallhart | Bridge and four wells in use; second bridge site sworn, for after harvest |
+| Dustin | Road eight of twelve miles; wells to come; horses delivered against the note |
+| Glover | Road four of six miles; bridge after harvest |
+| Umber | Four granaries; one roof to be rebuilt with Winterfell's gift timber at the proper pitch, three to be re-pitched by Umber |
+| Karstark | Two granaries on foundations; spinning house forty women |
+| Bolton | Two raised granaries built at his own charge over the winter; four wells let |
+| Hornwood | Six kilns; landing wharf agreed, to be priced after the arch |
+| Locke | Wharf piles driven; five of ten fish stations |
+| Mormont | Harbor granary begun; two of four stations |
+| Clans | The Norrey's and the Wull's stores stocked; the Harclay's to build; poles on four tracks |
 
 ### Agreements with bannermen (in principle; none signed)
 
@@ -190,14 +193,12 @@ Agreements are now signed as work is let; the table records terms and stage at 1
 
 ### Operating results
 
-- Fair of 127/02 (fortnight): goods sold reckoned at 23,400 GD; fee 234 GD; costs 20 GD; net 214 GD before the Crown's part; the weighhouse's sealed set used about 1,100 times; fourteen matters before the fair court; the clans sold at a Stark fair for the first time; Karstark's yarn sold out.
-- Fire of 126/11/18: the fire points and hooks stopped it at the fourth house; the warehouses and hall survived on wet sacks.
-- Winter hall: about sixty lodged through two moons. Infirmary: a leg set, a child lost to a cough, the chandler's hands.
-- Cloth: season one 74 GD in coin against about 140 GD in wages and raw wool, a loss; the independent weavers did better by selling at the hall.
-- Harvest 126 under cover: 74,100 quarters in store at the count.
-- Bridges: Cerwyn's and Tallhart's in use through the winter; no cart lost at either ford since.
-- Poles: patrols kept the road in the first snow.
-- Tar: Hornwood's trade with White Harbor established without Stark coin.
+- Fair of 127/02: 23,400 GD of goods sold; 214 GD net; the weighhouse used about 1,100 times.
+- The Dreadfort copied the raised granaries at its own charge without Stark coin; Karstark's yarn sells out at the hall; Hornwood's tar trade runs without Stark coin.
+- Grain lighters from the Hornwood landing up by nine on the year (Manderly's count).
+- Cloth: season one a loss (74 GD earned against about 140 GD cost); season two in hand with a master.
+- Winter hall, infirmary, bath, school, poles, bridges: in use; no cart lost at the bridged fords.
+- Harvest 126: 74,100 quarters in store, all under cover.
 
 ## Future-event calendar
 
@@ -207,15 +208,14 @@ Independent events proceed during authorized elapsed time unless changed circums
 
 ## Open matters
 
-- Jon's northern ride after the thaw: the Dreadfort (first 1,500 GD due 127/04), the Last Hearth (the roof and the 1,600 GD), Karhold (Margaret Karstark; the spinning house), the Hornwood (the landing).
-- The Acorn Water: centering and the turning of the arch at low water; Cerwyn's tallies.
-- The Crown's part of the fair's net at the fourth-moon instalment; the king's treasurer's reply.
-- Umber's roof: the carpenter's inspection.
-- The second cloth season and Orro's finishing; the mill's eighteen moons.
-- Tallhart's second bridge site; Locke's wharf and stations; Mormont's works; Glover's bridge; the Harclay's store.
-- Winter Town's rebuilt lane; the brewer's widow asks to lease a second bath (undecided).
+- The arch's keystone and the striking of the centering; the Hornwood wharf's price.
+- The lords' harvest accounts of men and arms, to be exact and to name men who have ridden to a muster in ten years.
+- Margaret Karstark's visit in the tenth moon under the maester.
+- The second cloth season and Orro's finishing; the mill; the tannery's first leather in 128.
+- The lanes after the hay; Dustin's last four miles and the bad mile at the ford; Glover's bridge; Tallhart's second bridge; Bolton's wells; Locke's and Mormont's works.
+- The Crown: the treasurer's receipts for the 126 autumn and 127 spring chests; any answer on the fair.
+- The south: the court split after the feast; both parties questioning White Harbor's ships.
 - Bennard's monthly word of Benjen and the Margaret letters through the maester.
-- Court gossip from White Harbor on the king's health.
 
 ## Continuity boundary
 

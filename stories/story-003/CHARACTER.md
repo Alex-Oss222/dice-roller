@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 6 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 7 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 6 completed |
-| Date and time | Thirtieth day of the second moon, 127 AC, evening |
+| Turn | 7 completed |
+| Date and time | Thirtieth day of the sixth moon, 127 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Nineteen physically since the ninth moon of 126 (an authored nameday); 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
-| Condition | Recovered from the 124 injury and fully accustomed to Cregan's body since 125; no current illness, injury or lasting impairment established |
-| Immediate situation | The first fortnight fair is closed and reckoned. Jon intends to ride north after the thaw by the Dreadfort, the Last Hearth, Karhold and the Hornwood once the Acorn Water centering is up |
+| Condition | Fully accustomed to Cregan's body; a bruised left shoulder from the Last Hearth bout in the fourth moon, healed; no lasting impairment |
+| Immediate situation | Back from the northern ride since 05/22; the arch is being turned on its centering; the hay has stopped the lanes; the king's court is reported split after the feast of the first moon |
 
 ## Transfer and memory
 
