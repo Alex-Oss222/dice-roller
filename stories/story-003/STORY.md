@@ -341,3 +341,122 @@ When Jon finished listening, the guards returned Bennard to his existing confine
 ### Next
 
 Jon is back in the solar. Bennard's counteroffer awaits his decision; Arra is available for questions.
+
+| Field | Current |
+| --- | --- |
+| Name | Jon Stark, known here as Cregan Stark |
+| Age | About eighteen physically; approximately 204 years remembered |
+| Location | Winterfell, lord's solar |
+
+## Turn 5 | Twentieth day of the fourth moon, 126 AC | Afternoon, about three
+
+Elapsed: Fourteen days.
+
+Bennard was brought back before the evening meal.
+
+“Your sons may marry. They may have children,” Jon told him. “Their children are not bound to the Wall or to marriages of my choosing. But if your sons rise against me, I will spread their bones across the four winds.”
+
+Bennard listened without interrupting.
+
+“Then leave the children out of the written terms as well.”
+
+Jon ordered Wyl to secure him in the inner room. No visitors, no correspondence, no conversations carried through servants. He would answer Jon's questions about the northern lords when summoned. Wyl repeated the order to the two men taking over the watch. Meals and necessary care would pass through the guards; nobody was to carry a message for the prisoner.
+
+The maester came to the solar afterward.
+
+“Benjen, Brandon and Elric,” he said when Jon asked the sons' names.
+
+Jon charged him with finding work they could live by, without a keep or an office of authority. The maester asked to speak with each separately and examine what they could actually do. He took the instruction to Osric and Donnel. The sons remained under guard while he made his inquiries.
+
+Over the following days, Jon questioned Bennard about recent promises, the people who had negotiated them, and where the supporting letters had been kept. Bennard identified bundles of road-repair accounts and correspondence with Cerwyn about timber and cart hire. The maester found both among the regency papers. Some dates agreed with Bennard's recollection; others needed correction.
+
+“I kept all of it in order,” Bennard said.
+
+Three of the letters had been filed with a different year's accounts.
+
+There was useful knowledge here: whose contribution had already been promised elsewhere, which requests had received only a courteous answer, which account had a second copy. Jon could check these things before offering the same payment twice. Bennard did not produce a complete account of every northern lord.
+
+Arra heard the other history in private.
+
+Jon told her that the accounts he remembered recorded her marriage to Cregan soon after his uncle's fall. Their son had been named Rickon. She had died giving birth to him in 128.
+
+She asked him to repeat the year.
+
+“Two years,” she said. Then, after a while, “Does it say anything about me except whom I married and how I died?”
+
+The conversation stopped there for a time. On another walk she returned to it herself.
+
+“I haven't married him. And I haven't married you. Don't speak as though the rest is settled.”
+
+She continued meeting him. Her questions became more particular: whether the account named the women who attended her, whether it described the birth, whether there was anything more useful than a year. The remembered history supplied no reliable answer to those questions.
+
+Jon told her of the war that followed Viserys's death: Rhaenyra and Aegon fighting for the throne, dragons killing dragons, the fighting lasting from 129 into 131. He spoke of Winter Fever appearing on the Three Sisters late in 132, crossing to White Harbor and spreading farther in 133. Desmond Manderly and his son Medrick were among the remembered dead.
+
+Then came Sylas the Grim: three thousand raiders through Queensgate in 133, the Gift plundered during sickness and want, Cregan riding against them with Glovers, Flints, Norreys and men of the Watch.
+
+Arra walked beside him until they reached the turn back toward the gate.
+
+“My father would want to know if someone were gathering men now.”
+
+Jon had no present report of such a gathering.
+
+“Then find out what is happening now,” she said. “You can keep grain without telling people when they're going to die.”
+
+She kept these conversations out of the meetings with the maester and Osric.
+
+Each morning Jon worked in the yard. The household supplied practice partners; Harl agreed to join when his escort duties allowed, without undertaking another fixed term of service.
+
+A padded coat was laced, a blunt edge examined, the ground cleared of loose stones. Jon worked first without opposition, then against a shield, then against a moving blade. On some mornings he wore mail. He repeated short passages, rested, and changed partners.
+
+The awkward corrections of his first days grew uncommon. He stopped a cut where he intended and recovered without the additional half-step. Against the household men he could draw an answer, change the attack and touch before their guard returned. Longer passages still tired this body sooner than his old one. The movements grew reliable, though his former endurance remained beyond him. He finished without injury.
+
+After washing and eating, he went to the accounts.
+
+Osric spread the roll of works across the table. Jon put its opening instructions into effect: a ceiling of seventy-three thousand dragons, no more than ten thousand paid during the remainder of this year, and the five-thousand-dragon reserve held for a separate order.
+
+“That sum will cover the undertaking on these estimates,” Osric said. “It doesn't put carpenters in thirty-five lordships.”
+
+Arra moved the list of public works closer.
+
+“Ask which store leaks before promising another store. Some of our people can bring timber more easily than silver. Let them have it counted properly.”
+
+The maester wanted wells and drinking-water channels kept clear of the proposed hide works. Osric wanted local contributions valued before a grant was paid. They worked through the four divisions of the roll, separating inquiries from contracts and contracts from money actually issued.
+
+Two prospective granary sites were measured. Moryn began comparing sound storage space with the previous year's overflow; the carpenter could prepare estimates, but the need for both buildings still had to be established. Survey work also began on the proposed market ground and the water and waste routes for the town workshops.
+
+One smaller work was ready to proceed. At a site on Stark land in Winter Town, the inspection found room for a public well and access for the diggers, clear of the proposed tanning ground. The well master agreed to a price entered as 44.46 dragons. Stakes went in, timber and tools were brought up, and the ground was opened. The well was still being dug at the fortnight's end.
+
+The new account supplies were ordered for twelve dragons. Three were paid in advance; the chests and part of the writing stock remained to be delivered. Completed local inspections and additional hired copying cost one dragon. Two more were issued as accountable money for messengers. The well master received two and twenty-two hundredths after Osric inspected his preparations.
+
+Eight dragons and twenty-two hundredths had left the chest. Fifty-one and twenty-four hundredths remained payable on the accepted supply and well orders. Osric kept the messengers' two dragons against their names until their accounts returned.
+
+The maester and clerks prepared invitations for all thirty-five direct houses. Suitable ravens carried some; mounted messengers and established forwarding routes carried the rest. Reed, Glover, Manderly, Dustin and Cerwyn received enclosures for the sixteen houses beneath them. Each recipient had two moons from receipt to describe useful sites, existing rights, local contributions, expected use and upkeep.
+
+The public offer was six parts Stark coin to four parts local contribution. The commercial letters offered recoverable advances with a negotiated share of net earnings, or a loan at three percent on the unpaid principal. The duration and security would have to be written into each bargain.
+
+Separate letters asked Manderly for buyers, factors and skilled workers, and approached the other named houses about the trades suited to their lands. The Frey inquiry went separately to the Twins, asking for the current charges on carts, packhorses and goods, and whether regular merchant traffic could obtain agreed terms. It offered no share of the northern grants.
+
+By the twentieth, a Cerwyn acknowledgment had come back: their steward would assemble the timber and cart accounts and send particulars of a proposed crossing. Manderly's reply asked for wool samples and quantities before his factors offered a buying price. Neither letter was an agreement to build. Other messages were still on their journeys or awaiting answers; nothing had yet returned from the Twins.
+
+Arra read the Manderly letter at the solar table.
+
+“He wants to see what he's buying. Send him good wool and poor wool, and name them honestly. If the first bargain depends on hiding the difference, you'll spend the next year arguing about it.”
+
+The maester arrived with the results of his other inquiries. Benjen could make a legible copy, though his reckoning needed checking. Osric could use him copying old estate returns under a clerk. Moryn had supervised work for Brandon sorting and tallying empty sacks. Donnel could take Elric for stable work under a groom, beginning with tack cleaning. None of the places carried keys, command or authority to give orders.
+
+All three sons were willing to try the work. Their keep would continue, and the household proposed paying them for completed work at its ordinary rate for each task.
+
+“They would have to leave their rooms under escort,” the maester said. “I have found the work you asked for. Shall I arrange for them to begin?”
+
+He set the proposed duties beside Osric's account. Arra remained at the table while he waited for Jon's answer.
+
+### Changed this turn
+
+- Bennard is isolated under guard. Restrictions on his sons' future marriages and children are withdrawn; their own exclusion from keeps and governing office remains. The maester has found supervised work, awaiting permission to begin.
+- Arra has privately heard Jon's remembered history of her marriage and death, the Dance, Winter Fever and Sylas. She continues helping without treating these events as inevitable.
+- Fourteen further mornings of practice improved Jon's control of Cregan's body without injury.
+- The northern program has begun. One well is under construction; surveys, procurement and invitations are under way. The treasury has issued 8.22 dragons, including a 2-dragon messenger advance; 51.24 dragons remain payable on accepted orders.
+
+### Next
+
+May Benjen, Brandon and Elric leave confinement under escort to begin the supervised work?

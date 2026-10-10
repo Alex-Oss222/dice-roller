@@ -6,20 +6,20 @@
 
 The character sheet is preserved in full. Its Blood & Gold labels, capability scores, tier tables, and rating-change instructions are not active rules. Use the experience and limitations described in it. This campaign follows the repository's ordinary narrative rules.
 
-This run began from the original opening and has completed Turn 4. Events from the retired play-test are not part of this run or Jon's memories.
+This run began from the original opening and has completed Turn 5. Events from the retired play-test are not part of this run or Jon's memories.
 
 ## Current record
 
 | Current record | Details |
 | --- | --- |
-| Turn | 4 completed; Arra and Bennard have answered; Jon is back in the solar |
-| Date and time | Sixth day of the fourth moon, 126 AC, afternoon, about three; about three days and seven hours elapsed since arrival |
+| Turn | 5 completed; the authorized fortnight and opening development work are resolved |
+| Date and time | Twentieth day of the fourth moon, 126 AC, afternoon, about three; seventeen days and seven hours elapsed since arrival |
 | Personal identity | Jon Stark, arriving from 487 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Cregan's body is about eighteen; Jon retains approximately 204 years of personal life |
 | Location | Winterfell, lord's solar |
 | Condition | No present injury or illness established |
-| Immediate position | Back in the solar after hearing Arra's offer of practical help and Bennard's counteroffer; no settlement accepted |
+| Immediate position | In the solar with Arra, the maester and works accounts; the maester asks permission for Bennard's sons to begin supervised work outside their rooms |
 
 ## Transfer boundaries
 
@@ -41,9 +41,13 @@ Controlled sword practice with Harl on the mornings of the fourth, fifth and six
 
 The present body is healthy, strong and accustomed to weapons. Two sessions improved Jon's calibration of its step, stopping distance and recovery, not its underlying strength or fitness. Sustained work required rests sooner than comparable practice in Jon's remembered former body, and the old small extra speed advantage was not present in the observed work. No exact height, reach, lifting comparison or eventual physical potential has been established. Cregan's future martial reputation is not a present physical measurement.
 
-The sixth session retained the earlier adjustments and ended without injury. The three-session arrangement is now complete and has not been extended.
+The session on the sixth retained the earlier adjustments and ended without injury. The three-session arrangement is now complete and has not been extended.
 
 Neither participant was injured. There is no lasting wound or disability from this practice. Do not repeat the initial adaptation as if no practice has occurred, or treat these mornings as completing all adaptation to mail, mounted fighting, campaigns or every weapon.
+
+## Further practice, Turn 5
+
+Fourteen additional mornings, seventh through twentieth of the fourth moon, used household practice partners, blunted weapons and protective equipment; some work was done in mail. Harl agreed to join when escort duties allowed, without a new fixed service term. Jon's step, stopping distance and recovery are now more reliable, and he continues to create controlled touches through superior timing and technique against ordinary household opposition. Sustained work still tires the present body sooner than his former one. Early conditioning has begun, without a quantified strength, speed or endurance gain. No injury, greater raw strength, extraordinary speed or eventual physical superiority is established.
 
 ## Retained knowledge and present uncertainty
 
@@ -51,7 +55,7 @@ Jon's prior-life memories remain his own campaign history. They do not import th
 
 He can recall history he reasonably encountered during his long education and study. Remembered accounts of the Dance may inform plans; they are neither firsthand memories of 126 AC nor a reliable script for what will happen after his arrival. His autobiographical memory is unusually detailed, not a perfect copy of every text. Disputed book accounts do not become secret certainty because the GM has read them.
 
-The household treats him as Lord Cregan. In Turn 1 the steward and dated account established the third day of the fourth moon, 126 AC. Jon reviewed the lordship's account summaries and selected supporting entries, learning the dated opening balances and ordinary-year estimates recorded in WORLD.md. This was not a physical treasury/granary count or an audit of every estate. Bennard and his sons remain confined. Jon has heard Bennard's proposal and communicated a different conditional offer of survival, disclosure, restricted family status and a winter hunt. No agreement has been made; details are in WORLD.md. Arra met privately with Jon after the midday meal; the resulting disclosure and arrangements are recorded below.
+The household treats him as Lord Cregan. In Turn 1 the steward and dated account established the third day of the fourth moon, 126 AC. Jon reviewed the lordship's account summaries and selected supporting entries, learning the dated opening balances and ordinary-year estimates recorded in WORLD.md. This was not a physical treasury/granary count or an audit of every estate. Bennard and his sons remain confined. Turn 5 changes Bennard's custody and withdraws the proposed restrictions on the sons' marriages and children; the maester has identified supervised work for the sons. No complete settlement or winter condition has been agreed; current details are in WORLD.md. Arra met privately with Jon after the midday meal; the resulting disclosure and arrangements are recorded below.
 
 Arra has heard Jon identify himself as Jon, say that he remembers his own life through 487 AC, and describe becoming aware in Cregan's body that morning without Cregan's private memories. He has admitted that he does not know Cregan's fate or whether the change can be reversed. Arra has not accepted his account as proven. No one else has been told or overheard the disclosure.
 
@@ -69,12 +73,14 @@ He is wearing ordinary indoor clothing. Winterfell's household, stores, arms, an
 
 Arra answered after the midday meal on the sixth. She offers discreet practical help with people, household and mountain-family customs, recent events she witnessed and identifying better-informed people to ask. She has not accepted the transfer or Cregan's disappearance as proven and will not attest Jon's account as fact. She continues to keep the disclosure private; there is no unconditional lifetime oath or promise to help with every future request. She suggests that Jon consider seeing the maester and offers to accompany him. This is not a condition of helping. Jon has not accepted or refused that suggestion; no examination is arranged. She has received no office, wage, property or new authority.
 
-The first-light sessions with Harl on the fourth, fifth and sixth are complete, without injury. No further session is scheduled. Harl knows only the practice request, not Jon's identity. No service, wage or permanent appointment has changed.
+In Turn 5 Jon privately told Arra the remembered history of her marriage to Cregan and death bearing Rickon in 128, the Dance of 129–131, Winter Fever beginning late in 132 and spreading in 133, and Sylas the Grim's raid in 133. She remains uncertain of the transfer and insists that her marriage and future are not decided. She continues practical cooperation and has told nobody these claims. Neither the maester nor Osric learned the transfer or future history through the works meetings. No romance, betrothal, examination or new office is established.
 
-Jon's third-night conditional offer to Bennard remains recorded in WORLD.md. On the sixth, Bennard refused the undefined unsupported winter hunt and restrictions imposed on unborn grandchildren. He counteroffers an account of his regency, dealings, letters and promises, with questions answered and evidence checked by Jon's clerk, while he remains confined and publicly acknowledges Cregan's authority. He will urge his sons to accept no keep, command or governing office. In return he asks supervised residence and ordinary maintenance for them at Winterfell until a definite lawful livelihood, place of residence and permitted work are settled. His sons have not separately agreed.
+Jon withdrew the proposed hereditary Watch/marriage restrictions. Bennard's sons may marry and have children; Jon threatened death if they rebel. Bennard is now isolated in the inner room under guard, with no visitors, correspondence or political messages, while receiving ordinary meals and necessary care. He answers Jon's questions about the northern lords. Some identified regency records have been recovered and checked; no complete account or formal pardon exists. The rejected, undefined winter hunt is not an active sentence or scheduled event.
 
-Jon heard both replies and returned to the solar without accepting any of Bennard's terms. Bennard was returned to his existing confinement and all three sons remain confined. No records or substantive testimony have yet been delivered under a bargain. The winter condition remains incomplete; no settlement, pardon, aid prohibition, descendants' vows or marriages have been enacted. Bennard's rejection stands unless a changed proposal or circumstances produces a new attempt.
+The maester taught Jon the sons' names: Benjen, Brandon and Elric. He has found supervised household work and obtained their willingness to try it. They remain confined until Jon decides whether to authorize escorted movement to that work. No command, governing office, keep or independent service outside Winterfell has been granted.
 
-The player previously withheld new governing choices until Arra answered. That waiting condition is now met, but no new appointment, grant, judgment, policy or budget has been chosen automatically. The petitions held over during the fourth and fifth remain awaiting decision. Existing officers known to Jon are Osric the steward, Moryn responsible for stores, Donnel responsible for stables and Wyl responsible for arranging the daily watch.
+Jon has authorized the opening of the [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) within its 73,000 GD overall ceiling, 10,000 GD payment ceiling for the remainder of 126 and retained 5,000 GD contingency. Turn 5 implements limited inspections, procurement, one Winter Town well contract, northern invitations and a separate Frey trade inquiry. Contracts, paid amounts, reserves and outstanding replies are recorded in WORLD.md. This does not automatically decide the unrelated petitions held from Turns 3–4.
+
+Existing officers known to Jon remain Osric the steward, Moryn responsible for stores, Donnel responsible for stables and Wyl responsible for arranging the daily watch. The maester remains unnamed in the live scene. The opening financial balances remain dated accounts, not a new physical treasury or grain count.
 
 Player-authored prior-life memory accepted in Turn 1: Eddard told his children, “Keep the books tight, the larders full, and winter out.” This is campaign memory, not a claim of published-book quotation.

@@ -1,10 +1,12 @@
 # Lord Stark's Roll of Northern Works and Charges, 126–129 AC
 
-*For the Lord of Winterfell's consideration. Reckoned in gold dragons and twelve thirty-day moons to the accounting year. The works are proposed, not ordered. The account is to be closed and examined by the end of the first moon of 129 AC.*
+*Planning roll, reckoned in gold dragons and twelve thirty-day moons to the accounting year. The account is to be closed and examined by the end of the first moon of 129 AC.*
+
+**Execution status, Turn 5:** Jon authorized this program's opening within its stated ceilings during the sixth–twentieth days of the fourth moon, 126 AC. Only the inspections, procurement, first Winter Town well and correspondence recorded in [WORLD.md](WORLD.md) have been undertaken. Other entries remain conditional proposals. This roll supplies the budget and requirements; WORLD.md records actual contracts, cash and progress.
 
 A building is no better than the work it does. The lord must know whose land it stands on, who pays to raise it, who keeps its roof sound, and where any profit is to come from. The reeve answers for grain in his care; the merchant answers for goods sold; a lord who receives Stark coin answers for the work promised in return.
 
-The opening book balance of House Stark is **250,000 gold dragons** and **70,777 quarters of grain** across its accounted estates and stores, as of the third day of the fourth moon of 126 AC. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. No new works have yet been commissioned in the current story.
+The opening book balance of House Stark is **250,000 gold dragons** and **70,777 quarters of grain** across its accounted estates and stores, as of the third day of the fourth moon of 126 AC. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. That was the opening position; Turn 5's commissions and payments are recorded in WORLD.md.
 
 **The charge proposed upon Stark's treasury**
 
@@ -419,4 +421,4 @@ The fictional setting and monetary figures belong to [Story 003's current state]
 - [Antiquity, tar manufacture and woodland exploitation](https://www.cambridge.org/core/journals/antiquity/article/viking-age-tar-production-and-outland-exploitation/F5FBC37E7F0124DBD30D550E98C42AEB): resinous wood and low-oxygen tar production, not a guarantee of gallons per firing.
 - [JSTOR Daily, public bathing in medieval towns](https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub/): practical existence of public baths, not evidence that five would find enough customers in Winter Town.
 
-**Nothing in this roll is entered as an accomplished act of Lord Stark. No charter has been granted, no raven dispatched, no lord's agreement obtained, no work commissioned and no coin discharged from the current story account.**
+**The roll alone establishes no accomplished work or payment. Since its preparation, Turn 5 has authorized and begun the limited opening actions recorded in WORLD.md and STORY.md. Do not treat the remaining estimates, invitations or proposed works as completed acts.**
