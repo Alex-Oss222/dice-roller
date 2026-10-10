@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 3 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 4 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 3 completed |
-| Date and time | Thirtieth day of the fourth moon, 126 AC, evening |
+| Turn | 4 completed |
+| Date and time | Fifteenth day of the seventh moon, 126 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Eighteen physically; 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Recovered from the 124 injury and fully accustomed to Cregan's body since 125; no current illness, injury or lasting impairment established |
-| Immediate situation | The fourth-moon instalment is counted and the Crown's share sent. The Norrey is expected after the lambing. The Acorn Water crossing, the measures, a bath keeper and the letters to the Dreadfort and Barrowton about the regency's notes of hand wait on Jon |
+| Immediate situation | Midsummer works in hand at the castle and Winter Town; the Acorn Water arch awaits the mason's price; the Dreadfort and Barrowton have not answered on the regency's notes; the harvest and the tenth-moon instalment are ahead |
 
 ## Transfer and memory
 
