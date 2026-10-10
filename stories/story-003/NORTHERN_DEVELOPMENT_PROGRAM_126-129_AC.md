@@ -359,11 +359,11 @@ A structure carries **one site ID, one underlying cost and one physical completi
 | **126, moon 4–6** | Internal surveys, existing stores and water count, common letters, rights checks, wool/tar/tanning samples | Within period limit |
 | **126, moon 7–12** | Lease/charter decisions, first wells, castle stores, early rural depots, pilot baths, registered public contracts | **10,000 GD across 126**, total |
 | **127, moons 1–12** | Independent crews on regional roads/bridges, warehouses/stores, market facilities, conditional mills, first possible annual fair | **28,000 GD across 127** |
-| **128, moons 1–12** | Complete practical works, approve only finishable alternatives, operate and inspect sites, record receipts | **24,000 GD across 128** |
+| **128, moons 1–12** | Complete practical works, approve only finishable alternatives, operate and inspect sites, record receipts | **26,000 GD across 128** |
 | **129, first moon** | Final physical acceptance, unpaid-claim review and outstanding-loan register; no new major building starts | **Up to 3,700.25 GD** for previously approved liabilities |
 | Central contingency | Released only by specific authorization, with reason and corrected schedule | **5,000 GD** |
 | Authorization headroom | Remains unallocated | **299.75 GD** |
-| **Maximum allocated** | 10,000 + 28,000 + 24,000 + 3,700.25 + 5,000 | **72,700.25 GD** |
+| **Maximum allocated** | 10,000 + 28,000 + 26,000 + 3,700.25 + 5,000 | **72,700.25 GD** |
 
 These **time-period ceilings do not require spending**. Delayed procurement, bad ground or lack of buyers should **reduce** commitments, not cause fabricated work. The construction window is about 34 accounting moons. The annual-fair target in **second moon 127** and second moon 128 provides at most **two** fairs before the audit. A fixed calendar moon does not guarantee a season named “midwinter.”
 
