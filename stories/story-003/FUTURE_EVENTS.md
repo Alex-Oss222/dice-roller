@@ -2,7 +2,7 @@
 
 ## Clock and scope
 
-**Synchronized with Turn 4: fifteenth day of the seventh moon, 126 AC, evening.** Saved position 126/07/15. None of these events has occurred in this run; see the status and change record for campaign developments.
+**Synchronized with Turn 5: thirtieth day of the tenth moon, 126 AC, evening.** Saved position 126/10/30. None of these events has occurred in this run; see the status and change record for campaign developments.
 
 This is the authoritative future-event ledger for this campaign. Current accomplished facts remain in [WORLD.md](WORLD.md); Jon's personal knowledge remains in [CHARACTER.md](CHARACTER.md); accepted scenes remain in [STORY.md](STORY.md). Read this ledger with those files at the same commit.
 
@@ -16,35 +16,35 @@ For campaign arithmetic use **twelve 30-day moons per year (360 days)**, consist
 
 Date notation below is **year/moon/day**. Day difference is `360 × (target year − current year) + 30 × (target moon − current moon) + target day − current day`. It counts calendar boundaries, not exact hours. A value of zero means **due this date**, not already resolved.
 
-These are remaining times to **historical baseline dates**, calculated from 126/07/15. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
+These are remaining times to **historical baseline dates**, calculated from 126/10/30. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
 
 | Event | Historical date | Remaining at the saved position |
 | --- | --- | ---: |
-| Viserys I's death / succession crisis | 129/03/03 | 948 days |
-| Aegon II's coronation | 129/03/10 | 955 days |
-| Battle of the Gullet | 130/01/05 | 1,250 days |
-| Battle above the Gods Eye | 130/05/22 | 1,387 days |
-| Rhaenyra's death | 130/10/22 | 1,537 days |
-| Sunfyre's death | 130/12/09 | 1,584 days |
-| Aegon III's wedding and coronation | 131/07/07 | 1,792 days |
-| Corlys's death | 132/03/06 | 2,031 days |
-| First reported Winter Fever cases in King's Landing | 133/01/03 | 2,328 days |
-| Jaehaera's death | 133/09/22 | 2,587 days |
-| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 2,685 days |
+| Viserys I's death / succession crisis | 129/03/03 | 843 days |
+| Aegon II's coronation | 129/03/10 | 850 days |
+| Battle of the Gullet | 130/01/05 | 1,145 days |
+| Battle above the Gods Eye | 130/05/22 | 1,282 days |
+| Rhaenyra's death | 130/10/22 | 1,432 days |
+| Sunfyre's death | 130/12/09 | 1,479 days |
+| Aegon III's wedding and coronation | 131/07/07 | 1,687 days |
+| Corlys's death | 132/03/06 | 1,926 days |
+| First reported Winter Fever cases in King's Landing | 133/01/03 | 2,223 days |
+| Jaehaera's death | 133/09/22 | 2,482 days |
+| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 2,580 days |
 
-The nearest **exactly dated anchor** is Viserys's death in **948 days: 2 modeled years, 7 moons and 18 days**. Earlier undated developments remain possible.
+The nearest **exactly dated anchor** is Viserys's death in **843 days: 2 modeled years, 4 moons and 3 days**. Earlier undated developments remain possible.
 
 For events without a known day, use the actual stated window. Do not pretend that an outbreak or invasion has an exact anniversary:
 
 | Baseline window | Remaining to start–end of the containing year |
 | --- | ---: |
-| 129 AC · undated Dance events | 886–1,245 days |
-| 130 AC · campaigns; winter declared on Maiden's Day | 1,246–1,605 days |
-| 131 AC · final campaigns and settlement | 1,606–1,965 days |
-| 132 AC · regency; **Winter Fever begins late in the year** | 1,966–2,325 days |
-| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 2,326–2,685 days |
+| 129 AC · undated Dance events | 781–1,140 days |
+| 130 AC · campaigns; winter declared on Maiden's Day | 1,141–1,500 days |
+| 131 AC · final campaigns and settlement | 1,501–1,860 days |
+| 132 AC · regency; **Winter Fever begins late in the year** | 1,861–2,220 days |
+| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 2,221–2,580 days |
 
-These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is about 6.2 to 6.7 modeled years away; Sylas's baseline invasion is about 6.5 to 7.5 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
+These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is about 5.9 to 6.4 modeled years away; Sylas's baseline invasion is about 6.2 to 7.2 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
 ## How the clock operates
 
 Follow the chronological event step in [TURN_PROCESS.md](../../rules/TURN_PROCESS.md).
@@ -93,6 +93,9 @@ The ledger's baseline date and description remain for comparison. For each chang
 
 **Change record, Turn 4 (126/07/15):**
 - No scheduled event affected; no working date set. Relations with the mountain clans are closer than the baseline assumed (stores, poles, the welcome spoken before the Wull); this bears on any later northern muster but decides nothing.
+
+**Change record, Turn 5 (126/10/30):**
+- No scheduled event affected; no working date set. Lord Desmond reports as gossip that the king's health is talked of and the court quarrels between the queen's kin and the princess's; this is consistent with the baseline and changes nothing. Jon's stores (castle, estates and two clan stores) are larger than the baseline assumed; relevant to later winter and war entries.
 
 ## Historical event ledger
 
