@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 11 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 12 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 11 completed |
-| Date and time | Thirtieth day of the twelfth moon, 128 AC, evening |
+| Turn | 12 completed; awaiting the player's next action |
+| Date and time | Thirtieth day of the first moon, 129 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Twenty-one physically since the ninth moon of 128 (an authored nameday); 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Fully accustomed to Cregan's body; no current illness, injury or lasting impairment |
-| Immediate situation | The roll's charge and discharge is being drawn for the closing examination in the hall in the first moon of 129; the king is not expected to see the spring; the Hand has asked the Wardens to hold their levies ready to the king's call and has been answered |
+| Immediate situation | The Roll of Northern Works is examined and closed. Lord Desmond's letter of 129/01/20 says the king will not live out the winter and that both parties have written to every lord; Manderly asks what Winterfell will answer. The steward asks whether a second roll is to be written for 129. Arra says the Norrey wants the same word from a man's mouth |
 
 ## Transfer and memory
 
@@ -47,12 +47,14 @@ Jon has sat at table with Lord Cerwyn, Master Tallhart, Lord Dustin, Lord Hornwo
 
 ## Governance, knowledge and intent
 
-Jon has dismissed corrupt officials, audited the treasury and noble obligations, instituted harvest and winter-provision reporting, reorganized the garrison under personally loyal captains, ordered infrastructure and defense repairs, strengthened route patrols and worked with Manderly on White Harbor grain and commercial movement. The state and scope of these measures, the audited treasury position and the works now in hand are recorded in [WORLD.md](WORLD.md).
+Jon has dismissed corrupt officials, audited the treasury and noble obligations, instituted harvest and winter-provision reporting, reorganized the garrison under personally loyal captains, ordered infrastructure and defense repairs, strengthened route patrols and worked with Manderly on White Harbor grain and commercial movement. The state and scope of these measures, the treasury and the works are recorded in [WORLD.md](WORLD.md).
 
-On the eleventh day of the first moon, 126, Jon adopted the [Roll of Northern Works](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) as his working program at its ceiling of 81,634.14 GD, beginning with Winterfell and Winter Town and an opening invitation to every direct house. He knows the treasury's counted position, the arrears, the regency's unaccounted drawings, and what the lords he has met and written to have agreed to or declined. The 20,000 GD confiscated from Bennard is held in its own strongbox inside the counted vault; see [WORLD.md](WORLD.md#cash-confiscated-from-bennard).
+From 126/01/11 to 129/01/12 Jon carried the [Roll of Northern Works](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) as his working program and closed it at its examination in the great hall: 23,860 GD paid of the 81,634.14 GD ceiling, the works and their results recorded in [WORLD.md](WORLD.md#northern-development-program-closed-12901). He governed it by setting priorities and standards, letting the steward, the stores officer, the reeve, the carpenter and the lords act within defined responsibilities, requiring accounts and inspections, walking the works himself, sitting in judgment on frauds and failures, and refusing works that the evidence did not support. He has sat at nearly every northern lord's table and judged the clans at the Flint's stone.
 
-He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority. His stated policy, told to Arra, is to make no marriage of his own for now and as few brokered marriages between the lords as he can.
+He knows the counted treasury position, the horse roll of 2,260 named men with horse and mail, the lords' reported accounts of men, the reserve in store, and the state of Moat Cailin and the garrison. The 20,000 GD confiscated from Bennard is held in its own strongbox inside the counted vault; see [WORLD.md](WORLD.md#cash-confiscated-from-bennard).
 
-His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction and intends to have the North ready for it and to come out of it stronger. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.
+His stated policy is no marriage of his own for now and as few brokered marriages between the lords as he can; he has refused Cerwyn's daughter and Lady Manderly's niece. He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority.
+
+His historical studies warn him of the Targaryen succession war now at hand. He has committed to neither faction. He has told the Dreadfort and Manderly that Winterfell's oath is to the king while he lives and the rest is not yet a question, answered the Hand that the North keeps the king's peace and its levies answer the king, and told Cerwyn, Hornwood, Tallhart and Glover that Winterfell will declare to every house at once before it acts. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.
 
 Only the player chooses Jon's next meaningful action.

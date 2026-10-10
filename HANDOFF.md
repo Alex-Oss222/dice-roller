@@ -4,11 +4,11 @@ Read this first, then [AGENTS.md](AGENTS.md).
 
 ## Current position
 
-Story 3 is at **Turn 2 completed, the morning of the thirteenth day of the third moon, 126 AC**. Turns 1 and 2 are saved in [STORY.md](stories/story-003/STORY.md) after the player's accepted 124–126 AC backstory and replacement opening.
+Story 3 is at **Turn 12 completed, the evening of the thirtieth day of the first moon, 129 AC**. Turns 1 to 12 are saved in [STORY.md](stories/story-003/STORY.md) after the player's accepted 124–126 AC backstory and replacement opening.
 
 Read one current repository snapshot: Story 3's [CHARACTER.md](stories/story-003/CHARACTER.md), [WORLD.md](stories/story-003/WORLD.md), [STORY.md](stories/story-003/STORY.md), linked [487 AC source profile](stories/story-003/Jon_Stark_487_AC_.md), the [conditional future-event calendar](stories/story-003/FUTURE_EVENTS.md), and the required shared rules and research.
 
-Jon is eighteen in body and governs from the lord's solar. Arra has just left for the Norrey's hall with an escort; the steward waits with the clerk's finding on the Umber grain claim and Bennard's third request to speak. The next player action will be Turn 3. Do not advance time or choose Jon's action during setup maintenance.
+Jon is twenty-one in body and governs from the lord's solar. The Roll of Northern Works has just been examined and closed. Lord Desmond's letter of 129/01/20 says the king will not live out the winter and that both parties have written to every lord; Manderly and the nearer lords wait for Winterfell's word, which Jon has promised to every house at once before he acts. The steward asks whether a second roll is to be written for 129. The next player action will be Turn 13. Do not advance time or choose Jon's action during setup maintenance.
 
 ## Established replacement premise
 
@@ -16,31 +16,24 @@ Jon is eighteen in body and governs from the lord's solar. Arra has just left fo
 - The Old Gods drew Jon from 487 AC through the weirwoods into Cregan's body. Jon's former body died; no possessions or animals accompanied him. The transfer was singular and cannot be repeated as an ability.
 - Jon retains his own memories **and Cregan's memories in full**. He recovered during 124 and was **fully adapted by 125**. Do not restore missing memories, unfamiliar servants, first-day body adjustment or deficits invented in discarded runs.
 - **125:** Jon secured household loyalty, relationships with Cerwyn, Glover and Norrey, evidence of the assassination and regency misuse, and support sufficient to remove Bennard without a northern civil war.
-- **Late 125:** Jon took Winterfell. Bennard and Benjen were convicted of treason and attempted murder and sentenced to **lifelong imprisonment under separate guard** at Winterfell. The sentences are settled.
-- Brandon was placed as a political ward with **Glover**, Elric with **Manderly**, under oaths recognizing Cregan and renouncing a succession challenge. Neither was implicated in the assassination. Margaret Karstark was permitted to return to Karhold.
-- By the third day of the first moon, 126 AC, administration and the garrison have been reorganized, corrupt officials dismissed, treasury and noble obligations audited, reporting instituted, repairs ordered, route patrols strengthened and White Harbor logistics improved with Manderly. Preserve the difference between accomplished reforms, continuing arrangements and ordered repairs.
-- **Arra knows the truth of the transfer; no other member of the household does.** Jon told her privately before the opening because he trusted her as Cregan's friend. The rest of the household attributes his maturity to the injury and struggle with Bennard.
-- Arra was **Cregan's childhood friend and lover**, and loved him romantically. She now knows Jon is a different person and **loves Jon as a friend**. Their shared history is familiar to him through Cregan's memories. They remain unmarried and unbetrothed; their current bond is friendship.
-- Jon expects a Targaryen succession war from his historical studies but has committed to neither faction. His priorities are northern stability, winter reserves, routes, defenses and Stark authority.
+- **Late 125:** Jon took Winterfell. Bennard and Benjen were convicted of treason and attempted murder and sentenced to **lifelong imprisonment under separate guard** at Winterfell. The sentences are settled; Margaret Karstark's request that Benjen take the black was refused in 127.
+- Brandon is a ward with **Glover**, Elric with **Manderly**, under oaths recognizing Cregan and renouncing a succession challenge; Brandon's request to come home was refused in 128 until his oath's two years are run, with a different answer promised then. Margaret Karstark is at Karhold and may write through the maester.
+- **Arra knows the truth of the transfer; no other member of the household does.** She loves Jon as a friend; they are unmarried and unbetrothed; Jon told her in 126 that he will marry no one for now and that she has mead at his table and shelter at his hearth as long as he lives, which the Norrey has since spoken for the Stark at his own table. She lives in the hills and winters at Winterfell in 128–129.
+- Jon's stated policy is no marriage of his own for now and as few brokered marriages as he can; he has refused Cerwyn's daughter and Lady Manderly's niece.
+- Jon expects the Targaryen succession war and has committed to neither faction; see CHARACTER.md for exactly what he has said to the Dreadfort, Manderly, the Hand and his nearer lords.
 
 ## Finances and development
 
-The audits and practical reforms are accepted backstory, not work that must be replayed. Turn 1 established the counted treasury position from the audit records (189,600 GD in the vault on 126/01/03, including the 20,000 GD confiscated from Bennard held once in its own strongbox; arrears; grain; the regency's unaccounted drawings as a clerk's estimate). [WORLD.md](stories/story-003/WORLD.md#finances) carries the running figures; carry them forward, never reset them to the fiscal model.
+The audits and practical reforms are accepted backstory. Turn 1 established the counted treasury position; [WORLD.md](stories/story-003/WORLD.md#finances) carries the running count (828,800 GD on 129/01/30, including the 20,000 GD confiscated from Bennard held once in its own strongbox), the instalments actually received each year, the arrears, the regency's notes of hand (8,000 of 11,000 GD recovered; the Dreadfort owes 3,000), the grain in store (78,600 quarters including a bought reserve of 12,000) and the standing charges outside the roll (the garrison's hundred, Moat Cailin, the keeping charge). Carry these forward; never reset them to the fiscal model.
 
-On 126/01/11 Jon **adopted** the [Roll of Northern Works](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) as his working program at the roll's ceiling of 81,634.14 GD. The roll describes what may be done; WORLD.md records what has been ordered, paid, agreed and built. Early-period payments count against the roll's first reckoning period. The fiscal model is not the live ledger: do not automatically credit annual income; record each instalment as it is actually received.
+The [Roll of Northern Works](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) was **adopted 126/01/11 and closed at its examination on 129/01/12**: 23,860 GD paid of the 81,634.14 GD ceiling; the works built, struck, leased and kept are in [WORLD.md](stories/story-003/WORLD.md#northern-development-program). The roll is no longer a pending program. Whether a second roll is written is the player's open question.
 
 ## Conditional future events
 
-The player requested a persistent countdown for the supplied 129–133 AC timeline. [FUTURE_EVENTS.md](stories/story-003/FUTURE_EVENTS.md) preserves all 117 baseline entries, dated anchors, uncertain windows and causal conditions. It is synchronized with Turn 0, 126/01/03. Viserys's historical death is 1,140 modeled days away; the first Winter Fever outbreak is late 132 and Sylas's invasion is in 133, with no known moon. These are conditional forecasts, not completed events.
-
-During authorized elapsed time, resolve due independent events even if Jon is elsewhere; revise affected later events when actual circumstances change. The calendar never chooses Jon's pact, military orders, judgments or marriage. Keep event occurrence, reports and character knowledge distinct. Update its date, countdowns and changed event notes with the live turn save under TURN_PROCESS. Adding this calendar advances no time and restores no discarded play. Event codes have been removed; identify developments by ordinary names. Keep the calendar's countdowns, statuses and dependency notes out of narrative turns. Show events through the scene and credible news, and provide a separate countdown only when requested.
+[FUTURE_EVENTS.md](stories/story-003/FUTURE_EVENTS.md) preserves the 117 baseline entries for 129–133 AC with countdowns from the saved date. At 129/01/30 Viserys's historical death is 33 modeled days away and its preconditions are reported in place; nothing has yet occurred. The calendar never chooses Jon's pact, military orders, judgments or marriage. Keep event occurrence, reports and character knowledge distinct, and keep the calendar's labels out of narration.
 
 ## Continuity and saving
 
-This supplied backstory replaces the former arrival-day opening and transfer assumptions. The latest date correction places the takeover and initial aftermath in late 125 so the established wardships and reforms precede the third-day-of-first-moon 126 opening. It is accepted campaign history, not a factual claim about the published books and not a sequence of attempts awaiting adjudication.
+The supplied backstory replaced the former arrival-day opening. Earlier chat runs and retired play-tests remain discarded. The source profile preserves Jon's pre-transfer 487 AC life; current facts live in CHARACTER.md and WORLD.md.
 
-Earlier chat runs, retired play-tests and prior agents' outcomes remain discarded unless expressly re-established by the new backstory. Do not restore their scenes, disclosures, minor NPC names, training findings, contracts or pending bargains.
-
-The source profile preserves Jon's pre-transfer 487 AC life; its old-body condition, possessions and personal aims are not the current 126 AC state. Current facts live in CHARACTER.md and WORLD.md.
-
-Keep the shared rules and other campaigns independent. Save future turns coherently under [rules/TURN_PROCESS.md](rules/TURN_PROCESS.md). The first regular continuity checkpoint follows completed Turn 20. This setup update advances no time beyond the revised opening.
+Save future turns coherently under [rules/TURN_PROCESS.md](rules/TURN_PROCESS.md). The first regular continuity checkpoint follows completed Turn 20.

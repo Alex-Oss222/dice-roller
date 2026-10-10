@@ -1,8 +1,8 @@
-# Story 3 · World · Thirtieth day of the twelfth moon, 128 AC
+# Story 3 · World · Thirtieth day of the first moon, 129 AC
 
 ## Current position and authority
 
-Turn 11 accepted and saved. It is the evening of the thirtieth day of the twelfth moon, 128 AC. Jon is in Winterfell's solar. The harvest of 128 is in store with twelve thousand bought quarters on top of it; the roll's works are built and their defects listed; the steward is drawing the charge and discharge for the closing examination in the hall in the first moon of 129. The Hand has written that the king is gravely ill and the levies are to be held ready to the king's call; Jon has answered that the North keeps the king's peace.
+Turn 12 accepted and saved. It is the evening of the thirtieth day of the first moon, 129 AC. Jon is in Winterfell's solar with the Roll of Northern Works examined and closed, Lord Desmond's letter of 129/01/20 unanswered (the king not expected to live out the winter; both parties writing to every lord; Manderly will answer as Winterfell does), the steward asking whether a second roll is to be written for 129, and Arra saying the Norrey wants the same word from a man's mouth.
 
 The complete accepted history is preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
@@ -35,6 +35,8 @@ The complete accepted history is preserved in [STORY.md](STORY.md#established-ba
 - **128/03/16 to 07/30 (Turn 10):** The stable court's forgotten warm-water pipe broken and recut; lanes and the Hornwood wharf finished; the spring instalment near full; on news of the king's failing Jon raised the garrison by a hundred, sent the gang to Moat Cailin, ordered four more castle granaries and named horse and mail by man. Jon at Deepwood Motte (06/08 to 06/10) and at the clans' meeting at the Flint's stone (07/14), judging the Knott against the Flint. Skagos took the letter unopened. A gale took five of Flint's Finger's stations.
 
 - **128/08/01 to 12/30 (Turn 11):** Twelve thousand quarters bought at a good harvest as a reserve; the horse roll made; Cerwyn's daughter wed Hornwood's heir (09/12) with Jon present; the roll's last works built and its defects inspected; a town works keeper appointed; the Hand's letter and Jon's answer; the tannery's expansion refused; the cloth works kept for Orro's last year; the charge and discharge begun.
+
+- **129/01/01 to 01/30 (Turn 12):** Jon walked the roll's works (01/03 to 01/06); the closing examination in the great hall (01/08 to 01/12) closed the roll at 23,860 GD paid; the looms leased to the independent weavers, the tannery let to the journeyman, the unbuilt works struck by name, a keeping charge of about 134 GD a year made standing. Lord Desmond's letter of 01/20: the king dying, both parties writing to every lord.
 
 ## Family settlement and security
 
@@ -86,21 +88,21 @@ Standing orders and findings from play:
 
 | Item | Amount | Basis and date |
 | --- | ---: | --- |
-| Coin in the vault, running count | 825,230 GD | Clerk's running count on 128/12/30; includes the 20,000 GD strongbox held apart |
-| 128 tribute, received | 178,300 GD of 181,571 due | First 106,900; second 71,400 |
+| Coin in the vault, running count | 828,800 GD | Clerk's running count on 129/01/30; includes the 20,000 GD strongbox held apart; the roll's unspent ceiling is simply part of this, not a fund |
+| 128 tribute, received | 178,300 GD of 181,571 due | Both instalments |
 | 128 tenants' rents | 47,400 GD of 47,712 due | Counted |
-| Crown's share, 128 | 24,628 GD (with the fair's part) and 16,390 GD | Sent 04/27 and 10/27; the spring receipt returned with Lord Desmond's letter |
+| Crown's share, 128 | 24,628 GD and 16,390 GD | Sent; spring receipt held; autumn receipt awaited |
 | Tribute arrears | about 17,400 GD | 125 to 128 shortfalls, small houses mostly |
 | Tenants' cash rent owed from 125 | about 1,200 GD | Owed, unpaid |
 | Tenants' grain rent owed | 1,800 quarters | In the tenants' barns |
 | Regency drawings unaccounted for | about 38,000 GD | Clerk's estimate; 8,000 GD of the 11,000 GD under notes recovered |
 | The Dreadfort's note | 3,000 GD owed | 1,500 at 129/04 and 130/04 |
-| Fairs | 214 GD (127) and 288 GD (128) net | Crown's parts sent |
-| Fish station shares | 31 GD to 128/02 | Later shares to be reckoned at the examination |
-| Grain bought at the 128 harvest | about 900 GD | 12,000 quarters of rye and oats at the book's price, paid at the granary doors |
-| Outside the roll | about 1,720 GD to date | The garrison's hundred (about 220 GD) and Moat Cailin (about 1,500 GD) on the household and old-order sheets |
+| Commercial advances outstanding | 1,312 GD | Locke, Mormont, Flint's Finger, against fish sold; 89 GD of shares received |
+| Fairs | 502 GD net over 127 and 128 | Crown's parts sent |
+| Outside the roll, to date | about 1,950 GD | The garrison's hundred (about 250 GD) and Moat Cailin (about 1,700 GD) on the household and old-order sheets; Moat Cailin to be done by the summer of 129 |
+| Standing keeping charge | about 134 GD a year | School 25, infirmary 25, winter hall 16, works keeper 8, upkeep about 60; on the household account like the Watch's gift |
 
-Ordinary flows, an authored instalment timing taken from the fiscal reference: six tenths of tribute and rents in the fourth moon, four tenths in the tenth; the Crown's share goes south at each instalment. Quiet moons bring in a little under 5,000 GD from the estates' own stock, leases and grain and spend a little under 2,000 on household and ordinary works, a little more with the garrison's hundred.
+Ordinary flows, an authored instalment timing taken from the fiscal reference: six tenths of tribute and rents in the fourth moon, four tenths in the tenth; the Crown's share goes south at each instalment. Quiet moons bring in a little under 5,000 GD from the estates' own stock, leases and grain and spend a little over 2,000 on household, ordinary works, the garrison's hundred and the keeping charge.
 
 ### Grain and stores
 
@@ -123,90 +125,58 @@ The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](refe
 
 ## Northern Development Program
 
-**Adopted 126/01/11** as Jon's working program: the [Roll of Northern Works](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md), at its ceiling of **81,634.14 GD**, with the roll's four divisions, payment stages and closing examination in the first moon of 129. The roll remains the description of what may be done; this file records what has actually been ordered, paid, agreed and built. Nothing is complete or paid merely because it is listed.
+**Adopted 126/01/11; examined in the great hall 129/01/08 to 01/12; closed.** The [Roll of Northern Works](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains the description of what was allowed; this section records what was actually done, paid, returned, struck and kept. Nothing is pending under it. Its unspent ceiling is not a fund.
 
-### Coin paid and committed under the roll
+### The closed account
 
-| Item | Paid to 128/12/30 | Ordered and unpaid |
-| --- | ---: | ---: |
-| Castle: account room, weights, six granaries, three wells, approach, grain yard and stable court paving (with the warm-water pipe), school books | 2,889 GD | — |
-| Winter Town: hall, weighhouse, two warehouses, winter hall, infirmary house and kit, school house, square, lanes, privies, wells, fire casks, two baths | 4,534 GD | — |
-| Winter Town: cloth (looms, troughs, wages, master weaver), from the trade cash | 865 GD | trade cash balance about 1,135 GD |
-| Winter Town: tannery | 437 GD | — |
-| Winter Town: fulling mill | 760 GD | — |
-| Winter Town: defects of 128 (gutters, setts, windlasses) | 51 GD | — |
-| Stark land: eighteen wells; four granaries; wool house; four bridges | 2,390 GD | 28 GD retained |
-| Other lords: Cerwyn, Tallhart, Dustin, Glover (two bridges, six miles), Umber, Karstark, Bolton, Ryswell, Locke, Mormont, Hornwood (wharf), Flint of Flint's Finger, Widow's Watch | 6,971 GD | 8 GD retained |
-| The Acorn Water bridge (Stark's 3,540 GD) | 3,540 GD | — |
-| Clan stores: the Norrey's, the Wull's, the Harclay's, the Knott's | 410 GD | — |
-| Road poles | 29 GD | — |
-| Riders, surveys, journeys, parchment, the Skagos passage, the examination's copying | 891 GD | — |
-| **Total** | **23,767 GD** | **about 40 GD** |
+| Division | Allowed | Paid in coin | Built |
+| --- | ---: | ---: | --- |
+| Winterfell castle | 6,176.04 GD | 2,905 GD | Six of ten granaries (two 126, four 128); three wells (one site abandoned foul); approach, grain yard and stable court paved (about 16,100 of 31,900 square yards); thirty-six sealed measure sets; account room; clerks' school (twenty boys; four placed) |
+| Winter Town, fixed works | 7,889.15 GD | 5,782 GD | Market hall (28 over), weighhouse, two warehouses, winter hall, infirmary house and kit, school house, square in dressed setts (44 over), main street and lanes (370 under, measured smaller), ten wells (four relined, six new), twenty privies, fire points (doubled near the warehouses), two of five baths, fulling mill (28 over), tannery at twenty of fifty pits (12 under) |
+| Winter Town, trade cash | 2,000 GD | 885 GD used | 1,115 GD in coin, yarn and bolts in the chest; six looms; Orro's contract to 129/02 |
+| Stark land | 5,769.20 GD (and 500 GD circulating, 60 used) | 2,418 GD | Eighteen of forty-three wells; four of ten granaries; one of three wool houses; four of six timber bridges; poles on about 100 miles; hide house cancelled; tar kilns never built |
+| Other lords, common works (Stark's six tenths) | 22,000 GD | 8,926 GD | One stone bridge (the Acorn Water), eight timber bridges, twenty-six miles of gravel road, two wharves (the Hornwood landing; Oldcastle), fourteen wells, nine granaries on the lands of Cerwyn, Tallhart, Dustin, Glover, Umber, Karstark, Bolton, Ryswell, Locke, Mormont, Hornwood and Widow's Watch; the lords' four tenths in kind valued near 6,000 GD |
+| Other lords, difficult-sites allowance | 6,071.14 GD | 1,740 GD (within the above) | The Acorn Water's north bank 1,540; Locke's bank 120; Dustin's causeway 80 |
+| Other lords, commercial advances | 30,000 GD | 1,401 GD | Locke's ten and Mormont's four fish stations; Flint's Finger's twelve stations, warehouse and palisade; 89 GD returned in shares; no other house applied; Hornwood, Dustin, Manderly, Karstark and Ryswell built their own or nothing |
+| Clan stores (gifts) | — | 410 GD | The Norrey's, the Wull's, the Harclay's, the Knott's, each with 600 Stark quarters and the clan's key; poles on six tracks |
+| Administration | 2,000 GD | 1,133 GD | Riders, surveys, journeys, the Skagos passage, copying and the examination |
+| Reserve | 5,000 GD | 0 | Untouched |
+| **Total** | **81,634.14 GD** | **23,860 GD** | **57,774.14 GD never drawn; nothing owed by Stark under the roll** |
 
-The 128 reckoning period took about 6,560 GD of its 28,465.50 GD ceiling. Against the roll's whole ceiling of 81,634.14 GD, 23,767 GD has been paid. The garrison's hundred, Moat Cailin and the bought grain are outside the roll. In kind, not cash: wool each season (about 162 GD raw a season), 2,400 quarters to the clan stores, Umber's gift roof timber.
+In kind, valued at the book and not in the coin total: Umber's gift roof timber (364 GD), three seasons of wool (about 486 GD), the clan stores' grain (about 144 GD).
 
-### Works ledger
+### Returns in coin
 
-Status at 128/12/30, before the closing examination.
+| Venture | Received | Cost | Finding |
+| --- | ---: | ---: | --- |
+| Fairs of 127 and 128 | 502 GD net | 44 GD costs | 54,600 GD of goods sold; the Crown takes its part; the fee holds |
+| Cloth, three seasons | 331 GD | about 590 GD | A loss on the book every season; the nine independent weavers earned more from the same yarn |
+| Leather, two cycles | 44 GD | about 437 GD | 110 hides of leather from 120; a loss |
+| Fish stations | 89 GD | 1,401 GD advanced | Shares continue against fish sold |
+| Baths | 6 GD a year | 341 GD | Leases; the keeper burns wood |
+| Everything else | nothing | the rest | Wells, granaries, bridges, roads, wharves, poles, hall, privies, casks, winter hall, infirmary, school earn no coin and were not meant to |
 
-| Division and work | Status |
-| --- | --- |
-| Castle | Six of ten granaries built (two 126, four 128); three of three wells (one site abandoned); approach, grain yard and stable court paved (about 16,100 of the roll's 31,900 square yards); the other yards not paved; thirty-six measure sets; account room; school (twenty boys, four placed); the two castle baths never built |
-| Winter Town | Market hall, weighhouse, two warehouses, winter hall, infirmary, school house, square, main street and lanes, ten wells (four relined, six new), twenty privies, fire points, two of five baths; the fifty-horse stable never built; fulling mill running; tannery at twenty pits; cloth works at 3,000 stone a season under a Braavosi contract; a town works keeper |
-| Stark land | Twelve of thirteen wells and six of thirty further wells; four of ten granaries; one of three wool houses; hide house cancelled; four of six bridges; twenty tar kilns never built (the tar is Hornwood's); poles on about 100 miles |
-| Kingsroad: the Acorn Water bridge | Stone arch in use since 127/09 |
-| Cerwyn | Timber bridge; two wells; two granaries; his share of the arch |
-| Tallhart | Two bridges; four roll wells; his own well and weighhouse |
-| Dustin | Twelve miles of road with a causeway, plus three of his own; two wells; note paid in horses and coin |
-| Glover | Six miles plus two of his own; two bridges |
-| Umber | Four granaries (one re-roofed with gift timber) |
-| Karstark | Two granaries; his own spinning house |
-| Bolton | Four wells; his own two granaries |
-| Ryswell | Two wells |
-| Hornwood | Landing wharf; his own eight kilns |
-| Locke | Wharf (late and over); ten fish stations |
-| Mormont | Harbor granary; four fish stations |
-| Flint of Flint's Finger | Twelve stations (five rebuilt higher after the gale), warehouse, palisade |
-| Flint of Widow's Watch | One granary |
-| Clans | Four stores (the Norrey, the Wull, the Harclay, the Knott), each with 600 Stark quarters and the clan's key; poles on six tracks |
-| Reed, Skagos, the remaining direct and subordinate houses | No works; Skagos took the letter unopened |
-| Outside the roll | Moat Cailin's causeway and three towers being put in order (by the summer of 129); the garrison's hundred; the bought reserve |
+### Decisions at the examination
 
-### Agreements with bannermen (in principle; none signed)
+- Cloth: the six Stark looms leased to the nine independent weavers at a stag a loom a year; the lord's wool sold to them at spinners' cost plus a tenth; the mill fulls for anyone at a fee; Orro paid for his last year to teach finishing; the Braavosi contract passed to the weavers as a body with Berrick's consent. The village spinners keep their wheels and wage.
+- Tannery: let to the journeyman at a rent of the bark's yearly value, hides sold to him at the book; pits on his own account if the yard pays in two years.
+- Struck by name: four castle granaries, two castle baths, four acres of yards, the fifty-horse stable, three town baths, the hide house, twenty tar kilns, two wool houses, six rural granaries, two Stark bridges, twenty-four further wells, every unasked package.
+- Keeping: about 134 GD a year on the household account as a standing charge; the lords keep their own works under their upkeep clauses (Cerwyn's ramp, Tallhart's planks, Hornwood's piles already tested); the works book's keeping page names each building's need and payer.
+- A second roll for 129 asked by the steward (Tallhart's and Glover's third bridges, the Wull's second store, three estates' wells, a third warehouse floor); unanswered.
 
-Agreements are now signed as work is let; the table records terms and stage at 126/10/30.
+### What the roll changed, measured at the examination
 
-| House | Terms | Stage |
-| --- | --- | --- |
-| Cerwyn | Castle-road bridge; the Acorn Water arch; two wells; two granaries; four tenths in timber, sand, gravel, lime and labor at book rates; tallies kept on both banks | Bridge built; arch footings done; wells and granaries for 127 |
-| Tallhart | Barrowton-road bridge; four wells; four tenths in labor and gravel | Bridge built; two wells dug |
-| Dustin | Two wells; twelve miles of gravel road; four tenths in labor and teams; Stark's advance for gravel carts under the reeve's one book | Three miles done. The 5,000 GD note: half coin at the instalments over two years, half horses at the book price |
-| Glover | One timber bridge and six miles of gravel on the Wolfswood road | Two miles begun; bridge for 127; Brandon well |
-| Hornwood | Tar at his own cost; wants buyer and measures | Six kilns by spring; measure set sent |
-| Manderly | Takes passed grey cloth; two warehouse floors at rent; thirty measure sets made at White Harbor; ships the Crown's share; Braavosi weaving-master inquiry pending | Cooperation; reports court gossip |
-| Umber | Four granaries; four tenths in timber and men | Framed; withholds 1,600 GD arrears until roofed |
-| Karstark | Two granaries; a spinning house | For 127 |
-| Bolton | Four wells to be named | Nothing let. The 6,000 GD note: 1,500 a year for four years from 127/04 |
-| Mormont | Four fish stations (advance against fish sold) and a harbor granary (public) | Granted for 127; labor and timber his |
-| Locke | Wharf (public, site to be judged by Master Wyl) and ten fish stations (advance) | Granted for 127; piles to cut this winter |
-| Ryswell | Nothing let; 1,100 GD shortfall granted until 127/04 | — |
-| The Norrey, the Wull | Stores and poles as gifts; their keys; 600 quarters each | Built and stocked |
-| The Flint, the Liddle, the Burley, the Harclay | Poles; the Harclay asks a store | Axes and iron for the Flint sent; the Harclay to be answered |
-| The Knott | Nothing | — |
-| Reed, Skagos, the coastal Flints, the other direct houses | No applications | Reed's letter delivered; Skagos waits on a ship |
-
-### Operating results
-
-- Harvests: 126 good (74,100 quarters), 127 wet (69,800; loss 1,100 counted), 128 good (78,600 with 12,000 bought; loss 420). Covered room at the castle 20,200 quarters against about 14,200 sound in 126.
-- Fairs: 127, 23,400 GD of goods and 214 GD net; 128, 31,200 GD and 288 GD net; the Crown claims its part; the weighhouse decides most quarrels at the scale.
-- Cloth: three seasons, each earning in coin a little less than wages, wool and Orro cost; the Braavosi contract for eight thousand yards a year taken at 7,600 in 128; nine independent weavers earn more from the same yarn than Stark does.
-- Tannery: two cycles, 110 hides of leather from 120, about 44 GD against about 437 GD of cost; expansion refused.
-- Tar: Hornwood's, six hundred gallons a year to White Harbor, no Stark coin.
-- Fish: Locke's and Mormont's stations salting; 31 GD of shares to 128/02; Flint's Finger's rebuilt after the gale.
-- Bridges and roads: no cart lost at the Acorn Water since 127/09 against eleven pulled from the ford in 126; Cerwyn's, Tallhart's, Glover's and the Stark bridges in use; twenty-six miles of gravel road made by other lords with Stark's six tenths and five more at their own charge.
-- Lords' own works without Stark coin: the Dreadfort's granaries; Tallhart's well and weighhouse; Dustin's and Glover's extra miles; Hornwood's kilns; Karstark's wheels; Umber's re-pitched roofs.
-- Administration: thirty-six sealed measures; a Stark receiver dismissed for a false quarter; four school boys placed as tally clerks; the works book's keeping page; a town works keeper.
-- Failures and losses: a digger killed (127); five fish stations lost to a gale; the stable court's pipe; Cerwyn's ramp; Umber's roof; two wells dry or foul; the hide house cancelled; the castle baths, the stable and three town baths never built; the tar kilns never built.
+- Stores: 20,200 quarters under the castle's roofs against 14,200 sound in 126; 78,600 quarters in store (12,000 bought as a reserve) against 66,200; loss counted, not guessed (420 in a dry year, 1,100 in a wet); four villages and four clans keep grain at home.
+- Transport: the kingsroad's one break bridged in stone, no cart lost there since 127/09 against eleven in 126; nine timber bridges and twenty-six miles of gravel on other lords' land, four bridges on Stark's; poles on 100 miles and six clan tracks; lighters load at any water at the Hornwood landing, the count up nine then seven.
+- Trade: the fair from 7,000 to 31,200 GD of goods; a weekly market under the hall; a Braavosi contract; yarn from Karhold, tar from Hornwood, fish from three coasts; the clans trading at a Stark fair; Winter Town 560 households against 500.
+- Administration: thirty-six sealed measures; a Stark receiver dismissed by one; the works book and its keeping page; four school boys as tally clerks; exact accounts of men and a horse roll of 2,260 names.
+- Defense (outside the roll but served by it): Moat Cailin in repair; the garrison's hundred; a bridged kingsroad and bought reserve for a march; Manderly's ships bound to Winterfell's course.
+- Revenue: the roll earned about 966 GD in coin over three years against 23,860 spent; Stark's tribute and rents are unchanged by it; the Crown claims its part of the fair.
+- Prices and labor: grain and wages unchanged; wool up a tenth at the fair; dressed stone and setts above the roll's price; the summer's hay and harvest set the pace of every work, and wagons were scarcer than coin.
+- Other lords' own works without Stark coin: the Dreadfort's two granaries; Tallhart's well and weighhouse; Dustin's three miles; Glover's two miles; Hornwood's eight kilns; Karstark's wheels; Umber's re-pitched roofs. Reed and Skagos did nothing; twenty-three direct houses and sixteen beneath them applied for nothing.
+- Unexpected costs: the Acorn Water's north bank; the stable court's forgotten pipe; Locke's bank; a digger's death and the shoring rule; the keeping charge.
+- Unexpected benefits: the independent weavers; the measures as an audit of Stark's own receivers; the Dreadfort copying unasked; the clans under Jon's judgment; the school's clerks.
+- Failures: the first cloth seasons; the tannery; five fish stations on a beach; two wells; one roof; one ramp; the hot water that never reached the town; the baths, stable and kilns never wanted.
 
 ## Future-event calendar
 
@@ -216,12 +186,12 @@ Independent events proceed during authorized elapsed time unless changed circums
 
 ## Open matters
 
-- The roll's closing examination in the hall in the first moon of 129: the charge and discharge; the cloth's three years on one sheet; what to do with the looms, the tannery and the unspent ceiling.
-- The king's death expected before spring; the Hand's letter answered; Winterfell's word to every house at once when it comes.
-- Moat Cailin by the summer of 129; the garrison's hundred; the horse roll.
-- The Dreadfort's third 1,500 GD at 129/04; arrears of about 17,400 GD across small houses.
-- The fair of 129/02 (after the account closes).
-- Brandon's answer in 129; Elric's marriage at his majority.
+- Lord Desmond's letter of 129/01/20 unanswered: the king dying; the Hand's and the princess's letters to every lord; Manderly, the Dreadfort, Dustin, Glover, Cerwyn, Hornwood, Tallhart and the Norrey all waiting for Winterfell's word, which Jon has promised to give to every house at once before he acts.
+- Whether a second roll is written for 129.
+- Moat Cailin by the summer of 129; the garrison's hundred; the horse roll; the reserve.
+- The fair of 129/02; Orro's last year; the weavers' body and the Braavosi contract.
+- The Dreadfort's 1,500 GD at 129/04; the commercial advances; tribute arrears.
+- Brandon's answer at his majority (127/12 oath's two years run to the end of 129); Elric's marriage.
 - Bennard's monthly word of Benjen and the Margaret letters through the maester.
 
 ## Continuity boundary
