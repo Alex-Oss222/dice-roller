@@ -2,9 +2,11 @@
 
 ## Current position
 
-Turn 13 is complete. Resume on **129/02/02, evening**, in Winterfell's lord's solar; the next action is Turn 14. Read the [latest turn](turns/TURN_013.md) for the exact scene. Preparatory summonses and eastern coastal orders were dispatched this morning. The gradual Moat Cailin muster is capped at 12,000 across the land and shipboard call, with the majority of each house's men retained at home, targeting 129/04/01. No southern sailing or march beyond the Moat is authorized and no claimant is chosen. Arra has privately accepted being Jon's intended regent during a prospective absence; her written appointment and public declaration remain ahead. She asks what Jon will obtain for the North before committing its forces.
+Turn 14 is complete. Resume on **129/03/01, evening**, at **Moat Cailin's northern encampment**; the next action is Turn 15. Read the [latest turn](turns/TURN_014.md) for the exact scene. Jon explained his demands for negotiations with the Blacks to Arra, prepared her for fourteen days with Hobb and the household officers, appointed her publicly by writ, and travelled south. Arra governs in the North until his return. Jon has made no pledge, dispatched no diplomatic offer, and obtained none of the proposed concessions.
 
-The old works roll remains closed. The broader second roll and Manderly's succession question remain open. Mormont and Reed's grants remain authorized and unspent. The last counted vault remains the dated 129/01/30 count, not a new count or a forecast credited as cash.
+The first **1,200 newly summoned men** are at the Moat, within **4,000 allotted land places** and the **12,000 combined land/shipboard ceiling**. The greater part of each house's strength remains at home. Local eastern patrols have begun; Manderly's first naval return is dated, not a complete current fleet count. No southern fleet deployment or march beyond the Moat is authorized. Jon carries the negotiating brief and has not opened talks with Dragonstone or Corlys.
+
+The old works roll remains closed. The broader second roll and Manderly's succession question remain open. Mormont and Reed's grants remain authorized and unspent, separate from any royal naval demand. The last counted vault remains the dated 129/01/30 count; neither forecast income nor proposed concessions have been credited as cash.
 
 [Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal account](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
 
@@ -28,6 +30,7 @@ Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arith
 | [11](turns/TURN_011.md) | Thirtieth day of the twelfth moon, 128 AC, Evening |
 | [12](turns/TURN_012.md) | Thirtieth day of the first moon, 129 AC, Evening |
 | [13](turns/TURN_013.md) | Second day of the second moon, 129 AC, Evening |
+| [14](turns/TURN_014.md) | First day of the third moon, 129 AC, Evening |
 
 ## Established backstory, 124–126 AC
 

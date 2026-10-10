@@ -2,7 +2,7 @@
 
 ## Clock and scope
 
-**Synchronized with Turn 13: second day of the second moon, 129 AC, evening.** Saved position 129/02/02. None of the historical baseline events has occurred in this run; see the status and change record for campaign developments.
+**Synchronized with Turn 14: first day of the third moon, 129 AC, evening.** Saved position 129/03/01. None of the historical baseline events has occurred in this run; see the status and change record for campaign developments.
 
 This is the authoritative future-event ledger for this campaign. Current accomplished facts remain in [WORLD.md](WORLD.md); Jon's personal knowledge remains in [CHARACTER.md](CHARACTER.md); accepted scenes remain in [STORY.md](STORY.md). Read this ledger with those files at the same commit.
 
@@ -16,36 +16,37 @@ For campaign arithmetic use **twelve 30-day moons per year (360 days)**, consist
 
 Date notation below is **year/moon/day**. Day difference is `360 × (target year − current year) + 30 × (target moon − current moon) + target day − current day`. It counts calendar boundaries, not exact hours. A value of zero means **due this date**, not already resolved.
 
-These are remaining times to **historical baseline dates**, calculated from 129/02/02. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
+These are remaining times to **historical baseline dates**, calculated from 129/03/01. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
 
 | Event | Historical date | Remaining at the saved position |
 | --- | --- | ---: |
-| Viserys I's death / succession crisis | 129/03/03 | 31 days |
-| Aegon II's coronation | 129/03/10 | 38 days |
-| Jacaerys arrives at Winterfell (authored working date) | 129/04/05 | 63 days |
-| Battle of the Gullet | 130/01/05 | 333 days |
-| Battle above the Gods Eye | 130/05/22 | 470 days |
-| Rhaenyra's death | 130/10/22 | 620 days |
-| Sunfyre's death | 130/12/09 | 667 days |
-| Aegon III's wedding and coronation | 131/07/07 | 875 days |
-| Corlys's death | 132/03/06 | 1,114 days |
-| First reported Winter Fever cases in King's Landing | 133/01/03 | 1,411 days |
-| Jaehaera's death | 133/09/22 | 1,670 days |
-| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 1,768 days |
+| Viserys I's death / succession crisis | 129/03/03 | 2 days |
+| Aegon II's coronation | 129/03/10 | 9 days |
+| Jacaerys arrives at Winterfell (authored working date) | 129/04/05 | 34 days |
+| Battle of the Gullet | 130/01/05 | 304 days |
+| Battle above the Gods Eye | 130/05/22 | 441 days |
+| Rhaenyra's death | 130/10/22 | 591 days |
+| Sunfyre's death | 130/12/09 | 638 days |
+| Aegon III's wedding and coronation | 131/07/07 | 846 days |
+| Corlys's death | 132/03/06 | 1,085 days |
+| First reported Winter Fever cases in King's Landing | 133/01/03 | 1,382 days |
+| Jaehaera's death | 133/09/22 | 1,641 days |
+| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 1,739 days |
 
-The nearest **exactly dated anchor** is Viserys's death in **31 days: 0 modeled years, 1 moon and 1 day**. Earlier undated developments remain possible.
+The nearest **exactly dated anchor** is Viserys's death in **2 days**. Earlier undated developments remain possible. The North's separate readiness target, 129/04/01, is 30 days away; it is an order to execute, not a guarantee that 12,000 men will be present.
 
 For events without a known day, use the actual stated window. Do not pretend that an outbreak or invasion has an exact anniversary:
 
 | Baseline window | Remaining to start–end of the containing year |
 | --- | ---: |
-| 129 AC · undated Dance events | -31–328 days |
-| 130 AC · campaigns; winter declared on Maiden's Day | 329–688 days |
-| 131 AC · final campaigns and settlement | 689–1,048 days |
-| 132 AC · regency; **Winter Fever begins late in the year** | 1,049–1,408 days |
-| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 1,409–1,768 days |
+| 129 AC · undated Dance events | -60–299 days |
+| 130 AC · campaigns; winter declared on Maiden's Day | 300–659 days |
+| 131 AC · final campaigns and settlement | 660–1,019 days |
+| 132 AC · regency; **Winter Fever begins late in the year** | 1,020–1,379 days |
+| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 1,380–1,739 days |
 
-These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is about 3.7 to 4.2 modeled years away; Sylas's baseline invasion is about 3.9 to 4.9 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
+These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is roughly 3.7 to 3.8 modeled years away if it remains late in 132; Sylas's baseline invasion is about 3.8 to 4.8 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
+
 ## How the clock operates
 
 Follow the chronological event step in [TURN_PROCESS.md](../../rules/TURN_PROCESS.md).
@@ -127,6 +128,16 @@ The ledger's baseline date and description remain for comparison. For each chang
 - **Orders in transit:** departed 129/02/02 morning. Authored delivery windows are 129/02/03–02/10 for direct principal-house ravens and 129/02/08–02/20 for longer rider or relay routes. No acknowledgement is established at the ending evening. Resolve actual delivery, local response, muster preparation and return messages during the next authorized interval; do not grant all lords simultaneous knowledge at dispatch. No individual house quota has yet been fixed; allocations must respect the single ceiling and retained majorities.
 - The steward's deferred discussion is due 129/02/02 evening. The broader second roll and claimant decision remain open. Existing Moat repairs, gifts, fair preparations and Orro's contract retain their recorded scope and timing; no new completed work or expenditure is claimed for these two days.
 
+**Change record, Turn 14 (129/03/01):**
+- Twenty-nine days elapsed: discussion and fourteen days' preparation through 02/16, departure on 02/17 and arrival at the Moat on 03/01. No historical baseline event has occurred; Viserys's condition has not been changed by northern preparations. His baseline death is two days away, not present news or a certain prediction stated in the scene.
+- Jon has chosen to seek negotiations with the Blacks and prepared the command, naval, commercial, two-city and both-Gifts demands recorded in WORLD. No offer has been dispatched, no claimant pledge given and no concession obtained. Neither Rhaenyra, Corlys nor the Watch knows the brief merely because it exists. Historical northern dispatches, alliance terms, battles and later settlements remain conditional.
+- Arra's regency is **active**, not pending: training on 02/03–02/16, public witnessed writ on 02/16, Jon's departure on 02/17. Household officers acknowledge her authority and remain. Writ copies travel on 02/16–02/17; principal-house deliveries 02/18–02/25; longer routes may remain in transit through 03/07. This does not confer Jon's field command or authority to pledge him to a claimant. Her knowledge of future battles remains the private account already told, not this ledger.
+- Initial 02/02 summonses were delivered within their recorded windows and returned first company proposals. The first 4,000 land places are allotted under the combined 12,000 cap. At 03/01 **1,200** new levies are counted at the Moat, including Jon's forty-man escort within Stark's 600. The other 2,800 allotted places have not arrived. Working arrival windows: Dustin 03/05–03/12; Ryswell and Hornwood 03/08–03/18; Glover and Bolton 03/15–03/28. Resolve their actual journeys, supply and reports, preserving retained home majorities. Further allocations and a new shipboard complement remain ahead; no northern army has gone south of the Moat.
+- Manderly received instructions 02/05; local patrols began 02/09 with existing crews. His dated 02/10 return (six armed coasters fit, four needing work) reached Winterfell 02/15. No armed Triarchy encounter is reported, no distant blockade established and no southern deployment authorized. Later Triarchy preparations and the Gullet sequence have not been prevented by local northern patrols alone.
+- The first camp is in use north of the Moat's ruins; tower and causeway repairs continue under the existing order. The camp grain account is 260 received, 20 issued, 240 remaining at 03/01, as recorded in WORLD, not a new count of all northern reserves. The gifts remain unspent. No forecast receipts or royal concessions are added to the vault.
+- The customary fair proceeded on 02/15–02/28; its closing account must reach Jon separately. Orro's teaching contract ended without extension on the authored working date 02/28, within its established approximate second-moon expiry. Bennard's monthly word was supplied in the second moon. The steward returned for the deferred business, but no broader second works roll was authorized. Do not replay completed routine events.
+- Jacaerys's original working visit remains 129/04/05, now 34 days away. **Jon is no longer at Winterfell.** Reassess the prince's destination and timing when his mission is ordered and he can learn Jon's location. Do not teleport either man, automatically transfer the meeting to the Moat, or make Arra conclude a pact. Her regency makes a reception at Winterfell possible, not a pledged alliance. No son Rickon is established.
+
 ## Historical event ledger
 
 Every event description below names a **conditional baseline**, including where it uses the past or present tense. “Dies,” “wins,” “marries” and “falls” describe that baseline, not facts already true in the campaign.
@@ -140,7 +151,7 @@ Every event description below names a **conditional baseline**, including where 
 | 129/03/10 | Aegon II is crowned in King's Landing. | The Green Council's preparations; the Green accession remains viable. | pending |
 | 129, third moon; after the news arrives | Rhaenyra learns of the accession and loses her unborn child. | Viserys's death and the Green accession; her pregnancy, location and circumstances still support this outcome. | pending |
 | 129, third moon; after Rhaenyra receives the news and loses her child | Rhaenyra is crowned and the Black Council organizes resistance. | Rhaenyra survives and contests the succession. | pending |
-| 129/04/05; advanced autumn (authored working date) | Jacaerys visits Winterfell seeking an alliance; the historical Pact of Ice and Fire is only a reference. | Rhaenyra's coronation and council; Jace can travel. Jon decides all terms and commitments; no son Rickon is established in this run. | player-dependent |
+| 129/04/05; advanced autumn (authored working date) | Jacaerys visits Winterfell seeking an alliance; the historical Pact of Ice and Fire is only a reference. | Rhaenyra's coronation and council; Jace can travel. Jon is at the Moat as of 129/03/01; reassess travel and where they can actually meet when the mission proceeds. Jon decides all terms and commitments; no son Rickon is established in this run. | player-dependent |
 | 129; day/moon unknown | Daemon takes Harrenhal as a Black base. | Rhaenyra's coronation and council; Daemon, Caraxes and the Riverlands campaign remain available. | pending |
 | 129; day/moon unknown | Lucerys is killed over Shipbreaker Bay. | Lucerys and Aemond undertake the same missions and meet; survival depends on the actual encounter. | pending |
 | 129; after Lucerys's death | Blood and Cheese murder Prince Jaehaerys. | Retaliatory motives, organizers, access and intended victims remain in place; protection can alter the attempt. | pending |
@@ -216,7 +227,7 @@ Every event description below names a **conditional baseline**, including where 
 
 | Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| Early 132 AC (undated) | Aegon III's regents and Tyland confront depleted finances, unsafe roads, displacement, and famine after the civil war. | Aegon III's minority and the historical postwar government exist. | reference |
+| Early 132 AC (undated) | Aegon III's regents and Tyland confront depleted finances, unsafe roads, displacement and famine after the civil war. | Aegon III's minority and the historical postwar government exist. | reference |
 | 132–133 AC (undated) | The Winter of the Widows brings surviving women greater responsibility for lordships, estates, succession disputes and remarriage negotiations. | War deaths leave comparable vacancies and inheritance pressures. | reference |
 | 132 AC (moon/day unknown) | Historical Cregan and Alysanne marry at Winterfell after their Hour of the Wolf agreement. | Jon chooses this marriage; Alysanne consents; both are alive and free to marry. | player-dependent |
 | 132 AC (moon/day unknown) | Baela Targaryen marries Corlys's legitimized heir Alyn Velaryon; Rhaena Targaryen marries Ser Corwyn Corbray. | The surviving participants consent and their historical marriage arrangements remain possible. | pending |
@@ -284,4 +295,4 @@ Date checks use *Fire & Blood* continuity and the chapter references collected i
 
 The chronology does not settle disputed accounts: Helaena's precise date relative to the Gods Eye; how Maelor died; Jaehaera's death being murder or suicide; the origin and exact means of transmission of Winter Fever; or who killed Sylas. Ibbenese responsibility is an accusation, not an established fact. Do not grant Jon certainty about these questions.
 
-This ledger is an out-of-character planning reference. Jon's centuries of study support informed historical recall, but not omniscience about secret motives, disputed evidence, exact future outcomes or changes caused by this run. Arra knows the transfer; she does not automatically know this entire timeline. After Turn 13 she knows only the additional remembered battle account Jon actually shared with her, as recorded in CHARACTER.md.
+This ledger is an out-of-character planning reference. Jon's centuries of study support informed historical recall, but not omniscience about secret motives, disputed evidence, exact future outcomes or changes caused by this run. Arra knows the transfer; she does not automatically know this entire timeline.
