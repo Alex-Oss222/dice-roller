@@ -49,6 +49,8 @@ Jon knows his household and chosen captains. Their personal names can be supplie
 
 Jon has dismissed corrupt officials, audited the treasury and noble obligations, instituted harvest and winter-provision reporting, reorganized the garrison under personally loyal captains, ordered infrastructure and defense repairs, strengthened route patrols and worked with Manderly on White Harbor grain and commercial movement. The state and scope of these measures are recorded in [WORLD.md](WORLD.md).
 
+Jon has **20,000 GD of additional available cash** confiscated from Bennard before the opening and held in Winterfell's treasury under his control. This is the same single receipt recorded in [WORLD.md](WORLD.md#cash-confiscated-from-bennard), with no spending or commitment assigned to it.
+
 He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority.
 
 His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.

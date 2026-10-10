@@ -6,9 +6,11 @@ In an ordinary year Winterfell takes in 273,168 GD of cash after its estates pay
 
 ## Campaign scope at the first-moon 126 opening
 
-This ordinary-year model is a reference, not the audited campaign ledger for the third day of the first moon, 126 AC. The accepted [124–126 AC backstory](../STORY.md#established-backstory-124126-ac) establishes completed audits, administrative reforms, repair orders, strengthened patrols and White Harbor logistical cooperation. These facts stand even though their precise costs, receipts, completed quantities and current balances were not supplied.
+This ordinary-year model is a reference, not the audited campaign ledger for the third day of the first moon, 126 AC. The accepted [124–126 AC backstory](../STORY.md#established-backstory-124126-ac) establishes completed audits, administrative reforms, repair orders, strengthened patrols and White Harbor logistical cooperation. These facts stand even though their complete costs, receipts, completed quantities and total current balances have not been quantified.
 
 The modeled opening stocks of 250,000 GD and 70,777 quarters, and modeled closing stocks of 470,743 GD and 71,879 quarters, are not automatically the actual early-126 balances. [WORLD.md](../WORLD.md) records the campaign's established quantities. Use the existing audited records to establish needed particulars in play; do not restart the audit or import payments from discarded runs.
+
+The campaign separately establishes a completed pre-opening confiscation of **20,000 GD from Bennard**, held in Winterfell's treasury and still available and uncommitted at the opening. This actual, nonrecurring receipt is recorded in [WORLD.md](../WORLD.md#cash-confiscated-from-bennard). The ordinary-year model below excludes confiscation windfalls; its figures are unchanged. Include the known additional cash once in the eventual live balance, without automatically treating the model's 250,000 GD as an established ordinary reserve.
 
 ## How to use this sheet
 

@@ -64,7 +64,15 @@ These are practical measures through existing institutions, not a completed cont
 
 ## Finances, references and proposed development
 
-The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain quantitative references. Their model opening resources of 250,000 dragons and 70,777 quarters are not automatically a counted early-126 balance. The backstory supplies no exact current balance or total historical cost.
+### Cash confiscated from Bennard
+
+Before the opening, Jon confiscated **20,000 gold dragons (GD)** from Bennard. This is an exact player-established receipt already collected into Winterfell's treasury under Jon's control. As of the third day of the first moon, 126 AC, **20,000 GD remains available and uncommitted** from this confiscation. It is additional to the ordinary treasury reserves and is held once in the treasury, with no duplicate personal purse balance.
+
+Carry this nonrecurring receipt forward once. When recording a complete treasury balance, include the confiscated cash once and state that it is included; do not credit it again. No spending or development commitment has been assigned to it.
+
+### Fiscal references and other balances
+
+The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain quantitative references. Their model opening resources of 250,000 dragons and 70,777 quarters are not automatically a counted early-126 balance. The complete current treasury balance, excluding or including this supplement, and total historical costs have not yet been quantified. The known additional 20,000 GD is available now; establishing the rest of the balance does not require replaying the confiscation or the completed audit.
 
 Jon's audit is **already completed** and its records exist. When a numerical decision needs them, establish dated current figures from those records, using the model where appropriate and labeling additional assumptions. Do not replay a first audit or imply that Jon lacks the knowledge simply because the file does not yet print the numbers.
 

@@ -25,7 +25,9 @@ Jon is eighteen in body and governs from the lord's solar. It is morning on the 
 
 ## Finances and development
 
-The audits and practical reforms are accepted backstory, not work that must be replayed. Exact opening balances, force counts, prior costs and completed repair quantities were not supplied. Establish relevant particulars through existing records when needed without treating those omissions as ignorance or a failed audit.
+The audits and practical reforms are accepted backstory, not work that must be replayed. The complete opening treasury balance, force counts, prior costs and completed repair quantities have not been quantified. Establish relevant particulars through existing records when needed without treating those omissions as ignorance or a failed audit.
+
+Jon confiscated **20,000 GD from Bennard before the opening**. It is already received, available and uncommitted in Winterfell's treasury, additional to the ordinary reserves. [WORLD.md](stories/story-003/WORLD.md#cash-confiscated-from-bennard) records this single receipt. Carry it forward once and include it once when a complete balance is established; do not create a duplicate personal balance or replay the confiscation.
 
 The fiscal model is not itself the audited early-126 ledger. Do not automatically credit annual income or import the old runs' spending. The [Northern Development Program](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a separate **unapproved proposal**. Its proposed later-126 schedule is still prospective; check timing and overlaps with existing work before adoption so work is not ordered or charged twice.
 
