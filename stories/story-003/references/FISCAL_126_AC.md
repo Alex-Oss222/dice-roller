@@ -1,5 +1,7 @@
 # Fiscal Sheet for a Medieval Lord: Demesne, Realm, Tithes and Taxes
 
+> **Historical model, original money scale.** All monetary amounts and chart labels below convert by ×20 to the revised campaign. Physical quantities and coin ratios do not change. Use the [129 account](FISCAL_129_AC.md) and revised price book for current play.
+
 Oct 9, 2026 · @Alex
 
 In an ordinary year Winterfell takes in 273,168 GD of cash after its estates pay their running costs. It spends 11,450 GD on household and works, sends 40,975 GD to the Crown, and keeps 220,743 GD. This sheet follows each dragon from the farm that earned it to the account that holds it.

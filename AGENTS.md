@@ -5,7 +5,7 @@ Keep the role-playing chat simple and literary. Use the repository as its persis
 ## Before every turn
 
 1. Select one story only.
-2. Record the current `main` commit and read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md` from that same repository snapshot. If `CHARACTER.md` links a full character sheet or source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
+2. Record the current `main` commit and read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md` from that same repository snapshot. If `STORY.md` is an index, read its latest linked turn and any earlier turns needed for continuity. If `CHARACTER.md` links a full character sheet or source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
 3. Read `rules/TURN_PROCESS.md`. If the selected story links a future-event calendar, read it from the same snapshot and follow that process for conditional events and countdowns.
 4. Read `rules/NARRATIVE.md`.
 5. Read `rules/TURN_OUTPUT.md`.
@@ -51,7 +51,7 @@ Stop when the player reaches the next meaningful decision. Do not continue throu
 Follow the save transaction in `rules/TURN_PROCESS.md`.
 
 - Prepare the complete new contents of every affected live file before writing.
-- Append the accepted scene to the selected story's `STORY.md` exactly once.
+- Save the accepted scene exactly once in the selected story's existing format: append to `STORY.md`, or add a numbered turn file and link it from `STORY.md`.
 - After every accepted turn, update `CHARACTER.md` current metadata so turn, date, time, and location match the end of the scene. Update deeper character state only for lasting changes.
 - Update `WORLD.md` only for lasting facts likely to matter later: army strengths and losses; available funds, spending, and commitments; holdings and development projects with their location, cost, progress, and effects; and important NPC, political, travel, death, obligation, economic, or world changes.
 - If the selected story has a future-event calendar, synchronize it with the ending date and any changed prerequisites or outcomes in the same commit. Pending historical events are not accomplished world facts or automatic character knowledge.

@@ -1,5 +1,7 @@
 # Lord Stark's Roll of Northern Works and Charges, 126–129 AC
 
+**Current status, 129/01/30:** adopted on 126/01/11 and closed on 129/01/12. All monetary figures below retain the original scale and convert by ×20. This is the original proposal, retained for comparison; its opening-status language below is historical. Actual work and costs are in [WORLD.md](WORLD.md#northern-development-program) and the [129 fiscal account](references/FISCAL_129_AC.md).
+
 *Planning roll, reckoned in gold dragons and twelve thirty-day moons to the accounting year. The account is to be closed and examined by the end of the first moon of 129 AC.*
 
 **Status at the opening on the third day of the first moon, 126 AC: unapproved reference proposal.** This roll has not been adopted as a program and reserves no budget. The accepted backstory already establishes audits, administrative reforms, repair orders, patrols and White Harbor logistical cooperation. Those existing measures remain in force; compare them with this proposal before adoption so overlapping work is not ordered or charged twice. [WORLD.md](WORLD.md) is the source of live state.

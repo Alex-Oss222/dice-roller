@@ -58,7 +58,7 @@ Keep this calendar in preparation and saved records. In scenes, present events t
 - Adjudicate an attempt and its outcome separately. A planned attack may still happen while its target, route, success, casualties or aftermath change. Historical force sizes and death totals are references, never automatic deductions from the live world.
 - A proposal or hopeful intention is not successful prevention. Record what Jon actually authorizes, what is implemented, when it takes effect and what it changes. Existing roads, supplies, patrols and institutions from the accepted backstory already matter; do not demand that he rebuild them before they can affect an outcome.
 - Do not force history to converge again. Reassess affected descendants after a changed alliance, survival, journey, battle or outbreak. Leave unrelated events intact where their causes remain intact.
-- An event's occurrence, the departure and arrival of news, and Jon's learning of it are different facts. Record credible information routes and delays. The opening White Harbor letter is still unopened and its contents are not determined by this calendar.
+- An event's occurrence, the departure and arrival of news, and Jon's learning of it are different facts. Record credible information routes and delays.
 - Pause at a consequential choice belonging to Jon, even inside a requested period of downtime. Calendar rows do not authorize his alliance, military orders, judgments, travel, marriage or disclosure. NPCs can make offers, send warnings and act on their own.
 - Broad summaries and component events overlap. Apply each death, loss, expense and succession once. A plague summary is not another wave of casualties; the end of an invasion is not another battle.
 

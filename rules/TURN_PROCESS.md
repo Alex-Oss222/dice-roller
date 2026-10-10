@@ -6,7 +6,7 @@ Use this process for every accepted player turn. The purpose is to keep the pros
 
 1. Select one campaign only.
 2. Record the current `main` commit before reading campaign state.
-3. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md` from that same commit.
+3. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md` from that same commit, including the latest linked turn if `STORY.md` is an index and earlier turns as needed.
 4. If `CHARACTER.md` links a source sheet, read it for established background and limits. The live story files govern the current date, body, location, authority, possessions, knowledge, and consequences.
 5. Read `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md`.
 6. Read `rules/COMBAT.md` and economic references only when relevant.
@@ -71,7 +71,7 @@ Prepare complete replacement contents for every changed live file before writing
 
 ### `STORY.md`
 
-Append the accepted turn exactly once. Do not silently rewrite earlier accepted turns during ordinary play.
+Preserve the story's existing format: append the accepted turn exactly once, or save it in a numbered file and update this index. Do not silently rewrite earlier accepted turns during ordinary play.
 
 ### `CHARACTER.md`
 
@@ -100,7 +100,7 @@ Do not update it for every ordinary turn. Update it at a reset, major developmen
 Before committing, verify:
 
 - the new turn number follows the previous accepted turn;
-- `STORY.md` contains the complete accepted scene once;
+- `STORY.md` contains or links the complete accepted scene once;
 - the ending date, time, and location agree across the scene and `CHARACTER.md`;
 - elapsed time is plausible and authorized;
 - lasting injuries, knowledge, possessions, payments, losses, commitments, projects, and world events are reflected in the correct live file;

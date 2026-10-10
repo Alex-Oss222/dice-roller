@@ -4,7 +4,7 @@ Read this first, then [AGENTS.md](AGENTS.md).
 
 ## Current position
 
-Story 3 is at **Turn 12 completed, the evening of the thirtieth day of the first moon, 129 AC**. Turns 1 to 12 are saved in [STORY.md](stories/story-003/STORY.md) after the player's accepted 124–126 AC backstory and replacement opening.
+Story 3 is at **Turn 12 completed, the evening of the thirtieth day of the first moon, 129 AC**. [STORY.md](stories/story-003/STORY.md) indexes separate files for Turns 0–12 and preserves the accepted backstory. Read the [latest turn](stories/story-003/turns/TURN_012.md) for the exact ending scene.
 
 Read one current repository snapshot: Story 3's [CHARACTER.md](stories/story-003/CHARACTER.md), [WORLD.md](stories/story-003/WORLD.md), [STORY.md](stories/story-003/STORY.md), linked [487 AC source profile](stories/story-003/Jon_Stark_487_AC_.md), the [conditional future-event calendar](stories/story-003/FUTURE_EVENTS.md), and the required shared rules and research.
 
@@ -24,9 +24,11 @@ Jon is twenty-one in body and governs from the lord's solar. The Roll of Norther
 
 ## Finances and development
 
-The audits and practical reforms are accepted backstory. Turn 1 established the counted treasury position; [WORLD.md](stories/story-003/WORLD.md#finances) carries the running count (828,800 GD on 129/01/30, including the 20,000 GD confiscated from Bennard held once in its own strongbox), the instalments actually received each year, the arrears, the regency's notes of hand (8,000 of 11,000 GD recovered; the Dreadfort owes 3,000), the grain in store (78,600 quarters including a bought reserve of 12,000) and the standing charges outside the roll (the garrison's hundred, Moat Cailin, the keeping charge). Carry these forward; never reset them to the fiscal model.
+The [129 fiscal account](stories/story-003/references/FISCAL_129_AC.md) and revised price book now use **×20 the archived monetary scale**. Only the original 126 model and works proposal retain old monetary values. The trimmed scenes, backstory, WORLD and CHARACTER already use revised amounts.
 
-The [Roll of Northern Works](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) was **adopted 126/01/11 and closed at its examination on 129/01/12**: 23,860 GD paid of the 81,634.14 GD ceiling; the works built, struck, leased and kept are in [WORLD.md](stories/story-003/WORLD.md#northern-development-program). The roll is no longer a pending program. Whether a second roll is written is the player's open question.
+The vault holds **16,576,000 GD**, including Bennard’s 400,000 once. Ordinary annual receipts are planned at **5,829,820**, ordinary surplus at **4,509,679**, and northern GDP at **67.7 million** against 66 million in 126. Forecasts are not received cash. The last grain count is **78,600 quarters on 128/10/20**, including the 12,000 bought reserve; later issues are incomplete.
+
+The old works roll is closed at **477,200 GD paid**. Its undrawn 1,155,482.80 is already inside the vault. The player has now authorized **180,000 for Mormont’s wharf and stone enclosure and 50,000 for Reed’s raised stores, landings, boats and food**. These are unspent commitments, with no completed buildings or first-year income claimed. A further 14,000 is allowed for Moat Cailin: **16,332,000 remains without these commitments**. Jon’s remembrance of Lyanna, Bran and Meera is private. The broader second roll and succession response remain open.
 
 ## Conditional future events
 
