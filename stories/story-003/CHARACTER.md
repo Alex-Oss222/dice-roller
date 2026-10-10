@@ -1,12 +1,12 @@
 # Story 3 · Jon Stark in Cregan Stark's body
 
-## Character reference
+## Character sheet and current state
 
-Read [Jon Stark, 487 AC](Jon_Stark_487_AC_.md) for Jon's complete identity, biography, personality, memories, learning, experience, and established limits. This file records his current situation in 126 AC rather than reproducing that profile.
+[Jon_Stark_487_AC_.md](Jon_Stark_487_AC_.md) is the complete character sheet: Jon's identity, biography, personality, memories, learning, experience, and established limits in 487 AC. Read it alongside this file, which records his current body and situation in 126 AC.
 
-The uploaded profile is a preserved source. Its Blood & Gold labels, capability scores, tier tables, and rating-change instructions are not active rules. Use the experience and limitations described in it. This campaign follows the repository's ordinary narrative rules.
+The character sheet is preserved in full. Its Blood & Gold labels, capability scores, tier tables, and rating-change instructions are not active rules. Use the experience and limitations described in it. This campaign follows the repository's ordinary narrative rules.
 
-This is a fresh run from the original opening. The previous five-turn play-test is retired, not part of this run's events or Jon's memories. See `../../HANDOFF.md` for its archive.
+This is a fresh run from the original opening. Events from the retired play-test are not part of this run or Jon's memories.
 
 ## Current record
 

@@ -36,11 +36,13 @@ Begins at the holdfast north of Winterfell on the morning of the Night's Watch d
 
 ### Story 3 · Jon Stark in Cregan Stark's body · 126 AC
 
-- [Current character](stories/story-003/CHARACTER.md)
+- [Character sheet](stories/story-003/Jon_Stark_487_AC_.md)
+- [Current character state](stories/story-003/CHARACTER.md)
 - [Story](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
+- [Fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md)
 
-A fresh run from the original opening. The first player action will be Turn 1. Jon retains his own identity, memories, personality, knowledge, and experience. His current record links the complete prior-life profile inside Story 3; its legacy scores are inactive.
+A fresh run from the original opening. The first player action will be Turn 1. `Jon_Stark_487_AC_.md` is the full character sheet; `CHARACTER.md` records his current situation in Cregan's body. The sheet's legacy scores are inactive. Supporting fiscal material and its graphs live in Story 3's `references/` folder.
 
 See [HANDOFF.md](HANDOFF.md) for the current position, unresolved premise, and development agenda.
 
@@ -58,9 +60,9 @@ Each campaign develops independently. Its own recorded facts govern subsequent t
 
 For a new chat:
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Open the current run of stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked source profile, and required writing rules. Use the live files without importing the retired play-test. If no player turn has been resolved in this run, present the saved opening for my first action; otherwise resume the latest saved situation. Resolve any flagged premise when it affects the scene, and wait for my action. I control Jon's meaningful choices. Do not advance time before my response.
+> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Open the current run of stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked character sheet, and required writing rules. Use the live files without importing the retired play-test. If no player turn has been resolved in this run, present the saved opening for my first action; otherwise resume the latest saved situation. Resolve any flagged premise when it affects the scene, and wait for my action. I control Jon's meaningful choices. Do not advance time before my response.
 
-If the chat cannot write, retain both player actions and GM responses from the current run for later reconciliation. Confirm the import before resuming elsewhere. The [retired first play-test transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) remains historical evidence, not current campaign state.
+If the chat cannot write, retain both player actions and GM responses from the current run for later reconciliation. Confirm the import before resuming elsewhere.
 
 ## Rules and references
 

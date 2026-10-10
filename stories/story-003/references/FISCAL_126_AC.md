@@ -29,7 +29,9 @@ Three rules keep the sheet honest:
 
 ## The money map
 
-&#91;embedded content: House Stark, one year · cash only; grain moves in quarters and is not drawn (see the grain account)\]
+![House Stark, one year · cash only; grain moves in quarters and is not drawn (see the grain account)](fiscal-figures/annual-cash.png)
+
+House Stark, one year · cash only; grain moves in quarters and is not drawn (see the grain account).
 
 Read left to right. Winterfell takes in 283,632 GD: 179,181 GD of tribute from 35 bannermen, 47,781 GD of tenants' rents, and 56,670 GD from its own stock, leases and grain. Tribute is 63 percent of the inflow. Of the whole, 220,743 GD stays in the treasury, 40,975 GD goes to the Crown, and 21,914 GD pays for the estates, the household and the Night's Watch gift.
 
@@ -39,11 +41,15 @@ The Crown also takes 58,035 GD of royal customs at six ports. That money never p
 
 The workbook counts a year, not a moon, so the moon figures here are the year cut into pieces. A moon is about 30 days and twelve make a year. The sheet fixes one thing: the bannermen and the Crown are paid in two instalments, 60 percent and then 40 percent. It gives no dates for them. I put the instalments in moons 4 and 10, six moons apart, and spread everything else evenly over the twelve. Move the instalments and the yearly totals do not change.
 
-&#91;embedded content: House Stark, one average moon, GD · the yearly money map divided by 12\]
+![House Stark, one average moon, GD · the yearly money map divided by 12](fiscal-figures/average-moon.png)
+
+House Stark, one average moon, GD · the yearly money map divided by 12.
 
 This is the year divided by twelve. It is true on average and wrong in almost every actual moon, because the bannermen do not pay every moon.
 
-&#91;embedded content: House Stark, by moon, GD · instalment moons are my assumption\]
+![House Stark, by moon, GD · instalment moons are my assumption](fiscal-figures/monthly-cash.png)
+
+House Stark, by moon, GD · instalment moons are my assumption.
 
 Two moons bring in 83 percent of the year's cash. The other ten bring in about 4,700 GD each and spend about 1,800, so every quiet moon still adds about 2,900 GD to a chest that opens the year at 250,000.
 
@@ -58,7 +64,9 @@ Per moon, in gold dragons. Out is costs plus the Crown. Kept is what is added to
 
 The Crown is paid at the instalments, not every moon: 24,585 GD in moon 4 and 16,390 GD in moon 10.
 
-&#91;embedded content: House Stark, first instalment moon (moon 4), GD\]
+![House Stark, first instalment moon (moon 4), GD](fiscal-figures/first-instalment.png)
+
+House Stark, first instalment moon (moon 4), GD.
 
 In the first instalment moon, 76 percent of the cash that comes in is tribute, and 93 percent of what goes out is the Crown's share.
 
@@ -76,7 +84,9 @@ Every party in the chain keeps its own account. The table runs from the estates 
 
 All figures are GD for one year. Tribute is counted once as paid by the lower house and once as received by the higher one, so the columns do not add across levels. Only the last column does: 60,104 + 587,975 + 220,743 = 868,822 GD. The Crown's 99,010 GD is Winterfell's 40,975 GD plus 58,035 GD of royal customs. Figures are rounded, so a row may differ by 1.
 
-&#91;embedded content: House Stark and its bannermen, one year · House Accounts sheet\]
+![House Stark and its bannermen, one year · House Accounts sheet](fiscal-figures/accounts-by-level.png)
+
+House Stark and its bannermen, one year · House Accounts sheet.
 
 Blue is tribute, the same blue as the money map. The share paid up is 15 to 21 percent at every level; the rest is costs and the surplus kept.
 
@@ -128,11 +138,15 @@ Winterfell's own estates hold 72,480 of the North's 800,000 households, 9 percen
 
 The North is the poorest region in the sheet: 3,300,000 GD a year, against 9,000,000 for the Reach and 5,400,000 for the Westerlands. Dorne ranks second at 7,500,000 and pays the Crown nothing. These regional figures are simulation assumptions.
 
-&#91;embedded content: North and the other regions, 126 AC, GD · Regional GDP 126 sheet\]
+![North and the other regions, 126 AC, GD · Regional GDP 126 sheet](fiscal-figures/regional-output.png)
+
+North and the other regions, 126 AC, GD · Regional GDP 126 sheet.
 
 The dark bar is the North. The dashed line is the 6,000,000 GD reference output that the workbook scales the North against. The Westerlands bar sits below the line at 5,400,000 because the sheet applies a factor of 0.9 for 126 AC.
 
-&#91;embedded content: The North, one year, GD · Economy sheet, base value added times the price multiplier\]
+![The North, one year, GD · Economy sheet, base value added times the price multiplier](fiscal-figures/northern-output.png)
+
+The North, one year, GD · Economy sheet, base value added times the price multiplier.
 
 Livestock and dairy are 44 percent of what the North produces and crops are 15 percent. That mix is the workbook's own, and it is kept unchanged here.
 
@@ -328,7 +342,9 @@ That is 7 percent of the estates' output and 24 percent of the lord's gross rece
 
 Winterfell stands in the middle of a chain. It collects 179,181 GD from 35 bannermen and pays 40,975 GD to the Crown, so it keeps 138,206 GD of net tribute. Money moves in four ways: up to the Crown, out to the Night's Watch, in from the bannermen, and across the ports.
 
-&#91;embedded content: House Stark, one year, GD · from the workbook's House Accounts and Payments sheets\]
+![House Stark, one year, GD · from the workbook's House Accounts and Payments sheets](fiscal-figures/tribute-chain.png)
+
+House Stark, one year, GD · from the workbook's House Accounts and Payments sheets.
 
 Read from the bottom up. Each level pays the one above it, and the bars on the right show what each level keeps. The 35 direct bannermen keep 587,975 GD between them, more than twice what Winterfell keeps.
 
@@ -382,9 +398,11 @@ Each bannerman pays a fixed share of the cash he has available, from 25 percent 
 
 The first instalments bring in 107,509 GD and the second 71,673 GD. Rows are rounded. Manderly alone accounts for 21 percent of what is due, and the five largest houses for 56 percent.
 
-&#91;embedded content: House Stark, one year, GD · Payments sheet, cash paid by each direct bannerman\]
+![House Stark, one year, GD: cash paid by the twelve listed bannermen and the combined other twenty-three houses](fiscal-figures/bannerman-payments.png)
 
-The blue bars are the five houses that carry most of the load. Each of the other 30 pays 5.5 percent of the total or less.
+House Stark, one year, GD: cash paid by the twelve listed bannermen and the combined other twenty-three houses.
+
+The blue bars are the five houses that carry most of the load. Each of the other 30 pays 5.5 percent of the total or less. The reconstructed chart shows the twelve individually listed houses and a separate combined bar for the other twenty-three; that final bar does not represent one house.
 
 ### Net tribute
 
@@ -475,7 +493,9 @@ Cash reaches Winterfell in two instalments, 60 percent and 40 percent, and the s
 
 Rows are rounded from exact figures, so a rent or tribute split may differ from its total by 1. Grain keeps its own calendar: the harvest fills the granary, seed is drawn for the next sowing, the retinue and workers draw food through the year, and Winterfell sells its surplus. That is in the grain account.
 
-&#91;embedded content: House Stark, one year, GD · same figures as the calendar table above\]
+![House Stark, one year, GD · same figures as the calendar table above](fiscal-figures/treasury-calendar.png)
+
+House Stark, one year, GD · same figures as the calendar table above.
 
 Grey is what the treasury already held. Dark is what each step added once its outgoings were paid.
 
@@ -498,7 +518,9 @@ No stress test opens a cash deficit at Winterfell or at any other house. I recal
 
 The tests are mine, not the workbook's, and each changes one input. Forgiving rents costs Winterfell 15,596 GD of surplus. Half-payment by the bannermen costs 76,741 GD, but arrears across the North rise from 2,584 to 98,244 GD, and the Crown loses 13,542 GD because its share is a fixed 15 percent of Winterfell's cash. A 25 percent Crown share costs Winterfell 27,317 GD.
 
-&#91;embedded content: House Stark, one year, GD · stress tests on a copy of the workbook\]
+![House Stark, one year, GD · stress tests on a copy of the workbook](fiscal-figures/treasury-stress-tests.png)
+
+House Stark, one year, GD · stress tests on a copy of the workbook.
 
 Bannermen paying half is the test that matters, because tribute is 66 percent of the cash Winterfell receives.
 
@@ -514,7 +536,9 @@ Three cautions follow:
 
 Winterfell's granary starts the year with 70,777 quarters, takes in 338,087 more, uses 100,250, sells 236,735 and ends with 71,879. Grain is kept in quarters and never mixed with the cash account.
 
-&#91;embedded content: Winterfell, one year, quarters of 8 bushels · the grain account\]
+![Winterfell, one year, quarters of 8 bushels · the grain account](fiscal-figures/grain-account.png)
+
+Winterfell, one year, quarters of 8 bushels · the grain account.
 
 Winterfell sends no grain to the Crown; it sends cash. It buys no grain.
 
@@ -592,3 +616,9 @@ Four things to bear in mind when reading the figures:
 What the sheet leaves out by rule: any general tithe, the Gift and New Gift, a war levy, confiscation windfalls, new mines, any 129 AC income, debt and interest. Cash balances exclude plate, land and stored produce. There is no cash account for tenant households.
 
 To adapt the sheet to another house, change the Crown share, then the bannermen's rates, then the rent per holding class, in that order. They move the surplus most.
+
+## Chart preservation
+
+The Word and Markdown uploads contained the same text and all 29 tables. This single reference preserves that content and the eight chart images present in the Word file. The charts are static exports; any hover instructions printed inside an original image do not provide interactive values here.
+
+Four chart images were absent from both exports. Their replacements are labeled as reconstructions: bannerman payments use the supplied tribute table, the treasury calendar uses its listed closing balances, the stress tests use their table, and the grain account uses the five quantities stated in its opening paragraph. The twenty-three unnamed bannermen remain grouped because their individual payments were not supplied. Rounding and all model assumptions remain as stated in the source.

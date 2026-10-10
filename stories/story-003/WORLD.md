@@ -29,11 +29,11 @@ The steward has brought household accounts. They have not been examined or appro
 
 Winterfell is the center of Cregan's household and authority. Distance, routes, messengers, local lords, and the people maintaining stores and records limit how quickly instructions can become action elsewhere.
 
-The opening economic baseline is qualitative and specific to 126 AC: the existing Stark lordship supports a working household, retainers, property, stores, and obligations. Exact revenues, cash reserves, debts, levies, harvest conditions, and project costs have not been established for this run.
+The existing Stark lordship supports a working household, retainers, property, stores, and obligations. The supplied [fiscal reference for 126 AC](references/FISCAL_126_AC.md) provides opening stocks, ordinary-year cash and grain flows, prices, dues, and model assumptions. Use these when establishing dated campaign finances. Annual receipts and the modeled closing treasury are not already collected cash; modeled standing retainers are not the entire northern war muster. The opening's exact day and month remain unestablished, and no audit or payment has been played.
 
 When amounts become relevant, distinguish Winterfell's treasury and direct estates from Jon's personal money and the wealth of other northern houses. Record the date, currency or physical unit, cash present, unpaid bills and existing commitments, ordinary expenses over a stated period, and income expected but not yet received. Separate coin available for a new commitment from money already needed elsewhere. A complete inventory of the North is not required before play.
 
-Use [the shared economic reference](../../references/ECONOMY.md) when a decision materially needs it. Its 283 AC workbook is a modeling aid, not a ready-made 126 AC balance sheet. Establish period and local conditions without automatic backward growth calculations. Jon's later building programs and reforms have not already happened here.
+Use [the shared economic guidance](../../references/ECONOMY.md) with the 126 AC fiscal reference when a decision materially needs it. The shared 283 AC workbook can inform gaps, but does not replace the supplied 126 AC assumptions or later saved campaign changes. Jon's later building programs and reforms have not already happened here.
 
 ## Canon and knowledge
 
@@ -45,4 +45,4 @@ After Jon arrives, actions and consequences determine events. The canonical Danc
 
 The original opening's source notes used the book-referenced entries for [Cregan Stark](https://awoiaf.westeros.org/index.php/Cregan_Stark), [Arra Norrey](https://awoiaf.westeros.org/index.php/Arra_Norrey), and [Viserys I](https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen). These are secondary guides to the books, not authority for television additions or invented local details.
 
-The complete prior-life source remains [Jon Stark, 487 AC](Jon_Stark_487_AC_.md).
+The complete character sheet is [Jon_Stark_487_AC_.md](Jon_Stark_487_AC_.md).

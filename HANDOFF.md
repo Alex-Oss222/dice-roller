@@ -16,7 +16,7 @@ Each campaign has three live files:
 - `WORLD.md`: lasting facts, relationships, obligations, and unresolved business, including army strengths and losses, available funds, spending and commitments, and development projects with their location, cost, progress, and effects.
 - `STORY.md`: accepted scenes.
 
-`AGENTS.md` owns the general adjudication and saving instructions. `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md` govern scene writing. Load combat and economic references when relevant. Source profiles and archives provide evidence, not competing game instructions.
+`AGENTS.md` owns the general adjudication and saving instructions. `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md` govern scene writing. Load combat and economic references when relevant. Character sheets and supporting references provide evidence, not competing game instructions.
 
 Use a plain repository-enabled chat for this project. Save accepted scenes and material changes during play when writes are available. Otherwise preserve the conversation and reconcile the player's chosen batch before changing chats. Review continuity after completed Turns 20, 40, 60, and so on, following the checkpoint instructions in `AGENTS.md`. This is a review interval, not a guarantee of chat memory.
 
@@ -25,19 +25,13 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 - Story 1: Eddard Stark, 283 AC, at its Turn 0 opening.
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
 - Story 3: a fresh run of Jon Stark from 487 AC in Cregan Stark's body in 126 AC. The original opening has been restored. No player action has been resolved in this run; the first action will be Turn 1. The first checkpoint is after Turn 20.
-- The complete source profile remains inside Story 3. Its legacy scores are inactive.
-- The earlier five-turn run is retired. Its [original transcript](stories/story-003/ChatGPT-Play%20Story%20003-20261009-0251.md) remains an archive; its reconciled files remain in [repository history before the restart](https://github.com/Alex-Oss222/dice-roller/tree/77115e02dc488a7ee6134e35091350e3fb6e885c/stories/story-003). Do not import those events or findings into the fresh run.
+- [Jon_Stark_487_AC_.md](stories/story-003/Jon_Stark_487_AC_.md) is Story 3's complete character sheet. `CHARACTER.md` records his current 126 AC state; the sheet's legacy scores are inactive.
+- Story 3 has one [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), with its graphs in the adjacent `fiscal-figures/` folder.
 - The economic workbook and narrative research remain references.
-
-## Earlier play-test findings
-
-The retired run exposed repeated action menus, citations inside scenes, administrative explanation, and missing useful financial amounts. Its observations informed the shared guidance. They are not events that Jon remembers in this fresh run, and the old outcomes are not predetermined.
-
-The current guidance still needs ordinary play to demonstrate narrative quality, consequential spending, military accounting, and reliable continuation from saved files.
 
 ## Next play session
 
-Start Story 3 from its live files and linked source profile. Use the restored opening in `STORY.md`; do not read the retired transcript for current state or resume after its Turn 5.
+Start Story 3 from its live files and linked character sheet. Use the restored opening in `STORY.md`. The retired run is not current history.
 
 It is morning in 126 AC, on an unestablished day. Jon has just become aware of Cregan's body in a working chamber at Winterfell. A steward brings household business and Bennard's request for an audience without a clerk. Bennard and his sons remain confined. Jon has not answered.
 
@@ -47,7 +41,7 @@ Arra and Cregan's marital status remains unresolved: the earlier draft assumed t
 
 ## Development agenda
 
-The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The restart has no established treasury balance, audit findings, project costs, or player commitments. Establish useful amounts consistently when a decision needs them, and save them without presenting authored values as book figures.
+The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The supplied fiscal reference provides 126 AC model amounts and assumptions. Use its opening stocks and relevant rates when establishing dated campaign finances; its annual receipts, closing balances, and stress tests are not events already played. No audit or new player commitment has occurred in the fresh run. Keep consequential amounts in the live state as play changes them.
 
 1. Begin the fresh run with the player's first action. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
 2. Save accepted scenes and material changes during play. Keep consequential quantities, costs, resources, obligations, and project progress in the existing state.

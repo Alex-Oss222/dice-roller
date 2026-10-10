@@ -5,7 +5,7 @@ Keep the role-playing chat simple and literary. Use the repository as its persis
 ## Before every turn
 
 1. Select one story only.
-2. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md`. If `CHARACTER.md` names a source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
+2. Read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md`. If `CHARACTER.md` links a full character sheet or source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
 3. Read `rules/NARRATIVE.md`.
 4. Read `rules/TURN_OUTPUT.md`.
 5. Read `rules/COMBAT.md` only if the turn contains combat, a battle, siege, pursuit, or military movement where those rules matter.
