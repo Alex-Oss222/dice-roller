@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 8 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 9 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 8 completed |
-| Date and time | Thirtieth day of the tenth moon, 127 AC, evening |
+| Turn | 9 completed |
+| Date and time | Fifteenth day of the third moon, 128 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Twenty physically since the ninth moon of 127 (an authored nameday); 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Fully accustomed to Cregan's body; no current illness, injury or lasting impairment |
-| Immediate situation | The wet harvest is in and its loss counted; the Acorn Water bridge stands; the lords' accounts of men are locked in the chest; the castle yards are to be priced for 128 |
+| Immediate situation | The second fair is closed and the mill has fulled its first bolt; the castle yards are let for spring; the king is reported sick again and the Hand governing; Arra is at Winterfell through the shearing |
 
 ## Transfer and memory
 
@@ -39,11 +39,11 @@ No numerical measurements or comparison proving either body superior is specifie
 
 During 125 Jon secured the loyalty of Winterfell's household, developed relationships with the Cerwyns, Glovers and Norreys, investigated the regency, and gathered enough political and armed support to take control without a northern civil war. He took Winterfell in late 125 and had established his rule by the third day of the first moon, 126 AC. The household accepts his greater maturity as a consequence of the injury and struggle with Bennard.
 
-Bennard and Benjen have already been convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared them execution. Brandon is a political ward with House Glover and Elric with House Manderly; neither was implicated in the assassination. Their formal oaths recognize Cregan and renounce a succession challenge. Margaret Karstark was permitted to return to Karhold and has been there since the twelfth moon of 125. These are settled backstory outcomes, not unfinished negotiations. Bennard has asked three times, through his guard, to speak with Jon; Jon has not answered.
+Bennard and Benjen are convicted and imprisoned for life under separate guard at Winterfell; Jon spared them execution. Bennard has the maester's monthly word of Benjen and exchanges letters with Margaret Karstark through the maester; Benjen has books and a brazier. Margaret visited both in the tenth moon of 127 and asked that Benjen take the black; Jon refused; the sentences stand. Brandon (nineteen in 128) is a squire in Glover's household and asked at the fair of 128 to come home; refused until his two remaining years under the oath are done, with a different answer promised then, not Winterfell. Elric (sixteen in 128) is a page in Lord Desmond Manderly's household and asked nothing of Jon but whether his mother had seen his father. A Manderly match for Elric is deferred to his majority. These are settled outcomes, not unfinished negotiations.
 
-Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared upbringing and relationship through Cregan's full memories, while retaining his own identity and personality. Before the opening he trusted her with the truth of the transfer because she was Cregan's trusted friend. **She knows he is Jon and loves him as a friend.** They remain unmarried and unbetrothed. On the fifth day of the third moon, 126, Jon told her he cannot marry her or anyone for now, that he is not the man she loved and has become the Lord of the North, and that as long as he lives she has mead at his table and shelter at his hearth at Winterfell; she took it as the answer to carry to her father. She left Winterfell at first light on the thirteenth day of the third moon for the Norrey's hall by the Flint's stone track, with Sergeant Donnel's escort, carrying Jon's letter to Gram Norrey and the six clans' letters, and does not expect to be back before the shearing. No office, formal oath or program commitment is implied.
+Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared history through Cregan's full memories, while retaining his own identity and personality. **She knows he is Jon and loves him as a friend.** They remain unmarried and unbetrothed. Jon told her on 126/03/05 that he will not marry her or anyone for now and that she has mead at his table and shelter at his hearth as long as he lives, which he said again before the Norrey and the Wull in the hall on 126/05/28. She lives in the hills and comes down for fairs, harvests and the shearing; she is at Winterfell through the shearing of 128. No office, oath or program commitment is implied.
 
-Jon has met Lord Cerwyn, Master Tallhart and Lord Dustin at their own seats and Lord Hornwood at Winterfell, and corresponds with Lord Desmond Manderly, Glover, Umber, Karstark and Bolton. Jon knows his household and chosen captains. Their personal names can be supplied when relevant; a name omitted from these files is not amnesia. Do not import named minor NPCs or appointments from discarded runs.
+Jon has sat at table with Lord Cerwyn, Master Tallhart, Lord Dustin, Lord Hornwood, the Lord of the Dreadfort, Lord Umber, Lord Karstark, Lord Glover, Lord Desmond Manderly, the Norrey, the Wull, the Liddle and the Harclay. He has refused his own marriage to Cerwyn's daughter and Lady Manderly's niece under his stated policy; Cerwyn's daughter is betrothed to Hornwood's heir without his brokering. Jon knows his household and chosen captains: the steward, the chief clerk, the stores officer, the watch officer, the maester, Sergeant Donnel, the carpenter, the reeve of Winter Town, the schoolmaster Hobb, the chirurgeon Lew, the master weaver Orro, the mason Master Wyl of White Harbor. Do not import named minor NPCs or appointments from discarded runs.
 
 ## Governance, knowledge and intent
 
