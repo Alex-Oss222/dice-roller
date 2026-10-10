@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turn 1 has been resolved and saved. Earlier play runs remain discarded.
+Turns 1 and 2 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 1 completed; awaiting the player's next action |
-| Date and time | Tenth day of the first moon, 126 AC, evening |
+| Turn | 2 completed; awaiting the player's next action |
+| Date and time | Thirteenth day of the third moon, 126 AC, morning |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Eighteen physically; 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Recovered from the 124 injury and fully accustomed to Cregan's body since 125; no current illness, injury or lasting impairment established |
-| Immediate situation | The first week's accounts, muster, gate court and patrol returns are read. Arra's question about marriage stands until she leaves in the third moon. The steward is waiting to know whether to draft the letter to the Norrey now |
+| Immediate situation | Arra's escort has just left for the Norrey's hall. The steward is at the solar door with the clerk's finding on the Umber grain claim and the west tower guard's report that Bennard asks, for the third time, to speak with him |
 
 ## Transfer and memory
 
@@ -39,22 +39,20 @@ No numerical measurements or comparison proving either body superior is specifie
 
 During 125 Jon secured the loyalty of Winterfell's household, developed relationships with the Cerwyns, Glovers and Norreys, investigated the regency, and gathered enough political and armed support to take control without a northern civil war. He took Winterfell in late 125 and had established his rule by the third day of the first moon, 126 AC. The household accepts his greater maturity as a consequence of the injury and struggle with Bennard.
 
-Bennard and Benjen have already been convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared them execution. Brandon is a political ward with House Glover and Elric with House Manderly; neither was implicated in the assassination. Their formal oaths recognize Cregan and renounce a succession challenge. Margaret Karstark was permitted to return to Karhold. These are settled backstory outcomes, not unfinished negotiations.
+Bennard and Benjen have already been convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared them execution. Brandon is a political ward with House Glover and Elric with House Manderly; neither was implicated in the assassination. Their formal oaths recognize Cregan and renounce a succession challenge. Margaret Karstark was permitted to return to Karhold and has been there since the twelfth moon of 125. These are settled backstory outcomes, not unfinished negotiations. Bennard has asked three times, through his guard, to speak with Jon; Jon has not answered.
 
-Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared upbringing and relationship through Cregan's full memories, while retaining his own identity and personality. Before the opening he trusted her with the truth of the transfer because she was Cregan's trusted friend. **She knows he is Jon and loves him as a friend.** Their current bond is friendship. They remain unmarried and unbetrothed. Her opening location is unspecified; no new office, formal oath or particular program commitment is implied.
+Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared upbringing and relationship through Cregan's full memories, while retaining his own identity and personality. Before the opening he trusted her with the truth of the transfer because she was Cregan's trusted friend. **She knows he is Jon and loves him as a friend.** They remain unmarried and unbetrothed. On the fifth day of the third moon, 126, Jon told her he cannot marry her or anyone for now, that he is not the man she loved and has become the Lord of the North, and that as long as he lives she has mead at his table and shelter at his hearth at Winterfell; she took it as the answer to carry to her father. She left Winterfell at first light on the thirteenth day of the third moon for the Norrey's hall by the Flint's stone track, with Sergeant Donnel's escort, carrying Jon's letter to Gram Norrey and the six clans' letters, and does not expect to be back before the shearing. No office, formal oath or program commitment is implied.
 
-Jon knows his household and chosen captains. Their personal names can be supplied when relevant; a name omitted from these files is not amnesia. Do not import named minor NPCs or appointments from discarded runs.
-
-On the third day of the first moon, 126 (Turn 1), Jon told Arra privately that whatever she chose to do next would have his full support and nothing owed for it. She said she will go up to her father's hall when the track past the Flint's stone clears, about the third moon, with an escort of her own choosing and a letter from Jon, and that she will come back; she declined rooms over the gate, a title or a seat at the high table. She asked him to decide, and tell her before she leaves, what he means to do about marriage, so that she can answer her father. That decision is Jon's and remains open.
+Jon has met Lord Cerwyn, Master Tallhart and Lord Dustin at their own seats and Lord Hornwood at Winterfell, and corresponds with Lord Desmond Manderly, Glover, Umber, Karstark and Bolton. Jon knows his household and chosen captains. Their personal names can be supplied when relevant; a name omitted from these files is not amnesia. Do not import named minor NPCs or appointments from discarded runs.
 
 ## Governance, knowledge and intent
 
-Jon has dismissed corrupt officials, audited the treasury and noble obligations, instituted harvest and winter-provision reporting, reorganized the garrison under personally loyal captains, ordered infrastructure and defense repairs, strengthened route patrols and worked with Manderly on White Harbor grain and commercial movement. The state and scope of these measures are recorded in [WORLD.md](WORLD.md).
+Jon has dismissed corrupt officials, audited the treasury and noble obligations, instituted harvest and winter-provision reporting, reorganized the garrison under personally loyal captains, ordered infrastructure and defense repairs, strengthened route patrols and worked with Manderly on White Harbor grain and commercial movement. The state and scope of these measures, the audited treasury position and the works now in hand are recorded in [WORLD.md](WORLD.md).
 
-Jon has **20,000 GD of additional available cash** confiscated from Bennard before the opening and held in Winterfell's treasury under his control. This is the same single receipt recorded in [WORLD.md](WORLD.md#cash-confiscated-from-bennard), with no spending or commitment assigned to it.
+On the eleventh day of the first moon, 126, Jon adopted the [Roll of Northern Works](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) as his working program at its ceiling of 81,634.14 GD, beginning with Winterfell and Winter Town and an opening invitation to every direct house. He knows the treasury's counted position, the arrears, the regency's unaccounted drawings, and what the lords he has met and written to have agreed to or declined. The 20,000 GD confiscated from Bennard is held in its own strongbox inside the counted vault; see [WORLD.md](WORLD.md#cash-confiscated-from-bennard).
 
-He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority.
+He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority. His stated policy, told to Arra, is to make no marriage of his own for now and as few brokered marriages between the lords as he can.
 
-His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.
+His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction and intends to have the North ready for it and to come out of it stronger. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.
 
-The new backstory, not earlier chat play, defines the start. Only the player chooses Jon's next meaningful action.
+Only the player chooses Jon's next meaningful action.

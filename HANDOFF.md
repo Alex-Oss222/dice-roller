@@ -4,11 +4,11 @@ Read this first, then [AGENTS.md](AGENTS.md).
 
 ## Current position
 
-Story 3 is at **Turn 0 on the third day of the first moon, 126 AC**, after the player's accepted 124–126 AC backstory. No interactive player turn has been resolved. The full backstory and replacement opening are in [STORY.md](stories/story-003/STORY.md).
+Story 3 is at **Turn 2 completed, the morning of the thirteenth day of the third moon, 126 AC**. Turns 1 and 2 are saved in [STORY.md](stories/story-003/STORY.md) after the player's accepted 124–126 AC backstory and replacement opening.
 
 Read one current repository snapshot: Story 3's [CHARACTER.md](stories/story-003/CHARACTER.md), [WORLD.md](stories/story-003/WORLD.md), [STORY.md](stories/story-003/STORY.md), linked [487 AC source profile](stories/story-003/Jon_Stark_487_AC_.md), the [conditional future-event calendar](stories/story-003/FUTURE_EVENTS.md), and the required shared rules and research.
 
-Jon is eighteen in body and governs from the lord's solar. It is morning on the third day of the first moon; the exact hour is unspecified. Routine returns and an unopened White Harbor letter are on the table. The first player action will be Turn 1. Do not advance time or choose Jon's action during setup maintenance.
+Jon is eighteen in body and governs from the lord's solar. Arra has just left for the Norrey's hall with an escort; the steward waits with the clerk's finding on the Umber grain claim and Bennard's third request to speak. The next player action will be Turn 3. Do not advance time or choose Jon's action during setup maintenance.
 
 ## Established replacement premise
 
@@ -25,11 +25,9 @@ Jon is eighteen in body and governs from the lord's solar. It is morning on the 
 
 ## Finances and development
 
-The audits and practical reforms are accepted backstory, not work that must be replayed. The complete opening treasury balance, force counts, prior costs and completed repair quantities have not been quantified. Establish relevant particulars through existing records when needed without treating those omissions as ignorance or a failed audit.
+The audits and practical reforms are accepted backstory, not work that must be replayed. Turn 1 established the counted treasury position from the audit records (189,600 GD in the vault on 126/01/03, including the 20,000 GD confiscated from Bennard held once in its own strongbox; arrears; grain; the regency's unaccounted drawings as a clerk's estimate). [WORLD.md](stories/story-003/WORLD.md#finances) carries the running figures; carry them forward, never reset them to the fiscal model.
 
-Jon confiscated **20,000 GD from Bennard before the opening**. It is already received, available and uncommitted in Winterfell's treasury, additional to the ordinary reserves. [WORLD.md](stories/story-003/WORLD.md#cash-confiscated-from-bennard) records this single receipt. Carry it forward once and include it once when a complete balance is established; do not create a duplicate personal balance or replay the confiscation.
-
-The fiscal model is not itself the audited early-126 ledger. Do not automatically credit annual income or import the old runs' spending. The [Northern Development Program](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a separate **unapproved proposal**. Its proposed later-126 schedule is still prospective; check timing and overlaps with existing work before adoption so work is not ordered or charged twice.
+On 126/01/11 Jon **adopted** the [Roll of Northern Works](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) as his working program at the roll's ceiling of 81,634.14 GD. The roll describes what may be done; WORLD.md records what has been ordered, paid, agreed and built. Early-period payments count against the roll's first reckoning period. The fiscal model is not the live ledger: do not automatically credit annual income; record each instalment as it is actually received.
 
 ## Conditional future events
 
