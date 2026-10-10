@@ -43,7 +43,7 @@ Begins at the holdfast north of Winterfell on the morning of the Night's Watch d
 - [Fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md)
 - [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx)
 
-A fresh run begins in late 126 AC, after the player's established 124–126 backstory. Jon has Cregan's full memories, is fully adapted to his body and has secured Winterfell. The full backstory and replacement Turn 0 opening are in `STORY.md`; the first player action will be Turn 1. `Jon_Stark_487_AC_.md` is the full character sheet; `CHARACTER.md` records his current situation in Cregan's body. The sheet's legacy scores are inactive. The fiscal reference, graphs, and price book live in Story 3's `references/` folder.
+A fresh run begins on the third day of the first moon, 126 AC, after the player's established backstory. The takeover and initial reforms occurred in late 125. Arra knows the truth of the transfer; she was Cregan's friend and lover, and loves Jon as a friend. Jon has Cregan's full memories, is fully adapted to his body and has secured Winterfell. The full backstory and replacement Turn 0 opening are in `STORY.md`; the first player action will be Turn 1. `Jon_Stark_487_AC_.md` is the full character sheet; `CHARACTER.md` records his current situation in Cregan's body. The sheet's legacy scores are inactive. The fiscal reference, graphs, and price book live in Story 3's `references/` folder.
 
 See [HANDOFF.md](HANDOFF.md) for the current position, accepted premise and startup instructions.
 

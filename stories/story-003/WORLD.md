@@ -1,8 +1,8 @@
-# Story 3 · World · Late 126 AC
+# Story 3 · World · Third day of the first moon, 126 AC
 
 ## Current position and authority
 
-Turn 0. No player turn has been resolved after the revised opening. It is morning in late 126 AC; the exact moon, day and hour are unestablished. Jon is in Winterfell's solar with routine returns and an unopened letter from White Harbor. Its contents are not yet established.
+Turn 0. No player turn has been resolved after the revised opening. It is morning on the third day of the first moon, 126 AC; the exact hour is unestablished. Jon is in Winterfell's solar with routine returns and an unopened letter from White Harbor. Its contents are not yet established.
 
 The complete accepted history is preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. It is not a set of pending attempts to adjudicate. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
@@ -13,8 +13,8 @@ The complete accepted history is preserved in [STORY.md](STORY.md#established-ba
 - **124, transfer:** The Old Gods brought Jon from 487 through the weirwoods. Jon's former body died. Jon retained his own memories and inherited Cregan's memories in full. No possessions or animals came with him. This was a singular, nonrepeatable event.
 - **Remainder of 124:** Jon recovered and adjusted.
 - **125:** Physical adaptation was complete. Jon secured household loyalty, relationships with Cerwyn, Glover and Norrey, and political and armed support. He found payments tied to the assassination and evidence of regency misuse.
-- **Early 126:** Jon's supporters secured the gates, relieved Bennard's captains, seized the treasury and regency records, and arrested the conspirators. Jon took control without a northern civil war.
-- **Through late 126:** Jon established his personal rule and the administrative, military and logistical measures below.
+- **Late 125:** Jon's supporters secured the gates, relieved Bennard's captains, seized the treasury and regency records, and arrested the conspirators. Jon took control without a northern civil war.
+- **Late 125 to the opening on the third day of the first moon, 126:** Jon established his personal rule and the administrative, military and logistical measures below. The takeover and initial aftermath precede the new year; the completed ward placements and reforms are not compressed into the first two days of 126.
 
 ## Family settlement and security
 
@@ -38,9 +38,9 @@ Winterfell's household loyalty and the captains' personal loyalty to Jon are est
 
 Jon has established relationships with the Cerwyns, Glovers and Norreys. He works with House Manderly on port logistics. These relationships and formal oaths matter in future adjudication without deciding every future disagreement.
 
-Arra Norrey remains an unmarried, unbetrothed childhood friend. Through inherited memory Jon knows their shared upbringing. No immediate marriage pursuit, transfer disclosure, formal advisory appointment or new service agreement is established. Her opening whereabouts are unspecified.
+Arra Norrey was Cregan's childhood friend and lover, and loved him romantically. Jon knows their shared history through Cregan's inherited memories. Before the opening he told her the truth because he trusted her as Cregan's friend. She knows that he is Jon and now loves him as a friend. They remain unmarried and unbetrothed, with friendship as their current bond. No formal advisory appointment, secrecy oath or new service agreement is established. Her opening whereabouts are unspecified.
 
-**Nobody other than Jon knows the truth of the transfer.** The household attributes his increased maturity to the injury and conflict with Bennard. The supernatural account above is campaign truth, not information available to NPCs.
+**Arra alone has been told the truth of the transfer.** The rest of the household attributes Jon's increased maturity to the injury and conflict with Bennard. The supernatural account above is established campaign truth; other NPCs do not share Arra's knowledge.
 
 Viserys I remains king and Rhaenyra his designated heir. Jon's historical studies warn of the coming succession war, but he has made no commitment to either faction. Stark still holds the North under the Iron Throne; his former independent monarchy's laws do not automatically govern this century.
 
@@ -64,16 +64,16 @@ These are practical measures through existing institutions, not a completed cont
 
 ## Finances, references and proposed development
 
-The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain quantitative references. Their model opening resources of 250,000 dragons and 70,777 quarters are not automatically a counted late-126 balance. The backstory supplies no exact current balance or total historical cost.
+The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain quantitative references. Their model opening resources of 250,000 dragons and 70,777 quarters are not automatically a counted early-126 balance. The backstory supplies no exact current balance or total historical cost.
 
 Jon's audit is **already completed** and its records exist. When a numerical decision needs them, establish dated current figures from those records, using the model where appropriate and labeling additional assumptions. Do not replay a first audit or imply that Jon lacks the knowledge simply because the file does not yet print the numbers.
 
 Historical repair orders, patrols and logistics may carry ongoing costs. They are neither zero-cost nor an excuse to invent retrospective bills, credit a modeled annual surplus, or deduct the same costs twice. Record material balances and commitments consistently when they become relevant.
 
-The [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a **separate unapproved proposal**. Its 73,000-dragon ceiling is not reserved or spent. Existing reforms and repair orders do not activate every building, commercial advance or letter listed there. Before adopting it, compare it with existing work, identify incremental costs and rephase obsolete early-126 dates from the actual late-126 start.
+The [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a **separate unapproved proposal**. Its 73,000-dragon ceiling is not reserved or spent. Existing reforms and repair orders do not activate every building, commercial advance or letter listed there. Before adopting it, compare it with existing work, identify incremental costs and check its prospective schedule against the third-day-of-first-moon opening. Its fourth-to-seventh-moon 126 planning dates are future proposals, not elapsed deadlines.
 
 ## Continuity boundary
 
 The player supplied this history to replace the starting setup. It is accepted history even though it predates Turn 1. No previous run's events are restored unless the new premise expressly establishes them.
 
-The first interactive action will be Turn 1. The first regular continuity checkpoint follows completed Turn 20. Incorporating this backstory and replacing the opening advances no time beyond the late-126 starting point.
+The date correction and Arra's disclosure are established setup, not new interactive events. The first interactive action will be Turn 1. The first regular continuity checkpoint follows completed Turn 20. Incorporating this backstory and replacing the opening advances no time beyond the early-126 starting point.

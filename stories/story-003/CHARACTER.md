@@ -9,7 +9,7 @@ No player turn has been resolved after the revised opening. Earlier play runs re
 | Current record | Details |
 | --- | --- |
 | Turn | 0; awaiting the first player action |
-| Date and time | Late 126 AC, morning; exact moon, day and hour unestablished |
+| Date and time | Third day of the first moon, 126 AC, morning; exact hour unestablished |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Eighteen physically; 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
@@ -23,13 +23,13 @@ In 124, Bennard and his eldest son Benjen arranged the saddle sabotage that caus
 
 Jon retains his own 204 years of memory and inherited **Cregan's memories in full**, including childhood, family, friendships, education and knowledge of Winterfell. His own personality and accumulated experience remain his. He can recognize familiar people and continue relationships without the former setup's memory gaps. Full inherited memory does not disclose events Cregan never knew or other people's private thoughts.
 
-The cause and consequences of the transfer are settled campaign facts. Characters other than Jon have no knowledge of the transfer; do not give them access to its supernatural explanation. Jon's discovery of the assassination came through his subsequent investigation and evidence, not automatic knowledge of a conspiracy from inherited memories.
+The cause and consequences of the transfer are settled campaign facts. Arra knows the truth because Jon has privately told her. Other characters have not learned of the transfer or its supernatural explanation. Jon's discovery of the assassination came through his subsequent investigation and evidence, not automatic knowledge of a conspiracy from inherited memories.
 
 No possessions or animals accompanied him. Longclaw, the Lysene spear, Ghost, Huginn, Muninn and his former manor are not present in 126 merely because they appear in the source profile. His source learning and supernatural experience remain part of his background; this transfer grants no additional repeatable power.
 
 ## Body and competence
 
-Jon recovered through the remainder of 124. **By 125 he was entirely comfortable with Cregan's strength, movement, swordsmanship and physical limitations.** At the late-126 start this is an established, completed adjustment. Do not replay first-week sparring, make him relearn his reach or invent clumsiness, recognition problems or neurological impairment.
+Jon recovered through the remainder of 124. **By 125 he was entirely comfortable with Cregan's strength, movement, swordsmanship and physical limitations.** At the early-126 start this is an established, completed adjustment. Do not replay first-week sparring, make him relearn his reach or invent clumsiness, recognition problems or neurological impairment.
 
 He retains the judgment and learned abilities of an experienced commander, a king who ruled for sixty-two years, and a scholar and traveler with more than a century of post-abdication experience. Resolve attempts using that competence and his familiar present body.
 
@@ -37,11 +37,11 @@ No numerical measurements or comparison proving either body superior is specifie
 
 ## Authority and current relationships
 
-During 125 Jon secured the loyalty of Winterfell's household, developed relationships with the Cerwyns, Glovers and Norreys, investigated the regency, and gathered enough political and armed support to take control without a northern civil war. He took Winterfell in early 126 and has established his rule by late 126. The household accepts his greater maturity as a consequence of the injury and struggle with Bennard.
+During 125 Jon secured the loyalty of Winterfell's household, developed relationships with the Cerwyns, Glovers and Norreys, investigated the regency, and gathered enough political and armed support to take control without a northern civil war. He took Winterfell in late 125 and had established his rule by the third day of the first moon, 126 AC. The household accepts his greater maturity as a consequence of the injury and struggle with Bennard.
 
 Bennard and Benjen have already been convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared them execution. Brandon is a political ward with House Glover and Elric with House Manderly; neither was implicated in the assassination. Their formal oaths recognize Cregan and renounce a succession challenge. Margaret Karstark was permitted to return to Karhold. These are settled backstory outcomes, not unfinished negotiations.
 
-Arra Norrey is his **unmarried, unbetrothed childhood friend**. Cregan's inherited memories give Jon genuine familiarity with their shared upbringing. His own experiences and personality remain different. He treats her as an old companion; no immediate marriage pursuit is established. She does not know about the transfer. Her location at the opening has not been specified, and no new office or particular program commitment is assumed.
+Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared upbringing and relationship through Cregan's full memories, while retaining his own identity and personality. Before the opening he trusted her with the truth of the transfer because she was Cregan's trusted friend. **She knows he is Jon and loves him as a friend.** Their current bond is friendship. They remain unmarried and unbetrothed. Her opening location is unspecified; no new office, formal oath or particular program commitment is implied.
 
 Jon knows his household and chosen captains. Their personal names can be supplied when relevant; a name omitted from these files is not amnesia. Do not import named minor NPCs or appointments from discarded runs.
 

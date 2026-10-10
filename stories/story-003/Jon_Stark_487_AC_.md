@@ -6,7 +6,7 @@
 
 This is Jon's **487 AC source record immediately before the transfer**, not his present campaign state. References below to current condition, possessions, companions, residence, authority and aims describe that earlier life. His original body died in 487 AC when the Old Gods transferred him into Cregan Stark in 124 AC.
 
-The [accepted 124–126 AC backstory](STORY.md#established-backstory-124126-ac), [CHARACTER.md](CHARACTER.md) and [WORLD.md](WORLD.md) govern the late-126 opening: full inherited Cregan memories, completed recovery and adaptation, and established personal rule at Winterfell. The prior life and experience below remain intact. Old-body traits and possessions are not automatically transferred. Legacy ratings and rule instructions remain inactive under the shared GM rules.
+The [accepted 124–126 AC backstory](STORY.md#established-backstory-124126-ac), [CHARACTER.md](CHARACTER.md) and [WORLD.md](WORLD.md) govern the opening on the third day of the first moon, 126 AC: full inherited Cregan memories, completed recovery and adaptation, established personal rule at Winterfell, and Arra's knowledge of the transfer and friendship with Jon. The prior life and experience below remain intact. Old-body traits and possessions are not automatically transferred. Legacy ratings and rule instructions remain inactive under the shared GM rules.
 
 ## Current record
 

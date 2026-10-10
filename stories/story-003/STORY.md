@@ -1,4 +1,4 @@
-# Story 3 · Jon Stark · Late 126 AC
+# Story 3 · Jon Stark · Third day of the first moon, 126 AC
 
 ## Established backstory, 124–126 AC
 
@@ -12,17 +12,17 @@ Jon arrived with the memories of his own 204 years and inherited Cregan's memori
 
 Jon spent the remainder of 124 AC recovering and adjusting to his circumstances. By 125 AC, he was entirely comfortable in Cregan's body, including its strength, movement, swordsmanship, and physical limitations. His inherited memories allowed him to continue Cregan's existing relationships without confusion. More importantly, Jon retained the judgment of a man who had commanded armies, ruled an independent North for sixty-two years, and spent more than a century studying and traveling after his abdication.
 
-Throughout 125 AC, Jon quietly secured the loyalty of Winterfell's household, established relationships with the Cerwyns, Glovers, and Norreys, and investigated Bennard's administration. He uncovered the payments connected to the attempted assassination and gathered evidence of Bennard's misuse of his regency. Rather than begin a northern civil war, Jon isolated his uncle politically and secured enough armed support to remove him.
+During 125 AC, Jon quietly secured the loyalty of Winterfell's household, established relationships with the Cerwyns, Glovers, and Norreys, and investigated Bennard's administration. He uncovered the payments connected to the attempted assassination and gathered evidence of Bennard's misuse of his regency. Rather than begin a northern civil war, Jon isolated his uncle politically and secured enough armed support to remove him.
 
-In early 126 AC, Jon took control of Winterfell. His supporters secured the gates, relieved Bennard's captains, seized the treasury and regency records, and arrested the conspirators. Bennard and Benjen were convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared their lives rather than execute members of his own family. Bennard's other sons, Brandon and Elric, were not implicated in the assassination. They were removed from Winterfell and placed as political wards with Houses Glover and Manderly respectively, under formal oaths recognizing Cregan's authority and renouncing any challenge to his succession. Bennard's wife, Margaret Karstark, was permitted to return to Karhold.
+In late 125 AC, after gathering his evidence and support, Jon took control of Winterfell. His supporters secured the gates, relieved Bennard's captains, seized the treasury and regency records, and arrested the conspirators. Bennard and Benjen were convicted of treason and attempted murder and sentenced to lifelong imprisonment under separate guard at Winterfell. Jon spared their lives rather than execute members of his own family. Bennard's other sons, Brandon and Elric, were not implicated in the assassination. They were removed from Winterfell and placed as political wards with Houses Glover and Manderly respectively, under formal oaths recognizing Cregan's authority and renouncing any challenge to his succession. Bennard's wife, Margaret Karstark, was permitted to return to Karhold.
 
 With his authority secured, Jon reorganized Winterfell's administration. He dismissed corrupt officials, audited the treasury and noble obligations, established regular reports on harvests and winter provisions, and reorganized the castle's garrison under captains personally loyal to him. He ordered repairs to neglected roads, bridges, and defensive positions, strengthened patrols along important routes, and worked with House Manderly to improve the movement of grain and commercial goods through White Harbor. Northern lords were required to provide accurate accounts of their available men, supplies, and outstanding obligations. These were practical reforms supported by existing northern institutions, not an attempt to remake the kingdom overnight.
 
-By late 126 AC, Jon had fully established himself as Lord of Winterfell and Warden of the North. He was eighteen in body, with more than two centuries of experience. He no longer struggled with Cregan's identity or physical limitations, and his household accepted his greater maturity as the result of his injury and the struggle against Bennard. Nobody knew the truth of the transfer.
+By the third day of the first moon, 126 AC, Jon had fully established himself as Lord of Winterfell and Warden of the North. He was eighteen in body, with more than two centuries of experience. He no longer struggled with Cregan's identity or physical limitations, and his household accepted his greater maturity as the result of his injury and the struggle against Bennard. Arra alone knew the truth of the transfer.
 
-Arra Norrey remained his unmarried childhood friend. Jon possessed Cregan's memories of their upbringing and shared history, so their familiarity was genuine to him, even though his own experiences and personality were different. They had not married or become formally betrothed. Jon treated her with the ease of an old companion rather than pursuing an immediate marriage.
+Arra Norrey had been Cregan's childhood friend and lover, and she had loved him romantically. Jon possessed Cregan's memories of their upbringing and shared history, so their familiarity was genuine to him, even though his own experiences and personality were different. Before the opening, he told her the truth of the transfer because he trusted her as Cregan's friend. Arra knew that he was Jon and loved him as a friend. They had not married or become formally betrothed; their current relationship was friendship.
 
-As 126 AC progressed, Jon governed personally from Winterfell, leaving daily household matters to his steward while retaining control over justice, appointments, military readiness, and relations with his bannermen. He knew from his extensive historical studies that a Targaryen succession war was approaching, but had made no commitment to either faction. His immediate priorities remained northern stability, sufficient winter reserves, reliable roads and defenses, and keeping the authority he had recovered firmly in the hands of House Stark.
+At the opening of 126 AC, Jon governed personally from Winterfell, leaving daily household matters to his steward while retaining control over justice, appointments, military readiness, and relations with his bannermen. He knew from his extensive historical studies that a Targaryen succession war was approaching, but had made no commitment to either faction. His immediate priorities remained northern stability, sufficient winter reserves, reliable roads and defenses, and keeping the authority he had recovered firmly in the hands of House Stark.
 
 ## Current opening
 
@@ -32,7 +32,7 @@ As 126 AC progressed, Jon governed personally from Winterfell, leaving daily hou
 | Age | Eighteen physically; more than two centuries of experience |
 | Location | Winterfell, lord's solar |
 
-## Turn 0 | Late 126 AC, exact date unestablished | Morning
+## Turn 0 | Third day of the first moon, 126 AC | Morning
 
 Elapsed: None; opening situation after the established backstory.
 

@@ -4,11 +4,11 @@ Oct 9, 2026 · @Alex
 
 In an ordinary year Winterfell takes in 273,168 GD of cash after its estates pay their running costs. It spends 11,450 GD on household and works, sends 40,975 GD to the Crown, and keeps 220,743 GD. This sheet follows each dragon from the farm that earned it to the account that holds it.
 
-## Campaign scope at the late-126 opening
+## Campaign scope at the first-moon 126 opening
 
-This ordinary-year model is a reference, not the audited late-126 campaign ledger. The accepted [124–126 AC backstory](../STORY.md#established-backstory-124126-ac) establishes completed audits, administrative reforms, repair orders, strengthened patrols and White Harbor logistical cooperation. These facts stand even though their precise costs, receipts, completed quantities and current balances were not supplied.
+This ordinary-year model is a reference, not the audited campaign ledger for the third day of the first moon, 126 AC. The accepted [124–126 AC backstory](../STORY.md#established-backstory-124126-ac) establishes completed audits, administrative reforms, repair orders, strengthened patrols and White Harbor logistical cooperation. These facts stand even though their precise costs, receipts, completed quantities and current balances were not supplied.
 
-The modeled opening stocks of 250,000 GD and 70,777 quarters, and modeled closing stocks of 470,743 GD and 71,879 quarters, are not automatically the actual late-126 balances. [WORLD.md](../WORLD.md) records the campaign's established quantities. Use the existing audited records to establish needed particulars in play; do not restart the audit or import payments from discarded runs.
+The modeled opening stocks of 250,000 GD and 70,777 quarters, and modeled closing stocks of 470,743 GD and 71,879 quarters, are not automatically the actual early-126 balances. [WORLD.md](../WORLD.md) records the campaign's established quantities. Use the existing audited records to establish needed particulars in play; do not restart the audit or import payments from discarded runs.
 
 ## How to use this sheet
 
