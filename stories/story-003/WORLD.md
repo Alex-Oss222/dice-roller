@@ -1,32 +1,79 @@
-# Story 3 · World · 126 AC
+# Story 3 · World · Late 126 AC
 
-## Clean starting state
+## Current position and authority
 
-Turn 0 only. No player action has been resolved. The original opening in [STORY.md](STORY.md) is the current situation.
+Turn 0. No player turn has been resolved after the revised opening. It is morning in late 126 AC; the exact moon, day and hour are unestablished. Jon is in Winterfell's solar with routine returns and an unopened letter from White Harbor. Its contents are not yet established.
 
-This reset removes earlier play from active continuity. Do not import prior conversations, retired runs, old commits or discarded adjudications as world facts or Jon's memories. The source character sheet's established prior life is a separate starting premise.
+The complete accepted history is preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. It is not a set of pending attempts to adjudicate. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
-## Opening foundation
+## Established chronology
 
-- The year is 126 AC. It is morning; the exact moon, day and hour are not yet established.
-- Jon has become aware in Cregan Stark's body in a working chamber at Winterfell.
-- A clerk has left papers, the steward remains, and a guard is outside. Their names have not been established.
-- Bennard has requested a private audience. He and his three sons remain confined after Cregan ended the regency. No new custody order or settlement exists.
-- Cregan succeeded Rickon in 121 AC and now rules personally. The North remains under King Viserys I; Rhaenyra is his designated heir.
-- Arra and Cregan are unmarried childhood friends, as the player's starting premise specifies. Her location and availability are unestablished. Nobody has been told about the transfer.
+- **121:** Rickon Stark died. Cregan became Lord of Winterfell, with Bennard as regent.
+- **124:** At sixteen, Cregan demanded his authority; Bennard refused. Bennard and his eldest son Benjen arranged his murder through a bribed stablehand, who weakened the saddle before a Wolfswood hunt. Cregan suffered a severe head injury. His consciousness died; his body survived.
+- **124, transfer:** The Old Gods brought Jon from 487 through the weirwoods. Jon's former body died. Jon retained his own memories and inherited Cregan's memories in full. No possessions or animals came with him. This was a singular, nonrepeatable event.
+- **Remainder of 124:** Jon recovered and adjusted.
+- **125:** Physical adaptation was complete. Jon secured household loyalty, relationships with Cerwyn, Glover and Norrey, and political and armed support. He found payments tied to the assassination and evidence of regency misuse.
+- **Early 126:** Jon's supporters secured the gates, relieved Bennard's captains, seized the treasury and regency records, and arrested the conspirators. Jon took control without a northern civil war.
+- **Through late 126:** Jon established his personal rule and the administrative, military and logistical measures below.
 
-## Resources and proposals
+## Family settlement and security
 
-No in-play treasury review, physical inventory, payment, grant, loan, construction contract, hiring, appointment, raven, training session or outside agreement has occurred.
+| Person | Established position |
+| --- | --- |
+| Bennard Stark | Convicted of treason and attempted murder; lifelong imprisonment at Winterfell under separate guard from Benjen |
+| Benjen Stark, eldest son | Assisted the assassination plot; convicted of treason and attempted murder; lifelong imprisonment at Winterfell under separate guard from Bennard |
+| Brandon Stark | Not implicated in the assassination; removed from Winterfell and placed as a political ward with House Glover |
+| Elric Stark | Not implicated in the assassination; removed from Winterfell and placed as a political ward with House Manderly |
+| Margaret Karstark | Permitted to return to Karhold; the premise does not specify a journey or arrival date |
 
-The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain modeling references. Establish the date, scope and evidential status of relevant balances when play requires them. Modeled annual income, closing stocks and sample transactions are not completed events.
+Brandon's and Elric's wardships are accompanied by formal oaths recognizing Cregan's authority and renouncing a challenge to his succession. Do not place all three sons back in Winterfell, turn the wards into convicted accomplices, or reopen the settled verdicts and sentences as pending player choices.
 
-The [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) is an unapproved reference proposal. No budget is reserved, no project is active and no money is committed under it. The player must choose whether to use it in this new run.
+Jon spared Bennard and Benjen rather than execute family members. No unsupported winter hunt, hereditary punishment, compulsory marriages, prisoner employment bargain or temporary custody proposal survives from earlier play.
 
-There are no pending negotiations, promises, training arrangements, private disclosures, employment offers or petitions carried over from earlier play. Bennard's opening audience request is the only pending matter already presented.
+The bribed stablehand's role and arrest of the conspirators are established. No additional individual verdict or punishment has been supplied for the stablehand or other unnamed persons.
 
-## Continuity
+## Household, relationships and secrecy
 
-Book continuity supplies the foundation except for the explicit character-transfer premise and the player's setup. Future events may diverge through play. The player's source memories do not make predictions certain or provide current private information.
+Winterfell's household loyalty and the captains' personal loyalty to Jon are established by the backstory. He knows his officers and servants; names not yet written are not unknown to him. This is an existing functioning household, not an initial loyalty crisis to replay.
 
-The first player action will be Turn 1. The first routine continuity checkpoint follows completed Turn 20. No time passes during this reset.
+Jon has established relationships with the Cerwyns, Glovers and Norreys. He works with House Manderly on port logistics. These relationships and formal oaths matter in future adjudication without deciding every future disagreement.
+
+Arra Norrey remains an unmarried, unbetrothed childhood friend. Through inherited memory Jon knows their shared upbringing. No immediate marriage pursuit, transfer disclosure, formal advisory appointment or new service agreement is established. Her opening whereabouts are unspecified.
+
+**Nobody other than Jon knows the truth of the transfer.** The household attributes his increased maturity to the injury and conflict with Bennard. The supernatural account above is campaign truth, not information available to NPCs.
+
+Viserys I remains king and Rhaenyra his designated heir. Jon's historical studies warn of the coming succession war, but he has made no commitment to either faction. Stark still holds the North under the Iron Throne; his former independent monarchy's laws do not automatically govern this century.
+
+## Administration, military readiness and existing works
+
+The following are established before Turn 1:
+
+- Corrupt officials have been dismissed and Winterfell's administration reorganized.
+- The treasury and noble obligations have been audited.
+- Regular harvest and winter-provision reports have been instituted.
+- Northern lords are required to give accurate accounts of available men, supplies and outstanding obligations.
+- The garrison has been reorganized under captains personally loyal to Jon.
+- Patrols have been strengthened along important routes.
+- Repairs have been ordered to neglected roads, bridges and defensive positions.
+- Cooperation with Manderly has improved the movement of grain and commercial goods through White Harbor.
+- The steward handles daily household business. Jon retains justice, appointments, military readiness and bannerman relations.
+
+Preserve the distinctions in the premise: audits and reorganizations are accomplished, reporting and patrols are continuing arrangements, repairs are ordered, and logistical cooperation is established. No list of finished repairs, exact project stages, troop strengths, quantified trade gains or individual contractor charges has yet been supplied. Do not convert that lack of written detail into a claim that the work or audits never happened. Bring relevant particulars forward through the existing records when needed.
+
+These are practical measures through existing institutions, not a completed continent-wide infrastructure program. They do not establish uniform compliance by every distant lord or guarantee future loyalty under all circumstances.
+
+## Finances, references and proposed development
+
+The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](references/North_126AC_Price_Book.xlsx) remain quantitative references. Their model opening resources of 250,000 dragons and 70,777 quarters are not automatically a counted late-126 balance. The backstory supplies no exact current balance or total historical cost.
+
+Jon's audit is **already completed** and its records exist. When a numerical decision needs them, establish dated current figures from those records, using the model where appropriate and labeling additional assumptions. Do not replay a first audit or imply that Jon lacks the knowledge simply because the file does not yet print the numbers.
+
+Historical repair orders, patrols and logistics may carry ongoing costs. They are neither zero-cost nor an excuse to invent retrospective bills, credit a modeled annual surplus, or deduct the same costs twice. Record material balances and commitments consistently when they become relevant.
+
+The [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a **separate unapproved proposal**. Its 73,000-dragon ceiling is not reserved or spent. Existing reforms and repair orders do not activate every building, commercial advance or letter listed there. Before adopting it, compare it with existing work, identify incremental costs and rephase obsolete early-126 dates from the actual late-126 start.
+
+## Continuity boundary
+
+The player supplied this history to replace the starting setup. It is accepted history even though it predates Turn 1. No previous run's events are restored unless the new premise expressly establishes them.
+
+The first interactive action will be Turn 1. The first regular continuity checkpoint follows completed Turn 20. Incorporating this backstory and replacing the opening advances no time beyond the late-126 starting point.

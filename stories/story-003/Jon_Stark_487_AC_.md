@@ -2,6 +2,12 @@
 
 **A Song of Blood & Gold | Personal record | 487 AC**
 
+## Scope for Story 3
+
+This is Jon's **487 AC source record immediately before the transfer**, not his present campaign state. References below to current condition, possessions, companions, residence, authority and aims describe that earlier life. His original body died in 487 AC when the Old Gods transferred him into Cregan Stark in 124 AC.
+
+The [accepted 124–126 AC backstory](STORY.md#established-backstory-124126-ac), [CHARACTER.md](CHARACTER.md) and [WORLD.md](WORLD.md) govern the late-126 opening: full inherited Cregan memories, completed recovery and adaptation, and established personal rule at Winterfell. The prior life and experience below remain intact. Old-body traits and possessions are not automatically transferred. Legacy ratings and rule instructions remain inactive under the shared GM rules.
+
 ## Current record
 
 | Current record | Details |
@@ -297,7 +303,7 @@ The following scores describe **Jon's familiarity and control of an established 
 5. Do not turn ratings into fixed chances, die modifiers, target numbers, or guaranteed outcomes.
 6. No authority flows automatically from having once been king. Jon cannot order the reigning monarch, other lords, or strangers merely on the strength of a Stewardship or Diplomacy rating.
 7. Magic has only the effects expressly established. A score records practice, not a new list of spells.
-8. The character's present state is 487 AC. He does not automatically know later or alternate historical events, other people's hidden intentions, or information he has never encountered.
+8. This source record describes Jon before the transfer in 487 AC; CHARACTER.md and WORLD.md govern his current campaign state and the full memories supplied by its premise. He does not automatically know other people's hidden intentions or information absent from his established experience and memories.
 9. Ratings can change in later records only if substantial new experience, loss of ability, or clear evidence justifies the change.
 10. An unlisted specialty is not automatically a 1. Derive the likely ability from what Jon demonstrably knows and has practiced; leave unsupported expertise unestablished.
 

@@ -2,11 +2,13 @@
 
 *Planning roll, reckoned in gold dragons and twelve thirty-day moons to the accounting year. The account is to be closed and examined by the end of the first moon of 129 AC.*
 
-**Status after reset: unapproved reference proposal.** No budget, order, appointment, contract, payment, message or work in this document is active. Its schedules and responsibilities describe possible future choices, not events in the new run. [WORLD.md](WORLD.md) is the source of live state.
+**Status at the late-126 opening: unapproved reference proposal.** This roll has not been adopted as a program and reserves no budget. The accepted backstory already establishes audits, administrative reforms, repair orders, patrols and White Harbor logistical cooperation. Those existing measures remain in force; compare them with this proposal before adoption so overlapping work is not ordered or charged twice. [WORLD.md](WORLD.md) is the source of live state.
+
+**Scheduling note:** The dates below preserve the original planning assumptions, including fourth-to-seventh-moon 126 surveys and a possible second-moon 127 fair. The campaign now opens in late 126. Rephase those assumptions from the actual start before adopting the program, checking construction lead times and existing work. No elapsed draft date makes a project complete, overdue or authorized; no deadline, payment ceiling or budget is changed by this note.
 
 A building is no better than the work it does. The lord must know whose land it stands on, who pays to raise it, who keeps its roof sound, and where any profit is to come from. The reeve answers for grain in his care; the merchant answers for goods sold; a lord who receives Stark coin answers for the work promised in return.
 
-The fiscal reference models opening resources of **250,000 gold dragons** and **70,777 quarters of grain** across House Stark's accounted estates and stores. No exact opening date, account review or counted balance has yet been established in the reset run. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. No commissions or payments under this proposal have occurred in the reset run.
+The fiscal reference models opening resources of **250,000 gold dragons** and **70,777 quarters of grain** across House Stark's accounted estates and stores. The campaign opens after the audits established in its backstory. The exact opening day, current counted balances and unspecified historical expenditure have not been quantified; this proposal does not itself establish them. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. No commissions or payments are established merely by inclusion in this proposal.
 
 **The charge proposed upon Stark's treasury**
 
@@ -367,7 +369,7 @@ A commercial owner cannot promise Stark dues that already belong to the Crown or
 
 ### What ravens and mounted messages Jon should send
 
-Jon first hears **the steward** about existing obligations, **the stores officer** about grain and materials, **the stable master** about horses and carts, **the watch officer** about guards and safe passage, the **maester** about trained ravens and surviving letters, and a hired mason or builder about works beyond a carpenter's judgment. Any adviser, including Arra, would first need to be approached and agree to help. No such agreement exists in the reset run.
+Jon first hears **the steward** about existing obligations, **the stores officer** about grain and materials, **the stable master** about horses and carts, **the watch officer** about guards and safe passage, the **maester** about trained ravens and surviving letters, and a hired mason or builder about works beyond a carpenter's judgment. Existing household duties and relationships continue. Any new advisory task, office or program commitment, including one proposed for Arra, requires the relevant person's agreement; friendship alone does not establish that commitment.
 
 After Jon authorizes the inquiry, send **the same opening invitation to all thirty-five direct houses**, by **raven where a suitable trained bird can carry it** and by **rider or courier elsewhere**. **Additional enclosures** to Reed, Glover, Manderly, Dustin and Cerwyn request that their sixteen subordinate houses receive the same opportunity. Do not assert that a raven can be sent directly to every minor seat or that every recipient answers in one moon.
 
@@ -421,4 +423,4 @@ The proposal's monetary assumptions come from the [126 AC fiscal account](refere
 - [Antiquity, tar manufacture and woodland exploitation](https://www.cambridge.org/core/journals/antiquity/article/viking-age-tar-production-and-outland-exploitation/F5FBC37E7F0124DBD30D550E98C42AEB): resinous wood and low-oxygen tar production, not a guarantee of gallons per firing.
 - [JSTOR Daily, public bathing in medieval towns](https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub/): practical existence of public baths, not evidence that five would find enough customers in Winter Town.
 
-**This entire roll is an unapproved proposal. No works, budgets, grants, contracts, payments, appointments or messages under it have been authorized in the reset run.**
+**This roll remains an unapproved proposal. The existing measures established by the backstory stand independently; no additional budget, grant, contract, payment, appointment or message is authorized by the roll alone.**
