@@ -50,20 +50,9 @@ Stop at the next consequential choice that belongs to the player.
 
 ## 5. Run the narrative gate
 
-Before saving, review the draft against `rules/NARRATIVE.md` and the relevant parts of `references/NARRATIVE_RESEARCH.md`.
+Run the [mandatory narrative gate](NARRATIVE.md#mandatory-narrative-gate) on the draft, consulting the relevant narrative research. Identify specific passages that fail, repair the scene before polishing its sentences, and reread the changes in context. A statement that the draft passed is not a substitute for this review.
 
-Confirm that:
-
-- the scene is fiction rather than a report about the fiction;
-- mechanics, event codes, calendar notices and adjudication language are absent; future events appear through the scene's actions or credible information, without announcing triggers or status changes;
-- viewpoint knowledge is respected;
-- dialogue follows the speakers' relationship, knowledge, work, and immediate concerns rather than explaining the plot;
-- competence and limitation appear through action and consequence;
-- practical procedure and material constraints are present where the situation requires them;
-- no meaningful player choice was invented or resolved without authorization;
-- the ending stops at the real next decision without a forced moral, resonant image, or menu of options.
-
-If the draft fails this gate, revise it before saving. This is a mandatory self-edit, not an optional separate checker.
+Confirm that the revision preserves viewpoint knowledge, established events, consequential quantities and the player's unmade choices. Keep editorial notes out of the scene and campaign records.
 
 ## 6. Derive persistent changes from the accepted scene
 

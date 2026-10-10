@@ -1,109 +1,72 @@
 # Narrative rules
 
-Read this before writing every scene. These rules are mandatory.
-
-The rules determine what happens. The prose never talks about the rules.
+Read before writing every scene. These rules govern the writing; they never appear in the fiction.
 
 ## Using the narrative research
 
-`references/NARRATIVE_RESEARCH.md` is the evidence and reasoning behind this contract. It is not decorative archive material.
+At the first resolved turn in a new chat, read the relevant parts of [the narrative research](../references/NARRATIVE_RESEARCH.md): historical narrative, avoiding AI-like prose, and conversation for social scenes; combat or battle research when needed. Reconsult the relevant section when the writing fails. Do not copy the research examples into scenes.
 
-- At the first resolved turn in a new chat, consult the research sections relevant to the expected scene.
-- For ordinary historical/social scenes, use the research on realistic medieval narrative and avoiding AI-like prose.
-- For dialogue-heavy scenes, also use the research section on natural, realistic conversation.
-- For battles, military movement, or sieges, use the battle research and `rules/COMBAT.md`.
-- For individual or multiple-opponent fighting, use the combat research and `rules/COMBAT.md`.
-- Reconsult the relevant research when the draft becomes exposition-heavy, mechanically phrased, overly polished, repetitive, symbol-driven, or detached from practical reality.
-
-The research informs selection and revision. Do not copy its examples or source commentary into the story.
+Saved turns establish events and continuity. Their prose is not automatically a style model. Use a passage as a positive example only when the player has endorsed its writing, and learn its handling of the situation rather than copying its phrasing.
 
 ## Core approach
 
-- Write fiction, not a game report, summary, screenplay, or explanation of adjudication.
-- Use clear modern prose. Do not perform "medievalness" with fake archaic speech.
-- Treat the world as a functioning society. Material limits, rank, custom, work, travel, communication, supply, law, religion, money, and authority should affect what people can actually do.
-- Write through cause and consequence. People attempt things; circumstances and other people respond; the available choices change.
-- Preserve uncertainty. Characters act on what they know, not on what the GM or reader knows.
-- NPCs have their own concerns. They are not exposition devices, quest dispensers, or automatic supporters or opponents of the player.
-- Competence appears through what a character notices, chooses, prepares, avoids, and accomplishes. Do not announce that someone is skilled.
-- Avoid repeated narration certifying what has not been authorized, verified, or completed. Keep the relevant limits in state and show them through work, evidence, refusal, delay, or conversation when they affect the scene.
+Start with the situation already underway: who is present, what each person is doing or seeking, what they know, and what they can actually do. Let actions and responses follow those circumstances. NPCs have concerns beyond explaining the world or demonstrating the protagonist's competence.
+
+Write consequential encounters as scenes. Give the reader the actual exchange or action when its wording, sequence or response matters. Summarize routine travel, repeated work and uneventful months. A turn covering a season need not dramatize every day, but its important encounter must not disappear into a list of reported decisions. Removing numbers from an inventory does not turn it into a scene.
+
+Use clear modern prose. Rank, custom, religion, work, property, travel, supply and material limits affect conduct; archaic vocabulary does not establish historical credibility. Competent action may succeed directly. Do not invent resistance, error, praise or a reversal to make an encounter seem dramatic.
 
 ## Never put mechanics in the scene
 
-Do not mention rolls, checks, ratings, stats, difficulty, modifiers, success states, probability, mechanics, adjudication, "the player," or "the GM."
+Keep rolls, ratings, difficulty, probability, adjudication, player/GM terminology and repository instructions out of the fiction. Explain outcomes through events.
 
-Do not explain an outcome by saying a character succeeded because of a skill or failed because of a rating. Show the result in the event itself.
+Future-event calendars guide preparation. Their codes, countdowns, statuses and dependencies are not narration or character knowledge. Reveal developments through credible experience or reports.
 
-Future-event calendars guide preparation only. Keep event codes, tracker labels, countdown notices, status changes and dependency explanations out of narration and dialogue. Do not announce that a scheduled event has triggered, completed or diverged from history. Present what happens through action and information available to the viewpoint character. Jon may recall history he actually studied, but that recollection must read as his knowledge, not as a calendar entry.
-
-Troop counts, deaths, coin, stores, prices, and days of work are ordinary world facts, not RPG statistics. Use known quantities naturally when they matter, through orders, counts, accounts, or conversation. Do not hide a useful figure behind vague language merely to sound literary, or turn every scene into a ledger.
+Known troop counts, prices, stores and working time belong in a scene when they affect an order, bargain, risk or decision. Keep routine accounting in the state files. Do not obscure a consequential amount merely to sound literary.
 
 ## Viewpoint and knowledge
 
-- Do not give the viewpoint character information they could not see, hear, infer, remember, or learn from another person.
-- Do not provide distant commanders' intentions, exact casualty counts, secret motives, or off-screen facts merely because the GM knows them.
-- A character may be wrong. Other characters may be wrong. The narration does not need to correct them immediately.
+Use only what the viewpoint character can perceive, recall, infer or learn. Do not supply distant intentions, secret motives or exact offscreen totals without a credible source. Distinguish an inference from an observed fact.
+
+Restraint does not require an empty viewpoint. Relevant thoughts and judgments can belong to the character; the narrator need not explain what every event means. People may remain mistaken, uninterested or unreconciled.
 
 ## Dialogue
 
-Write people who happen to be in a story, not people whose job is to tell the story.
-
-- People speak according to relationship, rank, familiarity, knowledge, immediate concerns, and what they are willing to say.
-- They may answer indirectly, misunderstand, correct themselves, ignore a question, change the subject, repeat themselves for practical reasons, or leave things unsaid.
-- Shared history does not need to be explained aloud for the reader.
-- Not every exchange is a confrontation, confession, negotiation, or delivery system for plot.
-- People may talk while working, riding, eating, waiting, packing, counting, repairing, or doing some other task.
-- Do not make everyone equally articulate, witty, perceptive, or emotionally self-aware.
-- Do not attach a gesture, facial expression, or emotional explanation to every line.
-- Summarize unimportant conversation when exact wording does not matter.
+- Give each utterance a reason for this speaker to say it to this listener now. Information the reader needs is not sufficient reason.
+- Let replies respond to what was actually said, done, understood or avoided. Shared knowledge can stay unstated. Clarifications, indirect answers and interruptions must arise from the exchange, not a recipe for naturalness.
+- Let voice vary with relationship, rank, knowledge and immediate purpose. Everyone need not be terse, witty, perceptive or articulate. Distinction does not require a catchphrase, accent or permanent verbal quirk.
+- Use direct speech when the exchange matters; summarize when only its result matters. Neither form has a quota. Do not flatten a negotiation or personal encounter into successive clauses reporting what each person said.
+- Work can continue during speech and affect it. Do not attach ornamental gestures or emotional explanations to every line.
 
 ## Prose discipline
 
-- Prefer specific procedure, trade vocabulary, measurements, duties, material constraints, and concrete actions to atmospheric explanation.
-- In a substantial scene, include a stretch of physical procedure with no interiority attached.
-- In a substantial scene, allow at least one flat contradiction between what a character says and what the narration establishes, without explaining the contradiction.
-- Vary register and sentence length naturally. Do not produce a polished repeating rhythm.
-- Do not organize a scene around a recurring symbolic object, image, color, gesture, or phrase.
-- Do not give objects memory, destiny, or thematic meaning.
-- Do not use weather, light, or temperature as shorthand for mood.
-- Do not use throat, chest, breath, hands, stomach, heartbeat, or similar body reactions as routine emotional labels.
-- Do not tell the reader that a silence, object, decision, glance, or moment is significant.
-- Do not summarize what the scene meant.
-- Do not use sentence fragments merely for emphasis.
-- Do not use an em dash as a dramatic pause.
-- Do not close by echoing the opening.
-- Do not manufacture a resonant final image or polished moral conclusion.
-- Do not force reconciliation, emotional clarity, or character growth.
-- Leave at least one introduced element unresolved or simply unremarked when the situation naturally permits it.
-- Cut the scene before its emotional payoff becomes an authorial conclusion.
-- Do not end on a one-line paragraph.
+Prefer exact actions, trade vocabulary and useful measurements to generic atmosphere. In a substantial scene, include physical procedure without attached interiority and a flat contradiction between a character's statement and what the narration establishes. Both must fit the existing situation and people. Leave the contradiction uncommented; do not announce that nobody noticed or remarked on it.
+
+Vary register and sentence length with the material. Long sentences are allowed; a recurring chain of reported speech or identical paragraph endings is a reason to reread, not to replace every long sentence with fragments.
+
+- Do not arrange a passage around a recurring symbolic object or give objects memory, destiny or thematic meaning.
+- Do not use weather, light, temperature or bodily reactions as shorthand for emotion.
+- Cut statements whose only job is to announce significance or explain what the scene meant. A plain observation may stand without a clever final clause.
+- Avoid fragments used merely for emphasis and em dashes used for dramatic pauses.
+- Leave an introduced element unresolved or unremarked when the situation permits it. Do not advertise the omission.
 
 ## Scene shape
 
-A scene needs a practical reason to exist, but not every scene needs a revelation or dramatic reversal.
+Follow the action at the pace it needs. There is no fixed word count or required revelation. Ordinary work and incomplete conversations can matter without becoming contests or lessons.
 
-Ordinary work, delay, misunderstanding, incomplete conversations, administrative problems, travel, waiting, and failed attempts can be part of the story when they follow naturally from events.
-
-Let scene length and paragraphing follow the action and conversation. There is no fixed word count, paragraph count, or minimum length. Give authorized actions and their consequences enough space to be understood; compress repetition. Do not manufacture delays, setbacks, or extra decisions to lengthen a scene, or rush past a meaningful choice to finish it.
-
-End at the next consequential decision the player should make. Do not resolve that decision on the player's behalf.
+Stop at the next consequential decision belonging to the player. Do not make that choice, manufacture a cliffhanger, force reconciliation, echo the opening, or close on a resonant image or moral. Cut before the emotional payoff becomes an authorial conclusion. Do not end on a one-line paragraph.
 
 ## Mandatory narrative gate
 
-A resolved turn cannot be saved until its scene has been reviewed against this file and the relevant narrative research.
+Review the actual draft before saving. Identify a passage and its specific problem before deciding on a repair; a general assurance that the rules were followed is not a review.
 
-Before saving, confirm that the prose:
+1. **Scene and causality:** Can the reader follow the important encounter as it happens? Repair missing action, implausible responses or inventory-shaped narration before polishing sentences. Preserve established events and the player's choices.
+2. **Speech and viewpoint:** Read the exchange without the surrounding explanations. Do the speakers have reasons to say these things, respond to each other and know what they claim? Check for interchangeable cleverness and narrator-supplied motives.
+3. **Selection and language:** Look for repeated sentence or paragraph shapes, commentary after an already clear action, decorative procedure and overly tidy endings. Compare with the latest saved turn for carried-over mannerisms. Repetition justified by the work or speaker can stay.
+4. **Revision check:** Repair the identified faults, then reread the changed passage with its neighbors. Keep changes that solve the problem without inventing facts, flattening voice or creating a new formula. Recheck continuity, consequential quantities and the stopping point. Stop when the identified faults are resolved; do not keep polishing without a reason.
 
-- contains a complete scene rather than a summary of one;
-- remains inside credible viewpoint knowledge;
-- presents dialogue that belongs to the speakers rather than to the author's need to explain;
-- shows competence, limits, status, and material conditions through events;
-- contains no visible game mechanics, event codes, tracker notices or adjudication explanation;
-- does not invent the player's next meaningful choice;
-- stops at the real decision point without a menu, manufactured cliffhanger, polished moral, or resonant closing image.
-
-Revise before saving if any item fails. This mandatory self-edit is the current narrative quality control. There is no separate automated narrative checker.
+These are editorial questions, not numerical scores or items to insert into a scene. Do not manufacture a fault to fill a review quota. Keep revision notes out of player-facing prose and persistent campaign records. Reader criticism is evidence to investigate, even when an earlier self-review passed.
 
 ## Special cases
 
-For individual combat, battles, sieges, pursuits, or military movement, also read `rules/COMBAT.md`.
+For individual combat, battles, sieges, pursuits or military movement, also read `rules/COMBAT.md`.
