@@ -14,8 +14,8 @@ The fiscal reference models opening resources of **250,000 gold dragons** and **
 
 | Place or purpose | Dragons reserved | Nature of the charge |
 |---|---:|---|
-| Winterfell, within the castle and its own precinct | **2,688.78** | Granaries, measures, office, wells, baths |
-| Winter Town, buildings and fixed fittings | **4,105.51** | Market, trading houses, cloth, leather, wells, baths |
+| Winterfell, within the castle and its own precinct | **6,068.78** | Granaries, measures, office, wells, baths, paved approach and yards |
+| Winter Town, buildings and fixed fittings | **7,082.51** | Market, trading houses, cloth, leather, wells, baths, paved streets |
 | Winter Town, coin to turn in trade | **2,000.00** | Circulating purchases and wages, not a building |
 | Stark's rural estates, buildings and works | **4,405.96** | Village stores, wells, crossings, wool, hides, tar |
 | Stark's rural estates, coin to turn in trade | **500.00** | Circulating purchases, not a building |
@@ -23,10 +23,10 @@ The fiscal reference models opening resources of **250,000 gold dragons** and **
 | Other northern lords, advances for profitable works | **30,000.00** | Recoverable or revenue-sharing advances, if negotiated |
 | Inspectors, copying, messengers and journeys serving all four places | **2,000.00** | General administrative charge |
 | Unspent reserve against overruns and unforeseen works | **5,000.00** | Not to be disbursed without Lord Stark's order |
-| **Total of the sums set apart** | **72,700.25** | |
+| **Total of the sums set apart** | **79,057.25** | |
 | Further allowance not yet assigned to any work | **299.75** | To remain in the treasury |
-| **Greatest amount Jon may authorize under this roll** | **73,000.00** | Replaces the older 50,000-dragon plan; does not add a second set of works |
-| Opening 250,000 dragons less all 73,000 reserved | **177,000.00** | A coverage reckoning only, not a dated future treasury balance |
+| **Greatest amount Jon may authorize under this roll** | **79,357.00** | Replaces the older 50,000-dragon plan; does not add a second set of works |
+| Opening 250,000 dragons less all 79,357 reserved | **170,643.00** | A coverage reckoning only, not a dated future treasury balance |
 
 This roll has **four divisions, by land and lordship**. The 2,000 dragons for oversight and the 5,000 held against unforeseen costs serve all four divisions. They do not establish a separate board of officers or an institution beyond the existing household. No new toll, fair, monopoly, police authority, jurisdiction, required labor service or right to a tenant's goods arises merely from setting coin aside.
 
@@ -36,7 +36,7 @@ The account shall distinguish: **coin in hand; coin assigned but unpaid; coin sp
 
 ## Winterfell (castle)
 
-**Charge allowed for consideration: 2,688.78 dragons.** Nothing in this division is in Winter Town or on a neighboring lord's lands. Before a new building is ordered, a carpenter must establish that a place can actually be found for it within the castle or its directly controlled service precinct.
+**Charge allowed for consideration: 6,068.78 dragons.** Nothing in this division is in Winter Town or on a neighboring lord's lands. Before a new building is ordered, a carpenter must establish that a place can actually be found for it within the castle or its directly controlled service precinct.
 
 | What is to be built or prepared | Extent and reckoning | Cost (GD) | Time for the actual work, after site and supplies are ready | Responsible people |
 |---|---|---:|---|---|
@@ -45,7 +45,9 @@ The account shall distinguish: **coin in hand; coin assigned but unpaid; coin sp
 | **The master weights and measures** | One secured standard chest and 36 matching sealed sets; iron, scales, smithing and testing, provisionally estimated | **200.00** | 2–4 moons | A proven smith and the steward |
 | **Three separate wells about Winterfell's working precinct** | Three ordinary covered and lined wells at 44.46, placed at three surveyed and distinct sites | **133.38** | 1–3 moons each, if ordinary soil and water depth | Well diggers; the watch officer arranges guards and safe access |
 | **Two separate castle bathhouses** | Two small bath buildings at an estimated 225 each, with basins, heating and drains | **450.00** | 5–10 moons each after location and fitting have been settled | The master builder and the household officers |
-| **Total** | | **2,688.78** | | |
+| **Castle approach and gate court paved** | About 2,900 square yards (a quarter-mile, 20 feet wide) of rubble cobbles in sand on a gravel base; area assumed until surveyed | **310.00** | One working season, after stone is stocked | The master builder, the stable master for wagons and teams, and the stores officer for stone and sand tallies |
+| **Service yards paved** | About 29,000 square yards (six acres, assumed) of rubble cobbles in sand on a gravel base | **3,070.00** | Two working seasons (127 and 128 AC), after buried drains and hot-water runs are surveyed | The master builder, the stable master and the stores officer |
+| **Total** | | **6,068.78** | | |
 
 ### The great grain reserve
 
@@ -71,17 +73,25 @@ The **two castle bathhouses** are separate buildings from all five proposed at W
 
 The baths are for household use unless Jon gives different instructions. They do not earn a new rent merely by being completed. A keeper must be assigned within lawful household service, and the cost of fuel, washing and repairs must enter the ordinary household account.
 
+### Paved approach and service yards
+
+The **approach and gate court** (about 2,900 square yards: a quarter-mile, 20 feet wide) and the **service yards** (about 29,000 square yards, assumed to be six acres) are paved in rubble cobbles bedded in sand on a gravel base. The price book has a gravel road at 203.72 a mile but **no paving line**, so these are **allowances awaiting a paviour's quotation**. The rate is the book's road bill of quantities plus a two-inch sand bed and a five-inch course of building rubble at 0.2272 per long ton, laid at an assumed 12 square yards per paviour-day, with the book's 15% allowance: **about 744 dragons per mile of 12-foot street, or 105.70 per 1,000 square yards**. The areas are unsurveyed, and the charge moves in proportion to them. Repairs already ordered to these surfaces are deducted, not charged twice.
+
+All paving in this roll, castle and town together, moves **about 29,800 long tons** of stone, gravel and sand, roughly **19,900 wagon loads** at an assumed 1½ tons. Wagons, teams and paviours, not coin, set the pace. The approach, market square and main street come first (about 26 loads a day through one working season of about 140 days, assumed to fall between the fourth and ninth moons); the side lanes and yards follow in 127 and 128 (about 58 loads a day) once the first paving has been inspected after a thaw.
+
+Stock stone while frozen ground carries wagons, and lay nothing on frozen ground. Bed it in sand, not lime mortar, so the surface can move with frost. Crown each street and lead its gutters to a ditch clear of every well, bath and the tannery. Survey buried drains and any hot-water runs under the yards before a yard is lifted. No quarry or gravel pit is yet identified; stone from a bannerman's land is bought at the ordinary price, and no lord's consent is needed to pave Stark's own ground.
+
 ### Who is to be heard, and when
 
 Jon speaks first to **the steward**, then **the stores officer**, **the watch officer** and the castle's maester, and calls an experienced carpenter, mason or master builder to inspect the works. No northern lord needs to receive a raven to authorize construction on Stark's own castle ground.
 
-During **126 AC, moons four to seven**, they inspect ground, existing stores, well sites, hot-water access and craft supplies. Sound granaries and wells may then be built through the remaining moons of 126 and into 127; the baths require distinct tenders and an agreed water and fuel source. the steward retains the last payment until roofs, doors, water and fire arrangements have been inspected.
+During **126 AC, moons four to seven**, they inspect ground, existing stores, well sites, hot-water access, stone sources and craft supplies. Sound granaries and wells may then be built through the remaining moons of 126 and into 127; the baths require distinct tenders and an agreed water and fuel source; the approach is paved in the first working season after stone is stocked, and the yards over 127 and 128. the steward retains the last payment until roofs, doors, water and fire arrangements have been inspected.
 
-**Return to be measured:** the number of quarters of grain demonstrably saved from loss, store capacity actually usable, loss or damage to valuable goods avoided, and any reductions in ordinary castle expense. There is **no promised annual coin return from castle granaries or baths**.
+**Return to be measured:** the number of quarters of grain demonstrably saved from loss, store capacity actually usable, loss or damage to valuable goods avoided, and any reductions in ordinary castle expense. There is **no promised annual coin return from castle granaries, baths or paving**.
 
 ## Winter Town
 
-**Fixed works allowance: 4,105.51 dragons. Coin to turn in commerce: 2,000 dragons. Total town allocation: 6,105.51 dragons.**
+**Fixed works allowance: 7,082.51 dragons. Coin to turn in commerce: 2,000 dragons. Total town allocation: 9,082.51 dragons.**
 
 The town stands outside the castle walls. The fiscal sheet accounts for **500 town households** among Stark's twelve estate accounts. The settlement may swell when many northern people come to it, but a seasonal crowd is not a year-round body of tenants. Thus a fair, five baths, a large weaving venture and a tannery may all be useful, but not all should be paid for at once without establishing customers, workers, water, fuel and legal rights.
 
@@ -102,9 +112,12 @@ The town stands outside the castle walls. The fiscal sheet accounts for **500 to
 | **One tannery shed** | Warehouse-price timber building, separate from the weavers' hall | **221.14** | 6–12 moons |
 | **Two additional industrial wells for the tannery alone** | Two ordinary wells at 44.46 | **88.92** | 1–3 moons each |
 | **Tannery pits and equipment** | Twenty long tons of rubble, 4.54; fifty pits/vats at an estimated 2 dragons each, 100; drainage and handling, 35 | **139.54** | Staggered, after proper pit and water survey |
-| **Total construction and fixed equipment** | | **4,105.51** | |
+| **Market square paved in dressed setts** | About 1,700 square yards (150 by 100 feet, assumed) of dressed setts in sand on a gravel base | **496.00** | One working season, after stone is stocked |
+| **Main street paved in cobbles** | About 5,900 square yards (half a mile, 20 feet wide, assumed) of rubble cobbles in sand on a gravel base | **620.00** | One working season, with the square |
+| **Side lanes paved in cobbles** | About 17,600 square yards (2.5 miles of 12-foot lanes, assumed) of rubble cobbles in sand on a gravel base | **1,861.00** | One working season (127 AC), after the first paving is inspected |
+| **Total construction and fixed equipment** | | **7,082.51** | |
 | **Goods and cash held for trading** | Provisional money for buying raw goods, paying workers, wood, bark, salt, freight and delayed sales | **2,000.00** | Still an asset unless spent or lost |
-| **Full Winter Town allocation** | | **6,105.51** | |
+| **Full Winter Town allocation** | | **9,082.51** | |
 
 There are **ten public wells** in Winter Town, not the old separate fair-well and town-well allowances counted on top of them. The tannery's **two industrial wells are additional** and must be fenced and kept away from drinking-water sources. The **five town baths** do not include either of Winterfell's castle baths.
 
@@ -143,6 +156,12 @@ The wells should be spread to reduce carrying distances among the populated stre
 Set the first bath near existing water and a proven concentration of visitors. **Do not build the other four merely because five were proposed.** A prospective bath keeper should reckon the ordinary weekly paid baths, wood, towels, wages and the rent he can give. If three or four would stand unused during quiet moons, hold those appropriations for later rather than invent paying customers. Keep the disposal of used bathwater away from drinking wells, dye work and food stores.
 
 **Return:** verified fees or leases from bathkeepers, minus the real cost of wood, servants, cleaning and repairs. If any bath is free of charge, the benefit is service, not treasury income.
+
+### Paved streets and market square
+
+The **market square** (about 1,700 square yards, 150 by 100 feet) is paved in dressed setts, where wheels turn and wear is hardest, at about **297 dragons per 1,000 square yards**. The **main street** (about 5,900 square yards: half a mile, 20 feet wide) and the **side lanes** (about 17,600 square yards: 2.5 miles of 12-foot lanes) are cobbled at **105.70 per 1,000**. Basis, season and haulage are those of the castle paving above, and the street lengths are unsurveyed assumptions. Repairs already ordered to these streets are deducted. Gutters run clear of the ten public wells, the five baths and the tannery, and no street toll is assumed.
+
+**Return:** none in coin. The measures are carts bogged or broken in the streets and market days lost to mud, before and after.
 
 ### The spinning, weaving and fulling works
 
@@ -192,7 +211,7 @@ The former **478 GD** claimed net annual leather return is therefore not establi
 
 **the steward** holds contracts and the charge-and-discharge rolls. **the stores officer** accounts for any wool and hides issued from Stark's existing stores and the rural houses. **The maester** checks messages and surviving charters. A town reeve, a real millwright, a weaver-master, a fuller, a tanner, a carpenter and a knowledgeable merchant each answer only for the works they know.
 
-Through the remaining moons of **126**, settle land and water rights, test buyers, put up ordinary wells where needed, tender the market buildings, try a few looms and choose the first bath's site. Larger buildings, lawful fair arrangements and the fulling mill take **127** and possibly part of **128**. Leather income begins only when the curing is complete. **The town's 2,000 dragons held for commerce must be reckoned as merchandise, cash or a receivable until spent or lost**, not a second charge for sheds already in the list.
+Through the remaining moons of **126**, settle land and water rights, test buyers, put up ordinary wells where needed, tender the market buildings, try a few looms, choose the first bath's site, and survey the streets and stock stone for the first paving. Larger buildings, lawful fair arrangements and the fulling mill take **127** and possibly part of **128**. Leather income begins only when the curing is complete. **The town's 2,000 dragons held for commerce must be reckoned as merchandise, cash or a receivable until spent or lost**, not a second charge for sheds already in the list.
 
 ## Stark land (demesne and tenants)
 
@@ -399,13 +418,13 @@ Large contracts may provide up to **five parts in a hundred** for verified surve
 
 | Reckoning period | Greatest payment out of Stark's programme fund | Principal work expected |
 |---|---:|---|
-| From the fourth through twelfth moons of **126 AC** | **10,000.00 GD** | Hear houses, survey rights and sites, grant early well/store works, try wool, cloth, fish, tar and bathkeepers before full building |
-| All moons of **127 AC** | **28,000.00 GD** | Separate regional crews begin roads, bridges, storage, market work, water and workshops; first possible fair only if lawful |
-| All moons of **128 AC** | **26,000.00 GD** | Finish justified buildings, continue operating trials, examine trade receipts and reject unprofitable expansion |
+| From the fourth through twelfth moons of **126 AC** | **11,426.00 GD** | Hear houses, survey rights and sites, grant early well/store works, try wool, cloth, fish, tar and bathkeepers before full building; stock stone and lay the first paving |
+| All moons of **127 AC** | **30,465.50 GD** | Separate regional crews begin roads, bridges, storage, market work, water and workshops; first possible fair only if lawful; pave the side lanes and begin the castle yards |
+| All moons of **128 AC** | **28,465.50 GD** | Finish justified buildings, continue operating trials, examine trade receipts and reject unprofitable expansion; finish the castle yards |
 | **First moon of 129 AC**, only for accepted earlier obligations and final inspection | **3,700.25 GD** | Inspect, correct defects, reconcile bills; begin no great new works |
 | Reserve against unforeseen work | **5,000.00 GD** | Unspent until explicitly released |
-| **Total allocated** | **72,700.25 GD** | |
-| Unassigned headroom within the 73,000-dragon ceiling | **299.75 GD** | Retained in the chest |
+| **Total allocated** | **79,057.25 GD** | |
+| Unassigned headroom within the 79,357-dragon ceiling | **299.75 GD** | Retained in the chest |
 
 These are the **most that may be paid** in their periods, not orders to spend them. If no buyer or tradesman is found, leave the coin unspent.
 
