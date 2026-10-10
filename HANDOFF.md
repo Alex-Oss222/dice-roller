@@ -24,26 +24,26 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 
 - Story 1: Eddard Stark, 283 AC, at its Turn 0 opening.
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
-- Story 3: a fresh run of Jon Stark from 487 AC in Cregan Stark's body in 126 AC. The original opening has been restored. No player action has been resolved in this run; the first action will be Turn 1. The first checkpoint is after Turn 20.
+- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turn 1 is completed in the current run. It is noon on the third day of the fourth moon, 126 AC, about four hours after the opening. Jon has reviewed the morning accounts and is awaiting Arra at the godswood entrance. The first checkpoint remains after Turn 20.
 - [Jon_Stark_487_AC_.md](stories/story-003/Jon_Stark_487_AC_.md) is Story 3's complete character sheet. `CHARACTER.md` records his current 126 AC state; the sheet's legacy scores are inactive.
 - Story 3's `references/` folder holds the [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), including regional output figures, and the [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx). Fiscal graphs are in the adjacent `fiscal-figures/` folder. Consult these references when economics matters to the scene.
 - The economic workbook and narrative research remain references.
 
 ## Next play session
 
-Start Story 3 from its live files and linked character sheet. Use the restored opening in `STORY.md`. The retired run is not current history.
+Resume Story 3 from its live files, linked character sheet and latest scene, Turn 1. Do not replay Turn 0 or import the retired run.
 
-It is morning in 126 AC, on an unestablished day. Jon has just become aware of Cregan's body in a working chamber at Winterfell. A steward brings household business and Bennard's request for an audience without a clerk. Bennard and his sons remain confined. Jon has not answered.
+The clock is paused at noon on the third day of the fourth moon, 126 AC. Jon is at Winterfell's godswood entrance. Arra is in Winterfell and has agreed to meet after the midday meal. Before resolving their substantive meeting, clarify whether Arra and Cregan are already married or still unmarried childhood friends. This was explicitly unresolved in the opening save, and the player's latest reference to friendship and possible love does not settle it.
 
-Present the saved opening and wait for the player's first action. Do not grant the audience, examine the accounts, disclose Jon's identity, issue orders, or advance time on the player's behalf. The opening is labeled Turn 0; the first resolved player action will be Turn 1.
+Jon has reviewed the lordship's books. WORLD.md records the dated opening book balances, 250,000 gold dragons and 70,777 quarters of grain, plus ordinary-year estimates. No annual forecast has been credited as cash, no physical audit has occurred and no new spending has been ordered.
 
-Arra and Cregan's marital status remains unresolved: the earlier draft assumed they were unmarried, while the player called her his wife. Clarify before relying on spousal status. The opening audience request does not depend on this question.
+The player's remaining sequence is already authorized: seek privacy in the godswood; disclose Jon's identity and transfer to Arra; avoid exploiting her relationship with Cregan; request discretion and help understanding the present; give her three days for an answer; ask for her best available guard for morning sparring until her answer; and near bedtime hear Bennard in the office. Resolve the marital premise, then continue the instructions until completion or a genuine consequential choice. Arra's consent, the guard's existence or availability, and soundproof seclusion are not guaranteed. The disclosure, three-day interval, sparring and Bennard's audience have not yet occurred.
 
 ## Development agenda
 
-The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The supplied fiscal reference provides 126 AC model amounts and assumptions. Use its opening stocks and relevant rates when establishing dated campaign finances; its annual receipts, closing balances, and stress tests are not events already played. No audit or new player commitment has occurred in the fresh run. Keep consequential amounts in the live state as play changes them.
+The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The supplied fiscal reference provides 126 AC model amounts and assumptions. Use its opening stocks and relevant rates when establishing dated campaign finances; its annual receipts, closing balances, and stress tests are not events already played. Turn 1 includes an initial review of accounts, not a physical audit; it creates no new expenditure. Keep consequential amounts in the live state as play changes them.
 
-1. Begin the fresh run with the player's first action. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
+1. Continue after Turn 1 once the Arra marital premise is clarified. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
 2. Save accepted scenes and material changes during play. Keep consequential quantities, costs, resources, obligations, and project progress in the existing state.
 3. After Turn 20 and each subsequent twentieth completed turn, reconcile continuity and review the prose, then refresh this handoff. Keep the retired run and all other campaigns separate.
 4. Check that a new chat resumes the latest state of this fresh run. Fix observed problems in existing guidance before adding structure.
