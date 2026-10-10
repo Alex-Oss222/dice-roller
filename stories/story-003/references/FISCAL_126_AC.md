@@ -12,6 +12,8 @@ Colour means the same thing in every chart. Blue is tribute, paid up the chain t
 
 Every figure is a simulation choice, not a record: the setting supplies the houses and their allegiances, and the model supplies the numbers. Money is in gold dragons (GD), with 210 silver stags to the dragon and 56 copper pennies to the stag. Grain is in quarters of 8 bushels. Time is in moons, about 30 days each, twelve to the year.
 
+The companion [North 126 AC price book](North_126AC_Price_Book.xlsx) expands the fiscal prices into goods, wages and rations, military upkeep, ships, construction, and trade quotations. Its sample orders and budgets are reference calculations, not spending already incurred in the story.
+
 | Layer | What it covers | Sections |
 | --- | --- | --- |
 | All levels together | Flows between every party, the trade account, tribute and deficits | The money map; Account by level |
@@ -136,13 +138,25 @@ Winterfell's own estates hold 72,480 of the North's 800,000 households, 9 percen
 | Gross cash to the lords (GD) | 88,162 | 983,004 | 9.0% |
 | Houses | 1 | 52 |  |
 
-The North is the poorest region in the sheet: 3,300,000 GD a year, against 9,000,000 for the Reach and 5,400,000 for the Westerlands. Dorne ranks second at 7,500,000 and pays the Crown nothing. These regional figures are simulation assumptions.
+The North has the lowest annual output in the sheet. These regional figures are simulation assumptions.
 
 ![North and the other regions, 126 AC, GD · Regional GDP 126 sheet](fiscal-figures/regional-output.png)
 
 North and the other regions, 126 AC, GD · Regional GDP 126 sheet.
 
-The dark bar is the North. The dashed line is the 6,000,000 GD reference output that the workbook scales the North against. The Westerlands bar sits below the line at 5,400,000 because the sheet applies a factor of 0.9 for 126 AC.
+| Region | Annual output (gold dragons) |
+| --- | ---: |
+| Reach | 9,000,000 |
+| Dorne | 7,500,000 |
+| Westerlands | 5,400,000 |
+| Riverlands | 4,800,000 |
+| Vale | 4,200,000 |
+| Crownlands | 3,800,000 |
+| Stormlands | 3,500,000 |
+| Iron Islands | 3,400,000 |
+| North | 3,300,000 |
+
+The dark bar is the North at 55 percent of the 6,000,000 GD reference benchmark, shown by the dashed line. Dorne is marked independent, paying no tribute. The Westerlands bar sits below the line at 5,400,000 because the sheet applies a factor of 0.9 for 126 AC.
 
 ![The North, one year, GD · Economy sheet, base value added times the price multiplier](fiscal-figures/northern-output.png)
 

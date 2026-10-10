@@ -41,8 +41,9 @@ Begins at the holdfast north of Winterfell on the morning of the Night's Watch d
 - [Story](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
 - [Fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md)
+- [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx)
 
-A fresh run from the original opening. The first player action will be Turn 1. `Jon_Stark_487_AC_.md` is the full character sheet; `CHARACTER.md` records his current situation in Cregan's body. The sheet's legacy scores are inactive. Supporting fiscal material and its graphs live in Story 3's `references/` folder.
+A fresh run from the original opening. The first player action will be Turn 1. `Jon_Stark_487_AC_.md` is the full character sheet; `CHARACTER.md` records his current situation in Cregan's body. The sheet's legacy scores are inactive. The fiscal reference, graphs, and price book live in Story 3's `references/` folder.
 
 See [HANDOFF.md](HANDOFF.md) for the current position, unresolved premise, and development agenda.
 

@@ -26,7 +26,7 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
 - Story 3: a fresh run of Jon Stark from 487 AC in Cregan Stark's body in 126 AC. The original opening has been restored. No player action has been resolved in this run; the first action will be Turn 1. The first checkpoint is after Turn 20.
 - [Jon_Stark_487_AC_.md](stories/story-003/Jon_Stark_487_AC_.md) is Story 3's complete character sheet. `CHARACTER.md` records his current 126 AC state; the sheet's legacy scores are inactive.
-- Story 3 has one [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), with its graphs in the adjacent `fiscal-figures/` folder.
+- Story 3's `references/` folder holds the [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), including regional output figures, and the [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx). Fiscal graphs are in the adjacent `fiscal-figures/` folder. Consult these references when economics matters to the scene.
 - The economic workbook and narrative research remain references.
 
 ## Next play session
