@@ -34,6 +34,8 @@ Do not mention rolls, checks, ratings, stats, difficulty, modifiers, success sta
 
 Do not explain an outcome by saying a character succeeded because of a skill or failed because of a rating. Show the result in the event itself.
 
+Future-event calendars guide preparation only. Keep event codes, tracker labels, countdown notices, status changes and dependency explanations out of narration and dialogue. Do not announce that a scheduled event has triggered, completed or diverged from history. Present what happens through action and information available to the viewpoint character. Jon may recall history he actually studied, but that recollection must read as his knowledge, not as a calendar entry.
+
 Troop counts, deaths, coin, stores, prices, and days of work are ordinary world facts, not RPG statistics. Use known quantities naturally when they matter, through orders, counts, accounts, or conversation. Do not hide a useful figure behind vague language merely to sound literary, or turn every scene into a ledger.
 
 ## Viewpoint and knowledge
@@ -96,7 +98,7 @@ Before saving, confirm that the prose:
 - remains inside credible viewpoint knowledge;
 - presents dialogue that belongs to the speakers rather than to the author's need to explain;
 - shows competence, limits, status, and material conditions through events;
-- contains no visible game mechanics or adjudication explanation;
+- contains no visible game mechanics, event codes, tracker notices or adjudication explanation;
 - does not invent the player's next meaningful choice;
 - stops at the real decision point without a menu, manufactured cliffhanger, polished moral, or resonant closing image.
 

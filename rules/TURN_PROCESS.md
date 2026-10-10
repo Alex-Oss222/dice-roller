@@ -55,7 +55,7 @@ Before saving, review the draft against `rules/NARRATIVE.md` and the relevant pa
 Confirm that:
 
 - the scene is fiction rather than a report about the fiction;
-- mechanics and adjudication language are absent;
+- mechanics, event codes, calendar notices and adjudication language are absent; future events appear through the scene's actions or credible information, without announcing triggers or status changes;
 - viewpoint knowledge is respected;
 - dialogue follows the speakers' relationship, knowledge, work, and immediate concerns rather than explaining the plot;
 - competence and limitation appear through action and consequence;

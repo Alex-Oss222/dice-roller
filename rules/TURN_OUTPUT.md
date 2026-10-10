@@ -92,7 +92,7 @@ Include movement under `Changed this turn` only when the movement itself matters
 
 The scene itself follows `rules/NARRATIVE.md` and must pass its mandatory narrative gate before saving.
 
-Do not put mechanics, adjudication explanations, state ledgers, or repository language into the prose.
+Do not put mechanics, adjudication explanations, state ledgers, or repository language into the prose. Event codes, calendar status labels and countdown notices must not appear in the scene, header, `Changed this turn` or `Next`. Refer to actual developments by their ordinary names. Keep countdown tracking in the calendar; show a separate out-of-character countdown only when the player asks for it.
 
 Keep web and repository citations out of the scene and its Name/Age/Location table. Any essential factual or source note belongs separately and briefly outside the fiction. Play-test counters, import status, and transcript reviews also belong outside the scene.
 

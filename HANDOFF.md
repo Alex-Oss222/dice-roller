@@ -33,7 +33,7 @@ The fiscal model is not itself the audited early-126 ledger. Do not automaticall
 
 The player requested a persistent countdown for the supplied 129–133 AC timeline. [FUTURE_EVENTS.md](stories/story-003/FUTURE_EVENTS.md) preserves all 117 baseline entries, dated anchors, uncertain windows and causal conditions. It is synchronized with Turn 0, 126/01/03. Viserys's historical death is 1,140 modeled days away; the first Winter Fever outbreak is late 132 and Sylas's invasion is in 133, with no known moon. These are conditional forecasts, not completed events.
 
-During authorized elapsed time, resolve due independent events even if Jon is elsewhere; revise affected later events when actual circumstances change. The calendar never chooses Jon's pact, military orders, judgments or marriage. Keep event occurrence, reports and character knowledge distinct. Update its date, countdowns and changed event notes with the live turn save under TURN_PROCESS. Adding this calendar advances no time and restores no discarded play.
+During authorized elapsed time, resolve due independent events even if Jon is elsewhere; revise affected later events when actual circumstances change. The calendar never chooses Jon's pact, military orders, judgments or marriage. Keep event occurrence, reports and character knowledge distinct. Update its date, countdowns and changed event notes with the live turn save under TURN_PROCESS. Adding this calendar advances no time and restores no discarded play. Event codes have been removed; identify developments by ordinary names. Keep the calendar's countdowns, statuses and dependency notes out of narrative turns. Show events through the scene and credible news, and provide a separate countdown only when requested.
 
 ## Continuity and saving
 
