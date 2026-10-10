@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-No player turn has been resolved after the revised opening. Earlier play runs remain discarded.
+Turn 1 has been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 0; awaiting the first player action |
-| Date and time | Third day of the first moon, 126 AC, morning; exact hour unestablished |
+| Turn | 1 completed; awaiting the player's next action |
+| Date and time | Tenth day of the first moon, 126 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Eighteen physically; 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Recovered from the 124 injury and fully accustomed to Cregan's body since 125; no current illness, injury or lasting impairment established |
-| Immediate situation | Personally governing; the steward and clerk have brought routine returns and an unopened White Harbor letter |
+| Immediate situation | The first week's accounts, muster, gate court and patrol returns are read. Arra's question about marriage stands until she leaves in the third moon. The steward is waiting to know whether to draft the letter to the Norrey now |
 
 ## Transfer and memory
 
@@ -44,6 +44,8 @@ Bennard and Benjen have already been convicted of treason and attempted murder a
 Arra Norrey was **Cregan's childhood friend and lover**, and loved him romantically. Jon remembers their shared upbringing and relationship through Cregan's full memories, while retaining his own identity and personality. Before the opening he trusted her with the truth of the transfer because she was Cregan's trusted friend. **She knows he is Jon and loves him as a friend.** Their current bond is friendship. They remain unmarried and unbetrothed. Her opening location is unspecified; no new office, formal oath or particular program commitment is implied.
 
 Jon knows his household and chosen captains. Their personal names can be supplied when relevant; a name omitted from these files is not amnesia. Do not import named minor NPCs or appointments from discarded runs.
+
+On the third day of the first moon, 126 (Turn 1), Jon told Arra privately that whatever she chose to do next would have his full support and nothing owed for it. She said she will go up to her father's hall when the track past the Flint's stone clears, about the third moon, with an escort of her own choosing and a letter from Jon, and that she will come back; she declined rooms over the gate, a title or a seat at the high table. She asked him to decide, and tell her before she leaves, what he means to do about marriage, so that she can answer her father. That decision is Jon's and remains open.
 
 ## Governance, knowledge and intent
 
