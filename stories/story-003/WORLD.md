@@ -1,8 +1,8 @@
-# Story 3 · World · Thirteenth day of the third moon, 126 AC
+# Story 3 · World · Thirtieth day of the fourth moon, 126 AC
 
 ## Current position and authority
 
-Turn 2 accepted and saved. It is the morning of the thirteenth day of the third moon, 126 AC. Arra's escort has just left by the Hunter's Gate for the Norrey's hall. Jon is back in Winterfell's solar, where the steward waits with the clerk's finding on the Umber grain claim and the west tower guard's third report that Bennard asks to speak with him.
+Turn 3 accepted and saved. It is the evening of the thirtieth day of the fourth moon, 126 AC. Jon is in Winterfell's solar. The first tribute instalment of the year is in and the Crown's share has gone to White Harbor. The Norrey, the Wull and perhaps the Liddle are expected after the lambing.
 
 The complete accepted history is preserved in [STORY.md](STORY.md#established-backstory-124126-ac). It is a player-authored alternate-history premise and supersedes the former arrival-day setup. Earlier played runs and their disclosures, bargains, costs and projects remain discarded.
 
@@ -17,6 +17,8 @@ The complete accepted history is preserved in [STORY.md](STORY.md#established-ba
 - **Late 125 to the opening on 126/01/03:** Jon established his personal rule and the administrative, military and logistical measures below.
 - **126/01/03 to 01/10 (Turn 1):** Jon read the audited returns and established the treasury position, answered Lord Desmond Manderly on port customs, held the muster and the gate court, rode to the kingsroad cut, and heard Arra's intention to go to her father's hall.
 - **126/01/11 to 03/13 (Turn 2):** Jon adopted the Roll of Northern Works, began the castle and Winter Town works that frozen ground allowed, sent the opening invitation to every direct house, rode to Castle Cerwyn, Torrhen's Square and Barrowton, received Lord Hornwood and the first answers, held the customary Winter Town fair, told Arra he will not marry now, wrote to Gram Norrey, and sent Arra up to the hills with an escort.
+
+- **126/03/13 to 04/30 (Turn 3):** Jon saw Bennard once and recovered the regency's notes of hand from his casket; Sergeant Donnel brought the Norrey's answer; the thaw works began at the castle and in Winter Town; Manderly's factors came; the first tribute instalment was counted and the Crown's share sent; the Umber grain claim was settled in part; Cerwyn's ford survey arrived.
 
 ## Family settlement and security
 
@@ -66,15 +68,17 @@ Standing orders and findings from play:
 
 | Item | Amount | Basis and date |
 | --- | ---: | --- |
-| Coin in the vault, running count | 194,330 GD | Clerk's running count on 126/03/10 from the seizure audit base, with the quiet moons' receipts and drawings; includes the 20,000 GD strongbox held apart |
-| Tribute arrears, 125 second instalment | about 9,400 GD | Owed, unpaid; the Dreadfort and the Last Hearth the largest shares; Bolton promises his with the fourth-moon instalment; Umber disputes 2,400 GD of his (below) |
-| Tenants' cash rent owed, twelve estates | about 1,200 GD | Owed, unpaid |
+| Coin in the vault, running count | 306,310 GD | Clerk's running count on 126/04/30; includes the 20,000 GD strongbox held apart; first instalment in, Crown's share out |
+| 126 first instalment of tribute | 101,200 GD received of 108,943 due | Counted in the vault 04/10 to 04/25; shortfall about 7,743 GD: Mormont, Flint of Widow's Watch and Flint of Flint's Finger not come; Locke and Ryswell short |
+| Tenants' rent instalment, 126 first | 27,900 GD of 28,600 due | Counted; about 700 GD short |
+| Crown's share, 126 first instalment | 24,585 GD | Sent to White Harbor 04/27 in four chests under thirty men, for shipping south under Lord Desmond's undertaking; receipt awaited |
+| Tribute arrears from 125 | about 5,500 GD | Bolton paid 3,100 on 04/12; Umber allowed 800 (grain 500 and carriage 295) and still owes 1,600; the rest owed by other houses |
+| Tenants' cash rent owed from 125 | about 1,200 GD | Owed, unpaid |
 | Tenants' grain rent owed | 1,800 quarters | In the tenants' barns |
-| Regency drawings unaccounted for, 121 to late 125 | about 38,000 GD | Clerk's estimate from the gaps in Bennard's rolls, not a count; separate from the 20,000 recovered |
+| Regency drawings unaccounted for, 121 to late 125 | about 38,000 GD | Clerk's estimate; of this, 11,000 GD is now identified as loans under notes of hand (below) |
+| Notes of hand found in Bennard's casket 03/13 | 6,000 GD the Dreadfort (122/12); 5,000 GD Barrowton (123/05) | Under the Dreadfort's and Dustin's seals, witnessed by the maester of Winterfell, repayable at the regent's pleasure; held in the works chest under Jon's seal; neither house yet written to |
 
-Ordinary flows, an authored instalment timing taken from the fiscal reference: the first instalment of tribute, six parts in ten of the roll, falls in the fourth moon and would bring about 109,000 GD if every lord paid in full; the Crown's share, about 24,585 GD, goes south the same moon; the second instalment falls in the tenth moon. Quiet moons bring in a little under 5,000 GD from the estates and spend a little under 2,000 on household and ordinary works.
-
-**Umber's claim:** Lord Umber says 2,400 GD of his arrears is grain he sent to the Wall in 124 on Bennard's order, to be set against tribute and never set. The clerk's re-count (126/03/13) finds the regency roll entry: 9,000 quarters of oats and rye carted from the Last Hearth to the Wall at the regent's order, marked “to be allowed,” no allowance made; worth about 500 GD at Winterfell's prices. The difference is unresolved.
+Ordinary flows, an authored instalment timing taken from the fiscal reference: six tenths of tribute and rents in the fourth moon, four tenths in the tenth; the Crown's share goes south at each instalment (about 24,585 and 16,390 GD). Quiet moons bring in a little under 5,000 GD from the estates' own stock, leases and grain and spend a little under 2,000 on household and ordinary works.
 
 ### Grain and stores
 
@@ -99,58 +103,70 @@ The [126 AC fiscal reference](references/FISCAL_126_AC.md) and [price book](refe
 
 ### Coin paid and committed under the roll
 
-| Item | Paid to 126/03/10 | Ordered and unpaid |
+| Item | Paid to 126/04/30 | Ordered and unpaid |
 | --- | ---: | ---: |
-| Works account room: ledgers, sheets, ink, chests, seal | 12 GD | — |
-| Master weights and measures (castle smith; iron) | 60 GD | 140 GD provisional |
-| Two castle granaries: timber felled and sledged, frames marked | 128 GD | about 251 GD |
-| Three castle wells: sites fixed, digging after the thaw | — | 133 GD |
-| Paving stone stocked at the south gate: 1,040 loads from the pit on the kingsroad south holding | 138 GD | about 14 GD for hauling to the thaw |
-| Winter Town fire casks (cooper) | 30 GD | 30 GD |
-| Winter Town: relining four old wells, twenty privies, school books and benches, provisional | — | about 249 GD |
-| Road poles cut on the kingsroad holdings | 29 GD | — |
+| Works account room | 12 GD | — |
+| Master weights and measures (castle smith) | 60 GD | 140 GD provisional |
+| Two castle granaries (timber, foundations, raising) | 188 GD | about 191 GD |
+| Castle wells: grain yard done; stable court abandoned and filled; smithy begun; kennel lane to come | 66 GD | about 87 GD |
+| Approach paving: stone 1,180 loads; paviours' contract 307 GD begun | 182 GD | about 277 GD |
+| Winter Town buildings let: market hall 360, weighhouse 90, two warehouses 442, winter hall 520, infirmary house 85, school house 85 (5 parts in 100 paid on signing) | 79 GD | about 1,503 GD |
+| Winter Town privies (20), well relining (4), new wells (6) | 167 GD | about 332 GD |
+| Winter Town fire casks | 60 GD | — |
+| Looms (6), bath trench trial | 13 GD | — |
+| School books and benches | — | about 17 GD |
+| Road poles cut and set | 29 GD | — |
 | Riders, parchment, wax; Moat Cailin rider's keep | 55 GD | — |
-| Sundry allowances pending quotations | — | about 53 GD |
-| **Total** | **452 GD** | **about 870 GD** |
+| **Total** | **911 GD** | **about 2,500 GD** |
 
-Early-period payments count against the roll's first reckoning period (fourth through twelfth moons of 126; 12,369.34 GD ceiling), begun early.
+Payments count against the roll's first reckoning period (fourth through twelfth moons of 126; 12,369.34 GD ceiling), begun early.
 
-### Works ledger, 126/03/13
+### Works ledger
+
+Status at 126/04/30.
 
 | Division and work | Status |
 | --- | --- |
-| Castle: two of ten granaries | Ordered; timber felled and sledged; frames marked in the woodyard; foundations after the thaw; the other eight not ordered (stores officer: two wanted, not ten) |
-| Castle: north granary roof | To be stripped and relaid (ordinary works) |
-| Castle: three wells | Sites fixed in the grain yard, the stable court and behind the smithy; digging after the thaw |
-| Castle: master weights | Standard chest and first sets being made by the castle smith; a wool merchant to prove the scales; Manderly asks that the 36 sets be made at White Harbor; undecided |
-| Castle: approach and gate court paving | 1,040 loads of rubble stocked, about a third of the approach and market square need; hauling until the thaw |
-| Castle: service yards, baths, school house | Not begun; the maester is finding a clerk-teacher |
-| Winter Town: survey | Done: square about 130 by 90 feet; lanes about two miles; four old wells to reline, six new sites; twenty privy sites, none within sixty paces of a well |
-| Winter Town: fire points | Casks ordered from the cooper |
-| Winter Town: hall, weighhouse, warehouses, stable, winter hall, infirmary | To be tendered after the thaw |
-| Winter Town: first bath | Site not fixed; hot-water run from the castle outflow (about 400 yards) untested; not to be sited where the privies are marked |
-| Winter Town: cloth, tannery, fulling mill | Awaiting Manderly's factors and masters |
-| Stark land: road poles | Cut; to be set at the thaw |
-| Stark land: granaries, wells, bridges, wool and hide houses, tar kilns | Not begun; receivers' returns to name villages |
+| Castle: two of ten granaries | Frames raised on stone piers two feet clear of the ground; first roofed; the other eight not ordered |
+| Castle: north granary roof | Stripped; wall plate rotten beyond the patch; relaying in hand (ordinary works) |
+| Castle: wells | Grain-yard well finished at 22 feet, clean; stable-court well abandoned foul at 15 feet and filled; third well begun behind the smithy; replacement site in the lane behind the kennels |
+| Castle: master weights | Standard chest and first sets with the castle smith; a wool merchant to prove the scales; Manderly's request that the 36 sets be made at White Harbor undecided |
+| Castle: approach and gate court paving | Begun 126/04 by a White Harbor master paviour and five Winter Town men from the gate outward; 1,180 loads stocked, not enough; more stone to be found |
+| Castle: service yards, baths | Not begun |
+| Castle: clerks' school | House let at the book price; teacher being found |
+| Winter Town: market hall, weighhouse, two warehouses, winter hall, infirmary house | Let 126/04 at or near the roll's prices (hall 360 GD); building through the summer |
+| Winter Town: stable for fifty horses | Held unlet; no proven need |
+| Winter Town: wells and privies | Two old wells relined, two of six new dug; twenty privies dug and lined; none within sixty paces of a well |
+| Winter Town: fire points | Casks set, filled and counted by the watch |
+| Winter Town: first bath | Hot-water run from the castle outfall failed (town six feet above it); to heat with wood; sited at the east end of the main street; a keeper to lease it before tubs are bought; the other four baths held |
+| Winter Town: cloth | Six looms ordered from a town joiner; nine town weavers canvassed; Manderly's factor will take 2,000 yards of grey at about three stags the yard if properly fulled; no weaving master; no fulling yet |
+| Winter Town: tannery, fulling mill | Not begun |
+| Stark land: road poles | Cut and set at the thaw on about 100 miles of Stark road |
+| Stark land: thirteen village wells | Villages named by the receivers' returns; digging to begin in the fifth moon |
+| Stark land: granaries, bridges, wool and hide houses, tar kilns | Not begun |
 
 ### Agreements with bannermen (in principle; none signed)
 
-| House | Agreed or asked | Terms and stage |
+| House | Agreed or asked | Terms and stage at 126/04/30 |
 | --- | --- | --- |
-| Cerwyn | Two timber bridges (the castle-road ford; the Acorn Water crossing on the kingsroad), two wells, two granaries | Public works; Cerwyn's four tenths in timber and tenants' labor at book rates; sworn ford survey by his maester when the water is down; nothing signed before it |
-| Tallhart | One timber bridge at the Barrowton-road ford; four wells; no hall | Public works; four tenths in labor and gravel from his pit; his carpenter sets the piles under Stark's carpenter's eye |
-| Dustin | Two wells; application for twelve miles of gravel road east from Barrowton toward the kingsroad; tannery and hall declined | Public works; Dustin four tenths in labor and teams |
-| Glover | No wharf (no landing worth it within a day's cart); applies for one timber bridge and six miles of gravel on the Wolfswood road to Winterfell | Public works; terms to settle |
-| Hornwood | Two tar kilns at his own cost; two trial firings in the summer; wants a buyer; hall deferred | No Stark coin; Manderly's factors to see the trial barrel |
-| Manderly | Two factors at the thaw; two warehouse floors at rent; inquiry to a Braavosi house for weaving masters; no advance wanted; asks that the sealed measures be made at White Harbor | Commercial cooperation; measures question undecided |
-| Umber | Four granaries, before anything else | Public works; four tenths in timber and men; arrears dispute above |
-| Karstark | Two granaries; a spinning house with its own women before any mill | Public works; spinning trial only |
-| Bolton | Will consider which villages lack water; no hall | Noncommittal |
-| Ryswell, Locke, the Flints, Mormont, Reed, the other direct houses, the six clans, Skagos | No answer yet | Clans' letters went up with Arra 03/13; rider waits at Moat Cailin for a crannogman; Skagos waits on a ship |
+| Cerwyn | Two timber bridges, two wells, two granaries | Public works; Cerwyn's four tenths in timber and labor at book rates. Sworn survey 04/26: castle-road ford 26 feet, buildable at the book price; Acorn Water 48 feet with a soft north bank, needs a pier and two spans or another design; Jon to inspect in summer; nothing cut for it until then |
+| Tallhart | One timber bridge at the Barrowton-road ford; four wells; no hall | Public works; four tenths in labor and gravel; his carpenter sets the piles under Stark's carpenter's eye |
+| Dustin | Two wells; twelve miles of gravel road east toward the kingsroad; tannery and hall declined | Public works; Dustin four tenths in labor and teams. Separately, Barrowton owes the regency's 5,000 GD under a note of hand; not yet raised |
+| Glover | One timber bridge and six miles of gravel on the Wolfswood road; no wharf | Public works; terms to settle |
+| Hornwood | Two tar kilns at his own cost; summer trial firings; wants a buyer | No Stark coin; Manderly's factors to see the trial barrel |
+| Manderly | Factors came 04/22 (Berrick); two warehouse floors at rent; Braavosi weaving-master inquiry pending; asks that the measures be made at White Harbor; ships the Crown's share | Commercial cooperation |
+| Umber | Four granaries before anything else | Public works; four tenths in timber and men. Grain claim settled in part 04/26: 800 GD allowed, 1,600 GD still owed; his answer awaited |
+| Karstark | Two granaries; a spinning house | Public works; spinning trial only |
+| Bolton | Will consider which villages lack water; no hall | Paid instalment and 125 arrears in full 04/12. Separately, the Dreadfort owes the regency's 6,000 GD under a note of hand; not yet raised |
+| The Norrey | Poles, axes and iron accepted; a clan store where he chooses, with his own key and Stark grain | Gift, not a loan; the Norrey comes down after the lambing with the Wull and perhaps the Liddle |
+| The Flint (mountain) | Poles; wants axes | To go up with the Norrey's |
+| The Knott | Returned the letter unopened | — |
+| The Burley, the Harclay, the Wull, the Liddle | No answer yet; the Wull and the Liddle to come down with the Norrey | — |
+| Ryswell, Locke, the Flints of the coast, Mormont, Reed, the other direct houses, Skagos | No answer yet; Mormont and both coastal Flints did not pay the first instalment; Locke and Ryswell paid short | Rider waits at Moat Cailin for a crannogman; Skagos waits on a ship |
 
 ### Operating results
 
-None yet. The customary fair of the second moon traded goods worth about 7,000 GD by the reeve's reckoning (wool, hides, salt fish, ale), the smallest he remembered; the stall penny was the only charge.
+None yet from the roll's works. The customary fair of the second moon traded goods worth about 7,000 GD by the reeve's reckoning; the stall penny was the only charge. The grain-yard well is the first finished work in use.
 
 ## Future-event calendar
 
@@ -160,13 +176,15 @@ Independent events proceed during authorized elapsed time unless changed circums
 
 ## Open matters
 
-- Bennard's third request to speak with Jon, unanswered.
-- Umber's grain claim: 2,400 GD claimed against about 500 GD found.
+- Letters to the Dreadfort and Barrowton about the regency's notes of hand, not yet written.
+- The Acorn Water crossing: pier and two spans, or another design; Jon to inspect in summer.
 - Whether the thirty-six sealed measures are made at Winterfell or White Harbor.
-- The Norrey's answer, expected back with Sergeant Donnel.
-- The fourth-moon tribute instalment and the Crown's share.
-- The first bath's site and water; the Winter Town tenders; the castle foundations and wells at the thaw.
-- Cerwyn's sworn ford survey; terms for Glover's and Dustin's road miles.
+- A keeper to lease the first Winter Town bath.
+- The Norrey's visit after the lambing; the clan store's site and the axes and iron to send up.
+- Umber's answer to the partial settlement; the first-instalment shortfalls from Mormont, the coastal Flints, Locke and Ryswell.
+- Stone for the rest of the approach and the market square; the north granary's rotten wall plate.
+- A weaving master; a fuller; whether the town's weavers will work Stark wool at Stark's wage.
+- Bennard's monthly word of Benjen and the Margaret letters through the maester.
 
 ## Continuity boundary
 
