@@ -24,26 +24,28 @@ Use a plain repository-enabled chat for this project. Save accepted scenes and m
 
 - Story 1: Eddard Stark, 283 AC, at its Turn 0 opening.
 - Story 2: Jon Snow, 298 AC, at its Turn 0 opening.
-- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turn 1 is completed in the current run. It is noon on the third day of the fourth moon, 126 AC, about four hours after the opening. Jon has reviewed the morning accounts and is awaiting Arra at the godswood entrance. The first checkpoint remains after Turn 20.
+- Story 3: Jon Stark from 487 AC in Cregan Stark's body in 126 AC. Turn 2 is completed in the current run. It is about nine at night on the third day of the fourth moon, 126 AC. Jon is hearing Bennard in the working chamber and must answer his proposal. The first checkpoint remains after Turn 20.
 - [Jon_Stark_487_AC_.md](stories/story-003/Jon_Stark_487_AC_.md) is Story 3's complete character sheet. `CHARACTER.md` records his current 126 AC state; the sheet's legacy scores are inactive.
 - Story 3's `references/` folder holds the [fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md), including regional output figures, and the [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx). Fiscal graphs are in the adjacent `fiscal-figures/` folder. Consult these references when economics matters to the scene.
 - The economic workbook and narrative research remain references.
 
 ## Next play session
 
-Resume Story 3 from its live files, linked character sheet and latest scene, Turn 1. Do not replay Turn 0 or import the retired run.
+Resume Story 3 from its live files, linked character sheet and latest scene, Turn 2. Do not replay the opening or import the retired run.
 
-The clock is paused at noon on the third day of the fourth moon, 126 AC. Jon is at Winterfell's godswood entrance. Arra is in Winterfell and has agreed to meet after the midday meal. Before resolving their substantive meeting, clarify whether Arra and Cregan are already married or still unmarried childhood friends. This was explicitly unresolved in the opening save, and the player's latest reference to friendship and possible love does not settle it.
+Jon has reached the end of his authorized day-long sequence. Bennard, still a guarded prisoner, asks for his three sons to move from close confinement into their former rooms inside Winterfell under guard, with supervised exercise and shared meals. In exchange he offers to remain confined, publicly acknowledge Cregan's sole authority before the household officers, and instruct his sons to obey. Jon has not answered. The next action belongs to the player; do not release anyone or advance to sleep or tomorrow automatically.
 
-Jon has reviewed the lordship's books. WORLD.md records the dated opening book balances, 250,000 gold dragons and 70,777 quarters of grain, plus ordinary-year estimates. No annual forecast has been credited as cash, no physical audit has occurred and no new spending has been ordered.
+The Arra marital premise is resolved: she and Cregan are still unmarried childhood friends, as expressly chosen by the player before Turn 2. Jon told her privately about his identity and arrival from 487 AC. She remains unconvinced, suggested illness as a possibility and promised temporary discretion. Her answer about further help is due after the midday meal on the sixth of the fourth moon.
 
-The player's remaining sequence is already authorized: seek privacy in the godswood; disclose Jon's identity and transfer to Arra; avoid exploiting her relationship with Cregan; request discretion and help understanding the present; give her three days for an answer; ask for her best available guard for morning sparring until her answer; and near bedtime hear Bennard in the office. Resolve the marital premise, then continue the instructions until completion or a genuine consequential choice. Arra's consent, the guard's existence or availability, and soundproof seclusion are not guaranteed. The disclosure, three-day interval, sparring and Bennard's audience have not yet occurred.
+Harl, one of the two Norrey household men accompanying Arra, has agreed to first-light practice in Winterfell's practice yard on the fourth, fifth and sixth, ending sooner if Arra answers. Blunted swords and padded coats are planned. No practice has occurred, no service has transferred and no new wage has been agreed. Harl does not know Jon's secret.
+
+WORLD.md preserves the morning financial review and opening book balances of 250,000 gold dragons and 70,777 quarters. Annual estimates are not realized transactions. No fiscal policy or new spending has been ordered.
 
 ## Development agenda
 
 The existing three-file structure and shared guidance support narration, economic decisions, and a world changed by events. The supplied fiscal reference provides 126 AC model amounts and assumptions. Use its opening stocks and relevant rates when establishing dated campaign finances; its annual receipts, closing balances, and stress tests are not events already played. Turn 1 includes an initial review of accounts, not a physical audit; it creates no new expenditure. Keep consequential amounts in the live state as play changes them.
 
-1. Continue after Turn 1 once the Arra marital premise is clarified. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
+1. Continue after Turn 2 with Jon's response to Bennard. Apply the current adjudication and narrative guidance without a fixed word or paragraph target.
 2. Save accepted scenes and material changes during play. Keep consequential quantities, costs, resources, obligations, and project progress in the existing state.
 3. After Turn 20 and each subsequent twentieth completed turn, reconcile continuity and review the prose, then refresh this handoff. Keep the retired run and all other campaigns separate.
 4. Check that a new chat resumes the latest state of this fresh run. Fix observed problems in existing guidance before adding structure.

@@ -100,3 +100,106 @@ Jon left the books in their separate piles and went down to the godswood entranc
 OOC, clock paused: `HANDOFF.md` and `CHARACTER.md` explicitly leave Arra and Cregan's marital status unresolved and require clarification before a scene depends on it. Are they already married, or still unmarried childhood friends?
 
 Your instructions for the private conversation, three-day allowance, sparring request and evening audience with Bennard remain pending; you do not need to repeat them.
+
+| Field | Current |
+| --- | --- |
+| Name | Jon Stark, known here as Cregan Stark |
+| Age | About eighteen physically; approximately 204 years remembered |
+| Location | Winterfell, working chamber |
+
+## Turn 2 | Third day of the fourth moon, 126 AC | Night, about nine
+
+Elapsed: About nine hours.
+
+Arra arrived after the meal, accompanied as far as the gate by a man wearing a short sword. She dismissed him when Jon asked the guards to remain outside.
+
+He led her away from the principal paths. The ground did not match every remembered detail, but the inner wall and a low outcrop gave him his bearings. Behind the stone was a shallow recess screened from the path. Jon checked the approaches before returning to her. They could speak quietly there; it was no sealed chamber.
+
+Arra stayed standing.
+
+“What did you want to tell me?”
+
+“My name is Jon.”
+
+She waited for him to finish.
+
+He told her about the morning, the unfamiliar steward, the date in the book. He remembered living through 487 AC. He remembered his own life, not Cregan's. He could recognize Winterfell without knowing the people now serving in it.
+
+“Where is Cregan?”
+
+“I don't know.”
+
+“Does he come back?”
+
+“I don't know that either.”
+
+Jon explained why he had sent for her. He knew of her long friendship with Cregan. He did not know what else had passed between them, and would not claim either friendship or love as something she owed him.
+
+“The accounts written afterward tell me only part of what happened here. I need to understand the people, and what has happened lately. You don't have to help me. I ask you to keep this to yourself.”
+
+Arra moved to where she could see the approach past the stone.
+
+“You could be ill.”
+
+“I can only tell you what I remember.”
+
+“And I have known you since we were children. Yesterday counts for something too.”
+
+He gave her three days to consider his request. She could answer after the midday meal on the sixth.
+
+“I won't repeat this while I think about it,” she said. “That is what I can promise now. I haven't agreed that Cregan is gone.”
+
+Jon then asked whether she would lend him the best fighter among the men who had accompanied her, for practice each morning until she answered.
+
+“For sword practice?”
+
+“For sparring.”
+
+“Harl is the better of the two. They're my father's men, not mine to give away. I'll ask him.”
+
+She looked back toward the path.
+
+“He won't know what you've told me.”
+
+They returned separately from the recess, though they left the godswood by the same gate. Arra called her escort over and spoke to him before crossing the yard. Jon could not hear their conversation.
+
+Later that afternoon, Harl brought his answer himself. He was available at first light, after arranging his escort duties with the other Norrey man. Blunted swords and padded coats, in the practice yard. He would come each morning through the sixth unless Arra gave her answer sooner. He spoke of an ordinary practice bout with the lord of Winterfell.
+
+The afternoon passed without a further summons from Arra. Supper was served and cleared. Near the hour Jon had chosen for the audience, the steward sent two guards to bring Bennard from confinement.
+
+They searched his sleeves, belt and boots before admitting him. One guard inspected the chamber, then withdrew to the passage with the other. The door was closed. No clerk sat at the table.
+
+“I will stand,” Bennard told the guard.
+
+Once the door had shut, he pulled out the chair opposite Jon and sat.
+
+Jon asked to hear what he had come to say.
+
+“My sons.”
+
+Bennard glanced at the closed door.
+
+“They followed my orders. You can say they ought to have refused them. I taught them otherwise.”
+
+He wanted their close confinement ended. They could remain inside Winterfell, in their former rooms, with a guard at the door and their movements supervised. He asked that they be allowed to eat together and exercise in the yard.
+
+“I'll remain where you've put me.”
+
+He did not ask to resume the regency. He offered instead to acknowledge Cregan's sole authority before the household officers and to command his sons to obey him.
+
+“I should have yielded when you demanded it,” he said. “I thought you unready. You have made it plain enough that you did not need my agreement.”
+
+Bennard had brought no witness to the offer. He wanted the terms settled here before either man put them before the household.
+
+“Keep guards on them. Read whatever letters they send. I am asking you to let them live as your kin inside these walls, under your authority. Give me that, and I'll say before your officers that the rule is yours and my sons are bound to it.”
+
+### Changed this turn
+
+- Arra and Cregan are established as unmarried childhood friends.
+- Arra has heard Jon's account of his identity and arrival. She remains unconvinced and promises discretion while considering his request, until after the midday meal on the sixth.
+- Harl, a Norrey escort, has agreed to morning sparring from the fourth through the sixth, ending sooner if Arra answers. No practice has occurred yet.
+- Bennard has proposed supervised residence for his sons in exchange for a public acknowledgment of Cregan's authority. Their confinement remains unchanged.
+
+### Next
+
+What does Jon say to Bennard?

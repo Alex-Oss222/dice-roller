@@ -1,6 +1,6 @@
 # Story 3 · World · 126 AC
 
-Current state: Turn 1 completed. Third day of the fourth moon, 126 AC, noon. About four hours have elapsed since the opening. Jon is at the godswood entrance, awaiting Arra after reviewing the morning accounts. Pause before their substantive meeting to settle the explicitly flagged marital premise. The first checkpoint remains after Turn 20.
+Current state: Turn 2 completed. Third day of the fourth moon, 126 AC, night, about nine. About nine hours elapsed this turn, thirteen since the opening. Jon is in the working chamber, hearing Bennard as a guarded prisoner, and must answer his proposal. The first checkpoint remains after Turn 20.
 
 This campaign is independent of Stories 1 and 2. Jon's supplied prior life is its explicit alternate-history premise, not an outcome already played in either of those campaigns. The earlier five-turn play-test is retired. Its later events, findings, arrivals, disclosures, promises, and dates are not current history.
 
@@ -14,21 +14,35 @@ Jon's consciousness arrived in a working chamber at Winterfell. The transfer, ro
 
 - Cregan succeeded his father Rickon in 121 AC. Bennard governed as regent, resisted surrendering power, and was imprisoned with his three sons in 126 AC.
 - Cregan now rules personally. Confining his uncle has not established the private loyalty of every officer, household servant or northern lord.
-- Arra Norrey is Cregan's childhood friend. Whether they are already married remains unresolved. Clarify before resolving her response to Jon's planned disclosure; current play is paused at that dependency.
-- Arra is presently in Winterfell. A guard delivered Jon's invitation to meet at the godswood entrance after the midday meal and reported her acceptance. Her presence and ordinary acceptance are authored Turn 1 circumstances; no personal guard retinue, confidences or agreement to help has yet been established.
+- The player clarified before Turn 2 that Arra Norrey and Cregan are still unmarried childhood friends. This setup clarification consumed no fictional time. No romantic attachment, betrothal or future marriage is established.
+- Arra remains in Winterfell. She attended Jon's requested godswood meeting in Turn 2. Two men from her father's Norrey household accompany her; Harl is the better swordsman of these two by her account. These minor escort details are authored Turn 2 circumstances, not named book characters or a transferred military force.
 - Viserys I is king and Rhaenyra is his designated heir. Alicent's sons and the rival royal households make succession politically consequential; the civil war has not begun.
 - House Stark holds the North under the Iron Throne. Jon's former independent monarchy and succession law have no authority here.
-- The household recognizes its lord as Cregan. Nobody has been told of Jon's identity. NPCs do not recognize a consciousness transfer by narrative convenience.
+- The household recognizes its lord as Cregan. Arra alone has been told Jon's account of his identity and transfer; she remains uncertain of its truth. Neither the escorts nor the household has learned the secret. NPCs do not recognize a consciousness transfer by narrative convenience.
 
-## Immediate unresolved business and authorized continuation
+## Arra: disclosure, answer and practice
 
-Bennard and his three sons remain confined at Winterfell. The steward has reported Bennard's request for an audience without a clerk. Its purpose and the truth of anything Bennard may claim are unestablished. The player has authorized hearing him in the office near bedtime; that interval has not been reached, the audience has not happened and no order moving the prisoners has yet been issued.
+After the midday meal on the third, Jon privately told Arra his name, his remembered life through 487 AC and his arrival in Cregan's body that morning. He said that he lacks Cregan's private memories and does not know Cregan's fate or whether he will return. He disclaimed any right to her friendship or possible love for Cregan and asked for discretion and help understanding the present.
 
-Jon has completed an initial review of the household's accounts, estate summaries, rent and tribute schedules and selected supporting entries. Their arithmetic reconciled in the portions examined. He has not physically counted the treasury, measured the granaries or audited the private treasuries of other northern houses.
+Arra suggested illness as a possibility, did not accept Cregan's disappearance as proven, and promised not to repeat the account during the three days offered for consideration. She has not yet agreed to become a confidante or adviser beyond that provisional discretion. Her answer is due after the midday meal on the sixth day of the fourth moon, 126 AC. This is the offered three-day period, not an ultimatum backed by punishment.
 
-After resolving the Arra marital premise, resume the existing instructions rather than require repetition: meet her, seek a private place in the godswood with guards left at a suitable distance, tell her the truth about Jon and the transfer, disclaim any wish to exploit her friendship or possible love for Cregan, request discretion and help understanding the present, allow three days for her answer, and request her best available guard for morning sparring until her answer. Then continue toward the authorized evening audience unless a real decision or changed circumstance interrupts.
+The conversation occurred in a checked shallow recess screened from the path by an outcrop near the inner wall of the godswood, with guards left outside. No one overheard it and no wider disclosure has occurred by the end of Turn 2. This successful private conversation does not establish a soundproof site, exclusive Stark knowledge or guaranteed privacy in later visits.
 
-Neither Arra's consent nor any guard's availability is established. The three-day allowance has not begun, and no sparring arrangement has been made. No private or soundproof alcove has been established; Jon's own experience of later Winterfell can inform a search but cannot guarantee present terrain, exclusivity or inaudibility.
+At Jon's request, Arra approached Harl, the better swordsman of her two accompanying Norrey men. Harl came that afternoon and personally agreed to practice at first light in Winterfell's practice yard on the fourth, fifth and sixth, ending sooner if Arra answers. He arranged escort coverage with his companion. Blunted swords and padded coats are planned. No bout has occurred and his ability relative to Jon has not been tested. He knows only that the lord requested practice. This is temporary cooperation, not a transfer of service, exceptional combat mastery or a new paid appointment.
+
+## Bennard: audience and pending proposal
+
+Near nine that night, the steward had Bennard brought from confinement under guard for the audience Jon requested. Guards searched him and remain outside the closed working-chamber door. No clerk attends. No oath of secrecy or other new condition was imposed or accepted.
+
+Bennard asks that his three sons leave close confinement for their former rooms inside Winterfell, with a guard on the door, supervised movements, shared meals and exercise in the yard. He offers to remain confined himself, publicly acknowledge Cregan's sole authority before the household officers, and instruct his sons to obey.
+
+Bennard says the sons followed his orders, that he had considered Cregan unready, and that he should have yielded when asked. These are his representations, not established proof that his sons lack independent culpability or that he has no further motives.
+
+Jon has heard the proposal but has made no answer. No custody arrangement, pardon, release, appointment or settlement has changed. Bennard remains a prisoner temporarily present in the audience; his three sons remain confined. Stop for Jon's response. Do not implement Bennard's offer or advance to sleep or morning practice automatically.
+
+## Completed work and concurrent activity
+
+The previously authorized sequence is now completed through hearing Bennard's words. Jon's initial account review remains as recorded below; no new fiscal policy, expenditure or development project has been approved. Harl's arrangement and Bennard's summons occurred during the authorized afternoon and evening. No unrelated world event or distant news was introduced without cause.
 
 ## Dated finances and stores
 
