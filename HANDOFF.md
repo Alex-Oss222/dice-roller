@@ -6,7 +6,7 @@ Read this first, then [AGENTS.md](AGENTS.md).
 
 Story 3 is at **Turn 0 on the third day of the first moon, 126 AC**, after the player's accepted 124–126 AC backstory. No interactive player turn has been resolved. The full backstory and replacement opening are in [STORY.md](stories/story-003/STORY.md).
 
-Read one current repository snapshot: Story 3's [CHARACTER.md](stories/story-003/CHARACTER.md), [WORLD.md](stories/story-003/WORLD.md), [STORY.md](stories/story-003/STORY.md), linked [487 AC source profile](stories/story-003/Jon_Stark_487_AC_.md), and the required shared rules and research.
+Read one current repository snapshot: Story 3's [CHARACTER.md](stories/story-003/CHARACTER.md), [WORLD.md](stories/story-003/WORLD.md), [STORY.md](stories/story-003/STORY.md), linked [487 AC source profile](stories/story-003/Jon_Stark_487_AC_.md), the [conditional future-event calendar](stories/story-003/FUTURE_EVENTS.md), and the required shared rules and research.
 
 Jon is eighteen in body and governs from the lord's solar. It is morning on the third day of the first moon; the exact hour is unspecified. Routine returns and an unopened White Harbor letter are on the table. The first player action will be Turn 1. Do not advance time or choose Jon's action during setup maintenance.
 
@@ -28,6 +28,12 @@ Jon is eighteen in body and governs from the lord's solar. It is morning on the 
 The audits and practical reforms are accepted backstory, not work that must be replayed. Exact opening balances, force counts, prior costs and completed repair quantities were not supplied. Establish relevant particulars through existing records when needed without treating those omissions as ignorance or a failed audit.
 
 The fiscal model is not itself the audited early-126 ledger. Do not automatically credit annual income or import the old runs' spending. The [Northern Development Program](stories/story-003/NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a separate **unapproved proposal**. Its proposed later-126 schedule is still prospective; check timing and overlaps with existing work before adoption so work is not ordered or charged twice.
+
+## Conditional future events
+
+The player requested a persistent countdown for the supplied 129–133 AC timeline. [FUTURE_EVENTS.md](stories/story-003/FUTURE_EVENTS.md) preserves all 117 baseline entries, dated anchors, uncertain windows and causal conditions. It is synchronized with Turn 0, 126/01/03. Viserys's historical death is 1,140 modeled days away; the first Winter Fever outbreak is late 132 and Sylas's invasion is in 133, with no known moon. These are conditional forecasts, not completed events.
+
+During authorized elapsed time, resolve due independent events even if Jon is elsewhere; revise affected later events when actual circumstances change. The calendar never chooses Jon's pact, military orders, judgments or marriage. Keep event occurrence, reports and character knowledge distinct. Update its date, countdowns and changed event notes with the live turn save under TURN_PROCESS. Adding this calendar advances no time and restores no discarded play.
 
 ## Continuity and saving
 

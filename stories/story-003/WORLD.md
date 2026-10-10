@@ -72,6 +72,12 @@ Historical repair orders, patrols and logistics may carry ongoing costs. They ar
 
 The [Northern Development Program](NORTHERN_DEVELOPMENT_PROGRAM_126-129_AC.md) remains a **separate unapproved proposal**. Its 73,000-dragon ceiling is not reserved or spent. Existing reforms and repair orders do not activate every building, commercial advance or letter listed there. Before adopting it, compare it with existing work, identify incremental costs and check its prospective schedule against the third-day-of-first-moon opening. Its fourth-to-seventh-moon 126 planning dates are future proposals, not elapsed deadlines.
 
+## Future-event calendar
+
+The [conditional future-event calendar](FUTURE_EVENTS.md) tracks the player's supplied 129–133 AC timeline and remaining time from the saved date. It holds pending baselines and their changes; this file holds actual lasting world outcomes. No scheduled future event has occurred at Turn 0.
+
+Independent events proceed during authorized elapsed time unless changed circumstances alter them. Jon's preparations, other actors' choices and earlier results can change later events. Historical battles, casualties, plague deaths and succession outcomes are not compulsory. Historical actions belonging to Cregan require Jon's choice. Apply lasting consequences once and record them here when they actually occur, keeping offscreen facts distinct from news reaching Winterfell.
+
 ## Continuity boundary
 
 The player supplied this history to replace the starting setup. It is accepted history even though it predates Turn 1. No previous run's events are restored unless the new premise expressly establishes them.

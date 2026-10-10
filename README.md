@@ -14,6 +14,8 @@ Each campaign uses three live files:
 - `WORLD.md` holds current army strengths and losses, money available, spending and commitments, holdings, development projects and their costs, relationships, and lasting consequences. Keep each fact's location, date, and scope clear where they matter.
 - `STORY.md` holds accepted scenes, preserving the events behind the current state.
 
+A campaign may also link a conditional future-event calendar. It tracks pending historical baselines and countdowns; accomplished outcomes still belong in the live character, world and story records.
+
 The work ahead is to keep these records accurate during play and verify that later chats use them.
 
 ## Stories
@@ -40,6 +42,7 @@ Begins at the holdfast north of Winterfell on the morning of the Night's Watch d
 - [Current character state](stories/story-003/CHARACTER.md)
 - [Story](stories/story-003/STORY.md)
 - [World](stories/story-003/WORLD.md)
+- [Conditional future events and countdowns](stories/story-003/FUTURE_EVENTS.md)
 - [Fiscal reference for 126 AC](stories/story-003/references/FISCAL_126_AC.md)
 - [North 126 AC price book](stories/story-003/references/North_126AC_Price_Book.xlsx)
 
@@ -66,7 +69,7 @@ Each campaign develops independently. Its own recorded facts govern subsequent t
 
 For a new chat:
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Open the current run of stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked character sheet, and required writing rules. Use the live files without importing the retired play-test. If no player turn has been resolved in this run, present the saved opening for my first action; otherwise resume the latest saved situation. Resolve any flagged premise when it affects the scene, and wait for my action. I control Jon's meaningful choices. Do not advance time before my response.
+> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md, then AGENTS.md. Open the current run of stories/story-003 from its latest saved position. Read its CHARACTER.md, STORY.md, WORLD.md, linked character sheet, FUTURE_EVENTS.md, and required writing rules. Use the live files without importing the retired play-test. If no player turn has been resolved in this run, present the saved opening for my first action; otherwise resume the latest saved situation. Resolve any flagged premise when it affects the scene, and wait for my action. I control Jon's meaningful choices. Do not advance time before my response.
 
 If the chat cannot write, retain both player actions and GM responses from the current run for later reconciliation. Confirm the import before resuming elsewhere.
 

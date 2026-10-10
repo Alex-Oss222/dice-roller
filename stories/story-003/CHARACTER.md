@@ -51,6 +51,6 @@ Jon has dismissed corrupt officials, audited the treasury and noble obligations,
 
 He delegates daily household work to the steward while retaining justice, appointments, military readiness and relations with bannermen. His priorities are stability, winter reserves, reliable routes and defenses, and secure Stark authority.
 
-His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change.
+His historical studies warn him of an approaching Targaryen succession war. He has committed to neither faction. This is informed historical knowledge, not a compulsory script or certain knowledge of every secret and future change. The [conditional future-event calendar](FUTURE_EVENTS.md) is an out-of-character reference; its full contents are not automatically Jon's exact knowledge or information he has shared with Arra.
 
 The new backstory, not earlier chat play, defines the start. Only the player chooses Jon's next meaningful action.

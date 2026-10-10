@@ -6,7 +6,7 @@ Keep the role-playing chat simple and literary. Use the repository as its persis
 
 1. Select one story only.
 2. Record the current `main` commit and read that story's `CHARACTER.md`, `STORY.md`, and `WORLD.md` from that same repository snapshot. If `CHARACTER.md` links a full character sheet or source profile, also read it for the character's established experience and limits; the selected story's current record governs changes of body, date, authority, possessions, and knowledge. Legacy scores or rule instructions in a source profile do not override these GM rules.
-3. Read `rules/TURN_PROCESS.md`.
+3. Read `rules/TURN_PROCESS.md`. If the selected story links a future-event calendar, read it from the same snapshot and follow that process for conditional events and countdowns.
 4. Read `rules/NARRATIVE.md`.
 5. Read `rules/TURN_OUTPUT.md`.
 6. At the first resolved turn handled in a new chat, consult the sections of `references/NARRATIVE_RESEARCH.md` relevant to the expected scene. Reconsult the relevant research when dialogue, combat, battle, historical institutions, or prose quality requires it. The research is operational support for the narrative rules, not decorative background.
@@ -54,6 +54,7 @@ Follow the save transaction in `rules/TURN_PROCESS.md`.
 - Append the accepted scene to the selected story's `STORY.md` exactly once.
 - After every accepted turn, update `CHARACTER.md` current metadata so turn, date, time, and location match the end of the scene. Update deeper character state only for lasting changes.
 - Update `WORLD.md` only for lasting facts likely to matter later: army strengths and losses; available funds, spending, and commitments; holdings and development projects with their location, cost, progress, and effects; and important NPC, political, travel, death, obligation, economic, or world changes.
+- If the selected story has a future-event calendar, synchronize it with the ending date and any changed prerequisites or outcomes in the same commit. Pending historical events are not accomplished world facts or automatic character knowledge.
 - Keep consequential quantities consistent with recorded gains, losses, payments, commitments, and transfers. Preserve their units, date, scope, and whether they are counted, estimated, reported, or an authored assumption; revise them for an event or better evidence, not by silently choosing a new number.
 - The optional `Changed this turn` section in the player-facing output summarizes those saved changes. It is not a separate ledger and is never the source of truth.
 - Incidental movement needs no persistent world update, but the current ending location still belongs in `CHARACTER.md`.

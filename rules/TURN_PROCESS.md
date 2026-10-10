@@ -10,6 +10,7 @@ Use this process for every accepted player turn. The purpose is to keep the pros
 4. If `CHARACTER.md` links a source sheet, read it for established background and limits. The live story files govern the current date, body, location, authority, possessions, knowledge, and consequences.
 5. Read `rules/NARRATIVE.md` and `rules/TURN_OUTPUT.md`.
 6. Read `rules/COMBAT.md` and economic references only when relevant.
+7. If the selected story links a future-event calendar, read it from the same commit. Its baselines describe possible future history; the live story and world records determine what has actually happened.
 
 Do not combine state from different commits or campaigns.
 
@@ -24,6 +25,18 @@ A stated desired result is not proof that it happens. A long-term plan does not 
 Determine what follows from the character's established ability, knowledge, preparation, authority, relationships, resources, opposition, timing, geography, material limits, and prior consequences.
 
 NPCs act from their own knowledge, interests, obligations, judgment, and means. Do not manufacture resistance or cooperation merely to prolong the plot.
+
+### Conditional events during elapsed time
+
+When the selected campaign has a future-event calendar, use it before resolving any passage of time:
+
+1. Identify the authorized start and end, due dates or windows, ongoing threats and reports in transit. Do not advance time merely to reach an event.
+2. Process events in causal and chronological order. If a baseline remains viable, let it proceed even outside the player's view. If its prerequisites changed, determine what now happens and reassess affected descendants. Date order overrides an outline's topic order.
+3. Preserve uncertainty. For year-only or seasonal events, use the calendar's scheduling guidance to record a plausible working date or narrower window as play approaches it. Label this as a campaign assumption; do not silently invent canon precision or postpone viable events forever.
+4. Adjudicate actual attempts, defenses, resources, losses and outcomes. Historical deaths and victories are not automatic. A general period summary and its component events must not apply the same consequence twice.
+5. Keep an event's occurrence separate from when news reaches the character. Stop if the next consequential action is the player's to choose; a historical counterpart's choice is not authorization.
+
+Changes can accelerate events as well as delay or prevent them. Plans alone do not establish successful intervention. Use existing preparation and accomplished work from the live state when assessing effects.
 
 Do not show scored comparisons or mechanics to the player.
 
@@ -72,6 +85,12 @@ Update only lasting external facts likely to matter later, including important N
 
 Preserve units, date, location, scope, and whether a quantity is counted, estimated, reported, or an authored assumption.
 
+### Linked future-event calendar, when present
+
+Synchronize its saved turn, date and remaining-time summary with the accepted scene. Update statuses and dated notes for changed prerequisites, working dates, actual outcomes and affected later events. Preserve original baseline dates for comparison. Do not leave resolved events counting down as pending or show an invented exact date for an uncertain event. Where a row groups several events, record partial resolution explicitly.
+
+Save lasting consequences to `WORLD.md` and new character knowledge to `CHARACTER.md`; the future calendar is not a substitute for either. An offscreen event may belong in the world and calendar without entering the viewpoint scene. Save the calendar with the rest of the same coherent turn commit. A same-date turn still requires reassessing any prerequisites changed by the action.
+
 ### `HANDOFF.md`
 
 Do not update it for every ordinary turn. Update it at a reset, major development boundary, continuity checkpoint, or when another chat needs a changed premise or current development status.
@@ -86,6 +105,7 @@ Before committing, verify:
 - elapsed time is plausible and authorized;
 - lasting injuries, knowledge, possessions, payments, losses, commitments, projects, and world events are reflected in the correct live file;
 - private GM facts have not been added to character knowledge;
+- any linked future calendar agrees with the ending date, uses valid countdown arithmetic and reflects due or changed events without forcing player choices or duplicating consequences;
 - `Changed this turn` lists only changes actually represented in `CHARACTER.md` or `WORLD.md`;
 - `Next` matches the point where the narrative stopped.
 
