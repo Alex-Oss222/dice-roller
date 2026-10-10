@@ -2,7 +2,7 @@
 
 ## Clock and scope
 
-**Synchronized with Turn 9: fifteenth day of the third moon, 128 AC, evening.** Saved position 128/03/15. None of these events has occurred in this run; see the status and change record for campaign developments.
+**Synchronized with Turn 10: thirtieth day of the seventh moon, 128 AC, evening.** Saved position 128/07/30. None of these events has occurred in this run; see the status and change record for campaign developments.
 
 This is the authoritative future-event ledger for this campaign. Current accomplished facts remain in [WORLD.md](WORLD.md); Jon's personal knowledge remains in [CHARACTER.md](CHARACTER.md); accepted scenes remain in [STORY.md](STORY.md). Read this ledger with those files at the same commit.
 
@@ -16,35 +16,35 @@ For campaign arithmetic use **twelve 30-day moons per year (360 days)**, consist
 
 Date notation below is **year/moon/day**. Day difference is `360 × (target year − current year) + 30 × (target moon − current moon) + target day − current day`. It counts calendar boundaries, not exact hours. A value of zero means **due this date**, not already resolved.
 
-These are remaining times to **historical baseline dates**, calculated from 128/03/15. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
+These are remaining times to **historical baseline dates**, calculated from 128/07/30. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
 
 | Event | Historical date | Remaining at the saved position |
 | --- | --- | ---: |
-| Viserys I's death / succession crisis | 129/03/03 | 348 days |
-| Aegon II's coronation | 129/03/10 | 355 days |
-| Battle of the Gullet | 130/01/05 | 650 days |
-| Battle above the Gods Eye | 130/05/22 | 787 days |
-| Rhaenyra's death | 130/10/22 | 937 days |
-| Sunfyre's death | 130/12/09 | 984 days |
-| Aegon III's wedding and coronation | 131/07/07 | 1,192 days |
-| Corlys's death | 132/03/06 | 1,431 days |
-| First reported Winter Fever cases in King's Landing | 133/01/03 | 1,728 days |
-| Jaehaera's death | 133/09/22 | 1,987 days |
-| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 2,085 days |
+| Viserys I's death / succession crisis | 129/03/03 | 213 days |
+| Aegon II's coronation | 129/03/10 | 220 days |
+| Battle of the Gullet | 130/01/05 | 515 days |
+| Battle above the Gods Eye | 130/05/22 | 652 days |
+| Rhaenyra's death | 130/10/22 | 802 days |
+| Sunfyre's death | 130/12/09 | 849 days |
+| Aegon III's wedding and coronation | 131/07/07 | 1,057 days |
+| Corlys's death | 132/03/06 | 1,296 days |
+| First reported Winter Fever cases in King's Landing | 133/01/03 | 1,593 days |
+| Jaehaera's death | 133/09/22 | 1,852 days |
+| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 1,950 days |
 
-The nearest **exactly dated anchor** is Viserys's death in **348 days: 0 modeled years, 11 moons and 18 days**. Earlier undated developments remain possible.
+The nearest **exactly dated anchor** is Viserys's death in **213 days: 0 modeled years, 7 moons and 3 days**. Earlier undated developments remain possible.
 
 For events without a known day, use the actual stated window. Do not pretend that an outbreak or invasion has an exact anniversary:
 
 | Baseline window | Remaining to start–end of the containing year |
 | --- | ---: |
-| 129 AC · undated Dance events | 286–645 days |
-| 130 AC · campaigns; winter declared on Maiden's Day | 646–1,005 days |
-| 131 AC · final campaigns and settlement | 1,006–1,365 days |
-| 132 AC · regency; **Winter Fever begins late in the year** | 1,366–1,725 days |
-| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 1,726–2,085 days |
+| 129 AC · undated Dance events | 151–510 days |
+| 130 AC · campaigns; winter declared on Maiden's Day | 511–870 days |
+| 131 AC · final campaigns and settlement | 871–1,230 days |
+| 132 AC · regency; **Winter Fever begins late in the year** | 1,231–1,590 days |
+| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 1,591–1,950 days |
 
-These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is about 4.5 to 5.0 modeled years away; Sylas's baseline invasion is about 4.8 to 5.8 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
+These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is about 4.2 to 4.7 modeled years away; Sylas's baseline invasion is about 4.4 to 5.4 modeled years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
 ## How the clock operates
 
 Follow the chronological event step in [TURN_PROCESS.md](../../rules/TURN_PROCESS.md).
@@ -108,6 +108,9 @@ The ledger's baseline date and description remain for comparison. For each chang
 
 **Change record, Turn 9 (128/03/15):**
 - No scheduled event affected; no working date set. Lord Desmond reports the king sick again through the autumn of 127 with the Hand governing and the Velaryon fleet questioning ships in the Gullet, consistent with the baseline. Jon has told Manderly and the Dreadfort that Winterfell's oath is to the king while he lives and that the rest is not yet a question; no faction commitment. The Crown has noted and claimed its part of the Winter Town fair.
+
+**Change record, Turn 10 (128/07/30):**
+- No scheduled event affected; no working date set. Lord Desmond reports the king bedridden since the fourth moon of 128 and the Hand governing openly, consistent with the baseline's approach to 129/03/03. Jon's preparations (garrison plus one hundred, Moat Cailin in order by the summer of 129, six castle granaries, named horse and mail) change the North's readiness for the baseline's northern entries without choosing a side. Manderly has said White Harbor will do as Winterfell does.
 
 ## Historical event ledger
 

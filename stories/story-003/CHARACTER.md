@@ -4,18 +4,18 @@
 
 The full accepted [124–126 AC backstory](STORY.md#established-backstory-124126-ac) precedes this run's Turn 0. The [487 AC source profile](Jon_Stark_487_AC_.md) supplies Jon's prior life, learned abilities, personality and experience before transfer. This live file governs his current body, memory, authority and situation. Legacy scores and alternate rule instructions in the source profile are inactive.
 
-Turns 1 to 9 have been resolved and saved. Earlier play runs remain discarded.
+Turns 1 to 10 have been resolved and saved. Earlier play runs remain discarded.
 
 | Current record | Details |
 | --- | --- |
-| Turn | 9 completed |
-| Date and time | Fifteenth day of the third moon, 128 AC, evening |
+| Turn | 10 completed |
+| Date and time | Thirtieth day of the seventh moon, 128 AC, evening |
 | Personal identity | Jon Stark, formerly Jon Snow, transferred from 487 AC in 124 AC |
 | Public identity | Cregan Stark, Lord of Winterfell and Warden of the North |
 | Age | Twenty physically since the ninth moon of 127 (an authored nameday); 204 years of Jon's life remembered at arrival, followed by his life in Cregan's body since 124 |
 | Location | Winterfell, lord's solar |
 | Condition | Fully accustomed to Cregan's body; no current illness, injury or lasting impairment |
-| Immediate situation | The second fair is closed and the mill has fulled its first bolt; the castle yards are let for spring; the king is reported sick again and the Hand governing; Arra is at Winterfell through the shearing |
+| Immediate situation | The king is reported failing; the garrison is being raised by a hundred, Moat Cailin repaired and four more castle granaries roofed before harvest; the stores officer asks how much grain to buy at the harvest, at what price and from whom |
 
 ## Transfer and memory
 
