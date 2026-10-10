@@ -2,11 +2,11 @@
 
 *Planning roll, reckoned in gold dragons and twelve thirty-day moons to the accounting year. The account is to be closed and examined by the end of the first moon of 129 AC.*
 
-**Execution status, Turn 5:** Jon authorized this program's opening within its stated ceilings during the sixth–twentieth days of the fourth moon, 126 AC. Only the inspections, procurement, first Winter Town well and correspondence recorded in [WORLD.md](WORLD.md) have been undertaken. Other entries remain conditional proposals. This roll supplies the budget and requirements; WORLD.md records actual contracts, cash and progress.
+**Status after reset: unapproved reference proposal.** No budget, order, appointment, contract, payment, message or work in this document is active. Its schedules and responsibilities describe possible future choices, not events in the new run. [WORLD.md](WORLD.md) is the source of live state.
 
 A building is no better than the work it does. The lord must know whose land it stands on, who pays to raise it, who keeps its roof sound, and where any profit is to come from. The reeve answers for grain in his care; the merchant answers for goods sold; a lord who receives Stark coin answers for the work promised in return.
 
-The opening book balance of House Stark is **250,000 gold dragons** and **70,777 quarters of grain** across its accounted estates and stores, as of the third day of the fourth moon of 126 AC. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. That was the opening position; Turn 5's commissions and payments are recorded in WORLD.md.
+The fiscal reference models opening resources of **250,000 gold dragons** and **70,777 quarters of grain** across House Stark's accounted estates and stores. No exact opening date, account review or counted balance has yet been established in the reset run. The fiscal sheet gives **283,632 dragons of ordinary annual receipts**, **62,889 dragons of annual charges** and a **220,743-dragon surplus for an ordinary year**. That annual surplus is an **estimate, not coin already in the treasury**. Some of the yearly receipts depend upon the northern bannermen. Their own treasuries are not Stark's to spend. No commissions or payments under this proposal have occurred in the reset run.
 
 **The charge proposed upon Stark's treasury**
 
@@ -28,7 +28,7 @@ The opening book balance of House Stark is **250,000 gold dragons** and **70,777
 
 This roll has **four divisions, by land and lordship**. The 2,000 dragons for oversight and the 5,000 held against unforeseen costs serve all four divisions. They do not establish a separate board of officers or an institution beyond the existing household. No new toll, fair, monopoly, police authority, jurisdiction, required labor service or right to a tenant's goods arises merely from setting coin aside.
 
-For construction prices, Osric is to use [the North's 126 AC price book](references/North_126AC_Price_Book.xlsx), especially its **Building Works** and **Wages and Rations** sheets. The book's ordinary site allowances are **already included** in the listed prices. A further provision is separately named where necessary. Where the price book has **no corresponding structure or service**, the amount here is an **allowance awaiting a craftsman's actual quote**, not a bill already established. The old later-era building programme must not supply prices or completed institutions to this year.
+For construction prices, the steward is to use [the North's 126 AC price book](references/North_126AC_Price_Book.xlsx), especially its **Building Works** and **Wages and Rations** sheets. The book's ordinary site allowances are **already included** in the listed prices. A further provision is separately named where necessary. Where the price book has **no corresponding structure or service**, the amount here is an **allowance awaiting a craftsman's actual quote**, not a bill already established. The old later-era building programme must not supply prices or completed institutions to this year.
 
 The account shall distinguish: **coin in hand; coin assigned but unpaid; coin spent against a receipt; another lord's promised contribution; that lord's contribution actually delivered; grain or materials taken from stores; finished property accepted; income earned but not yet paid; and coin truly received.** No one of these is to stand in place of another.
 
@@ -38,10 +38,10 @@ The account shall distinguish: **coin in hand; coin assigned but unpaid; coin sp
 
 | What is to be built or prepared | Extent and reckoning | Cost (GD) | Time for the actual work, after site and supplies are ready | Responsible people |
 |---|---|---:|---|---|
-| **The great grain reserve** | Ten raised, ventilated timber granaries, 1,000 quarters each; ten at 189.34 | **1,893.40** | 4–8 moons per granary; several may be built together | Moryn, a competent carpenter and the grain keeper |
-| **A room for the works accounts** | Four ledgers, 200 writing sheets, ink, quills, six chests and locks, a seal and wax | **12.00** | About one moon | Osric and the household clerks |
-| **The master weights and measures** | One secured standard chest and 36 matching sealed sets; iron, scales, smithing and testing, provisionally estimated | **200.00** | 2–4 moons | A proven smith and Osric |
-| **Three separate wells about Winterfell's working precinct** | Three ordinary covered and lined wells at 44.46, placed at three surveyed and distinct sites | **133.38** | 1–3 moons each, if ordinary soil and water depth | Well diggers; Wyl arranges guards and safe access |
+| **The great grain reserve** | Ten raised, ventilated timber granaries, 1,000 quarters each; ten at 189.34 | **1,893.40** | 4–8 moons per granary; several may be built together | the stores officer, a competent carpenter and the grain keeper |
+| **A room for the works accounts** | Four ledgers, 200 writing sheets, ink, quills, six chests and locks, a seal and wax | **12.00** | About one moon | the steward and the household clerks |
+| **The master weights and measures** | One secured standard chest and 36 matching sealed sets; iron, scales, smithing and testing, provisionally estimated | **200.00** | 2–4 moons | A proven smith and the steward |
+| **Three separate wells about Winterfell's working precinct** | Three ordinary covered and lined wells at 44.46, placed at three surveyed and distinct sites | **133.38** | 1–3 moons each, if ordinary soil and water depth | Well diggers; the watch officer arranges guards and safe access |
 | **Two separate castle bathhouses** | Two small bath buildings at an estimated 225 each, with basins, heating and drains | **450.00** | 5–10 moons each after location and fitting have been settled | The master builder and the household officers |
 | **Total** | | **2,688.78** | | |
 
@@ -49,7 +49,7 @@ The account shall distinguish: **coin in hand; coin assigned but unpaid; coin sp
 
 The **ten buildings add places to keep 10,000 quarters**, which is not the same thing as adding 10,000 quarters to the harvest. Raised floors, wide eaves, sound roofing, ventilation, a lockable dry store, separated sacks and protection against vermin are the business of the work. There must be a clear way for carts to come and go and a keeper who can account for each issue.
 
-Moryn must first measure the existing sound grain space, identify damaged sacks or grain and show how much overflow there has been over the last year. A storehouse that would merely stand empty should remain unbuilt. The first **two** granaries may be tendered when the shortages and sites are proved; the other eight should follow measured need, not the attractive round number of ten. Their construction estimates are taken from the price book; extraordinary building on unsuitable foundations is not included.
+The stores officer must first measure the existing sound grain space, identify damaged sacks or grain and show how much overflow there has been over the last year. A storehouse that would merely stand empty should remain unbuilt. The first **two** granaries may be tendered when the shortages and sites are proved; the other eight should follow measured need, not the attractive round number of ten. Their construction estimates are taken from the price book; extraordinary building on unsuitable foundations is not included.
 
 The grain book should show, for each kind of grain: the opening quantity, fresh receipts, seed issued, men and animals provisioned, grain sold or sent away, wastage and the closing quantity. None of the Watch's existing grain gift is to be counted a second time as a cost of these buildings.
 
@@ -57,7 +57,7 @@ The grain book should show, for each kind of grain: the opening quantity, fresh 
 
 A small account room needs a sound door, a chest for sealed contracts, copies of the receiver's warrants, a chest or rack for surviving tallies, and a clerk to compare payment with completion. **The 12-dragon entry is solely a supplies allowance**. It does not erect a new office building or hire a new council.
 
-The master measures are checked against one another by a smith and a trusted merchant who understands weights. **Thirty-five sets are intended for the chief seats of Stark's thirty-five direct bannermen, and one for Winter Town.** They do not automatically override the rights of those lords or their subordinate houses. Each set is issued with a receipt stating its custody and whose seal certifies it. The 200 dragons for the whole work is a provisional price; if iron, graduated vessels and honest scales cost more, Osric must bring a separate quotation.
+The master measures are checked against one another by a smith and a trusted merchant who understands weights. **Thirty-five sets are intended for the chief seats of Stark's thirty-five direct bannermen, and one for Winter Town.** They do not automatically override the rights of those lords or their subordinate houses. Each set is issued with a receipt stating its custody and whose seal certifies it. The 200 dragons for the whole work is a provisional price; if iron, graduated vessels and honest scales cost more, the steward must bring a separate quotation.
 
 No fee for using these weights may be taken without a lawful right and an announced rate.
 
@@ -71,9 +71,9 @@ The baths are for household use unless Jon gives different instructions. They do
 
 ### Who is to be heard, and when
 
-Jon speaks first to **Osric**, then **Moryn**, **Wyl** and the castle's maester, and calls an experienced carpenter, mason or master builder to inspect the works. No northern lord needs to receive a raven to authorize construction on Stark's own castle ground.
+Jon speaks first to **the steward**, then **the stores officer**, **the watch officer** and the castle's maester, and calls an experienced carpenter, mason or master builder to inspect the works. No northern lord needs to receive a raven to authorize construction on Stark's own castle ground.
 
-During **126 AC, moons four to seven**, they inspect ground, existing stores, well sites, hot-water access and craft supplies. Sound granaries and wells may then be built through the remaining moons of 126 and into 127; the baths require distinct tenders and an agreed water and fuel source. Osric retains the last payment until roofs, doors, water and fire arrangements have been inspected.
+During **126 AC, moons four to seven**, they inspect ground, existing stores, well sites, hot-water access and craft supplies. Sound granaries and wells may then be built through the remaining moons of 126 and into 127; the baths require distinct tenders and an agreed water and fuel source. the steward retains the last payment until roofs, doors, water and fire arrangements have been inspected.
 
 **Return to be measured:** the number of quarters of grain demonstrably saved from loss, store capacity actually usable, loss or damage to valuable goods avoided, and any reductions in ordinary castle expense. There is **no promised annual coin return from castle granaries or baths**.
 
@@ -112,11 +112,11 @@ The hall, weighhouse, two warehouses and stable are **four different types of wo
 
 The market hall gives local farmers and merchants a sheltered place to measure, sort, exchange and safeguard goods. The weighhouse makes disputed weights examinable. The warehouses allow merchants to leave goods for a fee instead of carrying them away unsold; the stable permits beasts to rest under cover, if demand warrants fifty places.
 
-First Osric must ascertain whether Winter Town already holds a recognized customary market and whether the lord may add a fair or change its date. In medieval practice a grant or acknowledged custom could be needed, and new fairs were often challenged where they harmed established neighboring markets. The wishes of a northern overlord alone do not settle any required royal right. **There is to be no order forbidding another lord's market**, and no toll until its lawful basis is known.
+First the steward must ascertain whether Winter Town already holds a recognized customary market and whether the lord may add a fair or change its date. In medieval practice a grant or acknowledged custom could be needed, and new fairs were often challenged where they harmed established neighboring markets. The wishes of a northern overlord alone do not settle any required royal right. **There is to be no order forbidding another lord's market**, and no toll until its lawful basis is known.
 
 An initial **fortnight fair around the second moon of 127 AC** is a *possible* first occasion if the rights, date, buildings and neighboring agreements are secured. Another may occur in the second moon of 128 AC. A third fair in the second moon of 129 AC would be **after** the closing of this account. These dates are bookkeeping targets, not proof of a calendar season or of a fair already held.
 
-The proposed charge is **one part in a hundred of the value of taxable goods actually sold**, after exemptions, and **0.0002 dragons per occupied stall-day**. A fair court may hear commercial disputes under the lord's lawful jurisdiction. Two porters, a weighmaster and six temporary watchmen are proposed; household officer **Osric** supervises the account rather than creating a new courts department. No fee is levied on cargo merely passing by. If exemptions are promised to bannermen, their true exempt values must be recorded separately from taxable trade.
+The proposed charge is **one part in a hundred of the value of taxable goods actually sold**, after exemptions, and **0.0002 dragons per occupied stall-day**. A fair court may hear commercial disputes under the lord's lawful jurisdiction. Two porters, a weighmaster and six temporary watchmen are proposed; **the steward** supervises the account rather than creating a new courts department. No fee is levied on cargo merely passing by. If exemptions are promised to bannermen, their true exempt values must be recorded separately from taxable trade.
 
 **What the fair would actually earn if its charge is permitted**
 
@@ -130,7 +130,7 @@ The previous statement that **50,000 dragons of goods would yield 500 dragons of
 
 The **75-dragon annual expense is an allowance**, not a figure derived by adding the six watchmen's actual wages. It must be divided into hire, upkeep, fuel, scales, cleaning and paperwork when the fair's keeper gives his estimate. At the second fair, if taxable sales are less than **20,000 dragons**, no larger market scheme is to be ordered without fresh evidence.
 
-**Who to speak with:** existing town reeves and traders; Osric; the maester for the law or evidence of any charter; neighboring lords **Cerwyn, Tallhart, Hornwood and others with market rights**; and **Lord Desmond Manderly** for merchants and their cargo. Ask them to choose nonconflicting dates and bring goods of their own free will. Do not assume their agreement.
+**Who to speak with:** existing town reeves and traders; the steward; the maester for the law or evidence of any charter; neighboring lords **Cerwyn, Tallhart, Hornwood and others with market rights**; and **Lord Desmond Manderly** for merchants and their cargo. Ask them to choose nonconflicting dates and bring goods of their own free will. Do not assume their agreement.
 
 ### Ten wells and five public baths
 
@@ -161,13 +161,13 @@ At the three village receiving houses wool is counted, washed where useful, sort
 | Upkeep, rents/charges and the **three** village wool houses' ordinary expenses | Proposed fixed allowance, **including** the 42 GD assigned to those three houses | **−95.00** |
 | **Possible incremental margin before extra master premiums, unsold cloth, unusual freight and Crown remittance** | | **845.71** |
 
-Applying 15% to that assumed incremental net gives about **718.85 dragons**, but **that is not an audited Crown calculation or a promised profit**. Osric must determine whether the actual additional charges are properly netted before remittance under the simulation's fiscal rules. The earlier claim of **1,105 dragons of steady profit** is not supported after labor and food are counted.
+Applying 15% to that assumed incremental net gives about **718.85 dragons**, but **that is not an audited Crown calculation or a promised profit**. the steward must determine whether the actual additional charges are properly netted before remittance under the simulation's fiscal rules. The earlier claim of **1,105 dragons of steady profit** is not supported after labor and food are counted.
 
 There are two severe tests. First, **thirty looms producing 69,000 yards in 300 working days must average 7.67 finished-price yards per loom-day**. Second, **370 spinners and 70 weavers** are required by the proposed staffing example; they do not appear merely because wages are affordable. Even before new masters' premiums, the example carries about **1,580.47 dragons of annual direct and fixed costs** including the opportunity value of wool. At the book's cloth price this requires approximately **44,950 yards sold merely to break even** at full staffing. These are **test figures**, not a declaration that the looms can achieve them.
 
 Start with a few looms, skilled masters, counted weights and real buyers. The first season may attempt wool equal to **3,000 stone of greasy fleece**, the next **6,000**, and only a later successful season **10,000**; these amounts must be reduced if the loom work or sale price fails. The three proposed centres at Winter Town, Karhold and the Rills together might need **eighteen experienced masters** if each seeks six. Desmond Manderly's factors may be asked to find them; their availability must not be presumed. Water power may take **12–24 moons after approval**, and a late mill must not become an early year's fictitious output.
 
-**Who to speak with:** wool factors, experienced spinners and weavers, fullers, a millwright, a dyer and merchants who agree to buy sample cloth by measured grade. Osric and the village receivers compare the same wool quantity at dispatch, receipt and sale.
+**Who to speak with:** wool factors, experienced spinners and weavers, fullers, a millwright, a dyer and merchants who agree to buy sample cloth by measured grade. the steward and the village receivers compare the same wool quantity at dispatch, receipt and sale.
 
 ### The leather yard
 
@@ -188,7 +188,7 @@ The former **478 GD** claimed net annual leather return is therefore not establi
 
 ### Who oversees Winter Town and what is done first
 
-**Osric** holds contracts and the charge-and-discharge rolls. **Moryn** accounts for any wool and hides issued from Stark's existing stores and the rural houses. **The maester** checks messages and surviving charters. A town reeve, a real millwright, a weaver-master, a fuller, a tanner, a carpenter and a knowledgeable merchant each answer only for the works they know.
+**the steward** holds contracts and the charge-and-discharge rolls. **the stores officer** accounts for any wool and hides issued from Stark's existing stores and the rural houses. **The maester** checks messages and surviving charters. A town reeve, a real millwright, a weaver-master, a fuller, a tanner, a carpenter and a knowledgeable merchant each answer only for the works they know.
 
 Through the remaining moons of **126**, settle land and water rights, test buyers, put up ordinary wells where needed, tender the market buildings, try a few looms and choose the first bath's site. Larger buildings, lawful fair arrangements and the fulling mill take **127** and possibly part of **128**. Leather income begins only when the curing is complete. **The town's 2,000 dragons held for commerce must be reckoned as merchandise, cash or a receivable until spent or lost**, not a second charge for sheds already in the list.
 
@@ -198,7 +198,7 @@ Through the remaining moons of **126**, settle land and water rights, test buyer
 
 The fiscal sheet gives Stark **twelve** direct estate groups **including Winter Town**, not twelve additional groups besides it. Winter Town's accounts belong to the preceding division. These other estates include the home farms, east and west meadow villages, Upper White Knife farms, northern and southern kingsroad holdings, western woodland leases, northern sheepwalks, southern cattle country, mill and bridge villages, and outlying farms. **The demesne is the lord's share of the farms' output; the tenant's portion does not pass into Stark ownership by order.**
 
-There are **54 receivers and tally clerks** across the estate accounts in the simulation. They are existing positions, not fifty-four men to be newly hired. They report to Osric through the existing estate chain.
+There are **54 receivers and tally clerks** across the estate accounts in the simulation. They are existing positions, not fifty-four men to be newly hired. They report to the steward through the existing estate chain.
 
 | Work | Where it is proposed | Reckoning | Dragons |
 |---|---|---|---:|
@@ -240,7 +240,7 @@ The **twenty tar kilns** use resinous wood heated with little air and a means of
 
 ### Who is to be heard and how these works proceed
 
-Jon orders Osric to convene estate receivers, reeves and the men responsible for village bridges and woods. Moryn establishes which wool, grain and hides belong to Stark and which to tenants. A builder examines the store sites and crossings; a local smith or cooper and tar-burner quote the special fittings. Neighbors need be written to only where their rights or access may be affected.
+Jon orders the steward to convene estate receivers, reeves and the men responsible for village bridges and woods. the stores officer establishes which wool, grain and hides belong to Stark and which to tenants. A builder examines the store sites and crossings; a local smith or cooper and tar-burner quote the special fittings. Neighbors need be written to only where their rights or access may be affected.
 
 Use **126** for surveys and the first sound wells and working-house structures; run the grain stores and bridges through **127** with separate local craftsmen; finish or abandon incomplete work on evidence during **128**. First trade from wool or tar may occur sooner, but only after actually produced and sold. Record use of the **500 dragons circulating cash** separately from building expenditure.
 
@@ -277,7 +277,7 @@ The additional fifth is a **reserve for exceptional work actually shown**, not p
 
 **The thirty rural wells in this division are separate from** the three castle wells, ten Winter Town public wells, two town tannery wells and thirteen wells on direct Stark land. **The thirty regional granaries are separate from** ten castle and ten rural Stark stores. The twenty regional timber bridges are separate from the six on direct Stark estates.
 
-### Works already suggested to individual northern lords
+### Proposed works to discuss with individual northern lords
 
 The following table records **one proposed package for each of twelve named direct houses**. Some works belong to the **public purse above**; others are **additional commercial buildings from the commercial purse below**. The right-hand column is the whole physical package but **must not be added again to the two separate purse totals**.
 
@@ -367,7 +367,7 @@ A commercial owner cannot promise Stark dues that already belong to the Crown or
 
 ### What ravens and mounted messages Jon should send
 
-Jon first hears **Osric** about existing obligations, **Moryn** about grain and materials, **Donnel** about horses and carts, **Wyl** about guards and safe passage, the **maester** about trained ravens and surviving letters, and a hired mason or builder about works beyond a carpenter's judgment. **Arra** has offered private help with family and northern customs, not an appointment to a works council.
+Jon first hears **the steward** about existing obligations, **the stores officer** about grain and materials, **the stable master** about horses and carts, **the watch officer** about guards and safe passage, the **maester** about trained ravens and surviving letters, and a hired mason or builder about works beyond a carpenter's judgment. Any adviser, including Arra, would first need to be approached and agree to help. No such agreement exists in the reset run.
 
 After Jon authorizes the inquiry, send **the same opening invitation to all thirty-five direct houses**, by **raven where a suitable trained bird can carry it** and by **rider or courier elsewhere**. **Additional enclosures** to Reed, Glover, Manderly, Dustin and Cerwyn request that their sixteen subordinate houses receive the same opportunity. Do not assert that a raven can be sent directly to every minor seat or that every recipient answers in one moon.
 
@@ -379,7 +379,7 @@ Send **separate business proposals** to Lord Desmond Manderly for factors, buyer
 
 ### How the works are paid, observed and closed
 
-There is **one house account at Winterfell**, not a new order of officers. Beneath it Osric keeps **separate folded accounts under the four place-names of this roll**. Buildings are described in full by **place, owner, purpose and quantity**, not by artificial letters and numbers. Thus the account can say, for example, **“the first of two timber bridges agreed with Lord Cerwyn, at the ford identified in his sworn survey”**; no unexplained code need ever appear in the story.
+There is **one house account at Winterfell**, not a new order of officers. Beneath it the steward keeps **separate folded accounts under the four place-names of this roll**. Buildings are described in full by **place, owner, purpose and quantity**, not by artificial letters and numbers. Thus the account can say, for example, **“the first of two timber bridges agreed with Lord Cerwyn, at the ford identified in his sworn survey”**; no unexplained code need ever appear in the story.
 
 At every month's end a receiver, reeve, shipper or building master answers for:
 - Coin last carried forward, coin received and its lawful source.
@@ -391,7 +391,7 @@ At every month's end a receiver, reeve, shipper or building master answers for:
 
 Large contracts may provide up to **five parts in a hundred** for verified survey and preparations; **twenty-five** after accepted foundations; **thirty-five** after the main work is accepted; **twenty-five** upon usable handover; and **ten** retained until defects are remedied. These portions total **one hundred**. A well finished in a moon can be paid under a simpler agreement upon inspection.
 
-**If an estimate rises by more than fifteen parts in a hundred**, Osric stops **additional discretionary payment** and asks Jon for a new allowance. **If a work is more than three moons late**, have its cause examined before promising more. An unsold fair stock, a wharf without a vessel, a mill without a proper water fall, or a tanning pit unable to turn hides is not entered as profitable simply because its building has been paid for.
+**If an estimate rises by more than fifteen parts in a hundred**, the steward stops **additional discretionary payment** and asks Jon for a new allowance. **If a work is more than three moons late**, have its cause examined before promising more. An unsold fair stock, a wharf without a vessel, a mill without a proper water fall, or a tanning pit unable to turn hides is not entered as profitable simply because its building has been paid for.
 
 **When works can be undertaken without exhausting the purse**
 
@@ -407,11 +407,11 @@ Large contracts may provide up to **five parts in a hundred** for verified surve
 
 These are the **most that may be paid** in their periods, not orders to spend them. If no buyer or tradesman is found, leave the coin unspent.
 
-On the **first moon of 129 AC**, Osric presents one audited charge and discharge to Jon: **what each division was permitted; what it actually cost; what other lords and tenants truly delivered; which buildings stand and who is bound to maintain them; how many quarters are safely kept; how many carts used each bridge; what rent, fair dues, wool, cloth, leather, fish and tar earned in real coin; what bills and loans are still outstanding; and what coin remains in the treasury.** Loans and goods in store are not to be entered as cash received. No invented growth multiplier is to replace a receipt or an actual count.
+On the **first moon of 129 AC**, the steward presents one audited charge and discharge to Jon: **what each division was permitted; what it actually cost; what other lords and tenants truly delivered; which buildings stand and who is bound to maintain them; how many quarters are safely kept; how many carts used each bridge; what rent, fair dues, wool, cloth, leather, fish and tar earned in real coin; what bills and loans are still outstanding; and what coin remains in the treasury.** Loans and goods in store are not to be entered as cash received. No invented growth multiplier is to replace a receipt or an actual count.
 
 ### Marginal authorities for estimates
 
-The fictional setting and monetary figures belong to [Story 003's current state](WORLD.md), its [126 AC fiscal account](references/FISCAL_126_AC.md) and the [126 AC price book](references/North_126AC_Price_Book.xlsx). The book's quotations are **simulation prices**, not prices recovered from real thirteenth-century markets. These authorities below check **historical methods only**; they do not give Jon knowledge of another world or grant a Westerosi lord English legal privileges.
+The proposal's monetary assumptions come from the [126 AC fiscal account](references/FISCAL_126_AC.md) and [126 AC price book](references/North_126AC_Price_Book.xlsx). [Story 003's current state](WORLD.md) governs which facts have actually been established in play. The book's quotations are **simulation prices**, not prices recovered from real thirteenth-century markets. These authorities below check **historical methods only**; they do not give Jon knowledge of another world or grant a Westerosi lord English legal privileges.
 
 - [Historic England, the thirteenth-century barns of Cressing Temple](https://historicengland.org.uk/listing/the-list/list-entry/1002122): large framed storage buildings and their actual dating and structure.
 - [Kent Archaeological Society, the Kilwardby survey of 1273–74](https://www.kentarchaeology.org.uk/journal/128/kilwardby-survey-1273-4-demesne-manors-archbishop-canterbury-later-13th-century): estate charge and discharge, receipts, grain and stock accounts.
@@ -421,4 +421,4 @@ The fictional setting and monetary figures belong to [Story 003's current state]
 - [Antiquity, tar manufacture and woodland exploitation](https://www.cambridge.org/core/journals/antiquity/article/viking-age-tar-production-and-outland-exploitation/F5FBC37E7F0124DBD30D550E98C42AEB): resinous wood and low-oxygen tar production, not a guarantee of gallons per firing.
 - [JSTOR Daily, public bathing in medieval towns](https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub/): practical existence of public baths, not evidence that five would find enough customers in Winter Town.
 
-**The roll alone establishes no accomplished work or payment. Since its preparation, Turn 5 has authorized and begun the limited opening actions recorded in WORLD.md and STORY.md. Do not treat the remaining estimates, invitations or proposed works as completed acts.**
+**This entire roll is an unapproved proposal. No works, budgets, grants, contracts, payments, appointments or messages under it have been authorized in the reset run.**
