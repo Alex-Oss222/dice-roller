@@ -2,17 +2,19 @@
 
 ## Current position
 
-Turn 14 is complete. Resume on **129/03/01, evening**, at **Moat Cailin's northern encampment**; the next action is Turn 15. Read the [latest turn](turns/TURN_014.md) for the exact scene. Jon explained his demands for negotiations with the Blacks to Arra, prepared her for fourteen days with Hobb and the household officers, appointed her publicly by writ, and travelled south. Arra governs in the North until his return. Jon has made no pledge, dispatched no diplomatic offer, and obtained none of the proposed concessions.
+Turn 15 is complete. Resume on **129/04/05, evening**, at **Moat Cailin's northern encampment**; the next action is Turn 16. Read the [latest turn](turns/TURN_015.md) for the exact scene. Jacaerys has arrived on Vermax after Manderly directed him from White Harbor to Jon's actual location. He presents Rhaenyra's letter and asks the North to uphold its oath. Jon's negotiating brief remains his opening position, not concessions already obtained. No claimant pledge or southern army/fleet deployment has been made.
 
-The first **1,200 newly summoned men** are at the Moat, within **4,000 allotted land places** and the **12,000 combined land/shipboard ceiling**. The greater part of each house's strength remains at home. Local eastern patrols have begun; Manderly's first naval return is dated, not a complete current fleet count. No southern fleet deployment or march beyond the Moat is authorized. Jon carries the negotiating brief and has not opened talks with Dragonstone or Corlys.
+The expedition roll is **7,200** within the combined **12,000 ceiling**: 7,178 fit in camp, eighteen temporarily unfit, four scouts still south. Two other scouts have returned and are included among those in camp. The original 4,000 allotted places have arrived, followed by 3,200 additional places under the existing mobilization order; most of each house's strength stays home. Training, trade-organized repairs and provisioning continue. Camp grain is 740 quarters; camp expenditure is 51,672 GD; the camp chest holds 8,208 GD and 120 GD remains in unreconciled scout advances. The dated January vault count is not an April balance.
 
-The old works roll remains closed. The broader second roll and Manderly's succession question remain open. Mormont and Reed's grants remain authorized and unspent, separate from any royal naval demand. The last counted vault remains the dated 129/01/30 count; neither forecast income nor proposed concessions have been credited as cash.
+**The Watch negotiations are delegated and concluded, not awaiting Jon's approval.** Arra independently accepted a five-year administration and resettlement agreement for six specified deserted villages in the New Gift. The Watch retained ownership of both Gifts and refused outright cession. Collected rents and customary land dues divide 60% to the Watch and 40% to Winterfell before Stark's own costs. Arra reserved 24,000 GD, still unspent, and retains implementation responsibility. Do not turn her reports into a menu of decisions for Jon.
+
+The old works roll remains closed. The broader second roll remains unsigned. Mormont and Reed's gifts are still authorized and unspent. The remaining Moat repair allowance is 9,200 GD after 4,800 was paid during Turn 15. Viserys has died and both claimants have been crowned; occurrence and Jon's receipt of news are recorded separately in WORLD and FUTURE_EVENTS. The latter also records offscreen events which Jon does not yet know as current facts.
 
 [Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal account](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
 
 ## Turn record
 
-Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arithmetic and appended ledgers have been trimmed from the scenes; retained monetary amounts use the current scale. Detailed balances and reconciliations are in the [129 account](references/FISCAL_129_AC.md). Earlier wording remains in Git history.
+Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arithmetic and appended ledgers have been trimmed from the earlier scenes; retained monetary amounts use the current scale. Detailed balances and reconciliations are in the [129 account](references/FISCAL_129_AC.md), with subsequent dated camp accounts in WORLD. Earlier wording remains in Git history. Turns 0–14 are unchanged by Turn 15.
 
 | Turn | Ending date and time |
 | --- | --- |
@@ -31,6 +33,7 @@ Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arith
 | [12](turns/TURN_012.md) | Thirtieth day of the first moon, 129 AC, Evening |
 | [13](turns/TURN_013.md) | Second day of the second moon, 129 AC, Evening |
 | [14](turns/TURN_014.md) | First day of the third moon, 129 AC, Evening |
+| [15](turns/TURN_015.md) | Fifth day of the fourth moon, 129 AC, Evening |
 
 ## Established backstory, 124–126 AC
 
