@@ -2,23 +2,27 @@
 
 ## Current position
 
-Turn 19 is complete. Resume on **129/04/05, night**, at **Moat Cailin's command tent**; the next action is Turn 20. Read the [latest turn](turns/TURN_019.md) for the exact scene. One hour fifteen minutes has passed since Turn 18, three hours since the end of Turn 15. Jon bade Jacaerys farewell, gave him the Triarchy/outer-watch/coordinated-dragon warning and a proposal for feeding blockade-affected civilians. The prince recorded these for Corlys and Rhaenyra and still intends to depart on Vermax at dawn 04/06. He has not departed; no distant implementation or royal ratification has occurred.
+**Turn 20 is complete. Resume on 129/08/19, night, at Harrenhal's northern command quarters. The next action is Turn 21.** Read the [latest complete turn](turns/TURN_020.md). Fourteen days preparing the existing host and four thirty-day moons of the adopted corridor campaign have been resolved, totaling 134 days from 04/05. No portion of this interval remains to replay.
 
-Jon has announced **Rhaenyra as his chosen cause** and ordered preparations to march when ready, **no later than 129/04/26**. A checked copy of the endorsed articles and common announcement is travelling to Arra for circulation to the northern houses, expected at Winterfell 04/10–04/12. The message states that royal assent remains pending; Jon has not expressly waived his required terms. If that condition and his firm departure deadline later conflict, resolve the actual situation rather than silently cancelling either. No three-week wait or southern march has occurred in this turn.
+Rhaenyra ratified the agreed articles on 04/12; Jacaerys delivered her sealed answer 04/16. The northern host departed the Moat 04/20, within the 04/26 deadline, cleared the Neck 05/11 and reached Harrenhal 06/16. Jon retains independent northern command under the agreed maximum service through 131/05/11, ending earlier with the war. No new offensive beyond the completed consolidation plan has been selected.
 
-The camp council has assembled: Cerwyn, Dustin, Tallhart, Ryswell, Hornwood, Glover and officers for the Manderly/Dreadfort companies. Marching returns are due on 04/06 morning. **Dustin asks Jon's first objective beyond the Neck**, needed for provisioning. No automatic Harrenhal march, new troop allotment or naval voyage has been selected.
+A paid, repeatedly used supply and reporting corridor links the Moat, the upper Riverlands, the Trident and Harrenhal. Frey, Mallister, Vypren, Charlton, Roote, Darry and Blackwood cooperate while retaining their own lands, courts and commands. Riverrun permits limited dealings without entering the war; Atranta has not joined. The Twins were not besieged, Stone Hedge was not captured again and allied holdings have not become Stark estates.
 
-The Turn 18 articles remain the proposal endorsed by Jacaerys, not the queen's grants: Winterfell-appointed command, Jon's consent to detachments and choice of southern campaigns for Rhaenyra's victory, no subordination to Daemon; at most two years from crossing out of the Neck, ending earlier with the war. Port/fleet permissions and staged royal customs replace all earlier levy-relief proposals: 90% standard duties for two years after certified completion of named works, 110% for four years, then standard duties. Prince backs two city charters, separate royal/Corlys trade negotiations and restoration of both Gifts with queen-backed Watch negotiations; 60/40 proceeds proposal remains. No land, new city, fleet, subsidy or tax concession is delivered.
+The original 7,200 reconcile to twenty-three dead, forty-nine medically returned north and **7,128 active**: 6,730 fit at Harrenhal, seventy temporarily unfit there, 280 at depots, forty-eight away scouting/carrying messages. No replacement levy or new southern naval expedition exists. Expedition grain is 1,916 quarters and the field chest 62,622 GD. Current cash and stores are distinct from dated regional counts and annual forecasts.
 
-The expedition remains **7,200** within the **12,000 combined ceiling**: 7,178 fit in camp, eighteen temporarily unfit, four scouts still south. Camp accounts retain their earlier 04/05 scope: 740 quarters, 51,672 GD expenditure, 8,208 GD in the chest and 120 GD in unreconciled scout advances. Turns 16–19 add no new count or transaction. The January vault count is not an April cash balance.
+The latest complete Winterfell vault count is **18,672,940 GD on 129/07/30**, reported to Jon 08/12. The 08/05 field transfer of 100,000 followed that count; August ordinary activity is not fully reconciled. Detailed arithmetic and liabilities are in WORLD, not repeated in scenes. The original January fiscal reference remains a dated reference, not a current war projection.
 
-**Arra's Watch agreement is signed and delegated, not awaiting Jon's approval.** She implements its five-year, six-village New Gift scope, with Watch title retained, 60/40 collected rents/dues before Stark's costs, and 24,000 GD reserved but unspent. Survey departure is planned for 04/10. The royal articles and common announcement do not cancel her agreement or return ordinary choices to Jon. The old works roll remains closed, broader second roll unsigned, Mormont/Reed gifts unspent and Moat repair allowance 9,200 GD. Actual southern events and reports remain separate in WORLD and FUTURE_EVENTS.
+The queen's writ recognizes hereditary Stark lordship over both Gifts under her disputed authority, but the Watch protests and retains possession outside Arra's six-village administration. Her existing five-year agreement and full negotiating/implementation delegation remain in force, with no Jon-ratification prompt. Twenty-four voluntary households occupy repaired dwellings in three villages in the latest report; the other three are surveyed only. Arra has spent 14,800 of 24,000 GD.
 
-[Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal account](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
+Mormont's wharf is usable, the curtain unfinished; 72,000 paid and 108,000 remaining. Reed has one store/landing and four boats, with initial food bought and issued/stored; 28,500 paid and 21,500 remaining. Ordinary Moat repairs are complete within the 48,000 allowance, not reconstruction of unsafe upper masonry. The original 477,200 works roll remains closed; the broader second roll remains unsigned. City/commercial instruments have advanced, but the full naval programme is incomplete and the future royal-customs clock has not started.
+
+The war continued independently. Cole's appointment, the Cargyll attempt, Duskendale, Rook's Rest, Aemond's regency and the Sowing have occurred on the authored dates in WORLD/FUTURE_EVENTS. New naval lookout/signalling and limited relief arrangements reflect Jon's delivered warning; they have not automatically prevented the future Gullet sequence. Actual outcomes, reports and personal knowledge remain distinct.
+
+[Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal reference](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
 
 ## Turn record
 
-Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arithmetic was previously trimmed from early scenes; retained monetary amounts use the revised scale. Detailed January balances and reconciliations are in the [129 account](references/FISCAL_129_AC.md), with subsequent camp accounts in WORLD. Earlier wording remains in Git history. Turns 0–18 are unchanged by Turn 19. The next regular continuity checkpoint follows completed Turn 20, not this setup or the present Turn 19.
+The complete accepted scene is saved once for each turn. Turns 0–19 remain unchanged by this checkpoint. Turn 0 is the historical 126 opening, not the resume point. Earlier monetary revisions and the detailed January reconciliation remain documented in the fiscal reference and Git history. **Checkpoint 20 is complete; the next regular checkpoint follows Turn 40.** Checkpoint review charged no additional fictional time.
 
 | Turn | Ending date and time |
 | --- | --- |
@@ -38,10 +42,11 @@ Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arith
 | [13](turns/TURN_013.md) | Second day of the second moon, 129 AC, Evening |
 | [14](turns/TURN_014.md) | First day of the third moon, 129 AC, Evening |
 | [15](turns/TURN_015.md) | Fifth day of the fourth moon, 129 AC, Evening |
-| [16](turns/TURN_016.md) | Fifth day of the fourth moon, 129 AC, Evening; twenty minutes after Turn 15 |
-| [17](turns/TURN_017.md) | Fifth day of the fourth moon, 129 AC, Evening; one hour after Turn 15 |
-| [18](turns/TURN_018.md) | Fifth day of the fourth moon, 129 AC, Late evening; one hour forty-five minutes after Turn 15 |
-| [19](turns/TURN_019.md) | Fifth day of the fourth moon, 129 AC, Night; three hours after Turn 15 |
+| [16](turns/TURN_016.md) | 129/04/05, Evening, twenty minutes after Turn 15 |
+| [17](turns/TURN_017.md) | 129/04/05, Evening, one hour after Turn 15 |
+| [18](turns/TURN_018.md) | 129/04/05, Late evening, one hour forty-five minutes after Turn 15 |
+| [19](turns/TURN_019.md) | 129/04/05, Night, three hours after Turn 15 |
+| [20](turns/TURN_020.md) | 129/08/19, Night; 134 days elapsed |
 
 ## Established backstory, 124–126 AC
 
