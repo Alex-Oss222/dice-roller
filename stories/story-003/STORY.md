@@ -1,28 +1,30 @@
-# Story 3 · Jon Stark · 129 AC
+# Story 3 · Jon Stark · 130 AC
 
 ## Current position
 
-**Turn 20 is complete. Resume on 129/08/19, night, at Harrenhal's northern command quarters. The next action is Turn 21.** Read the [latest complete turn](turns/TURN_020.md). Fourteen days preparing the existing host and four thirty-day moons of the adopted corridor campaign have been resolved, totaling 134 days from 04/05. No portion of this interval remains to replay.
+**Turn 21 is complete. Resume on 130/01/01, night, at Harrenhal's northern command quarters. Next action: Turn 22.** Read the [latest complete turn](turns/TURN_021.md). The western-first campaign, eastern coordination and reinforcement interval consumed 132 days from 129/08/19. It is complete and must not be replayed. The Gullet engagement has not occurred.
 
-Rhaenyra ratified the agreed articles on 04/12; Jacaerys delivered her sealed answer 04/16. The northern host departed the Moat 04/20, within the 04/26 deadline, cleared the Neck 05/11 and reached Harrenhal 06/16. Jon retains independent northern command under the agreed maximum service through 131/05/11, ending earlier with the war. No new offensive beyond the completed consolidation plan has been selected.
+Jon defeated the western crossing offensive at the Red Fork on 129/10/16 and captured Jason Lannister alive. The remaining western formations withdrew; no invasion of the Westerlands or historical Fishfeed was forced. On 11/29 Jon and the cooperating riverlords defeated Cole's retreating army. Cole is also a living northern prisoner. Daemon and Nettles diverted Vhagar from sustained attacks on the ground forces; all three dragons survived injured, and Aemond escaped. The Black mounts now manage short flights but are not ready for prolonged fighting.
 
-A paid, repeatedly used supply and reporting corridor links the Moat, the upper Riverlands, the Trident and Harrenhal. Frey, Mallister, Vypren, Charlton, Roote, Darry and Blackwood cooperate while retaining their own lands, courts and commands. Riverrun permits limited dealings without entering the war; Atranta has not joined. The Twins were not besieged, Stone Hedge was not captured again and allied holdings have not become Stark estates.
+Rhaenyra took King's Landing on 11/08 through her own operation while the principal Green forces were away. Daemon was not simultaneously at the capital and in the Riverlands. Aegon escaped, the recovered treasury was limited, and the war continues. The queen now requests Cole's transfer to King's Landing. **Jon has not agreed to that transfer, executed or pardoned either important prisoner, accepted a royal office or ordered a capital journey.** Brandon's fixed wardship term ended on 12/30; Jon's promised different answer is also due.
 
-The original 7,200 reconcile to twenty-three dead, forty-nine medically returned north and **7,128 active**: 6,730 fit at Harrenhal, seventy temporarily unfit there, 280 at depots, forty-eight away scouting/carrying messages. No replacement levy or new southern naval expedition exists. Expedition grain is 1,916 quarters and the field chest 62,622 GD. Current cash and stores are distinct from dated regional counts and annual forecasts.
+Northern calls total **11,920 cumulatively**: original 7,200, another 4,600 land troops and 120 personnel on two Manderly coasters. The new land troops arrived on 11/20, 12/10 and 12/28, not before the western battle and not inside the 6,350 northerners actually fighting Cole. All calls preserve the 12,000 combined ceiling and retained home majorities. Cumulative 381 dead and 393 medically removed alive leave **11,026 active land troops and 120 naval**. Of the active land troops, 10,376 are at Harrenhal, including 170 temporarily unfit; 500 serve at depots and 150 are away on duty. Another 160 longer-term convalescents are physically at Harrenhal but already outside the active roll.
 
-The latest complete Winterfell vault count is **18,672,940 GD on 129/07/30**, reported to Jon 08/12. The 08/05 field transfer of 100,000 followed that count; August ordinary activity is not fully reconciled. Detailed arithmetic and liabilities are in WORLD, not repeated in scenes. The original January fiscal reference remains a dated reference, not a current war projection.
+Riverland field commitments total **11,000 over the campaign**, including the first joint 8,400 rather than adding it twice. After their own losses and medical removals, 10,150 remain active across the western frontier, eastern roads, Harrenhal and depots. Jeyne sent **3,000 Valemen**, who arrived in the twelfth moon, after both battles, under Leowyn Corbray. None of these allies is counted as a northern recruit or made a Stark vassal. Riverrun and Atranta retain their previous uncommitted positions.
 
-The queen's writ recognizes hereditary Stark lordship over both Gifts under her disputed authority, but the Watch protests and retains possession outside Arra's six-village administration. Her existing five-year agreement and full negotiating/implementation delegation remain in force, with no Jon-ratification prompt. Twenty-four voluntary households occupy repaired dwellings in three villages in the latest report; the other three are surveyed only. Arra has spent 14,800 of 24,000 GD.
+Jon is now twenty-two, his ninth-moon nameday fixed as 09/09. He suffered a spear wound in the left forearm at the Red Fork, recovered by the next moon and retains its scar. There is no current motor limitation, magical healing or new inherited-body deficit.
 
-Mormont's wharf is usable, the curtain unfinished; 72,000 paid and 108,000 remaining. Reed has one store/landing and four boats, with initial food bought and issued/stored; 28,500 paid and 21,500 remaining. Ordinary Moat repairs are complete within the 48,000 allowance, not reconstruction of unsafe upper masonry. The original 477,200 works roll remains closed; the broader second roll remains unsigned. City/commercial instruments have advanced, but the full naval programme is incomplete and the future royal-customs clock has not started.
+The field chest holds **119,982 GD at 130/01/01**. Accountable expedition grain totals **3,030 quarters**, with remote depot quantities dated to their last returns. The latest complete Winterfell vault account is **19,327,040 GD on 129/12/15**, received 12/29, not exact January cash. Actual flows, losses, prisoners and obligations are in WORLD; annual forecasts and GDP have not been credited as cash.
 
-The war continued independently. Cole's appointment, the Cargyll attempt, Duskendale, Rook's Rest, Aemond's regency and the Sowing have occurred on the authored dates in WORLD/FUTURE_EVENTS. New naval lookout/signalling and limited relief arrangements reflect Jon's delivered warning; they have not automatically prevented the future Gullet sequence. Actual outcomes, reports and personal knowledge remain distinct.
+Arra's regency and entire Watch negotiation and implementation delegation remain active. The royal writ over both Gifts exists, but the Watch disputes the broader title transfer. Her six-village agreement still operates: thirty-nine households in four villages, 21,600 GD spent and 2,400 left. Mormont's wharf operates with the curtain unfinished, 104,000 paid and 76,000 left; Reed has both stores and landings and eight boats operating, 42,000 paid and 8,000 left for final work and account settlement. The old works roll and Moat safe-repair order stay closed; no full-port completion or customs activation is invented.
+
+The queen's younger sons Aegon and Viserys reached King's Landing under escort on 12/04, reported to Jon on 12/22. The historical unprotected Pentos voyage did not occur. Corlys's watch, signals and limited relief continue. Any future Gullet encounter must use the actual changed fleets, riders and passengers, not restore the original catastrophe.
 
 [Character](CHARACTER.md) · [World](WORLD.md) · [129 fiscal reference](references/FISCAL_129_AC.md) · [Future events](FUTURE_EVENTS.md)
 
 ## Turn record
 
-The complete accepted scene is saved once for each turn. Turns 0–19 remain unchanged by this checkpoint. Turn 0 is the historical 126 opening, not the resume point. Earlier monetary revisions and the detailed January reconciliation remain documented in the fiscal reference and Git history. **Checkpoint 20 is complete; the next regular checkpoint follows Turn 40.** Checkpoint review charged no additional fictional time.
+Each accepted scene is stored once. Turns 0–20 remain unchanged by Turn 21. The original 126 opening is history, not the resume point. The previous checkpoint was Turn 20; the next regular checkpoint follows Turn 40. Turn 21's major-war handoff adds no extra fictional day.
 
 | Turn | Ending date and time |
 | --- | --- |
@@ -47,6 +49,7 @@ The complete accepted scene is saved once for each turn. Turns 0–19 remain unc
 | [18](turns/TURN_018.md) | 129/04/05, Late evening, one hour forty-five minutes after Turn 15 |
 | [19](turns/TURN_019.md) | 129/04/05, Night, three hours after Turn 15 |
 | [20](turns/TURN_020.md) | 129/08/19, Night; 134 days elapsed |
+| [21](turns/TURN_021.md) | 130/01/01, Night; 132 days elapsed |
 
 ## Established backstory, 124–126 AC
 

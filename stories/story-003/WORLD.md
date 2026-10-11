@@ -1,295 +1,204 @@
-# Story 3 · World · 129/08/19 night
+# Story 3 · World · 130/01/01 night
 
-## Current position and checkpoint
+## Live position
 
-**Turn 20 is complete. Jon is at Harrenhal in his northern command quarters.** Fourteen preparation days and four thirty-day moons, 134 days in all, were resolved from 129/04/05 night. The next action is Turn 21. The attached plan authorized the route, diplomacy, supply arrangements and consolidation, not automatic control of every Riverland house. The whole interval completed without a new unresolved decision preventing the stated operation. No offensive beyond that plan has been chosen at the ending council.
+**Turn 21 completed. Jon is at Harrenhal, northern command quarters. Next action: Turn 22.** The player authorized a western-first campaign, eastern cooperation against Cole and Aemond, real reinforcement recruitment and Vale diplomacy, and movement through the opening of 130 before the Gullet engagement. **132 days elapsed from 129/08/19 night.** No further battle at sea has been resolved. Rhaenyra's request for Cole's transfer and Brandon's promised answer are now before Jon; neither is chosen for him.
 
-Rhaenyra ratified the agreed military and royal articles on 04/12; the sealed answer reached Jon with Jacaerys on 04/16. The host left the Moat on 04/20, within the announced 04/26 deadline, cleared the Neck on 05/11 and reached Harrenhal on 06/16. The two-year service limit runs to 131/05/11, ending sooner with the war. Jon retains independent northern command.
+The Lannister crossing offensive was defeated on 129/10/16; Jason is a living northern prisoner. Cole's army was defeated on 11/29 and Cole captured alive. Daemon and Nettles denied Vhagar sustained participation over that battle, but all three riders and dragons survived, with injured mounts. Rhaenyra took King's Landing on 11/08 while the Green field force was away. Aegon escaped. No conquest of the Westerlands, unconditional peace, execution of Cole, royal office or new marriage is established.
 
-The active expedition is **7,128**, after 23 deaths and 49 medical returns north from the original 7,200. Of the active men, 6,800 are at Harrenhal, including seventy temporarily unfit; 280 are at depots and forty-eight away on duty. The combined new land/shipboard ceiling remains 12,000, with most of each contributing house at home. No new naval expedition or replacement levy has been raised.
+The full [Turn 20 world checkpoint](https://github.com/Alex-Oss222/dice-roller/blob/53bfffca7afaeeceedf8dbfd330b18550e140a61/stories/story-003/WORLD.md), [preceding record](https://github.com/Alex-Oss222/dice-roller/blob/52c1a9c466fab7cbac38d7c750d31b6361b14084/stories/story-003/WORLD.md), unchanged numbered scenes and [129 fiscal reference](references/FISCAL_129_AC.md) preserve detailed historical accounts. They are dated records, not competing current balances. [CHARACTER](CHARACTER.md) separates Jon's knowledge from GM facts; [STORY](STORY.md) indexes accepted scenes; [FUTURE_EVENTS](FUTURE_EVENTS.md) preserves all 117 conditional baselines. New exact dates, local terrain, quantities and battle outcomes are authored adjudications, not book quotations or fabricated rolls. No earlier committed outcome is erased.
 
-[CHARACTER](CHARACTER.md) holds Jon's knowledge and condition; [STORY](STORY.md) preserves the accepted backstory and complete numbered scenes; [FUTURE_EVENTS](FUTURE_EVENTS.md) preserves conditional baselines and offscreen timing. The [129 fiscal reference](references/FISCAL_129_AC.md) remains the dated January reconstruction, not a current August budget. This checkpoint condenses repetition. The complete [pre-checkpoint WORLD](https://github.com/Alex-Oss222/dice-roller/blob/52c1a9c466fab7cbac38d7c750d31b6361b14084/stories/story-003/WORLD.md) and unchanged Turns 0–19 preserve historical detail; no earlier event or payment is erased by condensation. Retired play-tests are excluded. New exact quantities and historically undated days below are authored campaign accounts and outcomes, not book quotations or externally measured facts.
+## Identity, family and government retained
 
-## Established history, family and household
+Rickon died in 121. Bennard and Benjen arranged Cregan's saddle sabotage in 124. Cregan's consciousness died; Jon transferred from 487, inherited Cregan's memories in full, recovered through 124 and adapted fully by 125. His former body died; no belongings or animals transferred. Jon secured household, allies and evidence, took Winterfell in late 125 without civil war, and governed before 126/01/03. Bennard's 400,000 GD confiscation is included once in treasury history, not another purse.
 
-Rickon died in 121. Bennard and Benjen arranged Cregan's sabotaged saddle in 124. Cregan's consciousness died; Jon transferred from 487 without possessions, inherited Cregan's memories, recovered through 124 and adapted completely by 125. Jon secured the household, allies and evidence, took Winterfell in late 125 without civil war, and governed before 126/01/03. Bennard's 400,000 GD confiscation was included once in the opening vault.
+Bennard and Benjen remain convicted of treason and attempted murder and separately imprisoned for life. Benjen retains books and a brazier; Bennard receives monthly word, including the ninth through twelfth moons, and Margaret's letters through the maester. Margaret lives at Karhold; her 127 request for Benjen to take the black was refused. No new sentence for the bribed stablehand exists. Brandon and Elric were unimplicated political wards under oaths recognizing Cregan and renouncing challenge, not convicted prisoners.
 
-Bennard and Benjen remain convicted of treason and attempted murder, imprisoned for life under separate guard. Monthly word of Benjen and Margaret's letters through the maester continue. Jon visited Bennard in 126/03. Margaret lives at Karhold, visited in 127/10 and was refused her request that Benjen take the black. Brandon and Elric were unimplicated wards, not convicted prisoners: Glover's squire and Manderly's page respectively, with oaths recognizing Cregan and renouncing challenge. Brandon's promised different answer remains due at the end of 129 after his oath period, not now; Elric's marriage remains deferred. No separate stablehand sentence has been supplied.
+**Brandon's fixed wardship residence ended on 129/12/30.** He remains physically with Glover as a guest pending instructions, not under a newly extended compulsory term or automatically at Winterfell. His enduring oath is distinct from the expired residence period. Jon owes his promised different answer. Arra's reminder reached Jon on 130/01/01 through the established correspondence; she did not decide his new residence or appointment. Elric remains in Manderly's household with proposed marriage deferred. No new betrothal follows automatically from aging.
 
-Only Arra knows the transfer. She was Cregan's childhood friend and lover and loves Jon as a friend. They are unmarried/unbetrothed, with no son Rickon. Jon's no-marriage policy and lifelong promise of shelter/mead stand. Cerwyn's daughter married Hornwood's heir on 128/09/12; no pending betrothal remains. The earlier northern visits, clan judgments, note settlements and prisoner decisions remain accomplished history in the turns, not new negotiations.
+Arra alone knows the transfer. She loved Cregan romantically and loves Jon as a friend. There is no marriage, betrothal or son Rickon. Jon's no-marriage policy and lifelong promise of shelter and mead remain. Cerwyn's daughter married Hornwood's heir on 128/09/12. Earlier marriage refusals, clan judgments, note settlements and prison decisions stay completed. No historical Pact or brotherhood oath was imported.
 
-Winterfell's loyal household retains its steward, chief clerk, stores and watch officers, maester, Hobb and captains. Donnel remains in Arra's service; Lew, the carpenter, reeve and Master Wyl keep their recorded work. Unnamed officers are known to Jon. Orro's 400-GD/year teaching contract ended 129/02/28 without renewal or an invented new job. Camp clerks and officers do not replace the entire Winterfell household.
+Arra's regency began when Jon departed on 129/02/17, after public appointment on 02/16 and fourteen days of preparation. It lasts until his return. The steward, chief clerk, maester, stores and watch officers, Hobb, Donnel and household captains remain at Winterfell. Unnamed officers are familiar to Jon; camp appointments do not move the whole household. Hobb continues instruction; she has practical ability and advisers, not Jon's centuries of experience. Her authority covers northern government, customary cases, defense, stores and established expenditure; Jon retains field command and royal negotiations. Her specific Watch delegation includes compromise, signature and implementation without Jon approving routine clauses.
 
-Arra trained 02/03–02/16, was publicly appointed on 02/16 and became active regent when Jon left on 02/17. She governs until his return, supported by the household. She handles customary cases, northern defenses, stores, established expenditure and officers; Jon retains field command and royal negotiations. Notices of the appointment reached the established routes by 03/07, not a fabricated personal oath from every lord or Skagos. Hobb continues her instruction. Her competence is practical and supported, not Jon's centuries of experience.
+Jon's authored nameday is now fixed as **09/09**, within the previously established ninth moon. He turned twenty-two on 129/09/09; this does not revise the campaign age to canonical Cregan's birth date. Ice is the existing Stark weapon. The 10/16 forearm wound was cleaned and stitched, closed without infection and healed by the eleventh moon with a lasting scar and no motor deficit. No magical healing or immunity exists.
 
-The explicit Watch delegation received 03/07 empowers her to negotiate, compromise, sign and implement without Jon approving clauses or routine decisions. His royal negotiations have not withdrawn it. Bennard received his fourth-through-eighth-moon word under the standing arrangement; prison safeguards and wardships were not suspended during the campaign.
+## Standing institutions, closed works and royal bargain
 
-## Standing northern institutions and completed works
+The pre-opening audits, accurate dues, harvest and manpower returns, loyal garrison, road patrols and Manderly cooperation remain. Bread and ale issues use signed musters; grain is weighed and inspected. Thirty-six sealed measures include nineteen issued to lords and one at the weighhouse. Deep wells retain shoring until lined with a man above, following the 127 fatality. Road poles mark about 100 miles and six clan tracks. Gate and fair courts, fire-cask checks, no banked shed fires and shingle roofs in the rebuilt lane continue. The extra hundred household guards from 128 are a home establishment, not another expedition.
 
-The pre-opening audits, accurate obligation/harvest/manpower reporting, loyal garrison appointments, route patrols, bridge/defense repairs and Manderly cooperation remain established. Bread/ale issues use signed musters; grain is weighed and inspected. Thirty-six sealed measure sets exist, nineteen issued to lords and one to the weighhouse. The false-measure receiver was dismissed in 128. Deep wells retain shoring until lined with a man above, following the 127 fatality. Road poles mark about 100 miles of Stark road and six clan tracks; Knott's dispute is settled. Gate/fair courts, fire-cask checks, no banked shed fires and shingle roofs in the rebuilt low lane continue.
+The **Roll of Northern Works closed on 129/01/12**, paid 477,200 GD against a 1,632,682.80 ceiling. The undrawn 1,155,482.80 was already inside the January vault. Divisions paid: Winterfell 58,100; Winter Town fixed works 115,640; town trade 17,700; Stark lands 48,360; lords' common works 178,520; commercial advances 28,020; clan stores 8,200; administration 22,660. Difficult-sites 34,800 is inside common works. Other lords' roughly 120,000 in-kind contributions and Stark's timber, wool and grain valuations are not fresh cash. Struck works are not an automatic backlog. The broader second roll is unsigned.
 
-The extra hundred household guards raised from sixth moon 128 are not silently an added expedition; the fiscal benchmark is about 7,573 GD wages, 9,500 cash support plus 110 quarters yearly. It is not an automatic price for every marching soldier or horse.
+Completed facilities and their locations remain in the checkpoint and turns: castle granaries, wells, paved yards and measures; Winter Town hall, warehouses, infirmary, school, water and sanitation, wood-heated baths, fulling mill and tannery; selected estate wells, bridges, stores and road poles; other lords' bridges, landings and stores. No hot-spring town piping was built. Six looms passed to nine independent weavers with the Braavosi contract, revised rent of twenty stags each yearly, and yarn at spinning cost plus a tenth. Orro's 400-GD yearly teaching contract ended on 129/02/28. The tannery's own-account expansion remains conditional on its accepted terms. Annual standing upkeep is 2,680 GD; local lords maintain their own facilities. The Moat's separate 48,000-GD safe-repair order is paid and closed; unsafe upper masonry reconstruction is outside that scope.
 
-The **Roll of Northern Works closed on 129/01/12**, after operation since 126/01/11: **477,200 GD paid**, ceiling **1,632,682.80**, undrawn **1,155,482.80** already inside the January vault. Nothing remains owed on it. The broader second roll is still unsigned.
+The royal bargain was ratified on 04/12 and delivered on 04/16. The first host left the Moat on 04/20, cleared the Neck on 05/11 and reached Harrenhal on 06/16. Winterfell appoints the northern commander, Jon consents to detachments and selects southern operations for Rhaenyra's victory, without subordination to Daemon. Maximum service ends on **131/05/11**, or earlier with the war; new levies do not restart it. Earlier six-moon service and levy-relief proposals were superseded.
 
-| Closed division | Paid GD | Accomplished result |
-| --- | ---: | --- |
-| Winterfell | 58,100 | Six granaries, three wells, paved approach/yards, measures, account room and school |
-| Winter Town fixed works | 115,640 | Hall, weighhouse, two warehouses, winter hall, infirmary, school, streets, ten wells, twenty privies, fire points, two wood-heated baths, fulling mill and twenty-pit tannery |
-| Town trade | 17,700 | Six-looms cloth operation; mixed stock/coin later recorded separately |
-| Stark lands | 48,360 | Eighteen wells, four granaries, wool house, four timber bridges and poles |
-| Lords' common works | 178,520 | One stone bridge, eight timber bridges, twenty-six road miles, two wharves, fourteen wells, nine granaries |
-| Commercial advances | 28,020 | Locke ten, Mormont four and Finger twelve fish stations; five Finger stations later lost |
-| Clan stores | 8,200 | Four stores and poles, 2,400 quarters internally transferred |
-| Administration | 22,660 | Surveys, copying, riders, supervision and examination |
-| Total | 477,200 | Closed and paid |
+Royal permissions cover Bear Island's Mormont fishing port, White Harbor docks and yards with Manderly, merchant voyages south and to Braavos, and willing specialists released from existing service. There is no unlimited building subsidy. The **customs clock remains inactive** until certified completion of named agreed works: 90% of ordinary royal duties for two years, 110% for four, then standard, excluding local and Braavosi dues. No future savings are credited as current cash.
 
-The 34,800 difficult-sites cost is inside common works, not additional. Other lords supplied about 120,000 in kind; Stark roof timber/wool/clan grain were valued separately about 7,280/9,720/2,880 without double-charging wool. The old 100,000 contingency was unused. Other lords' own works remain as recorded; Reed and Skagos did none under this roll.
+The two city rights retain named market, fair, association, court, warehouse, fortification and specified-dues powers with landholder consent. Winter Town was proclaimed on 06/02; Dustin consented on 05/22 and Barrowton was proclaimed on 07/05. No third Bay of Ice charter or automatic population and revenue gain. Dragonstone protections and the 07/18 Corlys and Manderly factor and warehouse-access agreement operate with local dues retained and no free goods. White Harbor's limited own-account work continues; the full fleet and port programme remains unfinished.
 
-Six looms passed to nine independent weavers, with the Braavosi contract, yarn at spinning cost plus a tenth, mill use for fees and revised annual rent of twenty stags per loom. The contract is seventy stags per accepted yard; spinners retain wheels/wages. The tannery is let to the journeyman at bark's annual value with expansion on his own account under the recorded terms. No town hot-spring piping was built. Annual household keeping charge 2,680 GD covers school 500, infirmary 500, winter hall 320, keeper 160, repairs 1,200; lords keep their own bridges.
+The royal writ recognizes hereditary Stark lordship over both Gifts under Rhaenyra's disputed authority, with the 60/40 land-revenue proposal and support in negotiation. It is an actual instrument, not merely an inquiry, but the Watch contests title and retains broader possession. The capture of the capital has not evicted its reeves. Arra's contract and delegation remain operative.
 
-Struck works are not pending automatic construction: four castle granaries, two castle baths, four acres of yards, fifty-horse stable, three more town baths, hide house, twenty tar kilns, two wool houses, six rural granaries, two bridges, twenty-four further wells and unrequested packages.
+## Turn 21 orders, communications and reinforcement
 
-## Turn 20 orders, letters and chronology
+The direct action and attached plan authorize western-first land operations, eastern cooperation against Cole and Aemond, actual recruitment and Vale diplomacy, plus a limited Manderly reconnaissance contribution. Tentative player estimates of 5,000 northern reinforcements, 8,000 at Harrenhal and another 15,000 allies were not already counted soldiers. No retrospective early levy, hidden army or foreign consent was imported.
 
-The player adopted the attached kingsroad/Trident/Harrenhal consolidation plan. Desired territorial outcomes and illustrative formations were adjudicated rather than treated as already accomplished. Jon answered Dustin with the eastern road objective and parallel western cooperation, without ordering the army to besiege or detour through the Twins. The direction was maximum useful cooperation with limited northern garrisons, paid provisions, customary rights and protection of valid surrender terms.
+Council held on 08/20. Ryswell's western reporting included **eighty existing Bolton men**, not eighty added to that house's 594 active soldiers. Roote and Darry kept separate reports of Cole's army and Vhagar. Letters to Arra, Jeyne, Jacaerys, Rhaenyra, Corlys and Manderly left on 08/20–08/23. Winterfell received reinforcement instructions on 08/29; actual house returns, preparations and journeys followed through the ninth moon. Existing birds, relays and riders supplied routes, not instantaneous shared knowledge.
 
-| Date | Action or message | Result and information boundary |
+New land allotments: Bolton 900; Hornwood 400; Glover 400; Ryswell 300; Tallhart 200; Manderly 300; Cerwyn 200; Umber 800; Karstark 800; Norrey 100; Wull 100; Liddle 100. **Total: 4,600.** Returned proposals preserve home majorities and equipment. These are new calls under this turn's order, not previously marching men. New naval complement: **120**, two existing Manderly coasters with sixty personnel each for defined reconnaissance and liaison under Corlys's operational directions within Jon's consent. No whole navy or permanent transfer of northern hull ownership.
+
+Land arrivals at Harrenhal: **11/20: 2,000; 12/10: 1,400; 12/28: 1,200.** Assembly and Moat staging occupied the preceding weeks, with Moat arrivals on 09/25–11/02 and roughly fifty-five to sixty days of onward travel, rest and crossings. Nearer houses provided earlier bodies; later bodies included the distant Umber and Karstark men. First arrivals relieved castle, depot and following-route duties. **None fought at the Red Fork or was included in the 6,350 northern veterans actually fighting Cole.** Later arrival does not revise an earlier battle's odds or casualties.
+
+Cumulative call: **7,200 original + 4,600 new land + 120 naval = 11,920**, below the combined 12,000 ceiling. Deaths and medical removals do not conceal extra replacement calls; eighty places remain against this conservative cumulative measure. Existing home and Moat guards are not a second army. The old 31,400 regional potential and 2,260 named horse and mail roll are dated reports within manpower, not extra field troops.
+
+## Allied rolls and locations
+
+The first joint return established **8,400 Riverland field commitments across the region**, including men already cooperating with Daemon: Frey 1,200; Blackwood 1,000; Mallister 800; Vypren 400; Charlton 300; Roote 700; Darry 900; Wayfarer's Rest Vance 900; Piper 900; Smallwood 500; Grey 400; Bigglestone 200; Chambers 100; Perryn 100. Of these, **6,800 fought west**, while **Roote and Darry's 1,600 covered the east**. Ordinary castle guards remain local, not an invented mobile army.
+
+Later agreements added **2,600**: Mooton 800; further Wayfarer's Rest Vance 600; Smallwood 300; Frey 300; Charlton 200; Bracken 400 under supervised limited service consistent with its submission. This did not release Humfrey's hostages or restore a feuding army. **11,000 total commitments include the original 8,400.** They are not 8,000 plus another 15,000 or all permanently beside Jon. Lords retain command, courts, lands and ordinary receipts; they support their own men except actual joint invoices.
+
+Riverland losses in this campaign: **487 dead**, comprising 340 western, eighty-six eastern covering and raiding, thirty-seven at Cole's battle and twenty-four sickness and accidents; **363 medically removed alive**. Closing active roll: **10,150**, with temporarily unfit men still inside their own establishments. Distribution: 3,850 west, 3,000 eastern roads, 2,300 Harrenhal vicinity, 1,000 local depot and relay duty. No parent unit is counted again through a detachment.
+
+Jeyne's direct correspondence and confirmed royal protection produced **3,000 Valemen**, not 15,000 or her whole potential. Addam and Seasmoke protected embarkations on **11/01–11/28**. Two shipping echelons reached Maidenpool on **11/23 and 12/02**; Leowyn Corbray brought them to the Harrenhal vicinity on **12/06 and 12/15**. Four hundred mounted men and twenty-four temporarily unfit are inside the 3,000. They missed both battles; no earlier combat losses are assigned. Addam returned to Gullet duty after the embarkation interval. No sexual blackmail, invented northern noblewoman or automatic Jeyne submission to Daemon was used.
+
+Frey, Mallister, Vypren, Charlton, Roote, Darry and Blackwood retain their established corridor agreements: paid provisions, guides, warning and protection with local ownership and commands. The Twins are a friendly western connection, not a conquered or compulsory waypoint. Riverrun remains nonbelligerent, with Grover alive and Elmo's limited purchases and correspondence. Atranta has not submitted; Wayfarer's Rest is a different branch. Stone Hedge was not captured again. Humfrey's hostages and the unresolved cattle claim remain under the preceding arrangements. No measured percentage of all Riverlands control or Stark annexation is invented.
+
+## Campaign chronology
+
+| Date | Accomplished action | Scope |
 | --- | --- | --- |
-| 04/05 night | Orders given to camp council | Fourteen-day preparation, route to Trident/Harrenhal, local-led western cooperation; no new levy |
-| 04/06–04/08 | Six courier pairs drawn from headquarters dispatched | Packets for Daemon; Frey with Vypren/Charlton; Mallister; Roote/Darry; Blackwood; Tully. They are existing men, not extra strength. Jacaerys carries a duplicate of Daemon's request. |
-| 04/06 | Prince departs | Vermax carries articles and the recorded naval/relief warning, not a royal answer already obtained |
-| 04/09 | Prince reaches Dragonstone | Rhaenyra and Corlys receive the proposals/warning; the duplicate Harrenhal communication goes onward through available royal ravens |
-| 04/11 | Turn 19 packet reaches Arra | Common notice circulated on receipt, principal deliveries 04/13–04/20 and established long routes through 04/24; no new Skagosi assent |
-| 04/12 | Royal ratification | Queen accepts the actual Turn 18 package; details below. Cole's appointment independently occurs at the opposing court. |
-| 04/11 and 04/17 | Original remaining scout pairs return | Four men and their accounts restored to camp duty; reports establish current roads and confirm early Riverlands fighting. Old advance reconciled once. Blackwood congratulations follow confirmation, not secret GM knowledge. |
-| 04/16 | Jacaerys returns with sealed instruments | Jon receives the required answer before departure; existing conditional undertaking proceeds, no material new terms accepted for him |
-| 04/17–04/20 | Prince returns to Dragonstone | He is not at the Moat for the subsequent northern march |
-| 04/18 | New field chest arrives | 100,000 GD received, companies' carried preparation charges settled against receipts |
-| 04/19 night | Preparation completed | 280 wagons serviceable, loads and animals examined, 1,092 quarters counted; twenty men still not fit to march |
-| 04/20 | Host leaves the Moat | 7,080 moving, 120 on depot/repair/medical duties, including twenty unfit; latest-departure obligation met |
-| 04/22 | Royal copies reach Arra | She receives the Gift writ and other instruments without a cancellation of her independent agreement |
-| 04/26 | Watch receives royal instrument through correspondence | It protests the broader claim; no full handover or suspension of the six-village agreement |
-| 05/09–05/11 | Daemon's liaison and Frey contact meet the advance | Current passage, stores and warning arrangements reach the moving army |
-| 05/11 | Host clears the Neck | Maximum service clock begins; no immediate arrival at Harrenhal |
-| 05/30–06/03 | Trident crossing operation | Roote ferry turns, ford checks, unloaded heavy wagons and Darry guides; multiple days, no Ruby Ford name or invented stone bridge |
-| 06/16 | Northern army reaches Harrenhal | Agreed quarters/store space and separate command; supplies purchased, not taken from Daemon's stock by assumption |
-| 06/28 | Darry-road convoy attacked | Limited fight resolved below; surviving cargo and line retained |
-| 07/18 | Commercial access agreement concluded | Corlys and Manderly agree the reciprocal factor/warehouse provisions after correspondence, not at Jon's earlier demand |
-| 07/30 | Northern account closed | Arra's dated treasury/project report reaches Jon 08/12 |
-| 08/19 night | Authorized period ends | Supplied corridor and concentrated host established; next offensive unchosen |
+| 08/20–09/13 | Council, correspondence, supplies, medical review and scouts | Western concentration confirmed before moving the main army |
+| 09/09 | Jon turns twenty-two | Authored day within the established nameday moon |
+| 09/14 | Northern western march | 6,500 later present at Red Fork; others retain corridor and care duties |
+| 09/17 | Nettles joins Daemon | Actual queen-authorized paired operations, not instant expert training |
+| 10/10 | Cole begins northward offensive | Working muster 5,200, Aemond seeking two-front pressure |
+| 10/16 | Western crossing defeated | Jon and participating riverlords win; Jason captured alive |
+| 10/20 onward | Western failure reported east | Green commanders respond to news rather than repeat a frozen script |
+| 10/26–11/07 | Eastern checks and Aemond's raids | Evacuated exposed stores and threatened people; no Green occupation of Harrenhal |
+| 11/08 | Queen's forces take King's Landing | Actual enemy absence, fleet, available dragons and City Watch cooperation |
+| 11/10 | Jon returns to Harrenhal | Capital report received, preparations against Cole continue |
+| From 11/13 | Cole retreats towards Reach | Capital lost, western relief unavailable, hostile passages and supply pressure |
+| 11/20 | First 2,000 new northern troops arrive | Following routes and duties relieved, not retroactive western strength |
+| 11/29 | Cole defeated, aerial battle above field | 6,350 northerners and 4,300 rivermen; Cole captured alive |
+| 11/30 onward | Black riders return injured | Ground viewpoint learns close aerial details from their reports |
+| 12/06–12/28 | Vale and later northern arrivals | Authorized reinforcement and aftermath, not a new offensive |
+| 130/01/01 | Closing returns and queen's request | Cole and Brandon decisions remain with Jon; no Gullet battle |
 
-Rider travel and cooperative castle ravens supply plausible routes, not an instant camp-to-every-castle system. The direct road requests reached the nearer Frey routes first, with other replies coming progressively through the fifth moon; Tully's limited answer reached the column 05/26. The queen's duplicate reached Harrenhal before the slower original; neither constitutes two separate diplomatic missions or payments. Letters congratulating a new Blackwood succession were sent only after contemporary confirmation.
+### Red Fork
 
-## Northern army and transport
+The mill landing, orchard wall, ditch, ridge and ford dispositions are authored local terrain, not a claimed canonical tactical map. Jason demonstrates at the principal ford while Adrian Tarbeck crosses in boats upstream. The local watch is driven back. Ryswell's network reports the bridgehead; Jon commits his nearer reserve while leaving Dustin at the principal ford. Northern ranks and supporting Blackwood archers contain the landing and obstruct its reinforcement. Jon dismounts, fights with Ice in the lane and suffers the forearm wound. Jason crosses to reinforce before the position collapses, loses his horse and is taken wounded. Tarbeck escapes; Lefford withdraws the uncommitted western formations. No blind pursuit to Casterly Rock or second lakeshore annihilation.
 
-Original 127 return of 31,400 fit at a moon's notice is a reported regional potential, not a present army. The later horse/mail roll of 2,260 named men is within manpower, not another contingent. Original mobilization notices departed 02/02; house proposals and allocations preserved home majorities. The 12,000 combined ceiling was not an obligation to fill unused places. Initial 4,000 allocations and later 3,200 arrivals, ending 04/03, remain documented in the pre-checkpoint state and Turns 14–15. No men were called twice.
+Western strength was first estimated at 11,000–14,000; captured returns identify **12,400 before the crossing fights**. Later accounts count **1,180 dead and 2,760 living prisoners**. The other 8,460 include withdrawals, scattered men and unaccounted persons; they are not all verified fit in one army. Jason survives under northern custody. Bulk prisoners are held through agreed northern and local arrangements, not sold or executed automatically. No ransom receipt is booked. Lord Piper, Tristan Vance, Forrest Frey, Jon Charlton and Roderick Dustin survive this different operation; Pate acquires no automatic historical epithet.
 
-At 04/05 the roll was 7,200: 7,178 fit camp, eighteen temporarily unfit, four scouts away. The two earlier returned scouts and Jon's forty mounted escorts were already included. The original four outstanding scouts returned this turn; eighteen old ailments were individually reassessed, with recoveries and new ailments yielding twenty unable to march at 04/19. No automatic universal healing is assumed.
+Northern casualties: **145 killed in the fighting and 620 wounded**, of whom thirty-five subsequently die. Thus **180 dead and 585 surviving wounded**, not 765 permanent deductions. Of the 585, 465 return to duty during the following weeks and 120 are medically removed alive. Riverland western deaths total 340 after wound outcomes; their surviving wounded are within their distinct rolls. Jon's wound closes normally and leaves a scar.
 
-| Initial assigned function after inspection | Men | Command and scope |
-| --- | ---: | --- |
-| Main fighting body, including Jon's reserve | 5,000 | Dustin leads a principal division; Jon retains the reserve and overall northern command |
-| Advance screen | 480 | Ryswell supervision; 300 mounted within this assignment, with guides and road scouts |
-| Wagon guard and pioneers | 900 | Manderly cargo officers, Tallhart officers and demonstrated craftsmen; not 900 invented engineers |
-| Rearguard | 400 | Company officers protect baggage rear and stragglers |
-| Headquarters, messengers and flexible duty | 300 | Includes the twelve diplomatic couriers, not a second pool of men |
-| Moat depot, repairs and medical duties | 120 | Includes twenty then unfit; original home garrison remains distinct |
-| Total | 7,200 | 7,080 depart, 120 remain initially |
+### Cole and the dragons
 
-The 04/19 transport return counts **280 serviceable wagons, 640 draught animals, 720 riding horses, 160 remounts and 220 pack animals**. These are authored inventories identified from existing companies, not all newly purchased or all mounted soldiers. Loads, fodder stops and purchase agreements, not coin alone, make the march feasible. Human grain travels alongside non-grain provisions, equipment and distributed forage; the army does not carry four months' hay in one train. The wagon hiring/repair account includes replacements after the convoy loss. The original animal inventory is dated, not an assertion that every animal survives unchanged at 08/19; no full final remount inventory was closed this turn.
+Cole's northward force begins with a working **5,200** on 10/10. Eastern resistance, detachments, losses and dispersal leave approximately 4,600 at the 11/29 encounter, with the later campaign reconciliation using **4,640**. The preceding difference of 560 is not all dead. Aemond's variable flights are not continuous cover. Local warnings and movements preserve some stores and households, but some settlements are attacked before help arrives. Daemon and Nettles cannot defend every roof.
 
-Companies use separated road blocks with supporting intervals. Duty rotations preserve guards, cooks, transport and rest. Work removes actual obstructions, repairs decking/drains and makes passing places, not a new paved kingsroad. The Moat retains its old garrison and repair establishment; depot reassignment later leaves 100 expedition men there, eighty at the upper forward station and one hundred at the Trident. Other guards are local allied establishments, not invisible northern recruits.
+After losing the capital and prospects of western support, Cole seeks the Reach by roads west and south of the Gods Eye. Jon's main blocking force, concealed supporting body and local route knowledge intercept him. **6,350 northerners and 4,300 rivermen** actually engage; late levies and Vale troops are excluded. Cole attacks before every allied company is placed, breaks an archer line and reaches baggage. Jon commits the reserve, dismounts and fights to contain the breach rather than seeking a ceremonial duel. The supported flanking force then closes on Cole's exposed side.
 
-### Convoy engagement and losses
+Vhagar burns outer baggage. Orders disperse uncommitted companies; engaged men cannot simply vanish. Caraxes and Sheepstealer divert Vhagar before repeated passes turn the breach into a rout. All dragons suffer wounds. Cole's surviving guard is surrounded after he is unhorsed; he is taken alive, with sword and morningstar held by the guards, not gifted to Jon. No historical parley execution occurs. **690 dead and 2,610 living prisoners** are counted; **1,340 escape, scatter or remain unaccounted for** from the reconstructed 4,640. The army ceases to function under Cole, not every fugitive dies.
 
-On **06/28**, an estimated seventy to ninety mounted Green retainers struck the Darry-road convoy. The initial escort brought surviving carts into a farm enclosure and held the entrance. Ryswell's nearby 160 mounted men and about 120 local Roote men reinforced it before the raiders could remove the main cargo. The raiders withdrew after losing their chance of a quick seizure; the northern force did not pursue beyond support. Two wagons burned, including 23 quarters of grain. No siege or major host battle occurred.
+Northern casualties: **110 killed outright and 400 wounded**, twenty later dying. Final battle deaths total **130**, leaving **380 surviving wounded**: 140 recover, 160 are removed alive from the active field establishment and eighty remain temporarily unfit at the ending date. Other ordinary ailments supply the remaining ninety of the current 170 temporary unfit. Wounded men later dying or recovering are not deducted twice. Prisoners receive separate ration issues and guarded sleeping ground; compliant captives are protected under Jon's standing policy.
 
-Northern combat loss: **six killed, twenty-seven wounded**. Twenty-one of those wounded recovered to duty during the interval; six are among the medical returns north, not an additional deduction. Local Roote loss: two killed and seven wounded, separate from northern numbers. Twelve opposing dead were counted and thirty-one prisoners taken; other raiders escaped, so no exact opposing starting strength or universal annihilation is asserted. The prisoners were registered and delivered to the cooperating local authority under protection of the accepted surrender rules, not executed collectively. The corridor was reopened with replacement carts and reinforced escorts through that stretch.
+Aerial result: Daemon turns Vhagar from sustained ground attack and Nettles intervenes from a different approach. Vhagar injures both smaller dragons but is herself hurt, including wing membrane damage. Daemon breaks off after Nettles loses formation rather than forcing a fatal entanglement. Aemond and Vhagar escape southwest. Caraxes has wing and neck injuries; Sheepstealer has burns and wing tears; Nettles has a leg burn. At 130/01/01 the Black mounts manage short flights, not prolonged combat. Fuller review is planned around 01/10. Vhagar's exact location and recovery are unconfirmed to Jon. No automatic permanent grounding, fatal rematch or immunity is created.
 
-Across the whole 134-day interval, fourteen other northerners died of sickness and three in transport/travel accidents. Twenty-three total deaths therefore include the six combat deaths once. Forty-nine men, including the six combat invalids, were sent north unable to continue service. They are alive medical returns, not all permanently disabled, deserters or current expedition reinforcements. No replacement levy was called. Jon suffered no significant wound or lasting illness.
+## Closing northern roll
 
-| House | Starting roll | Dead | Medically returned north | Active at 08/19 |
-| --- | ---: | ---: | ---: | ---: |
-| Stark | 1,200 | 4 | 8 | 1,188 |
-| Cerwyn | 800 | 2 | 6 | 792 |
-| Tallhart | 400 | 1 | 4 | 395 |
-| Dustin | 1,400 | 5 | 10 | 1,385 |
-| Ryswell | 600 | 3 | 6 | 591 |
-| Glover | 500 | 2 | 3 | 495 |
-| Hornwood | 500 | 1 | 3 | 496 |
-| Bolton | 600 | 2 | 4 | 594 |
-| Manderly | 1,200 | 3 | 5 | 1,192 |
-| Total | 7,200 | 23 | 49 | 7,128 |
+Turn 20 ended with **7,128 active land troops**, after twenty-three dead and forty-nine medical removals from the original 7,200. This turn brings **4,600 new land troops and 120 naval personnel**, with no secretly restored discharged veteran.
 
-Ending disposition: **6,730 fit at Harrenhal + 70 temporarily unfit there + 280 depot troops + 48 scouts/couriers away = 7,128**. The 6,800 at Harrenhal include the seventy; the forty-eight are not missing or presumed dead. Current ailments receive ordinary care and later reassessment, not instant healing. No separately defined allied army is added to these totals.
+New northern deaths: **358 = 180 western + 130 Cole + 42 sickness + 6 accidents**. New medical removals alive: **344 = 120 western + 160 Cole + 64 other ailments**. Recovered wounded remain inside the active roll. No current northern prisoner or permanent missing category has been established or erased.
 
-## Territory, allies and limits of control
+**7,128 + 4,600 − 358 − 344 = 11,026 active land.** With **120 naval**, total active expedition personnel are **11,146**. Cumulatively, **11,920 called = 381 dead + 393 removed alive + 11,146 active**. The 393 comprise the old forty-nine, 120 western survivors now north of the Neck, sixty-four medical travellers and 160 longer-term convalescents still at Harrenhal.
 
-The first forward station lies on the upper kingsroad under agreed local protection, linked to Frey messengers and purchases; it is not a new fortress or a compulsory crossing of the Twins. The Trident depot uses Roote's landing/warehouse arrangements and Darry road support. Harrenhal supplies agreed northern quarters and storage with paid independent northern provisions. Carriers have made repeat journeys; this supports a working supply corridor, not perfect safety on every road.
+Active land disposition: **10,376 at Harrenhal, including 10,206 fit and 170 temporarily unfit; 500 depot troops; 150 scouts, couriers and convoy personnel away = 11,026**. The extra 160 removed convalescents are physically at Harrenhal but outside this active roll; count their food and care without another troop deduction. Naval personnel are aboard the two coasters. No one is simultaneously inside Daemon's independent following and the northern roll.
 
-| Area or party | Accomplished arrangement | Limit |
-| --- | --- | --- |
-| Twins and upper western connection | Forrest Frey and Sabitha authorize protected messenger passage, paid purchases, guides and regular reports; Frey holds both bridge ends | No Stark ownership or stripping Frey's garrison; main army stayed on the eastern kingsroad |
-| Vypren and Charlton | Guides, local road warnings and liaison through Frey | Local forces and customary rights retained; no universal oath to Jon |
-| Seagard and northwest | Jorah Mallister watches his coast/approaches, coordinates messages and supply offers | No claim that every western road or hostile fortress is secured |
-| Roote and Trident | Ferry/ford access, wagon waiting ground, purchased stores and local guards | Capacity inspected; no instant new bridge or broad sovereignty |
-| Darry and Harrenhal approaches | Guides, warning routes and convoy cooperation | Raids remain possible; strengthened escorts follow the actual loss |
-| Blackwood territory | Household joins reporting/security coordination; compliant Bracken tenants protected under existing surrender | Earlier victory is not Jon's conquest; one cattle dispute remains unresolved |
-| Stone Hedge/Bracken | Daemon's existing surrender confirmed; hostages and protections retained, no second siege | Captives remain under the existing authority, not handed to Jon automatically |
-| Riverrun | Elmo permits correspondence and purchases through willing suppliers | Grover favours Aegon; no Tully banners committed or assured Black headquarters |
-| Vance branches | Wayfarer's Rest cooperates with the Black cause; Atranta refuses the requested declaration | Branches are distinct; no unnecessary western siege ordered |
-| Harrenhal | Daemon accepts the ratified northern command arrangement, shares reports and gives agreed camp/storage access | Daemon controls his castle and following; his stocks are not northern property |
+## Maritime, royal and independent developments
 
-Cooperating lords retain titles, courts, revenues and local command. Northern purchases are priced and receipted, camps bounded, documented damage compensated. No general requisition from smallfolk or collective punishment of captured soldiers was authorized. Political alignment, passable road and actual control remain different. No defensible percentage of the whole Riverlands has been measured; do not invent one. Jon has built a northern-to-Harrenhal military network, not annexed its participating lordships.
+Two Manderly coasters sailed during the tenth moon and reached the Gullet in the eleventh, with 120 expedition personnel. Other ships keep local northern patrols. Defined mission wages, stores, wear and freight are paid, not free because the hulls existed. Foreign merchants share reports by agreement, not compulsory or supernatural espionage. Corlys keeps the outer watch and shore signals working and extends inspected relief where actual food and distributors are available, building on the April measures rather than restarting them.
 
-## Ratified royal articles and commercial work
+The capital operation used **Rhaenyra and Syrax, Hugh and Vermithor, Ulf and Silverwing, the fleet and cooperating City Watch** after actual reports of the enemy field departure. Addam was protecting Vale embarkations; Daemon and Nettles remained in the Riverlands. Jacaerys retained Gullet responsibilities and warning links to royal riders. No five dragons are simultaneously everywhere. King's Landing fell on **11/08**, without a northern ground assault. **Otto and Jasper were executed on 11/11 under the queen's orders. Alicent and Helaena are confined. Tyland is tortured over dispersed funds and kept alive.** These are NPC actions, not Jon's approval. Reports reach him on 11/10–11/20; he does not witness court secrets.
 
-Jacaerys presented the complete bargain on 04/09. Rhaenyra accepted on **04/12**, after his advocacy: a substantial ready northern force was valuable, the revised naval bargain required permission and future customs incentives rather than an immediate Crown cash subsidy, and the Watch's proposed revenue share remained protected. This was her decision under the changed offer, not automatic success because Jon demanded it. Jon received her actual sealed answer on **04/16** before fulfilling his existing conditional undertaking. No new material service condition was slipped into the ratification.
+**GM knowledge boundary:** Larys arranges Aegon's escape before the fall. Aegon is alive, impaired by old burns and hidden on the southern mainland. Surviving Green children escape by protected routes towards Storm's End, not a compulsory Bitterbridge itinerary. Their exact positions are not Jon's knowledge. Sunfyre survives his injuries and leaves the exposed Rook's Rest vicinity during the twelfth moon as surveillance tightens, destination unconfirmed. Mooton has not made the historical unsupported infantry attack or died in it. Neither Aegon nor Sunfyre is teleported to Dragonstone.
 
-| Ratified article | Effect | What it does not do |
-| --- | --- | --- |
-| Northern command | Winterfell's commander; no detachment without Jon; southern operations at his discretion for the queen's victory, assistance to Daemon when useful | No subordination to Daemon, no automatic use of Jon's army at another lord's whim |
-| Service | Up to two years from actual exit of Neck, 05/11; ends by 131/05/11 or earlier with war | Not six moons, not exactly 12,000 troops, not a permanent office |
-| Ports and fleet | Permission for Bear Island fishing port under Mormont, White Harbor docks/yards with Manderly, merchant trade south/Braavos and willing released expertise | No new free fleet, compulsory craftsmen or unlimited Stark/Crown construction appropriation |
-| Royal customs | 90% ordinary qualifying duties for two years after certified completion of named agreed works, then 110% for four years, standard thereafter | NOT active yet; no alteration of local port dues, Braavosi duties or Winterfell's ordinary royal levy; no stacking old remission offers |
-| Two cities | Perpetual two-city right with the named markets/fairs, associations, courts, warehouses, fortifications and specified dues, and landholder assent | No third Bay of Ice charter, instant buildings/population or automatic new tax collection |
-| Commercial backing | Royal Dragonstone protections and support for separate Velaryon/local agreements | Corlys and Manderly must agree to their own undertakings |
-| Both Gifts | Separate writ recognizes hereditary Stark lordship over both grants under Rhaenyra's claimed authority, reserves six tenths of defined land revenues to Watch and supports negotiations | Watch has not accepted title transfer or surrendered possession; no forced occupation or cancellation of Arra's existing contract |
+**Rhaenyra's younger sons Aegon and Viserys reach King's Landing under escort on 12/04.** Route checks and an actual escort, with Addam available after the Vale mission, replace the historical unprotected Pentos voyage. Jon receives Jacaerys's 12/12 report on 12/22. Viserys is not captive in Lys. A future naval battle remains possible without recreating the voyage or a substitute abduction.
 
-The royal writ is a concrete political instrument, not merely an inquiry or prince's recommendation. Aegon's rival government does not thereby recognize it, and the Watch disputes it. The broader land accounting and implementation remain for the authorized negotiator and affected institution, not magically settled by wax. Arra controls that work. No new northbound army is sent to enforce the instrument.
+The Triarchy retains Stepstones grievances and Green contacts; reports of ship concentration continue. No verified attack day, complete fleet count or guaranteed naval outcome is supplied. The Gullet engagement has not occurred. Its later resolution must account for real watch measures, royal passengers, rider availability and enemy adaptation.
 
-Winter Town's charter was proclaimed **06/02**; Dustin's consent for Barrowton was obtained **05/22** and its instrument proclaimed **07/05**. Both sites remain under their proper houses. Population is still the latest available dated count, not increased merely by renaming the settlements. The Bay of Ice alternative was not selected.
+Dalton's western opportunity persists despite Jason surviving in captivity. Raids against exposed western coastal settlements and shipping begin in the twelfth moon, but **no full Lannisport sack is resolved**, and Casterly Rock remains unconquered. Western survivors have reason to defend home. Ormund and Daeron remain a Reach threat; no automatic Honeywine victory or Tumbleton betrayal is imposed. Grover lives, Riverrun remains nonbelligerent and Atranta unsubmitted. Simon Strong and kin and Humfrey Bracken's household remain alive under their original custodians. Aemond never entered Harrenhal for the historical massacre or an automatically established relationship and child with Alys.
 
-Dragonstone's commercial protections cover resident factors, market/warehouse access and stated dispute procedures. On **07/18**, after exchanges involving the relevant port authorities, Corlys and Manderly concluded reciprocal factor and warehouse-lease access while retaining their local dues. Warehouse space is leased, not free; no blanket local tariff discount or free timber/wool/hides/food was agreed. Foreign dues remain foreign. White Harbor has begun limited dock/yard preparation on Manderly's account, not a new Stark capital budget. No complete new merchant fleet or certified completion of the royal programme exists, so the future customs clock has not started.
+## Arra's work and northern projects
 
-## Arra's Watch settlement and northern grants
+Arra's **03/24 six-village agreement remains valid to 134/03/24**: Watch title and reserved jurisdiction, Stark civil administration, voluntary settlement, 60% of gross collected rents and customary dues to the Watch and 40% to Stark before Stark expenses, joint coin and kind accounts, no southern levy, notice and opportunity to cure breach. The royal writ and capture of the capital have not forced a broader handover. Routine clauses remain her responsibility.
 
-The original voluntary full-cession request was refused. Arra's changed six-holding offer was accepted through written exchanges, her signature **03/24**, reported to Jon **03/30**. Its five-year term runs to **134/03/24**. Both Gifts remain in Watch possession except for the agreed civil administration of six named holdings. Watch criminal/military jurisdiction, appeal and title reservation remain terms of that contract. Gross collected rents/customary land dues divide 60/40 before Stark's expenses, not all village output/GDP. Accounts are joint yearly with coin/kind separate, willing settlement and no southern-war levy. Notice/cure applies to proved breach, not automatic forfeiture after a poor harvest.
+Latest report **12/15, received 12/29**: **thirty-nine households in four villages**, compared with twenty-four in three at 07/30. The other two have survey and repair work but no settled households. **21,600 GD paid, 2,400 left** of 24,000. No unsupported large harvest, regional population jump or substantial new rent is booked.
 
-The new royal copies reached Arra **04/22** and the Watch **04/26**. The Lord Commander protested and did not convey the whole Gift. Arra retained the valid limited arrangement while continuing the new royal-backed approach. This is neither a secret cancellation nor a demand that Jon now negotiate each clause. A later full cession requires changed agreement or actual enforcement, not repeating a refused claim until it succeeds.
-
-Arra's survey party left **04/10**. By the detailed **07/30** account, twenty-four voluntary households occupied repaired dwellings in three of the six villages; the other three had been surveyed only. The first settlers arrived during the sixth moon. No substantial rent or first harvest was booked. Survey, seed and repairs cost **14,800 GD**, leaving **9,200** of her 24,000 authorization. Those payments are in the northern treasury account, not the field chest or a deduction from the Watch's share.
-
-| Project, July account received 08/12 | Paid GD | Unspent authorization GD | Actual progress |
+| Project at 12/15 account | Paid cumulative GD | Unspent authorization GD | Actual status |
 | --- | ---: | ---: | --- |
-| Mormont original gift, 180,000 | 72,000 | 108,000 | Sixty-foot wharf usable by 07/20; enclosure foundations and partial curtain, not a finished castle or full commercial port |
-| Reed original gift, 50,000 | 28,500 | 21,500 | One 500-quarter raised store and one small landing operating; four boats delivered; second store/landing and remaining boats unfinished |
-| Arra's six villages, 24,000 | 14,800 | 9,200 | Twenty-four households/three villages, remaining holdings surveyed |
-| Existing Moat repairs, 48,000 total | 48,000 cumulative | 0 | Safe causeway, floors, doors and roof/access work completed within scope; unsafe upper-tower reconstruction remains outside it |
-| Outstanding authorized balance |  | **138,700** | Not an extra expense or new building budget |
+| Mormont original 180,000 gift | 104,000 | 76,000 | Wharf operating; more curtain and gate work, enclosure unfinished; not complete commercial port |
+| Reed original 50,000 gift | 42,000 | 8,000 | Second store and landing operating by 12/05; remaining four boats delivered, eight total; final account and defects reserve remain |
+| Arra's 24,000 | 21,600 | 2,400 | Thirty-nine households in four villages; two unoccupied; no full Gift possession |
+| Moat safe repairs, 48,000 | 48,000 | 0 | Closed in Turn 20; unsafe upper reconstruction outside scope |
+| Remaining authorizations | | **86,400** | Not a new expense or doubled reserve |
 
-Mormont's grant still includes the defined 120-yard curtain around the store/landing approach, plain gate, drainage/fittings, freight and reserve; two or three working seasons for stonework were allowed. The old four fishing stations/granary remain separate. Reed controls the sites and keys, with no fixed masonry Greywater town or road forced through the Neck. Reed's initial thousand quarters of food were purchased under the grant, 600 issued locally and 400 stored, not deducted from the expedition or rebought from Stark's old reserve. Boats use local crews; no permanent new navy is counted. Both grants remain gifts with no repayment/tribute increase and no invented first-year income. Estimated upkeep begins with actual operating scope rather than all unbuilt works.
+Reed's original thousand-quarter purchase was previously 600 issued and 400 stored; a further 160 issued leaves **240 on the latest local return**. It is not expedition grain or another purchase. Receiving-house upkeep follows operating facilities; neither gift creates repayment or tribute increases. White Harbor's own-account work is distinct. The whole port programme is not complete, so royal customs relief has not started. Winter Town's last count remains 560 households, not increased by village settlers elsewhere or the charter.
 
-## Finances and accountable stores
+## Field finance and grain
 
-All monetary entries use the revised scale already in current records. Only archived original-126 amounts convert once by twenty. Coin ratios stay 210 stags per dragon and 56 pennies per stag. Annual income, GDP, counted cash, in-kind stock, debt and commitments remain distinct. New exact ledger entries below are authored actual campaign receipts/payments established through the officers' accounts, not automatic accrual of the January forecast.
+Money is already on the revised scale; never multiply it by twenty again. Cash, forecasts, GDP, goods, debts and commitments differ. Internal transfers are neither revenue nor a second expense after disbursement. No captive is booked as a cash ransom.
 
-### Field account through 129/08/19
+Opening field position on 08/19: **62,622 chest, 497,378 cumulative expense, 560,000 cumulative transfers**. Old scouts' advances were closed in Turn 20. New receipts: **09/05 200,000; 10/01 220,000; 11/01 220,000; 12/01 210,000**, totaling **850,000** through actual northern, port and convoy mechanisms. Home staging costs are separate below.
 
-Prior position on 04/05: **60,000 transferred = 51,672 confirmed expense + 120 outstanding scout advances + 8,208 chest**. Prior confirmed expense was service/non-grain 34,420, camp 6,400, Moat 4,800, fodder 6,000, returned scouts' spending 52. These are not charged again.
-
-The four scouts returning 04/11 and 04/17 proved **106 GD spent and 14 returned** from the old 120. The advance is closed, not another 120 of fresh expense. New field transfers received: **100,000 on 04/18; 150,000 on 05/25; 150,000 on 07/01; 100,000 on 08/05**. Together with the original 60,000, cumulative internal transfers equal **560,000**.
-
-| New cash disbursement during Turn 20 | GD | Scope |
-| --- | ---: | --- |
-| Company service, non-grain provisions and personal upkeep | 326,000 | Actual interval company accounts, with marching support; not another charge for Turn 15 |
-| Grain purchases | 5,680 | 2,300 quarters, mix/freight included in the contracted price |
-| Animal support, fodder and replacements | 48,000 | Separate from human grain |
-| Wagons, hire, repair and transport equipment | 31,000 | Includes replacement of lost carts, not new troops |
-| Depots and essential route work | 19,600 | Limited works within the authorized corridor plan |
-| Remaining existing Moat repair allowance | 9,200 | Brings cumulative paid to 48,000; no new upper-tower reconstruction |
-| Diplomatic couriers and messages | 2,400 | Existing expedition couriers, expenses accounted |
-| Proven damage compensation | 1,260 | Local claims under the adopted policy |
-| Additional medical materials and miscellaneous field needs | 2,460 | No healing guarantee |
-| Total new cash outlay | **445,600** | Excludes the old 106 of scout spending now recognized |
-
-**New confirmed expense = 445,600 + 106 = 445,706. Cumulative confirmed expense = 51,672 + 445,706 = 497,378. Ending chest = 560,000 - 497,378 = 62,622 GD.** No unreconciled original advance remains. Equivalent cash bridge: 8,208 opening + 500,000 new transfers + 14 returned - 445,600 disbursed = 62,622. Do not count treasury-to-field transfers and field disbursements as two kingdom-level expenses. Stationary guard benchmarks informed quotations but did not mechanically price every day of war, mount, road or naval service.
-
-### Expedition grain account
-
-The old 03/01 camp opened with 240 after 260 received and twenty issued. Turn 15 added 900 and issued 400, leaving **740 on 04/05**. That is this turn's opening, not the entire North's reserve.
-
-| Turn 20 charge/discharge | Quarters |
+| New field disbursement, 08/20–130/01/01 | GD |
 | --- | ---: |
-| Opening expedition stock | 740 |
-| Further house supplies, including 660 in preparation and 1,200 later | +1,860 |
-| Purchased along the route | +2,300 |
-| Issued to men/kitchens | -2,920 |
-| Fire, spoilage, spillage and handling loss | -64 |
-| Closing expedition stock | **1,916** |
+| Company service and non-grain provisions | 540,000 |
+| Grain purchases, 2,600 quarters | 8,600 |
+| Animal fodder and replacements | 92,000 |
+| Wagons, transport hire and repairs | 26,000 |
+| Depots and essential route work | 21,800 |
+| Medical materials | 18,200 |
+| Prisoner non-grain food and shelter | 44,000 |
+| Couriers and embassies | 8,400 |
+| Documented damage compensation | 6,600 |
+| Two-coaster preparation and service | 27,040 |
+| **Total new expense** | **792,640** |
 
-Of the 64 lost, 23 burned in the convoy attack; the remaining 41 were ordinary recorded storage/handling losses, not another enemy seizure. Preparation account on 04/19 was 740 + 660 - 308 = **1,092**, with 720 assigned to the marching host and 372 left at the Moat. Later deliveries/consumption changed the distribution. Closing locations: **Harrenhal 1,020; Moat 304; upper station 242; Trident 350**, totaling 1,916. These are separate holdings of one expedition stock, not four extra reserves. Non-grain food and animal forage are accounted separately.
+**62,622 + 850,000 − 792,640 = 119,982 GD closing chest.** Cumulative field expense is **1,290,018**, transfers **1,410,000**, difference **119,982**. River and Vale household wages are not silently charged to Stark; shared purchases use their actual invoices. Guards already paid as soldiers are not charged a second full wage in prisoner shelter costs.
 
-Stark supplied **500** of the new house quarters and the other houses 1,360. With its prior 240, Stark has transferred 740 into this campaign over time; this historical contribution is not the same measure as the former 740 closing camp stock. Other houses' supplies are not deducted from Stark's old reserve. The regional **78,600-quarter count of 128/10/20**, including castle 20,200 and the 12,000 bought for 18,000 GD, remains a dated incomplete reference. It is not a new August stock or augmented by internal relocation. Four rural granaries have nominal 1,000 capacity each; four clan stores received 600 apiece, later uses incompletely known. Grain arrears last 1,800 from125 remain separate.
+Grain books: **1,916 opening + 1,800 house contributions + 2,600 purchased + 960 captured and entered in stores − 4,120 human issues, including prisoner and ship allotments − 126 fire, spoilage and handling losses = 3,030 accountable quarters**. Of the 1,800 house deliveries, Stark supplied 300 and others 1,500. Stark's cumulative historical contribution is 1,040 after the preceding 740, not a new closing reserve. Captured grain is goods, not cash or new production. Animal forage and non-grain food are separate.
 
-### Winterfell treasury, counted 129/07/30
+Latest accountable locations: **Harrenhal 1,440; Moat 660; upper station 380; Trident 550**. Harrenhal's count is directly made at the closing camp. Remote reports are dated 12/16, 12/20 and 12/25 respectively and received by the ending account, not instantaneous sight of every sack. Later issues must be applied once when reports close. The old regional **78,600-quarter count on 128/10/20**, including castle 20,200 and the bought 12,000, is not an updated current reserve or augmented by internal relocation. Four rural stores' thousand-quarter capacities and the clan stores' original 600 each are not new goods. Grain arrears last established at 1,800 from 125 remain separate. Reed's local grain is not added to expedition stocks.
 
-The actual closing account reached Jon **08/12**. Its bridge uses recorded cash, not 134 days of projected surplus. The January **16,576,000** included Bennard's 400,000 once. The fair and field transfers are kept distinct.
+## Winterfell cash and obligations
 
-| Cash bridge, 01/30 through 07/30 | GD |
+Latest complete count: **19,327,040 GD on 129/12/15**, reported to Jon on 12/29, not exact 130/01/01 coin. Post-account ordinary activity continues. Opening is the actual **18,672,940 on 07/30**, not a forecast.
+
+| Cash bridge, 07/30–12/15 | GD |
 | --- | ---: |
-| Opening counted vault | 16,576,000 |
-| Ordinary actual receipts, excluding rows below | +620,000 |
-| Fourth-moon tribute received | +2,170,000 |
-| Fourth-moon cash rents received | +569,000 |
-| Actual 129 fair fees | +6,120 |
-| Dreadfort note paid 04/27 | +30,000 |
-| Fish principal repaid | +600 |
-| Ordinary operating payments, excluding separate rows | -243,000 |
-| Fair operating cost | -480 |
-| Crown remittance, including 846 fair liability | -480,000 |
-| Field transfers through 07/30, including original 60,000 | -460,000 |
-| Mormont payments | -72,000 |
-| Reed payments | -28,500 |
-| Arra's six-village expenditure | -14,800 |
-| Counted vault, 07/30 | **18,672,940** |
+| Opening counted vault | 18,672,940 |
+| Actual ordinary receipts, excluding separate rows | +540,000 |
+| Tenth-moon tribute | +1,420,000 |
+| Tenth-moon cash rents | +377,000 |
+| Fish principal recovered | +400 |
+| Ordinary operating payments | −248,000 |
+| Crown installment sent 10/30, receipt 11/18 | −365,000 |
+| Field transfers, old 08/05 100,000 plus new 850,000 | −950,000 |
+| Additional Mormont payments | −32,000 |
+| Additional Reed payments | −13,500 |
+| Additional Arra village payments | −6,800 |
+| New levy staging and supply at home | −68,000 |
+| **Closing 12/15 vault** | **19,327,040** |
 
-The ordinary receipts/payment aggregates are authored closed account totals, not a claim that every transaction appeared in a scene. They exclude field expenditure, gifts, fair and the other listed categories. The Crown remittance went on 04/30 after ratification, with receipt on 05/19; it includes the already reserved fair 846, not a second 846 charge. It is an actual installment, not cancellation of all annual liabilities. The 08/05 transfer of another 100,000 occurred after this count. August ordinary activity is not completely closed, so **18,672,940 is not the exact 08/19 vault**. No new whole-vault-minus-commitments total is asserted for that date.
+The ordinary aggregates are authored actual closed-account receipts and payments, not forecast income multiplied by days. Home staging covers assembly and travel before field service, not a duplicate wage period. The old August transfer is subtracted because it followed the July count, not because it is new income. Royal 129 remittances total **845,000**, comprising the earlier 480,000, including fair liability 846 once, and the new 365,000. Actual payments do not automatically cancel all later assessments. The old 128 autumn receipt remains unconfirmed; no duplicate payment is made.
 
-Fourth-moon tribute assessment was 60% of 3,631,420 = 2,178,852, with 8,852 short. Cash-rent assessment was 60% of 954,240 = 572,544, with 3,544 short. Thus reconstructed accumulated arrears are **371,112 tribute** and **66,264 cash rent**, not all immediately collectible cash. The tenth-moon installment is still ahead. Dreadfort owes **30,000 due130/04** after the paid installment. Fish principal outstanding is **25,640**, not 600 trading profit.
+Tenth tribute due **1,452,568**, forty percent of 3,631,420; receipt 1,420,000 leaves **32,568 short**, making cumulative reconstructed arrears **403,680** after 371,112. Cash rent due **381,696**, forty percent of 954,240; receipt 377,000 leaves **4,696 short**, making arrears **70,960** after 66,264. They are not all immediately collectible cash. Fish principal is **25,240 outstanding** after the 400 repayment. Dreadfort's 129 installment was paid on 04/27; another **30,000 is due in 130/04**. Unexplained regency drawings of roughly 540,000 remain unproved debt. Dustin's note is settled despite its disputed horse valuation; no missing horses are created. The town chest's last 22,300 was mixed goods and coin. Bennard's 400,000 remains included once.
 
-Bennard's 400,000 remains included once in the counted vault and separately marked, not a second purse. The historic 128 remittances were 492,560 and 327,800; the autumn receipt remains unconfirmed, with no automatic second payment. Unexplained regency drawings about 540,000 remain unproved debt. Dustin's note remains accepted settled despite the disputed horse valuation; no missing fifty horses are created. Town trade chest's last 22,300 is mixed goods/coin, not another all-cash account.
+January 129 forecasts of **5,829,820 annual receipts, 4,509,679 surplus, 20,897,219 conditional year-end cash and 67.7 million northern GDP** remain dated planning assumptions. They are not these actual receipts or a 130 budget. Stark-estate output of 6.23 million includes Winter Town's 110,000; lordly tribute is not extra GDP. No generic war-growth percentage, new census or fresh regional wealth ranking is established.
 
-The 129 fair ran02/15–02/28, fees6,120 less480 =5,640 physical cash including846 Crown liability;4,794 after liability. Its receipt and payment are included once above. Old fairs127–128 retained8,540; cloth/leather and fish operations retain their historical results, not a new windfall.
+## Continuing decisions
 
-### Forecasts and production
+Cole's transfer is pending; Jason's ransom and disposition are unagreed. Do not execute, pardon, sell or deliver either on an invented choice by Jon. Ordinary humane custody already operates. Brandon's promised answer is due after his fixed term; no new residence, marriage or compulsory wardship is selected.
 
-January ordinary-year assumptions remain **5,829,820 annual cash receipts**, **4,509,679 surplus after running costs/Crown**, **20,897,219 conditional year-end coin**, and **67.7 million northern GDP** against66million126. Stark estates6.23million includeWinterTown110,000. These are dated modeled flows/output, not counted coin or a revised active-war forecast. War mobilization costs and unfinished development invalidate treating the old year-end case as guaranteed. Household tribute is not extra consolidated GDP.
+Arra's ordinary government and Watch work remain delegated. Supply, pay, wounds and project work continue from actual dated accounts when time is authorized. Maximum service remains 131/05/11. No Gullet engagement is resolved. Royal children are in the capital; actual lookouts, northern coasters, rider locations and injured Riverland mounts govern later events. Do not restore the original Pentos interception or fatal Gods Eye duel by fiat. Surviving western formations, Aegon, Aemond and Vhagar, Ormund and Daeron retain independent means and motives.
 
-Winter Town's last household count remains560 against500opening; no new population census was taken with its charter. Northern output remains below the reference Stormlands total and poorer per person than rich southern centers, but no new exact wartime regional comparison was established. Detailed other-house/region estimates remain in FISCAL_129_AC. Their income is not Stark revenue. Trade benefits, city names, royal writs and village repairs do not automatically create percentage growth or rent receipts.
-
-## Independent war developments and knowledge
-
-Earlier committed deaths and captures remain: Viserys/Beesbury03/03; Visenya03/12; Lucerys/Arrax03/18; SamwellBlackwood/AmosBracken03/24; Jaehaerys03/27. SimonStrong and kin, HumfreyBracken and household remain alive captives under their established custodians. BurningMill and StoneHedge were one linked campaign, not repeated northern victories. Jon received contemporary confirmation of Blackwood/Bracken outcomes during preparation and from Daemon's liaison; Jacaerys on04/16 reported Jaehaerys's murder and Visenya's loss without proving secret organizers.
-
-| New actual event | Campaign date | Cause, result and reporting |
-| --- | --- | --- |
-| Outer watch and warning arrangements | Orders04/11, initial operation04/17 | Corlys acts on delivered naval advice with fast lookouts and shore signals. Existing ships/riders are not magically five new dragons. Jacaerys reports implementation later. |
-| Local blockade relief | From04/20 | Queen permits bounded distributions from available stores/prizes at Driftmark/Dragonstone. No general feeding of King's Landing or guaranteed political conversion; no Stark grain deducted. |
-| Cole replaces Otto | 04/12 | Aegon's dissatisfaction and Cole's influence remain; northern diplomacy has not removed them. Jon learns through correspondence by05/01. |
-| Cargyll infiltration | 04/18 | Cole orders the mission; Arryk gains access and encounters Erryk. Both die in the fighting; Rhaenyra survives. Exact intended victim and secret details are not certain public intelligence. Northern naval precautions did not address this access. |
-| Duskendale falls | 05/08 | Cole's prepared campaign and reinforcements overcome the town before the northern army can intervene; Gunthor Darklyn executed. Jon informed by05/22. |
-| Rook's Rest | 05/27 | Following Staunton's appeal from05/18, Rhaenys answers alone after the queen refuses to risk her sons. The two Green riders ambush her; Meleys and Rhaenys die, Aegon and Sunfyre badly wounded. Vhagar/Aemond survive. Northern army still far north; outer sea watch supplies no warning of the concealed land trap. Jon receives report06/06. |
-| Aemond exercises regency | 05/30 | Aegon's actual incapacity creates the vacancy; Sunfyre remains guarded at Rook's Rest, not healed by a turn boundary. |
-| Corlys becomes Hand | 06/02 | After the queen's loss, Jacaerys supports Corlys's appointment and continued alliance. Earlier maritime orders did not require this later office. |
-| Green consolidation and raids | Sixth through eighth moons | Cole holds captured Crownlands positions, preserves capital approaches and seeks western cooperation. Aemond has not yet committed a full Harrenhal offensive; Caraxes and the reported northern concentration matter. Patrols/raids continue, including06/28. Neither an idle suspended world nor an inevitable attack is imposed. |
-| Sowing and new riders | 07/20–08/09 | Blacks seek additional riders after losing Meleys. Dangerous attempts kill Steffon Darklyn, Gormon Massey, Silver Denys and his sons; other exact casualties uncounted. Addam claims Seasmoke07/24, Hugh Vermithor07/26, Ulf Silverwing07/27, Nettles Sheepstealer08/09. Alyn survives burns and is recovering. |
-| Velaryon legitimization | 08/02 | Queen legitimizes Addam/Alyn, Addam recognized heir; no loyalty guarantee follows for every new rider. |
-| New-rider report reaches Jon | 08/18 | Jacaerys's08/12 letter names the four claims. Training and coordinated response remain incomplete, not an instant expert five-dragon fleet. |
-
-The Rook's Rest outcome follows the actual isolated response and two-dragon trap; it is not forced merely by its name. The delivered advice changed sea preparations but did not create inland intelligence or compel the queen to risk her sons. These consequences must affect later battles rather than be undone to restore a desired outcome. No aggregate historical casualty count was automatically charged to either army, and northerners lost none at battles they did not attend.
-
-The 130/01/05 Gullet baseline remains future and must be reassessed against actual watch measures, fleet/rider availability, evacuation decisions and enemy adaptation. No attack date or princes' evacuation was disclosed by Jon. Daemon stays principally at Harrenhal/its operations during this interval; Caraxes is not simultaneously everywhere. Later capital conquest, Gods Eye, Winter Fever, Sylas, royal deaths and marriages remain conditional.
-
-## Open matters after the checkpoint
-
-- Jon's next offensive or continued consolidation from Harrenhal is unchosen. The fourteen-day preparation and four moons are complete, not awaiting replay.
-- Allied command coordination, eastern warning routes and renewed paid supplies continue under the adopted plan; a genuinely new major threat can require a decision. No automatic assault on King's Landing, Atranta or another theatre.
-- Next depot deliveries are being arranged for08/25–08/30; chest replenishment and new quotations must follow actual accounts. Current 1,916 quarters and 62,622 GD are not perpetual balances. Reassess the seventy temporarily unfit and medically returned men when actual time and reports support it.
-- Royal Gift claim and Watch possession remain disputed. Arra continues her delegated six-village work and broader talks without a Jon-ratification prompt. Remaining 9,200 under her original authorization is not a fresh grant.
-- Mormont 108,000 and Reed 21,500 remain committed. Full port/fleet programme lacks completed scoped finance and construction; royal customs clock remains inactive. Broader second roll unsigned, old roll closed.
-- Tenth-moon taxes, ordinary Crown liabilities, old autumn receipt and other debts remain accountable; July vault is dated and August is not fully closed. Brandon's promised answer comes at the end of 129; Elric marriage deferred; prison correspondence continues.
-- Pending war baselines and actual reports are synchronized in FUTURE_EVENTS. No northern immunity, compulsory historical battle, revived dead person or automatic coalition loyalty is implied.
-
-**Checkpoint 20 completed. Next regular checkpoint: 40.** Full scenes0–19 were not rewritten. No other campaign was changed and no extra fictional time was charged for this review.
+Next regular checkpoint: **40**. The war-boundary handoff is not an extra turn or elapsed day. Earlier scenes 0–20, profile, fiscal reference, writing rules and other stories remain unchanged.
