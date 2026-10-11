@@ -2,7 +2,7 @@
 
 ## Clock and scope
 
-**Synchronized with Turn 15: fifth day of the fourth moon, 129 AC, evening. Saved position 129/04/05.** The opening succession events and several early campaigns have now occurred. Their occurrence, reports in transit and Jon's knowledge are distinguished below and in WORLD. Jacaerys is at Moat Cailin; the player's answer is not chosen.
+**Synchronized with Turn 16: fifth day of the fourth moon, 129 AC, evening, twenty minutes after Turn 15. Saved position 129/04/05.** The opening succession events and several early campaigns have occurred. Their occurrence, reports in transit and Jon's knowledge are distinguished below and in WORLD. Jacaerys has made an opening offer at Moat Cailin; Jon's counterterms and commitment are not chosen. No calendar boundary or new independent event was reached during Turn 16.
 
 This is the authoritative future-event ledger for this campaign. Accomplished facts belong in [WORLD.md](WORLD.md), Jon's knowledge in [CHARACTER.md](CHARACTER.md), and accepted scenes in [STORY.md](STORY.md). Read them at one commit. The player's supplied 117-entry outline is a conditional historical baseline for 129–133, not a compulsory script. The world acts independently of Jon during authorized elapsed time. Changes by Jon or others can prevent, delay, accelerate, redirect or replace events. Simulate relevant causes, not every person in the realm.
 
@@ -14,7 +14,7 @@ Use **twelve 30-day moons per year, 360 days**, for campaign arithmetic. This is
 | --- | --- | ---: |
 | Viserys I's death / succession crisis | 129/03/03 | Occurred; not counting down |
 | Aegon II's coronation | 129/03/10 | Occurred; not counting down |
-| Jacaerys's northern visit | 129/04/05, authored working day | Arrived at Moat Cailin, not Winterfell; negotiations pending |
+| Jacaerys's northern visit | 129/04/05, authored working day | Arrived at Moat Cailin, not Winterfell; opening offer heard, agreement pending |
 | Battle of the Gullet | 130/01/05 | 270 days |
 | Battle above the Gods Eye | 130/05/22 | 407 days |
 | Rhaenyra's death | 130/10/22 | 557 days |
@@ -41,7 +41,7 @@ These are containing-year bounds, not a claim that late 132 begins on its first 
 
 These are campaign working dates, not canon precision or guaranteed outcomes:
 
-- **Now, 04/05:** Jacaerys's request is before Jon. Do not give the oath, bargain, marriage arrangement or campaign order on the player's behalf.
+- **Now, 04/05:** Jacaerys's opening offer is before Jon in the grove. Do not give the oath, accept or reject the offer, present Jon's detailed counterterms, arrange a marriage or order a campaign on the player's behalf.
 - **04/06–04/18:** reports from the four scouts still south are expected through carriers. Their status and the 120-GD advance remain unreconciled until a credible return or account arrives.
 - **04/10:** reassess the eighteen men excused drill. Ordinary recovery depends on their actual ailments; no automatic mass healing. Arra is arranging the six-village survey party's departure on this date under her already delegated authority.
 - **04/10–04/15:** next company supply deliveries under the existing arrangements. Apply goods, costs and movement once when they occur.
@@ -114,7 +114,7 @@ The fair ran 02/15–02/28, its account still to arrive. Orro's contract ended o
 - **03/10:** Aegon crowned after the preparations succeeded. His proclamation reached Jon through Winterfell on **03/19**, giving news of Viserys's death and the accession.
 - **03/11–03/12:** Rhaenyra received the news and lost her unborn daughter Visenya under the unchanged circumstances. She survived. **03/13:** she was crowned and the Black Council organized resistance and diplomatic missions. Her proclamation reached Jon on **03/23**, not at the instant of coronation.
 - **03/16:** Daemon and Caraxes took Harrenhal. Simon Strong surrendered rather than expose the garrison to dragonfire; he and his kin were held as hostages. No invented battle casualties. Jon heard rumour from returned scouts on 03/25 and received a White Harbor report placing Daemon and his dragon there on **04/02**.
-- **03/18:** Lucerys's Storm's End mission ended with his and Arrax's deaths when Aemond pursued on Vhagar. The actual mismatch of dragons and conditions defeated the escape; no northern intervention reached that encounter. Jon has not yet received current confirmation. His historical recollection is not a contemporary report. Jacaerys has learned of his brother's death through his party's communications but has not yet described it to Jon in the accepted scene.
+- **03/18:** Lucerys's Storm's End mission ended with his and Arrax's deaths when Aemond pursued on Vhagar. The actual mismatch of dragons and conditions defeated the escape; no northern intervention reached that encounter. At the end of Turn 15 Jon had not yet received current confirmation. His historical recollection was not a contemporary report. Jacaerys had learned of his brother's death through his party's communications but had not yet described it to Jon in that scene.
 - **03/24:** Blackwood won the Burning Mill encounter; Samwell Blackwood and Amos Bracken died. Benjicot succeeded his father; Alysanne survives. **03/24–03/25:** Daemon and the riverlords took Stone Hedge while Bracken's principal field strength was absent; Humfrey and his household were captured, and Raylon's returning force yielded. This is one coordinated operation, not a second conquest after an already counted conquest. No precise southern force/casualty totals were invented. Jon has no confirmed report of these results yet.
 - **03/27:** Blood and Cheese used the surviving access and murdered Prince Jaehaerys in retaliation for Lucerys. Northern local patrols and camp work had not affected those means. Jon has no verified present report of the murder or its organizers yet. Record the death once.
 - **Jacaerys:** the Eyrie and Sisterton visits preceded White Harbor on **04/02**. There Manderly knew Jon was at the Moat and told him. Manderly sent notice by rider on 04/02, reaching Jon on 04/05 before the dragon. Jacaerys stayed at White Harbor through 04/04, then flew to Moat Cailin on **04/05**. The date of the working visit remained, but its destination changed causally. He is present with Rhaenyra's letter; the alliance and all terms remain player-dependent. No oath of brotherhood, marriage promise, historical Pact or son Rickon was created. Manderly has not independently sent an expedition contrary to his promise to follow Winterfell; discussion of a possible Joffrey match is not a completed betrothal.
@@ -125,7 +125,15 @@ The fair ran 02/15–02/28, its account still to arrive. Orro's contract ended o
 - **Ordinary administration:** the 129 fair's actual account reached Jon through Arra: 6,120 fees, 480 costs, 846 Crown liability reserved, 4,794 after that liability. It is not the January forecast. Third-moon monthly prison word supplied; Orro not renewed. Fourth-moon tribute/rent and Dreadfort's note collection are ongoing rather than accomplished receipts. Arra's ordinary regency continues without asking Jon to approve every transaction.
 - **Naval:** two of Manderly's four unready coasters were repaired at his charge. His 03/25 report, received by Jon on 04/02, lists eight serviceable and two still needing work. Patrols use existing crews. There is no reported armed Triarchy encounter, chartered southern transport fleet or northern deployment south. The future Triarchy intervention and Gullet are not prevented by a northern patrol order.
 
-The last accepted scene stops at Jacaerys's request. The royal negotiating demands, claimant oath, deployment of the host and any subsequent campaign remain unchosen. Do not add those decisions while updating the calendar.
+Turn 15 ended at Jacaerys's request. The royal negotiating demands, claimant oath, deployment of the host and any subsequent campaign were not chosen by that turn.
+
+### Turn 16, 129/04/05 evening
+
+**Twenty minutes elapsed, with no calendar-day boundary crossed.** Jon took the conversation to a small grove beside the Moat's ruins, tended Ice from his campaign baggage and asked the prince for Rhaenyra's terms. Jacaerys's authored opening offer is recorded in WORLD and CHARACTER: confirmed Stark rights, direct northern command and a wartime council place, with a proposed year's remission of Winterfell's royal levy after victory subject to the queen's seal. He asks for a declaration and a host at Harrenhal under coordinated strategy with Daemon, without a fixed release date. Jon has not accepted, pledged, deployed or presented his full counterterms. Jacaerys has not granted Watch land, and Arra's independently concluded agreement is unchanged.
+
+Jacaerys personally told Jon that his party's message reported Aemond pursuing and killing Lucerys. Jon now has present Black-party testimony of that death, not personal observation or proof of every detail. The actual 03/18 death was already resolved; no second death, loss of dragon or consequence is applied. News of the Burning Mill, Stone Hedge, Jaehaerys's murder and secret court proceedings has not thereby reached Jon.
+
+All pending dates, movements, reports, recovery windows, camp counts and commitments retain their scope. No new payment, royal tax relief, resource issue, letter or independent historical event occurred during this brief exchange. Reassessment found no changed prerequisite for the pending 04/12 decision, the conditional Cargyll mission, the Gullet or later baselines. Arra, the Watch and the royal courts cannot react to this conversation before information reaches them. The next player decision is Jon's response to the offer, not a Watch ratification or compulsory historical pact.
 
 ## Historical event ledger
 
@@ -140,9 +148,9 @@ Every entry below retains a conditional historical baseline, including where phr
 | 129/03/10 | Aegon II is crowned in King's Landing. | Green Council preparations succeeded; report reached Jon 03/19. | occurred, Turn 15 |
 | 129, third moon; after news arrives | Rhaenyra learns of the accession and loses her unborn child. | Actual news and loss on authored 03/11–03/12; Rhaenyra survived. | occurred, Turn 15 |
 | 129, third moon; after Rhaenyra receives news and loses her child | Rhaenyra is crowned and the Black Council organizes resistance. | Actual coronation/council on authored 03/13; proclamation reached Jon 03/23. | occurred, Turn 15 |
-| 129/04/05; advanced autumn, authored working date | Jacaerys visits Winterfell seeking an alliance; the historical Pact of Ice and Fire is only a reference. | He learned Jon's actual location at White Harbor and reached Moat Cailin on 04/05 instead. No son Rickon exists; Jon chooses all commitments. | changed destination; arrival occurred, alliance player-dependent |
+| 129/04/05; advanced autumn, authored working date | Jacaerys visits Winterfell seeking an alliance; the historical Pact of Ice and Fire is only a reference. | He learned Jon's actual location at White Harbor and reached Moat Cailin on 04/05 instead. His Turn 16 opening offer remains unaccepted. No son Rickon exists; Jon chooses all commitments. | changed destination; arrival occurred, alliance player-dependent |
 | 129; day/moon unknown | Daemon takes Harrenhal as a Black base. | Actual surrender to Daemon and Caraxes on authored 03/16; Simon and kin captive. | occurred, Turn 15 |
-| 129; day/moon unknown | Lucerys is killed over Shipbreaker Bay. | Missions, meeting and pursuit remained viable; actual outcome on authored 03/18. | occurred, Turn 15 |
+| 129; day/moon unknown | Lucerys is killed over Shipbreaker Bay. | Missions, meeting and pursuit remained viable; actual outcome on authored 03/18. Jacaerys reported the death to Jon in Turn 16 on 04/05. | occurred, Turn 15 |
 | 129; after Lucerys's death | Blood and Cheese murder Prince Jaehaerys. | Retaliation, organizers and access persisted; actual murder on authored 03/27. | occurred, Turn 15 |
 | 129; day/moon unknown | The Battle of the Burning Mill draws Blackwood and Bracken forces into open fighting. | Opposed allegiances and local conflict persisted; actual battle on authored 03/24. | occurred, Turn 15 |
 | 129; associated with the Battle of the Burning Mill | Stone Hedge falls and Bracken resistance is suppressed. | Captured while the Bracken field force was away, with the returning force yielding afterward; authored 03/24–03/25. This clarifies the earlier shorthand 'after the battle', not a duplicate conquest. | occurred, Turn 15 |
@@ -277,7 +285,7 @@ Every entry below retains a conditional historical baseline, including where phr
 
 The retained ledger covers the player's **117-entry Pasted text.txt** outline. Counts and reported historical outcomes in that attachment are background, not guaranteed campaign results. The historical baseline follows *Fire & Blood*, with chapter references collected in A Wiki of Ice and Fire. It uses the Gullet on **130/01/05**, not the older 129 dating. Jacaerys's visit belongs to advanced autumn; 129/04/05 is an authored working day and says nothing about Gregorian seasons. The Hour's resignation after judgments and departure within a fortnight after coronation are distinct events; neither binds Jon.
 
-Turn 15 assigned actual working days to the early undated events and changed Jacaerys's destination through information at White Harbor. The Stone Hedge row clarifies the attack while Bracken's principal force was absent and the returning force's surrender afterward. The old shorthand did not create two conquests. No later baseline is forced by those corrections.
+Turn 15 assigned actual working days to the early undated events and changed Jacaerys's destination through information at White Harbor. The Stone Hedge row clarifies the attack while Bracken's principal force was absent and the returning force's surrender afterward. The old shorthand did not create two conquests. No later baseline is forced by those corrections. Turn 16 changed Jon's current knowledge of Lucerys's death and opened bargaining; its specific offer is authored, not a historical concession already obtained.
 
 Exact anchors and chapter references: [Viserys I](https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen), [Aegon II](https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen), [Gullet](https://awoiaf.westeros.org/index.php/Battle_of_the_Gullet), [Gods Eye](https://awoiaf.westeros.org/index.php/Battle_Above_the_Gods_Eye), [Flight to Dragonstone](https://awoiaf.westeros.org/index.php/Flight_to_Dragonstone), [Sunfyre](https://awoiaf.westeros.org/index.php/Sunfyre), [Hour of the Wolf](https://awoiaf.westeros.org/index.php/Hour_of_the_Wolf).
 

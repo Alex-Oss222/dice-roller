@@ -2,11 +2,11 @@
 
 ## Current position
 
-Turn 15 is complete. Resume on **129/04/05, evening**, at **Moat Cailin's northern encampment**; the next action is Turn 16. Read the [latest turn](turns/TURN_015.md) for the exact scene. Jacaerys has arrived on Vermax after Manderly directed him from White Harbor to Jon's actual location. He presents Rhaenyra's letter and asks the North to uphold its oath. Jon's negotiating brief remains his opening position, not concessions already obtained. No claimant pledge or southern army/fleet deployment has been made.
+Turn 16 is complete. Resume on **129/04/05, evening**, at **the grove beside Moat Cailin's ruins**; the next action is Turn 17. Read the [latest turn](turns/TURN_016.md) for the exact scene. Twenty minutes after the end of Turn 15, Jon has challenged Jacaerys to state his mother's terms. The prince has offered confirmation of Stark rights, direct northern command and a wartime council place, and proposed a year's remission of Winterfell's royal levy after victory, requiring Rhaenyra's sealed approval. He asks for a declaration and a host at Harrenhal under coordinated strategy with Daemon. No fixed release date, northern consent to detachments, royal grant, pledge or deployment has been agreed. Jacaerys has now personally reported Lucerys's death. Jon has not yet presented his detailed counterterms.
 
-The expedition roll is **7,200** within the combined **12,000 ceiling**: 7,178 fit in camp, eighteen temporarily unfit, four scouts still south. Two other scouts have returned and are included among those in camp. The original 4,000 allotted places have arrived, followed by 3,200 additional places under the existing mobilization order; most of each house's strength stays home. Training, trade-organized repairs and provisioning continue. Camp grain is 740 quarters; camp expenditure is 51,672 GD; the camp chest holds 8,208 GD and 120 GD remains in unreconciled scout advances. The dated January vault count is not an April balance.
+The expedition roll remains **7,200** within the combined **12,000 ceiling**: 7,178 fit in camp, eighteen temporarily unfit, four scouts still south. Two other scouts have returned and are included among those in camp. The original 4,000 allotted places have arrived, followed by 3,200 additional places under the existing mobilization order; most of each house's strength stays home. Training, trade-organized repairs and provisioning continue. The last camp account this evening records 740 quarters of grain, 51,672 GD expenditure, 8,208 GD in the chest and 120 GD in unreconciled scout advances. No new issue or transaction was counted during Turn 16. The dated January vault count is not an April balance.
 
-**The Watch negotiations are delegated and concluded, not awaiting Jon's approval.** Arra independently accepted a five-year administration and resettlement agreement for six specified deserted villages in the New Gift. The Watch retained ownership of both Gifts and refused outright cession. Collected rents and customary land dues divide 60% to the Watch and 40% to Winterfell before Stark's own costs. Arra reserved 24,000 GD, still unspent, and retains implementation responsibility. Do not turn her reports into a menu of decisions for Jon.
+**The Watch negotiations are delegated and concluded, not awaiting Jon's approval.** Arra independently accepted a five-year administration and resettlement agreement for six specified deserted villages in the New Gift. The Watch retained ownership of both Gifts and refused outright cession. Collected rents and customary land dues divide 60% to the Watch and 40% to Winterfell before Stark's own costs. Arra reserved 24,000 GD, still unspent, and retains implementation responsibility. Do not turn her reports into a menu of decisions for Jon. Jacaerys has not learned the details of her agreement from Jon's general complaint about the Gift.
 
 The old works roll remains closed. The broader second roll remains unsigned. Mormont and Reed's gifts are still authorized and unspent. The remaining Moat repair allowance is 9,200 GD after 4,800 was paid during Turn 15. Viserys has died and both claimants have been crowned; occurrence and Jon's receipt of news are recorded separately in WORLD and FUTURE_EVENTS. The latter also records offscreen events which Jon does not yet know as current facts.
 
@@ -14,7 +14,7 @@ The old works roll remains closed. The broader second roll remains unsigned. Mor
 
 ## Turn record
 
-Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arithmetic and appended ledgers have been trimmed from the earlier scenes; retained monetary amounts use the current scale. Detailed balances and reconciliations are in the [129 account](references/FISCAL_129_AC.md), with subsequent dated camp accounts in WORLD. Earlier wording remains in Git history. Turns 0–14 are unchanged by Turn 15.
+Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arithmetic and appended ledgers have been trimmed from the earlier scenes; retained monetary amounts use the current scale. Detailed balances and reconciliations are in the [129 account](references/FISCAL_129_AC.md), with subsequent dated camp accounts in WORLD. Earlier wording remains in Git history. Turns 0–15 are unchanged by Turn 16.
 
 | Turn | Ending date and time |
 | --- | --- |
@@ -34,6 +34,7 @@ Each turn has its own file. Turn 0 is the historical 126 opening. Repeated arith
 | [13](turns/TURN_013.md) | Second day of the second moon, 129 AC, Evening |
 | [14](turns/TURN_014.md) | First day of the third moon, 129 AC, Evening |
 | [15](turns/TURN_015.md) | Fifth day of the fourth moon, 129 AC, Evening |
+| [16](turns/TURN_016.md) | Fifth day of the fourth moon, 129 AC, Evening; twenty minutes after Turn 15 |
 
 ## Established backstory, 124–126 AC
 
