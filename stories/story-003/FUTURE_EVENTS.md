@@ -1,248 +1,240 @@
 # Story 3 · Conditional future events and countdowns
 
-## Current clock and scope
+## Clock and scope
 
-**Synchronized with Turn 21: 130/01/01 night, Harrenhal.** The authorized campaign consumed 132 days from 129/08/19. Jon fought the western army, returned against Cole and completed the requested movement and reinforcement interval. The sea battle at the Gullet has not been resolved. Cole's transfer and Brandon's promised answer are the present player decisions. Read [WORLD](WORLD.md), [CHARACTER](CHARACTER.md), [STORY](STORY.md) and this file at one commit.
+**Synchronized with Turn 0: third day of the first moon, 126 AC, morning.** Exact hour unestablished. This is setup maintenance: no time has elapsed and none of these events has occurred in this run.
 
-All 117 original historical baseline entries remain below. Their dates and described outcomes are references, not promises that the same events occur. The [Turn 20 calendar](https://github.com/Alex-Oss222/dice-roller/blob/53bfffca7afaeeceedf8dbfd330b18550e140a61/stories/story-003/FUTURE_EVENTS.md) preserves the preceding expanded notes and the unchanged earlier turns preserve their outcomes. New dates, local terrain, troop returns and battle results are authored campaign adjudications. Do not replay them on resuming.
+This is the authoritative future-event ledger for this campaign. Current accomplished facts remain in [WORLD.md](WORLD.md); Jon's personal knowledge remains in [CHARACTER.md](CHARACTER.md); accepted scenes remain in [STORY.md](STORY.md). Read this ledger with those files at the same commit.
 
-Use twelve thirty-day moons and 360-day years for campaign bookkeeping, not a claimed canonical calendar or Gregorian seasons. Difference: 360 × year difference + 30 × moon difference + day difference. A zero countdown means due today, not completed. Advancement follows authorized activity, not chat turns or real time away.
+The player's supplied 117-entry timeline is the historical baseline for 129–133 AC. Events are referred to by their ordinary names, without codes. It is a forecast to adjudicate, not a list of outcomes to force. The world continues independently of Jon: where relevant causes remain unchanged, the baseline event proceeds even if he is elsewhere or ignores it. Changes by Jon **or by other people** can prevent, delay, accelerate, redirect or replace events.
 
-| Historical anchor | Baseline date | Position at 130/01/01 |
+Coverage of 129–133 does not suspend ordinary events in 126–128, nor imply that this is an exhaustive list of everything happening in Westeros. Track material new developments when they arise.
+
+## Calendar and remaining time
+
+For campaign arithmetic use **twelve 30-day moons per year (360 days)**, consistent with the fiscal planning convention. This is a bookkeeping assumption, not a claim about a canonically established calendar. Numbered moons are not Gregorian months and do not determine the seasons.
+
+Date notation below is **year/moon/day**. Day difference is `360 × (target year − current year) + 30 × (target moon − current moon) + target day − current day`. It counts calendar boundaries, not exact hours. A value of zero means **due this date**, not already resolved.
+
+These are remaining times to **historical baseline dates**, calculated from 126/01/03. They are not guarantees of deaths, battles or marriages. Once an event has a changed working date, show that date and its new countdown here while retaining the original baseline in the ledger.
+
+| Event | Historical date | Remaining at the saved position |
 | --- | --- | ---: |
-| Viserys's death | 129/03/03 | Occurred |
-| Aegon's coronation | 129/03/10 | Occurred |
-| Jacaerys's northern visit | 129/04/05, authored | Moat visit and subsequent ratification completed |
-| Gullet | 130/01/05 | 4 days to baseline; evacuation circumstances have changed |
-| Gods Eye | 130/05/22 | 141 days; riders alive but dragons injured in a different engagement |
-| Rhaenyra's death | 130/10/22 | 291 days; prerequisites unestablished |
-| Sunfyre's death | 130/12/09 | 338 days; old wounds persist, location changed |
-| Aegon III wedding and coronation | 131/07/07 | 546 days |
-| Corlys's death | 132/03/06 | 785 days |
-| First reported capital Winter Fever | 133/01/03 | 1,082 days |
-| Jaehaera's death | 133/09/22 | 1,341 days |
-| Aegon III and Daenaera's wedding | 133/12/30, modeled final day | 1,439 days |
+| Viserys I's death / succession crisis | 129/03/03 | 1,140 days |
+| Aegon II's coronation | 129/03/10 | 1,147 days |
+| Battle of the Gullet | 130/01/05 | 1,442 days |
+| Battle above the Gods Eye | 130/05/22 | 1,579 days |
+| Rhaenyra's death | 130/10/22 | 1,729 days |
+| Sunfyre's death | 130/12/09 | 1,776 days |
+| Aegon III's wedding and coronation | 131/07/07 | 1,984 days |
+| Corlys's death | 132/03/06 | 2,223 days |
+| First reported Winter Fever cases in King's Landing | 133/01/03 | 2,520 days |
+| Jaehaera's death | 133/09/22 | 2,779 days |
+| Aegon III and Daenaera's wedding (last day of year) | 133/12/30 (modeled final day) | 2,877 days |
 
-These numbers do not summon armies, move fleets or kill anyone. In particular, the historical interception of the queen's younger sons no longer has its original voyage as a prerequisite: they reached King's Landing under escort on 129/12/04. A naval clash remains possible from actual Triarchy orders and movement. Do not relocate the children back onto the Gay Abandon to restore the book.
+The nearest **exactly dated anchor** is Viserys's death in **1,140 days: 3 modeled years and 2 moons**. Earlier undated developments remain possible.
 
-## Immediate tasks and constraints
+For events without a known day, use the actual stated window. Do not pretend that an outbreak or invasion has an exact anniversary:
 
-- **Now:** Rhaenyra has requested Cole's transfer to King's Landing; Jon has not answered. Jason is also a living northern prisoner without a ransom, pardon or disposition. Ordinary guarding, medical care and feeding continue without a new permission cycle.
-- **Now:** Brandon's fixed wardship residence ended on 129/12/30. He remains physically with Glover as a guest, not under a newly extended compulsory term. Jon's promised different answer is due. Do not choose his new residence, service or marriage for Jon.
-- **130/01/05–01/10:** working window for the next supply receipts and reports. Current field coin and grain are dated accounts, not permanent balances; charge actual service and deliveries once, distinguishing internal movement from consumption.
-- **Around 01/10:** review current patients. The old seventy-man sick return was superseded. The northern return now has 170 temporarily unfit inside the active Harrenhal force, plus 160 longer-term convalescents outside it. Review their actual ailments, and the injured Caraxes, Sheepstealer and Nettles, without universal automatic recovery. Jon's own forearm is already healed with a scar.
-- **Gullet approaches:** Corlys's established outer watch, signals, commercial intelligence, two northern coasters and royal-passenger safeguards are operative. Assess actual fleet orders, passage and report arrival. Do not promise a battle on 01/05 or guaranteed prevention because a warning exists. A new threat to Jon's chosen theatre requires his decision only where it exceeds his existing authorization.
-- **Aemond and Vhagar:** both survived 11/29. His exact location and the extent of recovery are not verified to Jon. Caraxes and Sheepstealer currently manage short flights, not prolonged combat. No automatic fatal solo duel is scheduled.
-- **130/04:** Dreadfort's remaining 30,000-GD note and ordinary tribute and rent collection fall due through existing arrangements. January 129 forecasts do not become the 130 budget.
-- **131/05/11:** maximum northern service ends, or sooner if the war ends. Reinforcements did not reset that date. There are 490 modeled days to that limit, not a promise the war lasts so long.
-- **134/03/24:** Arra's original five-year six-village agreement expires absent a real renewal or change. Her implementation and ordinary negotiation remain delegated; royal recognition has not caused full Watch cession.
+| Baseline window | Remaining to start–end of the containing year |
+| --- | ---: |
+| 129 AC · undated Dance events | 1,078–1,437 days |
+| 130 AC · campaigns; winter declared on Maiden's Day | 1,438–1,797 days |
+| 131 AC · final campaigns and settlement | 1,798–2,157 days |
+| 132 AC · regency; **Winter Fever begins late in the year** | 2,158–2,517 days |
+| 133 AC · epidemic and **Sylas's invasion, moon unknown** | 2,518–2,877 days |
 
-The old works roll and safe Moat repair order remain closed. Mormont has 76,000 GD, Reed 8,000 and Arra 2,400 still authorized on the latest report. These are remaining commitments, not new grants. The royal customs clock has not started because the agreed port programme is not certified complete. Ordinary government, captives and projects do not await every minor choice from Jon.
+These are broad containing-year bounds, not a claim that “late 132” starts on its first day. The first Winter Fever outbreak is roughly six to seven years away; Sylas's baseline invasion is roughly seven to eight years away. Winter's historical end in 135 is a longer-range weather reference, not a precise countdown.
 
-## Causality, knowledge and mortality
+## How the clock operates
 
-A player plan authorizes attempts, not another person's consent or its stated outcome. NPCs use their own information, motives and means. Actual army numbers, concentration, terrain, supplies, wounds and travel govern fighting. Famous figures have neither immunity nor compulsory death. Northern soldiers cannot ignore dragonfire because their commander is experienced.
+Follow the chronological event step in [TURN_PROCESS.md](../../rules/TURN_PROCESS.md).
 
-Separate occurrence, report departure, delivery and Jon's learning. Do not give him private court escape routes, aerial conversations or distant casualty totals without a plausible source. Remembered history is not verification that it happened again. No fixed template of replacement plots may restore a prevented event.
+Keep this calendar in preparation and saved records. In scenes, present events through actions, credible observations, messages, conversation or Jon's established historical recollection. Do not print event codes, tracker labels, status changes or countdown notices in narration or dialogue. Do not announce that a historical event has triggered or been completed. An explicit request for a countdown may receive a separate out-of-character answer using ordinary event names.
 
-Apply every death, wound, return, prisoner, payment and delivery once. A wounded man later dying moves from wounded to dead, not two removals. Medical discharge is not death. Northern, Riverland and Vale rolls are separate; later arrivals do not fight retrospectively. Period summaries and component battles overlap. Transfers between the vault and field chest are not income or a second expense after disbursement.
+- Advance only through time authorized by the player's action. Reading, maintenance, a new chat or real time passing advances nothing.
+- Before resolving an authorized interval, check which pending windows, working dates and reports it crosses. Resolve independent NPC developments even when Jon does not witness them.
+- For an undated event, preserve its historical precision. As play approaches its year or season, establish and record a plausible **campaign working date or narrower window**, using prerequisites, travel and known sequence. This is an authored scheduling assumption, not a newly discovered canon date. Do not defer an eligible event indefinitely just because canon supplies no day; resolve it within its applicable window unless a recorded cause changes it.
+- The attachment groups several theaters and topics. The order of entries alone is **not** chronological order. Use explicit dates and real dependencies; unrelated events may overlap. Recheck dependencies whenever an earlier event changes, including before the original date if intervention accelerates it.
+- Adjudicate an attempt and its outcome separately. A planned attack may still happen while its target, route, success, casualties or aftermath change. Historical force sizes and death totals are references, never automatic deductions from the live world.
+- A proposal or hopeful intention is not successful prevention. Record what Jon actually authorizes, what is implemented, when it takes effect and what it changes. Existing roads, supplies, patrols and institutions from the accepted backstory already matter; do not demand that he rebuild them before they can affect an outcome.
+- Do not force history to converge again. Reassess affected descendants after a changed alliance, survival, journey, battle or outbreak. Leave unrelated events intact where their causes remain intact.
+- An event's occurrence, the departure and arrival of news, and Jon's learning of it are different facts. Record credible information routes and delays. The opening White Harbor letter is still unopened and its contents are not determined by this calendar.
+- Pause at a consequential choice belonging to Jon, even inside a requested period of downtime. Calendar rows do not authorize his alliance, military orders, judgments, travel, marriage or disclosure. NPCs can make offers, send warnings and act on their own.
+- Broad summaries and component events overlap. Apply each death, loss, expense and succession once. A plague summary is not another wave of casualties; the end of an invasion is not another battle.
 
-OOC, reading, checkpoints and setup pause the fictional clock. Narrative contains events and reports, not calendar tags or countdowns. The next regular checkpoint is Turn 40; the Turn 21 war-boundary handoff is not an additional turn.
+## Status and change record
 
-## Committed history through Turn 20
+- **pending**: conditional historical event, not yet occurred. At its working date or applicable window, resolve it unless the live facts supply a reason it changes.
+- **player-dependent**: includes a historical action belonging to Cregan. The opportunity or pressure can arise; Jon's part requires his choice. This status cannot become “occurred” just because time passes.
+- **reference**: descriptive condition, symptom pattern, aggregate or period summary. It informs adjudication and is not a second independent event.
+- During play use **occurred**, **changed**, **prevented** or **no longer applicable** when justified. An unresolved eligible event remains pending, with its working date and reason for any delay recorded.
 
-The singular 124 transfer, full inherited memory, adaptation by 125, late-125 takeover, Bennard and Benjen's lifelong imprisonment, political wards, Arra's friendship and secrecy remain settled. Jon and Arra are not married or betrothed and no son Rickon exists. The old works, gifts, royal negotiations and fiscal revisions retain their recorded effects.
+The ledger's baseline date and description remain for comparison. For each changed event, update its status and append one compact note here with: event name; deciding turn and date; actual or working date/window; what changed and why; affected later events by name; whether/when Jon learned it. If a component of a grouped row resolves separately, name that component in the note rather than prematurely closing the whole row. Append new campaign events under ordinary descriptive names.
 
-Opening war outcomes remain: Viserys and Beesbury on 129/03/03; Visenya on 03/12; Lucerys and Arrax on 03/18; Samwell Blackwood and Amos Bracken on 03/24; Jaehaerys on 03/27. Harrenhal surrendered on 03/16; Stone Hedge's capture and returning force's surrender on 03/24–03/25 were one coordinated operation. Simon Strong and kin and Humfrey Bracken's household remain alive under their original custody. These are not repeatable northern victories.
-
-Jacaerys's Moat visit and negotiations ran on 04/05. His mission delivered the articles and naval warning to Dragonstone on 04/09. Rhaenyra ratified on 04/12; Jon received the sealed answer on 04/16. His first army left the Moat on 04/20, cleared the Neck on 05/11 and reached Harrenhal on 06/16. The prior 134-day interval completed on 08/19 and is not replayed. Turn 20 closed with 7,128 active northerners from 7,200 originally, after twenty-three deaths and forty-nine medical removals.
-
-Cole became Hand on 04/12. The Cargyll attempt on 04/18 killed both brothers; the queen survived. Duskendale fell on 05/08 and Gunthor Darklyn was executed. The actual isolated Rook's Rest relief on 05/27 killed Rhaenys and Meleys and wounded Aegon and Sunfyre. Aemond assumed the regency on 05/30; Corlys became Hand on 06/02. No later scene may undo those outcomes.
-
-Sowing attempts occurred on 07/20–08/09. Addam claimed Seasmoke on 07/24, Hugh Vermithor on 07/26, Ulf Silverwing on 07/27 and Nettles Sheepstealer on 08/09. Steffon Darklyn, Gormon Massey, Silver Denys and his sons died; Alyn survived burns. Addam and Alyn were legitimized on 08/02. Successful claims did not make every rider loyal or an expert.
-
-The outer watch and signals ordered on 04/11 began operating on 04/17; local relief began on 04/20. They did not reveal Cole's inland trap. Arra's six-village agreement and the later royal writ coexist with the Watch's protest. City charters and commercial instruments progressed; full port construction and customs activation did not automatically follow.
-
-## Turn 21: actual chronology and changed prerequisites
-
-**08/20–08/29:** council, separate western and eastern reconnaissance, northern reinforcement instructions and direct Vale diplomacy. Ryswell's eighty added scouts are drawn from the existing Bolton company. Arra receives the new call on 08/29. The initial 8,400 Riverland field commitments include Daemon's existing participants, not another hidden army. The attached strategy guides execution; its guesses of 5,000, 8,000 and 15,000 are not accepted as preexisting troops.
-
-**09/09:** Jon turns twenty-two on a newly fixed day within the established ninth-moon nameday. **09/14:** the western march begins after actual reports. **09/17:** Nettles joins Daemon under the queen's assignment for paired eastern operations, while Hugh and Ulf remain under royal oversight. Their future treachery is not present guilt.
-
-**10/10:** Cole advances north with a 5,200-person working muster, supporting Aemond's two-front intention. **10/16:** Jon's 6,500 northerners and 6,800 rivermen defeat Jason's attempted Red Fork crossing. Tarbeck's boat crossing first succeeds, then Jon's reserve and supporting archers isolate the bridgehead while Dustin holds the principal ford. Jason is captured wounded and lives; Tarbeck escapes and Lefford withdraws surviving formations. Western returns account for 12,400 initially, 1,180 dead and 2,760 living prisoners; the remainder includes withdrawals, scattered men and unaccounted persons. The army is not annihilated or later destroyed again by the Fishfeed. Northern western deaths total 180 after wound deaths, with 585 surviving wounded; 465 recover and 120 leave active service. Jon's forearm wound heals with a scar, not magic.
-
-**10/20 onward:** news of the western failure reaches the eastern commanders. **10/26–11/07:** eastern riverlords, Daemon and Nettles check Cole's opportunities. Exposed military stores and threatened households move; some of Aemond's raids still strike before warning. Neither an invulnerable civilian network nor wholesale self-destruction of Riverland supplies is imposed. Harrenhal is never occupied by Aemond; the Strong massacre and an Aemond–Alys relationship are not recreated elsewhere.
-
-**11/01–11/28:** Addam and Seasmoke provide actual protection for the agreed Vale embarkations. Jeyne sends 3,000 under Leowyn Corbray, not 15,000 without preparations. Ships arrive at Maidenpool on 11/23 and 12/02; the two bodies reach the Harrenhal vicinity on 12/06 and 12/15. They miss the western and Cole battles. The royal dragon deployment is not the same rider guarding every theatre at once.
-
-**11/08:** Rhaenyra's fleet, Syrax, the available Hugh and Ulf and cooperating City Watch officers secure King's Landing after the Green army and Vhagar leave its approaches. Daemon assists through contacts and messages but remains in the Riverlands. Aegon escapes with Larys's help; Jon does not know his concealed location. The surviving Green children are removed by routes towards Storm's End, not the historical Bitterbridge route. **11/11:** Otto and Jasper are executed by the queen's government; Alicent and Helaena are confined, Tyland tortured over the dispersed treasury and kept alive. These are NPC acts, not Jon's judgments. The captured treasury is limited and supplies no invented Stark windfall.
-
-**11/10:** Jon returns to Harrenhal. **From 11/13:** Cole withdraws around the western Gods Eye towards the Reach, responding to the actual loss of the capital and western relief. **11/20:** the first 2,000 new northerners reach Harrenhal and relieve duties; they are not added to the earlier western battle or the veterans actually engaged against Cole.
-
-**11/29:** Jon intercepts Cole with 6,350 northerners and 4,300 rivermen. Cole has about 4,600 present, with the later return reconstructed as 4,640 from the earlier 5,200 after prior detachments, losses and dispersal. His attack initially breaks an allied wing. Jon's reserve contains it and the supported flanking force completes the defeat. Aemond attacks the baggage but is drawn into combat by Caraxes and Sheepstealer. All three dragons are hurt; Aemond escapes southwest and Daemon breaks off when Nettles cannot maintain formation. No compulsory heroic fatal duel occurs. Cole is taken alive after the collapse of his guard. Enemy accounts record 690 dead, 2,610 prisoners and 1,340 escaped, scattered or unaccounted for. The original Butcher's Ball parley and execution do not occur. Northern casualties total 130 dead after wound deaths; the surviving 380 wounded divide into 140 recovered, 160 medically removed alive and eighty still temporarily unfit.
-
-**11/30 and following weeks:** Daemon and Nettles return injured and report the aerial fighting. Nettles's leg burn and their dragons' wing injuries receive ordinary care. By the ending date both Black dragons can make short flights but are not ready for prolonged combat. Vhagar's location and fitness are not verified to Jon. Their survival does not guarantee survival in a future engagement.
-
-**12/04:** the queen's younger sons Aegon and Viserys reach King's Landing under escort, following the warning and changed possession of the capital. Jon learns this from the prince's letter on 12/22. There is no unprotected Pentos voyage or current Lysene captive to recover. A Triarchy expedition remains possible; it cannot intersect a voyage that did not happen.
-
-**Twelfth moon:** Sunfyre moves from his earlier guarded position under the changed pressure and is sighted away from Rook's Rest; exact whereabouts are unverified. Mooton does not carry out the unsupported infantry attack from the original history and has not died in it. Dalton's raids against exposed western coasts and shipping begin, but a full sack of Lannisport is not resolved. Ormund and Daeron remain an independent Reach threat. No Tumbleton betrayal or Honeywine result is forced early.
-
-**12/10 and 12/28:** the other 1,400 and 1,200 northern land troops arrive. Two existing Manderly coasters and 120 expedition personnel separately reach the defined southern reconnaissance and liaison mission during the eleventh moon. All called northern personnel total 11,920, including the original 7,200, new 4,600 land and 120 naval. The 12,000 ceiling and retained home majorities remain. New arrival does not restart the service limit.
-
-**12/15 account, received 12/29:** village work reaches thirty-nine households in four villages; cumulative Arra expenditure 21,600, Mormont 104,000 and Reed 42,000. Their remaining authorizations total 86,400. Reed's second structures and eighth boat are operating, while final reserve and defects work remain. Mormont's curtain and the full port programme remain unfinished. No royal customs activation or full Watch cession occurs.
-
-**12/30:** Brandon's fixed term expires. **130/01/01:** the campaign closes with 11,026 active northern land troops and 120 naval personnel. Cumulative 381 dead and 393 removed alive reconcile to the 11,920 called. The current northern roll contains 170 temporary unfit at Harrenhal; long-term medical removals are separate. Riverland commitments total 11,000 including the original 8,400, less 487 dead and 363 medical removals, leaving 10,150 active. Vale strength is 3,000 including twenty-four temporarily unfit. No allied roll is added twice.
-
-Field cash is 119,982 GD, after 850,000 new internal transfers and 792,640 expenditure. Grain accounts hold 3,030 quarters, with remote depot figures dated to reports. Latest complete Winterfell count is 19,327,040 GD on 12/15, not exact January coin. No forecast income or GDP is accrued as cash. Cole's transfer request and Brandon's answer are left to Jon; no new offensive, royal office or prisoner judgment is selected.
+**Initial change record:**
+- Turn 0, 126/01/03: no scheduled future event has occurred and no working dates have been invented.
+- Existing divergence: Jon replaced Cregan in 124 and secured rule under the accepted backstory. Arra knows who he is. Their current relationship is friendship; they are unmarried and unbetrothed. A historical marriage, childbirth, death or son cannot be imported to restore the old chronology.
+- The Pact of Ice and Fire: the historical Pact promised Jacaerys's future firstborn daughter to Cregan's son Rickon. No son Rickon is established in this run. Jacaerys may seek an alliance, but those terms are not automatically available and Jon's answer is unchosen.
+- Northern expeditions and the postwar settlement: any historical northern contingent, campaign role and later settlement must be checked against actual orders and forces. No Winter Wolves or southern Stark host has been dispatched at Turn 0.
+- Alysanne's marriage and the response to Sylas: no Alysanne marriage or countercampaign against Sylas is authorized. Their historical outcomes remain conditional references to decisions and events still years away.
+- No faction pledge or Northern Development Program approval is created by this ledger.
 
 ## Historical event ledger
 
+Every event description below names a **conditional baseline**, including where it uses the past or present tense. “Dies,” “wins,” “marries” and “falls” describe that baseline, not facts already true in the campaign.
+
 ### 129 AC · Succession and opening campaigns
 
-| Historical date/window | Conditional baseline | Actual status or remaining prerequisite | Status |
+| Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| 129/03/03 | Viserys I dies; succession crisis opens. | Occurred 03/03, Turn 15; Jon informed 03/19. | occurred |
-| 129/03/03–03/10 | Green Council conceals death and prepares accession. | Access and seizure resolved; secret proceedings remain distinct from Jon's knowledge. | occurred |
-| 129/03/10 | Aegon II crowned. | Occurred 03/10, report 03/19. | occurred |
-| 129 third moon, after news | Rhaenyra learns the accession and loses her unborn child. | Visenya died 03/12; Rhaenyra survived. | occurred |
-| 129 third moon, after loss | Rhaenyra crowned and Black Council organizes resistance. | Occurred 03/13; proclamation reached Jon 03/23. | occurred |
-| 129/04/05, authored original working day | Jacaerys visits Winterfell seeking alliance; historical Pact is reference. | Actual Moat meeting, royal ratification 04/12, receipt 04/16. No historical marriage or son invented. | changed; completed |
-| 129, day unknown | Daemon takes Harrenhal. | Surrender 03/16; Simon and kin captive alive, not recaptured by Jon. | occurred |
-| 129, day unknown | Lucerys killed over Shipbreaker Bay. | Actual 03/18; Arrax dead; contemporary report reached Jon. | occurred |
-| 129, after Lucerys | Blood and Cheese murder Jaehaerys. | Actual 03/27; report is not certainty about secret organizers. | occurred |
-| 129, day unknown | Burning Mill battle between Blackwood and Bracken. | Actual 03/24; Samwell and Amos dead, Benjicot succeeds. | occurred |
-| 129, associated with Burning Mill | Stone Hedge falls and Bracken resistance is suppressed. | Actual 03/24–03/25; surrender not repeated. | occurred |
-| 129, day unknown | Aegon dismisses Otto and names Cole Hand. | Actual 04/12. Cole is now a prisoner after later events. | occurred |
-| 129, after Cole appointed | Erryk and Arryk die in Dragonstone infiltration. | Actual 04/18; queen survived. | occurred |
-| 129, after Cole appointed | Cole sacks Duskendale. | Actual 05/08; Gunthor Darklyn executed. | occurred |
-| 129, after Duskendale | Rook's Rest kills Rhaenys and Meleys and wounds Aegon and Sunfyre. | Actual isolated response and ambush 05/27. These deaths and injuries are not undone. | occurred |
-| 129, after Rook's Rest | Aemond assumes regency. | Actual 05/30. Later loss of the capital and injuries alter his position. | occurred |
-| 129, later war | Dragonseeds claim dragons in the Red Sowing. | Actual attempts 07/20–08/09 and four successes; no automatic loyalty. | occurred |
-| Late 129, before Gullet | Gay Abandon departs with princes as Triarchy approaches. | The boys instead reached the captured capital under escort 12/04; the original evacuation was not ordered. | changed; original voyage absent |
+| 129/03/03 | Viserys I dies; the succession crisis opens. | His health and circumstances remain materially unchanged. | pending |
+| 129/03/03–10 | The Green Council conceals the death and prepares Aegon's accession. | Viserys's death; Alicent, Otto and their allies retain access and power. | pending |
+| 129/03/10 | Aegon II is crowned in King's Landing. | The Green Council's preparations; the Green accession remains viable. | pending |
+| 129, third moon; after the news arrives | Rhaenyra learns of the accession and loses her unborn child. | Viserys's death and the Green accession; her pregnancy, location and circumstances still support this outcome. | pending |
+| 129, third moon; after Rhaenyra receives the news and loses her child | Rhaenyra is crowned and the Black Council organizes resistance. | Rhaenyra survives and contests the succession. | pending |
+| 129; advanced autumn, day/moon unknown | Jacaerys visits Winterfell seeking an alliance; the historical Pact of Ice and Fire is only a reference. | Rhaenyra's coronation and council; Jace can travel. Jon decides all terms and commitments; no son Rickon is established in this run. | player-dependent |
+| 129; day/moon unknown | Daemon takes Harrenhal as a Black base. | Rhaenyra's coronation and council; Daemon, Caraxes and the Riverlands campaign remain available. | pending |
+| 129; day/moon unknown | Lucerys is killed over Shipbreaker Bay. | Lucerys and Aemond undertake the same missions and meet; survival depends on the actual encounter. | pending |
+| 129; after Lucerys's death | Blood and Cheese murder Prince Jaehaerys. | Retaliatory motives, organizers, access and intended victims remain in place; protection can alter the attempt. | pending |
+| 129; day/moon unknown | The Battle of the Burning Mill draws Blackwood and Bracken forces into open fighting. | Their opposed allegiances and local conflict persist. | pending |
+| 129; after the Battle of the Burning Mill | Stone Hedge falls and Bracken resistance is suppressed. | Black forces can exploit the Battle of the Burning Mill; siege and surrender are not guaranteed. | pending |
+| 129; day/moon unknown | Aegon dismisses Otto and appoints Criston Cole as Hand. | The king's dissatisfaction and Cole's influence persist. | pending |
+| 129; after Cole's appointment as Hand | Erryk and Arryk Cargyll die in the Dragonstone infiltration attempt. | Cole orders the mission; the twins' positions and the castle's defenses permit the encounter. | pending |
+| 129; after Cole's appointment as Hand | Cole sacks Duskendale. | His army follows this campaign route and overcomes the defenders. | pending |
+| 129; after the sack of Duskendale | Rook's Rest: Rhaenys and Meleys die; Aegon and Sunfyre are badly wounded. | Cole's trap, the responding dragonriders and battle conditions remain comparable. | pending |
+| 129; after the Battle of Rook's Rest | Aemond assumes the regency for the injured Aegon. | Aegon is incapacitated and Aemond retains the necessary authority. | pending |
+| 129; later war, day/moon unknown | Dragonseeds claim riderless dragons in the Red Sowing. | The Blacks seek riders; candidates and dragons remain available. Claims and deaths depend on the attempts. | pending |
+| Late 129; before the Battle of the Gullet | The Gay Abandon departs with Aegon and Viserys as the Triarchy fleet approaches. | The evacuation and naval expedition are ordered and reach intersecting routes. | pending |
 
 ### 130 AC · War and collapse
 
-| Historical date/window | Conditional baseline | Actual status or remaining prerequisite | Status |
+| Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| 130/01/05 | Gullet battle kills Jacaerys, loses Viserys and wrecks shipping and Driftmark. | Actual naval engagement remains possible; outer watch, rider availability and enemy adaptation govern. Viserys is in the capital, not on the historical intercepted voyage. | pending; prerequisites changed |
-| Early 130, day unknown | Daeron and Tessarion turn Honeywine for Hightowers. | Reach forces and dragon must actually converge; no northern battle establishes this result. | pending |
-| Early 130, after Rook's Rest | Mooton retakes Rook's Rest and dies attacking Sunfyre. | No unsupported attack was made; Sunfyre moved. Mooton lives and the original encounter is absent. | changed; original encounter absent |
-| 130, day unknown | Western army crosses Red Fork; Jason Lannister dies. | Crossing offensive defeated 129/10/16, Jason captured alive, remaining formations retreat. | changed; resolved Turn 21 |
-| 130, after Red Fork | Acorn Hall fighting costs riverlords losses. | The defeated western army did not proceed along this original route. No repeated battle or casualties. | original sequence inapplicable |
-| 130, after Red Fork and Acorn Hall | Fishfeed destroys western host; historical Winter Wolves participate. | Surviving westermen withdrew rather than being trapped at the lakeshore. No extra Winter Wolves or second destruction. | original sequence inapplicable |
-| 130, day unknown | Dalton's raids culminate in sack of Lannisport. | Raids began in twelfth moon; full sack still requires an actual successful operation. | pending; raiding begun |
-| 130, Maiden's Day, numbered day unknown | Citadel declares winter, historically lasting into 135. | Regional weather and an actual declaration remain to be resolved; no Gregorian seasonal assumption. | pending |
-| 130, day unknown | Aemond and Cole march to Harrenhal. | Actual northern offensive 129/10/10; eastern checks prevent occupation, then capital falls and Cole retreats. | changed; resolved Turn 21 |
-| 130, after Green march | Rhaenyra takes King's Landing. | Actual 129/11/08 through fleet, available dragons and City Watch cooperation. Daemon remains in Riverlands. | occurred earlier, Turn 21 |
-| 130, around capital's fall | Aegon escapes; surviving children removed separately. | Escape occurred; Green children follow changed routes towards Storm's End. Hiding details are not Jon's knowledge. | changed; occurred Turn 21 |
-| 130, after capital's fall | Otto and Jasper executed, Alicent imprisoned, Tyland tortured. | Actual queen's orders from 129/11/11; Tyland alive in custody, no Jon judgment. | occurred earlier, Turn 21 |
-| 130, Rhaenyra's rule | Treasury shortage and taxation worsen capital hostility. | Limited recovered treasury creates pressure; actual taxes, relief and reactions still determine unrest. | reference; pressure active |
-| 130, after Green march | Aemond burns Riverlands settlements. | Raids occurred during 129/10–11; warning saved some people, not all. Later injured dragon availability governs continuation. | changed; partially occurred |
-| 130, after split at Harrenhal | Cole's isolated army destroyed at Butcher's Ball. | Defeated 129/11/29 in a different engagement; Cole captured alive, no historical parley execution. | changed; resolved Turn 21 |
-| 130, day unknown | Longtable siege extends fighting in Reach. | Actual Reach campaign and opposing garrisons required. | pending |
-| 130, after royal evacuation | Maelor dies at Bitterbridge; Daeron retaliates. | The changed evacuation did not take him there. No equivalent death or punishment manufactured. | original route inapplicable |
-| 130, day unknown | First Tumbleton betrayal and dragonfire; Ormund and Roderick Dustin die. | Actual forces and riders must converge. Dustin remains with Jon, Hugh and Ulf under royal oversight; none is compelled to attend. | pending; prerequisites changed |
-| 130, after first Tumbleton | Rhaenyra orders Addam and Nettles seized; Corlys imprisoned. | Actual betrayal, suspicion, authority and access required; the historical accusation has not occurred. | pending |
-| 130, before Rhaenyra's death | Aegon takes Dragonstone; Baela fights and Moondancer dies. | Actual escape, island support, dragons and defenses required; neither Aegon nor Sunfyre is teleported there. | pending |
-| 130/05/22 | Daemon and Aemond fight above Gods Eye; riders and dragons lost. | All survived a different 129/11/29 engagement; injuries, Nettles's involvement and subsequent choices must be reassessed. | pending; prerequisites changed |
-| 130, relation to Gods Eye disputed | Helaena dies in capital. | Alive in confinement; actual circumstances and cause must be resolved, not inferred from the date. | pending |
-| 130, after Helaena | King's Landing riots. | Actual hardship, hostility and inciting events required; relief and different war outcomes may alter them. | pending |
-| 130, during riots | Dragonpit stormed; dragons, people and Joffrey die. | Actual mob, accessible dragons and Joffrey's intervention required. | pending |
-| 130, after riots and Dragonpit | Rhaenyra flees capital. | She must actually lose control and choose flight. Current possession is real. | pending |
-| 130, after flight | Moon of Three Kings divides capital. | A real power vacuum and viable rival factions required. | pending |
-| 130, after first Tumbleton | Second Tumbleton: Addam attacks and dragons battle. | First events, surviving forces, motives and actual encounter required; no compulsory march from Gullet duties. | pending |
-| 130, during and after second Tumbleton | Betrayals bring more rider deaths, including Ulf poisoned. | Actual survivors, conspiracies, access and means required. | pending |
-| 130, after flight and before death | Rhaenyra returns to Dragonstone. | Actual flight, passage and knowledge of island control determine route. | pending |
-| 130/10/22 | Aegon kills Rhaenyra with Sunfyre. | Both rulers and dragon must survive, island and captivity conditions exist, and killing be ordered. | pending |
-| 130/12/09 | Sunfyre dies of wounds. | Current injuries and subsequent recovery or injury determine death; original later wounds are not imposed. | pending |
-| Late 130, after Three Kings | Borros restores capital control. | Actual army, vacant or contested city and successful operation required. | pending |
+| 130/01/05 | The Gullet battle kills Jacaerys, loses Viserys and devastates shipping and Driftmark. | The princes' evacuation and the approaching Triarchy fleet; the fleets and dragonriders engage. Reassess rescue, capture, destruction and losses from actual forces. | pending |
+| Early 130; day/moon unknown | Daeron and Tessarion turn the Battle of the Honeywine for the Hightowers. | Reach armies and the dragon reach the battlefield with comparable objectives. | pending |
+| Early 130; after the Battle of Rook's Rest | Mooton's force retakes Rook's Rest; its attack on Sunfyre kills Lord Mooton. | Sunfyre remains wounded there; the attack occurs. | pending |
+| 130; day/moon unknown | The western army crosses the Red Fork; Jason Lannister is killed. | The west marches into the Riverlands and meets the same resistance. | pending |
+| 130; after the Red Fork campaign | Fighting at Acorn Hall costs the riverlords further losses. | The western campaign continues along this route. | pending |
+| 130; after the Red Fork and Acorn Hall campaigns | The Fishfeed destroys the western host; historical participants include the Winter Wolves. | Actual river and western forces meet. Northern dispatch is Jon's decision; no Winter Wolves exist here by default. | pending |
+| 130; day/moon unknown | Dalton Greyjoy's raids culminate in the sack of Lannisport. | Dalton chooses the western war and possesses ships, opportunity and support. | pending |
+| 130; Maiden's Day, numbered date unknown | The Citadel declares winter; the historical winter lasts into 135. | Regional weather still follows the baseline. Preparation changes damage, not weather by decree. | pending |
+| 130; day/moon unknown | Aemond and Cole march to Harrenhal. | The Green command chooses this offensive; their departure affects capital defenses. | pending |
+| 130; after the Green march to Harrenhal | Rhaenyra takes King's Landing. | The Black attack can exploit the capital's defenses and command situation. | pending |
+| 130; around Rhaenyra's capture of King's Landing | Aegon II escapes; his surviving children are removed by separate routes. | The royal family is present and helpers can execute the evacuation. | pending |
+| 130; after Rhaenyra's capture of King's Landing | Rhaenyra's regime executes Otto and Jasper, imprisons Alicent and tortures Tyland. | The people concerned are captured and the new regime gives these orders. | pending |
+| 130; during Rhaenyra's rule | Treasury shortages and taxation worsen the capital's hostility. | War finance, displaced reserves and the actual administration create the pressure. | reference |
+| 130; after the Green march to Harrenhal | Aemond burns settlements across the Riverlands. | Aemond and Vhagar survive and adopt the terror campaign. | pending |
+| 130; after the split at Harrenhal | Cole's isolated army is destroyed at the Butcher's Ball. | Cole proceeds without dragon support; enemy forces can intercept him. | pending |
+| 130; day/moon unknown | The siege of Longtable extends the fighting in the Reach. | The same Reach campaigns and garrisons remain in conflict. | pending |
+| 130; after the royal family's evacuation | Maelor dies at Bitterbridge; Daeron's forces retaliate against the town. | Maelor's escape reaches Bitterbridge and fails. Accounts dispute the manner of his death. | pending |
+| 130; day/moon unknown | First Tumbleton: betrayal and dragonfire wreck the town; Ormund and Roderick Dustin die. | The armies and dragonseeds converge. Roderick's presence requires an actual northern dispatch. | pending |
+| 130; after the First Battle of Tumbleton | Rhaenyra orders Addam and Nettles seized; Corlys is imprisoned. | Betrayal provokes these suspicions; the accused and the queen retain the relevant positions. | pending |
+| 130; before Rhaenyra's death | Aegon II captures Dragonstone; Baela fights him and Moondancer dies. | Aegon's escape route, local support, dragons and Baela's defense remain comparable. | pending |
+| 130/05/22 | Daemon and Aemond fight above the Gods Eye; both riders and dragons are lost. | Both riders and dragons survive to choose this encounter; no earlier divergence averts or moves it. | pending |
+| 130; during Rhaenyra's rule, exact relation to the Battle above the Gods Eye disputed | Helaena dies in King's Landing. | She survives prior events and remains in the relevant circumstances; cause and timing are not certain. | pending |
+| 130; after Helaena's death | King's Landing erupts in riots. | Helaena's death, hardship and popular hostility produce an uprising. | pending |
+| 130; during the King's Landing riots | The Dragonpit is stormed, killing dragons and many people; Joffrey also dies. | The mob, accessible dragons and Joffrey's attempted intervention still exist. | pending |
+| 130; after the riots and the storming of the Dragonpit | Rhaenyra flees King's Landing. | Her hold on the city collapses and she chooses flight. | pending |
+| 130; after Rhaenyra's flight from the capital | The Moon of the Three Kings divides the capital among rival claimants. | The power vacuum permits those factions to organize. | pending |
+| 130; after the First Battle of Tumbleton | Second Tumbleton brings Addam's attack and another destructive dragon battle. | Addam and his supporters can reach the divided besieging army; reassess every combat death. | pending |
+| 130; during and after the Second Battle of Tumbleton | The Tumbleton betrayals end with further rider deaths, including Ulf's poisoning. | The relevant survivors, conspirators and opportunities remain after the Second Battle of Tumbleton. | pending |
+| 130; after Rhaenyra's flight from the capital, before Rhaenyra's death | Rhaenyra returns to Dragonstone. | Her flight and available passage lead her there; she remains unaware of Aegon II's capture of Dragonstone. | pending |
+| 130/10/22 | Aegon II kills Rhaenyra using Sunfyre. | Aegon II's capture of Dragonstone and Rhaenyra's return to Dragonstone; he captures her while Sunfyre is alive and orders the killing. | pending |
+| 130/12/09 | Sunfyre dies from his wounds. | The dragon sustained the baseline injuries and has not recovered differently. | pending |
+| Late 130; after the Moon of the Three Kings | Borros restores royal control of King's Landing. | His forces march to the city and suppress or displace the rival claimants. | pending |
 
 ### 131 AC · Settlement
 
-| Historical date/window | Conditional baseline | Actual status or remaining prerequisite | Status |
+| Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| Early 131, before Kingsroad and final crisis | Black river and Vale armies advance; northern host only if sent. | Current northern, river and 3,000 Vale rolls are not duplicated as new historical contingents. | pending |
-| 131, before Kingsroad | Elmo Tully dies; Kermit succeeds. | Elmo must hold the lordship and suffer an actual fatal illness or other established cause; Grover currently lives. | pending |
-| Early 131, before poisoning | Kingsroad battle defeats and kills Borros. | Actual opposing armies, his advance and encounter required. | pending |
-| 131, after Kingsroad | Aegon refuses surrender as position collapses. | Actual surviving king, pressure and decision required. | pending |
-| 131, after refusal, before False Dawn | Aegon poisoned. | Surviving target, conspiracy, access and motive required. | pending |
-| 131, after poisoning | False Dawn settlement under Aegon III attempted. | Actual vacancy and surviving minor supported by people able to negotiate. | pending |
-| 131, after False Dawn | Historical Cregan arrives with northern host. | Jon already intervened; his current troops, location and chosen route govern, not an extra late army. | player-dependent |
-| 131, after poisoning | Three Widows accept peace approaches. | Relevant people and actual offers required; Jason's capture has not made Johanna a widow. | pending; prerequisites changed |
-| 131, historical Hour | Cregan's inquiry arrests twenty-two. | Jon chooses jurisdiction, inquiry and orders from actual evidence. | player-dependent |
-| 131, after historical inquiry | Larys and Gyles executed, nineteen take black, Corlys pardoned. | Actual authority, guilt, access, defendants' choices and Jon's judgments required. | player-dependent |
-| 131, after judgments; return after coronation | Hour ends; six days governing, one as Hand; Cregan returns. | Jon chooses offices, resignation and journey; none automatically follows old history. | player-dependent |
-| 131, settlement | Northern veterans resettle or serve; Cregan and Alysanne agree marriage. | Actual surviving veterans choose their futures; Jon alone chooses his marriage. | player-dependent |
-| 131/07/07 | Aegon III and Jaehaera marry. | Both survive and an actual settlement supports the marriage. | pending |
-| 131/07/07, after wedding | Aegon III crowned. | Surviving claimant, supporting authority and ceremony required. | pending |
-| Late 131, after settlement | Regency reconstruction amid fiscal and agricultural ruin. | Actual war outcome, minority, damage and resources govern. | reference |
-| Late 131 into 132 | Ironborn, Stepstones and displaced soldiers hinder recovery. | Independent conflicts and forces can persist beyond capital peace. | reference |
+| Early 131; before the Kingsroad battle and Aegon II's final crisis | Black forces advance: riverlords and the Vale; a northern host appears only if Jon sends it. | The war continues. Lord Leowyn and Ser Corwyn lead the Vale forces; all Stark commitments require Jon. | pending |
+| 131; before the Battle of the Kingsroad | Elmo Tully dies and Kermit succeeds him. | Elmo remains lord and exposed to the baseline campaign conditions. | pending |
+| Early 131; before Aegon II's poisoning | The Battle of the Kingsroad defeats Borros's army and kills him. | Borros challenges the riverlords with comparable forces and dispositions. | pending |
+| 131; after the Battle of the Kingsroad | Aegon II refuses surrender while his position collapses. | He is still king; approaching armies and court politics retain this pressure. | pending |
+| 131; after Aegon II's refusal to surrender, before the False Dawn settlement | Aegon II is poisoned. | The conspiracy, access to the king and motive to end his resistance persist. | pending |
+| 131; after Aegon II's poisoning | The False Dawn brings an attempted settlement under Aegon III. | Aegon III survives; those holding the capital seek a settlement. | pending |
+| 131; after the False Dawn settlement | Historical Cregan arrives in King's Landing with a northern host. | Jon must first authorize recruitment, allegiance, route and march; he decides what to do on arrival. | player-dependent |
+| 131; after Aegon II's poisoning | The Three Widows accept peace approaches. | The relevant houses, widows and settlement offers remain available; Jon's conduct may change the terms. | pending |
+| 131; historical Hour of the Wolf | Cregan's inquiry arrests twenty-two men over Aegon II's poisoning. | Only a reference: Jon must choose jurisdiction, inquiry and each order; findings follow actual evidence. | player-dependent |
+| 131; after the inquiry into Aegon II's poisoning in the historical sequence | Larys and Gyles are executed; nineteen take the black; Corlys is pardoned. | Jon chooses judgments. Actual guilt, royal authority, defendants' choices and negotiated terms govern outcomes. | player-dependent |
+| 131; after the historical judgments; return journey after Aegon III's coronation | The historical Hour ends: six days governing, one day as Hand; Cregan later returns north. | Jon decides office, resignation and departure. Historical departure was within a fortnight after the coronation, not immediately after sentencing. | player-dependent |
+| 131; during the settlement | Northern veterans resettle or seek service; Cregan and Alysanne agree to marry. | Veterans must exist and make their own choices; Jon alone chooses his commitments and marriage. | player-dependent |
+| 131/07/07 | Aegon III and Jaehaera marry. | Both survive and a settlement supports their marriage. | pending |
+| 131/07/07; after Aegon III and Jaehaera's wedding | Aegon III is crowned. | The claimant and supporting settlement survive; the ceremony follows the wedding in the baseline. | pending |
+| Late 131; after the settlement | The regency begins reconstruction amid fiscal and agricultural damage. | The war ends under a minor monarch; actual damage and resources determine recovery. | reference |
+| Late 131; continuing into 132 | Ironborn raiding, Stepstones conflict and displaced soldiers obstruct recovery. | Those independent conflicts and displaced forces persist; peace in the capital does not end them automatically. | reference |
 
-### 132 AC · Regency and first epidemic
+### 132 AC · Regency and the first epidemic
 
-| Historical date/window | Conditional baseline | Actual status or remaining prerequisite | Status |
+| Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| Early 132, undated | Regents and Tyland face depleted finances, roads, displacement and famine. | Actual minority, government and war damage required; Tyland's present captivity does not guarantee later office. | reference |
-| 132–133, undated | Winter of Widows increases women's lordship and estate responsibilities. | Actual deaths and vacancies create pressures, not automatic widowhood. | reference |
-| 132, date unknown | Cregan and Alysanne marry at Winterfell. | Jon chooses, Alysanne consents and both are alive and free to marry. | player-dependent |
-| 132, date unknown | Baela marries legitimized Alyn; Rhaena marries Corwyn. | Actual surviving parties, freedom and consent required. | pending |
-| 132/03/06 | Corlys dies; regency vacancy later goes to Unwin. | Survival, health and actual offices required. | pending |
-| 132, date unknown | Dalton's raids and Stepstones instability persist. | Relevant conflicts must remain unresolved. | reference |
-| 132, date unknown | Alys holds Harrenhal and advances purported Aemond son's claim. | Aemond never occupied Harrenhal in Turn 21; no child, relationship, army or later control is automatically created. | pending; prerequisites changed |
-| 132, date unknown | Groves and Darry expedition fails; Regis dies, Damon escapes. | Crown must actually send it against an actual Alys occupation. | pending |
-| Late 132, undated | Larger Harrenhal expedition considered but interrupted by fever. | Actual prior failure, occupation, renewed plan and spreading epidemic required. | pending |
-| Late 132, undated | Winter Fever appears in Three Sisters. | Historical outbreak may proceed unless real changes prevent or displace it. | pending |
-| Late 132, undated | Sistermen blame and kill Ibbenese; origin unproved. | Actual outbreak, accusations and opportunity for violence required. | pending |
-| Late 132, undated | About half Sisterton historically die. | Actual infection, severity and defenses determine losses; historical totals not automatic. | pending |
-| Late 132, undated | Fever crosses Bite to White Harbor; historically thousands die. | Actual contact routes and precautions govern; Sisterton deaths or murders are not required for transmission. | pending |
-| Late 132, Medrick four days after Desmond | Desmond and Medrick die; Torrhen inherits. | Actual fatal exposure, succession and precautions required. | pending |
-| Late 132, after Manderly deaths | Torrhen leaves regency for White Harbor. | He survives, inherits and actually holds the regency seat. | pending |
-| Late 132, undated | Fever reaches Gulltown, Maidenpool, Duskendale; reported Braavos. | Assess each viable contact route; a protected White Harbor can be bypassed. | pending |
-| End 132, undated | Eastern-port epidemic threatens capital. | Connected affected ports and continuing infection required. | reference |
+| Early 132 AC (undated) | Aegon III's regents and Tyland confront depleted finances, unsafe roads, displacement and famine after the civil war. | Aegon III's minority and the historical postwar government exist. | reference |
+| 132–133 AC (undated) | The Winter of the Widows brings surviving women greater responsibility for lordships, estates, succession disputes and remarriage negotiations. | War deaths leave comparable vacancies and inheritance pressures. | reference |
+| 132 AC (moon/day unknown) | Historical Cregan and Alysanne marry at Winterfell after their Hour of the Wolf agreement. | Jon chooses this marriage; Alysanne consents; both are alive and free to marry. | player-dependent |
+| 132 AC (moon/day unknown) | Baela Targaryen marries Corlys's legitimized heir Alyn Velaryon; Rhaena Targaryen marries Ser Corwyn Corbray. | The surviving participants consent and their historical marriage arrangements remain possible. | pending |
+| 132/03/06 | Corlys Velaryon dies in King's Landing; his vacancy on the regency council subsequently passes to Unwin Peake. | Corlys survives until this point; his historical condition and the regency structure remain comparable. | pending |
+| 132 AC (moon/day unknown) | Dalton Greyjoy's western raiding and instability around the Stepstones continue threatening coastal communities and maritime trade. | Dalton's campaign and the relevant Narrow Sea conflicts remain unresolved. | reference |
+| 132 AC (moon/day unknown) | Alys Rivers controls Harrenhal with armed followers and advances the royal claim of her purported son by Aemond. | Alys and her child survive; their followers retain Harrenhal. | pending |
+| 132 AC (moon/day unknown) | An expedition under Regis Groves and Damon Darry fails at Harrenhal; Regis dies and Damon escapes. | The crown dispatches the historical force against Alys's occupied castle. | pending |
+| Late 132 AC (undated) | The regency considers a larger expedition against Harrenhal, but the emerging epidemic interrupts the proposed response. | The first regency expedition to Harrenhal fails; Alys retains Harrenhal; the government plans another attack; the epidemic's spread from the Sisters toward King's Landing creates competing demands. | pending |
+| Late 132 AC (undated) | Winter Fever first appears among the Three Sisters, beginning the epidemic described in the later histories. | The historical outbreak occurs; changed conditions have not prevented or displaced it. | pending |
+| Late 132 AC (undated) | Sistermen blame Ibbenese whalers for the outbreak and kill Ibbenese people they find; the disease's origin remains unproven. | The Sisters suffer the outbreak and accusations escalate without effective intervention. | pending |
+| Late 132 AC (undated) | The historical outbreak kills roughly half of Sisterton's population, overwhelming the settlement's capacity to respond. | Winter Fever reaches Sisterton and its historical severity is not materially reduced. | pending |
+| Late 132 AC (undated) | Winter Fever crosses the Bite to White Harbor, where the historical epidemic kills thousands of inhabitants. | The Sisters' outbreak reaches White Harbor through viable travel or contact routes. Neither the anti-Ibbenese killings nor Sisterton's historical death toll is required for spread; assess actual precautions. | pending |
+| Late 132 AC (undated; Medrick four days after Desmond) | Desmond Manderly dies of Winter Fever; Medrick dies four days later, leaving Torrhen to inherit White Harbor. | The White Harbor outbreak; Desmond and Medrick are exposed and fatally infected; the historical succession remains intact. | pending |
+| Late 132 AC (undated; after the Manderly deaths) | Torrhen Manderly relinquishes his regency seat and travels north to assume the lordship of White Harbor. | The deaths of Desmond and Medrick Manderly; Torrhen survives, inherits White Harbor and still occupies a regency seat. | pending |
+| Late 132 AC (undated) | Winter Fever reaches Gulltown, then Maidenpool and Duskendale; reports also place the disease in Braavos. | The Sisters' outbreak reaches each port through viable contacts. Spread can bypass a protected White Harbor; the anti-Ibbenese violence and historical deaths in Sisterton and White Harbor are not prerequisites. | pending |
+| End of 132 AC (undated) | An epidemic spreading through eastern ports places King's Landing at risk through its harbor and connected traffic. | Affected ports remain connected to the capital and the disease continues spreading. | reference |
 
-### 133 AC · Fever, incursion and court politics
+### 133 AC · Fever, northern invasion and court politics
 
-| Historical date/window | Conditional baseline | Actual status or remaining prerequisite | Status |
+| Historical date or window | Conditional baseline | Prerequisites and causes to recheck | Status |
 | --- | --- | --- | --- |
-| 133/01/03 | Fever reported at capital waterfront; Munkun warns Tyland. | Actual arrival, surveillance, reporting and surviving authorities required. | pending |
-| Early 133, after first cases | Tyland shuts gates and Red Keep; court still infected. | Actual authority, choice and exposure required. | pending |
-| 133 principal outbreak | Flushing, fever, shivering, delirium; death or recovery often fourth day. | Historical symptom description, not automatic individual infection. | reference |
-| 133 principal outbreak | Three deaths per four infections and nearly one-fifth capital lost historically. | Historical aggregates, not mandatory mortality or duplicate losses. | reference |
-| 133 epidemic, Feast of Father Above preacher | Preacher mutilated for blaming incest; merchant executed for importing disease. | Actual prosecutions and government orders required. | pending |
-| 133 principal outbreak | Alicent dies of fever while confined after defeat. | Actual survival, exposure and fatal illness required. | pending |
-| 133 principal outbreak | Lord Commander Willis Fell dies of fever. | Survival, office and fatal illness required. | pending |
-| 133 principal outbreak | Leowyn, Roland, Watch commanders and Jaehaera's household suffer deaths. | Actual roles and exposure required; Leowyn's earlier Vale deployment may change his location. | pending |
-| 133 principal outbreak | Munkun recovers; Manfryd survives with impaired health. | Actual infection and recovery required. | pending |
-| 133 principal outbreak | Aegon III visits sick courtiers despite restrictions. | He must be king, the court sick, access possible and his choice to visit. | pending |
-| 133 closing outbreak | Tyland catches fever as cases diminish and dies. | Survival through prior events and actual fatal infection required. | pending |
-| 133, after Tyland | Unwin becomes Hand and Protector. | Actual vacancies and regency choice required. | pending |
-| 133 Unwin government | Nepotistic appointments provoke opposition. | Actual office and comparable appointments required. | reference |
-| 133, date unknown | Crown postpones Harrenhal action amid epidemic and upheaval. | Actual occupation, failed response and competing use of resources required. | pending |
-| Mid 133, undated | Main fever wave recedes without eradication. | Comparable epidemic course; local waves separately assessed. | reference |
-| Second half 133 | Fever resurfaces at Barrowton. | Actual introduction and local conditions required; city charter provides no immunity. | pending |
-| 133, date unknown | Famine and sickness reduce northern response capacity. | Actual losses despite preparation, not automatic penalties. | reference |
-| 133, date unknown | Sylas gathers about three thousand and advances on Wall. | Survival, recruitment and opportunity depend on actual relief, diplomacy and defenses. | pending |
-| 133, after gathering | Sylas overwhelms Queensgate and crosses. | Actual chosen route, defenders, warning and reinforcement govern. | pending |
-| 133, after breach | Free folk disperse into Gift. | Successful breach and raiders' actual choice required. | pending |
-| 133, during incursion | Bands plunder Gift holdings; exact historical losses unknown. | Actual access and defenses, including Arra's completed work rather than paper titles, govern. | pending |
-| 133, after news or warning | Historical Cregan musters Glover, Flint, Norrey and hundred Watch rangers. | Jon authorizes and actual allies can assemble; earlier prevention may remove the need. | player-dependent |
-| 133, countercampaign | Northern force pursues scattered bands, not one recorded decisive battle. | Actual player orders, detection and engagement required. | player-dependent |
-| 133, conditional result | Raiders destroyed and Sylas dies; exact killer unrecorded. | Actual combat, pursuit or other causes required; no guaranteed PC victory. | pending |
-| 133, aftermath | Incursion ends and defenders address losses. | Actual threat ended; surviving bands and local conditions assessed. | pending |
-| 133, before first great voyage | Alyn defeats Braavosi in Stepstones and becomes Oakenfist. | Actual Daughters' War, expedition, survival and victory required. | pending |
-| 133, after Stepstones | Unwin sends Alyn west against Dalton via Dorne and Oldtown. | Actual authority, threat and Alyn's consent required. | pending |
-| 133, before Alyn arrives west | Tess kills Dalton; Fair Isle liberated by arrival. | Actual access and subsequent western developments required. | pending |
-| 133, return voyage | At Sunspear Alyn learns Viserys lives in Lys; return historically 134. | Original captivity did not occur: Viserys reached the capital safely. No replacement abduction is manufactured. | original captivity sequence inapplicable |
-| 133/09/22 | Jaehaera falls to death from Maegor's Holdfast; cause disputed. | Survival and comparable court circumstances required; changed evacuation matters. | pending |
-| 133, after Jaehaera | Unwin attempts Myrielle match; opposition blocks it. | Actual widowhood, influence and opposition required. | pending |
-| 133 Maiden's Day, numbered date unknown | Bride ball; Aegon III chooses Daenaera historically. | Actual ball, presentation and his free choice required. | pending |
-| 133 final day | Aegon III marries Daenaera as second queen. | Both survive, agree and the wedding occurs. | pending |
-| End 133, undated | Regency remains troubled by winter, Harrenhal, coasts and factions. | Period reference only; actual conditions follow resolved events. | reference |
+| 133/01/03 | Winter Fever is first reported along King's Landing's waterfront; Munkun identifies it and warns Tyland Lannister. | Infection reaches the capital through viable contacts, whether or not it follows the historical sequence of coastal outbreaks. Actual surveillance determines detection and reporting. | pending |
+| Early 133 AC (undated; after the first capital cases) | Tyland orders King's Landing's gates closed and bars the Red Keep, but infection also reaches the royal court. | Tyland retains authority and responds to confirmed cases with the historical closures. | pending |
+| 133 AC, principal outbreak (undated) | Recorded infections commonly progress through flushing, fever, shivering and delirium, with death or recovery often occurring by the fourth day. | Reference description of the historical disease; individual infections require actual exposure. | reference |
+| 133 AC, principal outbreak (undated) | Historical accounts report three deaths per four infections and losses approaching one fifth of King's Landing's population. | Reference mortality figures, not guaranteed campaign totals or automatic casualty deductions. | reference |
+| 133; epidemic; preacher on the Feast Day of Our Father Above (numbered date unknown) | A preacher is mutilated for attributing the epidemic to royal incest; a merchant convicted of importing it is executed. | Comparable prosecutions occur under the historical royal government. | pending |
+| 133 AC, principal outbreak (undated) | Alicent Hightower dies of Winter Fever while confined in the aftermath of her faction's defeat. | Alicent survives the war, remains exposed and contracts a fatal infection. | pending |
+| 133 AC, principal outbreak (undated) | Willis Fell, Lord Commander of the Kingsguard, dies of Winter Fever during the capital's epidemic. | Willis survives to hold the office and contracts a fatal infection. | pending |
+| 133 AC, principal outbreak (undated) | Leowyn Corbray, Roland Westerling, successive City Watch commanders and members of Jaehaera's household die during the epidemic. | These people occupy comparable positions, are exposed and suffer the historical outcomes. | pending |
+| 133 AC, principal outbreak (undated) | Munkun recovers from Winter Fever; Manfryd Mooton also survives, although the illness leaves his health impaired. | Both survive until the outbreak and experience comparable infections. | pending |
+| 133 AC, principal outbreak (undated) | Aegon III visits sick members of the court despite the danger of infection and the restrictions around him. | Aegon is king, the court suffers infections and access remains possible. | pending |
+| 133 AC, outbreak's closing phase (undated) | Tyland Lannister contracts Winter Fever as new cases diminish and becomes one of the outbreak's late fatalities. | Tyland survives earlier events and experiences the historical fatal infection. | pending |
+| 133 AC, after Tyland's death (undated) | Unwin Peake becomes Hand and Protector of the Realm, gaining control over appointments and central government. | The offices fall vacant and the regency grants Unwin the historical authority. | pending |
+| 133 AC, Unwin's administration (undated) | Unwin's appointments concentrate influence among his relatives and supporters, provoking opposition from other political interests. | Unwin holds office and makes comparable appointments. | reference |
+| 133 AC (moon/day unknown) | The crown postpones action against Harrenhal while epidemic losses and political upheaval obstruct its intended campaign. | Alys's occupation of Harrenhal and the failed royal response remain unresolved; the capital's epidemic and resulting upheaval at court consume the actual government's means and attention. | pending |
+| Mid-133 AC (undated) | The principal historical Winter Fever wave has largely receded, although the disease has not vanished from Westeros. | The epidemic follows a comparable course; local outbreaks remain separately tracked. | reference |
+| Second half of 133 AC (undated) | Winter Fever resurfaces in the North at Barrowton, extending the recorded epidemic farther inland. | Infection reaches Barrowton and local conditions permit an outbreak. | pending |
+| 133 AC (moon/day unknown) | Famine and sickness reduce available northern manpower and undermine the capacity to respond to a major incursion. | The historical northern losses occur; preparations and interventions have not removed these pressures. | reference |
+| 133 AC (moon/day unknown) | Sylas the Grim gathers approximately three thousand free folk and leads them against the Wall. | Sylas survives and recruits; winter, famine and disease offer opportunity. Reinforcement, relief or diplomacy can change his plans. | pending |
+| 133 AC (moon/day unknown; after Sylas gathers his force) | Sylas's force overwhelms the Night's Watch defenders at Queensgate and gains passage south of the Wall. | Sylas's mustering and advance; he chooses Queensgate; the actual garrison, warning and reinforcements fail to stop the attack. | pending |
+| 133 AC (moon/day unknown; after the breach) | Free folk entering through Queensgate spread into the Gift rather than remaining together as a single host. | The attack on Queensgate succeeds; the raiders enter and choose to disperse. | pending |
+| 133 AC (moon/day unknown; during the incursion) | Sylas's dispersed raiders plunder settlements and holdings in the Gift; precise historical losses are unrecorded. | The raiders' entry into the Gift; bands reach vulnerable holdings before effective defenses or evacuation prevent the attacks. | pending |
+| 133 AC (moon/day unknown; after news of the incursion) | The historical Cregan assembles a response with Glover, Flint and Norrey forces and one hundred Watch rangers. | Sylas's mustering, breach and raids or credible warning; Jon authorizes a response; allies and rangers can assemble. Earlier prevention may make this unnecessary. | player-dependent |
+| 133 AC (moon/day unknown; during the countercampaign) | The historical northern force pursues scattered raiding bands across the Gift rather than fighting one recorded decisive battle. | The northern mobilization against Sylas; Jon authorizes this campaign; actual forces locate and engage raiders. | player-dependent |
+| 133 AC (moon/day unknown; conditional campaign outcome) | The historical countercampaign destroys Sylas's raiding force; Sylas dies in the Gift, with his precise killer unrecorded. | Actual fighting, pursuit or other established events defeat the raiders and cause Sylas's death; never presume Jon's victory. | pending |
+| 133 AC (moon/day unknown; conditional aftermath) | The immediate incursion ends after the raiders' defeat, leaving the Gift and its defenders to address their losses. | The actual raiding threat has ended; remaining bands and local conditions are assessed. | pending |
+| 133 AC (moon/day unknown; before Alyn's first great voyage) | Alyn wins a naval victory over Braavosi forces in the Stepstones and gains the name Oakenfist. | The Daughters' War and the historical royal expedition occur; Alyn survives and wins. | pending |
+| 133 AC (moon/day unknown; after the Stepstones victory) | Unwin sends Alyn west against Dalton Greyjoy; the voyage takes him through the Stepstones, Dorne and Oldtown. | Alyn's Stepstones victory; Unwin holds authority, Dalton remains a perceived threat and Alyn accepts command. | pending |
+| 133 AC (moon/day unknown; before Alyn reaches the west) | Tess kills Dalton Greyjoy; by Alyn's western arrival, Dalton is dead and Fair Isle has been liberated. | Tess has access to Dalton; the killing and subsequent western developments occur. | pending |
+| 133 AC, Alyn's return voyage (undated) | At Sunspear, Alyn learns that Viserys survives in Lys; the prince's historical return to Westeros follows in 134. | The princes' evacuation and the Gullet battle leave Viserys captive in Lys; Alyn's voyage against the ironborn brings him to an informed intermediary. Earlier rescue cancels this discovery. | pending |
+| 133/09/22 | Jaehaera Targaryen dies after falling from Maegor's Holdfast; whether her death was suicide or murder remains disputed. | Jaehaera survives until this point and comparable circumstances at court persist. | pending |
+| 133 AC, after Jaehaera's death (undated) | Unwin attempts to marry his daughter Myrielle to Aegon III, but opposition blocks the proposed royal match. | Aegon is widowed, Unwin holds influence and comparable opposition resists his proposal. | pending |
+| 133 AC, Maiden's Day (numbered date unknown) | The Maiden's Day Ball presents prospective brides to Aegon III, who chooses Daenaera Velaryon in the historical account. | The ball is arranged; Daenaera is presented; Aegon is free and willing to choose her. | pending |
+| 133 AC, final day | Aegon III marries Daenaera Velaryon, making her his second queen and ending the immediate contest for that marriage. | Both survive; the match is agreed; the historical wedding proceeds. | pending |
+| End of 133 AC (undated) | The historical regency remains troubled by winter, unresolved Harrenhal, fragile coastal security and competing political interests. | Reference summary only; actual year-end conditions follow resolved campaign events. | reference |
 
 ## Source and precision notes
 
-The supplied Turn 21 plan establishes the operating priorities and expressly treats other houses' troops, dragon protection and naval assistance as conditional. The live campaign, not the plan's optimistic estimates, supplies counts and outcomes. The first Red Fork offensive, the capital operation and the defeat of Cole now occur before their historical 130 sequence. Their new dates and results are campaign developments, not corrections to published chronology.
+Prepared from the player's attached **Pasted text.txt**, which supplies the 117-event outline. The detailed prose, counts and reported historical outcomes in that attachment remain background references, not established future campaign results.
 
-Published baseline: *Fire & Blood*, The Dying of the Dragons, with chapter references indexed at [Red Fork](https://awoiaf.westeros.org/index.php/Battle_at_the_Red_Fork), [Lakeshore](https://awoiaf.westeros.org/index.php/Battle_by_the_Lakeshore), [Butcher's Ball](https://awoiaf.westeros.org/index.php/Butcher%27s_Ball), [Gods Eye](https://awoiaf.westeros.org/index.php/Battle_Above_the_Gods_Eye), and [Gullet](https://awoiaf.westeros.org/index.php/Battle_of_the_Gullet). These sources describe the baseline, not the invented mill terrain, dates, troop returns or prisoner outcomes in this game.
+Date checks use *Fire & Blood* continuity and the chapter references collected in A Wiki of Ice and Fire. Older summaries sometimes place the Gullet in 129; this ledger uses **130/01/05**. Jacaerys's northern visit is in advanced autumn, not a Gregorian-style “spring.” The historical Hour of the Wolf and the subsequent journey north are distinct: Cregan resigned after the judgments, then departed within a fortnight after the coronation. None binds Jon.
 
-Do not settle disputed historical Helaena chronology, Maelor's manner of death, Jaehaera's murder or suicide, epidemic origin or Sylas's precise killer by assertion. Ibbenese responsibility remains an accusation. Preserve the actual current divergences without substitute conspiracies, compulsory deaths or restoration of the original military sequence.
+- Exact Dance anchors: [Viserys I](https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen), [Aegon II](https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen), [Gullet](https://awoiaf.westeros.org/index.php/Battle_of_the_Gullet), [Gods Eye](https://awoiaf.westeros.org/index.php/Battle_Above_the_Gods_Eye), [Flight to Dragonstone](https://awoiaf.westeros.org/index.php/Flight_to_Dragonstone), [Sunfyre](https://awoiaf.westeros.org/index.php/Sunfyre), [Hour of the Wolf](https://awoiaf.westeros.org/index.php/Hour_of_the_Wolf).
+- Regency anchors and northern context: [Corlys Velaryon](https://awoiaf.westeros.org/index.php/Corlys_Velaryon), [Winter Fever](https://awoiaf.westeros.org/index.php/Winter_Fever), [Sylas the Grim](https://awoiaf.westeros.org/index.php/Sylas_the_Grim), [Jaehaera](https://awoiaf.westeros.org/index.php/Jaehaera_Targaryen), [Alysanne Blackwood](https://awoiaf.westeros.org/index.php/Alysanne_Blackwood), [133 AC](https://awoiaf.westeros.org/index.php/133_AC), [Cregan Stark](https://awoiaf.westeros.org/index.php/Cregan_Stark).
+
+The chronology does not settle disputed accounts: Helaena's precise date relative to the Gods Eye; how Maelor died; Jaehaera's death being murder or suicide; the origin and exact means of transmission of Winter Fever; or who killed Sylas. Ibbenese responsibility is an accusation, not an established fact. Do not grant Jon certainty about these questions.
+
+This ledger is an out-of-character planning reference. Jon's centuries of study support informed historical recall, but not omniscience about secret motives, disputed evidence, exact future outcomes or changes caused by this run. Arra knows the transfer; she does not automatically know this entire timeline.
