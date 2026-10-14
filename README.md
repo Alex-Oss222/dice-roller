@@ -2,6 +2,8 @@
 
 Narrative guidance and persistent memory for an ASOIAF role-playing chat.
 
+Use the [new-chat prompt](#start-a-new-chat-choose-a-story) to choose Story 1, 2, or 3. No story is selected by default.
+
 The role-play happens in chat. This repository stores what happened and what remains true so the next turn or a fresh conversation can use the saved facts.
 
 You choose what your character attempts. The GM resolves what follows from the people, their capabilities and knowledge, the circumstances, and prior consequences. It writes the result as fiction and saves lasting changes.
@@ -51,13 +53,13 @@ Restarted by the player's explicit request on 2026-10-13. Resume at **Turn 0, 12
 
 The previous run's Turns 1–21 remain in Git history at `5bb34223974fa3b3b3527a30cd8add53e52a92c8` but no longer govern this campaign. The unimported Turn 22 continuation package is retired, not awaiting import. The source profile and writing rules remain; later played campaigns, construction, grants, injuries and magical obligations do not. The development program is an unapproved proposal again. The [old 129 fiscal path](stories/story-003/references/FISCAL_129_AC.md) identifies retired material rather than supplying a current account.
 
-See [HANDOFF.md](HANDOFF.md) for the current position, accepted premise, retained monetary convention and startup instructions.
+For Story 3, see [HANDOFF.md](HANDOFF.md) for its current position, accepted premise and retained monetary convention. A handoff for one story does not select that story or override your choice of another campaign.
 
 ## Play
 
 Use a plain chat with repository access, without a preconfigured RPG chatbot's additional instructions.
 
-1. Select one campaign and load one consistent repository snapshot.
+1. Choose Story 1, 2, or 3 before loading campaign state, then use one consistent repository snapshot.
 2. Say what the character chooses or attempts.
 3. The GM adjudicates before writing.
 4. The GM writes and self-edits the complete scene under the narrative rules and research.
@@ -70,9 +72,23 @@ The detailed turn and save procedure is in [rules/TURN_PROCESS.md](rules/TURN_PR
 
 Each campaign develops independently. Its own recorded facts govern subsequent turns. Save during play and review continuity and prose after completed Turns 20, 40, 60, and so on. These checkpoints use the existing files and take no fictional time; the procedure is in `AGENTS.md`.
 
-For a new chat:
+### Start a new chat: choose a story
 
-> Use Alex-Oss222/dice-roller on main. Read HANDOFF.md and AGENTS.md, then one consistent current snapshot of stories/story-003: CHARACTER.md, WORLD.md, the STORY.md index and its latest active linked turn, the linked character sheet, FUTURE_EVENTS.md, references/FISCAL_126_AC.md, and the required writing rules. Resume the restarted run at Turn 0 on 126/01/03, morning, in Winterfell's lord's solar; my first action will be Turn 1. If a later turn has been saved after the explicit reset, use that new-run position, not a higher-numbered turn from the retired history. Preserve the accepted pre-opening backstory, full memories, completed physical adaptation, and Arra's prior knowledge of Jon's identity. Keep recorded cash separate from estimated annual income and GDP, and follow WORLD's retained monetary-scale instructions. Do not import the retired Turns 1–22 or the old Turn 22 ZIP. I control Jon's meaningful choices. Keep the mandatory turn output and do not advance time before my action.
+Copy the whole prompt below into a new chat. It will ask you to choose a story. You can also include "Story 1", "Story 2", or "Story 3" with the prompt to select it immediately.
+
+> Use Alex-Oss222/dice-roller on main. Read README.md and AGENTS.md. Before loading any campaign state, ask me which story I want to play and show these choices:
+>
+> 1. Story 1: Eddard Stark, opening in 283 AC (`stories/story-001`).
+> 2. Story 2: Jon Snow, opening in 298 AC (`stories/story-002`).
+> 3. Story 3: Jon Stark in Cregan Stark's body, opening in 126 AC (`stories/story-003`).
+>
+> If I have already explicitly selected a story in my message, use that selection without asking again. Otherwise, wait for my choice. Do not choose a default or infer my selection from HANDOFF.md, a previous chat, or the highest turn number.
+>
+> After I choose, record the current main commit and read one consistent snapshot of only the selected story: CHARACTER.md, WORLD.md, STORY.md and its latest active linked turn if it is an index, any linked full character sheet or source profile, any linked future-event calendar, and the applicable fiscal references. Consult HANDOFF.md only for information that applies to the selected story; a handoff about another campaign must not redirect you or supply its state.
+>
+> Follow the shared AGENTS.md, rules/TURN_PROCESS.md, rules/NARRATIVE.md and mandatory rules/TURN_OUTPUT.md. Consult the relevant narrative research and combat or economic references when required. Resume the selected campaign's latest active saved position, respecting explicit resets and excluding retired runs and superseded import packages. If no player turn has been resolved in the active run, present its saved opening rather than inventing or replaying an action.
+>
+> I control my character's meaningful choices. Keep each campaign's people, knowledge, resources and events separate. Use its recorded monetary units and distinguish counted cash from annual income estimates and GDP. Do not advance fictional time, resolve my first action, reset a campaign or edit repository files during selection and setup. Once play begins, save accepted turns and affected state together and verify the write before claiming success.
 
 If the chat cannot write, retain both player actions and GM responses from the current run for later reconciliation. Confirm the import before resuming elsewhere. An explicit later reset supersedes older awaiting-import packages.
 
